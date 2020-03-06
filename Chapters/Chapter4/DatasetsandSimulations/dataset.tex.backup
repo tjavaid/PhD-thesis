@@ -1,0 +1,44 @@
+The dataset used in the measurements was collected by the CMS experiment in 2011 and 2012, and corresponds to \usedLumiA of 7~TeV 
+and \usedLumiB of 8~TeV collision data respectively. All the details on the CMS standard selection of runs and luminosity sections, as well as the
+selection of the triggers used to collect this dataset are described in Ref.~\cite{Chatrchyan:2013mxa}. Thus, similar detector operation conditions are 
+imposed for the validation of the data to be used for the analysis of the $4e$, $4\mu$ and $2e2\mu$ decay channels. The absolute integrated luminosity of the
+proton collisions in 2011 has been determined with a relative precision of 2.2\%~\cite{CMS:2011vpa}, while in 2012 it has been determined with a relative
+precision of 2.6\%~\cite{CMS-PAS-LUM-13-001}. The analysis relies on primary datasets (PDs) produced centrally and which combine various collections of 
+High Level Triggers (HLT).  The detailed content of the PDs evolves in phase with the evolution of the trigger menu to cope with ever increasing
+instantaneous luminosity. The analysis relies on the so-called {\it DoubleElectron} and {\it DoubleMuon} PDs. These latter PDs are formed by a {\tt OR} between
+various triggers with symmetric or asymmetric trigger thresholds for the two leptons, with or without additional identification and isolation 
+requirements. They also include triggers requiring three leptons above a low $p_T$ theshold.  It also includes cross-triggers which were added to
+recover few percent of inefficiency in the 2e2$\mu$ channel at low Higgs boson masses, forming the so-called {\it MuEG} PD.  Tri-electron triggers for 2012
+data are also used, in order to recover most of the inefficiency of DoubleElectron trigger.
+All the triggers used with the 8~TeV data collected in 2012 are listed in Table~\ref{tab:triggers_2012}.
+\begin{table}[h]
+\scriptsize
+    \centering
+    \begin{tabular}{|l|l||l|l|c|}
+\hline %-------------------------------------------------------------------------------------------------------------------------------------------
+\# Channel     & Purpose & HLT path             & L1 seed            & prescale  \\ \hline
+\hline %-------------------------------------------------------------------------------------------------------------------------------------------
+        4e     & main    & \verb| HLT_Ele17_CaloTrk_Ele8_CaloTrk|                                 & \verb| L1_DoubleEG_13_7|   & 1      \\
+                     &            & \verb| OR HLT_Ele15_Ele8_Ele5_CaloIdL_TrkIdVL|                      & \verb| L1_TripleEG_12_7_5 | & 1          \\
+        4$\mu$ & main    & \verb| HLT_Mu17_Mu8|                                                  & \verb| L1_Mu10_MuOpen|   & 1       \\
+               &         & \verb| OR HLT_Mu17_TkMu8|                                            & \verb| L1_Mu10_MuOpen|   & 1       \\
+      2e2$\mu$ & main    & \verb| HLT_Ele17_CaloTrk_Ele8_CaloTrk|                               & \verb| L1_DoubleEG_13_7|   & 1      \\
+               &         & \verb| OR HLT_Mu17_Mu8|                                          & \verb| L1_Mu10_MuOpen|   & 1      \\
+               &         & \verb| OR HLT_Mu17_TkMu8|                                             & \verb| L1_Mu10_MuOpen|   & 1      \\
+               &         & \verb| OR HLT_Mu8_Ele17_CaloTrk|                                  & \verb| L1_MuOpen_EG12|   & 1      \\
+               &         & \verb| OR HLT_Mu17_Ele8_CaloTrk|                                  & \verb| L1_Mu12_EG6|   & 1      \\
+\hline %-------------------------------------------------------------------------------------------------------------------------------------------
+        4$\mu$ & backup  & \verb| HLT_TripleMu5|                                               & \verb| L1_TripleMu0|       & 1      \\
+\hline %-------------------------------------------------------------------------------------------------------------------------------------------
+4e and 2e2$\mu$ & Z T\&P         & \verb| HLT_Ele17_CaloTrkVT_Ele8_Mass50|                        & \verb| L1_DoubleEG_13_7|   & 5      \\
+4e and 2e2$\mu$ & Z T\&P low pT  & \verb| HLT_Ele20_CaloTrkVT_SC4_Mass50_v1|                     & \verb| L1_SingleIsoEG18er| & 10     \\
+4$\mu$ and 2e2$\mu$ & Z T\&P     & \verb| HLT_IsoMu24_eta2p1|                                      & \verb| L1_SingleMu16er|    &        \\
+4$\mu$ and 2e2$\mu$ & J/psi T\&P & \verb| HLT_Mu7_Track7_Jpsi|                                  &                             &        \\
+                    &            & \verb| HLT_Mu5_Track3p5_Jpsi|                                 &                             &        \\
+                    &            & \verb| HLT_Mu5_Track2_Jpsi|                                  &                             &        \\
+\hline %-------------------------------------------------------------------------------------------------------------------------------------------
+    \end{tabular}
+\small
+    \caption{Triggers used to collect the 8~TeV data in 2012.}
+    \label{tab:triggers_2012}
+\end{table}

@@ -1,0 +1,189 @@
+The fraction of all $\Hllll$ events that get selected following the event selection procedure can change significantly for various Higgs boson 
+production mechanism and distinct exotic models of the Higgs boson. The acceptance difference between SM $\Hllll$ decays and other 
+exotic models (Higgs-like spin-one models), processes with large hadronic activity ( like $\ttH$ production ) and different kinematics processes
+(like H$\to  {\rm Z}\gamma^{*}(\gamma^{*}\gamma^{*})  \to 4 \ell$ ) can vary up to 70\%.  In order to minimize the dependence of the measurements
+on the underlying assumption on the models of the Higgs boson production and properties, the
+fiducial phase space for the $\Hllll$ cross section measurements is defined to match as closely as possible the experimental acceptance 
+defined by the reconstruction level selection.
+\par 
+The fiducial phase space demands for at least four leptons having $\pt>7(5) \GeV$  for electrons (muons) with leading and sub-leading leptons
+having $\pt>20 \GeV$ and $\pt>10 \GeV$. The four-momenta of each lepton is calculated at the hard scattering level
+({\sc pythia} status code $= 3$), before any final state radiation occurs. All electrons (muons) must have pseudorapidity  $|\eta|<2.5(2.4)$.
+Each lepton isolation is calculated by adding $\pt$ of all stable particles ({\sc pythia} status code $= 1$) within a cone of radius $\Delta R<0.4$ around 
+that lepton. All neutrinos and FSR photons are excluded from above summation. Then the relative isolation of the lepton is defined by the ratio of this
+sum and $\pt$ of the considered lepton which is required to be less than $0.4$, consistent with reconstruction level isolation 
+requirement~\cite{Chatrchyan:2013mxa}. The requirement of isolation in fiducial phase space definition is crucial to control the  difference of 
+signal selection efficiency among different models. The studies based on simulation samples  show that signal efficiency can change up to 
+45\% among different models without requiring lepton isolation at fiducial level as shown in Table \ref{tab:efficiencySMnoGenIso}, the maximum difference comes 
+from $\ttH$ and $\ggH$ production modes. This behavior is expected as $\ttH$ events has more hadronic activity around leptons as compared to $\ggH$ 
+events, so the cut at relative isolation  kills more events in $\ttH$ than $\ggH$.
+ \par 
+Furthermore, fiducial phase space is defined by several other topological and kinematics selections. There must be two SFOS lepton pairs, 
+Z$_{1}$ is reconstructed with invariant mass closest to the world average Z boson mass by all possible combination of same flavor and opposite charge 
+(SFOS) pairs of leptons within mass range of $40 \le m({\mathrm{Z}_1}) \le 120$~GeV. Z$_{2}$ is reconstructed by remaining SFOS pair of leptons within inv. 
+mass range of $12 \le m({\mathrm{Z}_2}) \le 120$~GeV. If more than one Z$_{2}$ passes the criteria, the leptons pair  with largest  $\Sigma |\pt|$ is 
+selected. To remove the overlapping between leptons, we ask for $\Delta R(\ell_{i}\ell_{j})>0.02$ for any $i\neq j$. To remove 
+contamination from QCD low masses resonance, any opposite-charge pair of leptons is required to pass $m({\ell^{+}\ell'^{-}}) \ge 4 \GeV$. Finally, 
+We require that all selected leptons must emerge from Higgs boson decay and invariant  mass of four-leptons must fulfill  
+$105 \GeV < \mathrm{m}(4\ell) < 140 \GeV$. The demand for $\mathrm{m}(4\ell)$ helps to control the contamination from off-shell gg fusion production
+which is of considerable size, capable to increase the total cross sextion by a few percent~\cite{Kauer:2013cga, Kauer:2012hd}. The requirements
+that defines  fiducial phase space are also gathered in Table~\ref{tab:FidDef}.
+\begin{table}[!h!tb]
+\begin{center}
+\small
+\caption{
+Overview of all requirements utilized to define the fiducial phase space for the $\Hllll$ cross section measurements.
+\label{tab:FidDef}
+}
+\begin{tabular}{|lc|}
+\hline %---------------------------------------------------------
+\hline %---------------------------------------------------------
+\multicolumn{2}{|c|}{\textbf{Requirements for the $\Hllll$ fiducial phase space}} \\
+\hline %---------------------------------------------------------
+\hline %---------------------------------------------------------
+\multicolumn{2}{|c|}{Lepton kinematics and isolation} \\
+\hline %---------------------------------------------------------
+\vspace{-0.4cm} & \\
+Leading lepton $\pt$ & $\pt  > 20$~GeV \\
+\vspace{-0.4cm} & \\
+Sub-leading lepton $\pt$ & $\pt  > 10$~GeV \\
+\vspace{-0.4cm} & \\
+Additional electrons (muons) $\pt$ & $\pt  > 7~(5)$~GeV \\
+\vspace{-0.4cm} & \\
+Pseudorapidity of electrons (muons) & $|\eta| < 2.5~(2.4)$ \\
+\vspace{-0.4cm} & \\
+Sum of scalar $\pt$ of all stable particles within $\Delta R < 0.4$ from lepton & $< 0.4 \pt$ \\
+%\vspace{-0.4cm} & \\
+\hline %---------------------------------------------------------
+\hline %---------------------------------------------------------
+\multicolumn{2}{|c|}{Event topology} \\
+\hline %---------------------------------------------------------
+\multicolumn{2}{|l|}{Existence of at least two SFOS lepton pairs, where leptons satisfy criteria above} \\
+%\vspace{-0.4cm} & \\
+Inv. mass of the Z$_1$ candidate & $40 < m($Z$_{1}$)$< 120 \GeV$ \\
+\vspace{-0.4cm} & \\
+Inv. mass of the Z$_2$ candidate & $12 < m($Z$_{2}$)$< 120 \GeV$ \\
+\vspace{-0.4cm} & \\
+Distance between selected four leptons & $\Delta R(\ell_{i}\ell_{j})>0.02$  \\
+\vspace{-0.4cm} & \\
+Inv. mass of any opposite-sign lepton pair & $m(\ell^{+}_{i}\ell^{-}_{j})>4 \GeV$ \\
+\vspace{-0.4cm} & \\
+Inv. mass of the selected four leptons & $105 < m_{4\ell} < 140 \GeV$  \\
+%\vspace{-0.4cm} & \\
+%\multicolumn{2}{|l|}{The selected four leptons must originate from the $\Hllll$ decay} \\
+\hline %---------------------------------------------------------
+\hline %---------------------------------------------------------
+\end{tabular}
+\normalsize
+\end{center}
+\end{table}
+\par 
+It has been established based on simulation samples that with including isolation for the events passing fiducial phase space definition  
+reconstruction efficiencies faintly depends
+on Higgs boson properties and production modes. The remaining model dependence will be quoted as a separate uncertainty as explained in 
+Section~\ref{sec:Systematics}. Part of the signal events passing fiducial phase space definition ($\mathcal{A}_{\rm fid}$), and reconstruction efficiencies
+($\epsilon$) for SM and exotic production modes are registered in Tables~\ref{tab:Accept_Eff_fOut} and~\ref{tab:Accept_Eff_fOut_7TeV}.
+\begin{table}[!h!tb]
+\begin{center}
+\small
+\caption{
+The fiducial acceptance ($\mathcal{A}_{\rm fid}$) defined the fraction of events passing fiducial phase space selections, reconstruction efficiency ($\epsilon$) 
+represented by the ratio of reconstructed to accepted events. Also, $f_{\rm nonfid}$ which are reconstructed events but does not pass fiducial phase space definition
+at generator level. Valued are obtained using 8~TeV signal models assuming $m_{\rm H} = 125.0\GeV$, the uncertainties shown are only statistical uncertainties.
+\label{tab:Accept_Eff_fOut}
+}
+\begin{tabular}{|l|c|c|c|c|}
+\hline %---------------------------------------------------------
+\hline %---------------------------------------------------------
+\textbf{Signal process} & $\mathcal{A}_{\rm fid}$ & $\epsilon$ & $f_{\rm nonfid}$  & $(1+f_{\rm nonfid})\epsilon$ \\
+\hline %---------------------------------------------------------
+\hline %---------------------------------------------------------
+\multicolumn{5}{|c|}{Individual Higgs boson production modes} \\
+\hline %---------------------------------------------------------
+$\ggH$ ({\sc powheg+JHUgen})   & 0.422 $\pm$ 0.001 & 0.647 $\pm$ 0.002 & 0.053 $\pm$ 0.001  & 0.681 $\pm$ 0.002 \\
+$\ggH$ ({\sc minloHJJ})               & 0.415 $\pm$ 0.001 & 0.636 $\pm$ 0.002 & 0.051 $\pm$ 0.001  & 0.668 $\pm$ 0.002 \\
+VBF ({\sc powheg})                      & 0.476 $\pm$ 0.003 & 0.652 $\pm$ 0.005 & 0.040 $\pm$ 0.002  & 0.678 $\pm$ 0.005 \\
+WH ({\sc pythia})                          & 0.342 $\pm$ 0.002 & 0.627 $\pm$ 0.003 & 0.072 $\pm$ 0.002  & 0.672 $\pm$ 0.003 \\
+ZH ({\sc pythia})                          & 0.348 $\pm$ 0.003 & 0.634 $\pm$ 0.004 & 0.072 $\pm$ 0.003  & 0.679 $\pm$ 0.005 \\
+$\ttH$ ({\sc pythia})                      & 0.250 $\pm$ 0.003 & 0.601 $\pm$ 0.008 & 0.139 $\pm$ 0.008  & 0.685 $\pm$ 0.010 \\
+\hline %---------------------------------------------------------
+\multicolumn{5}{|c|}{Some characteristic models of Higgs-like boson with exotic decays and properties} \\
+\hline %---------------------------------------------------------
+$\Pq\Paq\rightarrow {\rm H(J^{CP}=}1^{-})$ ({\sc JHUgen})         & 0.238 $\pm$ 0.001 & 0.609 $\pm$ 0.002 & 0.054 $\pm$ 0.001  & 0.642 $\pm$ 0.002 \\
+$\Pq\Paq\rightarrow {\rm H(J^{CP}=}1^{+})$ ({\sc JHUgen})        & 0.283 $\pm$ 0.001 & 0.619 $\pm$ 0.002 & 0.051 $\pm$ 0.001  & 0.651 $\pm$ 0.002 \\
+gg$\to {\rm H} \to {\rm Z}\gamma^{*}$ ({\sc JHUgen})         & 0.156 $\pm$ 0.001 & 0.622 $\pm$ 0.002 & 0.073 $\pm$ 0.001  & 0.667 $\pm$ 0.002 \\
+gg$\to {\rm H} \to \gamma^{*}\gamma^{*}$ ({\sc JHUgen}) & 0.188 $\pm$ 0.001 & 0.629 $\pm$ 0.002 & 0.066 $\pm$ 0.001  & 0.671 $\pm$ 0.002 \\
+\hline %---------------------------------------------------------
+\hline %---------------------------------------------------------
+\end{tabular}
+\normalsize
+\end{center}
+\end{table}
+%============
+\begin{table}[!h!tb]
+\begin{center}
+\small
+\caption{
+The fiducial acceptance ($\mathcal{A}_{\rm fid}$) defined the fraction of events passing fiducial phase space selections, reconstruction efficiency ($\epsilon$) 
+represented by the ratio of reconstructed to accepted events. Also, $f_{\rm nonfid}$ which are reconstructed events but does not pass fiducial phase space definition
+at generator level. Valued are obtained using 7~TeV signal models assuming $m_{\rm H} = 125.0\GeV$, the uncertainties shown are only statistical uncertainties.
+}
+\label{tab:Accept_Eff_fOut_7TeV}
+\begin{tabular}{|l|c|c|c|c|} \hline \hline
+Signal process & $A_{fid}$ & $ \epsilon $ & $f_{nonfid}$ & $(1+f_{nonfid})\epsilon$ \\ \hline \hline
+
+\multicolumn{5}{|c|}{Individual Higgs boson production modes}\\ \hline
+
+$\ggH$ (\textsc{powheg+JHUgen}) & 0.438 $\pm$ 0.001 & 0.676 $\pm$ 0.002 & 0.049 $\pm$ 0.001 & 0.709 $\pm$ 0.002 \\
+$\ggH$ (\textsc{minloHJJ}) & 0.427 $\pm$ 0.001 & 0.675 $\pm$ 0.002 & 0.047 $\pm$ 0.001 & 0.707 $\pm$ 0.002 \\
+% ggH\_powheg\_125 & 0.429 $\pm$ 0.001 & 0.670 $\pm$ 0.002 & 0.052 $\pm$ 0.001 & 0.704 $\pm$ 0.042 \\ 
+% ggH\_minloHJJ\_126 & 0.436 $\pm$ 0.001 & 0.677 $\pm$ 0.002 & 0.047 $\pm$ 0.001 & 0.709 $\pm$ 0.039 \\ 
+
+VBF(\textsc{powheg}) & 0.483 $\pm$ 0.003 & 0.674 $\pm$ 0.004 & 0.035 $\pm$ 0.002 & 0.697 $\pm$ 0.005 \\
+WH(\textsc{pythia}) & 0.357 $\pm$ 0.002 & 0.660 $\pm$ 0.004 & 0.061 $\pm$ 0.002 & 0.700 $\pm$ 0.050 \\
+ZH(\textsc{pythia}) & 0.372 $\pm$ 0.004 & 0.662 $\pm$ 0.006 & 0.059 $\pm$ 0.004 & 0.701 $\pm$ 0.007 \\
+$t\bar{t}H$ (\textsc{pythia}) & 0.248 $\pm$ 0.004 & 0.636 $\pm$ 0.010 & 0.158 $\pm$ 0.011 & 0.736 $\pm$ 0.013 \\
+\hline
+\multicolumn{5}{|c|}{Some characteristic models of Higgs-like boson with exotic decays and properties}\\
+\hline
+$q\bar{q}\to H (J^{CP}=1^{-})$ (\textsc{JHUgen}) & 0.254 $\pm$ 0.001 & 0.645 $\pm$ 0.002 & 0.049 $\pm$ 0.001 & 0.677 $\pm$ 0.002 \\
+$q\bar{q}\to H (J^{CP}=1^{+})$ (\textsc{JHUgen}) & 0.301 $\pm$ 0.001 & 0.657 $\pm$ 0.002 & 0.044 $\pm$ 0.001 & 0.686 $\pm$ 0.002 \\
+$gg\to H \to Z\gamma^{*}$ (\textsc{JHUgen}) & 0.160 $\pm$ 0.001 & 0.654 $\pm$ 0.002 & 0.072 $\pm$ 0.001 & 0.701 $\pm$ 0.002 \\
+$gg\to H \to \gamma^{*}\gamma^{*}$ (\textsc{JHUgen}) & 0.185 $\pm$ 0.001 & 0.659 $\pm$ 0.002 & 0.064 $\pm$ 0.001 & 0.701 $\pm$ 0.002 \\
+
+\hline
+\end{tabular}
+\normalsize
+\end{center}
+\end{table}
+
+\begin{table}[!h!tb]
+\begin{center}
+\small
+\caption{
+The fiducial acceptance ($\mathcal{A}_{\rm fid}$) per final state using 8~TeV signal samples.
+\label{tab:acceptanceSM}
+}
+\begin{tabular}{|l|c|c|c|c|} \hline
+Sample & $4e$ & $4\mu$ & $2e2\mu$ & $4\ell$ \\ \hline
+gg$\rightarrow$H ({\sc powheg+JHUgen}) 125 $\GeV$ & 0.409 $\pm$ 0.003 & 0.453 $\pm$ 0.003 & 0.413 $\pm$ 0.002 & 0.422 $\pm$ 0.001 \\
+gg$\rightarrow$H ({\sc powheg+JHUgen})126 $\GeV$ & 0.410 $\pm$ 0.003 & 0.460 $\pm$ 0.003 & 0.422 $\pm$ 0.002 & 0.429 $\pm$ 0.001 \\
+gg$\rightarrow$H ({\sc powheg}) 125 $\GeV$ & 0.396 $\pm$ 0.003 & 0.437 $\pm$ 0.003 & 0.411 $\pm$ 0.002 & 0.413 $\pm$ 0.001 \\
+gg$\rightarrow$H ({\sc powheg}) 126 $\GeV$ & 0.402 $\pm$ 0.003 & 0.447 $\pm$ 0.003 & 0.418 $\pm$ 0.002 & 0.421 $\pm$ 0.001 \\
+gg$\rightarrow$H ({\sc powheg1.0}) 125 $\GeV$ & 0.395 $\pm$ 0.001 & 0.443 $\pm$ 0.001 & 0.411 $\pm$ 0.001 & 0.415 $\pm$ 0.001 \\
+gg$\rightarrow$H ({\sc powheg1.0}) 126 $\GeV$ & 0.408 $\pm$ 0.003 & 0.446 $\pm$ 0.003 & 0.421 $\pm$ 0.002 & 0.424 $\pm$ 0.001 \\
+gg$\rightarrow$H ({\sc minloHJJ}) 125 $\GeV$ & 0.394 $\pm$ 0.002 & 0.439 $\pm$ 0.002 & 0.413 $\pm$ 0.002 & 0.415 $\pm$ 0.001 \\
+gg$\rightarrow$H ({\sc minloHJJ}) 126 $\GeV$ & 0.407 $\pm$ 0.002 & 0.449 $\pm$ 0.002 & 0.418 $\pm$ 0.002 & 0.423 $\pm$ 0.001 \\
+VBF ({\sc powheg}) 125 $\GeV$ & 0.456 $\pm$ 0.007 & 0.503 $\pm$ 0.007 & 0.473 $\pm$ 0.005 & 0.476 $\pm$ 0.003 \\
+VBF ({\sc powheg}) 126 $\GeV$ & 0.450 $\pm$ 0.007 & 0.513 $\pm$ 0.007 & 0.471 $\pm$ 0.005 & 0.476 $\pm$ 0.003 \\
+WH ({\sc pythia}) 125 $\GeV$ & 0.332 $\pm$ 0.003 & 0.365 $\pm$ 0.003 & 0.336 $\pm$ 0.002 & 0.342 $\pm$ 0.002 \\
+WH ({\sc pythia}) 126 $\GeV$ & 0.331 $\pm$ 0.003 & 0.365 $\pm$ 0.003 & 0.340 $\pm$ 0.002 & 0.344 $\pm$ 0.002 \\
+ZH ({\sc pythia}) 125 $\GeV$ & 0.343 $\pm$ 0.005 & 0.367 $\pm$ 0.005 & 0.341 $\pm$ 0.004 & 0.348 $\pm$ 0.003 \\
+ZH ({\sc pythia}) 126 $\GeV$ & 0.339 $\pm$ 0.005 & 0.384 $\pm$ 0.005 & 0.362 $\pm$ 0.004 & 0.362 $\pm$ 0.003 \\
+ttH ({\sc pythia})125 $\GeV$ & 0.239 $\pm$ 0.007 & 0.274 $\pm$ 0.007 & 0.244 $\pm$ 0.005 & 0.250 $\pm$ 0.003 \\
+ttH ({\sc pythia})126 $\GeV$ & 0.261 $\pm$ 0.007 & 0.271 $\pm$ 0.007 & 0.255 $\pm$ 0.005 & 0.260 $\pm$ 0.004 \\
+\hline
+\end{tabular}
+\normalsize
+\end{center}
+\end{table}

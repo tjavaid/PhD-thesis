@@ -1,0 +1,229 @@
+% Chapter 4
+\chapter{Differential and integrated fiducial cross sections for Higgs boson production in the four-lepton decay channel}\label{Chapter4}
+\chaptermark{Fiducial cross sections for $pp\rightarrow H \rightarrow  4\ell$}
+\include{Introduction.tex}
+\section{Datasets, simulation samples and theoretical predictions}\label{sec:DatasetsSimulation}
+\subsection{Datasets}\label{sec:Datasets}
+The dataset used in the measurements was collected by the CMS experiment in 2011 and 2012, and corresponds to \usedLumiA of 7~TeV collision data
+and \usedLumiB of 8~TeV collision data respectively. All the details on the CMS standard selection of runs and luminosity sections, as well as the
+selection of the triggers used to collect this dataset are described in Ref.~\cite{Chatrchyan:2013mxa}. Thus, similar detector operation conditions are 
+imposed for the validation of the data to be used for the analysis of the $4e$, $4\mu$ and $2e2\mu$ channels. The absolute integrated luminosity of the
+proton collisions in 2011 has been determined with a relative precision of 2.2\%~\cite{CMS:2011vpa}, while in 2012 it has been determined with a relative
+precision of 2.6\%~\cite{CMS-PAS-LUM-13-001}. The analysis relies on primary datasets (PDs) produced centrally and which combine various collections of 
+High Level Triggers (HLT).  The detailed content of the PDs evolves in phase with the evolution of the trigger menu to cope with ever increasing
+instantaneous luminosity. The analysis relies on the so-called {\it DoubleElectron} and {\it DoubleMuon}. These latter PDs are formed by a {\tt OR} between
+various triggers with symmetric or asymmetric trigger thresholds for the two leptons, with or without additional identification and isolation 
+requirements. They also include triggers requiring three leptons above a low $p_T$ theshold.  It also includes cross-triggers which were added to
+recover few percent of inefficiency in the 2e2$\mu$ channel at low Higgs boson masses, forming the so-called {\it MuEG} PD.  Tri-electron triggers for 2012
+data are also used, in order to recover most of the inefficiency of DoubleElectron trigger.
+All the triggers used with the 8~TeV data collected in 2012 are listed in Table~\ref{tab:triggers_2012}.
+\begin{table}[h]
+\scriptsize
+    \centering
+    \begin{tabular}{|l|l||l|l|c|}
+\hline %-------------------------------------------------------------------------------------------------------------------------------------------
+\# Channel     & Purpose & HLT path                                                                                & L1 seed            & prescale  \\ \hline
+\hline %-------------------------------------------------------------------------------------------------------------------------------------------
+        4e     & main    & \verb| HLT_Ele17_CaloTrk_Ele8_CaloTrk |                                 & \verb| L1_DoubleEG_13_7 |   & 1      \\
+                     &            & \verb| OR HLT_Ele15_Ele8_Ele5_CaloIdL_TrkIdVL       |                      & \verb| L1_TripleEG_12_7_5 | & 1          \\
+        4$\mu$ & main    & \verb| HLT_Mu17_Mu8  |                                                  & \verb| L1_Mu10_MuOpen   |   & 1       \\
+               &         & \verb| OR HLT_Mu17_TkMu8   |                                            & \verb| L1_Mu10_MuOpen   |   & 1       \\
+      2e2$\mu$ & main    & \verb| HLT_Ele17_CaloTrk_Ele8_CaloTrk   |                               & \verb| L1_DoubleEG_13_7 |   & 1      \\
+               &         & \verb| OR HLT_Mu17_Mu8       |                                          & \verb| L1_Mu10_MuOpen   |   & 1      \\
+               &         & \verb| OR HLT_Mu17_TkMu8  |                                             & \verb| L1_Mu10_MuOpen   |   & 1      \\
+               &         & \verb| OR HLT_Mu8_Ele17_CaloTrk      |                                  & \verb| L1_MuOpen_EG12   |   & 1      \\
+               &         & \verb| OR HLT_Mu17_Ele8_CaloTrk      |                                  & \verb| L1_Mu12_EG6      |   & 1      \\
+\hline %-------------------------------------------------------------------------------------------------------------------------------------------
+        4$\mu$ & backup  & \verb| HLT_TripleMu5    |                                               & \verb| L1_TripleMu0 |       & 1      \\
+\hline %-------------------------------------------------------------------------------------------------------------------------------------------
+4e and 2e2$\mu$ & Z T\&P         & \verb| HLT_Ele17_CaloTrkVT_Ele8_Mass50 |                        & \verb| L1_DoubleEG_13_7 |   & 5      \\
+4e and 2e2$\mu$ & Z T\&P low pT  & \verb| HLT_Ele20_CaloTrkVT_SC4_Mass50_v1  |                     & \verb| L1_SingleIsoEG18er | & 10     \\
+4$\mu$ and 2e2$\mu$ & Z T\&P     & \verb| HLT_IsoMu24_eta2p1|                                      & \verb| L1_SingleMu16er |    &        \\
+4$\mu$ and 2e2$\mu$ & J/psi T\&P & \verb| HLT_Mu7_Track7_Jpsi   |                                  &                             &        \\
+                    &            & \verb| HLT_Mu5_Track3p5_Jpsi  |                                 &                             &        \\
+                    &            & \verb| HLT_Mu5_Track2_Jpsi   |                                  &                             &        \\
+\hline %-------------------------------------------------------------------------------------------------------------------------------------------
+    \end{tabular}
+\small
+    \caption{
+    triggers used with the 8~TeV data collected in 2012.
+    }
+    \label{tab:triggers_2012}
+\end{table}
+\subsection{Simulation samples and theoretical predictions} \label{sec:Simulations}
+Descriptions of the SM Higgs boson production in the gluon fusion ($\ggH$) process are obtained using 
+the {\sc HRes}~\cite{deFlorian:2012mx, Grazzini:2013mca}, {\sc powheg}~\cite{powheg, powhegvv} and {\sc powheg minlo-HJ}~\cite{Hamilton:2012np} generators.
+The {\sc HRes} generator is a partonic level Monte Carlo generator that provides a description of the $\ggH$ process at next-to-next-to-leading order 
+(NNLO) accuracy in perturbative QCD and next-to-next-to-leading logarithmic (NNLL) accuracy in resummation of soft-gluon effects at small transverse 
+momenta~\cite{deFlorian:2012mx, Grazzini:2013mca}. Since the resummation is inclusive over the QCD radiation recoiling against the Higgs
+boson, {\sc HRes} is considered for the prediction of fiducial cross sections which are inclusive in the associated jet activity.
+The {\sc powheg} generator is a partonic level matrix-element generator that implements next-to-leading (NLO) perturbative QCD calculations and 
+additionally provides an interface to parton-shower programs. It provides a description of the $\ggH$ production in association with zero jets at NLO
+accuracy. For the purpose of this analysis, it has been tuned to closely match the Higgs boson $p_{T}$ spectrum in the full phase space as predicted by
+the {\sc HRes} generator. The {\sc powheg minlo-HJ} generator is an extension of the {\sc powheg} generator based on the MiNLO 
+prescription~\cite{Hamilton:2012np} for the improved next-to-leading logarithmic (NLL) accuracy applied to the $\ggH$ production in association with up to
+one additional jet. It provides a description of the $\ggH$ production in association with zero and one jets at the NLO accuracy, and the $\ggH$ production
+in association with two jets only at the LO accuracy. Descriptions of the SM Higgs boson production in the vector boson fusion (VBF) process is obtained at
+ NLO accuracy using also the {\sc powheg} generator.
+The processes of SM Higgs boson production associated with gauge bosons (VH) or top-antitop quark pair ($\ttH$) are described at LO accuracy 
+using {\sc pythia 6.4}~\cite{Sjostrand:2006za}, and higher order diagrams are accounted for by {\sc pythia}'s parton showering model. The Monte Carlo (MC) 
+samples simulated with these generators are normalised to the inclusive SM Higgs boson production cross sections and branching fractions that correspond 
+to the SM calculations at NNLO and NNLL accuracy, in accordance with the LHC Higgs Cross Section Working Group 
+recommendations~\cite{LHCHiggsCrossSectionWorkingGroup:2013tqa}. In order to estimate the dependance of the measurement procedure on the underlying 
+assumption for the Higgs boson production mechanism, we have used the set of MC samples for individual production mechanisms described in the paragraph 
+above. In addition, in order to estimate the dependance of the measurement on different assumptions of the Higgs boson properties, we have also simulated
+a range of samples that describe production and decay of exotic Higgs-like resonances to the four-lepton final state.
+These include spin-zero, spin-one and spin-two resonances with anomalous interactions with a pair of neutral gauge bosons
+($ZZ$, $Z\gamma^{*}$, $\gamma^{*}\gamma^{*}$) described by higher-order operators, as discussed in details in Ref.~\cite{Khachatryan:2014kca}. The 
+procedure
+used to estimate the model dependance effects will be presented in Section~\ref{sec:Systematics}. All these samples are generated using the {\sc powheg} 
+generator for the description of NLO QCD effects in the production mechanism, and {\sc JHUgen}~\cite{Gao:2010qx,Bolognesi:2012mm,Anderson:2013afp} to 
+describe the decay of these exotic resonances to four leptons including all spin correlations.
+The list of Standard Model Higgs boson 8~TeV samples with corresponding values of cross sections can be found in Table~\ref{tab:MCsamplesSig}, while
+all the signal Model Carlo samples studied in the analysis are listed in Table~\ref{tab:samplesSM}. A subset of these samples that is used to asses the
+model dependance of the measurement results is indicated in the table.
+In a similar way, the samples of the exotic spin-parity models and exotic production/decay modes are presented in Table~\ref{tab:samplesExo} in 
+Appendix~\ref{app:sam}.
+\begin{table}[!h!tb]
+\begin{center}
+\small
+\caption{
+Standard Model signal Model Carlo samples studies in the analysis.
+Samples used for the estimation of the model dependance of the measurement results are denoted in the column ``D.''.
+\label{tab:samplesSM}
+}
+\begin{tabular}{|l|c|c|c|} \hline
+Sample & Description & $m_{H} (GeV)$ & D. \\ \hline
+SMHiggsToZZTo4L\_M-125\_8TeV-powheg15-JHUgenV3-pythia6 & gg$\rightarrow$H ({\sc powheg+JHU}) & 125 $\GeV$ & Y \\
+ SMHiggsToZZTo4L\_M-126\_8TeV-powheg15-JHUgenV3-pythia6 & gg$\rightarrow$H ({\sc powheg+JHU})& 126 $\GeV$ & Y \\
+ GluGluToHToZZTo4L\_M-125\_8TeV-powheg15-pythia6 & gg$\rightarrow$H ({\sc powheg}) & 125 $\GeV$ & No \\
+ GluGluToHToZZTo4L\_M-126\_8TeV-powheg15-pythia6 & gg$\rightarrow$H ({\sc powheg}) & 126 $\GeV$ & No \\
+ GluGluToHToZZTo4L\_M-125\_8TeV-powheg-pythia6 & gg$\rightarrow$H ({\sc powheg1.0}) & 125 $\GeV$ & No \\
+ GluGluToHToZZTo4L\_M-126\_8TeV-powheg-pythia6 & gg$\rightarrow$H ({\sc powheg1.0}) & 126 $\GeV$ & No \\
+ GluGluToHToZZTo4L\_M-125\_8TeV-minloHJJ-pythia6-tauola & gg$\rightarrow$H ({\sc minloHJJ}) & 125 $\GeV$ & Y\\
+ GluGluToHToZZTo4L\_M-126\_8TeV-minloHJJ-pythia6-tauola & gg$\rightarrow$H ({\sc minloHJJ}) & 126 $\GeV$ & Y\\
+ VBF\_HToZZTo4L\_M-125\_8TeV-powheg-pythia6 & VBF ({\sc powheg}) & 125 $\GeV$ & Y \\
+ VBF\_HToZZTo4L\_M-126\_8TeV-powheg-pythia6 & VBF ({\sc powheg}) & 126 $\GeV$ & Y \\
+ WH\_HToZZTo4L\_M-125\_8TeV-pythia6 & WH ({\sc pythia}) & 125 $\GeV$ & Y \\
+ WH\_HToZZTo4L\_M-126\_8TeV-pythia6 & WH ({\sc pythia}) & 126 $\GeV$ & Y \\
+ ZH\_HToZZTo4L\_M-125\_8TeV-pythia6 & ZH ({\sc pythia}) & 125 $\GeV$ & Y \\
+ ZH\_HToZZTo4L\_M-126\_8TeV-pythia6 & ZH ({\sc pythia}) & 126 $\GeV$ & Y \\
+ TTbarH\_HToZZTo4L\_M-125\_8TeV-pythia6 & ttH ({\sc pythia})& 125 $\GeV$ & Y \\
+ TTbarH\_HToZZTo4L\_M-126\_8TeV-pythia6 & ttH ({\sc pythia})& 126 $\GeV$ & Y \\
+\hline
+\end{tabular}
+\normalsize
+\end{center}
+\end{table}
+The MC event samples that are used to estimate contribution from the background process $\Pg\Pg \rightarrow \cPZ\cPZ$ were simulated using
+{\sc MCFM 6.7}, while the background process $\Pq\Paq \to 4\ell$ was simulated at NLO accuracy with {\sc powheg} generator including s-, t- and u-channel
+diagrams. For the purpose of the $Z\rightarrow4\ell$ cross-section measurements, we also have separately modelled contributions from the t- and u-channels
+of the $\Pq\Paq(\to \Z\Z*)\to 4\ell$ process at NLO accuracy with {\sc powheg} generator.
+All event generators described above take into account the internal initial-state and final-state radiation effects which can lead to the
+presence of additional hard photons in an event.
+The {\sc powheg} and {\sc JHUgen} event generators also properly take into account interference between all contributing amplitudes,
+ including those related to the permutations of identical leptons in the $4e$ and $4\mu$ final states.
+In case of the LO generators, the set of parton distribution functions (PDF) \textsc{cteq6l}~\cite{cteq66} is used,
+in case of the NLO generators the PDF set \textsc{CT10}~\cite{CT10} is used,
+while the PDF set \textsc{MSTW2008}~\cite{MSTW08} is used in case of the NNLO generator.
+All generated events are interfaced to {\sc pythia 6.4} Tune $Z2^{*}$~\cite{Chatrchyan:2011id} to simulate the effects of the parton shower, hadronization
+and underlying event.
+The {\sc pythia 6.4} Z2* tune is derived from the Z1 tune~\cite{Field:2010bc}, which uses the CTEQ5L parton distribution set, whereas Z2* adopts 
+CTEQ6L~\cite{Pumplin:2002vw}.
+In case of {\sc HRes}, since it does not provide an interface to programs that can simulate the hadronization and underlying event effects, the size of
+these effects is first estimated using the {\sc powheg+JHUgen} and its interface to {\sc Pythia 6.4}, and then the correction is applied to the {\sc HRes}
+parton level predictions.
+The generated events were processed through a detailed simulation of the CMS detector based on
+\GEANTfour~\cite{GEANT} and were reconstructed with the same algorithms
+that are used for data analysis.
+Multiple $\Pp\Pp$ interactions (pileup) are included in simulations to match the distribution of the number of
+interactions per LHC bunch crossing observed in data.  The average
+number of pileup interactions is estimated to be approximately 9 and 21 in the 7 and 8 \TeV datasets, respectively.
+Energy deposits from pileup interactions and from the underlying event are subtracted
+when computing the energy of jets and isolation of reconstructed objects
+using the \textsc{FastJet} technique~\cite{Cacciari:2007fd,Cacciari:2008gn,Cacciari:2011ma}.
+This technique is based on the calculation of the $\eta$-dependent average energy density %($\rho$), 
+evaluated individually for each event.
+
+The selection efficiency in all simulated samples is rescaled in order to correct for residual differences in lepton selection efficiencies in data and 
+simulation. This correction is based on the total lepton selection efficiencies measured in inclusive samples of Z-boson events in simulation and data 
+using a ``tag and probe'' method~\cite{CMS:2011lsa}, separately for 7 and 8~TeV collisions.
+%The deviation of the efficiency in simulation relative to data, for the majority of the phase space of the leptons, is less than 3\% for both electrons and muons. 
+The dependency of the selection efficiency on the number of reconstructed primary vertices in the event is negligible for both the 7 and 8 TeV data samples.
+More details are presented and discussed in Ref.~\cite{Chatrchyan:2013mxa}.
+
+
+%%%%%%%%%
+%
+\begin{table}[htb]
+%
+  \begin{center}
+  \vspace*{0.3cm}
+
+    \begin{tabular}{llll}
+\hline %---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+\small      \bf{Process}                & \small \bf{MC}                        & \small\boldmath{$\sigma_{(N)NLO} $} &  Comment \\
+\hline \hline%==============================================================================================
+\small          gg$\rightarrow {\rm H}(\rightarrow {\rm Z}{\rm Z}) \rightarrow 4\ell$                   & \small{\sc powheg+JHUgen}     & \small 19.27  pb      & gg$\rightarrow$H production\\
+\small          ${qq} \rightarrow {\rm H}(\rightarrow {\rm Z}{\rm Z})+qq \rightarrow 4\ell+$X   & \small{\sc powheg}    & \small 1.578 pb       & VBF production\\
+\small          ${qq} \rightarrow {\rm H}(\rightarrow {\rm Z}{\rm Z})+W \rightarrow 4\ell+$X    & \small{\sc pythia}    & \small  0.7046 pb     & WH production\\
+\small          ${qq} \rightarrow {\rm H}(\rightarrow {\rm Z}{\rm Z})+Z \rightarrow 4\ell+$X            & \small{\sc pythia}    & \small 0.4153 pb      & ZH production\\
+\small          ${qq} \rightarrow {\rm H}(\rightarrow {\rm Z}{\rm Z})+t\bar{t} \rightarrow 4\ell+$X     & \small{\sc pythia}    & \small 0.1293 pb      & ttH production\\
+%\hline %---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+%\small         ${gg} \rightarrow {\rm H} \rightarrow {\rm Z}{\rm \gamma*} \rightarrow 4\ell $          & \small{\tt powheg + JHUGen}   & \small ?  fb  & Z$\gamma*$ decay\\
+%\small         ${gg} \rightarrow {\rm H} \rightarrow {\rm \gamma*}{\rm \gamma*} \rightarrow 4\ell $    & \small{\tt powheg + JHUGen}   & \small ?  fb  & $\gamma*\gamma*$ decay\\
+\hline %---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+   \end{tabular}
+
+  \end{center}
+%
+  \small
+  \caption{  MC simulation datasets used for the signal processes predicted by the SM for m(H)=125.0$\GeV$ (${\rm Z}$ stands for ${\rm Z}$, ${\rm Z}^*$, $\gamma^*$). The cross sections do not include the ZZ and $4\ell$ branching ratios. In the SM, the branching ratio ${\rm H} \rightarrow {\rm Z}{\rm Z}\rightarrow 4\ell$ is 1.247$\times 10^{-4}$ for m(H)=125.0 $\GeV$.}
+  \label{tab:MCsamplesSig}
+%
+\end{table}
+%%%%%%
+\begin{table}[htb]
+%
+  \begin{center}
+  \vspace*{0.3cm}
+
+    \begin{tabular}{llll}
+\hline %---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+\small      \bf{Process}                & \small \bf{MC}                        & \small\boldmath{$\sigma_{(N)NLO} $} &  Comment \\
+\hline \hline%==============================================================================================
+\small          $ q\bar{q} \rightarrow {\rm Z}{\rm Z} \rightarrow 4e(4\mu,4\tau) $        & \small{\sc powheg}  & \small 76.91 fb       & s+t/u channels\\
+\small  $ q\bar{q} \rightarrow {\rm Z}{\rm Z} \rightarrow 2e2\mu  $             & \small{\sc powheg}            & \small 176.7 fb       & s+t/u channels\\
+\small  $ q\bar{q} \rightarrow {\rm Z}{\rm Z} \rightarrow 2e(2\mu)2\tau  $       & \small{\sc powheg}           & \small 176.7 fb       & s+t/u channels\\
+\small          $ q\bar{q} \rightarrow {\rm Z}{\rm Z} \rightarrow 4e $                           & \small{\sc powheg}   & \small 494.8 fb       & t/u channels only, $m_{ll}>1GeV$\\
+\small  $ q\bar{q} \rightarrow {\rm Z}{\rm Z} \rightarrow 2e2\mu  $             & \small{\sc powheg}            & \small 1527 fb        & t/u channels only, $m_{ll}>1GeV$\\
+\small  $ q\bar{q} \rightarrow {\rm Z}{\rm Z} \rightarrow 4\mu  $                & \small{\sc powheg}   & \small 488.4 fb       & t/u channels only, $m_{ll}>1GeV$\\
+\small          ${gg} \rightarrow {\rm Z}{\rm Z} \rightarrow 2e2\mu $                           & \small{\sc MCFM 6.7}          & \small 2.444  fb      & K-factor of 2.66 included\\
+\small          ${gg} \rightarrow {\rm Z}{\rm Z} \rightarrow 4\mu$                              & \small{\sc MCFM 6.7}          & \small 1.222 fb       & K-factor of 2.66 included\\
+\small          ${gg} \rightarrow {\rm Z}{\rm Z} \rightarrow 4e$                                        & \small{\sc MCFM 6.7}          & \small 1.222 fb       & K-factor of 2.66 included\\
+\hline %---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+   \end{tabular}
+
+  \end{center}
+%
+  \small
+  \caption{  MC simulation datasets used for the background processes (${\rm Z}$ stands for ${\rm Z}$, ${\rm Z}^*$, $\gamma^*$);
+  In MC samples with label ``t/u channels only'' only the t/u channels are simulated in the $qq \to 4\ell$ process and these samples are used for the $Z \to 4\ell$ analysis.
+  The ``t/u channels only'' samples have lower cut in $m_{ll}$ of 1 GeV, while all other $qq \to ZZ$ and $gg \to ZZ$ samples have lower cut in $m_{ll}$ of 4 GeV. In case of the $gg \to ZZ$ background, the overall NLO k-factor of 2.66 is included, as discussed in Section~\ref{sec:EventsBackgrounds}.}
+  \label{tab:MCsamplesBkg}
+%
+\end{table}
+
+\section{Analysis strategy}\label{sec:AnalysisStrategy} 
+\subsection{Event selection and background models} 
+\subsection{Definition of the fiducial volume}
+\subsection{Signal model and statistical procedure}
+\subsection{Extraction of inclusive \texorpdfstring{$\Hllll$}{H to 4l} fiducial cross section}
+\subsection{Extraction of differential \texorpdfstring{$\Hllll$}{H to 4l} fiducial cross sections}
+\section{Systematic uncertainties}\label{sec:Systematics}
+\section{Results}\label{sec:Results}
+\subsection{Measurement of inclusive fiducial cross section}
+\subsection{Measurement of differential fiducial cross sections}
+\section{Summary}\label{sec:Summary}
+
+%===========================================================================

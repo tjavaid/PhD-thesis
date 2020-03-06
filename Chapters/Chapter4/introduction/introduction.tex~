@@ -1,0 +1,44 @@
+In 2012, CMS and ATLAS collaborations announced the discovery of the existence of new boson~\cite{Reference20,Reference21} with mass around 125~GeV. The 
+comprehensive properties  of the newly discovered boson have been studied by both CMS and ATLAS 
+experiments~\cite{Reference22,Reference21a,Reference21b,Reference21c}
+and are found to be compatible with SM Higgs boson. 
+\par In this chapter, measurements of the integrated and differential fiducial cross sections for the Higgs boson production in the $H \rightarrow 4\ell$ 
+decay channel ($\ell = e, \mu$) with the proton-proton collisions at $\sqrt{s} = 7$ and 8 TeV  are presented. These measurements provide a direct test of 
+perturbative QCD  calculations in the Higgs sector of Standard Model at the TeV energy scale. Any deviation of the  integrated or  differential 
+distributions from SM expectations would  provide a direct hint to BSM contributions. Nearly similar measurements have already been reported by ATLAS experiment 
+in $H \rightarrow \gamma \gamma$~\cite{ATLAS:Hgg_8TeV,ATLAS:Hgg_8TeV_13TeV}, $H \rightarrow 4\ell$~\cite{ATLAS:H4l_8TeV,ATLAS:H4l_8TeV_13TeV} decay 
+channels, combination of both channels~\cite{ATLAS:H4l_Hgg_8TeV,ATLAS:H4l_Hgg_8TeV_13TeV} and by CMS experiment in $H \rightarrow \gamma \gamma$ decay 
+channel~\cite{CMS:Hgg_8TeV}. 
+\par The integrated fiducial cross section measurements 
+are performed using collisions data corresponding to integrated luminosity of \usedLumiA  at $\sqrt{s}=7$~TeV and \usedLumiB at  $\sqrt{s}=8$~TeV, recorded 
+with the CMS detector at LHC. The measurement of the integrated ratio of the fiducial cross sections at 7~TeV and 8~TeV is also logged. The differential fiducial
+cross sections 
+are measured with 8~TeV data only, because insufficient statistics of  7~TeV data. To minimize the dependence of the results on the 
+underlying models of the Higgs boson production  mechanism and  its properties, the cross sections are extracted in a fiducial phase space closely matching
+with the experimental acceptance as shown in Figure~\ref{fig:Models_cartoon}. The remaining model dependence is extracted by repeating the measurements for SM and other exotic models and reported as 
+a distinct systematic uncertainty. All measurements includes the corrections for the finite detection
+efficiency and resolution effects. As $\sigma \times BR$ strongly depends on the Higgs mass, the measurements have been extracted assuming $m_H =  125.0$~GeV, as
+measured using the $H \rightarrow 2\gamma$ and $H \rightarrow 4\ell$
+decay channels by the CMS experiment~\cite{Reference39}. 
+%==================
+\begin{figure}[!h!tb]
+ \begin{center}
+    \includegraphics[width=0.65\textwidth,angle=0]{Figures/Models_cartoon.jpg}
+    \caption{Fiducial phase definition among different models.}
+ \label{fig:Models_cartoon}
+ \end{center}
+\end{figure}
+
+%==================
+\par The differential fiducial cross sections are measured as a function  of kinematic properties of the four-lepton system and the leading jet, as well as a 
+function of the jet multiplicity. The results are reported for several kinematic observables which are sensitive to the Higgs-boson production
+mechanisms: transverse momentum and the rapidity of the four-lepton 
+system, transverse momentum of the leading jet, as well as distance in rapidity between the Higgs boson candidate and the leading jet. The results are also 
+reported for kinematic observables which are sensitive to the Higgs boson decay mechanisms: the invariant masses of the two 
+lepton pairs and five helicity angles formed by the leptons in the Collins-Soper frame~\cite{Reference40}. 
+
+\par The chapter is structured as follows. The datasets and simulated samples used for the analysis are introduced in 
+Section \ref{sec:DatasetsSimulation}. The analysis strategy is described in Section \ref{sec:AnalysisStrategy}, where  fiducial phase space definition, 
+event selection and method for extracting integrated and differential fiducial cross sections are explained.
+In Section~\ref{sec:Systematics}  details of systematic uncertainties affecting the measurement are explained. In Section \ref{sec:Results} results 
+are compared with SM theoretical predictions.  

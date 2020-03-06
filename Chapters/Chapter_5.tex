@@ -1,0 +1,451 @@
+% Chapter 5
+\chapter{Differential and Integrated Fiducial Cross Sections for Z Boson Production in the Four-Lepton Decay Channel at $\sqrt{s} = 8$~TeV} \label{Chapter5} 
+\chaptermark{Fiducial cross sections for $pp\rightarrow Z \rightarrow  4\ell$}
+ The process $pp \rightarrow Z \rightarrow 4\ell$ is significantly important for calibrating and validating $\HZZllll$ process. 
+ Figure~\ref{fig:mass4l} shows clear $Z \rightarrow 4\ell$ resonance of at four-lepton invariant mass $m_{4\ell} = m_Z$ which act as a standard
+ candle for $H \rightarrow 4\ell$. The measurement of $Z \rightarrow 4\ell$ fiducial cross section is important to test SM theoretical prediction
+ and to validate Higgs measurements methodology. The integrated and differential fiducial cross sections of $Z \rightarrow 4\ell$ have been performed 
+ on the footings of Higgs measurements, using same differential variables using  8~TeV  data. The integrated
+ Z boson production cross section measurement using $Z \rightarrow 4\ell$ decay channel at 7~TeV has already been measured in Ref.~\cite{Z4LPaper}.
+ The integrated ratio of $H\rightarrow4\ell$ and $Z\rightarrow4\ell$ fiducial cross section is also reported using 8~TeV data. 
+ The motivation for the ratio is to cancel out fraction of  systematic uncertainties and to validate Higgs measurements. 
+ \section{Extraction of Inclusive and Differential Fiducial Cross Sections for \texorpdfstring{$\Zllll$}{Z to 4l}}\label{sec:ExtractionZ4l_indep}}
+ The $Z\rightarrow4\ell$ fiducial cross section measurements are extracted in $m_{4\ell}$ range from 50 to 105~GeV. 
+ In part of the $m_{4\ell}$ spectrum below 100~GeV, the dominant contribution is coming from the resonant $Z\rightarrow4\ell$ decays
+ (s-channel of the $\Pq\Paq \to \Z\gamma^{*} \to 4\ell$ process). The sub-dominant contributions arise from the corresponding
+ t- and u-channels in the $\Pq\Paq \to \Z\gamma^{*} \to 4\ell$ process, from the reducible
+ background processes (Z+X), as well as from the $\Pg\Pg \to \Z\Z$ background. In case of the $Z\rightarrow4\ell$ measurements, the s-channel
+ of the $\Pq\Paq \to \Z\gamma^{*} \to 4\ell$ process is considered as signal, while the other processes are considered as backgrounds. Contributions 
+ from s-, t- and u-channels in  the $\Pq\Paq \to \Z\Z \to 4\ell$ process (and their interference), as well as the $\Pg\Pg \to \Z\Z$ process are 
+ estimated from Monte Carlo simulations, while $\Z+X$ background is estimated from the data. 
+ For $Z \rightarrow 4\ell$ cross-section measurements,  the MC samples for the the process $\Pq\Paq(\to \Z\Z^*)\to 4\ell$ have  been produced 
+ using {\sc powheg} generator with separate contributions of t- and u-channels of the process.
+  \par
+ For $\Zllll$ fiducial cross section measurements, fiducial phase space definition and statistical prescription are similar to the ones performed 
+ for the $\Hllll$ fiducial cross section measurements described in Sections~\ref{sec:ExtractionInclusive} and \ref{sec:ExtractionDifferential}, 
+ while mass of Z boson is fixed to PDG value of $m_Z = 91.18$~GeV~\cite{PDG_14}. The procedure for the extraction of the cross sections differ in only three aspects. 
+ First, the acceptance four-lepton invariant mass window is changed
+ to $50 < m_{4\ell} < 105$~GeV. Second, the functional form of the $m_{4\ell}$ spectra of the $\Zllll$ decays is adopted to the $\Zllll$ resonance. 
+ Third, in case of the $\Zllll$ measurements, we do not have the wrong combination contribution as in case of the $\Hllll$ measurements
+ (e.g. characteristic for the ZH, WH, and ttH production modes), and we do not need to extract it in the fit  separately. Backgrounds are extracted 
+ following the procedure described in Section~\ref{sec:EventsBackgrounds}.
+ \par 
+ The $Z\rightarrow 4l $ peak in the $m_{4\ell}$ spectra is modelled with a Relativistic Breit-Wigner function convoluted with a Crystal Ball function. The exact
+ functional form is given by the equations:
+
+\begin{eqnarray}
+f_{BW}(m_{4l}|m_{Z}) & = & N\cdot \frac{2}{\pi} \cdot \frac{\Gamma_{Z}^2 m_{Z}^2}{(m_{4l}^2-m_{Z}^2)^2 + m_{4l}^4\cdot(\Gamma_{Z}^2/m_{Z}^2)}
+\end{eqnarray}
+
+\begin{equation}
+CB(\xi) = N \cdot \left\{
+  \begin{array}{lr}
+      A \cdot (B+|\xi|)^{-n_L} , ~{\rm for}~\xi < \alpha_L \\
+      exp(-\xi^2/2), ~{\rm for}~\xi >= \alpha_L \\
+  \end{array}
+\right.
+\end{equation}
+
+\begin{eqnarray}
+f(m_{4l}|m_{Z}) &=& CB(m_{Z}^{'}) \otimes f_{BW}(m_{4l}|m_{Z})
+\end{eqnarray}
+\par
+In this functional form, the mass width of the Z boson is set to the world average value ($\Gamma_{Z}=2.4952$~GeV)~\cite{PDG_14}, $m_{4l}$ is variable, while $m_Z$ is
+the Z mass peak position. The resulting fits of the $Z\rightarrow 4l $ signal shape are shown in Figure~\ref{fig:mass_pdf_z4l}.
+\begin{figure}[htbp]
+\begin{center}
+    \subfigure[$Z\rightarrow 4e$]{
+      \includegraphics[width=0.4\textwidth,angle=0]{Chapters/Chapter4/AnalysisStrategy/figures/mass_pdf_z4l_4e.pdf}
+      \label{fig:mass_pdf_z4l:a}
+    }
+    \subfigure[$Z\rightarrow 4\mu$]{
+      \includegraphics[width=0.4\textwidth,angle=0]{Chapters/Chapter4/AnalysisStrategy/figures/mass_pdf_z4l_4mu.pdf}
+      \label{fig:mass_pdf_z4l:b}
+    } \\
+    \subfigure[$Z\rightarrow 2\mu2e$]{
+      \includegraphics[width=0.4\textwidth,angle=0]{Chapters/Chapter4/AnalysisStrategy/figures/mass_pdf_z4l_2mu2e.pdf}
+      \label{fig:mass_pdf_z4l:c}
+    }
+    \subfigure[$Z\rightarrow 2e2\mu$]{
+      \includegraphics[width=0.4\textwidth,angle=0]{Chapters/Chapter4/AnalysisStrategy/figures/mass_pdf_z4l_2e2mu.pdf}
+      \label{fig:mass_pdf_z4l:d}
+    }
+\caption{$Z\rightarrow 4l$ mass distribution fitted with Relativistic Breit-Wigner and CB for $Z\rightarrow 4e$, $Z\rightarrow 4\mu$, $Z\rightarrow 2\mu2e$, 
+and $Z\rightarrow 2e2\mu$, respectively.}
+\label{fig:mass_pdf_z4l}
+\end{center}
+\end{figure}
+The acceptance, fiducial efficiency ($\epsilon$) and ratio of reconstructed events between outside and inside the fiducial phase space ($f_{nonfid}$) in
+case of $Z\rightarrow 4l$  with mass window $50 < m(4l) < 105$~GeV are given in Tables in the Appendix \ref{sec:Inclusive_z4l_ratio_H4l}.
+% %============
+
+\begin{figure}[htbp]
+\begin{center}
+    \subfigure[$4e$]{
+      \includegraphics[width=0.48\textwidth,angle=0]{Plots/Result_Combine_Ratio_SM_125_mass4l_Asimov_floatPOIs_all_8TeV_xs_v2_result_plot_4e.pdf}
+      \label{fig:mass_pdf_z4l:a}
+    }
+    \subfigure[$4\mu$]{
+      \includegraphics[width=0.48\textwidth,angle=0]{Plots/Result_Combine_Ratio_SM_125_mass4l_Asimov_floatPOIs_all_8TeV_xs_v2_result_plot_4mu.pdf}
+      \label{fig:mass_pdf_z4l:b}
+    } \\
+    \subfigure[$2e2\mu$]{
+      \includegraphics[width=0.48\textwidth,angle=0]{Plots/Result_Combine_Ratio_SM_125_mass4l_Asimov_floatPOIs_all_8TeV_xs_v2_result_plot_2e2mu.pdf}
+      \label{fig:mass_pdf_z4l:c}
+    }
+    \subfigure[$4\ell$]{
+      \includegraphics[width=0.48\textwidth,angle=0]{Plots/Result_Combine_Ratio_SM_125_mass4l_Asimov_floatPOIs_all_8TeV_xs_v2_result_plot_4l.pdf}
+      \label{fig:mass_pdf_z4l:d}
+    }
+        \caption{Inclusive four lepton mass distributions for an Asimov dset generated using SM cross section values and SM efficiencies where the 
+        gg$\rightarrow$H 
+        prediction is from {\sc powheg+JHUgen}, the $\Pq\Pq\rightarrow\Z$ prediction is from {\sc powheg}, and resulting fitted values of the signal and
+        background pdfs in different final states.}
+\label{fig:sigfits-asimov-SM-inclusive-ratio}
+\end{center}
+\end{figure}
+%%%%%%%%%%%%%%%%%%
+\begin{table}[!hb]
+\begin{center}
+\caption{
+The number of estimated events from simulation, and number of
+observed candidates in data, after final inclusive selection in the
+measurement range $50 < m_{4\ell} < 105 \GeV$ for the $Z\rightarrow4\ell$
+(s-channel $\Pq\Paq \to \Z\Z$) measurements.
+The s-channel of the $\Pq\Paq \to \Z\Z^* \to 4\ell$ process is considered as signal,
+while the other processes are considered as backgrounds.
+Contributions from s-, t- and u-channels in the $\Pq\Paq \to \Z\Z \to 4\ell$ process,
+as well as $\Pg\Pg \to \Z\Z$ process are estimated from Monte Carlo
+simulation, while $\Z +X$ background is estimated from data.
+\label{tab:EventYieldsZ4l}}
+\begin{tabular}{l|c|c|c}
+\hline \hline
+\textbf{Channel} & $4\Pe$ & $4\Pgm$ & $2\Pe2\Pgm$ \\
+\hline \hline
+$\Pq\Paq \to \Z\Z$ (t- and u-channels) &  0.30 $\pm$  0.02  &  1.03  $\pm$  0.04  &  0.56  $\pm$  0.05 \\
+\cPZ + X & 0.43 $\pm$ 0.14 & 0.13 $\pm$ 0.03 & 1.10 $\pm$ 0.13 \\
+$\Pg\Pg \to \Z\Z$ &  0.15  $\pm$  0.01  &  0.43  $\pm$  0.02  &  0.10  $\pm$  0.01  \\
+\hline
+Total background expected & 0.88 $\pm$ 0.14 & 1.59 $\pm$ 0.11 & 1.16 $\pm$ 0.44 \\
+\hline
+$Z\rightarrow 4l$ ($\Pq\Paq \to \Z\Z$ s-channel) &  9.87 $\pm$  0.11  &  29.16  $\pm$  0.19  &  18.34  $\pm$  0.23  \\
+\hline
+Observed  & 9 & 42 & 18 \\
+\hline \hline
+\end{tabular}
+\end{center}
+\end{table}
+% %============
+
+
+\section{Extraction of the Ratio of $\Hllll$ and $\Zllll$ fiducial Cross Sections} \label{sec:ExtractionZ4l_ratio}
+
+A simultaneous fit for the $\Hllll$ and $\Zllll$ signal peaks has also been preformed in order to measure the ratio of $\Hllll$ and $\Zllll$ fiducial
+cross sections. This measurement is performed in a mass range $50 < m(4l) < 140$~GeV, by generalizing the procedure to include both resonances. The measurement
+is based on the same signal models of $\Hllll$ and $\Zllll$ as presented in Sections~\ref{sec:ExtractionInclusive} and~\ref{sec:ExtractionZ4l_indep} 
+respectively. The results are extracted simultaneously for $H\rightarrow4\ell$ and the ratio of the  $H\rightarrow4\ell$ and $Z\rightarrow4\ell$. The measurements
+have been performed in two scenario. In the first scenario, the measurement is extracted by fixing the mass of Z boson to PDG value and Higgs mass
+to $m_H = 125$~GeV. In the second  scenario,  the masses of both resonance are allowed to float and fit for difference of masses of both resonances
+$\Delta m = m_H - m_Z$ and the Higgs boson $m_H$. This scenario helps to reduce the systematic uncertainty due to lepton momentum scale resolution and provide
+an extra validation for methodology of the measurements.
+\par 
+The number of estimated background and signal events, and number of observed candidates after inclusive selection
+in the range $50 < m_{4l} < 140$~GeV, which is used for measurement of the ratio of $\Hllll$ and $\Zllll$ fiducial cross-sections, are listed
+in Table~\ref{tab:EventYieldsRatio}.
+
+
+\begin{figure}[!htbp]
+\begin{center}
+    \subfigure[$4e$]{
+      \includegraphics[width=0.48\textwidth,angle=0]{Plots/Result_Combine_Ratio_SM_125_mass4l_floatPOIs_fixMH_fixDeltaMHmZ_all_8TeV_xs_v2_result_plot_4e_Unpublished.pdf}
+      \label{fig:data_pdf_z4l:a}
+    }
+    \subfigure[$4\mu$]{
+      \includegraphics[width=0.48\textwidth,angle=0]{Plots/Result_Combine_Ratio_SM_125_mass4l_floatPOIs_fixMH_fixDeltaMHmZ_all_8TeV_xs_v2_result_plot_4mu_Unpublished.pdf}
+      \label{fig:data_pdf_z4l:b}
+    } \\
+    \subfigure[$2e2\mu$]{
+      \includegraphics[width=0.48\textwidth,angle=0]{Plots/Result_Combine_Ratio_SM_125_mass4l_floatPOIs_fixMH_fixDeltaMHmZ_all_8TeV_xs_v2_result_plot_2e2mu_Unpublished.pdf}
+      \label{fig:data_pdf_z4l:c}
+    }
+    \subfigure[$4\ell$]{
+      \includegraphics[width=0.48\textwidth,angle=0]{Plots/Result_Combine_Ratio_SM_125_mass4l_floatPOIs_fixMH_fixDeltaMHmZ_all_8TeV_xs_v2_result_plot_4l_paper.pdf}
+      \label{fig:data_pdf_z4l:d}
+    }
+        \caption{Inclusive four lepton mass distributions and resulting fitted values of the signal and background pdfs in different final states for the
+        simultaneous H$+$Z fit.}
+\label{fig:sigfits-SM-inclusive-ratio}
+\end{center}
+\end{figure}
+%=========================================================================
+\begin{table}[!hb]
+\begin{center}
+\caption{
+The number of estimated background and signal events, and number of observed candidates after inclusive selection in the
+measurement range $50 < m_{4l} < 140$~GeV, used for measurement of the ratio of $\Hllll$ and $\Zllll$ fiducial cross-sections.
+Signal and ZZ backgrounds are estimated from Monte Carlo simulation, while Z+X background is estimated from data.
+\label{tab:EventYieldsRatio}}
+\begin{tabular}{l|c|c|c}
+\hline \hline
+\textbf{Channel} & $4e$ & $4\mu$ & $2e2\mu$ \\
+\hline
+\hline
+$\Pq\Paq \to \Z\Z$ (t- and u-channels) &  2.38 $\pm$  0.06  &  6.78  $\pm$  0.11  &  7.50  $\pm$  0.20 \\
+Z+X & 1.96 $\pm$ 0.44 & 1.31 $\pm$ 0.56 & 5.26 $\pm$ 1.38 \\
+$\Pg\Pg \to \Z\Z$ & 0.36  $\pm$  0.02  &  0.84  $\pm$  0.02  &  0.53  $\pm$  0.02  \\
+\hline
+All background expected & 4.65 $\pm$ 0.44 & 8.93 $\pm$ 0.57 & 13.29 $\pm$ 1.39 \\
+\hline
+$H\rightarrow 4l$ ($m_H = 125.0$~GeV) &  2.94 $\pm$  0.03  &  5.68  $\pm$  0.05  &  7.33  $\pm$  0.06  \\
+$Z\rightarrow 4l$ ($qq \to ZZ$ s-channel) &  10.41 $\pm$  0.11  &  30.63 $\pm$  0.21  & 19.80  $\pm$  0.26  \\
+\hline
+Observed  & 18 & 57 & 33 \\
+\hline \hline
+\end{tabular}
+\end{center}
+\end{table}
+% %============
+
+
+\section{Results}
+\par 
+Figure~\ref{fig:sigfits-SM-inclusive-ratio} presents inclusive four lepton mass distributions for data 
+and resulting fitted values of the signal and background pdfs in different final states for the simulations $H+\Z$ fit where 
+(gg$\rightarrow$H process is modelled using {\sc powheg+JHUgen}, while qq$\rightarrow$Z process is modelled using {\sc powheg}). 
+Distributions are shown in a mass  range $50 < m(4l) < 140$~GeV.
+\par
+Figure~\ref{fig:inclusive-results_Z4l} shows the integrated $\Zllll$ fiducial cross section measurements for different final states performed
+in the $m_{4\ell}$ range from 50~GeV to 105~GeV, as well as the theoretical prediction obtained using {\sc powheg}. The numerical values of
+the independent measurements of the $\Zllll$ fiducial cross sections for are listed in Table~\ref{tab:incresults-simfit}. As the total
+uncertainty in the $\Zllll$ integrated measurement is about 2.6 times lower then the uncertainty in the integrated $\Hllll$ measurement, 
+this result provides also a validation of the measurement procedure in data.  
+\par
+The $\Zllll$ differential fiducial cross section has also been reported for same set observables studied in $\Hllll$ measurements.
+Figures~\ref{fig:differential-results-Z4l} and \ref{fig:differential-results-Z4l-2} shows the measured differential cross section for SM Z$\rightarrow 4\ell$ 
+for production and decay related variables. The measured differential cross sections for all observables are  found to be compatible with  
+SM-based predictions, within the large associated uncertainties.  The $p$-values for the differential distributions of $\Zllll$ events range from 0.21
+in case of rapidity of the Z boson, to 0.99 for some of the angles defined by the four leptons in the Collins-Soper reference frame~\cite{Collins:1977iv}.
+\par 
+Figure~\ref{fig:inclusive-results-simfit}  and Table~\ref{tab:incresults-simfit} show the results of the  fiducial cross section ratio of  
+$\Hllll$ and $\Zllll$ extracted simultaneously. In general, a  good agreement between the measurement results and the theoretical prediction is observed. 
+The fitted value for the mass difference between two resonance is found to be $\Delta m = m_H - m_Z = 34.2 \pm 0.7$~GeV, in agreement with the PDG value 
+for the Z boson mass and best fit value or $m_{\rm H} = m_{Z}^{PDG} + \Delta m = 125.4 \pm 0.7$~GeV. The Higgs mass result is  found to be compatible
+with the dedicated mass measurement results in same final state~\cite{Reference25}. 
+% More details on these results can be found 
+% in Appendix~\ref{app:H4lZ4lfit}.
+%%%%%%%%5
+%%%%%%%%%%%
+
+\begin{table}[!h!tb]
+\begin{center}
+      \caption{ The Z$\rightarrow 4\ell$ integrated fiducial cross section at 8~TeV in the $m_{4\ell}$ range from 50 to
+105 GeV and the ratio of integrated fiducial cross section of H$\rightarrow 4l$ and Z$\rightarrow 4l$, obtained
+from a simultaneous fit of mass peaks of Z$\rightarrow 4l$ and H$\rightarrow 4l$ in mass window 50 to 140 GeV. The   H$\rightarrow 4l$
+fiducial cross section  is also extracted from simultaneous fit.
+        } \label{tab:incresults-simfit}
+
+\begin{tabular}{|c|c|c|c|c|}
+\hline %---------------------------------------------------------
+\hline %---------------------------------------------------------
+\multicolumn{5}{|l|}{ Fiducial cross section H$\rightarrow 4l$ (fb) at 8~TeV  ($105 < m_{4\ell} < 140$) } \\
+\hline %---------------------------------------------------------
+& 4l & $2e2\mu$ & $4\mu$ & $4e$ \\
+\hline %---------------------------------------------------------
+\vspace{-0.4cm} &&&&\\
+Measured (stat.~$\oplus$~sys.)
+&$1.06^{+0.42}_{-0.34}$
+&$0.47^{+0.27}_{-0.21}$
+&$0.25^{+0.17}_{-0.12}$
+&$0.34^{+0.30}_{-0.20}$
+\\
+\vspace{-0.4cm} &&&&\\
+\hline %---------------------------------------------------------
+\vspace{-0.4cm} &&&&\\
+\small gg$\rightarrow$H({\sc HRes}) + XH
+& $1.16^{+0.12}_{-0.12}$  & $0.55^{+0.06}_{-0.06}$  & $0.32^{+0.03}_{-0.03}$  & $0.29^{+0.03}_{-0.03}$  
+
+\\
+\vspace{-0.4cm} &&&&\\
+\hline %---------------------------------------------------------
+\vspace{-0.4cm} &&&&\\
+\small gg$\rightarrow$H({\sc pohwheg+JHUgen}) + XH
+&$1.16^{+0.12}_{-0.12}$
+&$0.54^{+0.06}_{-0.06}$
+&$0.33^{+0.04}_{-0.04}$
+&$0.30^{+0.03}_{-0.03}$
+\\
+\vspace{-0.4cm} &&&&\\
+\hline %---------------------------------------------------------
+\vspace{-0.4cm} &&&&\\
+%\small gg$\rightarrow$H({\sc minloHJJ}) + XH
+\small gg$\rightarrow$H({\sc minloHJ}) + XH
+&$1.14^{+0.12}_{-0.12}$
+&$0.54^{+0.06}_{-0.06}$
+&$0.32^{+0.03}_{-0.03}$
+&$0.29^{+0.03}_{-0.03}$
+\\
+\hline %---------------------------------------------------------
+\hline %---------------------------------------------------------
+\multicolumn{5}{|l|}{ Ratio of fiducial cross sections H$\rightarrow 4l$ / Z$\rightarrow 4l$ at 8~TeV  ($50 < m_{4\ell} < 140$)} \\
+\hline
+& 4l & $2e2\mu$ & $4\mu$ & $4e$ \\
+\hline %---------------------------------------------------------
+\vspace{-0.4cm} &&&&\\
+Measured (stat.~$\oplus$~sys.)
+& $0.21 {}^{+0.09}_{-0.07}  {}^{+0.01}_{-0.01} $  
+& $0.33 {}^{+0.23}_{-0.16} {}^{+0.02}_{-0.02} $  
+& $0.10 {}^{+0.08}_{-0.05} {}^{+0.01}_{-0.00} $  
+& $0.30 {}^{+0.32}_{-0.19} {}^{+0.05}_{-0.03} $ 
+
+\\
+\vspace{-0.4cm} &&&&\\
+\hline %---------------------------------------------------------
+\vspace{-0.4cm} &&&&\\
+\small gg$\rightarrow$H({\sc HRes}) + XH 
+& $0.25^{+0.04}_{-0.04}$  & $0.35^{+0.05}_{-0.05}$  & $0.18^{+0.03}_{-0.03}$  & $0.24^{+0.04}_{-0.03}$  
+\\
+\vspace{-0.4cm} &&&&\\
+\hline %---------------------------------------------------------
+\vspace{-0.4cm} &&&&\\
+\small gg$\rightarrow$H({\sc pohwheg+JHUgen}) + XH 
+&$0.25^{+0.04}_{-0.04}$
+&$0.34^{+0.05}_{-0.05}$
+&$0.19^{+0.03}_{-0.03}$
+&$0.24^{+0.04}_{-0.03}$
+
+\\
+\hline %---------------------------------------------------------
+\vspace{-0.4cm} &&&&\\
+\small gg$\rightarrow$H({\sc minloHJ}) + XH 
+&$0.25^{+0.04}_{-0.04}$
+&$0.34^{+0.05}_{-0.05}$
+&$0.18^{+0.03}_{-0.03}$
+&$0.23^{+0.04}_{-0.03}$
+ \\
+\hline %---------------------------------------------------------
+\hline %---------------------------------------------------------
+\multicolumn{5}{|l|}{ Fiducial cross section Z$\rightarrow 4l$ (fb) at 8~TeV  ($50 < m_{4\ell} < 105$)} \\
+\hline %---------------------------------------------------------
+& 4l & $2e2\mu$ & $4\mu$ & $4e$ \\
+\hline %---------------------------------------------------------
+\vspace{-0.4cm} &&&&\\
+Measured (stat.~$\oplus$~sys.)
+& $4.81  {}^{+0.69}_{-0.63} {}^{+0.18}_{-0.19}$
+& $1.37 {}^{+0.40}_{-0.34} {}^{+0.08}_{-0.05}$
+& $2.35 {}^{+0.41}_{-0.37} {}^{+0.14}_{-0.11}$
+& $1.08 {}^{+0.44}_{-0.35} {}^{+0.15}_{-0.08}$
+\\
+\vspace{-0.4cm} &&&&\\
+\hline %---------------------------------------------------------
+\vspace{-0.4cm} &&&&\\
+\small {\sc powheg}
+&$4.56^{+0.19}_{-0.19}$
+&$1.57^{+0.06}_{-0.07}$
+&$1.75^{+0.07}_{-0.07}$
+&$1.24^{+0.05}_{-0.05}$
+\\
+\hline %---------------------------------------------------------
+\hline %---------------------------------------------------------
+\end{tabular}
+\end{center}
+\end{table}
+%============
+\begin{figure}[!h!tb]
+  \begin{center}  
+
+    \subfigure[$\Zllll$ (8~TeV)]{
+      \includegraphics[width=0.65\textwidth,angle=0]{Plots/fidxs_Z4l_SMZ4l_mass4l_floatPOIs_fixMZ_all_8TeV_xs_v3_v2_unpublished.pdf}     
+    } 
+    \caption{Results of the integrated fiducial cross section measurement for different final states. Prediction from {\sc powheg} are shown in blue.
+    } 
+  \label{fig:inclusive-results_Z4l}
+ \end{center}
+\end{figure}
+%========
+\begin{figure}[!h!tb]
+  \begin{center}
+      \includegraphics[width=0.65\textwidth,angle=0]{Plots/ratio_Ratio_SM_125_mass4l_floatPOIs_fixMH_fixDeltaMHmZ_all_8TeV_xs_v1_v2_Unpublished.pdf}
+    \caption{Results of integrated fiducial cross section of H$\rightarrow 4l$ and Z$\rightarrow 4l$ for different final states, obtained
+from a simultaneous fit of mass peaks of Z$\rightarrow 4l$ and H$\rightarrow 4l$ in mass window 50 to 140 GeV.
+} 
+  \label{fig:inclusive-results-simfit}
+ \end{center}
+\end{figure}
+%=============
+\begin{figure}[!h!tb]
+  \begin{center}
+    \subfigure[$\pt(\mathrm{Z})$]{
+      \includegraphics[width=0.45\textwidth,angle=0]{Plots/fidxs_Z4l_SMZ4l_pT4l_floatPOIs_fixMZ_all_8TeV_xs_v3_logscale.pdf}
+      \label{fig:differential-results-Z4l:a}
+    }
+    \subfigure[$|y(\mathrm{Z})|$]{
+      \includegraphics[width=0.45\textwidth,angle=0]{Plots/fidxs_Z4l_SMZ4l_rapidity4l_floatPOIs_fixMZ_all_8TeV_xs_v3.pdf}
+      \label{fig:differential-results-Z4l:b}
+    } \\
+    \subfigure[$\pt(\mathrm{leading~jet})$]{
+      \includegraphics[width=0.45\textwidth,angle=0]{Plots/fidxs_Z4l_SMZ4l_pt_leadingjet_reco_pt30_eta4p7_floatPOIs_fixMZ_all_8TeV_xs_v3_logscale.pdf}
+      \label{fig:differential-results-Z4l:c}
+    }
+    \subfigure[$|y(\mathrm{Z}) - y(\mathrm{leading~jet})|$]{
+      \includegraphics[width=0.45\textwidth,angle=0]{Plots/fidxs_Z4l_SMZ4l_absdeltarapidity_hleadingjet_reco_pt30_eta4p7_floatPOIs_fixMZ_all_8TeV_xs_v3_logscale.pdf}
+      \label{fig:differential-results-Z4l:d}
+    } \\
+    \subfigure[N(jets), $|\eta|<4.7$]{
+      \includegraphics[width=0.45\textwidth,angle=0]{Plots/fidxs_Z4l_SMZ4l_njets_reco_pt30_eta4p7_floatPOIs_fixMZ_all_8TeV_xs_v3_logscale.pdf}
+      \label{fig:differential-results-Z4l:e}
+    } 
+    \caption{Results of the Z$\rightarrow 4 \ell$ differential cross section measurement for different observables. The predictions from
+    {\sc powheg} are shown in blue. The error bar represents the combined statistical and systematic uncertainty. The fraction
+    of $4e,4\mu$ and $2e2\mu$ in each bin is allowed to float in the fit.
+        }
+  \label{fig:differential-results-Z4l}
+ \end{center}
+\end{figure}
+\begin{figure}[!h!tb]
+  \begin{center}
+    \subfigure[$|\cos \theta^{*}|$]{
+      \includegraphics[width=0.33\textwidth,angle=0]{Plots/fidxs_Z4l_SMZ4l_cosThetaStar_floatPOIs_fixMZ_all_8TeV_xs_v3.pdf}
+      \label{fig:differential-results-Z4l-2:a}
+    }
+    \subfigure[$|\cos \theta_{1}|$]{
+      \includegraphics[width=0.33\textwidth,angle=0]{Plots/fidxs_Z4l_SMZ4l_cosTheta1_floatPOIs_fixMZ_all_8TeV_xs_v3.pdf}
+      \label{fig:differential-results-Z4l-2:b}
+    }
+    \subfigure[$|\cos \theta_{2}|$]{
+      \includegraphics[width=0.33\textwidth,angle=0]{Plots/fidxs_Z4l_SMZ4l_cosTheta2_floatPOIs_fixMZ_all_8TeV_xs_v3.pdf}
+      \label{fig:differential-results-Z4l-2:c}
+    } \\
+    \subfigure[$|\Phi|$]{
+      \includegraphics[width=0.33\textwidth,angle=0]{Plots/fidxs_Z4l_SMZ4l_Phi_floatPOIs_fixMZ_all_8TeV_xs_v3.pdf}
+      \label{fig:differential-results-Z4l-2:d}
+    }
+    \subfigure[$|\Phi_{1}|$]{
+      \includegraphics[width=0.33\textwidth,angle=0]{Plots/fidxs_Z4l_SMZ4l_Phi1_floatPOIs_fixMZ_all_8TeV_xs_v3.pdf}
+      \label{fig:differential-results-Z4l-2:e}
+    } \\
+    \subfigure[$\mathrm{m}(\mathrm{Z}_{2})$]{
+      \includegraphics[width=0.33\textwidth,angle=0]{Plots/fidxs_Z4l_SMZ4l_massZ2_floatPOIs_fixMZ_all_8TeV_xs_v3.pdf}
+      \label{fig:differential-results-Z4l-2:g}
+    }     
+    \caption{Results of the Z$\rightarrow 4 \ell$ differential cross section measurement for different observables. The predictions
+    from {\sc powheg} are shown in blue. The error bar represents the combined statistical and systematic uncertainty. The fraction
+    of $4e,4\mu$ and $2e2\mu$ in each bin is allowed to float in the fit.
+    }
+  \label{fig:differential-results-Z4l-2}
+ \end{center}
+\end{figure}
+%==========
+% \section{Summary}
+% Measurements of the inclusive cross section of Z boson production in the $Z \rightarrow 4\ell$ decay channel, as well as its ratio
+% to the $\Hllll$ fiducial cross section, have also been performed using the 8~TeV collision data. The differential measurements have been
+% performed as a function of the transverse momentum and the rapidity of the four-lepton system, transverse momentum of the leading jet, distance in 
+% rapidity between the Higgs boson candidate and the leading jet, the invariant masses of the two lepton pairs, the five helicity angles formed by
+% the leptons in the Collins-Soper frame, and the  jet multiplicity. The results have been corrected
+% for the detection efficiency and resolution  effects to allow for direct comparison with the SM  predictions. The inclusive fiducial cross 
+% section for the Z boson production in  the $Z \rightarrow 4\ell$ decay channel is measured to be
+% $4.81^{\rm +0.69}_{\rm -0.63} \, {\rm(stat.)}\, ^{\rm +0.18}_{\rm -0.19}\,  {\rm (sys.)}$. 
+% Ratio of inclusive fiducial cross section of H$\rightarrow 4l$ and Z$\rightarrow 4l$ measured to be 
+% $0.21^{\rm +0.09}_{\rm -0.07} \, {\rm(stat.)}\, ^{\rm +0.01}_{\rm -0.01}\,  {\rm (sys.)}$. The results are found be compatible with theoretical
+% prediction.
+
+

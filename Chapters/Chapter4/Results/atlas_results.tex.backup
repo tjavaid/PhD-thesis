@@ -1,0 +1,54 @@
+ATLAS Collaboration have also published fiducial and differential cross section measurements of Higgs boson production  in the four-lepton decay 
+channel~\cite{ATLAS:H4l_8TeV}. These measurements are performed using collision data corresponding to integrated luminosity of 20.3~\ifb at $\sqrt{s} = 8$~TeV. 
+Both measurements, ATLAS and CMS, are similar except few smaller differences mentioned below 
+\begin{itemize}
+ 
+ \item The measurements have been extracted assuming $m_H =  125.0 (125.4)$~GeV by CMS (ATLAS), as measured using the $H \rightarrow 2\gamma$ and
+ $H \rightarrow 4\ell$ decay channels by the both experiment~\cite{Reference39,Aad:ATLAS_mass_measurement}.
+ \item Small differences in  selections cut used to define  fiducial volume
+ \item No requirement on Gen level isolation in case of ATLAS and does not provide model dependence like CMS.
+
+ \end{itemize}
+
+The differential results results are also produced as a function of production and decay related observables ( same observables except  an additional observable 
+(Y(H)- Y(leading jet) chosen by CMS ). Figure \ref{fig:ATLAS_differential-bins-2} shows the differential cross section results as function of differential 
+observables. The inclusive fiducial production cross section is measured to be 
+$\sigma_{{\rm fid.}}^{{\rem tot.}}=2.11^{+0.53}_{-0.47}$(stat.)$\pm 0.08$(syst.) fb while the theoretical prediction at estimated for Higgs boson mass of 125.4~GeV
+is $1.30\pm0.13$~fb. Both ATLAS and CMS measurements are found to be compatible with theoretical estimations and no significant deviation has been observed. 
+The p-value are obtained for differential observables N(jets) ( largest deviation from SM in case of the CMS) is $p=0.13 (0.37)$ for the CMS (ATLAS) measurements.
+% However, 
+% compatibility p-value was found to be less  
+\begin{figure}[!h!tb]
+  \begin{center}
+    \subfigure[$\pt(\mathrm{H})$]{
+      \includegraphics[width=0.45\textwidth,angle=0]{ATLAS_results/fig_02a.png}
+      \label{fig:ATLAS_differential-bins-2:a}
+    }
+    \subfigure[$|y(\mathrm{H})|$]{
+      \includegraphics[width=0.45\textwidth,angle=0]{ATLAS_results/fig_02b.png}
+      \label{fig:ATLAS_differential-bins-2:b}
+    }
+    \subfigure[$\mathrm{m}(\mathrm{Z}_{2})$]{
+      \includegraphics[width=0.45\textwidth,angle=0]{ATLAS_results/fig_02c.png}
+      \label{fig:ATLAS_differential-bins-2:c}
+    } 
+    \subfigure[$|\cos \theta^{*}|$]{
+      \includegraphics[width=0.45\textwidth,angle=0]{ATLAS_results/fig_02d.png}
+      \label{fig:ATLAS_differential-bins-2:d}
+    }
+    \subfigure[N(jets)]{
+      \includegraphics[width=0.45\textwidth,angle=0]{ATLAS_results/fig_02e.png}
+      \label{fig:ATLAS_differential-bins-2:e}                             
+    }
+    \subfigure[$\pt(\mathrm{jet})$]{
+      \includegraphics[width=0.45\textwidth,angle=0]{ATLAS_results/fig_02f.png}
+      \label{fig:ATLAS_differential-bins:f}
+    }
+    \caption{Observed data along with the SM signal (m(H)=$125.0 \GeV$) and background expectations for different observables
+    and for all final states combined, in range $105 < m_{4\ell} < 140 \GeV$ used for the $\Hllll$ measurements. The extraction of the 
+    signal is performed by exploiting the differences in the expected $m_{4\ell}$ spectra of the signal and background contributions in
+    each bin of an observable.
+    }
+  \label{fig:ATLAS_differential-bins-2}
+ \end{center}
+\end{figure}

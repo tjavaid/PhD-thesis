@@ -1,0 +1,33 @@
+In 2012,CMS and ATLAS collaborations announced the discovery of the existence of new boson~\cite{Reference20,Reference21} of mass around 125~GeV. The 
+comprehensive properties has been studied by both CMS and ATLAS experiments~\cite{Reference22,Reference21a,Reference21b,Reference21c} of newly discovered boson
+which are found to be compatible with SM Higgs boson~\cite{Reference7,Reference8,Reference9,Reference10,Reference11,Reference12}. 
+\par In this chapter, measurements of the inclusive and differential fiducial cross sections for the Higgs boson production in the $H \rightarrow 4\ell$ 
+decay channel ($\ell = e, \mu$) in proton-proton collisions at center-of-mass energies of $\sqrt{s}=7$~TeV and $\sqrt{s}=8$~TeV are presented. These
+measurements provide a direct probe into SM Higgs sector perturbative QCD  calculations at the TeV energy scale. Any deviation of inclusive or differential 
+distributions from SM expectations would  provide a direct hint to BSM contributions. Nearly similar measurements have already been reported by ATLAS experiment using
+$\sqrt{s}=8$~TeV in $H \rightarrow \gamma \gamma$~\cite{ATLAS:Hgg_8TeV}, $H \rightarrow 4\ell$~\cite{ATLAS:H4l_8TeV} decay channel and combination of 
+both channels~\cite{ATLAS:H4l_Hgg_8TeV} and by CMS experiment in $H \rightarrow \gamma \gamma$ decay channel 
+
+\par The inclusive fiducial cross section measurements 
+are performed using collisions data corresponding to integrated luminosity of \usedLumiA  at $\sqrt{s}=7$~TeV and \usedLumiB at  $\sqrt{s}=8$~TeV, recorded 
+with the CMS detector at LHC. The measurement of the inclusive ratio of fiducial cross sections at 7~TeV and 8~TeV is also logged. The differential fiducial
+cross sections 
+are measured with 8~TeV data only, because insufficient statistics ofm 7~TeV data. To minimize the dependence of the results on the 
+underlying model of the Higgs boson production  mechanism and  its properties, the cross sections are extracted in a fiducial phase space closely matching
+with the experimental acceptance. The remaining model dependence is extracted by repeating the measurement for SM and other exotic model and reported as 
+a distinct systematic uncertainty. All measurements include the correction for the finite detection
+efficiency and resolution effects. As $\sigma \times BR$ strongly depend upon Higgs mass, the measurement has been extracted assuming $m_H =  125.0$~GeV, as
+measured using the $H \rightarrow 2\gamma$ and $H \rightarrow 4\ell$
+decay channels by the CMS experiment~\cite{Reference39}. 
+\par The differential fiducial cross section is measured as a function  of kinematic properties of the four-lepton system and the leading jet, as well as a 
+function of the jet multiplicity. The results are reported for several kinematic observables which are sensitive to the Higgs-boson production
+mechanism: transverse momentum and the rapidity of the four-lepton 
+system, transverse momentum of the leading jet, as well as distance in rapidity between the Higgs boson candidate and the leading jet.The results are also 
+reported for kinematic observables which are sensitive to the Higgs boson decay mechanism: the invariant masses of the two 
+lepton pairs and five helicity angles formed by the leptons in the Collins-Soper frame~\cite{Reference40}. 
+
+\par The chapter is structured as follows. The datasets and simulated samples used for the analysis are introduced in 
+Section \ref{sec:DatasetsSimulation}. The analysis strategy is described in Section \ref{sec:AnalysisStrategy}, where  fiducial volume definition, 
+event selection and method for extracting inclusive and differential fiducial cross section is explained.
+In Section~\ref{sec:Systematics}  details of systematic uncertainties affecting the measurement are explained. In Section \ref{sec:Results} results 
+are compared with SM theoretical predictions. At end, summary is reported in Section \ref{sec:Results}.  

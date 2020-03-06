@@ -1,0 +1,37 @@
+
+\begin{acknowledgements}
+\addchaptertocentry{\acknowledgementname} % Add the acknowledgements to the table of contents
+\par With the help and grace of ALLAH, the
+most beneficent and merciful, it has been possible for me to
+complete this dissertation. I offer my humblest and sincerest words
+to the holy prophet (PBUH), who is
+forever a torch of guidance for humanity. 
+\par
+I feel very great pleasure to express my thanks to my research supervisors Prof. Guoming Chen and Dr. Mingshui Chen
+for their patience, guidance and for pushing me to do better.
+I got great inspiration from them in learning the basic as well
+as advanced tools of the Experimental Particle Physics. I would also like to thank them for helping me to complete this dissertation.
+Special thanks to  Dr. Roko Plestina, for his  suggestions and constant support during this research.
+\par
+I also have received an enormous amount of appreciation, support and
+encouragement from my parents and sincere class fellows Ms. Zaib-un-Nisa, Mr. Sarmad Masood Shaheen and  Mr. Tahir Javaid. I would also like to mention
+Dr. Predrag Milenovic and Dr. David Sperka for their appreciation, encouragement and guidance during the PhD studies. At last, I thank 
+to Dr. Junquan Tao for assisting me in  linguistic problems during my stay in China.
+\par 
+I thank the CMS collaboration and all its members for the insightful discussions and
+opportunities presented to myself during my time as a member.
+ 
+\clearpage 
+\begin{center}
+\huge{Preface} 
+\end{center}
+\vspace{2cm}
+\normalsize 
+\\
+This dissertation is a reprint of the material as it appears in “Measurement of differential and integrated fiducial cross sections for Higgs boson 
+production in the four-lepton decay channel in pp collisions at $\sqrt{s} = 7$ and $8\TeV$” by CMS Collaboration, JHEP 04 (2016) and
+“Studies of Higgs boson production in the four-lepton final state at $\sqrt{s}=13$\TeV” by CMS Collaboration, CMS Physics Analysis Summary 
+CMS-PAS-HIG-15-004 (2015). The dissertation author has made significant contributions to these papers.
+
+
+\end{acknowledgements}

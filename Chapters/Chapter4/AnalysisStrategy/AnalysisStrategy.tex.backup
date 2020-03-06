@@ -1,0 +1,33 @@
+The inclusive and differential cross sections are measured in a fiducial region in order to reduce the effects of model dependent acceptances. 
+The fiducial selection mimics the reconstruction level selection, which is optimized to detect a low mass (m$\sim$ 125 $\GeV$) Higgs boson decaying to 4 
+leptons through two Z bosons. Since in the SM there are multiple production modes, the fiducial selection and measurement strategy are designed 
+to be independent of how the Higgs boson is produced. For this reason, the inclusion of isolation in the fiducial selection is necessary in order to make 
+the reconstruction efficiency with respect to the fiducial volume independent of the number of jets.
+\par
+Furthermore, in the sub-leading SM production modes there can be associated vector bosons which can decay to leptons, and therefore the reconstructed Higgs 
+boson candidate may not be composed of the correct combination of the leptons. In order to retain the full information from an unbinned simultaneous fit of the
+signal and background pdfs to the four-lepton mass distribution, it is necessary to treat such ``wrong combination'' events as a background.
+\par
+Further signal-induced background can be formed due to imperfect correspondence between quantities at the particle level and the corresponding quantities 
+at the reconstruction level. Signal events which are from within the fiducial volume but fail the reconstruction are accounted  in the fiducial efficiency
+($\epsilon$) and the expected contribution from events which pass the reconstruction selection but are not from within the fiducial volume ($f_{nonfid}$) 
+are referred to as ``nonfiducial signal'' events and are treated as a background, illustrated in Figure \ref{fig:cartoon}.
+
+%==================
+\begin{figure}[!h!tb]
+ \begin{center}
+    \includegraphics[width=0.65\textwidth,angle=0]{Figures/cartoon.jpg}
+    \caption{Fiducial efficiency and non fiducial signal definition.}
+ \label{fig:cartoon}
+ \end{center}
+\end{figure}
+
+%==================
+
+\par
+The effects of imperfect detector resolution can in general have a non-negligible impact on the shape of the distribution of the measured observables. For
+this reason, in case of the differential cross section measurements, a procedure to correct for the detection efficiencies and resolution effects is 
+applied.
+Throughout this document, this procedure will be referred to as the unfolding procedure, and the unfolded differential distributions will be referred to as 
+distributions at the fiducial level.
+The reconstruction level selection, fiducial volume definition, statistical procedure, and their model dependence will be described in the subsequent sections.

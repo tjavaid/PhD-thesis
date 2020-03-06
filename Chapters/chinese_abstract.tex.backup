@@ -1,0 +1,6 @@
+\begin{CJK}{UTF8}{gbsn}
+\chapter*{摘要}
+\addcontentsline{toc}{chapter}{Introduction}  
+该论文研究了在质子-质子对撞中，质心系能量分别为7,8以及13TeV下，通过四轻子衰变 $ H \to 4\ell$ ($\ell = \Pe$, $\mu$) 的希格斯玻色子产生截面的测量问题。
+希格斯玻色子的基准产生截面测量数据都源自于大型强子对撞机LHC上运行的CMS探测器，对应于不同质心系能量，积分亮度分别为
+\end{CJK}

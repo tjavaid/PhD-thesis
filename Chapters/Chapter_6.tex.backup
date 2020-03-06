@@ -1,0 +1,473 @@
+% Chapter 6
+\chapter{Higgs Boson Production Cross Sections Dependence on Centre-of-Mass Energy}\label{Chapter6}
+\chaptermark{Higgs boson production cross sections dependence on $\sqrt{s}$}
+\section{Inclusive Fiducial Cross Section at $\sqrt{s}=13 \TeV$}
+\subsection{Introduction}
+After two year of long shutdown, the LHC Run II began to deliver data at enhanced center-of-mass energy of $\sqrt{s}=13 \TeV$. The Run II 
+provide the opportunity of explore new era Higgs precision measurement including rediscovering, and studies of its rare production modes such as
+as vector boson fusion (VBF) and associated production with a vector boson ($\WH$, $\ZH$) and with a top quark pair ($\ttH$). 
+This chapters presents the  Higgs boson inclusive fiducial cross section measurement with $\Hllll$ decay channel at $\sqrt{s}=13$~TeV, using
+$\usedLumi$ of proton-proton  collisions data recorded with the CMS  detector during the LHC Run in 2015.
+\subsection{Datasets and Event Selection}
+\subsubsection{Triggers and Datasets}
+This measurements crossponds to 2.8~\ifb  at $\sqrt{s}=13$~TeV collected by CMS detector in 2015. All the datasets used for this analysis are 
+summarized in Table~\ref{tab:datasets_data}. The online event selections is derived by single, double and triple leptons triggers. 
+The trigger used in 2015 are summarized in Table~\ref{tab:triggerPaths}. The efficiencies of the triggers has been calculated based on single 
+leptons trigger events and found to greater than 97\% for 4e and 2e2$\mu$ final state and and 99\% for $4\mu$.
+\begin{table}[h]
+\scriptsize
+    \centering
+    \begin{tabular}{|l|l|l|}
+\hline %----------------------------------------------------------------------------------------
+\hline %---------------------------------------------------------------------------------------- 
+bunch spacing & dataset & integrated luminosity \\
+\hline %----------------------------------------------------------------------------------------
+\hline %---------------------------------------------------------------------------------------- 
+\multirow{50 ns} & /DoubleMuon/Run2015B-16Dec2015-v1 & \multirow{$43.9\ \text{pb}^{-1}$} \\
+& /DoubleEG/Run2015B-16Dec2015-v1 &\\
+& /MuonEG/Run2015B-16Dec2015-v1 &\\
+& /SingleElectron/Run2015B-16Dec2015-v1 &\\\cline{2-3}
+& /DoubleMuon/Run2015C\_50ns-16Dec2015-v1 & \multirow{$27.3\ \text{pb}^{-1}$} \\
+& /DoubleEG/Run2015C\_50ns-16Dec2015-v1 &\\
+& /MuonEG/Run2015C\_50ns-16Dec2015-v1 &\\
+& /SingleElectron/Run2015C\_50ns-16Dec2015-v1 &\\
+\hline %----------------------------------------------------------------------------------------
+\multirow{25 ns} & /DoubleMuon/Run2015C\_25ns-16Dec2015-v1 & \multirow{$17.7\ \text{pb}^{-1}$}\\
+& /DoubleEG/Run2015C\_25ns-16Dec2015-v1 &\\
+& /MuonEG/Run2015C\_25ns-16Dec2015-v1 &\\
+& /SingleElectron/Run2015C\_25ns-16Dec2015-v1 &\\\cline{2-3}
+& /DoubleMuon/Run2015D-16Dec2015-v1 & \multirow{$2.67\ \text{fb}^{-1}$} \\
+& /DoubleEG/Run2015D-16Dec2015-v2 &\\
+& /MuonEG/Run2015D-16Dec2015-v1 &\\
+& /SingleElectron/Run2015D-16Dec2015-v1 &\\
+\hline %----------------------------------------------------------------------------------------
+\hline %----------------------------------------------------------------------------------------
+     \end{tabular}
+\small
+    \caption{ Datasets used in the analysis. }
+    \label{tab:datasets_data}
+\end{table}
+
+
+
+\begin{table}[h]
+\scriptsize
+    \centering
+    \begin{tabular}{|l|l|c|l|}
+\hline %--------------------------------------------------------------------------------------------------------------------------
+HLT path                                                       & L1 seed                          & prescale  & primary dataset \\
+\hline %--------------------------------------------------------------------------------------------------------------------------
+\verb| HLT_Ele17_Ele12_CaloIdL_TrackIdL_IsoVL_DZ       | & \verb| L1_DoubleEG_15_10   |  & 1 & DoubleEG \\
+\verb| HLT_Ele16_Ele12_Ele8_CaloIdL_TrackIdL           | & \verb| L1_TripleEG_14_10_8 |  & 1 & DoubleEG \\
+\verb| HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_DZ             | & \verb| L1_DoubleMu_10_3p5  |  & 1 & DoubleMuon \\
+\verb| HLT_Mu17_TrkIsoVVL_TkMu8_TrkIsoVVL_DZ           | & \verb| L1_DoubleMu_10_3p5  |  & 1 & DoubleMuon \\
+\verb| HLT_TripleMu_12_10_5                            | & \verb| L1_TripleMu_5_5_3   |  & 1 & DoubleMuon \\
+\verb| HLT_Mu8_TrkIsoVVL_Ele17_CaloIdL_TrackIdL_IsoVL  | & \verb| L1_Mu5_EG15         |  & 1 & MuonEG \\
+\verb| HLT_Mu17_TrkIsoVVL_Ele12_CaloIdL_TrackIdL_IsoVL | & \verb| L1_Mu12_EG10        |  & 1 & MuonEG \\
+\verb| HLT_Mu8_DiEle12_CaloIdL_TrackIdL                | & \verb| L1_Mu6_DoubleEG10   |  & 1 & MuonEG \\
+\verb| HLT_DiMu9_Ele9_CaloIdL_TrackIdL                 | & \verb| L1_DoubleMu7_EG7    |  & 1 & MuonEG \\
+%old one in Spring15: \verb| HLT_Ele27_WPLoose_Gsf                           | & \begin{tabular}{@{}c@{}} \verb| L1_SingleIsoEG20er | \\ \verb| OR L1_SingleEG20 | \\ \verb| OR L1_SingleEG25 | \end{tabular} & 1 & SingleElectron \\
+\verb| HLT_Ele23_WPLoose_Gsf                           | & \begin{tabular}{@{}c@{}} \verb| L1_SingleEG20 | \\ \verb| OR L1_SingleIsoEG18er | \\ \verb| OR L1_SingleIsoEG20 | \end{tabular} & 1 & SingleElectron \\
+\hline %--------------------------------------------------------------------------------------------------------------------------
+    \end{tabular}
+\small
+    \caption{Trigger paths used in 2015 collision data.}
+    \label{tab:triggerPaths}
+\end{table}
+\subsection{Simulation Samples}
+ Descriptions of the SM Higgs boson production are obtained using the {\sc powheg V2}~\cite{Alioli:2008gx,Nason:2004rx,Frixione:2007vw} generator for the
+ five main production modes:
+gluon fusion ($\ggH$) including quark mass effects~\cite{Bagnaschi:2011tu}, vector boson fusion (VBF)~\cite{Nason:2009ai}, and associated production
+(WH, $\Z$H and \ttbar$\,$H~\cite{Hartanto:2015uka}). In the case of WH and $\Z$H the {\sc MiNLO HVJ}
+extension of {\sc powheg} is used~\cite{Luisoni:2013kna}. The description of the decay of the Higgs boson to four leptons is obtained using the
+{\sc JHUgen} generator~\cite{Gao:2010qx}. In the case of WH, $\Z$H and $\ttH$, the Higgs boson is allowed
+to decay to H$\to \Z \Z \to 2\ell2$X such that 4-lepton events where two leptons originate from the decay of associated $\Z$, W bosons or top
+quarks are also taken into account in the simulation. Showering of parton-level events is
+done using {\sc pythia8.209}, and in all cases matching is performed by allowing QCD emissions at all energies in the shower and vetoing them afterwards
+according to the {\sc powheg} internal scale. All samples are generated with
+the NNPDF 3.0 NLO parton distribution functions (PDFs)~\cite{Ball:2014uwa}. The list of signal samples and their cross sections are shown in 
+Table~\ref{tab:SignalSamples}.
+\begin{table}
+\begin{scriptsize}
+    \centering
+    \begin{tabular}{|l|r|}
+   \hline
+  Dataset Name & $\sigma\times BR (\times\epsilon_{\text{filter}})$ \\ \hline
+  /GluGluHToZZTo4L\_M125\_13TeV\_powheg2\_JHUgenV6\_pythia8/[1] & $12.18~\rm{fb}$ \\ % & $12.12~\rm{fb}$ \\
+  /VBF\_HToZZTo4L\_M125\_13TeV\_powheg2\_JHUgenV6\_pythia8/[1] & $1.044~\rm{fb}$ \\ % $1.034~\rm{fb}$ \\
+  /WplusH\_HToZZTo4L\_M125\_13TeV\_powheg2-minlo-HWJ\_JHUgenV6\_pythia8/[1] & $0.232~\rm{fb}$ \\ % $0.2339~\rm{fb}$ \\
+  /WminusH\_HToZZTo4L\_M125\_13TeV\_powheg2-minlo-HWJ\_JHUgenV6\_pythia8/[1] & $0.147~\rm{fb}$ \\ % $0.1471~\rm{fb}$ \\
+  /ZH\_HToZZ\_4LFilter\_M125\_13TeV\_powheg2-minlo-HZJ\_JHUgenV6\_pythia8/[1] & $0.668~\rm{fb}$ \\ % $0.652~\rm{fb}$ \\
+ /ttH\_HToZZ\_4LFilter\_M125\_13TeV\_powheg\_JHUgen\_pythia8/[1] & $0.393~\rm{fb}$ \\ % $0.337~\rm{fb}$ \\ 
+ \hline
+ \multicolumn{3}{l}{[1] RunIIFall15MiniAODv*-PU25nsData2015v1\_76X\_mcRun2\_asymptotic\_v12-v*}\\
+% \multicolumn{3}{l}{[2] RunIISpring15MiniAODv*-74X\_mcRun2\_asymptotic\_v2-v*}\\
+ \end{tabular}
+ \caption{Signal Monte Carlo samples and cross sections.}
+  \label{tab:SignalSamples}
+\end{scriptsize}
+\end{table}
+%%%%%%%%%%
+
+Production of $\Z\Z$ via quark-antiquark annihilation is generated at
+next-to-leading order (NLO) using {\sc powheg V2}~\cite{Nason:2013ydw}
+and {\sc pythia8}, with
+the same settings as for the Higgs signal. As this simulation covers a large
+range of ZZ invariant masses, dynamical QCD factorization and renormalization
+scales have been chosen, equal to $m_{\Z\Z}$.
+
+The $\Pg\Pg \to \Z\Z$ process is simulated at leading order (LO)
+with MCFM~\cite{MCFM,Campbell:2013una}. In order to match the
+$\Pg\Pg \to \mathrm{H} \to \Z\Z$ transverse momentum spectra predicted
+by {\sc powheg} at NLO, the showering for MCFM samples is performed with
+different {\sc pythia8} settings, allowing only emissions up to the parton-level scale
+(``wimpy'' shower).
+
+Although not directly used to model data observations, additional
+MC samples of W$\Z$, Drell-Yan+jets, $\TTbar$, and tribosons are
+generated using {\sc MadGraph5\_aMCatNLO}~\cite{Alwall:2014hca} either
+inclusively or merging several jet multiplicities.
+Table~\ref{tab:MCsamples} summarizes the simulation samples used for this analysis.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+
+ \begin{table}
+\begin{footnotesize}
+    \centering
+    \begin{tabular}{|l|r|}
+   \hline
+  Dataset Name & $\sigma\cdot BR$ \\ \hline
+  /ZZTo4L\_13TeV\_powheg\_pythia8/[1] & $1.256 \rm{pb}$ \\
+  /ZZTo4L\_13TeV-amcatnloFXFX-pythia8/[1] & $1.212 \rm{pb}$ \\
+  /GluGluToContinToZZTo4e\_13TeV\_MCFM701/[1] & $0.00159 \rm{ pb}$ \\
+  /GluGluToContinToZZTo4mu\_13TeV\_MCFM701/[1] & $0.00159 \rm{ pb}$ \\
+  /GluGluToContinToZZTo4tau\_13TeV\_MCFM701/[1] & $0.00159 \rm{ pb}$ \\
+  /GluGluToContinToZZTo2e2mu\_13TeV\_MCFM701/[1] & $0.00319 \rm{ pb}$ \\
+  /GluGluToContinToZZTo2e2tau\_13TeV\_MCFM701/[1] & $0.00319 \rm{ pb}$ \\
+  /GluGluToContinToZZTo2mu2tau\_13TeV\_MCFM701/[1] & $0.00319 \rm{ pb}$ \\ \hline
+  /DYJetsToLL\_M-50\_TuneCUETP8M1\_13TeV-amcatnloFXFX-pythia8/[1] & $6104 \rm{ pb}$ \\
+  /DYJetsToLL\_M-10to50\_TuneCUETP8M1\_13TeV-amcatnloFXFX-pythia8/[1] & $18610 \rm{ pb}$ \\ \hline
+  /WZJets\_TuneCUETP8M1\_13TeV-amcatnloFXFX-pythia8/[1] &  $5.29 \rm{pb}$ \\
+  /WZTo3LNu\_TuneCUETP8M1\_13TeV-powheg-pythia8/[1] & $4.430 \rm{ pb}$ \\ \hline
+  /TTJets\_TuneCUETP8M1\_13TeV-amcatnloFXFX-pythia8/[1] & $815.96 \rm{ pb}$ \\
+  /TTTo2L2Nu\_13TeV-powheg/[1] &  $87.31 \rm{pb}$ \\ \hline
+  /WWZ\_TuneCUETP8M1\_13TeV-amcatnlo-pythia8/[2] & $0.1651 \rm{ pb}$ \\
+  /WZZ\_TuneCUETP8M1\_13TeV-amcatnlo-pythia8/[2] & $0.05565 \rm{ pb}$ \\
+ /ZZZ\_TuneCUETP8M1\_13TeV-amcatnlo-pythia8/[2] & $0.01398 \rm{ pb}$ \\ \hline
+ \multicolumn{3}{l}{[1] RunIIFall15MiniAODv*-PU25nsData2015v1\_76X\_mcRun2\_asymptotic\_v12-v*}\\
+ \multicolumn{3}{l}{[2] RunIISpring15MiniAODv*-74X\_mcRun2\_asymptotic\_v2-v*}\\
+ \end{tabular}
+ \caption{Background Monte Carlo samples and cross sections.}
+  \label{tab:MCsamples}
+\end{footnotesize}
+\end{table}
+\subsubsection{Event Selection} 
+  The event selection is similar to Run I as described in~Section~\ref{sec:events_selection} with following exceptions mentioned below
+  \begin{itemize}
+   \item{\bf FSR Photons} are attached with leptons at Run II while with $\Z_{1}/\Z_{2}$ at Run I.
+   \item {\bf 'smart cut'}: defining $\Z_{a}$ and $ Z_{b}$ as
+     the mass-sorted alternative pairing Z candidates
+     (${\rm Z_a}$ being the one closest to the nominal Z boson mass),
+     require NOT($|m_{\rm Za}-m_{\rm Z}| < |m_{\rm Z1}-m_{\rm Z}|$ AND $m_{\rm Zb}<12$).
+     Selected FSR photons are included in $m_{\rm Z}$'s computations.
+     This cut discards $4\mu$ and $4e$ candidates where the alternative pairing
+     looks like an on-shell Z + low-mass $\ell^+ \ell^-$.
+     (NB. In Run I, such a situation was avoided by choosing the best ZZ candidate
+     before applying kinematic cuts to it, most precisely before the $m_{\rm Z2} > 12~\GeVcc$ cut.
+     The present smart cut allows to choose the best ZZ candidate after all kinematic cuts.)
+     \item Unlike in the Run I analysis, the best ZZ candidate is now chosen after all kinematic cuts, a change that allows to test other
+     selection strategies for this candidate choice. This is especially relevant for events with more than four selected leptons, having
+     in mind the search for the Higgs boson production modes where associated particles can decay to leptons, such as VH and ttH.
+  \end{itemize}
+ Figure~\ref{fig:Mass4l} for the full dataset, and compared to
+expectations from the SM backgrounds, first for the full mass range,
+and then zooming on the low-mass range.
+
+ \begin{figure}[!htb]
+\vspace*{0.3cm}
+\begin{center}
+\includegraphics[width=0.56\textwidth]{Chapters/Chapter6_Figures/c_M4lV2_4l_.pdf}
+\includegraphics[width=0.43\textwidth]{Chapters/Chapter6_Figures/c_M4l_70182_4l_.pdf}
+\caption{Distribution of the four-lepton reconstructed invariant mass $\mllll$ in the full mass range (left) and the low-mass range
+(right). Points with error bars represent the data and stacked histograms represent expected distributions. The $125~\GeV$ Higgs boson
+signal and the $\Z\Z$ backgrounds are normalized
+to the SM expectation, the $\Z$+X background to the estimation from data.
+\label{fig:Mass4l}}
+\end{center}
+\end{figure}  
+\subsection{Analysis Strategy}
+ The fiducial phase space definition is consistent with Run I measurement described in Section~\ref{sec:FiducialVolume}. The only difference 
+ with respect to Run I is that leptons are defined as "dressed `` leptons instead of ''born-level`` leptons. Dressed leptons are defined by 
+ adding the four-momentum of all photons within cone of radius $\Delta R < 0.4$  around bare leptons.
+ \par The background modeling and statistical procedure of maximizing likelihood and extraction of parameter of interest ($\sigma_{fid}$) is also 
+ identical as described in Sections~\ref{sec:background_model} and~\ref{sec:SignalStatProcedure}.
+ \par The Fiducial acceptance ($A_{fid}$), Fiducial efficiencies (reconstruction efficiency ($\epsilon$)) per final state  are extracted in
+ similar way and listed in Tables~\ref{tab:acceptanceSM_Run2}~and~\ref{tab:efficiencySM_Run2}.
+ \begin{table}[!h!tb]
+\begin{center}
+\small
+\caption{
+Fiducial volume acceptance per final state for different Standard Model signal models. The numbers quoted are for $m({\rm H})=125~\GeV$.
+\label{tab:acceptanceSM_Run2}
+}
+\begin{tabular}{|l|c|c|c|c|} \hline
+Sample & $4e$ & $4\mu$ & $2e2\mu$ & $4\ell$ \\ \hline
+
+gg$\rightarrow$H & 0.359 $\pm$ 0.001 & 0.395 $\pm$ 0.001 & 0.365 $\pm$ 0.001 & 0.371 $\pm$ 0.001 \\
+gg$\rightarrow$H & 0.375 $\pm$ 0.001 & 0.400 $\pm$ 0.001 & 0.378 $\pm$ 0.001 & 0.382 $\pm$ 0.001 \\
+VBF & 0.409 $\pm$ 0.002 & 0.447 $\pm$ 0.002 & 0.415 $\pm$ 0.001 & 0.422 $\pm$ 0.001 \\
+WH  & 0.272 $\pm$ 0.002 & 0.293 $\pm$ 0.002 & 0.271 $\pm$ 0.001 & 0.277 $\pm$ 0.001 \\
+ZH  & 0.294 $\pm$ 0.003 & 0.317 $\pm$ 0.003 & 0.298 $\pm$ 0.002 & 0.302 $\pm$ 0.002 \\
+ttH & 0.232 $\pm$ 0.003 & 0.257 $\pm$ 0.003 & 0.234 $\pm$ 0.002 & 0.239 $\pm$ 0.001 \\
+
+\hline
+\end{tabular}
+\normalsize
+\end{center}
+\end{table}
+The variation between different models of the factor in the final column of Table~\ref{tab:summarySM_Run2}, $(1+f_{\rm{nonfid}})\epsilon$, is directly
+related to the model dependence of the measurement. The model dependence is defined as the variation of the factor
+$(1+f_{\rm{nonfid}})\epsilon$ when the relative fraction of each the production modes are varied within there experimental constraints. The change
+in the isolation working point (based on the studies in Sections \ref{sec:muoniso} and \ref{sec:eleiso} ) at reconstruction level in the current analysis increases the model dependence compared to the Run I analysis.
+In order to reduce this model dependence the definition of the isolation at the fiducial level can be changed to match more closely the reconstruction
+level. If the fiducial isolation definition is updated to use a cone size of 0.3 and a cut of 0.35 the difference 
+of $~20\%$ between $\ggH$ and $\ttH$ in the factor $(1+f_{\rm{nonfid}})\epsilon$ in Table~\ref{tab:summarySM_Run2} is reduced to $2\%$.
+
+ \begin{table}[!h!tb]
+\begin{center}
+\small
+\caption{
+Reconstruction efficiency ($\epsilon$) for fiducial events per final state for different Standard Model signal models.
+\label{tab:efficiencySM_Run2}
+}
+\begin{tabular}{|l|c|c|c|c|} \hline
+Sample & $4e$ & $4\mu$ & $2e2\mu$ & $4\ell$ \\ \hline
+gg$\rightarrow$H 125 $\GeV$ & 0.535 $\pm$ 0.002 & 0.871 $\pm$ 0.002 & 0.682 $\pm$ 0.002 & 0.697 $\pm$ 0.001 \\
+VBF 125 $\GeV$ & 0.550 $\pm$ 0.003 & 0.877 $\pm$ 0.002 & 0.691 $\pm$ 0.002 & 0.707 $\pm$ 0.001 \\
+WH 125 $\GeV$ & 0.526 $\pm$ 0.004 & 0.860 $\pm$ 0.003 & 0.672 $\pm$ 0.003 & 0.686 $\pm$ 0.002 \\
+ZH 125 $\GeV$ & 0.546 $\pm$ 0.006 & 0.869 $\pm$ 0.004 & 0.679 $\pm$ 0.004 & 0.697 $\pm$ 0.003 \\
+ttH 125 $\GeV$ & 0.545 $\pm$ 0.007 & 0.840 $\pm$ 0.005 & 0.673 $\pm$ 0.005 & 0.687 $\pm$ 0.003 \\
+
+\hline
+\end{tabular}
+\normalsize
+\end{center}
+\end{table}
+%%%%%
+\begin{table}[!h!tb]
+\begin{center}
+\small
+\caption{
+Ratio of reconstructed events which are from outside the fiducial phase space and reconstructed events which are from within the fiducial phase space ($f_{nonfid}$) per final state for different Standard Model signal models.
+\label{tab:foutSM_Run2}
+}
+\begin{tabular}{|l|c|c|c|c|} \hline
+Sample & $4e$ & $4\mu$ & $2e2\mu$ & $4\ell$ \\ \hline
+gg$\rightarrow$H 125 $\GeV$ & 0.116 $\pm$ 0.002 & 0.114 $\pm$ 0.002 & 0.121 $\pm$ 0.002 & 0.118 $\pm$ 0.001 \\
+VBF 125 $\GeV$ & 0.086 $\pm$ 0.003 & 0.081 $\pm$ 0.002 & 0.090 $\pm$ 0.002 & 0.086 $\pm$ 0.001 \\
+WH 125 $\GeV$ & 0.169 $\pm$ 0.005 & 0.156 $\pm$ 0.003 & 0.168 $\pm$ 0.003 & 0.164 $\pm$ 0.002 \\
+ZH 125 $\GeV$ & 0.162 $\pm$ 0.007 & 0.166 $\pm$ 0.006 & 0.181 $\pm$ 0.005 & 0.172 $\pm$ 0.003 \\
+ttH 125 $\GeV$ & 0.442 $\pm$ 0.015 & 0.399 $\pm$ 0.011 & 0.424 $\pm$ 0.010 & 0.419 $\pm$ 0.007 \\
+
+\hline
+\end{tabular}
+\normalsize
+\end{center}
+\end{table}
+
+
+\begin{table}[!h!tb]
+\begin{center}
+\small
+\caption{
+Summary of different Standard Model signal models.
+\label{tab:summarySM_Run2}
+}
+\begin{tabular}{|l|c|c|c|c|} \hline \hline
+\textbf{Signal process} & $\mathcal{A}_{\rm fid}$ & $\epsilon$ & $f_{\rm nonfid}$  & $(1+f_{\rm nonfid})\epsilon$ \\ \hline \hline
+\multicolumn{5}{|c|}{Individual Higgs boson production modes} \\ \hline
+gg$\rightarrow$H 125 $\GeV$ & 0.382 & 0.697 $\pm$ 0.001 & 0.118 $\pm$ 0.001 & 0.779 $\pm$ 0.001 \\
+VBF 125 $\GeV$ & 0.422 & 0.707 $\pm$ 0.001 & 0.086 $\pm$ 0.001 & 0.768 $\pm$ 0.002 \\
+WH 125 $\GeV$ & 0.277 & 0.686 $\pm$ 0.002 & 0.164 $\pm$ 0.002 & 0.799 $\pm$ 0.003 \\
+ZH 125 $\GeV$ & 0.302 & 0.697 $\pm$ 0.003 & 0.172 $\pm$ 0.003 & 0.817 $\pm$ 0.004 \\
+ttH 125 $\GeV$ & 0.239 & 0.687 $\pm$ 0.003 & 0.419 $\pm$ 0.007 & 0.975 $\pm$ 0.006 \\
+\hline \hline
+\end{tabular}
+\normalsize
+\end{center}
+\end{table}
+%%%%%%%%%
+
+%%%%%%%%%
+\subsubsection{Signal Shape Parameterization}
+ \par The signal line shape is also parametrized as a function of $m(\rm{H})$ in the inclusive category to be used. This is accomplished by
+performing a simultaneous fit of several mass points for $\ggH$ production around 125~\GeV. Each parameter of the double crystal ball 
+function is set to be a linear function of $m(\rm{H})$ for a total of 12 free parameters. The correlation among these 12 parameters is 
+checked and parameters are dropped to remove large correlations, or if the parameter is constant within the uncertainty. The resulting fits
+after the final set of parameters is obtained are shown in Figures~\ref{fig:sigShapeSimFit120}-\ref{fig:sigShapeSimFit130}. The correlation
+matrix is shown in Figure~\ref{fig:sigShapeSimFitCorrelation} and the $\chi^{2}/$ndof for each mass point is shown in 
+Figure~\ref{fig:sigShapeSimFitChi2}
+\begin{figure}[!h]
+\centering
+\includegraphics[width=0.3\linewidth]{{Chapters/Chapter6_Figures/TEST11_SIM_ggH_powheg15_JHUgen_120_2e2mu_inclusive_mass4l_genbin0_recobin0_effs_dataMCWeight}.pdf}
+\includegraphics[width=0.3\linewidth]{{Chapters/Chapter6_Figures/TEST11_SIM_ggH_powheg15_JHUgen_120_4mu_mass4l_genbin0_recobin0_effs_dataMCWeight}.pdf}
+\includegraphics[width=0.3\linewidth]{{Chapters/Chapter6_Figures/TEST11_SIM_ggH_powheg15_JHUgen_120_4e_mass4l_genbin0_recobin0_effs_dataMCWeight}.pdf} \\
+\caption{Simultaneous fit result for $m(\rm{H})=120\GeV$. \label{fig:sigShapeSimFit120}}
+\end{figure}
+
+\begin{figure}[!h]
+\centering
+\includegraphics[width=0.3\linewidth]{{Chapters/Chapter6_Figures/TEST11_SIM_ggH_powheg15_JHUgen_124_2e2mu_inclusive_mass4l_genbin0_recobin0_effs_dataMCWeight}.pdf}
+\includegraphics[width=0.3\linewidth]{{Chapters/Chapter6_Figures/TEST11_SIM_ggH_powheg15_JHUgen_124_4mu_mass4l_genbin0_recobin0_effs_dataMCWeight}.pdf}
+\includegraphics[width=0.3\linewidth]{{Chapters/Chapter6_Figures/TEST11_SIM_ggH_powheg15_JHUgen_124_4e_mass4l_genbin0_recobin0_effs_dataMCWeight}.pdf} \\
+\caption{Simultaneous fit result for $m(\rm{H})=124\GeV$. \label{fig:sigShapeSimFit124}}
+\end{figure}
+
+\begin{figure}[!h]
+\centering
+\includegraphics[width=0.3\linewidth]{{Chapters/Chapter6_Figures/TEST11_SIM_ggH_powheg15_JHUgen_125_2e2mu_inclusive_mass4l_genbin0_recobin0_effs_dataMCWeight}.pdf}
+\includegraphics[width=0.3\linewidth]{{Chapters/Chapter6_Figures/TEST11_SIM_ggH_powheg15_JHUgen_125_4mu_mass4l_genbin0_recobin0_effs_dataMCWeight}.pdf}
+\includegraphics[width=0.3\linewidth]{{Chapters/Chapter6_Figures/TEST11_SIM_ggH_powheg15_JHUgen_125_4e_mass4l_genbin0_recobin0_effs_dataMCWeight}.pdf} \\
+\caption{Simultaneous fit result for $m(\rm{H})=125\GeV$. \label{fig:sigShapeSimFit125}}
+\end{figure}
+
+\begin{figure}[!h]
+\centering
+\includegraphics[width=0.3\linewidth]{{Chapters/Chapter6_Figures/TEST11_SIM_ggH_powheg15_JHUgen_126_2e2mu_inclusive_mass4l_genbin0_recobin0_effs_dataMCWeight}.pdf}
+\includegraphics[width=0.3\linewidth]{{Chapters/Chapter6_Figures/TEST11_SIM_ggH_powheg15_JHUgen_126_4mu_mass4l_genbin0_recobin0_effs_dataMCWeight}.pdf}
+\includegraphics[width=0.3\linewidth]{{Chapters/Chapter6_Figures/TEST11_SIM_ggH_powheg15_JHUgen_126_4e_mass4l_genbin0_recobin0_effs_dataMCWeight}.pdf} \\
+\caption{Simultaneous fit result for $m(\rm{H})=126\GeV$. \label{fig:sigShapeSimFit126}}
+\end{figure}
+
+\begin{figure}[!h]
+\centering
+\includegraphics[width=0.3\linewidth]{{Chapters/Chapter6_Figures/TEST11_SIM_ggH_powheg15_JHUgen_130_2e2mu_inclusive_mass4l_genbin0_recobin0_effs_dataMCWeight}.pdf}
+\includegraphics[width=0.3\linewidth]{{Chapters/Chapter6_Figures/TEST11_SIM_ggH_powheg15_JHUgen_130_4mu_mass4l_genbin0_recobin0_effs_dataMCWeight}.pdf}
+\includegraphics[width=0.3\linewidth]{{Chapters/Chapter6_Figures/TEST11_SIM_ggH_powheg15_JHUgen_130_4e_mass4l_genbin0_recobin0_effs_dataMCWeight}.pdf} \\
+\caption{Simultaneous fit result for $m(\rm{H})=130\GeV$. \label{fig:sigShapeSimFit130}}
+\end{figure}
+
+\begin{figure}[!h]
+\centering
+\includegraphics[width=0.3\linewidth]{{Chapters/Chapter6_Figures/TEST11_SIM_correlation_matrix_2e2mu_inclusive_mass4l_genbin0_recobin0_effs_dataMCWeight}.pdf}
+\includegraphics[width=0.3\linewidth]{{Chapters/Chapter6_Figures/TEST11_SIM_correlation_matrix_4mu_mass4l_genbin0_recobin0_effs_dataMCWeight}.pdf}
+\includegraphics[width=0.3\linewidth]{{Chapters/Chapter6_Figures/TEST11_SIM_correlation_matrix_4e_mass4l_genbin0_recobin0_effs_dataMCWeight}.pdf} \\
+\caption{Simultaneous fit correlation matrix. \label{fig:sigShapeSimFitCorrelation}}
+\end{figure}
+
+\begin{figure}[!h]
+\centering
+\includegraphics[width=0.3\linewidth]{{Chapters/Chapter6_Figures/TEST11_SIM_chisquare_2e2mu_inclusive_mass4l_genbin0_recobin0_effs_dataMCWeight}.pdf}
+\includegraphics[width=0.3\linewidth]{{Chapters/Chapter6_Figures/TEST11_SIM_chisquare_4mu_mass4l_genbin0_recobin0_effs_dataMCWeight}.pdf}
+\includegraphics[width=0.3\linewidth]{{Chapters/Chapter6_Figures/TEST11_SIM_chisquare_4e_mass4l_genbin0_recobin0_effs_dataMCWeight}.pdf} \\
+\caption{Simultaneous fit $\chi^{2}$/ndof as a function of $m(\rm{H})$. \label{fig:sigShapeSimFitChi2}}
+\end{figure}
+ \subsection{Systematic uncertainties}
+  All the Systematic uncertainties which affect the $H \rightarrow 4\ell$~measurements are summarized in Table~\ref{tab:SystOverview}}. 
+  \begin{table}
+\begin{center}
+\small
+\caption{
+Summary of the systematic uncertainties in the $\Hllll$ measurements.
+\label{tab:SystOverview}
+}
+\begin{tabular}{|lc|}
+\hline %---------------------------------------------------------
+\hline %---------------------------------------------------------
+\multicolumn{2}{|c|}{\textbf{Summary of relative systematic uncertainties}} \\
+\hline %---------------------------------------------------------
+\hline %---------------------------------------------------------
+\multicolumn{2}{|c|}{Common experimental uncertainties} \\
+\hline %---------------------------------------------------------
+\vspace{-0.4cm} & \\
+Luminosity & 2.7 \%  \\
+\vspace{-0.4cm} & \\
+Lepton identification/reconstruction efficiencies & 4 -- 9 \% \\
+%\vspace{-0.4cm} & \\
+\hline %---------------------------------------------------------
+\hline %---------------------------------------------------------
+\multicolumn{2}{|c|}{Background related uncertainties} \\
+\hline %--------------------------------------------------------
+\vspace{-0.4cm} & \\
+QCD scale ($\Pq\Pq\Z\Z$, $\Pg\Pg\Z\Z$) & 3 -- 10 \% \\
+\vspace{-0.4cm} & \\
+PDF set ($\Pq\Pq\Z\Z$, $\Pg\Pg\Z\Z$) & 3 -- 5 \% \\
+\vspace{-0.4cm} & \\
+Electroweak corrections ($\Pq\Pq\Z\Z$) & 1 -- 15 \% \\
+\vspace{-0.4cm} & \\
+$\Pg\Pg\Z\Z$ K factor & 10 \% \\
+\vspace{-0.4cm} & \\
+Reducible background ($\Z+X$) & 40 -- 90 \% \\
+\vspace{-0.4cm} & \\
+VBF tagging efficiency (experimental) & 7 -- 14 \% \\
+VBF tagging efficiency (theoretical) & 15 -- 25 \% \\
+%\vspace{-0.4cm} & \\
+\hline %---------------------------------------------------------
+\hline %---------------------------------------------------------
+\multicolumn{2}{|c|}{Signal related uncertainties} \\
+\hline %---------------------------------------------------------
+\vspace{-0.4cm} & \\
+QCD scale (${\rm q}\bar{\rm q}\to{\rm VBF/VH}$, ${\rm gg}\to{\rm H/ttH}$) & 3 -- 10 \% \\
+\vspace{-0.4cm} & \\
+PDF set (${\rm q}\bar{\rm q}\to{\rm VBF/VH}$, ${\rm gg}\to{\rm H/ttH}$) & 3 -- 4 \% \\
+\vspace{-0.4cm} & \\
+Acceptance & 2 \% \\
+\vspace{-0.4cm} & \\
+BR($\HZZllll$) & 2 \% \\
+\vspace{-0.4cm} & \\
+Lepton energy scale & 0.04 -- 0.3 \% \\
+\vspace{-0.4cm} & \\
+Lepton energy resolution & 20 \% \\
+\vspace{-0.4cm} & \\
+VBF tagging efficiency (experimental) & 2 -- 7 \% \\
+VBF tagging efficiency (theoretical) & 5 -- 15 \% \\
+%\vspace{-0.4cm} & \\
+\hline %---------------------------------------------------------
+\hline %---------------------------------------------------------
+\end{tabular}
+\normalsize
+\end{center}
+\end{table}
+\subsection{Results}
+The result of the simultaneous fit to to the $\mllll$ spectrum is shown for each final state in Fig.~\ref{fig:fiducialfit}. The fiducial cross section
+using this definition is measured to be:
+
+\begin{eqnarray}
+\label{eqn:fidresult}
+\sigma_{{\rm fid.}}=2.48^{+1.45}_{-1.12}({\rm stat.})^{+0.28}_{-0.17}({\rm sys.})^{+0.01}_{-0.04}({\rm model~dep.})~{\rm fb}
+\end{eqnarray}
+
+This can be compared to the SM expectation $\sigma_{{\rm fid.}}^{\rm SM}=2.39~{\rm fb}$. The fiducial cross section measured using the updated
+fiducial lepton isolation definition is measured to be $\sigma_{{\rm fid.}}=2.66^{+1.58}_{-1.22}~{\rm fb}$ with model dependence less
+than $1\%$, and can be compared to the SM expectation of $\sigma_{{\rm fid.}}^{\rm SM}=2.50~{\rm fb}$.
+\begin{figure}[!h]
+\centering
+\includegraphics[width=0.45\linewidth]{Chapters/Chapter6_Figures/data_unfoldwith_SM_125_v2_mass4l_4e_recobin0.pdf}
+\includegraphics[width=0.45\linewidth]{Chapters/Chapter6_Figures/data_unfoldwith_SM_125_v2_mass4l_4mu_recobin0.pdf} \\
+\includegraphics[width=0.45\linewidth]{Chapters/Chapter6_Figures/data_unfoldwith_SM_125_v2_mass4l_2e2mu_recobin0.pdf}
+\includegraphics[width=0.45\linewidth]{Chapters/Chapter6_Figures/data_unfoldwith_SM_125_v2_mass4l_4l_recobin0.pdf}
+\caption{Result of simultaneous fit for the fiducial cross section measurement in each final state. \label{fig:fiducialfit}}
+\end{figure}
+\begin{figure}[!h]
+\centering
+\includegraphics[width=0.68\linewidth]{Chapters/Chapter6_Figures/mass4l_unfoldwith_SM_125.pdf}
+\caption{Result of the fiducial cross section measurement in each final state. \label{fig:fiducialresult}}
+\end{figure}
+
+
+\section{Higgs Fiducial Cross Section Measurements vs. $\sqrt{s}$}
+Figure \ref{fig:fiducialresult} shows the inclusive fiducial cross section as a function of $\sqrt{s}$ for 7, 8 and 13~TeV. The measurements are compared
+with theoretical prediction based on SM calculations. The total uncertainties is represented by error bars can be splitted into statistical (black) and 
+systematic (red), combined in quadrature. The model dependence is shown in grey box.  Theoretical predictions along with their uncertainties are shown in 
+blue at the NNLL+NNLO accuracy. The acceptance are estimated at parton level using {\sc HRes} for the dominant $\ggH$ production mode, the hadronization
+effects are been included by using {\sc Pythia 6.4}} and {\sc powheg+JHUgen}. 
+\begin{figure}[!h]
+\centering
+\includegraphics[width=0.75\linewidth]{Chapters/Chapter6_Figures/xs_vs_sqrts.pdf}
+\caption{Higgs Fiducial cross section measurement as a function of $\sqrt{s}$}
+
+\label{fig:fiducialresult}
+\end{figure}
+%----------------------------------------------------------------------------------------
+
+

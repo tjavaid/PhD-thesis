@@ -1,0 +1,722 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {english}{}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Transverse momentum distribution of each of four decayed electrons from 125~GeV Higgs boson. The distributions are attained using MC signal samples and shows at generator level within $\eta $ acceptance (empty histogram) and selected events (filled histogram) in four electron channel. \relax }}{2}{figure.caption.6}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces BDT output for the training and testing sample for true and fake electrons in the two $|\eta | < 0.8$ training bins at $\sqrt {s} = 13$~TeV.\relax }}{5}{figure.caption.10}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces BDT output for the training and test sample for the signal and the fake electrons in the barrel (left) and endcap (right) regions at $\sqrt {s} = 8$~TeV.\relax }}{6}{figure.caption.11}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces BDT output distribution on data for electrons with $p_T>10$ GeV from Z boson decays at $\sqrt {s} = 13$~TeV. MC distributions are normalized to the data.\relax }}{7}{figure.caption.12}
+\contentsline {figure}{\numberline {1.5}{\ignorespaces ROC curves of the identification classifier for each training category with working point efficiencies marked by a diamond. The red curves correspond to the improved classifier used in the analysis, while the light blue curves show a retraining of the legacy MVA MC samples at $\sqrt {s} = 13$~TeV.\relax }}{9}{figure.caption.14}
+\contentsline {figure}{\numberline {1.6}{\ignorespaces ROC curves for the electron multivariate identification (Boosted Decision Trees) compared with the cut-based selection working points for 8~TeV. Signal from Drell-Yan Monte Carlo simulation sample. Background from jets faking electrons in a data sample dominated by Z+jets. Electron candidates with $>$ 20 \GeV are shown. Left: Barrel. Right: Endcap\relax }}{10}{figure.caption.16}
+\contentsline {figure}{\numberline {1.7}{\ignorespaces The Method to calculate PF based isolation.\relax }}{12}{figure.caption.26}
+\contentsline {figure}{\numberline {1.8}{\ignorespaces Average energy flow in electron isolation cone of $\Delta R = 0.4$, before and after the pileup corrections, for identified electrons with a $Z\to \ell \ell $ selection in 2012 data. Electron candidates are selected by $p_T>$20$~$GeV and $|\eta |<$1.\relax }}{12}{figure.caption.28}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{12}{figure.caption.28}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{12}{figure.caption.28}
+\contentsline {figure}{\numberline {1.9}{\ignorespaces ROC curves for isolation efficiency. The red curves correspond to cone 0.3, while the blue curve is for cone 0.4. \relax }}{13}{figure.caption.32}
+\contentsline {figure}{\numberline {1.10}{\ignorespaces Effect of electron energy corrections and smearing for single-$\mathrm {Z}$ events with both electrons in the barrel (left), one electron in the barrel and one in the endcaps (middle), and both electrons in the endcaps (right). Plots in the top row are uncorrected, and plots in the bottom row have the corrections and smearing applied. \relax }}{14}{figure.caption.35}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{14}{figure.caption.35}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{14}{figure.caption.35}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{14}{figure.caption.35}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{14}{figure.caption.35}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{14}{figure.caption.35}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{14}{figure.caption.35}
+\contentsline {figure}{\numberline {1.11}{\ignorespaces Data to simulation comparison, for $\mathrm {Z}\to \ensuremath {\mathrm {e}}\ensuremath {\mathrm {e}}$ events. Red filled histogram represents the un-smeared simulation. Black histogram represents the simulation after the smearings have been applied, and points represents 8 \TeV data in the ``January 22'' re-reco with the scale corrections applied. Left: events with both electrons with $\delimiter "026A30C \eta \delimiter "026A30C <$1 and $R_9<$0.94. Right: events with one electron with $\delimiter "026A30C \eta \delimiter "026A30C <$1 and $R_9<$0.94 and the other electron with 1.566$<\delimiter "026A30C \eta \delimiter "026A30C <$2 and $R_9<$0.94.\relax }}{15}{figure.caption.42}
+\contentsline {figure}{\numberline {1.12}{\ignorespaces ROC curves for muon isolation efficiency. The red curves correspond to cone 0.3, while the blue curve is for cone 0.4. \relax }}{17}{figure.caption.49}
+\contentsline {figure}{\numberline {1.13}{\ignorespaces Effect of muon momentum scale corrections and smearing for single-$\mathrm {Z}$ events with both muons in the barrel (left), one muon in the barrel and one in the endcaps (middle), and both muons in the endcaps (right). Plots in the top row are uncorrected, and plots in the bottom row have the corrections and smearing applied. \relax }}{18}{figure.caption.52}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{18}{figure.caption.52}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{18}{figure.caption.52}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{18}{figure.caption.52}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{18}{figure.caption.52}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{18}{figure.caption.52}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{18}{figure.caption.52}
+\contentsline {figure}{\numberline {1.14}{\ignorespaces Example fits do the dimuon mass shapes in the central barrel, $|\eta | < 0.7$ (0.4 for~\ensuremath {J/\psi }), in data (left) and simulation (right), for muons from \ensuremath {J/\psi }, $\Upsilon $ and~\mathrm {Z}~at $\sqrt {s} = 8$~TeV. Average $p_T$ for the two muons is [5 -- 7]~GeV~for~\ensuremath {J/\psi }, [10 -- 20]~GeV~for~$\Upsilon $~and [20 -- 45]~GeV~for~\mathrm {Z}. For the~$\Upsilon $~simulation, only the 1S resonance is included.\relax }}{27}{figure.caption.59}
+\contentsline {figure}{\numberline {1.15}{\ignorespaces ROC curves of FSR purity vs. efficiency varying the threshold of FSR photon relative isolation, for several values of the threshold on $\Delta R(\gamma ,l)/E_{T,\gamma }^2$ at $\sqrt {s} = 13$~TeV. The black triangle materializes the previous FSR algorithm, while the orange arrow points to the chosen working point, which corresponds to an isolation threshold of 1.8. \relax }}{28}{figure.caption.67}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{28}{figure.caption.67}
+\contentsline {figure}{\numberline {1.16}{\ignorespaces The $m_{\ensuremath {\mathrm {e}}\ensuremath {\mathrm {e}}}$ distributions and {\bf superimposed template fits} for passing (left) and failing (right) electron probes used for the electron identification efficiency measurement in the [7-10]~GeV $p_T$ bin and in the barrel (top) and endcap (bottom) at $\sqrt {s} = 8$~TeV. Black points are data, red line is background model and blue line is signal+background. For this low $p_T$ bin the identification only efficiency is considered having applied isolation and $SIP$ requirements.\relax }}{29}{figure.caption.82}
+\contentsline {figure}{\numberline {1.17}{\ignorespaces \relax \fontsize {10.95}{13.6}\selectfont \abovedisplayskip 11\p@ plus3\p@ minus6\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \def \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ {\leftmargin \leftmargini \topsep 9\p@ plus3\p@ minus5\p@ \parsep 4.5\p@ plus2\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip The $m_{\ensuremath {\mathrm {e}}\ensuremath {\mathrm {e}}}$ distributions and {\bf superimposed functional form fits} for passing (left) and failing (right) probes used for the electron identification efficiency measurement in the [7-10]~GeV $p_T$ bin and for barrel (top) and endcap (bottom) $\sqrt {s} = 8$~TeV. Black points are data, red line is background model and blue line is signal+background. For this low $p_T$ bin the identification only efficiency is considered having applied isolation and $SIP$ requirements.\relax }}{30}{figure.caption.83}
+\contentsline {figure}{\numberline {1.18}{\ignorespaces Identification efficiencies of electron extracted by T\&P method as function of the $p_{T}$ and $\eta $ of the probe. Results are for 7~TeV data and simulation.\relax }}{31}{figure.caption.84}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$ |\eta | < 0.78$}}}{31}{figure.caption.84}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$0.8 \leq |\eta | \leq 1.442$}}}{31}{figure.caption.84}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$1.566 \leq |\eta | < 2$}}}{31}{figure.caption.84}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$2 \leq |\eta | < 2.5$}}}{31}{figure.caption.84}
+\contentsline {figure}{\numberline {1.19}{\ignorespaces Identification efficiencies of electron extracted by T\&P method as function of the $p_{T}$ and $\eta $ of the probe. Results are for 8~TeV data and simulation.\relax }}{32}{figure.caption.89}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$ |\eta | < 0.78$}}}{32}{figure.caption.89}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$0.78 \leq |\eta | \leq 1.442$}}}{32}{figure.caption.89}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$1.566 \leq |\eta | < 2$}}}{32}{figure.caption.89}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces { $2 \leq |\eta | < 2.5$}}}{32}{figure.caption.89}
+\contentsline {figure}{\numberline {1.20}{\ignorespaces Electron identification efficiencies computed using the T\&P method as a function of the probe $\ensuremath {p_T}$ in four different $\eta $ bins and for crack probes. Results are for 13~TeV experimental data~and simulation. Only statistical (fit) errors for efficiencies and complete errors for scale factors are reported on the plots.\relax }}{32}{figure.caption.94}
+\contentsline {figure}{\numberline {1.22}{\ignorespaces Electron impact parameter efficiencies computed using the T\&P method as a function of the probe $\ensuremath {p_T}$ in four different $\eta $ bins and for crack probes. Results are for 13~TeV experimental data. Only statistical (fit) errors for efficiencies are reported on the plots.\relax }}{33}{figure.caption.101}
+\contentsline {figure}{\numberline {1.23}{\ignorespaces Example of fits to the experimental data~for probe crack electrons that pass (left) or fail (right) the HZZ selection. The distributions refer to electrons in the $20 < \ensuremath {p_T}< 30$~GeV window. Black points are 2015 experimental data, red line is background model and blue line is signal plus background model.\relax }}{34}{figure.caption.103}
+\contentsline {figure}{\numberline {1.24}{\ignorespaces Final electron efficiencies computed using the T\&P method as a function of the probe $\ensuremath {p_T}$ in four different $\eta $ bins and for crack probes. Results are for 13~TeV experimental data~and simulation. \relax }}{35}{figure.caption.104}
+\contentsline {figure}{\numberline {1.25}{\ignorespaces Data to simulation scale factors for electron selection efficiency computed with the tag-and-probe method as a function of the probe $p_{T}$ in four different $\eta $ bins: (a) $ |\eta | < 0.78$, (b) $0.78 \leq |\eta | \leq 1.442$, (c) $1.566 \leq |\eta | < 2$ and (d) $2 \leq |\eta | < 2.5$. Central value represents the combination of the template and functional form fits, error band represents the total uncertainty, calculated as described in the text. {\bf Results are for 8 TeV data.} \relax }}{36}{figure.caption.107}
+\contentsline {figure}{\numberline {1.26}{\ignorespaces Data to simulation scale factors for electron selection efficiency computed with the tag-and-probe method as a function of the probe $p_{T}$ in four different $\eta $ bins: (a) $ |\eta | < 0.78$, (b) $0.78 \leq |\eta | \leq 1.442$, (c) $1.566 \leq |\eta | < 2$ and (d) $2 \leq |\eta | < 2.5$. {\bf Results are for 7 TeV data.} \relax }}{37}{figure.caption.108}
+\contentsline {figure}{\numberline {1.27}{\ignorespaces Electron efficiencies for data (top) and simulation (middle) and scale factors (bottom) computed using the T\&P method as a function of the probe $\ensuremath {p_T}$ and supercluster $\eta $ for non-crack (left) and crack (right) probes. Results are for 13~TeV experimental data.\relax }}{38}{figure.caption.109}
+\contentsline {figure}{\numberline {1.28}{\ignorespaces Left: tracking efficiency measured using muons from \mathrm {Z}decays, for all track iterations. Middle: same, but considering only tracks that are reconstructed in the first tracking iterations, without using seeds from the muon system. Right: tracking efficiency measured using muons from \ensuremath {J/\psi }, for both sets of tracks.\relax }}{39}{figure.caption.112}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{39}{figure.caption.112}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{39}{figure.caption.112}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{39}{figure.caption.112}
+\contentsline {figure}{\numberline {1.29}{\ignorespaces Muon tracking efficiency as a function of the muon $\eta $ for 2012 re-reconstructed data and MC, as function of $\eta $ (left) and the multiplicity of primary vertices (right).\relax }}{39}{figure.caption.116}
+\contentsline {figure}{\numberline {1.30}{\ignorespaces Muon reconstruction and identification efficiency at low~\ensuremath {p_T}, measured with the tag\&probe method on \ensuremath {J/\psi }events, as function of \ensuremath {p_T}in the barrel (left) and endcaps (center), and as function of $\eta $ for $\ensuremath {p_T}> 7\GeV $ (right). In the upper panel, the larger error bars include also the systematical uncertainties, while the smaller ones are purely statistical. In the lower panel showing the ratio of the two efficiencies, the black error bars are for the statistical uncertainty, the orange rectangles for the systematical uncertainty and the violet rectangles include both uncertainties.\relax }}{40}{figure.caption.118}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{40}{figure.caption.118}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{40}{figure.caption.118}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{40}{figure.caption.118}
+\contentsline {figure}{\numberline {1.31}{\ignorespaces Muon reconstruction and identification efficiency for Particle Flow muons, measured with the tag-and-probe method on 2011 data (top) and 2012 data (bottom) as function of muon $\ensuremath {p_T}$, in the barrel (left) and endcaps (right).\relax }}{41}{figure.caption.122}
+\contentsline {figure}{\numberline {1.32}{\ignorespaces Efficiency of the muon impact parameter requirements, measured with the tag\&probe method on \mathrm {Z}events, as function of \ensuremath {p_T}in the barrel (left) and endcaps (center), and as function of $\eta $ for $\ensuremath {p_T}> 20\GeV $ (right). In the upper panel, the larger error bars include also the systematical uncertainties, while the smaller ones are purely statistical. In the lower panel showing the ratio of the two efficiencies, the black error bars are for the statistical uncertainty, the orange rectangles for the systematical uncertainty and the violet rectangles include both uncertainties.\relax }}{42}{figure.caption.124}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{42}{figure.caption.124}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{42}{figure.caption.124}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{42}{figure.caption.124}
+\contentsline {figure}{\numberline {1.33}{\ignorespaces Efficiency for the requirement on the 3D impact parameter significance $|SIP3D| < 4$. Top row: efficiency as as function of the muon pseudorapidity, for 2011 data (left), and 2012 data (right), for muons with $\ensuremath {p_T}> 20 \GeV $; bottom row: efficiency in 2012 data as function of the number of reconstructed vertices (left) and the comparison between the 2012 prompt-reco and the re-reco (right). Muons satisfying the Particle Flow identification requirements are used.\relax }}{44}{figure.caption.128}
+\contentsline {figure}{\numberline {1.34}{\ignorespaces Efficiency of the muon isolation requirement, measured with the tag\&probe method on \mathrm {Z}events, as function of \ensuremath {p_T}in the barrel (left) and endcaps (right). In the upper panel, the larger error bars include also the systematical uncertainties, while the smaller ones are purely statistical. In the lower panel showing the ratio of the two efficiencies, the black error bars are for the statistical uncertainty, the orange rectangles for the systematical uncertainty and the violet rectangles include both uncertainties.\relax }}{45}{figure.caption.130}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{45}{figure.caption.130}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{45}{figure.caption.130}
+\contentsline {figure}{\numberline {1.35}{\ignorespaces Muon isolation efficiency for Particle Flow muons passing the impact parameter requirements, measured with the tag-and-probe method on 2011 data (top) and 2012 data (bottom) as function of muon $\ensuremath {p_T}$, in the barrel (left) and endcaps (right).\relax }}{46}{figure.caption.133}
+\contentsline {figure}{\numberline {1.36}{\ignorespaces Overall data to simulation scale factors for muons, as function of \ensuremath {p_T}and $\eta $. Uncertainties on the scale factor from the fits are $1$--$2\%$ for muons below $10\GeV $ or at $|\eta |> 2$, and about $0.5\%$ or less in the rest of the phase space.\relax }}{47}{figure.caption.135}
+\contentsline {figure}{\numberline {1.37}{\ignorespaces Combined Data/MC scale factor for tracking, identification, significance of impact parameter and isolation for 2011 (top) and 2012 (bottom) as function of lepton \ensuremath {p_T}and $\eta $.\relax }}{48}{figure.caption.136}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Distributions of m($4\ell $) for the $qq \rightarrow \mathrm {ZZ}$ and Z+X backgrounds in different bins of $\ensuremath {p_T}(4\ell )$ for three final states: $2e2\mu $(left), $4\mu $(middle) and $4e$(right).\relax }}{58}{figure.caption.152}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$0.0 < \ensuremath {p_T}(4\ell ) < 15.0$}}}{58}{figure.caption.152}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$0.0 < \ensuremath {p_T}(4\ell ) < 15.0$}}}{58}{figure.caption.152}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$0.0 < \ensuremath {p_T}(4\ell ) < 15.0$}}}{58}{figure.caption.152}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$15.0 < \ensuremath {p_T}(4\ell ) < 30.0$}}}{58}{figure.caption.152}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$15.0 < \ensuremath {p_T}(4\ell ) < 30.0$}}}{58}{figure.caption.152}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$15.0 < \ensuremath {p_T}(4\ell ) < 30.0$}}}{58}{figure.caption.152}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$30.0 < \ensuremath {p_T}(4\ell ) < 60.0$}}}{58}{figure.caption.152}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {$30.0 < \ensuremath {p_T}(4\ell ) < 60.0$}}}{58}{figure.caption.152}
+\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {$30.0 < \ensuremath {p_T}(4\ell ) < 60.0$}}}{58}{figure.caption.152}
+\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {$60.0 < \ensuremath {p_T}(4\ell ) < 1000.0$}}}{58}{figure.caption.152}
+\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {$60.0 < \ensuremath {p_T}(4\ell ) < 1000.0$}}}{58}{figure.caption.152}
+\contentsline {subfigure}{\numberline {(l)}{\ignorespaces {$60.0 < \ensuremath {p_T}(4\ell ) < 1000.0$}}}{58}{figure.caption.152}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Distributions of m($4\ell $) for the $qq \rightarrow \mathrm {ZZ}$ and $\mathrm {g}\mathrm {g}\rightarrow \mathrm {ZZ}$ backgrounds in different bins of $\ensuremath {p_T}(4\ell )$ for three final states: $2e2\mu $(left), $4\mu $(middle) and $4e$(right).\relax }}{59}{figure.caption.165}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$0.0 < \ensuremath {p_T}(4\ell ) < 15.0$}}}{59}{figure.caption.165}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$0.0 < \ensuremath {p_T}(4\ell ) < 15.0$}}}{59}{figure.caption.165}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$0.0 < \ensuremath {p_T}(4\ell ) < 15.0$}}}{59}{figure.caption.165}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$15.0 < \ensuremath {p_T}(4\ell ) < 30.0$}}}{59}{figure.caption.165}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$15.0 < \ensuremath {p_T}(4\ell ) < 30.0$}}}{59}{figure.caption.165}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$15.0 < \ensuremath {p_T}(4\ell ) < 30.0$}}}{59}{figure.caption.165}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$30.0 < \ensuremath {p_T}(4\ell ) < 60.0$}}}{59}{figure.caption.165}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {$30.0 < \ensuremath {p_T}(4\ell ) < 60.0$}}}{59}{figure.caption.165}
+\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {$30.0 < \ensuremath {p_T}(4\ell ) < 60.0$}}}{59}{figure.caption.165}
+\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {$60.0 < \ensuremath {p_T}(4\ell ) < 1000.0$}}}{59}{figure.caption.165}
+\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {$60.0 < \ensuremath {p_T}(4\ell ) < 1000.0$}}}{59}{figure.caption.165}
+\contentsline {subfigure}{\numberline {(l)}{\ignorespaces {$60.0 < \ensuremath {p_T}(4\ell ) < 1000.0$}}}{59}{figure.caption.165}
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Distributions of m($4\ell $) for the $qq \rightarrow \mathrm {ZZ}$ and Z+X backgrounds in different bins of $m(\mathrm {Z}_{2})$ for three final states: $2e2\mu $(left), $4\mu $(middle) and $4e$(right).\relax }}{60}{figure.caption.179}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$12.0 < \mathrm {m}(\mathrm {Z}_{2}) < 20.0$}}}{60}{figure.caption.179}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$12.0 < \mathrm {m}(\mathrm {Z}_{2}) < 20.0$}}}{60}{figure.caption.179}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$12.0 < \mathrm {m}(\mathrm {Z}_{2}) < 20.0$}}}{60}{figure.caption.179}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$20.0 < \mathrm {m}(\mathrm {Z}_{2}) < 28.0$}}}{60}{figure.caption.179}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$20.0 < \mathrm {m}(\mathrm {Z}_{2}) < 28.0$}}}{60}{figure.caption.179}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$20.0 < \mathrm {m}(\mathrm {Z}_{2}) < 28.0$}}}{60}{figure.caption.179}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$28.0 < \mathrm {m}(\mathrm {Z}_{2}) < 35.0$}}}{60}{figure.caption.179}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {$28.0 < \mathrm {m}(\mathrm {Z}_{2}) < 35.0$}}}{60}{figure.caption.179}
+\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {$28.0 < \mathrm {m}(\mathrm {Z}_{2}) < 35.0$}}}{60}{figure.caption.179}
+\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {$35.0 < \mathrm {m}(\mathrm {Z}_{2}) < 120.0$}}}{60}{figure.caption.179}
+\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {$35.0 < \mathrm {m}(\mathrm {Z}_{2}) < 120.0$}}}{60}{figure.caption.179}
+\contentsline {subfigure}{\numberline {(l)}{\ignorespaces {$35.0 < \mathrm {m}(\mathrm {Z}_{2}) < 120.0$}}}{60}{figure.caption.179}
+\contentsline {figure}{\numberline {A.4}{\ignorespaces Distributions of m($4\ell $) for the $qq \rightarrow \mathrm {ZZ}$ and $\mathrm {g}\mathrm {g}\rightarrow \mathrm {ZZ}$ backgrounds in different bins of $m(\mathrm {Z}_{2})$ for three final states: $2e2\mu $(left), $4\mu $(middle) and $4e$(right).\relax }}{61}{figure.caption.192}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$12.0 < \mathrm {m}(\mathrm {Z}_{2}) < 20.0$}}}{61}{figure.caption.192}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$12.0 < \mathrm {m}(\mathrm {Z}_{2}) < 20.0$}}}{61}{figure.caption.192}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$12.0 < \mathrm {m}(\mathrm {Z}_{2}) < 20.0$}}}{61}{figure.caption.192}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$20.0 < \mathrm {m}(\mathrm {Z}_{2}) < 28.0$}}}{61}{figure.caption.192}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$20.0 < \mathrm {m}(\mathrm {Z}_{2}) < 28.0$}}}{61}{figure.caption.192}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$20.0 < \mathrm {m}(\mathrm {Z}_{2}) < 28.0$}}}{61}{figure.caption.192}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$28.0 < \mathrm {m}(\mathrm {Z}_{2}) < 35.0$}}}{61}{figure.caption.192}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {$28.0 < \mathrm {m}(\mathrm {Z}_{2}) < 35.0$}}}{61}{figure.caption.192}
+\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {$28.0 < \mathrm {m}(\mathrm {Z}_{2}) < 35.0$}}}{61}{figure.caption.192}
+\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {$35.0 < \mathrm {m}(\mathrm {Z}_{2}) < 120.0$}}}{61}{figure.caption.192}
+\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {$35.0 < \mathrm {m}(\mathrm {Z}_{2}) < 120.0$}}}{61}{figure.caption.192}
+\contentsline {subfigure}{\numberline {(l)}{\ignorespaces {$35.0 < \mathrm {m}(\mathrm {Z}_{2}) < 120.0$}}}{61}{figure.caption.192}
+\contentsline {figure}{\numberline {A.5}{\ignorespaces Distributions of m($4\ell $) for the $qq \rightarrow \mathrm {ZZ}$ and Z+X backgrounds in different bins of $|y(4\ell )|$ for three final states: $2e2\mu $(left), $4\mu $(middle) and $4e$(right).\relax }}{62}{figure.caption.206}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$0.0 < |y(4\ell )| < 0.4$}}}{62}{figure.caption.206}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$0.0 < |y(4\ell )| < 0.4$}}}{62}{figure.caption.206}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$0.0 < |y(4\ell )| < 0.4$}}}{62}{figure.caption.206}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$0.4 < |y(4\ell )| < 0.8$}}}{62}{figure.caption.206}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$0.4 < |y(4\ell )| < 0.8$}}}{62}{figure.caption.206}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$0.4 < |y(4\ell )| < 0.8$}}}{62}{figure.caption.206}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$0.8 < |y(4\ell )| < 1.2$}}}{62}{figure.caption.206}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {$0.8 < |y(4\ell )| < 1.2$}}}{62}{figure.caption.206}
+\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {$0.8 < |y(4\ell )| < 1.2$}}}{62}{figure.caption.206}
+\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {$1.2 < |y(4\ell )| < 2.4$}}}{62}{figure.caption.206}
+\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {$1.2 < |y(4\ell )| < 2.4$}}}{62}{figure.caption.206}
+\contentsline {subfigure}{\numberline {(l)}{\ignorespaces {$1.2 < |y(4\ell )| < 2.4$}}}{62}{figure.caption.206}
+\contentsline {figure}{\numberline {A.6}{\ignorespaces Distributions of m($4\ell $) for the $qq \rightarrow \mathrm {ZZ}$ and $\mathrm {g}\mathrm {g}\rightarrow \mathrm {ZZ}$ backgrounds in different bins of $|y(4\ell )|$ for three final states: $2e2\mu $(left), $4\mu $(middle) and $4e$(right).\relax }}{63}{figure.caption.219}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$0.0 < |y(4\ell )| < 0.4$}}}{63}{figure.caption.219}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$0.0 < |y(4\ell )| < 0.4$}}}{63}{figure.caption.219}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$0.0 < |y(4\ell )| < 0.4$}}}{63}{figure.caption.219}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$0.4 < |y(4\ell )| < 0.8$}}}{63}{figure.caption.219}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$0.4 < |y(4\ell )| < 0.8$}}}{63}{figure.caption.219}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$0.4 < |y(4\ell )| < 0.8$}}}{63}{figure.caption.219}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$0.8 < |y(4\ell )| < 1.2$}}}{63}{figure.caption.219}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {$0.8 < |y(4\ell )| < 1.2$}}}{63}{figure.caption.219}
+\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {$0.8 < |y(4\ell )| < 1.2$}}}{63}{figure.caption.219}
+\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {$1.2 < |y(4\ell )| < 2.4$}}}{63}{figure.caption.219}
+\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {$1.2 < |y(4\ell )| < 2.4$}}}{63}{figure.caption.219}
+\contentsline {subfigure}{\numberline {(l)}{\ignorespaces {$1.2 < |y(4\ell )| < 2.4$}}}{63}{figure.caption.219}
+\contentsline {figure}{\numberline {A.7}{\ignorespaces Distributions of m($4\ell $) for the $qq \rightarrow \mathrm {ZZ}$ and Z+X backgrounds in different bins of $|\qopname \relax o{cos}\theta ^{*}|$ for three final states: $2e2\mu $(left), $4\mu $(middle) and $4e$(right).\relax }}{64}{figure.caption.233}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$0.0 < |\qopname \relax o{cos}\theta ^{*}| < 0.25$}}}{64}{figure.caption.233}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$0.0 < |\qopname \relax o{cos}\theta ^{*}| < 0.25$}}}{64}{figure.caption.233}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$0.0 < |\qopname \relax o{cos}\theta ^{*}| < 0.25$}}}{64}{figure.caption.233}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$0.25 < |\qopname \relax o{cos}\theta ^{*}| < 0.50$}}}{64}{figure.caption.233}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$0.25 < |\qopname \relax o{cos}\theta ^{*}| < 0.50$}}}{64}{figure.caption.233}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$0.25 < |\qopname \relax o{cos}\theta ^{*}| < 0.50$}}}{64}{figure.caption.233}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$0.50 < |\qopname \relax o{cos}\theta ^{*}| < 0.75$}}}{64}{figure.caption.233}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {$0.50 < |\qopname \relax o{cos}\theta ^{*}| < 0.75$}}}{64}{figure.caption.233}
+\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {$0.50 < |\qopname \relax o{cos}\theta ^{*}| < 0.75$}}}{64}{figure.caption.233}
+\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {$0.75 < |\qopname \relax o{cos}\theta ^{*}| < 1.0$}}}{64}{figure.caption.233}
+\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {$0.75 < |\qopname \relax o{cos}\theta ^{*}| < 1.0$}}}{64}{figure.caption.233}
+\contentsline {subfigure}{\numberline {(l)}{\ignorespaces {$0.75 < |\qopname \relax o{cos}\theta ^{*}| < 1.0$}}}{64}{figure.caption.233}
+\contentsline {figure}{\numberline {A.8}{\ignorespaces Distributions of m($4\ell $) for the $qq \rightarrow \mathrm {ZZ}$ and $\mathrm {g}\mathrm {g}\rightarrow \mathrm {ZZ}$ backgrounds in different bins of $|\qopname \relax o{cos}\theta ^{*}|$ for three final states: $2e2\mu $(left), $4\mu $(middle) and $4e$(right).\relax }}{65}{figure.caption.246}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$0.0 < |\qopname \relax o{cos}\theta ^{*}| < 0.25$}}}{65}{figure.caption.246}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$0.0 < |\qopname \relax o{cos}\theta ^{*}| < 0.25$}}}{65}{figure.caption.246}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$0.0 < |\qopname \relax o{cos}\theta ^{*}| < 0.25$}}}{65}{figure.caption.246}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$0.25 < |\qopname \relax o{cos}\theta ^{*}| < 0.50$}}}{65}{figure.caption.246}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$0.25 < |\qopname \relax o{cos}\theta ^{*}| < 0.50$}}}{65}{figure.caption.246}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$0.25 < |\qopname \relax o{cos}\theta ^{*}| < 0.50$}}}{65}{figure.caption.246}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$0.50 < |\qopname \relax o{cos}\theta ^{*}| < 0.75$}}}{65}{figure.caption.246}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {$0.50 < |\qopname \relax o{cos}\theta ^{*}| < 0.75$}}}{65}{figure.caption.246}
+\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {$0.50 < |\qopname \relax o{cos}\theta ^{*}| < 0.75$}}}{65}{figure.caption.246}
+\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {$0.75 < |\qopname \relax o{cos}\theta ^{*}| < 1.0$}}}{65}{figure.caption.246}
+\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {$0.75 < |\qopname \relax o{cos}\theta ^{*}| < 1.0$}}}{65}{figure.caption.246}
+\contentsline {subfigure}{\numberline {(l)}{\ignorespaces {$0.75 < |\qopname \relax o{cos}\theta ^{*}| < 1.0$}}}{65}{figure.caption.246}
+\contentsline {figure}{\numberline {A.9}{\ignorespaces Distributions of m($4\ell $) for the $qq \rightarrow \mathrm {ZZ}$ and Z+X backgrounds in different bins of $N_{\rm jets}$ for three final states: $2e2\mu $(left), $4\mu $(middle) and $4e$(right).\relax }}{66}{figure.caption.260}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$\mathrm {N(jets)}=0$}}}{66}{figure.caption.260}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\mathrm {N(jets)}=0$}}}{66}{figure.caption.260}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$\mathrm {N(jets)}=0$}}}{66}{figure.caption.260}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$\mathrm {N(jets)}=1$}}}{66}{figure.caption.260}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$\mathrm {N(jets)}=1$}}}{66}{figure.caption.260}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$\mathrm {N(jets)}=1$}}}{66}{figure.caption.260}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$\mathrm {N(jets)}=2$}}}{66}{figure.caption.260}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {$\mathrm {N(jets)}=2$}}}{66}{figure.caption.260}
+\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {$\mathrm {N(jets)}=2$}}}{66}{figure.caption.260}
+\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {$\mathrm {N(jets)} \geq 3$}}}{66}{figure.caption.260}
+\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {$\mathrm {N(jets)} \geq 3$}}}{66}{figure.caption.260}
+\contentsline {subfigure}{\numberline {(l)}{\ignorespaces {$\mathrm {N(jets)} \geq 3$}}}{66}{figure.caption.260}
+\contentsline {figure}{\numberline {A.10}{\ignorespaces Distributions of m($4\ell $) for the $qq \rightarrow \mathrm {ZZ}$ and $\mathrm {g}\mathrm {g}\rightarrow \mathrm {ZZ}$ backgrounds in different bins of $N_{\rm jets}$ for three final states: $2e2\mu $(left), $4\mu $(middle) and $4e$(right).\relax }}{67}{figure.caption.273}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$\mathrm {N(jets)}=0$}}}{67}{figure.caption.273}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\mathrm {N(jets)}=0$}}}{67}{figure.caption.273}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$\mathrm {N(jets)}=0$}}}{67}{figure.caption.273}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$\mathrm {N(jets)}=1$}}}{67}{figure.caption.273}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$\mathrm {N(jets)}=1$}}}{67}{figure.caption.273}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$\mathrm {N(jets)}=1$}}}{67}{figure.caption.273}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$\mathrm {N(jets)}=2$}}}{67}{figure.caption.273}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {$\mathrm {N(jets)}=2$}}}{67}{figure.caption.273}
+\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {$\mathrm {N(jets)}=2$}}}{67}{figure.caption.273}
+\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {$\mathrm {N(jets)} \geq 3$}}}{67}{figure.caption.273}
+\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {$\mathrm {N(jets)} \geq 3$}}}{67}{figure.caption.273}
+\contentsline {subfigure}{\numberline {(l)}{\ignorespaces {$\mathrm {N(jets)} \geq 3$}}}{67}{figure.caption.273}
+\contentsline {figure}{\numberline {A.11}{\ignorespaces Distributions of m(4$\ell $) for the $\mathrm {g}\mathrm {g}\rightarrow \mathrm {H}$ production mode from {\sc powheg+JHUGen} in different bins of $\ensuremath {p_T}(\mathrm {H})$. \relax }}{69}{figure.caption.288}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$0.0 < \ensuremath {p_T}(\mathrm {H}) < 15.0$}}}{69}{figure.caption.288}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$0.0 < \ensuremath {p_T}(\mathrm {H}) < 15.0$}}}{69}{figure.caption.288}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$0.0< \ensuremath {p_T}(\mathrm {H}) < 15.0$}}}{69}{figure.caption.288}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$15.0 < \ensuremath {p_T}(\mathrm {H}) < 30.0$}}}{69}{figure.caption.288}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$15.0< \ensuremath {p_T}(\mathrm {H}) < 30.0$}}}{69}{figure.caption.288}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$15.0< \ensuremath {p_T}(\mathrm {H}) < 30.0$}}}{69}{figure.caption.288}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$30.0 < \ensuremath {p_T}(\mathrm {H}) < 60.0$}}}{69}{figure.caption.288}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {$30.0 < \ensuremath {p_T}(\mathrm {H}) < 60.0$}}}{69}{figure.caption.288}
+\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {$30.0 < \ensuremath {p_T}(\mathrm {H}) < 60.0$}}}{69}{figure.caption.288}
+\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {$60.0 < \ensuremath {p_T}(\mathrm {H}) < 200.0$}}}{69}{figure.caption.288}
+\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {$60.0 < \ensuremath {p_T}(\mathrm {H}) < 200.0$}}}{69}{figure.caption.288}
+\contentsline {subfigure}{\numberline {(l)}{\ignorespaces {$60.0 < \ensuremath {p_T}(\mathrm {H}) < 200.0$}}}{69}{figure.caption.288}
+\contentsline {figure}{\numberline {A.12}{\ignorespaces Distributions of m(4$\ell $) for the $\mathrm {g}\mathrm {g}\rightarrow \mathrm {H}$ production mode from {\sc minloHJJ} in different bins of $\ensuremath {p_T}(\mathrm {H})$. \relax }}{70}{figure.caption.301}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$0.0< \ensuremath {p_T}(\mathrm {H}) < 15.0$}}}{70}{figure.caption.301}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$0.0 < \ensuremath {p_T}(\mathrm {H}) < 15.0$}}}{70}{figure.caption.301}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$0.0 < \ensuremath {p_T}(\mathrm {H}) < 15.0$}}}{70}{figure.caption.301}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$15.0 < \ensuremath {p_T}(\mathrm {H}) < 30.0$}}}{70}{figure.caption.301}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$15.0 < \ensuremath {p_T}(\mathrm {H}) < 30.0$}}}{70}{figure.caption.301}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$15.0 < \ensuremath {p_T}(\mathrm {H}) < 30.0$}}}{70}{figure.caption.301}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$30.0 < \ensuremath {p_T}(\mathrm {H}) < 60.0$}}}{70}{figure.caption.301}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {$30.0< \ensuremath {p_T}(\mathrm {H}) < 60.0$}}}{70}{figure.caption.301}
+\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {$30.0 < \ensuremath {p_T}(\mathrm {H}) < 60.0$}}}{70}{figure.caption.301}
+\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {$60.0< \ensuremath {p_T}(\mathrm {H}) < 200.0$}}}{70}{figure.caption.301}
+\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {$60.0 < \ensuremath {p_T}(\mathrm {H}) < 200.0$}}}{70}{figure.caption.301}
+\contentsline {subfigure}{\numberline {(l)}{\ignorespaces {$60.0 < \ensuremath {p_T}(\mathrm {H}) < 200.0$}}}{70}{figure.caption.301}
+\contentsline {figure}{\numberline {A.13}{\ignorespaces Distributions of m(4$\ell $) for the VBF production mode from {\sc powheg} in different bins of $\ensuremath {p_T}(\mathrm {H})$. \relax }}{71}{figure.caption.314}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$0.0 < \ensuremath {p_T}(\mathrm {H}) < 15.0$}}}{71}{figure.caption.314}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$0.0< \ensuremath {p_T}(\mathrm {H}) < 15.0$}}}{71}{figure.caption.314}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$0.0< \ensuremath {p_T}(\mathrm {H}) < 15.0$}}}{71}{figure.caption.314}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$15.0 < \ensuremath {p_T}(\mathrm {H}) < 30.0$}}}{71}{figure.caption.314}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$15.0 < \ensuremath {p_T}(\mathrm {H}) < 30.0$}}}{71}{figure.caption.314}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$15.0 < \ensuremath {p_T}(\mathrm {H}) < 30.0$}}}{71}{figure.caption.314}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$30.0< \ensuremath {p_T}(\mathrm {H}) < 60.0$}}}{71}{figure.caption.314}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {$30.0< \ensuremath {p_T}(\mathrm {H}) < 60.0$}}}{71}{figure.caption.314}
+\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {$30.0< \ensuremath {p_T}(\mathrm {H}) < 60.0$}}}{71}{figure.caption.314}
+\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {$60.0< \ensuremath {p_T}(\mathrm {H}) < 200.0$}}}{71}{figure.caption.314}
+\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {$60.0< \ensuremath {p_T}(\mathrm {H}) < 200.0$}}}{71}{figure.caption.314}
+\contentsline {subfigure}{\numberline {(l)}{\ignorespaces {$60.0 < \ensuremath {p_T}(\mathrm {H}) < 200.0$}}}{71}{figure.caption.314}
+\contentsline {figure}{\numberline {A.14}{\ignorespaces Distributions of m(4$\ell $) for the WH associated production mode from {\sc pythia} in different bins of $\ensuremath {p_T}(\mathrm {H})$. \relax }}{72}{figure.caption.327}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$0.0< \ensuremath {p_T}(\mathrm {H}) < 15.0$}}}{72}{figure.caption.327}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$0.0 < \ensuremath {p_T}(\mathrm {H}) < 15.0$}}}{72}{figure.caption.327}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$0.0 < \ensuremath {p_T}(\mathrm {H}) < 15.0$}}}{72}{figure.caption.327}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$15.0 < \ensuremath {p_T}(\mathrm {H}) < 30.0$}}}{72}{figure.caption.327}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$15.0 < \ensuremath {p_T}(\mathrm {H}) < 30.0$}}}{72}{figure.caption.327}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$15.0 < \ensuremath {p_T}(\mathrm {H}) < 30.0$}}}{72}{figure.caption.327}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$30.0 < \ensuremath {p_T}(\mathrm {H}) < 60.0$}}}{72}{figure.caption.327}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {$30.0 < \ensuremath {p_T}(\mathrm {H}) < 60.0$}}}{72}{figure.caption.327}
+\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {$30.0 < \ensuremath {p_T}(\mathrm {H}) < 60.0$}}}{72}{figure.caption.327}
+\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {$60.0 < \ensuremath {p_T}(\mathrm {H}) < 200.0$}}}{72}{figure.caption.327}
+\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {$60.0 < \ensuremath {p_T}(\mathrm {H}) < 200.0$}}}{72}{figure.caption.327}
+\contentsline {subfigure}{\numberline {(l)}{\ignorespaces {$60.0 < \ensuremath {p_T}(\mathrm {H}) < 200.0$}}}{72}{figure.caption.327}
+\contentsline {figure}{\numberline {A.15}{\ignorespaces Distributions of m(4$\ell $) for the ZH associated production mode from {\sc pythia} in different bins of $\ensuremath {p_T}(\mathrm {H})$. \relax }}{73}{figure.caption.340}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$0.0 < \ensuremath {p_T}(\mathrm {H}) < 15.0$}}}{73}{figure.caption.340}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$0.0 < \ensuremath {p_T}(\mathrm {H}) < 15.0 $}}}{73}{figure.caption.340}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$0.0 < \ensuremath {p_T}(\mathrm {H}) < 15.0 $}}}{73}{figure.caption.340}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$15.0 < \ensuremath {p_T}(\mathrm {H}) < 30.0 $}}}{73}{figure.caption.340}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$15.0 < \ensuremath {p_T}(\mathrm {H}) < 30.0$}}}{73}{figure.caption.340}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$15.0 < \ensuremath {p_T}(\mathrm {H}) < 30.0$}}}{73}{figure.caption.340}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$30.0 < \ensuremath {p_T}(\mathrm {H}) < 60.0 $}}}{73}{figure.caption.340}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {$30.0 < \ensuremath {p_T}(\mathrm {H}) < 60.0$}}}{73}{figure.caption.340}
+\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {$30.0 < \ensuremath {p_T}(\mathrm {H}) < 60.0$}}}{73}{figure.caption.340}
+\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {$60.0 < \ensuremath {p_T}(\mathrm {H}) < 200.0$}}}{73}{figure.caption.340}
+\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {$60.0 < \ensuremath {p_T}(\mathrm {H}) < 200.0$}}}{73}{figure.caption.340}
+\contentsline {subfigure}{\numberline {(l)}{\ignorespaces {$60.0 < \ensuremath {p_T}(\mathrm {H}) < 200.0$}}}{73}{figure.caption.340}
+\contentsline {figure}{\numberline {A.16}{\ignorespaces Distributions of m(4$\ell $) for the ttH associated production mode from {\sc pythia} in different bins of $\ensuremath {p_T}(\mathrm {H})$. \relax }}{74}{figure.caption.353}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$0.0 < \ensuremath {p_T}(\mathrm {H}) < 15.0$}}}{74}{figure.caption.353}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$0.0 < \ensuremath {p_T}(\mathrm {H}) < 15.0$}}}{74}{figure.caption.353}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$0.0 < \ensuremath {p_T}(\mathrm {H}) < 15.0$}}}{74}{figure.caption.353}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$15.0 < \ensuremath {p_T}(\mathrm {H}) < 30.0 $}}}{74}{figure.caption.353}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$15.0 < \ensuremath {p_T}(\mathrm {H}) < 30.0$}}}{74}{figure.caption.353}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$15.0 < \ensuremath {p_T}(\mathrm {H}) < 30.0$}}}{74}{figure.caption.353}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$30.0 < \ensuremath {p_T}(\mathrm {H}) < 60.0$}}}{74}{figure.caption.353}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {$30.0 < \ensuremath {p_T}(\mathrm {H}) < 60.0$}}}{74}{figure.caption.353}
+\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {$30.0 < \ensuremath {p_T}(\mathrm {H}) < 60.0$}}}{74}{figure.caption.353}
+\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {$60.0 < \ensuremath {p_T}(\mathrm {H}) < 200.0$}}}{74}{figure.caption.353}
+\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {$60.0 < \ensuremath {p_T}(\mathrm {H}) < 200.0$}}}{74}{figure.caption.353}
+\contentsline {subfigure}{\numberline {(l)}{\ignorespaces {$60.0 < \ensuremath {p_T}(\mathrm {H}) < 200.0 $}}}{74}{figure.caption.353}
+\contentsline {figure}{\numberline {A.17}{\ignorespaces Efficiency matrices for $\ensuremath {p_T}({\rm H})$ for different SM production modes in the $4e$ final state. \relax }}{75}{figure.caption.366}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$\mathrm {g}\mathrm {g}\rightarrow $H ({\sc powheg+JHUgen})}}}{75}{figure.caption.366}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\mathrm {g}\mathrm {g}\rightarrow $H ({\sc minloHJJ})}}}{75}{figure.caption.366}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {VBF ({\sc powheg})}}}{75}{figure.caption.366}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {WH ({\sc pythia})}}}{75}{figure.caption.366}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {ZH ({\sc pythia})}}}{75}{figure.caption.366}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {ttH ({\sc pythia})}}}{75}{figure.caption.366}
+\contentsline {figure}{\numberline {A.18}{\ignorespaces Efficiency matrices for $\ensuremath {p_T}({\rm H})$ for different SM production modes in the $4\mu $ final state. \relax }}{76}{figure.caption.373}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$\mathrm {g}\mathrm {g}\rightarrow $H ({\sc powheg+JHUgen})}}}{76}{figure.caption.373}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\mathrm {g}\mathrm {g}\rightarrow $H ({\sc minloHJJ})}}}{76}{figure.caption.373}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {VBF ({\sc powheg})}}}{76}{figure.caption.373}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {WH ({\sc pythia})}}}{76}{figure.caption.373}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {ZH ({\sc pythia})}}}{76}{figure.caption.373}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {ttH ({\sc pythia})}}}{76}{figure.caption.373}
+\contentsline {figure}{\numberline {A.19}{\ignorespaces Efficiency matrices for $\ensuremath {p_T}({\rm H})$ for different SM production modes in the $2e2\mu $ final state. \relax }}{77}{figure.caption.380}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$\mathrm {g}\mathrm {g}\rightarrow $H ({\sc powheg+JHUgen})}}}{77}{figure.caption.380}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\mathrm {g}\mathrm {g}\rightarrow $H ({\sc minloHJJ})}}}{77}{figure.caption.380}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {VBF ({\sc powheg})}}}{77}{figure.caption.380}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {WH ({\sc pythia})}}}{77}{figure.caption.380}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {ZH ({\sc pythia})}}}{77}{figure.caption.380}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {ttH ({\sc pythia})}}}{77}{figure.caption.380}
+\contentsline {figure}{\numberline {A.20}{\ignorespaces Distributions of m(4$\ell $) for the $\mathrm {g}\mathrm {g}\rightarrow \mathrm {H}$ production mode from {\sc powheg+JHUGen} in different bins of ${\rm m}({\rm Z}_{2})$. \relax }}{79}{figure.caption.388}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$12.0 < {\rm m}({\rm Z}_{2}) < 20.0$}}}{79}{figure.caption.388}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$12.0 < {\rm m}({\rm Z}_{2}) < 20.0$}}}{79}{figure.caption.388}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$12.0 < {\rm m}({\rm Z}_{2}) < 20.0$}}}{79}{figure.caption.388}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$20.0 < {\rm m}({\rm Z}_{2}) < 28.0$}}}{79}{figure.caption.388}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$20.0 < {\rm m}({\rm Z}_{2}) < 28.0$}}}{79}{figure.caption.388}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$20.0 < {\rm m}({\rm Z}_{2}) < 28.0$}}}{79}{figure.caption.388}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$28.0 < {\rm m}({\rm Z}_{2}) < 35.0$}}}{79}{figure.caption.388}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {$28.0 < {\rm m}({\rm Z}_{2}) < 35.0$}}}{79}{figure.caption.388}
+\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {$28.0 < {\rm m}({\rm Z}_{2}) < 35.0$}}}{79}{figure.caption.388}
+\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {$35.0 < {\rm m}({\rm Z}_{2}) < 60.0$}}}{79}{figure.caption.388}
+\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {$35.0 < {\rm m}({\rm Z}_{2}) < 60.0$}}}{79}{figure.caption.388}
+\contentsline {subfigure}{\numberline {(l)}{\ignorespaces {$35.0 < {\rm m}({\rm Z}_{2}) < 60.0$}}}{79}{figure.caption.388}
+\contentsline {figure}{\numberline {A.21}{\ignorespaces Distributions of m(4$\ell $) for the $\mathrm {g}\mathrm {g}\rightarrow \mathrm {H}$ production mode from {\sc minloHJJ} in different bins of ${\rm m}({\rm Z}_{2})$. \relax }}{80}{figure.caption.401}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$12.0 < {\rm m}({\rm Z}_{2}) < 20.0$}}}{80}{figure.caption.401}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$12.0< {\rm m}({\rm Z}_{2}) < 20.0$}}}{80}{figure.caption.401}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$12.0 < {\rm m}({\rm Z}_{2}) < 20.0$}}}{80}{figure.caption.401}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$20.0 < {\rm m}({\rm Z}_{2}) < 28.0$}}}{80}{figure.caption.401}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$20.0 < {\rm m}({\rm Z}_{2}) < 28.0$}}}{80}{figure.caption.401}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$20.0 < {\rm m}({\rm Z}_{2}) < 28.0$}}}{80}{figure.caption.401}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$28.0 < {\rm m}({\rm Z}_{2}) < 35.0 $}}}{80}{figure.caption.401}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {$28.0 < {\rm m}({\rm Z}_{2}) < 35.0$}}}{80}{figure.caption.401}
+\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {$28.0< {\rm m}({\rm Z}_{2}) < 35.0$}}}{80}{figure.caption.401}
+\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {$35.0 < {\rm m}({\rm Z}_{2}) < 60.0$}}}{80}{figure.caption.401}
+\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {$35.0< {\rm m}({\rm Z}_{2}) < 60.0$}}}{80}{figure.caption.401}
+\contentsline {subfigure}{\numberline {(l)}{\ignorespaces {$35.0 < {\rm m}({\rm Z}_{2}) < 60.0$}}}{80}{figure.caption.401}
+\contentsline {figure}{\numberline {A.22}{\ignorespaces Distributions of m(4$\ell $) for the VBF production mode from {\sc powheg} in different bins of ${\rm m}({\rm Z}_{2})$. \relax }}{81}{figure.caption.414}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$12.0 < {\rm m}({\rm Z}_{2}) < 20.0$}}}{81}{figure.caption.414}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$12.0 < {\rm m}({\rm Z}_{2}) < 20.0$}}}{81}{figure.caption.414}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$12.0 < {\rm m}({\rm Z}_{2}) < 20.0$}}}{81}{figure.caption.414}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$20.0 < {\rm m}({\rm Z}_{2}) < 28.0$}}}{81}{figure.caption.414}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$20.0 < {\rm m}({\rm Z}_{2}) < 28.0$}}}{81}{figure.caption.414}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$20.0 < {\rm m}({\rm Z}_{2}) < 28.0$}}}{81}{figure.caption.414}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$28.0 < {\rm m}({\rm Z}_{2}) < 35.0$}}}{81}{figure.caption.414}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {$28.0 < {\rm m}({\rm Z}_{2}) < 35.0$}}}{81}{figure.caption.414}
+\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {$28.0 < {\rm m}({\rm Z}_{2}) < 35.0$}}}{81}{figure.caption.414}
+\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {$35.0 < {\rm m}({\rm Z}_{2}) < 60.0$}}}{81}{figure.caption.414}
+\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {$35.0< {\rm m}({\rm Z}_{2}) < 60.0 $}}}{81}{figure.caption.414}
+\contentsline {subfigure}{\numberline {(l)}{\ignorespaces {$35.0 < {\rm m}({\rm Z}_{2}) < 60.0 $}}}{81}{figure.caption.414}
+\contentsline {figure}{\numberline {A.23}{\ignorespaces Distributions of m(4$\ell $) for the WH associated production mode from {\sc pythia} in different bins of ${\rm m}({\rm Z}_{2})$. \relax }}{82}{figure.caption.427}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$12.0 < {\rm m}({\rm Z}_{2}) < 20.0$}}}{82}{figure.caption.427}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$12.0 < {\rm m}({\rm Z}_{2}) < 20.0$}}}{82}{figure.caption.427}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$12.0 < {\rm m}({\rm Z}_{2}) < 20.0$}}}{82}{figure.caption.427}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$20.0 < {\rm m}({\rm Z}_{2}) < 28.0$}}}{82}{figure.caption.427}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$20.0< {\rm m}({\rm Z}_{2}) < 28.0$}}}{82}{figure.caption.427}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$20.0 < {\rm m}({\rm Z}_{2}) < 28.0$}}}{82}{figure.caption.427}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$28.0 < {\rm m}({\rm Z}_{2}) < 35.0$}}}{82}{figure.caption.427}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {$28.0 < {\rm m}({\rm Z}_{2}) < 35.0$}}}{82}{figure.caption.427}
+\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {$28.0 < {\rm m}({\rm Z}_{2}) < 35.0$}}}{82}{figure.caption.427}
+\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {$35.0 < {\rm m}({\rm Z}_{2}) < 60.0$}}}{82}{figure.caption.427}
+\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {$35.0 < {\rm m}({\rm Z}_{2}) < 60.0$}}}{82}{figure.caption.427}
+\contentsline {subfigure}{\numberline {(l)}{\ignorespaces {$35.0 < {\rm m}({\rm Z}_{2}) < 60.0$}}}{82}{figure.caption.427}
+\contentsline {figure}{\numberline {A.24}{\ignorespaces Distributions of m(4$\ell $) for the ZH associated production mode from {\sc pythia} in different bins of ${\rm m}({\rm Z}_{2})$. \relax }}{83}{figure.caption.440}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$12.0 < {\rm m}({\rm Z}_{2}) < 20.0$}}}{83}{figure.caption.440}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$12.0 < {\rm m}({\rm Z}_{2}) < 20.0$}}}{83}{figure.caption.440}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$12.0 < {\rm m}({\rm Z}_{2}) < 20.0$}}}{83}{figure.caption.440}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$20.0 < {\rm m}({\rm Z}_{2}) < 28.0$}}}{83}{figure.caption.440}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$20.0 < {\rm m}({\rm Z}_{2}) < 28.0$}}}{83}{figure.caption.440}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$20.0 < {\rm m}({\rm Z}_{2}) < 28.0$}}}{83}{figure.caption.440}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$28.0 < {\rm m}({\rm Z}_{2}) < 35.0$}}}{83}{figure.caption.440}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {$28.0 < {\rm m}({\rm Z}_{2}) < 35.0$}}}{83}{figure.caption.440}
+\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {$28.0 < {\rm m}({\rm Z}_{2}) < 35.0$}}}{83}{figure.caption.440}
+\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {$35.0 < {\rm m}({\rm Z}_{2}) < 60.0$}}}{83}{figure.caption.440}
+\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {$35.0 < {\rm m}({\rm Z}_{2}) < 60.0$}}}{83}{figure.caption.440}
+\contentsline {subfigure}{\numberline {(l)}{\ignorespaces {$35.0 < {\rm m}({\rm Z}_{2}) < 60.0$}}}{83}{figure.caption.440}
+\contentsline {figure}{\numberline {A.25}{\ignorespaces Distributions of m(4$\ell $) for the ttH associated production mode from {\sc pythia} in different bins of ${\rm m}({\rm Z}_{2})$. \relax }}{84}{figure.caption.453}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$12.0 < {\rm m}({\rm Z}_{2}) < 20.0$}}}{84}{figure.caption.453}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$12.0 < {\rm m}({\rm Z}_{2}) < 20.0$}}}{84}{figure.caption.453}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$12.0 < {\rm m}({\rm Z}_{2}) < 20.0$}}}{84}{figure.caption.453}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$20.0 <{\rm m}({\rm Z}_{2}) < 28.0$}}}{84}{figure.caption.453}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$20.0<{\rm m}({\rm Z}_{2}) < 28.0$}}}{84}{figure.caption.453}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$20.0 <{\rm m}({\rm Z}_{2}) < 28.0$}}}{84}{figure.caption.453}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$28.0 < {\rm m}({\rm Z}_{2}) < 35.0$}}}{84}{figure.caption.453}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {$28.0 <{\rm m}({\rm Z}_{2}) < 35.0$}}}{84}{figure.caption.453}
+\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {$28.0 <{\rm m}({\rm Z}_{2}) < 35.0$}}}{84}{figure.caption.453}
+\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {$35.0 <{\rm m}({\rm Z}_{2}) < 60.0$}}}{84}{figure.caption.453}
+\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {$35.0 <{\rm m}({\rm Z}_{2}) < 60.0$}}}{84}{figure.caption.453}
+\contentsline {subfigure}{\numberline {(l)}{\ignorespaces {$35.0 <{\rm m}({\rm Z}_{2}) < 60.0$}}}{84}{figure.caption.453}
+\contentsline {figure}{\numberline {A.26}{\ignorespaces Efficiency matrices for $\mathrm {m}(\mathrm {Z}_{2})$ for different SM production modes in the $4e$ final state. \relax }}{85}{figure.caption.466}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$\mathrm {g}\mathrm {g}\rightarrow $H ({\sc powheg+JHUgen})}}}{85}{figure.caption.466}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\mathrm {g}\mathrm {g}\rightarrow $H ({\sc minloHJJ})}}}{85}{figure.caption.466}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {VBF ({\sc powheg})}}}{85}{figure.caption.466}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {WH ({\sc pythia})}}}{85}{figure.caption.466}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {ZH ({\sc pythia})}}}{85}{figure.caption.466}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {ttH ({\sc pythia})}}}{85}{figure.caption.466}
+\contentsline {figure}{\numberline {A.27}{\ignorespaces Efficiency matrices for $\mathrm {m}(\mathrm {Z}_{2})$ for different SM production modes in the $4\mu $ final state. \relax }}{86}{figure.caption.473}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$\mathrm {g}\mathrm {g}\rightarrow $H ({\sc powheg+JHUgen})}}}{86}{figure.caption.473}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\mathrm {g}\mathrm {g}\rightarrow $H ({\sc minloHJJ})}}}{86}{figure.caption.473}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {VBF ({\sc powheg})}}}{86}{figure.caption.473}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {WH ({\sc pythia})}}}{86}{figure.caption.473}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {ZH ({\sc pythia})}}}{86}{figure.caption.473}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {ttH ({\sc pythia})}}}{86}{figure.caption.473}
+\contentsline {figure}{\numberline {A.28}{\ignorespaces Efficiency matrices for $\mathrm {m}(\mathrm {Z}_{2})$ for different SM production modes in the $2e2\mu $ final state. \relax }}{87}{figure.caption.480}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$\mathrm {g}\mathrm {g}\rightarrow $H ({\sc powheg+JHUgen})}}}{87}{figure.caption.480}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\mathrm {g}\mathrm {g}\rightarrow $H ({\sc minloHJJ})}}}{87}{figure.caption.480}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {VBF ({\sc powheg})}}}{87}{figure.caption.480}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {WH ({\sc pythia})}}}{87}{figure.caption.480}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {ZH ({\sc pythia})}}}{87}{figure.caption.480}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {ttH ({\sc pythia})}}}{87}{figure.caption.480}
+\contentsline {figure}{\numberline {A.29}{\ignorespaces Distributions of m(4$\ell $) for the $\mathrm {g}\mathrm {g}\rightarrow \mathrm {H}$ production mode from {\sc powheg+JHUGen} in different bins of $|y(\mathrm {H})|$. \relax }}{89}{figure.caption.488}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$0.0 < |y(\mathrm {H})| < 0.4 $}}}{89}{figure.caption.488}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$0.0 < |y(\mathrm {H})| < 0.4 $}}}{89}{figure.caption.488}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$0.0 < |y(\mathrm {H})| < 0.4 $}}}{89}{figure.caption.488}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$0.4 < |y(\mathrm {H})| < 0.8 $}}}{89}{figure.caption.488}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$0.4 < |y(\mathrm {H})| < 0.8 $}}}{89}{figure.caption.488}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$0.4 < |y(\mathrm {H})| < 0.8 $}}}{89}{figure.caption.488}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$0.8 < |y(\mathrm {H})| < 1.2 $}}}{89}{figure.caption.488}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {$0.8 < |y(\mathrm {H})| < 1.2 $}}}{89}{figure.caption.488}
+\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {$0.8 < |y(\mathrm {H})| < 1.2 $}}}{89}{figure.caption.488}
+\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {$1.2 < |y(\mathrm {H})| < 2.4 $}}}{89}{figure.caption.488}
+\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {$1.2 < |y(\mathrm {H})| < 2.4 $}}}{89}{figure.caption.488}
+\contentsline {subfigure}{\numberline {(l)}{\ignorespaces {$1.2 < |y(\mathrm {H})| < 2.4 $}}}{89}{figure.caption.488}
+\contentsline {figure}{\numberline {A.30}{\ignorespaces Distributions of m(4$\ell $) for the $\mathrm {g}\mathrm {g}\rightarrow \mathrm {H}$ production mode from {\sc minloHJJ} in different bins of $|y(\mathrm {H})|$. \relax }}{90}{figure.caption.501}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$0.0 < |y(\mathrm {H})| < 0.4 $}}}{90}{figure.caption.501}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$0.0 < |y(\mathrm {H})| < 0.4 $}}}{90}{figure.caption.501}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$0.0 < |y(\mathrm {H})| < 0.4 $}}}{90}{figure.caption.501}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$0.4 < |y(\mathrm {H})| < 0.8 $}}}{90}{figure.caption.501}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$0.4 < |y(\mathrm {H})| < 0.8 $}}}{90}{figure.caption.501}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$0.4 < |y(\mathrm {H})| < 0.8 $}}}{90}{figure.caption.501}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$0.8 < |y(\mathrm {H})| < 1.2 $}}}{90}{figure.caption.501}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {$0.8 < |y(\mathrm {H})| < 1.2 $}}}{90}{figure.caption.501}
+\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {$0.8 < |y(\mathrm {H})| < 1.2 $}}}{90}{figure.caption.501}
+\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {$1.2 < |y(\mathrm {H})| < 2.4 $}}}{90}{figure.caption.501}
+\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {$1.2 < |y(\mathrm {H})| < 2.4 $}}}{90}{figure.caption.501}
+\contentsline {subfigure}{\numberline {(l)}{\ignorespaces {$1.2 < |y(\mathrm {H})| < 2.4 $}}}{90}{figure.caption.501}
+\contentsline {figure}{\numberline {A.31}{\ignorespaces Distributions of m(4$\ell $) for the VBF production mode from {\sc powheg} in different bins of $|y(\mathrm {H})|$. \relax }}{91}{figure.caption.514}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$0.0 < |y(\mathrm {H})| < 0.4 $}}}{91}{figure.caption.514}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$0.0 < |y(\mathrm {H})| < 0.4 $}}}{91}{figure.caption.514}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$0.0 < |y(\mathrm {H})| < 0.4 $}}}{91}{figure.caption.514}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$0.4 < |y(\mathrm {H})| < 0.8 $}}}{91}{figure.caption.514}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$0.4 < |y(\mathrm {H})| < 0.8 $}}}{91}{figure.caption.514}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$0.4 < |y(\mathrm {H})| < 0.8 $}}}{91}{figure.caption.514}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$0.8 < |y(\mathrm {H})| < 1.2 $}}}{91}{figure.caption.514}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {$0.8 < |y(\mathrm {H})| < 1.2 $}}}{91}{figure.caption.514}
+\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {$0.8 < |y(\mathrm {H})| < 1.2 $}}}{91}{figure.caption.514}
+\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {$1.2 < |y(\mathrm {H})| < 2.4 $}}}{91}{figure.caption.514}
+\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {$1.2 < |y(\mathrm {H})| < 2.4 $}}}{91}{figure.caption.514}
+\contentsline {subfigure}{\numberline {(l)}{\ignorespaces {$1.2 < |y(\mathrm {H})| < 2.4 $}}}{91}{figure.caption.514}
+\contentsline {figure}{\numberline {A.32}{\ignorespaces Distributions of m(4$\ell $) for the WH associated production mode from {\sc pythia} in different bins of $|y(\mathrm {H})|$. \relax }}{92}{figure.caption.527}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$0.0 < |y(\mathrm {H})| < 0.4 $}}}{92}{figure.caption.527}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$0.0 < |y(\mathrm {H})| < 0.4 $}}}{92}{figure.caption.527}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$0.0 < |y(\mathrm {H})| < 0.4 $}}}{92}{figure.caption.527}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$0.4 < |y(\mathrm {H})| < 0.8 $}}}{92}{figure.caption.527}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$0.4 < |y(\mathrm {H})| < 0.8 $}}}{92}{figure.caption.527}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$0.4 < |y(\mathrm {H})| < 0.8 $}}}{92}{figure.caption.527}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$0.8 < |y(\mathrm {H})| < 1.2 $}}}{92}{figure.caption.527}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {$0.8 < |y(\mathrm {H})| < 1.2 $}}}{92}{figure.caption.527}
+\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {$0.8 < |y(\mathrm {H})| < 1.2 $}}}{92}{figure.caption.527}
+\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {$1.2 < |y(\mathrm {H})| < 2.4 $}}}{92}{figure.caption.527}
+\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {$1.2 < |y(\mathrm {H})| < 2.4 $}}}{92}{figure.caption.527}
+\contentsline {subfigure}{\numberline {(l)}{\ignorespaces {$1.2 < |y(\mathrm {H})| < 2.4 $}}}{92}{figure.caption.527}
+\contentsline {figure}{\numberline {A.33}{\ignorespaces Distributions of m(4$\ell $) for the ZH associated production mode from {\sc pythia} in different bins of $|y(\mathrm {H})|$. \relax }}{93}{figure.caption.540}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$0.0 < |y(\mathrm {H})| < 0.4 $}}}{93}{figure.caption.540}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$0.0 < |y(\mathrm {H})| < 0.4 $}}}{93}{figure.caption.540}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$0.0 < |y(\mathrm {H})| < 0.4 $}}}{93}{figure.caption.540}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$0.4 < |y(\mathrm {H})| < 0.8 $}}}{93}{figure.caption.540}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$0.4 < |y(\mathrm {H})| < 0.8 $}}}{93}{figure.caption.540}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$0.4 < |y(\mathrm {H})| < 0.8 $}}}{93}{figure.caption.540}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$0.8 < |y(\mathrm {H})| < 1.2 $}}}{93}{figure.caption.540}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {$0.8 < |y(\mathrm {H})| < 1.2 $}}}{93}{figure.caption.540}
+\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {$0.8 < |y(\mathrm {H})| < 1.2 $}}}{93}{figure.caption.540}
+\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {$1.2 < |y(\mathrm {H})| < 2.4 $}}}{93}{figure.caption.540}
+\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {$1.2 < |y(\mathrm {H})| < 2.4 $}}}{93}{figure.caption.540}
+\contentsline {subfigure}{\numberline {(l)}{\ignorespaces {$1.2 < |y(\mathrm {H})| < 2.4 $}}}{93}{figure.caption.540}
+\contentsline {figure}{\numberline {A.34}{\ignorespaces Distributions of m(4$\ell $) for the ttH associated production mode from {\sc pythia} in different bins of $|y(\mathrm {H})|$. \relax }}{94}{figure.caption.553}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$0.0 < |y(\mathrm {H})| < 0.4 $}}}{94}{figure.caption.553}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$0.0 < |y(\mathrm {H})| < 0.4 $}}}{94}{figure.caption.553}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$0.0 < |y(\mathrm {H})| < 0.4 $}}}{94}{figure.caption.553}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$0.4 <|y(\mathrm {H})| < 0.8 $}}}{94}{figure.caption.553}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$0.4 <|y(\mathrm {H})| < 0.8 $}}}{94}{figure.caption.553}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$0.4 <|y(\mathrm {H})| < 0.8 $}}}{94}{figure.caption.553}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$0.8 <|y(\mathrm {H})| < 1.2 $}}}{94}{figure.caption.553}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {$0.8 <|y(\mathrm {H})| < 1.2 $}}}{94}{figure.caption.553}
+\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {$0.8 <|y(\mathrm {H})| < 1.2 $}}}{94}{figure.caption.553}
+\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {$1.2 <|y(\mathrm {H})| < 2.4 $}}}{94}{figure.caption.553}
+\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {$1.2 <|y(\mathrm {H})| < 2.4 $}}}{94}{figure.caption.553}
+\contentsline {subfigure}{\numberline {(l)}{\ignorespaces {$1.2 <|y(\mathrm {H})| < 2.4 $}}}{94}{figure.caption.553}
+\contentsline {figure}{\numberline {A.35}{\ignorespaces Efficiency matrices for $|y({\rm H})|$ for different SM production modes in the $4e$ final state. \relax }}{95}{figure.caption.566}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$\mathrm {g}\mathrm {g}\rightarrow $H ({\sc powheg+JHUgen})}}}{95}{figure.caption.566}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\mathrm {g}\mathrm {g}\rightarrow $H ({\sc minloHJJ})}}}{95}{figure.caption.566}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {VBF ({\sc powheg})}}}{95}{figure.caption.566}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {WH ({\sc pythia})}}}{95}{figure.caption.566}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {ZH ({\sc pythia})}}}{95}{figure.caption.566}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {ttH ({\sc pythia})}}}{95}{figure.caption.566}
+\contentsline {figure}{\numberline {A.36}{\ignorespaces Efficiency matrices for $|y({\rm H})|$ for different SM production modes in the $4\mu $ final state. \relax }}{96}{figure.caption.573}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$\mathrm {g}\mathrm {g}\rightarrow $H ({\sc powheg+JHUgen})}}}{96}{figure.caption.573}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\mathrm {g}\mathrm {g}\rightarrow $H ({\sc minloHJJ})}}}{96}{figure.caption.573}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {VBF ({\sc powheg})}}}{96}{figure.caption.573}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {WH ({\sc pythia})}}}{96}{figure.caption.573}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {ZH ({\sc pythia})}}}{96}{figure.caption.573}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {ttH ({\sc pythia})}}}{96}{figure.caption.573}
+\contentsline {figure}{\numberline {A.37}{\ignorespaces Efficiency matrices for $|y({\rm H})|$ for different SM production modes in the $2e2\mu $ final state. \relax }}{97}{figure.caption.580}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$\mathrm {g}\mathrm {g}\rightarrow $H ({\sc powheg+JHUgen})}}}{97}{figure.caption.580}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\mathrm {g}\mathrm {g}\rightarrow $H ({\sc minloHJJ})}}}{97}{figure.caption.580}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {VBF ({\sc powheg})}}}{97}{figure.caption.580}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {WH ({\sc pythia})}}}{97}{figure.caption.580}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {ZH ({\sc pythia})}}}{97}{figure.caption.580}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {ttH ({\sc pythia})}}}{97}{figure.caption.580}
+\contentsline {figure}{\numberline {A.38}{\ignorespaces Distributions of m(4$\ell $) for the $\mathrm {g}\mathrm {g}\rightarrow \mathrm {H}$ production mode from {\sc powheg+JHUGen} in different bins of $|\qopname \relax o{cos}\theta ^{*}|$. \relax }}{99}{figure.caption.588}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$0.0 < |\qopname \relax o{cos}\theta ^{*}| < 0.25 $}}}{99}{figure.caption.588}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$0.0 < |\qopname \relax o{cos}\theta ^{*}| < 0.25 $}}}{99}{figure.caption.588}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$0.0 < |\qopname \relax o{cos}\theta ^{*}| < 0.25 $}}}{99}{figure.caption.588}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$0.25 < |\qopname \relax o{cos}\theta ^{*}| < 0.5 $}}}{99}{figure.caption.588}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$0.25 < |\qopname \relax o{cos}\theta ^{*}| < 0.5 $}}}{99}{figure.caption.588}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$0.25 < |\qopname \relax o{cos}\theta ^{*}| < 0.5 $}}}{99}{figure.caption.588}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$0.5 < |\qopname \relax o{cos}\theta ^{*}| < 0.75 $}}}{99}{figure.caption.588}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {$0.5 < |\qopname \relax o{cos}\theta ^{*}| < 0.75 $}}}{99}{figure.caption.588}
+\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {$0.5 < |\qopname \relax o{cos}\theta ^{*}| < 0.75 $}}}{99}{figure.caption.588}
+\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {$0.75 < |\qopname \relax o{cos}\theta ^{*}| < 1.0 $}}}{99}{figure.caption.588}
+\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {$0.75 < |\qopname \relax o{cos}\theta ^{*}| < 1.0 $}}}{99}{figure.caption.588}
+\contentsline {subfigure}{\numberline {(l)}{\ignorespaces {$0.75 < |\qopname \relax o{cos}\theta ^{*}| < 1.0 $}}}{99}{figure.caption.588}
+\contentsline {figure}{\numberline {A.39}{\ignorespaces Distributions of m(4$\ell $) for the $\mathrm {g}\mathrm {g}\rightarrow \mathrm {H}$ production mode from {\sc minloHJJ} in different bins of $|\qopname \relax o{cos}\theta ^{*}|$. \relax }}{100}{figure.caption.601}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$0.0 < |\qopname \relax o{cos}\theta ^{*}| < 0.25 $}}}{100}{figure.caption.601}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$0.0 < |\qopname \relax o{cos}\theta ^{*}| < 0.25 $}}}{100}{figure.caption.601}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$0.0 < |\qopname \relax o{cos}\theta ^{*}| < 0.25 $}}}{100}{figure.caption.601}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$0.25 < |\qopname \relax o{cos}\theta ^{*}| < 0.5 $}}}{100}{figure.caption.601}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$0.25 < |\qopname \relax o{cos}\theta ^{*}| < 0.5 $}}}{100}{figure.caption.601}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$0.25 < |\qopname \relax o{cos}\theta ^{*}| < 0.5 $}}}{100}{figure.caption.601}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$0.5 < |\qopname \relax o{cos}\theta ^{*}| < 0.75 $}}}{100}{figure.caption.601}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {$0.5 < |\qopname \relax o{cos}\theta ^{*}| < 0.75 $}}}{100}{figure.caption.601}
+\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {$0.5 < |\qopname \relax o{cos}\theta ^{*}| < 0.75 $}}}{100}{figure.caption.601}
+\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {$0.75 < |\qopname \relax o{cos}\theta ^{*}| < 1.0 $}}}{100}{figure.caption.601}
+\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {$0.75 < |\qopname \relax o{cos}\theta ^{*}| < 1.0 $}}}{100}{figure.caption.601}
+\contentsline {subfigure}{\numberline {(l)}{\ignorespaces {$0.75 < |\qopname \relax o{cos}\theta ^{*}| < 1.0 $}}}{100}{figure.caption.601}
+\contentsline {figure}{\numberline {A.40}{\ignorespaces Distributions of m(4$\ell $) for the VBF production mode from {\sc powheg} in different bins of $|\qopname \relax o{cos}\theta ^{*}|$. \relax }}{101}{figure.caption.614}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$0.0 < |\qopname \relax o{cos}\theta ^{*}| < 0.25 $}}}{101}{figure.caption.614}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$0.0 < |\qopname \relax o{cos}\theta ^{*}| < 0.25 $}}}{101}{figure.caption.614}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$0.0 < |\qopname \relax o{cos}\theta ^{*}| < 0.25 $}}}{101}{figure.caption.614}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$0.25 < |\qopname \relax o{cos}\theta ^{*}| < 0.5 $}}}{101}{figure.caption.614}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$0.25 < |\qopname \relax o{cos}\theta ^{*}| < 0.5 $}}}{101}{figure.caption.614}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$0.25 < |\qopname \relax o{cos}\theta ^{*}| < 0.5 $}}}{101}{figure.caption.614}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$0.5 < |\qopname \relax o{cos}\theta ^{*}| < 0.75 $}}}{101}{figure.caption.614}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {$0.5 < |\qopname \relax o{cos}\theta ^{*}| < 0.75 $}}}{101}{figure.caption.614}
+\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {$0.5 < |\qopname \relax o{cos}\theta ^{*}| < 0.75 $}}}{101}{figure.caption.614}
+\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {$0.75 < |\qopname \relax o{cos}\theta ^{*}| < 1.0 $}}}{101}{figure.caption.614}
+\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {$0.75 < |\qopname \relax o{cos}\theta ^{*}| < 1.0 $}}}{101}{figure.caption.614}
+\contentsline {subfigure}{\numberline {(l)}{\ignorespaces {$0.75 < |\qopname \relax o{cos}\theta ^{*}| < 1.0 $}}}{101}{figure.caption.614}
+\contentsline {figure}{\numberline {A.41}{\ignorespaces Distributions of m(4$\ell $) for the WH associated production mode from {\sc pythia} in different bins of $|\qopname \relax o{cos}\theta ^{*}|$. \relax }}{102}{figure.caption.627}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$0.0 < |\qopname \relax o{cos}\theta ^{*}| < 0.25 $}}}{102}{figure.caption.627}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$0.0 < |\qopname \relax o{cos}\theta ^{*}| < 0.25 $}}}{102}{figure.caption.627}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$0.0 < |\qopname \relax o{cos}\theta ^{*}| < 0.25 $}}}{102}{figure.caption.627}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$0.25 < |\qopname \relax o{cos}\theta ^{*}| < 0.5 $}}}{102}{figure.caption.627}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$0.25 < |\qopname \relax o{cos}\theta ^{*}| < 0.5 $}}}{102}{figure.caption.627}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$0.25 < |\qopname \relax o{cos}\theta ^{*}| < 0.5 $}}}{102}{figure.caption.627}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$0.5 < |\qopname \relax o{cos}\theta ^{*}| < 0.75 $}}}{102}{figure.caption.627}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {$0.5 < |\qopname \relax o{cos}\theta ^{*}| < 0.75 $}}}{102}{figure.caption.627}
+\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {$0.5 < |\qopname \relax o{cos}\theta ^{*}| < 0.75 $}}}{102}{figure.caption.627}
+\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {$0.75 < |\qopname \relax o{cos}\theta ^{*}| < 1.0 $}}}{102}{figure.caption.627}
+\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {$0.75 < |\qopname \relax o{cos}\theta ^{*}| < 1.0 $}}}{102}{figure.caption.627}
+\contentsline {subfigure}{\numberline {(l)}{\ignorespaces {$0.75 < |\qopname \relax o{cos}\theta ^{*}| < 1.0 $}}}{102}{figure.caption.627}
+\contentsline {figure}{\numberline {A.42}{\ignorespaces Distributions of m(4$\ell $) for the ZH associated production mode from {\sc pythia} in different bins of $|\qopname \relax o{cos}\theta ^{*}|$. \relax }}{103}{figure.caption.640}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$0.0 < |\qopname \relax o{cos}\theta ^{*}| < 0.25 $}}}{103}{figure.caption.640}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$0.0 < |\qopname \relax o{cos}\theta ^{*}| < 0.25 $}}}{103}{figure.caption.640}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$0.0 < |\qopname \relax o{cos}\theta ^{*}| < 0.25 $}}}{103}{figure.caption.640}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$0.25 < |\qopname \relax o{cos}\theta ^{*}| < 0.5 $}}}{103}{figure.caption.640}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$0.25 < |\qopname \relax o{cos}\theta ^{*}| < 0.5 $}}}{103}{figure.caption.640}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$0.25 < |\qopname \relax o{cos}\theta ^{*}| < 0.5 $}}}{103}{figure.caption.640}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$0.5 < |\qopname \relax o{cos}\theta ^{*}| < 0.75 $}}}{103}{figure.caption.640}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {$0.5 < |\qopname \relax o{cos}\theta ^{*}| < 0.75 $}}}{103}{figure.caption.640}
+\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {$0.5 < |\qopname \relax o{cos}\theta ^{*}| < 0.75 $}}}{103}{figure.caption.640}
+\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {$0.75 < |\qopname \relax o{cos}\theta ^{*}| < 1.0 $}}}{103}{figure.caption.640}
+\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {$0.75 < |\qopname \relax o{cos}\theta ^{*}| < 1.0 $}}}{103}{figure.caption.640}
+\contentsline {subfigure}{\numberline {(l)}{\ignorespaces {$0.75 < |\qopname \relax o{cos}\theta ^{*}| < 1.0 $}}}{103}{figure.caption.640}
+\contentsline {figure}{\numberline {A.43}{\ignorespaces Distributions of m(4$\ell $) for the ttH associated production mode from {\sc pythia} in different bins of $|\qopname \relax o{cos}\theta ^{*}|$. \relax }}{104}{figure.caption.653}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$0.0 < |\qopname \relax o{cos}\theta ^{*}| < 0.25 $}}}{104}{figure.caption.653}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$0.0 < |\qopname \relax o{cos}\theta ^{*}| < 0.25 $}}}{104}{figure.caption.653}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$0.0 < |\qopname \relax o{cos}\theta ^{*}| < 0.25 $}}}{104}{figure.caption.653}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$0.25 <|\qopname \relax o{cos}\theta ^{*}| < 0.5 $}}}{104}{figure.caption.653}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$0.25 <|\qopname \relax o{cos}\theta ^{*}| < 0.5 $}}}{104}{figure.caption.653}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$0.25 <|\qopname \relax o{cos}\theta ^{*}| < 0.5 $}}}{104}{figure.caption.653}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$0.5 <|\qopname \relax o{cos}\theta ^{*}| < 0.75 $}}}{104}{figure.caption.653}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {$0.5 <|\qopname \relax o{cos}\theta ^{*}| < 0.75 $}}}{104}{figure.caption.653}
+\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {$0.5 <|\qopname \relax o{cos}\theta ^{*}| < 0.75 $}}}{104}{figure.caption.653}
+\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {$0.75 <|\qopname \relax o{cos}\theta ^{*}| < 1.0 $}}}{104}{figure.caption.653}
+\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {$0.75 <|\qopname \relax o{cos}\theta ^{*}| < 1.0 $}}}{104}{figure.caption.653}
+\contentsline {subfigure}{\numberline {(l)}{\ignorespaces {$0.75 <|\qopname \relax o{cos}\theta ^{*}| < 1.0 $}}}{104}{figure.caption.653}
+\contentsline {figure}{\numberline {A.44}{\ignorespaces Efficiency matrices for $|\qopname \relax o{cos}\theta ^{*}|$ for different SM production modes in the $4e$ final state. \relax }}{105}{figure.caption.666}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$\mathrm {g}\mathrm {g}\rightarrow $H ({\sc powheg+JHUgen})}}}{105}{figure.caption.666}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\mathrm {g}\mathrm {g}\rightarrow $H ({\sc minloHJJ})}}}{105}{figure.caption.666}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {VBF ({\sc powheg})}}}{105}{figure.caption.666}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {WH ({\sc pythia})}}}{105}{figure.caption.666}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {ZH ({\sc pythia})}}}{105}{figure.caption.666}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {ttH ({\sc pythia})}}}{105}{figure.caption.666}
+\contentsline {figure}{\numberline {A.45}{\ignorespaces Efficiency matrices for $|\qopname \relax o{cos}\theta ^{*}|$ for different SM production modes in the $4\mu $ final state. \relax }}{106}{figure.caption.673}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$\mathrm {g}\mathrm {g}\rightarrow $H ({\sc powheg+JHUgen})}}}{106}{figure.caption.673}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\mathrm {g}\mathrm {g}\rightarrow $H ({\sc minloHJJ})}}}{106}{figure.caption.673}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {VBF ({\sc powheg})}}}{106}{figure.caption.673}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {WH ({\sc pythia})}}}{106}{figure.caption.673}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {ZH ({\sc pythia})}}}{106}{figure.caption.673}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {ttH ({\sc pythia})}}}{106}{figure.caption.673}
+\contentsline {figure}{\numberline {A.46}{\ignorespaces Efficiency matrices for $|\qopname \relax o{cos}\theta ^{*}|$ for different SM production modes in the $2e2\mu $ final state. \relax }}{107}{figure.caption.680}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$\mathrm {g}\mathrm {g}\rightarrow $H ({\sc powheg+JHUgen})}}}{107}{figure.caption.680}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\mathrm {g}\mathrm {g}\rightarrow $H ({\sc minloHJJ})}}}{107}{figure.caption.680}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {VBF ({\sc powheg})}}}{107}{figure.caption.680}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {WH ({\sc pythia})}}}{107}{figure.caption.680}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {ZH ({\sc pythia})}}}{107}{figure.caption.680}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {ttH ({\sc pythia})}}}{107}{figure.caption.680}
+\contentsline {figure}{\numberline {A.47}{\ignorespaces Distributions of m(4$\ell $) for the $\mathrm {g}\mathrm {g}\rightarrow \mathrm {H}$ production mode from {\sc powheg+JHUGen} in different bins of N(jets). \relax }}{109}{figure.caption.688}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {N(jets)=0}}}{109}{figure.caption.688}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {N(jets)=0}}}{109}{figure.caption.688}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {N(jets)=0}}}{109}{figure.caption.688}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {N(jets)=1}}}{109}{figure.caption.688}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {N(jets)=1}}}{109}{figure.caption.688}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {N(jets)=1}}}{109}{figure.caption.688}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {N(jets)=2}}}{109}{figure.caption.688}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {N(jets)=2}}}{109}{figure.caption.688}
+\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {N(jets)=2}}}{109}{figure.caption.688}
+\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {N(jets) $\ge $ 3}}}{109}{figure.caption.688}
+\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {N(jets) $\ge $ 3}}}{109}{figure.caption.688}
+\contentsline {subfigure}{\numberline {(l)}{\ignorespaces {N(jets) $\ge $ 3}}}{109}{figure.caption.688}
+\contentsline {figure}{\numberline {A.48}{\ignorespaces Distributions of m(4$\ell $) for the $\mathrm {g}\mathrm {g}\rightarrow \mathrm {H}$ production mode from {\sc minloHJJ} in different bins of N(jets). \relax }}{110}{figure.caption.701}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {N(jets)=0}}}{110}{figure.caption.701}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {N(jets)=0}}}{110}{figure.caption.701}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {N(jets)=0}}}{110}{figure.caption.701}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {N(jets)=1}}}{110}{figure.caption.701}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {N(jets)=1}}}{110}{figure.caption.701}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {N(jets)=1}}}{110}{figure.caption.701}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {N(jets)=2}}}{110}{figure.caption.701}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {N(jets)=2}}}{110}{figure.caption.701}
+\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {N(jets)=2}}}{110}{figure.caption.701}
+\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {N(jets) $\ge $ 3}}}{110}{figure.caption.701}
+\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {N(jets) $\ge $ 3}}}{110}{figure.caption.701}
+\contentsline {subfigure}{\numberline {(l)}{\ignorespaces {N(jets) $\ge $ 3}}}{110}{figure.caption.701}
+\contentsline {figure}{\numberline {A.49}{\ignorespaces Distributions of m(4$\ell $) for the VBF production mode from {\sc powheg} in different bins of N(jets). \relax }}{111}{figure.caption.714}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {N(jets)=0}}}{111}{figure.caption.714}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {N(jets)=0}}}{111}{figure.caption.714}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {N(jets)=0}}}{111}{figure.caption.714}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {N(jets)=1}}}{111}{figure.caption.714}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {N(jets)=1}}}{111}{figure.caption.714}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {N(jets)=1}}}{111}{figure.caption.714}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {N(jets)=2}}}{111}{figure.caption.714}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {N(jets)=2}}}{111}{figure.caption.714}
+\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {N(jets)=2}}}{111}{figure.caption.714}
+\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {N(jets) $\ge $ 3}}}{111}{figure.caption.714}
+\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {N(jets) $\ge $ 3}}}{111}{figure.caption.714}
+\contentsline {subfigure}{\numberline {(l)}{\ignorespaces {N(jets) $\ge $ 3}}}{111}{figure.caption.714}
+\contentsline {figure}{\numberline {A.50}{\ignorespaces Distributions of m(4$\ell $) for the WH associated production mode from {\sc pythia} in different bins of N(jets). \relax }}{112}{figure.caption.727}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {N(jets)=0}}}{112}{figure.caption.727}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {N(jets)=0}}}{112}{figure.caption.727}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {N(jets)=0}}}{112}{figure.caption.727}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {N(jets)=1}}}{112}{figure.caption.727}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {N(jets)=1}}}{112}{figure.caption.727}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {N(jets)=1}}}{112}{figure.caption.727}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {N(jets)=2}}}{112}{figure.caption.727}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {N(jets)=2}}}{112}{figure.caption.727}
+\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {N(jets)=2}}}{112}{figure.caption.727}
+\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {N(jets) $\ge $ 3}}}{112}{figure.caption.727}
+\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {N(jets) $\ge $ 3}}}{112}{figure.caption.727}
+\contentsline {subfigure}{\numberline {(l)}{\ignorespaces {N(jets) $\ge $ 3}}}{112}{figure.caption.727}
+\contentsline {figure}{\numberline {A.51}{\ignorespaces Distributions of m(4$\ell $) for the ZH associated production mode from {\sc pythia} in different bins of N(jets). \relax }}{113}{figure.caption.740}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {N(jets)=0}}}{113}{figure.caption.740}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {N(jets)=0}}}{113}{figure.caption.740}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {N(jets)=0}}}{113}{figure.caption.740}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {N(jets)=1}}}{113}{figure.caption.740}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {N(jets)=1}}}{113}{figure.caption.740}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {N(jets)=1}}}{113}{figure.caption.740}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {N(jets)=2}}}{113}{figure.caption.740}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {N(jets)=2}}}{113}{figure.caption.740}
+\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {N(jets)=2}}}{113}{figure.caption.740}
+\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {N(jets) $\ge $ 3}}}{113}{figure.caption.740}
+\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {N(jets) $\ge $ 3}}}{113}{figure.caption.740}
+\contentsline {subfigure}{\numberline {(l)}{\ignorespaces {N(jets) $\ge $ 3}}}{113}{figure.caption.740}
+\contentsline {figure}{\numberline {A.52}{\ignorespaces Distributions of m(4$\ell $) for the ttH associated production mode from {\sc pythia} in different bins of N(jets). \relax }}{114}{figure.caption.753}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {N(jets)=0}}}{114}{figure.caption.753}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {N(jets)=0}}}{114}{figure.caption.753}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {N(jets)=0}}}{114}{figure.caption.753}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {N(jets)=1}}}{114}{figure.caption.753}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {N(jets)=1}}}{114}{figure.caption.753}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {N(jets)=1}}}{114}{figure.caption.753}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {N(jets)=2}}}{114}{figure.caption.753}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {N(jets)=2}}}{114}{figure.caption.753}
+\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {N(jets)=2}}}{114}{figure.caption.753}
+\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {N(jets)=3}}}{114}{figure.caption.753}
+\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {N(jets)=3}}}{114}{figure.caption.753}
+\contentsline {subfigure}{\numberline {(l)}{\ignorespaces {N(jets)=3}}}{114}{figure.caption.753}
+\contentsline {figure}{\numberline {A.53}{\ignorespaces Efficiency matrices for N(jets) for different SM production modes in the $4e$ final state. \relax }}{115}{figure.caption.766}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$\mathrm {g}\mathrm {g}\rightarrow $H ({\sc powheg+JHUgen})}}}{115}{figure.caption.766}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\mathrm {g}\mathrm {g}\rightarrow $H ({\sc minloHJJ})}}}{115}{figure.caption.766}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {VBF ({\sc powheg})}}}{115}{figure.caption.766}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {WH ({\sc pythia})}}}{115}{figure.caption.766}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {ZH ({\sc pythia})}}}{115}{figure.caption.766}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {ttH ({\sc pythia})}}}{115}{figure.caption.766}
+\contentsline {figure}{\numberline {A.54}{\ignorespaces Efficiency matrices for N(jets) for different SM production modes in the $4\mu $ final state. \relax }}{116}{figure.caption.773}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$\mathrm {g}\mathrm {g}\rightarrow $H ({\sc powheg+JHUgen})}}}{116}{figure.caption.773}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\mathrm {g}\mathrm {g}\rightarrow $H ({\sc minloHJJ})}}}{116}{figure.caption.773}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {VBF ({\sc powheg})}}}{116}{figure.caption.773}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {WH ({\sc pythia})}}}{116}{figure.caption.773}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {ZH ({\sc pythia})}}}{116}{figure.caption.773}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {ttH ({\sc pythia})}}}{116}{figure.caption.773}
+\contentsline {figure}{\numberline {A.55}{\ignorespaces Efficiency matrices for N(jets)for different SM production modes in the $2e2\mu $ final state. \relax }}{117}{figure.caption.780}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$\mathrm {g}\mathrm {g}\rightarrow $H ({\sc powheg+JHUgen})}}}{117}{figure.caption.780}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\mathrm {g}\mathrm {g}\rightarrow $H ({\sc minloHJJ})}}}{117}{figure.caption.780}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {VBF ({\sc powheg})}}}{117}{figure.caption.780}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {WH ({\sc pythia})}}}{117}{figure.caption.780}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {ZH ({\sc pythia})}}}{117}{figure.caption.780}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {ttH ({\sc pythia})}}}{117}{figure.caption.780}
+\contentsline {figure}{\numberline {A.56}{\ignorespaces Comparion of the JER uncertainty and JES uncertainty for different production modes. The uncertainty due to JER is much smaller than (and covered by) the JES uncertainty. The JER uncertainty has been estimated according to Jet/MET recommendation. \relax }}{118}{figure.caption.788}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$gg\rightarrow $H ({\sc powheg+JHUgen})}}}{118}{figure.caption.788}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {VBF ({\sc powheg})}}}{118}{figure.caption.788}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {WH ({\sc pythia})}}}{118}{figure.caption.788}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {ZH ({\sc pythia})}}}{118}{figure.caption.788}
+\contentsline {figure}{\numberline {A.57}{\ignorespaces Results of the differential cross section measurement for different observables. The predictions from {\sc powheg+JHUgen} and {\sc minloHJJ} are shown in blue and yellow, respectively. The central value of the measurement is obtained using the efficiencies from the {\sc powheg+JHUgen} gg$\rightarrow $H model with m(H)= 125 $\GeV $, and the error bar represents the combined statistical and systematic uncertainty. The grey box represents the additional uncertainty incurred when using different models to unfold the observed data distribution back to particle level. The fraction of $4e,4\mu $ and $2e2\mu $ in each bin are fixed to their SM expectations. \relax }}{120}{figure.caption.794}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$\ensuremath {p_T}(\mathrm {H})$}}}{120}{figure.caption.794}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\mathrm {m}(\mathrm {Z}_{2})$}}}{120}{figure.caption.794}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$|y(\mathrm {H})|$}}}{120}{figure.caption.794}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$|\qopname \relax o{cos}\theta ^{*}|$}}}{120}{figure.caption.794}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {N(jets)}}}{120}{figure.caption.794}
+\contentsline {figure}{\numberline {A.58}{\ignorespaces Results of the differential cross section measurement for different observables. The predictions from {\sc powheg+JHUgen} and {\sc minloHJJ} are shown in blue and yellow, respectively. The central value of the measurement is obtained using SM efficiencies where the gg$\rightarrow $H prediction is from {\sc powheg+JHUgen} with m(H)= 125 $\GeV $, and the error bar represents the combined statistical and systematic uncertainty. The grey box represents the additional uncertainty incurred when using different models to unfold the observed data distribution back to particle level. In this case, this model-dependance uncertainty is assessed by taking into account the experimental constraints from the exiting CMS measurements, as discussed in Section~\ref {sec:totalZZXSecSyst}. The fraction of $4e,4\mu $ and $2e2\mu $ in each bin are allowed to float in the fit. \relax }}{122}{figure.caption.801}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$\ensuremath {p_T}(\mathrm {H})$}}}{122}{figure.caption.801}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\mathrm {m}(\mathrm {Z}_{2})$}}}{122}{figure.caption.801}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$|y(\mathrm {H})|$}}}{122}{figure.caption.801}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$|\qopname \relax o{cos}\theta ^{*}|$}}}{122}{figure.caption.801}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {N(jets)}}}{122}{figure.caption.801}
+\contentsline {figure}{\numberline {A.59}{\ignorespaces Results of the differential cross section measurement for different observables when the asimov dataset is generated assuming pure ZH production with cross section equal to the total SM cross section. The prediction for this pure ZH model is shown in red. The central value of the measurement is obtained using SM efficiencies with the gg$\rightarrow $H prediction from {\sc powheg+JHUgen} with m(H)= 125 $\GeV $, and the error bar represents the combined statistical and systematic uncertainty. The grey box represents the additional uncertainty incurred when using different models to unfold the observed data distribution back to particle level. \relax }}{124}{figure.caption.808}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$\ensuremath {p_T}(\mathrm {H})$}}}{124}{figure.caption.808}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\mathrm {m}(\mathrm {Z}_{2})$}}}{124}{figure.caption.808}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$|y(\mathrm {H})|$}}}{124}{figure.caption.808}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$|\qopname \relax o{cos}\theta ^{*}|$}}}{124}{figure.caption.808}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {N(jets)}}}{124}{figure.caption.808}

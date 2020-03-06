@@ -1,0 +1,54 @@
+The measurement is performed using $\Z$ events, as the muons from $\JPsi$ decays need not be
+compatible with the primary vertex if the $\JPsi$ is produced in the decay of a B hadron.
+For this measurement, the probe is a muon passing the POG Loose identification criteria,
+and it is considered a passing probe if satisfies the SIP3D, $d_{xy}$, $d_{z}$ cuts of this analysis.
+
+For Run2, very good agreement between data and simulation is observed in the barrel (Fig.~\ref{fig:MuonIDEff_2}, left)
+while some inefficiency is visible in the endcaps, especially at large values of $|\eta|$.
+The data to simulation scale factor is found to be flat as function of \pt, so, similarly to what done
+for the identification part, we apply a correction only as function of $\eta$.
+
+%%%%%%%%%%
+\begin{figure}[!h]
+  \begin{center}
+    \subfigure[]{\includegraphics[width=0.32\textwidth]{Figures/chapter3_Figure/mu_SIP4_barrel.pdf}}
+    \subfigure[]{\includegraphics[width=0.32\textwidth]{Figures/chapter3_Figure/mu_SIP4_endcap.pdf}}
+    \subfigure[]{\includegraphics[width=0.32\textwidth]{Figures/chapter3_Figure/mu_SIP4_pt20.pdf}}
+    \caption{Efficiency of the muon impact parameter requirements, measured with the tag\&probe method on \Z events, as function of \pt in the barrel (left) and 
+    endcaps (center), and as function of $\eta$ for $\pt > 20\GeV$ (right). In the upper panel, the larger error bars include also the systematical
+    uncertainties, while the smaller ones are purely statistical. In the lower panel showing the ratio of the two efficiencies, the black error bars are 
+    for the statistical uncertainty, the orange rectangles for the systematical uncertainty and the violet rectangles include both uncertainties.}
+    \label{fig:MuonIDEff_2}
+\end{center}
+\end{figure}
+
+%%%%%%%%%
+\par
+For Run1, the efficiency of the $|SIP3D| < 4$ criteria is found to be above
+$99.5\%$ in the barrel, and decreasing slightly down to about $99\%$
+in the forward part of the detector (Fig.~\ref{fig:mu-tnp-sip}). In
+the latter region, the efficiency in data about $0.1\%$ lower than in
+simulations. A worse $|SIP3D| < 4$ efficiency due to pixel misalignment
+in the promptly reconstructed data is now recovered in the
+re-reconstructed data as can be seen in Fig.~\ref{fig:mu-tnp-sip} (right bottom).
+Morover, the efficiency does not show a significant
+dependance to pile-up as it is flat as a function of the number of
+vertices as shown in Fig.~\ref{fig:mu-tnp-sip} (left bottom).
+
+\begin{figure}[htb]
+\begin{center}
+\includegraphics[width=0.45\linewidth]{Figures/chapter3_Figure/HZZ_2011_MuonSIP_eta.pdf}
+\includegraphics[width=0.45\linewidth]{Figures/chapter3_Figure/HZZ_2012_MuonSIP_eta.pdf} \\
+\includegraphics[width=0.45\linewidth]{Figures/chapter3_Figure/HZZ_2012_MuonSIP_vtx.pdf}
+\includegraphics[width=0.45\linewidth]{Figures/chapter3_Figure/HZZ_2012_Compare_MuonSIP_eta.pdf}
+\caption{Efficiency for the requirement on the 3D impact parameter
+  significance $|SIP3D| < 4$. Top row: efficiency as as function of
+  the muon pseudorapidity, for 2011 data (left), and 2012 data
+  (right), for muons with $\pt > 20 \GeV$; bottom row: efficiency in
+  2012 data as function of the number of reconstructed vertices (left) and
+  the comparison between the 2012 prompt-reco and the re-reco (right). Muons satisfying the Particle Flow identification
+  requirements are used.}
+\label{fig:mu-tnp-sip}
+\end{center}
+\end{figure}
+%%%%%%%

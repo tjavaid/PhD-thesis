@@ -1,0 +1,161 @@
+% Customizable fields and text areas start with % >> below.
+% Lines starting with the comment character (%) are normally removed before release outside the collaboration, but not those comments ending lines
+
+% svn info. These are modified by svn at checkout time.
+% The last version of these macros found before the maketitle will be the one on the front page,
+% so only the main file is tracked.
+% Do not edit by hand!
+\RCS$Revision$
+\RCS$HeadURL$
+\RCS$Id$
+%%%%%%%%%%%%% local definitions %%%%%%%%%%%%%%%%%%%%%
+% This allows for switching between one column and two column (cms@external) layouts
+% The widths should  be modified for your particular figures. You'll need additional copies if you have more than one standard figure size.
+\newlength\cmsFigWidth
+\ifthenelse{\boolean{cms@external}}{\setlength\cmsFigWidth{0.85\columnwidth}}{\setlength\cmsFigWidth{0.4\textwidth}}
+\ifthenelse{\boolean{cms@external}}{\providecommand{\cmsLeft}{top\xspace}}{\providecommand{\cmsLeft}{left\xspace}}
+\ifthenelse{\boolean{cms@external}}{\providecommand{\cmsRight}{bottom\xspace}}{\providecommand{\cmsRight}{right\xspace}}
+
+\newcommand{\ggH}{\ensuremath{\Pg\Pg\to\PH}}
+\newcommand{\qqH}{\ensuremath{\cPq\cPq\to\cPq\cPq\PH}}
+\newcommand{\WH}{\ensuremath{\PW\PH}\xspace}
+\newcommand{\ZH}{\ensuremath{\cPZ\PH}\xspace}
+\newcommand{\VH}{\ensuremath{V\PH}\xspace}
+\newcommand{\ttH}{\ensuremath{\cPqt\bar{\cPqt}\PH}\xspace}
+\newcommand{\bbH}{\ensuremath{\cPqb\bar{\cPqb}\PH}\xspace}
+\newcommand{\qqZZ}{\ensuremath{\cPq\bar{\cPq}\to\cPZ\cPZ}}
+\newcommand{\ggZZ}{\ensuremath{\Pg\Pg\to\cPZ\cPZ}}
+\newcommand{\HZZfl}{\ensuremath{\PH\to\cPZ\cPZ\to4\ell}}
+\newcommand{\Hllll}{\ensuremath{\PH\to4\ell}}
+\newcommand{\mH}{\ensuremath{m_{\PH}}}
+\newcommand{\mllll}{\ensuremath{m_{4\ell}}}
+\newcommand{\mell}{\ensuremath{m_{4\ell}}}
+\newcommand{\mpllll}{\ensuremath{m'_{4\ell}}}
+\newcommand{\ptllll}{\ensuremath{p_{\mathrm{T},4\ell}}}
+\newcommand{\KD}{\ensuremath{{\cal D}^{\rm kin}_{\rm bkg}} }
+\newcommand{\VDj}{\mathrm{{\cal D}_{\rm jet}} }
+\newcommand{\DMeVbfjj}{\ensuremath{{\mathcal D}_{\rm 2jet}}\xspace}
+\newcommand{\DMeVbfj}{\ensuremath{{\mathcal D}_{\rm 1jet}}\xspace}
+\newcommand{\mll}{\ensuremath{m_{\ell\ell}}}
+\newcommand{\mlplm}{\ensuremath{m_{\ell^{+}\ell^{-}}}}
+\newcommand{\DMeWh}{\ensuremath{{\mathcal D}_{\rm \WH}}\xspace}
+\newcommand{\DMeZh}{\ensuremath{{\mathcal D}_{\rm \ZH}}\xspace}
+\newcommand{\DQgjj}{\ensuremath{{\mathcal D}^{\rm q/g}_{\rm 2jet}}\xspace}
+\newcommand{\DQgj}{\ensuremath{{\mathcal D}^{\rm q/g}_{\rm 1jet}}\xspace}
+\newcommand{\DCombVbfjj}{\ensuremath{{\mathcal D}^{\rm comb.}_{\rm 2jet}}\xspace}
+\newcommand{\DCombVbfj}{\ensuremath{{\mathcal D}^{\rm comb.}_{\rm 1jet}}\xspace}
+\newcommand{\DCombWh}{\ensuremath{{\mathcal D}^{\rm comb.}_{\rm \WH}}\xspace}
+\newcommand{\DCombZh}{\ensuremath{{\mathcal D}^{\rm comb.}_{\rm \ZH}}\xspace}
+\newcommand{\sip}{\ensuremath{\text{SIP}_\text{3D}} }
+\newcommand{\Zee}{\mathrm{\cPZ\rightarrow\Pe^{+}\Pe^{-}}}
+\newcommand{\Zone}{\mathrm{Z}}
+\newcommand{\MassD}{\mathrm{{\cal D}_{\rm mass}} }
+\newcommand{\MassDprime}{\mathrm{{\cal D}'_{\rm mass}} }
+\newcommand{\LikMass}{\mathcal{L}_{3D}^{m,\Gamma} }
+\newcommand{\LikMassTwoD}{\mathcal{L}_{2D}^{m,\Gamma} }
+\newcommand{\LikMassOneD}{\mathcal{L}_{1D}^{m,\Gamma} }
+\newcommand{\LikMuOneD}{\mathrm{{\cal L}_{1D}(m_{4l})} }
+\newcommand{\LikMuTwoD}{\mathrm{{\cal L}_{2D}(m_{4l},\KD)} }
+\newcommand{\LikMuOneDPrime}{\mathrm{{\cal L}_{1D}(m_{4l}')} }
+\newcommand{\LikMuTwoDPrime}{\mathrm{{\cal L}_{2D}(m_{4l}',\KD)} }
+\newcommand{\muV}{\ensuremath{\mu_{\mathrm{VBF},\mathrm{V\PH}}} }
+\newcommand{\muF}{\ensuremath{\mu_{\Pg\Pg\PH,\,\ttbar\PH}} }
+
+\newcommand{\usedLumiA}{36.8\fbinv}
+\newcommand{\usedLumiB}{41.4\fbinv}
+\newcommand{\usedLumiC}{59.7\fbinv}
+\newcommand{\usedLumiABC}{137.1\fbinv}
+\newcommand{\posOfPValueMinimum}{12X.X}
+\newcommand{\expSignAtMinimum}{xx.x}
+\newcommand{\obsSignAtMinimum}{yy.y}
+\newcommand{\expSignAtRunIMass}{10.5}
+\newcommand{\obsSignAtRunIMass}{10.8}
+\newcommand{\valMass}{\ensuremath{12X.XX^{+0.xx}_{-0.yy}}}
+\newcommand{\valMassThreeDRefit}{\ensuremath{125.25 \pm 0.20 (\mathrm{stat.}) \pm 0.08 (\mathrm{sys.})}}
+\newcommand{\valMuAtRunIMass}{\ensuremath{0.94^{+0.11}_{-0.10}}}
+\newcommand{\valMuVAtRunIMass}{\ensuremath{0.83^{+0.29}_{-0.35}}}
+\newcommand{\valMuFAtRunIMass}{\ensuremath{0.96^{+0.11}_{-0.12}}}
+
+\newcommand{\Dbkgkin}{\ensuremath{{\mathcal{D}}^{\mathrm{kin}}_{\mathrm{bkg}}}\xspace}
+\newcommand{\DbkgVBFdec}{\ensuremath{{\mathcal{D}}^{\mathrm{VBF}+\mathrm{dec}}_{\mathrm{bkg}}}\xspace}
+\newcommand{\DbkgVHdec}{\ensuremath{{\mathcal{D}}^{\mathrm{VH}+\mathrm{dec}}_{\mathrm{bkg}}}\xspace}
+
+
+
+
+
+%%%%%%%%%%%%%%%  Title page %%%%%%%%%%%%%%%%%%%%%%%%
+\cmsNoteHeader{AN-18-340} % This is over-written in the CMS environment: useful as preprint no. for export versions
+% >> Title: please make sure that the non-TeX equivalent is in PDFTitle below
+\title{Measurements of properties of the Higgs boson in the four-lepton final state at $\sqrt{s}$ = 13 TeV with full Run II data}
+
+% >> Authors
+%Author is always "The CMS Collaboration" for PAS and papers, so author, etc, below will be ignored in those cases
+%For multiple affiliations, create an address entry for the combination
+%To mark authors as primary, use the \author* form
+\input{authors}
+
+% >> Date
+% The date is in yyyy/mm/dd format. Today has been
+% redefined to match, but if the date needs to be fixed, please write it in this fashion.
+% For papers and PAS, \today is taken as the date the head file (this one) was last modified according to svn: see the RCS Id string above.
+% For the final version it is best to "touch" the head file to make sure it has the latest date.
+\date{\today}
+
+% >> Abstract
+% Abstract processing:
+% 1. **DO NOT use \include or \input** to include the abstract: our abstract extractor will not search through other files than this one.
+% 2. **DO NOT use %**                  to comment out sections of the abstract: the extractor will still grab those lines (and they won't be comments any longer!).
+% 3. For PASs: **DO NOT use tex macros**         in the abstract: CDS MathJax processor used on the abstract doesn't understand them _and_ will only look within $$. The abstracts for papers are hand formatted so macros are okay.
+\abstract{
+   Properties of the Higgs boson are measured in the $\mathrm{H}\rightarrow{\rm Z}{\rm Z}\rightarrow4\ell$ ($\ell={\rm e},\mu$) decay channel. A data sample of proton-proton collisions at a center-of-mass energy of $13~\mathrm{TeV}$  is used, corresponding to an integrated luminosity of $137.1~\mathrm{fb}^{-1}$ recorded in Run II by the CMS detector at the LHC. The signal-strength modifier $\mu$, defined as the ratio of the observed Higgs boson rate in the $\mathrm{H}\rightarrow{\rm Z}{\rm Z}\rightarrow4\ell$ decay channel to the standard model expectation, is measured to be $\mu=0.94^{+0.11}_{-0.10}$ with the Higgs boson mass profiled in the fit. The signal-strength modifiers for the main Higgs boson production modes are also constrained. Measurements of the simplified template cross sections, designed to quantify the different Higgs boson production processes in specific regions of phase space, are reported. The cross section for the production of the $\mathrm{H}\rightarrow{\rm Z}{\rm Z}\rightarrow4\ell$ in a fiducial region closely matching the experimental selection of the leptons is measured to be $\sigma_{{\rm fid.}}=2.73^{+0.23}_{-0.22}({\rm stat.})^{+0.24}_{-0.19}({\rm sys.})~{\rm fb}$, in agreement with the Standard Model prediction of $2.76 \pm 0.14~\mathrm{fb}$. Differential cross sections as a function of the $p_{\rm T}$ and rapidity of the Higgs boson, the number of associated jets, and the $p_{\rm T}$ of the leading associated jet are determined. All results are found to be compatible with the Standard Model predictions, within the measurements precision.
+}
+
+% >> PDF Metadata
+% Do not comment out the following hypersetup lines (metadata). They will disappear in NODRAFT mode and are needed by CDS.
+% Also: make sure that the values of the metadata items are sensible and are in plain text:
+% (1) no TeX! -- for \sqrt{s} use sqrt(s) -- this will show with extra quote marks in the draft version but is okay).
+% (2) no %.
+% (3) No curly braces {}.
+\hypersetup{%
+pdfauthor={Toni Sculac},%
+pdftitle={Measurements of properties of the Higgs boson in the four-lepton final state at sqrt{s} = 13 TeV with full Run II data},%
+pdfsubject={CMS},%
+pdfkeywords={CMS, physics, software, computing}}
+
+\maketitle %maketitle comes after all the front information has been supplied
+% >> Text
+
+\tableofcontents
+
+\clearpage%
+
+\input{Introduction}
+\clearpage%
+\input{Changes}
+\clearpage
+\input{Datasets} %%% 
+\clearpage
+\input{Objects} %%% 
+\clearpage
+\input{EventSelection} %%% 
+\clearpage
+\input{Observables} %%% 
+\clearpage
+\input{Categories}  %%% 
+\clearpage
+\input{Background} %%% 
+\clearpage
+\input{Signal} %%% 
+\clearpage
+\input{Systematics} %%%
+\clearpage
+\input{Yields} %%% 
+\clearpage
+\input{Results} %%%
+\clearpage
+
+
+%% **DO NOT REMOVE BIBLIOGRAPHY**
+\bibliography{auto_generated}   %
+

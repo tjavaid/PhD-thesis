@@ -1,0 +1,216 @@
+\paragraph{Fake Rate Determination (OS Method)}
+In order to measure the lepton fake ratios $f_{e}$, $f_{\mu}$, we select samples of $Z(\ell\ell)+e$ and $Z(\ell\ell)+\mu$ events that are expected to be completely dominated by final states which include a $Z$ boson and a fake lepton. 
+These events are required to have two same flavour, opposite charge leptons with $p_{T} > 20/10$~GeV passing the tight selection criteria, thus forming the $Z$ candidate. In addition, there is exactly one lepton passing the loose selection criteria as defined above. 
+This lepton is used as the probe lepton for the fake ratio measurement. The invariant mass of this lepton and the opposite sign lepton from the reconstructed $Z$ candidate should satisfy $m_{2l} > 4$~GeV. 
+
+
+
+The fake ratios are evaluated using the tight requirement 
+$|M_{inv}(\ell_{1},\ell_{2}) - M_{Z}| < 7 $~GeV, to reduce the 
+contribution from photon (asymmetric) conversions populating low masses. 
+The fake ratios are measured in bins of the transverse momentum of the loose lepton and barrel and endcap region.
+
+The electron and muon fake rates are measured within 
+$|M_{inv}(\ell_{1},\ell_{2}) - M_{Z}| < 7 $~GeV and $E_{\mathrm{T}}^\text{miss}  < $ 25~GeV are 
+shown in Figure~\ref{fig:os_fakerates}. 
+
+\begin{figure}[!htb]
+\begin{center}
+    \subfigure [] {\includegraphics [width=0.45\textwidth]{Figures/RedBkg/FR_OS_electrons.png}}
+    \subfigure [] {\includegraphics [width=0.45\textwidth]{Figures/RedBkg/FR_OS_muons.png}}
+  \caption{
+Fake rates as a function of the probe $p_T$ for  electrons (a) and muons (b) which satisfy the loose selection criteria, measured in
+a $Z(\ell\ell)+\ell$ sample in the $13$~TeV data.
+The barrel selection includes electrons (muons) up to $|\eta|$ = 1.479 (1.2). The Fake rates are shown before (dotted lines) and after (plain line) removal of WZ contribution from MC.
+}
+\label{fig:os_fakerates}
+\end{center}
+\end{figure}
+
+   
+
+\paragraph{Fake Rate Application (OS Method)}
+\label{sec:zxA}
+
+Two control samples are obtained as subsets of four lepton events
+which pass the first step of the selection ({\it First Z} step, see
+section~\ref{sec:zzcandsel}), requiring an additional pair of 
+loose leptons of same flavour 
+and opposite charge, that pass the ${\rm SIP_{3D}}$ cut. 
+The events must satisfy all kinematic cuts applied for the {\it Higgs phase space} selection
+(see~\ref{sec:zzcandsel}).
+The first control sample is obtained by
+requiring that the two loose leptons which do not make the $Z_1$ candidate 
+do not pass the final identification and
+isolation criteria.
+The other two leptons pass
+the final selection criteria by definition of the $Z_1$. 
+This sample is denoted as ``2 Prompt + 2
+Fail'' ({\it 2P+2F}) sample. It is expected to be populated with
+events that intrinsically have only two prompt leptons 
+(mostly $DY$, with a small fraction of $t \bar{t}$ and $Z \gamma$ events).
+The second control sample is obtained by requiring one of
+the four leptons not to pass the final identification and isolation
+criteria.
+The other three
+leptons should pass the final selection criteria. This control sample
+is denoted as ``3 Prompt + 1 Fail'' ({\it 3P+1F}) sample. It is
+expected to be populated with the type of events that populate the
+2P+2F region, 
+albeit with different relative proportions,
+as well as with $WZ$ events that intrinsically have three
+prompt leptons.
+
+
+The control samples obtained in this way, orthogonal by construction
+to the signal region, are enriched with fake leptons and are used to
+estimate the reducible background in the signal
+region. 
+
+The invariant mass distribution of events selected in the 2P+2F control sample
+is shown in Fig.~\ref{fig:2P2F_dataMC} for the $13$~TeV dataset. 
+
+\begin{figure}[!htb]
+\begin{center}
+    {\includegraphics [width=0.45\textwidth] {Figures/RedBkg/M4l_OS_2P2F_4mu_Inclusive.png}}
+    {\includegraphics [width=0.45\textwidth] {Figures/RedBkg/M4l_OS_2P2F_4e_Inclusive.png}} \\
+    {\includegraphics [width=0.45\textwidth] {Figures/RedBkg/M4l_OS_2P2F_2mu2e_Inclusive.png}}
+    {\includegraphics [width=0.45\textwidth] {Figures/RedBkg/M4l_OS_2P2F_2e2mu_Inclusive.png}} \\
+\caption{
+Invariant mass distribution of the events selected in the 2P+2F control sample in the
+$13$~TeV dataset, (top left)  $4\mu$ , (top right) $4e$ , (bottom left)  $2\mu2e$ and (bottom right)  $2e2\mu$ channels.
+}
+\label{fig:2P2F_dataMC}
+\end{center}
+\end{figure}
+
+\begin{figure}[!htb]
+\begin{center}
+    {\includegraphics [width=0.45\textwidth] {Figures/RedBkg/M4l_OS_3P1F_4mu_Inclusive.png}}
+    {\includegraphics [width=0.45\textwidth] {Figures/RedBkg/M4l_OS_3P1F_4e_Inclusive.png}} \\
+    {\includegraphics [width=0.45\textwidth] {Figures/RedBkg/M4l_OS_3P1F_2mu2e_Inclusive.png}}
+    {\includegraphics [width=0.45\textwidth] {Figures/RedBkg/M4l_OS_3P1F_2e2mu_Inclusive.png}} \\
+\caption{
+Invariant mass distribution of the events selected in the 3P+1F control sample in the
+$13$~TeV dataset, (top left)  $4\mu$ , (top right) $4e$ , (bottom left)  $2\mu2e$ and (bottom right)  $2e2\mu$ channels.
+}
+\label{fig:CR_3P1F}
+\end{center}
+\end{figure}
+
+The expected number of reducible background events in the 3P+1F region,
+$N^{\rm bkg}_{\rm 3P1F}$, can be computed from the number of events
+observed in the 2P+2F control region, $N_{\rm 2P2F}$, by weighting each
+event in the region with the factor $(\frac{f_{i}}{1-f_{i}}
++ \frac{f_{j}}{1-f_{j}})$, where $f_{i}$ and $f_{j}$ correspond to the
+fake ratios of the two loose leptons:
+
+\begin{equation} 
+\label{eq:Prediction3P1F}
+N^{\rm bkg}_{\rm 3P1F} = \sum (\frac{f_{i}}{1-f_{i}}
++ \frac{f_{j}}{1-f_{j}}) N_{\rm 2P2F}
+\end{equation} 
+
+Figure~\ref{fig:CR_3P1F} shows the invariant mass distributions of the
+events selected in the 3P+1F control sample, together with the expected
+reducible background estimated from Eq.~\ref{eq:Prediction3P1F},
+stacked on the distribution
+of $WZ$ and of irreducible background ($ZZ, Z\gamma* \to 4\ell$) taken from the simulation.
+
+Would the fake rates be measured in a sample that has exactly the same
+background composition as the 2P+2F sample, the difference between the
+observed number of events in the 3P+1F sample and the expected background
+predicted from the 2P+2F sample would solely amount to the (small) $WZ$ and $Z\gamma_{conv}$
+contribution. Large differences arise because the fake rates used in
+Eq.~\ref{eq:Prediction3P1F} do not properly account for the background
+composition of the 2P+2F control sample.
+
+
+In particular, the  difference seen in Fig.~\ref{fig:CR_3P1F} between the observed
+3P+1F distribution and the expectation from 2P+2F, in the
+channels with loose electrons ($4e$ and $2\mu 2e$), and concentrated at low
+masses, is due to photon conversions. This is confirmed explicitly by the
+simulation.
+% : Fig.~\ref{fig:CR_3P1F}c shows how events with a real photon populate
+% this low mass region. Indeed, as the fake rates of method A are measured
+% in a sample that is largely devoid of photon conversions, Eq.~\ref{eq:Prediction3P1F}
+% considerably underestimates their contribution to the 3P+1F sample. 
+%
+The difference between the 3P+1F observation and the prediction
+from 2P+2F to recover the missing contribution from conversions - and more generally,
+in principle, to ``correct" for the fact that the fake rates do not properly
+account for the background composition of the 2P+2F sample.
+More precisely, the expected reducible background in the signal region is given
+by the sum of two terms :
+%
+\begin{itemize}
+\item a ``2P2F component", obtained from the number of
+  events observed in the 2P+2F control region, $N_{\rm 2P2F}$, by
+  weighting each event in that region with the factor
+  $\frac{f_{i}}{1-f_{i}} \frac{f_{j}}{1-f_{j}}$, where $f_{i}$ and
+  $f_{j}$ correspond to the fake ratios of the two loose leptons.
+\item a ``3P1F component", obtained from the
+   difference between the number of observed events in the 3P+1F control
+   region, $N_{\rm 3P1F}$, and the expected contribution from the 2P+2F
+   region and ZZ processes in the signal region, $N^{\rm ZZ}_{\rm 3P1F} +
+   N^{\rm bkg}_{\rm 3P1F}$. The $N^{\rm bkg}_{\rm 3P1F}$ is given by 
+   equation \ref{eq:Prediction3P1F} and $N^{\rm ZZ}_{\rm 3P1F}$ is the
+   contribution from $ZZ$ which is taken from the simulation. 
+   The difference $N_{\rm 3P1F} -  N^{\rm bkg}_{\rm 3P1F} - N^{\rm ZZ}_{\rm 3P1F}$,
+   which may be negative,
+   is obtained for each $(p_T, \eta)$ bin of the ``F" lepton, and is weighted 
+   by $\frac{f_i} {1 - f_i}$, where $f_i$ denotes the fake rate of
+   this lepton.
+   This ``3P1F component" accounts for the contribution of reducible background
+   processes with only one fake lepton (like $WZ$ events), and for the contribution
+   of other processes (e.g. photon conversions) that are not properly estimated
+   by the 2P2F component, because of the fake rates used.
+\end{itemize}
+
+Therefore, the
+full expression for the prediction can be symbolically written as:
+%
+\begin{equation} 
+\label{eq:PredictionSR}
+N^{bkg}_{\rm SR} = \sum \frac{f_{i}}{(1-f_{i})} (N_{\rm 3P1F} - N^{\rm
+bkg}_{\rm 3P1F} - N^{\rm ZZ}_{\rm 3P1F})
++ \sum \frac{f_{i}}{(1-f_{i})} \frac{f_{j}}{(1-f_{j})}N_{\rm 2P2F} \end{equation}
+%a
+Previous equation is equivalent to the following:
+\begin{equation}
+\label{eq:PredictionSR2}
+N^{bkg}_{\rm SR}= (1-\frac{N_{3P1F}^{ZZ}}{N_{3P1F}})\sum_j^{N_{3P1F}}\frac{f_a^j}{1-f_a^j} - \sum_i^{N_{2P2F}}\frac{f_3^i}{1-f_3^i}\frac{f_4^i}{1-f_4^i}
+\end{equation}
+For channels where the $Z_2$ candidate is made from two electrons, 
+the contribution of the 3P1F component is 
+positive, and amounts to typically $30 \%$ of the total predicted background.
+
+For channels with loose muons ($4\mu$ and $2e2\mu$), the 3P+1F sample is rather well described by
+the prediction from 2P+2F, as seen in Fig.~\ref{fig:CR_3P1F}b, and the
+3P1F component is mainly driven by statistical fluctuations in the 3P+1F sample,
+which are larger than the expectation from $WZ$ production.
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%
+
+
+Table~\ref{tab:reducibleMethodA} shows the expected number of
+events in the signal regions from the reducible background processes for the 13 TeV. 
+% The first error is the statistical uncertainty, which is dominated by the
+% large statistical uncertainty of the ``3P1F" component. The second error
+% is a systematic uncertainty due to the statistical uncertainty of the
+% fake rates.
+
+\begin{table}[h]
+\begin{center}
+     \begin{tabular}{| l | c | c | c | c |} \hline
+ baseline	& 4e 	 & 4$\mu$ & 2e2$\mu$  & 2$\mu$2e   \\ \hline \hline
+13 TeV & $ 24.9 \pm 7.6 $ & $49.9 \pm 15.5$ & $35.2 \pm 11.0$ & $34.0 \pm 10.3$ \\ \hline
+ 	\end{tabular}
+\end{center}
+    \caption{ The contribution of reducible background
+    processes in the signal region predicted from measurements in data
+    using the Opposite-Sign Leptons method. The predictions correspond to $\usedLumiC$ of data at 13 TeV.}
+     \label{tab:reducibleMethodA}
+\end{table}

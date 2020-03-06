@@ -1,0 +1,925 @@
+% Chapter 3
+
+\chapter{Physics Objects} % Main chapter title
+The reconstruction of SM Higgs boson using the decay channel \HZZllll~entirely based on leptons reconstruction, identification and isolation requirements. 
+At least  one the four leptons lies in lower transverse momentum region with range of 5-15 GeV as illustrated in Figure \ref{Fig:4e_pt_distribution}. In this
+kinematic region, it is crucial to maintain the optimal efficiency, while keeping the rate of misidentified leptons low which are induced from 
+QCD jets. The requirement on isolation of leptons which emerges from primary vertex drastically reduces the fake or misidentified leptons. Also, 
+leptons are needed to be reconstructed with precise energy and momentum resolution to better estimate the Higgs boson mass and other properties.
+\begin{figure}
+\begin{center}
+\includegraphics[width=0.6\textwidth]{Figures/chapter3_Figure/pteff_4e_125_091112_.png}
+\caption{Transverse momentum distribution of each of four decayed electrons from  125~GeV Higgs boson. The distributions are attained using MC signal 
+samples and shows at generator level within $\eta$ acceptance (empty histogram) and selected events (filled histogram) in four electron channel. }
+\label{Fig:4e_pt_distribution}
+\end{center}
+\end{figure}
+%\label{Chapter3} % For referencing the chapter elsewhere, use \ref{Chapter3} 
+\par A High reconstruction efficiency is expected with four leptons in the final state. AT Higgs mass around 125 GeV, at least one of two Z boson would
+be off shell. The leptons which produced by virtual Z boson decay are  soft leptons, softest one will usually has $p_T <  10$~GeV. To keep higher 
+reconstruction and event selection efficiencies along with sufficient discrimination from QCD induced fake leptons is not less than 
+an experimental challenge. To achieve this goal, it becomes necessary to exploit full available information provided by ECAL, tracker for electrons or by
+muon system and tracker for muons along with using advance reconstruction techniques such particle flow (PF) \cite{cms:38e}.  The calibration of leptons 
+are usually done with \Zll~which is standard candle , however for low $p_t$ leptons other resonances like the \jpsi~and low masses QCD resonances.
+\par To improve the analysis further, final state  radiated (FSR) photons are also reconstructed and attached to compensate the energy less of leptons due 
+to bremsstrahlung effects. The
+energy loss due to FSR can direct towards incorrect four-leptons invariant mass. Therefore, an algorithm is developed to collect
+photons likely to be FSR. Jets are also reconstruct to distinguish the event by their different production modes. For example, if an event is reconstructed
+with four-leptons with invariant mass around 125~GeV along with two high pt jets in forward region of the detector  will be more likely to be VBF event.
+\par The methods of reconstruction, identification and isolation calculations of leptons are described. Calibration of leptons performed with control
+data samples, jets and photons reconstruction would also be covered.
+\section{Electrons}\label{chapter3_sec1}
+\subsection{Electrons Reconstruction and Identification}
+The reconstruction of electron objects combines ECAL and tracker information.
+Electron candidates are seeded either from clusters of energy
+deposits in the ECAL (e/$\gamma$ superclusters), matched to hits in the inner
+tracker, or from standard KF tracks, matched to ECAL clusters. Already for
+Run I these two approaches were combined, with a unique merged collection
+(GsfElectrons) provided for physics studies~\cite{cms:38ea}.
+\par
+For Run II, the reconstruction of the energy in each ECAL crystal is now
+based on a fit of the pulse shape, with templates and correlation matrices
+extracted from data at low PU. This allows for the identification and
+subtraction of out-of-time PU contributions to the energy estimation, by making
+use of several components in the pulse shape fit procedure ('multifit'
+method).
+\par
+The topological clustering algorithm of the particle flow
+reconstruction~\cite{CMS-PAS-PFT-09-001,CMS-PAS-PFT-10-001} is now used to build ECAL clusters, which
+allows for energy sharing between the crystals and provides superclusters
+potentially richer in information on the electron shower substructure. To build
+e/$\gamma$ superclusters, the 'mustache' geometrical region is used, which exploits
+the $\eta-\phi$ correlation between the position in ECAL of the electron
+and the bremsstrahlung clusters and its $E_T$ dependency. This improves the
+energy collection and the rejection of PU clusters in particular for low-$p_T$
+and high-$\eta$ electrons.
+\par
+In addition to the e/$\gamma$ supercluster, a 'refined' supercluster is
+constructed as a basic building block of the particle-flow reconstruction.
+Starting from the GSF track, the tracker-driven KF track and the seed cluster of
+the e/$\gamma$ supercluster, additional tracks and clusters are gathered that
+correspond to bremsstrahlung photons and/or converted bremsstrahlung photons,
+making use of the track tangents and E/p matching between candidate conversion
+track and the corresponding clusters. Partner tracks are also searched for in
+each case a conversion track is identified. Bad E/p clusters and clusters with
+significant HCAL energy behind are rejected together with the corresponding
+tracks.
+\par
+For isolated electrons, this procedure mainly brings improvement at low $p_T$,
+when the $\phi$ extension of the 'mustache' area is too limited to efficiently
+collect bremsstrahlung and converted bremsstrahlung showers. For this reason the
+'refined' supercluster is only used in the cases were the electron is only
+tracker-seeded. In all the other cases (ECAL-seeded electrons), the e/$\gamma$
+mustache supercluster definition is used.
+\par
+The new approach allows to remove a small inconsistency between electron and
+jets or MET objects that was present in Run I between the Run I algorithm
+and the particle flow approach due to the different clustering used. Nevertheless,
+due to the need to arbitrate between electrons and other candidates at an early
+stage in the particle-flow reconstruction approach, and due to the different
+superclustering and calibration, a full event consistency is only achieved with using
+PF candidates. The analysis here is based on the more inclusive collection of
+GedGsfElectrons, in order to avoid small efficiency losses inherent to the
+particle-flow pre-identification and electron/photon disambiguation.
+\par
+The regressions used for the energy corrections and for the combination with the
+track momentum that improves the momentum determination at low $p_T$ have been
+updated for the new supercluster definition and are provided as default at the
+reconstruction level.
+\par
+Electron candidates are preselected using loose cuts on track-cluster matching
+observables, so as to preserve the highest possible efficiency while rejecting part
+of the QCD background.
+To be considered for the analysis, electrons are required to have a
+transverse momentum $p^e_T >$ 7 GeV, a reconstructed $|\eta^e| <$ 2.5, and to satisfy a loose primary vertex constraint defined as $dxy < 0.5$ and $dz < 1$. Such electrons are called {\bf loose electrons}.
+
+\par Reconstructed electrons are identified by means of a Gradient Boosted Decision Tree (GBDT) multivariate classifier algorithm, which exploits observables from the electromagnetic cluster, the matching of the cluster and the electron track as well as observables based exclusively on tracking measurements.
+
+The classifier is trained on $ZZ^{(*)}\to4\ell$ Higgs MC sample for the signal and the background is taken from Drell-Yan plus jets MC sample.
+
+
+Reconstructed electrons from the MC samples are matched geometrically with cone size $\Delta R < 0.1$ to generated electrons from $Z^{(*)}$ decays, i.e.``true prompt electrons'', and taken as the signal. We note that this selection excludes electrons from tau decays in the training, which results in a suboptimal treatment of these electrons in the analysis. Reconstructed electrons that cannot be matched to any generated electrons (``unmatched'') as well as electrons originating from decays within hadronic jets (``true non-prompt'') are used as the background in the BDT training.
+
+In order to improve identification (ID) performance of electrons with $p_T$ below 10 GeV, the training proceeds in two $p_T$ bins of $5 < p_T < 10$ GeV and $p_T > 10$ GeV. Because electrons are reconstructed by different sub-detectors, notably the barrel and endcap systems of the ECAL and tracker, as well as the considerable increase in the material budget towards larger $|\eta|$,
+a further separation of training categories in $\eta$ is performed: $|\eta| < 0.8$, $0.8 < |\eta| < 1.479$ and $|\eta| > 1.479$. Having separate training categories outperforms a single BDT that exploits the electron $\eta$ in the training. An additional splitting of the endcap training categories for electrons below and above $\eta=0.2$ did not improve ID performance.
+
+
+Because the background sample used is of NLO accuracy, about 20 per cent of the events come with a negative weight that needs to be taken into account in order to get the correct kinematic distributions for the fake electrons. Several schemes to consider these negative weights in the BDT training have been studied, finding no discernable differences. The pairing scheme has been adopted for the final classifier.
+Figure~\ref{fig:ele_ID_BDT_output} shows the output of the BDT on the training and testing samples for true and fake electrons for the two training categories for the inner barrel. The good agreement between the training and testing distributions is similar across the 6 training bins and indicates that the classifier has not been overtrained.
+
+\begin{figure}[!htb]
+\vspace*{0.3cm}
+\begin{center}
+\includegraphics[width=0.7\textwidth]{Figures/chapter3_Figure/ele_ID_BDT_output.pdf}
+\caption{BDT output for the training and testing sample for true and fake electrons in the two $|\eta| < 0.8$ training bins at 13~TeV.
+\label{fig:ele_ID_BDT_output}}
+\end{center}
+\end{figure}
+%%%%%%%%
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.45\textwidth]{Figures/chapter3_Figure/MVA_output_EB.pdf}
+\includegraphics[width=0.45\textwidth]{Figures/chapter3_Figure/MVA_output_EE.pdf}
+\caption{Distribution of electron BDT output for training sample
+  W+jets, test sample Z+jets on 2012 data (fakes) and prompt electrons
+  ($\cPZ\to\Pe\Pe$ simulation) in the barrel (left) and endcap (right)
+\label{fig:eleBDToutput}}
+\end{center}
+\end{figure}
+% %%%%%%%%
+Table~\ref{tab:ele_ID_input_variables} summarizes the full list of observables used as input to the classifier, which includes three track-based variables that have not been considered in previous iterations of the classifier. The new variables are: the number of hits of the GSF track, the number of expected but missing hits in the first tracker layers, and the fit probability for a conversion vertex associated with the electron track.
+These variables are sensitive to the background of true electrons resulting from photon conversions in the material in front of the ECAL, which are prone to occur towards the middle and end of the tracker, resulting in tracks that lack hits in the first tracker layers and thus also being shorter than tracks originating from the primary vertex.
+Rejection of electrons from conversions was previously done on top of the multivariate ID by requiring less than two missing expected inner hits.
+The inclusion of these new variables into the multivariate ID improves preformance as highlighted in the ROC curves shown in figure~\ref{fig:ele_ID_ROC_curves}.
+
+Also shown in figure~\ref{fig:ele_ID_ROC_curves} are the working points in each training category (diamond markers).
+These have been chosen as to have similar true electron global efficiency ($97.6\%$) as the previously used ID, while decreasing the global efficiency of selecting 'background' electrons from $13.2\%$ to $11.5\%$. Here, by 'global' we mean all categories together. Going into detail, in order to choose a cut threshold in each of the six categories, it was decided to have the same background efficiency in every category, with a value (about $11.5\%$) that provided the desired global signal efficiency. This approach indeed gave a much better compromise than harmonizing the six signal efficiencies instead.
+Table~\ref{tab:ele_ID_efficiency} summarizes these 6 signal and background efficiencies on the MC samples for the chosen working point, while table~\ref{tab:ele_ID_WP} lists the corresponding minimum cut values of the BDT output score.
+For the analysis, we define {\bf tight electrons} as the loose electrons that pass this MVA identification working point.
+
+\begin{figure}[!htb]
+\vspace*{0.3cm}
+\begin{center}
+\includegraphics[width=0.9\textwidth]{Figures/chapter3_Figure/ele_ID_BDT_data.pdf}
+\caption{BDT output distribution on data for electrons with $p_T>10$ GeV from Z boson decays. MC distributions are normalized to the data.}
+\label{fig:ele_ID_BDT_data}
+\end{center}
+\end{figure}
+
+
+Figure~\ref{fig:ele_ID_BDT_data} shows the BDT score on electrons selected in Z boson decays via the Tag and Probe method.
+The measurement of the signal efficiencies in data and the data-MC scale factors are presented in section~\ref{sec:eleEffMeas}.
+ \begin{table}[h]
+\scriptsize
+    \centering
+    \begin{tabular}{c|l}
+\hline %----------------------------------------------------------------------------------------
+\hline %----------------------------------------------------------------------------------------
+\multicolumn{4}{|c|}{Datasets}                                                                \\
+observable type    &  observable name           \\
+\hline %----------------------------------------------------------------------------------------
+
+\multirow{6}{*}{cluster shape}
+        &  RMS of the energy-crystal number spectrum along $\eta$ and $\varphi$; $\sigma_{i\eta i\eta}$, $\sigma_{i\varphi i\varphi}$           \\
+        &  super cluster width along $\eta$ and $\phi$          \\
+        &  detector isolation $H/E$                     \\
+        &  circularity $(E_{5\times5} - E_{5\times1})/E_{5\times5}$                     \\
+        &  sum of the seed and adjacent crystal over the super cluster energy $R_{9}$                   \\
+        &  for endcap training bins: energy fraction in pre-shower $E_{PS}/E_{raw}$                       \\
+\hline
+\multirow{2}{*}{track-cluster matching}
+        & energy-momentum agreement $E_{tot}/p_{in}$, $E_{ele}/p_{out}$, $1/E - 1/p$                    \\
+        & position matching $\Delta\eta_{in}$, $\Delta\varphi_{in}$, $\Delta\eta_{seed}$                        \\
+\hline
+\multirow{5}{*}{tracking}
+        & fractional momentum loss $f_{brem} = 1 - p_{out}/p_{in}$      \\
+        & number of hits of the KF and GSF track $N_{KF}$, $N_{GSF}$ $(\mathord{\cdot})$ \\
+        & reduced $\chi^2$ of the KF and GSF track $\chi_{KF}$, $\chi_{\textrm{GSF}}$ \\
+        & number of expected but missing inner hits $(\mathord{\cdot})$         \\
+        & probability transform of conversion vertex fit $\chi^2$ $(\mathord{\cdot})$ \\
+
+\hline %----------------------------------------------------------------------------------------
+\hline %----------------------------------------------------------------------------------------
+     \end{tabular}
+\small
+    \caption{Overview of input variables to the identification classifier. Variables not used in the legacy MVA are marked with  $(\mathord{\cdot})$.}
+    \label{tab:ele_ID_input_variables}
+\end{table}
+% 
+\begin{figure}[!htb]
+\vspace*{0.3cm}
+\begin{center}
+\includegraphics[width=0.98\textwidth]{Figures/chapter3_Figure/ele_ID_ROC_curves.pdf}
+\caption{ROC curves of the identification classifier for each training category with working point efficiencies marked by a diamond. The red curves
+correspond to the improved classifier used in the analysis, while the light blue curves show a retraining of the legacy MVA on 13 TeV MC.}
+\label{fig:ele_ID_ROC_curves}
+\end{center}
+\end{figure}
+\begin{table}[h]
+\scriptsize
+    \centering
+    \begin{tabular}{c|c c c}
+\multicolumn{4}{|c|}{Datasets}                                                                \\
+\hline %----------------------------------------------------------------------------------------
+\hline %----------------------------------------------------------------------------------------
+signal (background) efficiency    &  $|\eta| < 0.8 $ & $0.8 < |\eta| < 1.479$   & $|\eta| > 1.479$      \\
+\hline %----------------------------------------------------------------------------------------
+$ 5 < p_T < 10 $ GeV &  0.953(0.115)            & 0.960(0.115)                  & 0.897(0.115)          \\
+$p_T > 10$ GeV       &  0.990(0.115)            & 0.983(0.115)                  & 0.957(0.115)          \\
+\hline %----------------------------------------------------------------------------------------
+\hline %----------------------------------------------------------------------------------------
+     \end{tabular}
+\small
+    \caption{Signal (background) efficiencies of the chosen working point evaluated on MC samples for 13~TeV.}
+    \label{tab:ele_ID_efficiency}
+\end{table}
+
+%%%%%%%
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.45\textwidth]{Figures/chapter3_Figure/ROC_IdOnly_Data_EB_HighPt.pdf}
+\includegraphics[width=0.45\textwidth]{Figures/chapter3_Figure/ROC_IdOnly_Data_EE_HighPt.pdf}
+\caption{ROC curves for the electron multivariate identification
+  (Boosted Decision Trees) compared with the cut-based selection
+  working points for 8~TeV. Signal from Drell-Yan Monte Carlo simulation
+  sample. Background from jets faking electrons in a data sample
+  dominated by Z+jets. Electron candidates with $\PT>$ 20 \GeV are
+  shown. Left: Barrel. Right: Endcap
+\label{fig:eleroc}}
+\end{center}
+\end{figure}
+
+%%%%%%%
+
+
+\begin{table}[h]
+\scriptsize
+    \centering
+    \begin{tabular}{c|c c c}
+\multicolumn{4}{|c|}{Datasets}                                                                \\
+\hline %----------------------------------------------------------------------------------------
+minimum BDT score    &  $|\eta| < 0.8 $ & $0.8 < |\eta| < 1.479$        & $|\eta| > 1.479$      \\
+\hline %----------------------------------------------------------------------------------------
+$ 5 < p_T < 10 $ GeV &  -0.265          & -0.556                & -0.551                \\
+$p_T > 10$ GeV       &  -0.072          & -0.286                & -0.267                \\
+\hline %----------------------------------------------------------------------------------------
+\hline %----------------------------------------------------------------------------------------
+     \end{tabular}
+\small
+    \caption{Minimum BDT score required for passing the electron identification  for 13~TeV.}
+    \label{tab:ele_ID_WP}
+\end{table}
+The cut values on the BDT output (for 8~TeV) resulting from the optimization procedure are summarized below:
+\begin{itemize}
+\item $5 < p_T < 10 $ GeV:
+\begin{itemize}
+\item $|\eta| < 0.8: BDT > 0.47$
+\item $0.8< |\eta| < 1.479: BDT > 0.004$
+\item $|\eta| > 1.479: BDT > 0.295$
+\end{itemize}
+\item $ p_T > 10$ GeV
+\begin{itemize}
+\item $|\eta| < 0.8: BDT > -0.34$
+\item $0.8 < |\eta| < 1.479: BDT > -0.65$
+\item $|\eta| > 1.479: BDT > 0.60$
+\end{itemize}
+\end{itemize}
+% 
+% 
+% Electrons reconstruction \cite{cms:38g} is based on combination of tracker and ECAL. The electrons are reconstructed by energy deposit in ECAL cluster that
+% are matched with  hits in the inner tracker. The details about electron reconstruction algorithm are described in Ref.~\cite{cms:38h, cms:38i, cms:38j}.
+% \par Bremsstrahlung  of the electrons causes its energy to spread into several neighbor cells. To compensate this effect, arrays of ECAL clusters
+% are combined to form superclusters. The hits in innermost layers which serves as seed electron tracks are searched by superclusters. 
+% This operations is complemented by a tracker-driven technique to amend the reconstruction efficiency at low momentum leptons. The energy loss of 
+% trajectories in tracker is compensated by using Gaussian Sum Filter (GSF) algorithm. To remove the tracks which are created by photons conversion
+% in the tracker material are suppressed by performing a cleaning. Loose cuts on track-cluster are applied to preselect electron candidates to attained
+% higher efficiency and suppressing DCQ background.
+% \par The electron candidates are reconstructed with $p_T > 7$~GeV and $|\eta| < 2.5$ for the \Hllll analysis. The reconstruction efficiency for accepted
+% and isolated electron is $\approx 90\%$ except  narrow crack regions.
+% \par The electrons identification depends on a Boosted Decision Tree (BDT) multivariate
+% technique \cite{cms:38k, cms:38l,cms:38m} that incorporate observables sensitive to the shower shape observables, momentum and geometrical matching the 
+% associated clusters and 
+% electron trajectories and measure of bremsstrahlung along trajectory of the electron. Higgs boson MC samples are used for training the multivariate 
+% identification and Z+fakes or W+fakes electron data sample for background. A good agreement was observed  for the variables distribution used for 
+% training samples. The BDT output of the signal and background distributions are shown in Figure \ref{fig:variables_SoB_dataMC} where the comparison between data and MC for signal 
+% sample is also illustrated.
+% 
+% 
+% %%%%%%
+% 
+% %%%%%%%%
+% 
+% %%%%%
+% \subsubsection{Working Point Optimization}
+% The BDT working point was attained by performing optimization procedure.  The performance of cut-based and BDT-based identification of electrons has been
+% studied and compared in Figure \ref{fig:mvaIdRocs}. signal electron are selected with $p_T > 20$ from Drell-Yan Monte Carlo sample, while Z+1 fake electron 
+% used as background sample taken from data.  The selection of Z was based on selection used in published results in Ref. \cite{cms:38n} 
+% which would be referred as “PRL analysis” in this document from here on. The additional electron is required to be loose electron. To suppress the 
+% contribution from WZ events contamination contains three prompt leptons are rejected by asking $MET < 20$~GeV reconstructed by PF algorithm.
+% \par In all $p_T$ and $\eta$ bins mentioned above, the cut value on the BDT output was picked which gives same background efficiency as 
+% cut-based electron identification algorithm used in the PRL analysis ("Cuts-In-Categories"). A significant improvement in BDT can be noticed in 
+% Figure \ref{fig:mvaIdRocs}, as compared  to cut-based electron identification used in 2011 in  all $p_T$ and $\eta$ bins. Specially, the electron
+% identification efficiency in  enhanced by 30\% for electrons  with $p_T < 10$~GeV. All the optimized working point are summarized in Table \ref{tab:bdt_cuts}.
+% 
+% 
+% %%%%%
+% \begin{figure}[h]
+% \begin{center}
+% \includegraphics[width=0.45\textwidth]{Objects/figures/electrons/ROC_IdOnly_Data_EB_HighPt.pdf}
+% \includegraphics[width=0.45\textwidth]{Objects/figures/electrons/ROC_IdOnly_Data_EE_HighPt.pdf}
+% \caption{ROC curves for the electron multivariate identification
+%   (Boosted Decision Trees) compared with the cut-based selection
+%   working points. Signal from Drell-Yan Monte Carlo simulation
+%   sample. Background from jets faking electrons in a data sample
+%   dominated by Z+jets. Electron candidates with $\PT>$ 20 \GeV are
+%   shown. Left: Barrel. Right: Endcap
+% \label{fig:eleroc}}
+% \end{center}
+% \end{figure}
+% 
+% The cut values on the BDT output resulting from the optimization procedure are summarized below:
+% \begin{itemize}
+% \item $5 < p_T < 10 $ GeV:
+% \begin{itemize}
+% \item $|\eta| < 0.8: BDT > 0.47$
+% \item $0.8< |\eta| < 1.479: BDT > 0.004$
+% \item $|\eta| > 1.479: BDT > 0.295$
+% \end{itemize}
+% \item $ p_T > 10$ GeV
+% \begin{itemize}
+% \item $|\eta| < 0.8: BDT > -0.34$
+% \item $0.8 < |\eta| < 1.479: BDT > -0.65$
+% \item $|\eta| > 1.479: BDT > 0.60$
+% \end{itemize}
+% \end{itemize}
+% 
+% 
+% %%%%%%
+
+%----------------------------------------------------------------------------------------
+\section{Muons}\label{chapter3_sec2}
+\subsection{Reconstruction and Identification}
+In CMS detector, muons can be reconstructed independently by inner tracker and muon system sub-detectors~\cite{cms:38a}. The tracker is capable to reconstruct any charged 
+particle track called "tracker track``. While the tracks which are reconstructed in CMS muon system are called "standalone-muon tracks''. As both of these
+methods are independent from each other, two muons reconstruction techniques are used 
+
+\begin{enumerate}
+ \item \textbf{global muons Reconstruction(outside-in):} global muons are reconstructed by matching each standalone-muon track with tracker tracker. The 
+ match can be performed by extrapolating the tracker track to muon system and them comparing it with standalone-muon hits. If they match,  the hits in 
+ the tracker and muon system are fitted together using Kalman Filter technique~\cite{cms:38b}. The global muons reconstruction brings significant improvement
+ in momentum resolution of muons with transverse momentum $p_T > 200$~GeV as compared to tracker only-fit as shown in
+ Fig.~\ref{Fig:CMS_muon_momentum_resolution}~\cite{cms:muonsystem_TDR_2,cms:38c}.
+ \item \textbf{tracker muons Reconstruction(inside-out):} The tracks of the possible muon candidates are reconstructed with $p_T > 0.5$~GeV and the total 
+ momentum of $p > 2.5$~GeV. These tracks are extrapolated into cms muon system by taking into account the expected energy losses, magnetic field and 
+ the multiple scattering due to collision with detector material. The track is considered to be tracker muon, if the extrapolated track matches with 
+ at least one the muon track segment created by CSC or DT hits. 
+ \end{enumerate}
+\\ Due to excellent performance of CMS inner tracker~\cite{cms:38d} and muon system, 99\% of produced muons in proton-proton collisions with well enough momentum  are 
+   reconstructed as Tracker or global muons and often as both. A single muon candidate is obtained by merging both tracker muon and global muonTr if they are
+   matching with each other. The standalone muons are generally not used for physics analysis due to worse momentum resolution and  lower collision
+   muon to cosmic-ray muon ratio as compared to Global and tracker muons. 
+% \subsection{Identification}
+% There are several algorithms used in CMS for attaining efficient reconstruction of muons. A balance between purity and identification efficiency is attained
+%  by asking a selection based on several muon identification variables. Muon selection for this analysis is based on particle flow algorithm.  The CMS 
+% PF event-reconstruction algorithm is used by most of physics analysis which combines  the information from all of the subdetectors 
+% to reconstruct all the particles  individually arises in the collision. These resultant particles is utilized to for the reconstruction of higer level 
+% quantities and objects , such as MET and jets. 
+% \par PF muons are filtered out from standardly reconstructed Global and tracker muons and taking into account a small energy deposits in the ECAL and HCAL. More
+% details about PF Muon requirements are described in Ref. \cite{cms:38f}. Figure \ref{fig:Muon_ID_efficiencies_2011} shows the efficiency of PF 
+% muons is greater than global muon reconstruction.   
+% \begin{figure}[!htb]
+%   \begin{center}
+%     \subfigure[]{
+%       \includegraphics[width=0.48\textwidth,angle=0]{Figures/chapter3_Figure/Glb_alldatamc_eta_Z.png}
+%       \label{fig:Muon_ID_efficiencies_2011_a}
+%     }
+%     \subfigure[]{
+%       \includegraphics[width=0.48\textwidth,angle=0]{Figures/chapter3_Figure/PF_alldatamc_eta_Z.png}
+%       \label{fig:Muon_ID_efficiencies_2011_b}
+%     } 
+%     \caption{Reconstruction and identification efficiency of the muons using Global(left) and PF(right) muons calculated by tag and probe method for 2011 
+%     data.}
+%   \label{fig:Muon_ID_efficiencies_2011}
+% \end{center}
+% \end{figure}
+% 
+% The behavior of PF muon reconstruction and ID efficiency behavior has been studied against pile-up. Figure \ref{Fig:Muon_ID_2012} shows that the ID 
+% efficiency as function of reconstructed number of primary vertices (NPV).
+% \begin{figure}
+% \begin{center}
+% \includegraphics[width=0.6\linewidth]{Figures/chapter3_Figure/IDPFZ_vtx.png}
+% \caption{Reconstruction and identification efficiency of the muons using  PF muons calculated by tag and probe method for 2012 
+%     data as a function of NPV. }
+% \label{Fig:Muon_ID_2012}
+% \end{center}
+% \end{figure}
+% \section{Leptons Impact Parameter Selection}
+% Leptons are ensured to be compatible with originating from common primary vertex. The tracks associated to leptons are required to have a small 
+% impact parameter as compared to primary vertex of the event. For this analysis, significance of 3D impact parameter is used defined as, 
+% $|SIP_{3D} = \frac{IP}{\sigma_{IP}}|$, where $IP$ represents impact parameter of leptons in three dimensions and $\sigma_{IP}$ is corresponding uncertainty
+% in it. Leptons are tagged to be primary leptons if they fulfill $S_{IP} < 4$. 
+% \section{Leptons Isolation}
+% Leptons isolation is best performing variable for discriminating the primary leptons from fake leptons. The PF based isolation for leptons is calculated. 
+% The PF relative isolation of the lepton is defined by the ratio of the scalar sum of transverse momentum of all the candidates reconstructed within cone
+% around that lepton with radius $\Delta R = 0.4$ and transverse momentum of that lepton.
+% \begin{equation}
+%  RelPFiso = \frac{\sum^{charged hadron} p_T+\sum^{neutral hadron} p_T+\sum^{photon} p_T}{P_T^{\ell}}
+% \end{equation}
+% \par The PF based isolation for a GSF electron requires some vetoes on the candidates within the cone. The recommendation of  electron/gamma physics objects
+% group's (POG) are as follows:
+% \begin{itemize}
+%  \item barrel and endcap:
+%  \begin{enumerate}
+%   \item All PF reconstructed electrons should be vetoed(This requirement usually removes the PF electron corresponding to GSF electron, with all its
+%   bremsstrahlung clustering)
+%   \item Veto all charged hadrons that share the same GSF or the closest CTF track with the electron
+%   \item All PF photons with energy deposit in the same supercluster should be vetoed as well.
+%  \end{enumerate}
+%  \item endcap:
+%  \begin{enumerate}
+%   \item veto all the charged hadrons  around the electron within a cone of $\Delta R = 0.015$ 
+%   \item veto all the photons around the electron within a cone of $\Delta R=0.08$
+%  \end{enumerate}
+% \end{itemize}
+% \par The electrons are reduced by 1\% in both barrel and endcap region by  above veto requirements.
+% 
+% \begin{figure}[h]
+%   \begin{center}
+%  \includegraphics[width=0.6\textwidth]{Figures/chapter3_Figure/pfIso_shema.png}
+%     \caption{The Method to calculate PF based isolation.}
+%       \label{fig:iso_schemes}
+%   \end{center}
+% \end{figure}
+% \par Requirement on isolation is one the most important requirements to define fiducial phase space, help to produce model independent measurement. The 
+% energy deposit in the detector also get increased by pile-up effect which causes to increase in relative isolation value. To have pile-up robust analysis, 
+% corrections for pile-up effects must be included. The pile-up effects of pile-up for charged hadrons can easily be compensated by associating the charged
+% PF candidates with the primary vertices. However, photons and neutral hadrons (neutral component) demands for special treatment. The method $FastJet$ has picked out of many 
+% available correction methods which exploit  energy density($\rho$)  in the event  to model the contribution due to pile-up within lepton isolation cone. 
+% Energy density has to be estimated for each jet in the event and average of the distribution for each event is considered. The formula used to correction
+% the pile-up contribution by neutral component is described below
+% \begin{equation}
+%  \sum_{neutral}^{corr} p_T = max (\sum_{neutral}^{corr} p_T -\rho.A_{eff},0GeV)
+% \end{equation}
+% where $A_{eff}$ is the effective area of a given component which is defined by the ratio of the slope of the average isolation and energy density as a function
+% of NPV.
+% \par The $A_{eff}$ are estimated by using \Zee~data events in differential bins of $|\eta|$  to compensate isolation truncation cone in the endcap. Figure
+% shows the average isolation sum as a function of NPV for corrected and uncorrected PF isolation.
+% \begin{figure*}[hbtp]\begin{center}
+% \subfigure[]{\includegraphics[width=0.45\textwidth]{Figures/chapter3_Figure/isopf_EAcalib_EB_10.pdf}}
+% \label{fig:eflowcorr_EB}
+% \subfigure[]{\includegraphics[width=0.45\textwidth]{Figures/chapter3_Figure/isocorrpf_EAcalib_EB_10.pdf}}
+% \label{fig:eflowcorr_EE}
+% \caption{ Average energy flow in electron isolation cone of $\Delta
+%       R = 0.4$, before and after the pileup corrections, for identified
+%       electrons with a $Z\to\ell\ell$ selection in 2012 data. 
+%       Electron candidates are selected by $p_T>$20$~$GeV and $|\eta|<$1.}
+%  \label{fig:eflowcorr}}\end{center}\end{figure*}
+% The PF relative isolation cut was optimized and  best value is found to be RelPFiso < 0.4 for electrons and muons.
+% \section{Leptons Selections Validation from Data}
+% The studies made by MC samples can be biased due to some unknown or not understood effects of the detector. As the signal efficiencies are estimated 
+% from simulation samples so it is important to validate these efficiencies by data and then to include correction factors if needed. The efficiencies in data
+% are measured by using well know data driven method know as tag-and-probe (T\&P) technique~\cite{cms:38a, cms:38c}. 
+% \par In this section, signal efficiencies for different cuts on leptons by using T\&P method would be described.  These efficiencies are later used to extract
+% data-to-MC scale factors and corresponding systematic uncertainties. 
+% \subsection{Tag-and-Probe Method}
+%  The reconstruction, identification, impact parameter cut, isolation and trigger efficiencies of leptons can be measured using data. Z boson  decaying to 
+%  leptons is considered to be standard candle for the measurement of these efficiencies. To study the low transverse momentum muons \jpsi is also considered 
+%  for efficiencies measurements. The T\&P technique relies on selecting the  OSSF lepton pair with invariant mass usually from 60–120~GeV. A tight selection
+%  on one of this lepton (called "tag``) is applied to ensure sufficient purity, while the efficiencies are measured using the other lepton (called ''probe``)
+%  to avoid from any biasness. The efficiency is defined to be the ratio of total number of probe before cut ($N_P + N_F $) to the number of  probe passing 
+%  the cut($N_P$).
+%  \begin{equation}
+%   \epsilon_{TP} = \frac{N_P}{N_P+N_F}
+%  \end{equation}
+% where $N_F$ is number of failing probes.
+% \par The  overall efficiency of leptons can be factorized into different components which can be measured independently
+% \begin{equation}
+% \label{eq:leptons_efficiency_factorization}
+%  \epsilon =  \epsilon_{track, clustering}\times \epsilon_{RECO|track,clustering} \times \epsilon_{ID|RECO}\times \epsilon_{ISO|ID}\times \epsilon_{SIP|ISO} 
+% \end{equation}
+% The above equation shows each term in the equation describe the the efficiency of the probe to pass a reconstruction or selecting assuming it passes
+% the requirement of all previous steps. 
+% \begin{itemize}
+%  \item $\epsilon_{track, clustering}$ is the efficiency of the leptons to find its track (muon) or clustering (electron),
+%  \item $\epsilon_{RECO|track,clustering}$ is the efficiency of the lepton to be reconstructed after its track (muon) or clustering (electron) is found,
+%  \item $\epsilon_{ID|RECO}$ is the efficiency of the lepton to be identified given that lepton is reconstructed,
+%  \item $\epsilon_{ISO|ID}$  is the efficiency of the lepton to  pass isolation requirement given that it is identified,
+%  \item $\epsilon_{SIP|ISO}$ is the efficiency of the lepton to pass SIP requirement given that it is an isolated lepton.
+% \end{itemize}
+% \par The T\&P can be applied in two ways based on the purity of the selection of Z before applying the cut which is under study. In case of high purity, 
+% simple approach to cut and count analysis is sufficient. But in case of existence of significant background, cut and count method can introduce serious
+% biasness in the measurement. In that case fitting invariant mass of Z  resonances and background becomes necessary. Signal and background fractions are 
+% extracted and counted as integral separately under considered fit functions for Z inv. mass spectrum.
+% 
+% \par Scale factors are calculated by the iterating the procedure on data and MC samples, which would be used to correct the signal efficiency estimated
+% by the simulation. Systematic uncertainties of T\&P method are estimated by changing signal and background fitting functions.
+% \subsection{Electron Measurements}
+% By following Equation \ref{eq:leptons_efficiency_factorization}, the requirements on electron can be divided into three group defined below:
+% \begin{enumerate}
+%  \item Reconstruction and identification tags:
+%  \begin{itemize}
+%   \item $p_T > 20$~GeV, $|\eta| < 2.5$, $MET < 25$~GeV 
+%   \item cuts which purely based on identification variables ($|\Delta \phi_{in}|, |\Delta \eta_{in}|, H/E, \sigma_{\iota\eta\iota\eta}$) 
+%   \item matched with with leg of the trigger that has ID requirement at trigger level,
+%  \end{itemize}
+%  \item Isolation and impact parameter: 
+%   \begin{itemize}
+%    \item $p_T > 20$~GeV, $|\eta| < 2.5$, $MET < 25$~GeV
+%    \item relaxed identification cuts 
+%    \item particle based isolation
+%   \end{itemize}
+%   \item Trigger tag:
+%   \begin{itemize}
+%    \item $p_T > 20$~GeV, "Tight trigger requirements cuts'', spatially matched ($\Delta R > 0.1$) with online HLT with $MET < 20$~GeV, loose isolation 
+%    and tight identification cuts
+%   \end{itemize}
+%  
+% \end{enumerate}
+% \par The methodology  used to extract reconstruction, identification, isolation and impact parameter efficiencies are described in Ref. The efficiencies are
+%  determined as function of $p_T$ and $\eta$ by simultaneous extended likelihood fit of the passing and failing  sample invariant mass distribution 
+%  probe in each bin. The signal peak is modelled by Breit-Wigner (BW) convoluted with Crystall-Ball (CB) function. The natural shape of Z is described 
+%  by fixing BW shape to Z-pole mass (91.18~GeV) and the width (2.5~GeV) Ref. CB function  nicely describe detector resolution effects along with low-mass
+%  radiative tail. The background is carefully studied by MC Drell-Yan sample and exponential function is used to describe it.
+%  \par The fit procedure was cross checked by using template method in which all the parameters are fixed from the simulation while keeping fit function
+%  floated while fitting for data. Both method have different systematic uncertainties but same statistical uncertainties due to an overlapping control sample.
+%  The methods was combined to get scale factor, average efficiency as taken in each bin and maximum deviation from the mean value was taken to be uncertainties. 
+%  The statistical and systematic uncertainty are combined quadratically to get total uncertainty.
+%  \subsubsection{Reconstruction}
+%  The clustering efficiencies for electrons is supposed to be 100\% validated by MC . While the reconstruction efficiency $\epsilon_{track, clustering}$
+%  has been measured for 7 TeV dataset with the methodology described in Ref. and results are report in Ref. 
+%  \par The reconstruction efficiencies of the electrons for 8 TeV data  was measured as a function of supercluster
+% probe $E_T$ (where $E_T > 10$~GeV) and shown in Figure  for barrel and encap of ECAL separately. The details of reconstruction of electrons are described in 
+% Ref. 
+% %%%%%%%%%%%%
+% ======
+% \begin{figure}[!htb]
+% \vspace*{0.3cm}
+% \begin{center}
+% \includegraphics[width=0.45\textwidth]{Figures/chapter3_Figure/fit_reco_et0_eta0-1_pass.pdf}
+% \includegraphics[width=0.45\textwidth]{Figures/chapter3_Figure/fit_reco_et0_eta0-1_fail.pdf} \\
+% \includegraphics[width=0.45\textwidth]{Figures/chapter3_Figure/fit_reco_et0_eta3-4_pass.pdf}
+% \includegraphics[width=0.45\textwidth]{Figures/chapter3_Figure/fit_reco_et0_eta3-4_fail.pdf} \\
+% \caption{The $m_{\ell\ell}$ distributions and superimposed
+%     template fits for passing (left) and failing (right) probes used for the
+%   electron identification efficiency measurement in the $[10-15]$ \GeV
+%   $\PT$ bin (top) and for $2.0 \leq |\eta| < 2.5$ (bottom). Black points are data,
+%   blue line is signal model from simulation\label{fig:elerecotp}}
+% \end{center}
+% \end{figure}
+% ======
+% 
+% %%%%%%%%%%%%%%%
+% \begin{figure}[!htb]
+% \vspace*{0.3cm}
+% \begin{center}
+% \subfigure[$|\eta| < 1.442$]{\includegraphics[width=0.49\textwidth]{Figures/chapter3_Figure/Reco_eff_DATA_MC_EB.png}}
+% \label{fig:elereco_eb}
+% \subfigure[$1.442< |\eta| < 2.5$]{\includegraphics[width=0.49\textwidth]{Figures/chapter3_Figure/Reco_eff_DATA_MC_EE.png}}
+% \label{fig:elereco_ee}
+% \caption{ Reconstruction efficiencies of electrons by  T\&P method  as a function of the supercluster probe $E_{T}$ for barrel (a) and endcap (b) region.}
+% \label{fig:IsoTandPeffVsPtReco8TeV}
+% \end{center}
+% \end{figure}
+% %%%%%%%%%%%%%%%%%%%%%%%%%
+% %%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% \begin{table}[!h]
+% \caption{
+%   Electron reconstruction efficiencies and scale factors for 8 TeV data with combined
+%     statistical and systematic errors.\label{tab:elerecosf}}
+% \vspace{0.5cm}
+% \begin{tabular}{cc|cc|c}
+%  $p_T$ & $\eta$ & Data eff. $\pm$ error & MC eff. $\pm$ error & Scale factor $\pm$ error \\
+% \hline
+% 10-15 & 0 - 1.4442 & 0.868$\pm$0.048  & 0.898$\pm$0.002  & 0.967$\pm$0.054  \\
+% 15-20 & 0 - 1.4442 & 0.936$\pm$0.048  & 0.939$\pm$0.001  & 0.997$\pm$0.051  \\
+% 20-30 & 0 - 0.8    & 0.952$\pm$0.010  & 0.969$\pm$0.000  & 0.982$\pm$0.010  \\
+% 30-40 & 0 - 0.8    & 0.967$\pm$0.010  & 0.978$\pm$0.000  & 0.988$\pm$0.010  \\
+% $>$40 & 0 - 0.8    & 0.972$\pm$0.010  & 0.982$\pm$0.000  & 0.990$\pm$0.010  \\
+% \hline
+% 10-15 & 0 - 1.4442   & 0.868$\pm$0.048  & 0.898$\pm$0.002  & 0.967$\pm$0.054  \\
+% 15-20 & 0 - 1.4442   & 0.936$\pm$0.048  & 0.939$\pm$0.001  & 0.997$\pm$0.051  \\
+% 20-30 & 0.8 - 1.4442 & 0.962$\pm$0.010  & 0.969$\pm$0.000  & 0.993$\pm$0.010  \\
+% 30-40 & 0.8 - 1.4442 & 0.972$\pm$0.010  & 0.979$\pm$0.000  & 0.993$\pm$0.010  \\
+% $>$40 & 0.8 - 1.4442 & 0.976$\pm$0.010  & 0.983$\pm$0.000  & 0.992$\pm$0.010  \\
+% \hline
+% 10-15 & 1.4442-1.566 & 0.804$\pm$0.135  & 0.714$\pm$0.008  & 1.126$\pm$0.190  \\
+% 15-20 & 1.4442-1.566 & 0.733$\pm$0.069  & 0.767$\pm$0.005  & 0.955$\pm$0.090  \\
+% 20-30 & 1.4442-1.566 & 0.895$\pm$0.014  & 0.881$\pm$0.002  & 1.015$\pm$0.016  \\
+% 30-40 & 1.4442-1.566 & 0.936$\pm$0.010  & 0.950$\pm$0.001  & 0.985$\pm$0.011  \\
+% $>$40 & 1.4442-1.566 & 0.957$\pm$0.010  & 0.971$\pm$0.001  & 0.985$\pm$0.010  \\
+% \hline
+% 10-15 & 1.566 - 2.5 & 0.937$\pm$0.056  & 0.854$\pm$0.002  & 1.097$\pm$0.066  \\
+% 15-20 & 1.566 - 2.5 & 0.907$\pm$0.046  & 0.897$\pm$0.001  & 1.012$\pm$0.052  \\
+% 20-30 & 1.566 - 2.0 & 0.937$\pm$0.010  & 0.948$\pm$0.001  & 0.988$\pm$0.010  \\
+% 30-40 & 1.566 - 2.0 & 0.953$\pm$0.010  & 0.960$\pm$0.000  & 0.992$\pm$0.010  \\
+% $>$40 & 1.566 - 2.0 & 0.961$\pm$0.010  & 0.969$\pm$0.000  & 0.991$\pm$0.010  \\
+% \hline
+% 10-15 & 1.566 - 2.5 & 0.937$\pm$0.056  & 0.854$\pm$0.002  & 1.097$\pm$0.066  \\
+% 15-20 & 1.566 - 2.5 & 0.907$\pm$0.046  & 0.897$\pm$0.001  & 1.012$\pm$0.052  \\
+% 20-30 & 2.0 - 2.5   & 0.894$\pm$0.010  & 0.892$\pm$0.001  & 1.002$\pm$0.011  \\
+% 30-40 & 2.0 - 2.5   & 0.913$\pm$0.009  & 0.909$\pm$0.001  & 1.004$\pm$0.010  \\
+% $>$40 & 2.0 - 2.5   & 0.931$\pm$0.009  & 0.928$\pm$0.000  & 1.004$\pm$0.010  \\
+% \end{tabular}
+% \end{table}
+% %%%%%%%%%%%%
+% \begin{figure}[!htb]
+% \vspace*{0.3cm}
+% \begin{center}
+% \includegraphics[width=0.45\textwidth]{Figures/chapter3_Figure/electrons/RecoSF.pdf}
+% \caption{Electron reconstrustion data-to-simulation efficiency ratio
+%   for 8 \TeV ``January 22'' re-reco data, obtained with tag and probe
+%   technique described in the text, as a function of the supercluster
+%   $\vert\eta\vert$ and $\PT$.~\label{fig:elerecosf}}
+% \end{center}
+% \end{figure}
+% 
+% 
+% %%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% 
+% \subsubsection{Identification}
+% The identification efficiencies of single electrons as function of electron $p_T$ (for $p_T > 7$~GeV) are in shown in Figure \ref{fig:IsoTandPeffVsPtElectronID}
+% for 7 TeV data , in Figure \ref{fig:IdTandPeffVsPtElectronID8TeV} for 8 
+% TeV data and in Figure \ref{fig:TnP_ID_2015}  for 13 TeV data, along with MC efficiencies. The agreement between MC and data is found to be good in both 
+% barrel  and endcap regions. The differences are observed  between data and MC in lower $p_T$ region due to higher background and discrepancies
+% between some of the variables in data and MC used for electron ID.
+% %%%%%%
+% \begin{figure}[!htb]
+% \vspace*{0.3cm}
+% \begin{center}
+% \includegraphics[width=0.43\textwidth]{Figures/chapter3_Figure/electrons/passetapt_0.pdf}
+% \includegraphics[width=0.43\textwidth]{Figures/chapter3_Figure/failetapt_0.pdf} \\
+% \includegraphics[width=0.43\textwidth]{Figures/chapter3_Figure//passetapt_1.pdf}
+% \includegraphics[width=0.43\textwidth]{Figures/chapter3_Figure/failetapt_1.pdf}
+% \caption{The $m_{\Pe\Pe}$ distributions and {\bf superimposed template
+%     fits} for passing (left) and failing (right) electron probes used
+%   for the electron identification efficiency measurement in the
+%   [7--10] \GeV $\PT$ bin and in the barrel (top) and endcap
+%   (bottom). Black points are data, red line is background model and
+%   blue line is signal+background. For this low \PT bin the
+%   identification only efficiency is considered having applied
+%   isolation and \sip requirements. \label{fig:eleTempTPFit}}
+% \end{center}
+% \end{figure}
+% %%%%%%
+% \begin{figure}[!htb]
+% \vspace*{0.3cm}
+% \begin{center}
+% \includegraphics[width=0.90\textwidth]{Figures/chapter3_Figure/figures/electrons/DATA_ID_pT710_EB.pdf}
+% \includegraphics[width=0.90\textwidth]{Figures/chapter3_Figure/electrons/DATA_ID_pT710_EE.pdf}
+% \caption{\small The $m_{\Pe\Pe}$ distributions and {\bf superimposed
+%     functional form fits} for passing (left) and failing (right)
+%   probes used for the electron identification efficiency measurement
+%   in the [7--10] \GeV $\PT$ bin and for barrel (top) and endcap
+%   (bottom). Black points are data, red line is background model and
+%   blue line is signal+background. For this low \PT bin the
+%   identification only efficiency is considered having applied
+%   isolation and \sip requirements.~\label{fig:eleFuncTPFit}}
+% \end{center}
+% \end{figure}
+% 
+% %%%%%%
+% \begin{figure}[!h]
+% \vspace*{0.3cm}
+% \begin{center}
+%   \subfigure[$ |\eta| < 0.78$] {\includegraphics[width=0.49\textwidth]{Figures/chapter3_Figure/eff_DATA_MC_EB1_pT_7TeV.pdf}}
+%   \label{fig:eleid_eb1}
+%   \subfigure[$0.8 \leq |\eta| \leq 1.442$]{\includegraphics[width=0.49\textwidth]{Figures/chapter3_Figure/eff_DATA_MC_EB2_pT_7TeV.pdf}}
+%   \label{fig:eleid_eb2}
+%   \subfigure[$1.566 \leq |\eta| < 2$]{\includegraphics[width=0.49\textwidth]{Figures/chapter3_Figure/eff_DATA_MC_EE1_pT_7TeV.pdf}}
+%   \label{fig:eleid_ee2}
+%   \subfigure[$2 \leq |\eta| < 2.5$]{\includegraphics[width=0.49\textwidth]{Figures/chapter3_Figure/eff_DATA_MC_EE2_pT_7TeV.pdf}}}
+%   \label{fig:eleid_ee3}
+% 
+% \caption{Identification efficiencies of electron extracted by T\&P method as function of the  $p_{T}$ and  $\eta$ of the probe.  
+%          Results are for 7~TeV data and simulation.}
+% \label{fig:IsoTandPeffVsPtElectronID}
+% \end{center}
+% \end{figure}
+% %%%%%%
+% \begin{figure}[!htb]
+% \vspace*{0.3cm}
+% \begin{center}
+% \subfigure[$ |\eta| < 0.78$]{\includegraphics[width=0.43\textwidth]{Figures/chapter3_Figure/eff_DATA_MC_EB1_pT.pdf}}
+% \subfigure[$0.78 \leq |\eta| \leq 1.442$]{\includegraphics[width=0.43\textwidth]{Figures/chapter3_Figure/eff_DATA_MC_EB2_pT.pdf}}\\
+% \subfigure[$1.566 \leq |\eta| < 2$]{\includegraphics[width=0.43\textwidth]{Figures/chapter3_Figure/eff_DATA_MC_EE1_pT.pdf}}
+% \subfigure[ $2 \leq |\eta| < 2.5$]{\includegraphics[width=0.43\textwidth]{Figures/chapter3_Figure/eff_DATA_MC_EE2_pT.pdf}}
+% \caption{Identification efficiencies of electron extracted by T\&P method as function of the  $p_{T}$ and  $\eta$ of the probe. 
+% Results are for 8~TeV data and simulation.}
+% \label{fig:IdTandPeffVsPtElectronID8TeV}}
+% \end{center}
+% \end{figure}
+% 
+% 
+% %%%%%%
+% 
+% %%%%%%
+% \begin{figure}[!h]
+% \vspace*{0.3cm}
+% \begin{center}
+% \subfigure[]{\includegraphics[width=0.45\textwidth]{Figures/chapter3_Figure/effAndSmallSF_DATA_MC_ID_EB1_pT.pdf}}
+% \subfigure[]{\includegraphics[width=0.45\textwidth]{Figures/chapter3_Figure/effAndSmallSF_DATA_MC_ID_EB2_pT.pdf}}
+% \subfigure[]{\includegraphics[width=0.45\textwidth]{Figures/chapter3_Figure/effAndSmallSF_DATA_MC_ID_EE1_pT.pdf}}
+% \subfigure[]{\includegraphics[width=0.45\textwidth]{Figures/chapter3_Figure/effAndSmallSF_DATA_MC_ID_EE2_pT.pdf}}
+% \subfigure[]{\includegraphics[width=0.45\textwidth]{Figures/chapter3_Figure/effAndSmallSF_DATA_MC_ID_Cracks_pT2.pdf}}
+% \end{center}
+% \caption{Identification efficiencies of electron extracted by T\&P method as function of the  $p_{T}$ and  $\eta$ of the probe. 
+% Results are for 13~TeV data and simulation.}
+% \label{fig:TnP_ID_2015}
+% \end{center}
+% \end{figure}
+% %%%%%%%%%%%%%%%%%%%%%
+% 
+% 
+% %%%%%%%%%%%%%%%%%%%
+% \begin{figure}[!htb]
+% \vspace*{0.3cm}
+% \begin{center}
+% \includegraphics[width=0.4\textwidth]{Figures/chapter3_Figure//effAndSmallSF_DATA_MC_SIP_EB1_pT}
+% \includegraphics[width=0.4\textwidth]{Figures/chapter3_Figure//effAndSmallSF_DATA_MC_SIP_EB2_pT}\\
+% \includegraphics[width=0.4\textwidth]{Figures/chapter3_Figure//effAndSmallSF_DATA_MC_SIP_EE1_pT}
+% \includegraphics[width=0.4\textwidth]{Figures/chapter3_Figure//effAndSmallSF_DATA_MC_SIP_EE2_pT}\\
+% \begin{center}
+% \includegraphics[width=0.4\textwidth]{Figures/chapter3_Figure//effAndSmallSF_DATA_MC_SIP_Cracks_pT2}
+% \end{center}
+% \caption{Electron impact parameter efficiencies computed using the TnP method as a function
+%          of the probe $\pt$ in four different $\eta$ bins and for crack probes. Results are for 13~TeV \expdata.
+%          Only statistical (fit) errors for efficiencies are reported on the plots.}
+% \label{fig:TnP_SIP_2015}
+% \end{center}
+% \end{figure}
+% %%%%%%%%%%%%%%%%%%%
+% In Table~\ref{tab:ele_SIP_sf} all data and MC efficiencies for impact parameter are listed with corresponding
+% statistical errors obtained from fits. Only central values of scale factors are computed and listed in the table. An overall good agreement between \expdata and simulation is observed with
+% biggest discrepancies in low $\pt$ bins and furthermost EE bin.
+% 
+% \begin{table}[!h]
+% \vspace{0.5cm}
+%    \begin{tabular}{|c c c c c|}
+%    \hline
+%    $\pt$[GeV] & $|\eta|$ & Data eff. $\pm$ error & Simulation eff. $\pm$ error & Scale factor $\pm$ error \\
+%    \hline
+%    \hline
+%    7-10 & 0 - 1.479 & 0.976$\pm$0.011  & 0.9784$\pm$0.0042  & 0.9975 \\
+%    10-20 & 0 - 0.8 & 0.9723$\pm$0.0021  & 0.9843$\pm$0.0012  & 0.9878 \\
+%    20-30 & 0 - 0.8 & 0.9759$\pm$0.0005  & 0.9827$\pm$0.0006  & 0.9931 \\
+%    30-40 & 0 - 0.8 & 0.9683$\pm$0.0004  & 0.9831$\pm$0.0004  & 0.9850 \\
+%    40-50 & 0 - 0.8 & 0.9709$\pm$0.0004  & 0.9835$\pm$0.0003  & 0.9872 \\
+%    $>$50 & 0 - 0.8 & 0.9728$\pm$0.0006  & 0.9835$\pm$0.0005  & 0.9891 \\
+%    \hline
+%    7-10 & 0 - 1.479   & 0.976$\pm$0.011  & 0.9784$\pm$0.0042  & 0.9975\\
+%    10-20 & 0.8 - 1.479 & 0.9810$\pm$0.0031  & 0.9796$\pm$0.0015  & 1.0014 \\
+%    20-30 & 0.8 - 1.479 & 0.9613$\pm$0.0034  & 0.9748$\pm$0.0009  & 0.9861 \\
+%    30-40 & 0.8 - 1.479 & 0.9672$\pm$0.0005  & 0.9755$\pm$0.0005  & 0.9914 \\
+%    40-50 & 0.8 - 1.479 & 0.9615$\pm$0.0005  & 0.9744$\pm$0.0004  & 0.9868 \\
+%    $>$50 & 0.8 - 1.479 & 0.9620$\pm$0.0001  & 0.9692$\pm$0.0009  & 0.9926 \\
+%    \hline
+%    7-10 & 1.479-2.5 & 1.000$\pm$0.009  & 0.9444$\pm$0.0053  & 1.0589 \\
+%    10-20 & 1.479-2.0 & 0.9686$\pm$0.0038  & 0.9610$\pm$0.0024  & 1.0079 \\
+%    20-30 & 1.479-2.0 & 0.9476$\pm$0.0072  & 0.9626$\pm$0.0013  & 0.9844 \\
+%    30-40 & 1.479-2.0 & 0.9463$\pm$0.0005  & 0.9604$\pm$0.0008  & 0.9853 \\
+%    40-50 & 1.479-2.0 & 0.9445$\pm$0.0007  & 0.9597$\pm$0.0007  & 0.9842 \\
+%    $>$50 & 1.479-2.0 & 0.9481$\pm$0.0013  & 0.9567$\pm$0.0014  & 0.9910 \\
+% 
+%    \hline
+%    7-10 & 1.479 - 2.5 & 1.000$\pm$0.009  & 0.9444$\pm$0.0053  & 1.0589 \\
+%    10-20 & 2.0 - 2.5 & 0.9190$\pm$0.0048  & 0.9330$\pm$0.0032  & 0.9850 \\
+%    20-30 & 2.0 - 2.5 & 0.9069$\pm$0.0031  & 0.9305$\pm$0.0019  & 0.9746 \\
+%    30-40 & 2.0 - 2.5 & 0.9073$\pm$0.0022  & 0.9326$\pm$0.0012  & 0.9729 \\
+%    40-50 & 2.0 - 2.5  & 0.9102$\pm$0.0011  & 0.9327$\pm$0.0012  & 0.9759 \\
+%    $>$50 & 2.0 - 2.5    & 0.9165$\pm$0.0019  & 0.9311$\pm$0.0020  & 0.9843 \\
+%    \hline
+%    7-20 & Crack probes & 0.9740$\pm$0.0035  & 0.9799$\pm$0.0020  & 0.9940 \\
+%    20-30 & Crack probes & 0.9590$\pm$0.0013  & 0.9781$\pm$0.0011  & 0.9805 \\
+%    $>$30 & Crack probes & 0.9650$\pm$0.0007  & 0.9780$\pm$0.0004  & 0.9866 \\
+%    \hline
+%    \end{tabular}
+%    \caption{Electron impact parameter efficiencies and scale factors for 13 TeV data with only statistical errors for efficiency measurements and central values for scale factors.}
+%    \label{tab:ele_SIP_sf}
+% \end{table}
+% \subsubsection{selection efficiency}
+% 
+% \begin{figure}[!htb]
+%   \vspace*{0.3cm}
+%   \begin{center}
+%     \includegraphics[width=0.45\textwidth]{Objects/figures/electrons/sf_DATA_MC_EB1_pT_7TeV.pdf}
+%     \includegraphics[width=0.45\textwidth]{Objects/figures/electrons/sf_DATA_MC_EB2_pT_7TeV.pdf} \\
+%     \includegraphics[width=0.45\textwidth]{Objects/figures/electrons/sf_DATA_MC_EE1_pT_7TeV.pdf}
+%     \includegraphics[width=0.45\textwidth]{Objects/figures/electrons/sf_DATA_MC_EE2_pT_7TeV.pdf}
+%     \caption{Data to simulation scale factors for electron selection
+%       efficiency computed with the tag-and-probe method as a function of
+%       the probe $p_{T}$ in four different $\eta$ bins: (a) $ |\eta| <
+%       0.78$, (b) $0.78 \leq |\eta| \leq 1.442$, (c) $1.566 \leq |\eta| <
+%       2$ and (d) $2 \leq |\eta| < 2.5$. {\bf Results are for 7 TeV
+%         data.} \label{fig:eleEffSF7TeV}}
+%   \end{center}
+% \end{figure}
+% 
+% \begin{figure}[!htb]
+%   \vspace*{0.3cm} 
+%   \begin{center}
+%     \includegraphics[width=0.45\textwidth]{Objects/figures/electrons/sf_DATA_MC_EB1_pT.pdf} 
+%     \includegraphics[width=0.45\textwidth]{Objects/figures/electrons/sf_DATA_MC_EB2_pT.pdf} \\
+%     \includegraphics[width=0.45\textwidth]{Objects/figures/electrons/sf_DATA_MC_EE1_pT.pdf}
+%     \includegraphics[width=0.45\textwidth]{Objects/figures/electrons/sf_DATA_MC_EE2_pT.pdf}
+%     \caption{Data to simulation scale factors for electron selection
+%       efficiency computed with the tag-and-probe method as a function of
+%       the probe $p_{T}$ in four different $\eta$ bins: (a) $ |\eta| <
+%       0.78$, (b) $0.78 \leq |\eta| \leq 1.442$, (c) $1.566 \leq |\eta| <
+%       2$ and (d) $2 \leq |\eta| < 2.5$. Central value represents the
+%       combination of the template and functional form fits, error band
+%       represents the total uncertainty, calculated as described in the
+%       text. {\bf Results are for 8 TeV data.}  \label{fig:eleEffSF8TeV}}
+%   \end{center} 
+% \end{figure}
+% %%%%%%%
+% 13 TeV
+% %%%%%%
+% \begin{figure}[!h]
+%    \begin{center}
+%    \includegraphics[width=0.98\textwidth]{Figures//NoCracks_PT2_ETA1}
+%    \caption{Example of fits to the \expdata for probe crack electrons that pass (left) or fail (right)
+%             the HZZ selection. The distributions refer to electrons in the $20 < \pt < 30$~GeV window.
+%             Black points are 2015 \expdata, red line is background model and blue line is signal plus background model.}
+%    \label{fig:TnP_Final_fit_12}
+%    \end{center}
+% \end{figure}
+% 
+% %%%%%%%%%%
+% \begin{figure}[!h]
+%    \begin{center}
+%    \includegraphics[width=0.98\textwidth]{Figures//NoCracks_PT2_ETA1}
+%    \caption{Example of fits to the \expdata for probe crack electrons that pass (left) or fail (right)
+%             the HZZ selection. The distributions refer to electrons in the $20 < \pt < 30$~GeV window.
+%             Black points are 2015 \expdata, red line is background model and blue line is signal plus background model.}
+%    \label{fig:TnP_Final_fit_12}
+%    \end{center}
+% \end{figure}
+% 
+% %%%%%%%%%%
+% \begin{table}[!h]
+% \vspace{0.5cm}
+%    \begin{tabular}{|c c c c c|}
+%    \hline
+%    $\pt$[GeV] & $|\eta|$ & Data eff. $\pm$ error & Simulation eff. $\pm$ error & Scale factor $\pm$ error \\
+%    \hline
+%    \hline
+%    7-10 & 0 - 1.479 & 0.829$\pm$0.049  & 0.8482$\pm$0.0097  & 0.9774$\pm$0.0731 \\
+%    10-20 & 0 - 0.8 & 0.901$\pm$0.013  & 0.8998$\pm$0.0028  & 1.0013$\pm$0.0298 \\
+%    20-30 & 0 - 0.8 & 0.9147$\pm$0.0033  & 0.9390$\pm$0.0005  & 0.9741$\pm$0.0158 \\
+%    30-40 & 0 - 0.8 & 0.9598$\pm$0.0005  & 0.9687$\pm$0.0005  & 0.9908$\pm$0.0018 \\
+%    40-50 & 0 - 0.8 & 0.9605$\pm$0.0004  & 0.9742$\pm$0.0004  & 0.9860$\pm$0.0046 \\
+%    $>$50 & 0 - 0.8 & 0.9624$\pm$0.0008  & 0.9733$\pm$0.0007  & 0.9887$\pm$0.0031 \\
+%    \hline
+%    7-10 & 0 - 1.479   & 0.829$\pm$0.049  & 0.8482$\pm$0.0097  & 0.9774$\pm$0.0731 \\
+%    10-20 & 0.8 - 1.479 & 0.902$\pm$0.0014  & 0.8939$\pm$0.0037  & 1.0091$\pm$0.0281 \\
+%    20-30 & 0.8 - 1.479 & 0.9061$\pm$0.0087  & 0.9234$\pm$0.0015  & 0.9813$\pm$0.0154 \\
+%    30-40 & 0.8 - 1.479 & 0.9452$\pm$0.0013  & 0.9521$\pm$0.0007  & 10.9928$\pm$0.0049 \\
+%    40-50 & 0.8 - 1.479 & 0.9456$\pm$0.0006  & 0.9592$\pm$0.0006  & 0.9857$\pm$0.0027 \\
+%    $>$50 & 0.8 - 1.479 & 0.9489$\pm$0.0010  & 0.9567$\pm$0.0011  & 0.9918$\pm$0.0072 \\
+%    \hline
+%    7-10 & 1.479-2.5 & 0.798$\pm$0.058  & 0.811$\pm$0.011  & 0.984$\pm$0.097 \\
+%    10-20 & 1.479-2.0 & 0.8813$\pm$0.0064  & 0.8725$\pm$0.0044  & 1.0101$\pm$0.0183 \\
+%    20-30 & 1.479-2.0 & 0.8959$\pm$0.0041  & 0.9102$\pm$0.0019  & 0.9843$\pm$0.0187 \\
+%    30-40 & 1.479-2.0 & 0.9277$\pm$0.0001  & 0.9395$\pm$0.0010  & 0.9875$\pm$0.0021 \\
+%    40-50 & 1.479-2.0 & 0.9363$\pm$0.0008  & 0.9499$\pm$0.0002  & 0.9856$\pm$0.0025 \\
+%    $>$50 & 1.479-2.0 & 0.9400$\pm$0.0018  & 0.9483$\pm$0.0015  & 0.9912$\pm$0.0077 \\
+% 
+%    \hline
+%    7-10 & 1.479 - 2.5 & 0.798$\pm$0.058  & 0.811$\pm$0.011  & 0.984$\pm$0.097 \\
+%    10-20 & 2.0 - 2.5 & 0.8534$\pm$0.0077  & 0.8376$\pm$0.0043  & 1.0189$\pm$0.0160 \\
+%    20-30 & 2.0 - 2.5 & 0.8586$\pm$0.0025  & 0.8799$\pm$0.0024  & 0.9758$\pm$0.0179 \\
+%    30-40 & 2.0 - 2.5 & 0.8785$\pm$0.0014  & 0.9121$\pm$0.0014  & 0.9632$\pm$0.0096 \\
+%    40-50 & 2.0 - 2.5  & 0.8955$\pm$0.0012  & 0.9197$\pm$0.0012  & 0.9737$\pm$0.0037 \\
+%    $>$50 & 2.0 - 2.5    & 0.9038$\pm$0.0021  & 0.9206$\pm$0.0022  & 0.9818$\pm$0.0057 \\
+%    \hline
+%    7-20 & Crack probes & 0.8506$\pm$0.0099  & 0.8233$\pm$0.0055  & 1.0332$\pm$0.0277 \\
+%    20-30 & Crack probes & 0.8447$\pm$0.0025  & 0.8764$\pm$0.0024  & 0.9638$\pm$0.0102 \\
+%    $>$30 & Crack probes   & 0.9413$\pm$0.0034  & 0.9495$\pm$0.0013  & 0.9914$\pm$0.0042 \\
+%    \hline
+%    \end{tabular}
+%    \caption{Electron efficiencies and scale factors for 13 TeV data with only statistical errors for efficiency measurements and total errors for scale factors.}
+%    \label{tab:ele_Final_sf}
+% \end{table}
+% %%%%%%%%%%5
+% %%%%%%%%%%%%%%%%%%%
+% \begin{figure}[!htb]
+% \vspace*{0.3cm}
+% \begin{center}
+% \includegraphics[width=0.4\textwidth]{Figures//eff_data_IdIsoSip}
+% \includegraphics[width=0.4\textwidth]{Figures//eff_data_IdIsoSip_Cracks}\\
+% \includegraphics[width=0.4\textwidth]{Figures//eff_MC_IdIsoSip}
+% \includegraphics[width=0.4\textwidth]{Figures//eff_MC_IdIsoSip_Cracks}\\
+% \includegraphics[width=0.4\textwidth]{Figures//IdIsoSip}
+% \includegraphics[width=0.4\textwidth]{Figures//IdIsoSip_Cracks}\\
+% \caption{Electron efficiencies for data (top) and simulation (middle) and scale factors (bottom) computed using the TnP method as a function
+%          of the probe $\pt$ and supercluster $\eta$ for non-crack (left) and crack (right) probes. Results are for 13~TeV \expdata.}
+% \label{fig:TnP_2D_2015}
+% \end{center}
+% \end{figure}
+%%%%%%%%%%%%%%%%%%%%
+
+ % \subsubsection{Standalone muon reconstruction}
+% \subsubsection{Global muon reconstruction}
+% \subsubsection{Cosmic-ray and beam-halo muon reconstruction}
+%\subsubsection{Performance}
+% \subsection{Muon Identification}
+% \subsubsection{Algorithm}
+% \subsubsection{performace}
+% \subsection{Muon Isolation}
+% \subsubsection{Principles of the muon-isolation algorithms}
+% \subsection{High Level Triggering}
+% \section{Electrons and Photons}\label{chapter3_sec2}
+% \subsection{ECAL clustering and superclustering}
+% \subsubsection{superclustering algorithm}
+% \subsection{Electron and photon trigger}
+% \subsection{Photon reconstruction and selection}
+% \subsubsection{Photon energy reconstruction}
+% \subsubsection{Photon isolation}
+% \subsection{Electron reconstruction and selection}
+% \subsubsection{Track-cluster combination}
+% \subsubsection{Electron isolation}
+% \subsubsection{Electron identification}
+% \subsubsection{Electron energy scale correction}
+% \section{Jets}

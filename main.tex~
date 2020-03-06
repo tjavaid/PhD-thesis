@@ -1,0 +1,404 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Masters/Doctoral Thesis 
+% LaTeX Template
+% Version 2.3 (25/3/16)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\fbinv} {\mbox{\ensuremath{\,\text{fb}^\text{$-$1}}}\xspace}
+\newcommand{\GEANTfour} {{\textsc{Geant4}}\xspace}
+\newcommand{\Z}{\mathrm{Z}}
+\newcommand{\W}{\mathrm{W}}
+\newcommand{\expdata}{experimental data}
+\newcommand{\to}{\rightarrow}
+\newcommand{\Pg}{\mathrm{g}}
+\newcommand{\Pe}{\ensuremath{\mathrm{e}}}
+\newcommand{\Pgm}{\ensuremath{{\mu}}}
+\newcommand{\Paq}{\ensuremath{\mathrm{\overline{q}}}}
+\newcommand{\Pq}{\ensuremath{\mathrm{q}}}
+\newcommand{\GeV}{\hbox{$\;\hbox{\rm GeV}$}}
+\newcommand{\TeV}{\hbox{$\;\hbox{\rm TeV}$}}
+\newcommand{\pt}{\ensuremath{p_T}}
+\newcommand{\gev}{\GeV}
+\newcommand{\TeV}{\ensuremath{\,\text{Te\hspace{-.08em}V}}\xspace}
+\newcommand{\Zee}{\mbox{$\Z\rightarrow\Pe\Pe$}}
+\newcommand{\nanob}{\mbox{{\rm ~nb}~}}
+%%%%%%%%From AN%%%%%%%%%%%%%%%%%
+%note: Some of the following conflict with the CMS-wide definitions
+ \newcommand{\suthree}{\ensuremath{\mathrm{SU(3)}}}
+ \newcommand{\suthreec}{\ensuremath{\mathrm{SU(3)_C}}}
+ \newcommand{\sutwo}{\ensuremath{\mathrm{SU(2)}}}
+ \newcommand{\sutwol}{\ensuremath{\mathrm{SU(2)_L}}}
+ \newcommand{\uone}{\ensuremath{\mathrm{U(1)}}}
+ \newcommand{\uoneg}{\ensuremath{\mathrm{U(1)_\gamma}}} 
+ \newcommand{\fb}{\ensuremath{\mathrm{fb}}}
+ \newcommand{\pb}{\ensuremath{\mathrm{pb}}}
+ \newcommand{\ifb}{\ensuremath{\mathrm{fb^{-1}}}}
+ \newcommand{\ipb}{\ensuremath{\mathrm{pb^{-1}}}}
+ \newcommand{\Hmu}{\ensuremath{\mathrm{H}\to\mathrm{ZZ^{(\ast)}}\to4\mu}}
+ \newcommand{\Hemu}{\ensuremath{\mathrm{H}\to\mathrm{ZZ^{(\ast)}}\to2e2\mu}}
+ \newcommand{\mmu}{\ensuremath{\mathrm{m_{4\mu}}}}
+ \newcommand{\mH}{\ensuremath{m_{\mathrm{H}}}}
+ \newcommand{\lnQ}{\ensuremath{\mathrm{ln}(Q)}}
+ \newcommand{\mlnQ}{\ensuremath{-2\,\mathrm{ln}(Q)}}
+ \newcommand{\LS}{\ensuremath{{\cal L}(S)}}
+ \newcommand{\LB}{\ensuremath{{\cal L}(B)}}
+ \newcommand{\LSB}{\ensuremath{{\cal L}(S+B)}}
+ \newcommand{\mfl}{\ensuremath{m_{4\ell}}}
+ \newcommand{\mZ}{\ensuremath{m_\mathrm{Z}}}
+ \newcommand{\Zbb}{\ensuremath{(Z/\gamma^*){\mathrm{b\bar{b}}}}}
+ \newcommand{\Zgam}{\ensuremath{\mathrm{Z/\gamma^*}}}
+ \newcommand{\mumu}{\ensuremath{\mathrm{\mu^+\mu^-}}}
+ \newcommand{\KD}{\ensuremath{{\cal D}^{\rm kin}_{\rm bkg}} }
+\newcommand{\superKD}{\ensuremath{{\cal D}_{\rm bkg}} }
+\newcommand{\spinKD}{\ensuremath{{\cal D}_{J^P}} }
+\newcommand{\VDj}{\mathrm{{\cal D}_{\rm jet}} }
+\newcommand{\VDu}{\mathrm{{\cal D}_{\PT}} }
+\newcommand{\MassD}{\mathrm{{\cal D}_{\rm mass}} }
+\newcommand{\ZZl}{$\mathrm{ZZ} \to 4\ell$ }
+\newcommand{\ZZ}{\ensuremath{\mathrm{Z/\gamma^*Z/\gamma^*}}}
+\newcommand{\ZBBbar}{$\mathrm{Zb\bar{b}}$ }
+\newcommand{\TTbar}{\ensuremath{\mathrm{t \bar{t}}} }
+\newcommand{\qqbar}{\ensuremath{\mathrm{q \bar{q}}} }
+\newcommand{\mllll}{\ensuremath{m_{4\ell}}}
+\newcommand{\ptllll}{\ensuremath{p_{\mathrm{T},4\ell}}}
+\newcommand{\ptsuemme}{\ensuremath{p_{\mathrm{T},4\ell} / m_{4\ell}}}
+\newcommand{\sip}{\ensuremath{\rm SIP_{3D}} }
+\newcommand{\LikMuOneD}{\mathrm{{\cal L}_{1D}(m_{4l})} }
+\newcommand{\LikMuTwoD}{\mathrm{{\cal L}_{3D}(m_{4l},\KD)} }
+\newcommand{\LikMuThreeD}{\mathrm{{\cal L}_{3D}(m_{4l},\KD,\VDj/\VDu)} }
+\newcommand{\LikMu}{\LikMuThreeD}
+\newcommand{\LikMass}{\mathrm{{\cal L}_{3D}(m_{4\ell},\MassD,\KD)} }
+\newcommand{\LikSpin}{\mathrm{{\cal L}_{3D}(\superKD,\VDj/\VDu,\spinKD)} }
+\newcommand{\strength}{\ensuremath{\mu_{\rm S}}}
+ \newcommand{\usedLumiA}{5.1~\ifb}
+ \newcommand{\usedLumiB}{19.7~\ifb}
+ \newcommand{\usedLumi}{2.8~\ifb}
+% xs-paper specific
+\newcommand{\Hllll}{\ensuremath{\mathrm{H}\to4\ell}}
+\newcommand{\Heeee}{\ensuremath{\mathrm{H}\to4e}}
+\newcommand{\Zllll}{\ensuremath{\mathrm{Z}\to4\ell}}
+\newcommand{\Zll}{\ensuremath{\mathrm{Z}\to\ell\ell}}
+\newcommand{\jpsi}{\ensuremath{J/\psi}}
+\newcommand{\ZZllll}{\ensuremath{\mathrm{ZZ}\to4\ell}}
+\newcommand{\HZZllll}{\ensuremath{\mathrm{H}\to\mathrm{ZZ}\to4\ell}}
+
+\newcommand{\ggH}{\ensuremath{{\rm gg}\to{\rm H}}}
+\newcommand{\VH}{\ensuremath{{\rm VH}}}
+\newcommand{\ZH}{\ensuremath{{\rm ZH}}}
+\newcommand{\WH}{\ensuremath{{\rm WH}}}
+\newcommand{\ttH}{\ensuremath{t\bar{t}{\rm H}}}
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[
+12pt, % The default document font size, options: 10pt, 11pt, 12pt
+%oneside, % Two side (alternating margins) for binding by default, uncomment to switch to one side
+%chapterinoneline,% Have the chapter title next to the number in one single line
+english, % ngerman for German
+singlespacing, % Single line spacing, alternatives: onehalfspacing or doublespacing
+%draft, % Uncomment to enable draft mode (no pictures, no links, overfull hboxes indicated)
+%nolistspacing, % If the document is onehalfspacing or doublespacing, uncomment this to set spacing in lists to single
+liststotoc, % Uncomment to add the list of figures/tables/etc to the table of contents
+%toctotoc, % Uncomment to add the main table of contents to the table of contents
+%parskip, % Uncomment to add space between paragraphs
+%nohyperref, % Uncomment to not load the hyperref package
+headsepline, % Uncomment to get a line under the header
+]{MastersDoctoralThesis} % The class file specifying the document structure
+
+\usepackage[utf8]{inputenc} % Required for inputting international characters
+\usepackage[T1]{fontenc} % Output font encoding for international characters
+\usepackage{amsmath}
+\usepackage{palatino} % Use the Palatino font by default
+%%%%
+%\usepackage{caption}
+\usepackage[width=\textwidth]{caption}
+\usepackage{subcaption}
+\usepackage{subfigure}
+\usepackage[toc,page]{appendix}
+\usepackage[figuresright]{rotating}
+%\usepackage[UTF8]{ctex}
+\usepackage{CJK}
+%%%%%%%
+%\usepackage[backend=bibtex,style=authoryear,natbib=true]{biblatex} % Use the bibtex backend with the authoryear citation style (which resembles APA)
+\usepackage{cite}
+\usepackage[backend=bibtex,style=numeric,sorting=none,natbib=true]{biblatex}
+
+\renewcommand*{\newunitpunct}{\addcomma\space}
+\renewcommand{\labelalphaothers}{}
+\renewcommand{\labelnamepunct}{\addcomma\space}
+\renewbibmacro{in:}{}
+\DeclareFieldFormat*{journaltitle}{#1}
+\DeclareFieldFormat*{title}{\enquote{\textsl{#1}}}
+\DeclareFieldFormat*{volume}{\textbf{#1}}
+\renewbibmacro*{volume+number+eid}{\printfield{volume}}
+\AtEveryBibitem{\clearfield{issn}}
+
+\addbibresource{example.bib} % The filename of the bibliography
+\usepackage[autostyle=true]{csquotes} % Required to generate language-dependent quotes in the bibliography
+\usepackage{mathrsfs}
+
+%\usepackage{feynman}
+%----------------------------------------------------------------------------------------
+%	MARGIN SETTINGS
+%----------------------------------------------------------------------------------------
+% 
+% \geometry{
+% 	paper=a4paper, % Change to letterpaper for US letter
+% %	inner=2.5cm, % Inner margin
+% %	outer=3.8cm, % Outer margin
+% 	bindingoffset=2cm, % Binding offset
+% 	top=0.5cm, % Top margin
+% 	bottom=0.5cm, % Bottom margin
+% 	%showframe,% show how the type block is set on the page
+}
+\geometry{hmargin=1.25in,vmargin=0.5in,headheight=14.5pt} %UCAS THESIS geometery
+%----------------------------------------------------------------------------------------
+%	THESIS INFORMATION
+%----------------------------------------------------------------------------------------
+
+%\thesistitle{Measurement of Differential and Integrated Fiducial Cross Sections for Higgs Boson Production in the Four-Lepton Decay Channel} 
+\thesistitle{The study of Higgs properties in the four-lepton final state at CMS} 
+% channel in pp collisions at $\sqrt{s} = 7$, $8$ and $13~TeV$ } % Your thesis title, this is used in the title and abstract, print it elsewhere with \ttitle
+\supervisor{Prof. Guoming \textsc{Chen} } % Your supervisor's name, this is used in the title page, print it elsewhere with \supname
+\examiner{} % Your examiner's name, this is not currently used anywhere in the template, print it elsewhere with \examname
+\degree{Doctor of Science} % Your degree name, this is used in the title page and abstract, print it elsewhere with \degreename
+%\author{Muhammad \textsc{Ahmad}} % Your name, this is used in the title page and abstract, print it elsewhere with \authorname
+\author{Tahir \textsc{Javaid}} % Your name, this is used in the title page and abstract, print it elsewhere with \authorname
+\addresses{} % Your address, this is not currently used anywhere in the template, print it elsewhere with \addressname
+
+\subject{Particle Physics} % Your subject area, this is not currently used anywhere in the template, print it elsewhere with \subjectname
+\keywords{} % Keywords for your thesis, this is not currently used anywhere in the template, print it elsewhere with \keywordnames
+\university{\href{http://english.ucas.ac.cn/}{University of Chinese Academy of Sciences}} % Your university's name and URL, this is used in the title page and abstract, print it elsewhere with \univname
+\department{\href{http://english.ihep.cas.cn}{Chinese Academy of Sciences}} % Your department's name and URL, this is used in the title page and abstract, print it elsewhere with \deptname
+\group{\href{http://english.ihep.cas.cn}{Institute of High Energy Physics}} % Your research group's name and URL, this is used in the title page, print it elsewhere with \groupname
+\faculty{\href{http://faculty.university.com}{Institute of High Energy Physics}} % Your faculty's name and URL, this is used in the title page and abstract, print it elsewhere with \facname
+
+\hypersetup{pdftitle=\ttitle} % Set the PDF's title to your title
+\hypersetup{pdfauthor=\authorname} % Set the PDF's author to your name
+\hypersetup{pdfkeywords=\keywordnames} % Set the PDF's keywords to your keywords
+\begin{document}
+%\bibliography{example.bib} 
+%\bibliographystyle{plain}
+\frontmatter % Use roman page numbering style (i, ii, iii, iv...) for the pre-content pages
+\pagestyle{plain} % Default to the plain heading style until the thesis style is called for the body content
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\begin{titlepage}
+\begin{center}
+{\scshape\large \univname\par}\vspace{0.5cm} % University name
+\textsc{\Large Doctoral Thesis}\\[0.5cm] % Thesis type
+\HRule \\[0.4cm] % Horizontal line
+{\huge \bfseries \ttitle\par}\vspace{0.4cm} % Thesis title
+\HRule \\[1.5cm] % Horizontal line
+\begin{minipage}[t]{0.4\textwidth}
+\begin{flushleft} \large
+\emph{Author:}\\
+{\authorname} % Author name - remove the \href bracket to remove the link
+\end{flushleft}
+\end{minipage}
+\begin{minipage}[t]{0.4\textwidth}
+\begin{flushright} \large
+\emph{Supervisor:} \\
+{\supname} % Supervisor name - remove the \href bracket to remove the link  
+\emph{Co-supervisor:} \\
+{Prof. Mingshui \textsc{Chen}} % Supervisor name - remove the \href bracket to remove the link  
+
+\end{flushright}
+\end{minipage}\\[1cm]
+ \textit{A thesis submitted in fulfillment of the requirements\\ for the degree of \degreename}\\
+  [0.3cm] % University requirement text
+\textit{in the}\\
+ [0.2cm]
+\groupname\\\deptname\\[2cm] % Research group name and department name
+%{\large \today}\\[4cm] % Date
+\includegraphics[width=2.5cm]{Figures/Logo} % University/department logo - uncomment to place it
+\vfill
+\end{center}
+\end{titlepage}
+
+%----------------------------------------------------------------------------------------
+%	DECLARATION PAGE
+%----------------------------------------------------------------------------------------
+
+% \begin{declaration}
+% \addchaptertocentry{\authorshipname}
+% 
+% \noindent I, \authorname, declare that this thesis titled, \enquote{\ttitle} and the work presented in it are my own. I confirm that:
+% 
+% \begin{itemize} 
+% \item This work was done wholly or mainly while in candidature for a research degree at this University.
+% \item Where any part of this thesis has previously been submitted for a degree or any other qualification at this University or any other institution, this has been clearly stated.
+% \item Where I have consulted the published work of others, this is always clearly attributed.
+% \item Where I have quoted from the work of others, the source is always given. With the exception of such quotations, this thesis is entirely my own work.
+% \item I have acknowledged all main sources of help.
+% \item Where the thesis is based on work done by myself jointly with others, I have made clear exactly what was done by others and what I have contributed myself.\\
+% \end{itemize}
+% 
+% \noindent Signed:\\
+% \rule[0.5em]{25em}{0.5pt} % This prints a line for the signature
+%  
+% \noindent Date:\\
+% \rule[0.5em]{25em}{0.5pt} % This prints a line to write the date
+% \end{declaration}
+% 
+% \cleardoublepage
+
+%----------------------------------------------------------------------------------------
+%	QUOTATION PAGE
+%----------------------------------------------------------------------------------------
+
+% \vspace*{0.2\textheight}
+% 
+% \noindent\enquote{\itshape Thanks to my solid academic training, today I can write hundreds of words on virtually any topic without possessing a shred of information, which is how I got a good job in journalism.}\bigbreak
+% 
+% \hfill Dave Barry
+
+%----------------------------------------------------------------------------------------
+%	ABSTRACT PAGE
+%----------------------------------------------------------------------------------------
+
+%\include{Chapters/chinese_abstract}
+%\include{Chapters/abstract}
+%----------------------------------------------------------------------------------------
+%	ACKNOWLEDGEMENTS
+%----------------------------------------------------------------------------------------
+
+%\include{Chapters/acknowledgements}
+
+%\include{Chapters/preface}
+
+%----------------------------------------------------------------------------------------
+%	LIST OF CONTENTS/FIGURES/TABLES PAGES
+%----------------------------------------------------------------------------------------
+% start
+%\begin{CJK}{UTF8}{gbsn}
+%\tableofcontents % Prints the main table of contents
+%\end{CJK}
+%\listoffigures % Prints the list of figures
+%\listoftables % Prints the list of tables
+% end
+%----------------------------------------------------------------------------------------
+%	ABBREVIATIONS
+%----------------------------------------------------------------------------------------
+%\include{Chapters/abbreviations}
+%----------------------------------------------------------------------------------------
+%	PHYSICAL CONSTANTS/OTHER DEFINITIONS
+%----------------------------------------------------------------------------------------
+%\include{Chapters/constants}
+%----------------------------------------------------------------------------------------
+%	SYMBOLS
+%----------------------------------------------------------------------------------------
+%\include{Chapters/symbols}
+%----------------------------------------------------------------------------------------
+%	DEDICATION
+%----------------------------------------------------------------------------------------
+
+\dedicatory{Dedicated to my family who endured missed birthdays, missed festivals and countless days alone so that I may make history}
+%----------------------------------------------------------------------------------------
+%	THESIS CONTENT - CHAPTERS
+%----------------------------------------------------------------------------------------
+
+\mainmatter % Begin numeric (1,2,3...) page numbering
+
+\pagestyle{thesis} % Return the page headers back to the "thesis" style
+
+% Include the chapters of the thesis as separate files from the Chapters folder
+% Uncomment the lines as you write the chapters
+
+%\include{Chapters/introduction}
+%\include{Chapters/Chapter_1}
+%\include{Chapters/Chapter_2}  % initial draft ready 06.03.2020
+%\include{Chapters/Chapter_3}  % initial draft ready 02.03.2020
+\chapter{Differential and Integrated Fiducial Cross Sections for Higgs Boson Production in the Four-lepton Decay Channel}\label{Chapter4}
+\chaptermark{Fiducial Cross Sections for $pp\rightarrow H \rightarrow  4\ell$}
+  \section{Introduction}\label{sec:Introduction}
+    \input{Chapters/Chapter4/introduction/introduction}
+%  \section{Datasets, Simulation Samples and Theoretical Predictions}\label{sec:DatasetsSimulation}
+%    \subsection{Datasets}\label{sec:Datasets}
+%    \input{Chapters/Chapter4/DatasetsandSimulations/dataset}
+%    \subsection{Simulation Samples and Theoretical Predictions} \label{sec:Simulations}
+%    \input{Chapters/Chapter4/DatasetsandSimulations/simulation_theoretical_pridiction}
+%  \section{Analysis Strategy}\label{sec:AnalysisStrategy} 
+%    \input{Chapters/Chapter4/AnalysisStrategy/AnalysisStrategy}\label{sec:GeneralStrategy}
+%    \subsection{Event Selection and Background Modeling}\label{sec:EventsBackgrounds}
+%      \subsubsection{Event Selection}
+%      \input{Chapters/Chapter4/AnalysisStrategy/events_selection}\label{sec:events_selection}
+%      \subsubsection{Background Modeling}
+%      \input{Chapters/Chapter4/AnalysisStrategy/background_model}\label{sec:background_model}    
+%    \subsection{Definition of the Fiducial Volume}\label{sec:FiducialVolume}
+%      \input{Chapters/Chapter4/AnalysisStrategy/fiducial_volume} 
+%    \subsection{Signal Model and Statistical Procedure}\label{sec:SignalStatProcedure}
+%      \input{Chapters/Chapter4/AnalysisStrategy/SignalAndStatProcedure}
+%    \subsection{Extraction of Integrated \texorpdfstring{$\Hllll$}{H to 4l} Fiducial Cross Section}\label{sec:ExtractionInclusive}
+%       \input{Chapters/Chapter4/AnalysisStrategy/ExtractionInclusive}
+%    \subsection{Extraction of Differential \texorpdfstring{$\Hllll$}{H to 4l} Fiducial Cross Sections}\label{sec:ExtractionDifferential}
+%       \input{Chapters/Chapter4/AnalysisStrategy/ExtractionDifferential}
+%  \section{Systematic Uncertainties}\label{sec:Systematics}\label{sec:Systematics}
+%	\input{Chapters/Chapter4/Systematics/Systematics}
+%  \section{Results}\label{sec:Results}
+%         \input{Chapters/Chapter4/Results/Intro}  \label{sec:ResultsIntro}
+%    \subsection{Measurement of Integrated Fiducial Cross Section}\label{sec:ResultsInclusiveXS}
+%     \input{Chapters/Chapter4/Results/Inclusive}
+%    \subsection{Measurement of Differential Fiducial Cross Sections}\label{sec:ResultsDifferentialXS}
+%      \input{Chapters/Chapter4/Results/Differential}
+%     \subsection{Comparison With ATLAS Results}\label{sec:atlas_results}
+%      \input{Chapters/Chapter4/Results/atlas_results}
+%%    \section{Summary}\label{sec:Summary}\label{sec:Conclusion}
+%%        \input{Chapters/Chapter4/Conclusions.tex} 
+%\include{Chapters/Chapter_5}
+%\include{Chapters/Chapter_6}
+%\include{Chapters/Chapter_7}
+% \include{Chapters/Chapter_8}
+
+%----------------------------------------------------------------------------------------
+%	THESIS CONTENT - APPENDICES
+%----------------------------------------------------------------------------------------
+%\part*{Appendix}
+%\appendix % Cue to tell LaTeX that the following "chapters" are Appendices
+
+% Include the appendices of the thesis as separate files from the Appendices folder
+% Uncomment the lines as you write the Appendices
+% \input{Appendix/Samples} \label{app:samples}
+% \clearpage
+% \input{Appendix/Backgrounds}  \label{app:bkginputs}
+% \include{}
+% \include{Appendix/Samples} \label{app:samples}
+%\include{Appendices/AppendixC}
+
+% start
+%\begin{appendices}
+%\chapter{Appendix}
+% \input{Appendix/Samples}  \label{app:samples}
+%\clearpage
+%\input{Appendix/Backgrounds}  \label{app:bkginputs}
+%\clearpage
+%\input{Appendix/SignalInputs} \label{app:siginputs}
+%\clearpage
+%\input{Appendix/JetSystematics} \label{app:JetSystematics}
+%\clearpage
+%\input{Appendix/FixFrac} \label{app:fixfrac}
+%\clearpage
+%\input{Appendix/RestrictiveModelDep} \label{app:restrictive_md}
+%\clearpage
+%\input{Appendix/AlternateAsimov} \label{app:alternateasimov}
+%\clearpage
+%\input{Appendix/InclusiveZ4lRatio} \label{app:InclusiveZ4lRatio}
+%\clearpage
+%\end{appendices}
+%----------------------------------------------------------------------------------------
+%	BIBLIOGRAPHY
+%----------------------------------------------------------------------------------------
+\printbibliography[heading=bibintoc]
+%end
+
+%----------------------------------------------------------------------------------------
+
+\end{document}  
