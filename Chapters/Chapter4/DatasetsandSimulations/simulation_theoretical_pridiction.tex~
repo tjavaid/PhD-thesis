@@ -171,24 +171,6 @@ of the leptons selection efficiencies in data and simulation. The dependency of 
 number of reconstructed primary vertices in the event is found to be negligible for data samples.
 More details are presented and discussed in Ref.~\cite{Chatrchyan:2013mxa}.
 
-\subsubsection{Pileup Reweighting}
-
-For each year, corresponding simulation samples are reweighted to match the pileup distribution in data. An example of reweighting procedure for 2018 data is
-shown in Fig.~\ref{fig:puWeight2018}.
-%=======
-\begin{figure}[!htb]
-       \vspace*{0.3cm}
-       \begin{center}
-               \includegraphics[width=0.45\textwidth]{Figures/PileUp/PileUp_2018.pdf} 
-               \caption{Distribution of pileup in 2018 MC and Data shown before and after the application of PU weights. Up and down variations of 5\% in the minimum bias
-                       cross section when calculating the weighs are also shown.
-                       \label{fig:puWeight2018}}
-       \end{center}
-\end{figure}
-%%=======
-
-
-
 
 %%%%%%%%%%
 %%

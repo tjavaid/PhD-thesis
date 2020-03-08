@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.28)  6 MAR 2020 10:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.28)  8 MAR 2020 00:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1676,7 +1676,7 @@ LaTeX Info: Redefining \pageref on input line 6443.
 )
 Package scrhack Info: hyperref hack deactivated because of
 (scrhack)             detection of hyperref version, that doesn't
-(scrhack)             need that hack, on input line 131.
+(scrhack)             need that hack, on input line 132.
 Package hyperref Info: Driver (autodetected): hpdftex.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
@@ -1691,17 +1691,17 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip85
 )
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 131.
-Package hyperref Info: Option `hypertexnames' set `false' on input line 131.
-Package hyperref Info: Option `colorlinks' set `true' on input line 131.
-Package hyperref Info: Option `unicode' set `true' on input line 131.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 132.
+Package hyperref Info: Option `hypertexnames' set `false' on input line 132.
+Package hyperref Info: Option `colorlinks' set `true' on input line 132.
+Package hyperref Info: Option `unicode' set `true' on input line 132.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2018/02/06 v6.86b Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Option `breaklinks' set `true' on input line 131.
+Package hyperref Info: Option `breaklinks' set `true' on input line 132.
 
 (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2018/02/11 v5.2c context-sensitive quotations (JAW)
@@ -1729,7 +1729,7 @@ Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 \symrsfs=\mathgroup4
 )
 ! Too many }'s.
-l.159 }
+l.160 }
        
 ? 
 
@@ -1739,7 +1739,7 @@ See the biblatex package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.185 \begin{document}
+l.186 \begin{document}
                       
 ? 
 Package biblatex Info: Trying to load language 'english'...
@@ -1752,87 +1752,87 @@ Package csquotes Info: ... found 'babel' package.
  (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 185.
-LaTeX Font Info:    ... okay on input line 185.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 185.
-LaTeX Font Info:    ... okay on input line 185.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 185.
-LaTeX Font Info:    ... okay on input line 185.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 185.
-LaTeX Font Info:    ... okay on input line 185.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 185.
-LaTeX Font Info:    ... okay on input line 185.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 185.
-LaTeX Font Info:    ... okay on input line 185.
-LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 185.
-LaTeX Font Info:    ... okay on input line 185.
-LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 185.
-LaTeX Font Info:    ... okay on input line 185.
-LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 185.
-LaTeX Font Info:    ... okay on input line 185.
-LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 185.
-LaTeX Font Info:    ... okay on input line 185.
-LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 185.
-LaTeX Font Info:    ... okay on input line 185.
-LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 185.
-LaTeX Font Info:    ... okay on input line 185.
-LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 185.
-LaTeX Font Info:    ... okay on input line 185.
-LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 185.
-LaTeX Font Info:    ... okay on input line 185.
-LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 185.
-LaTeX Font Info:    ... okay on input line 185.
-LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 185.
-LaTeX Font Info:    ... okay on input line 185.
-LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 185.
-LaTeX Font Info:    ... okay on input line 185.
-LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 185.
-LaTeX Font Info:    ... okay on input line 185.
-LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 185.
-LaTeX Font Info:    ... okay on input line 185.
-LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 185.
-LaTeX Font Info:    ... okay on input line 185.
-LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 185.
-LaTeX Font Info:    ... okay on input line 185.
-LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 185.
-LaTeX Font Info:    ... okay on input line 185.
-LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 185.
-LaTeX Font Info:    ... okay on input line 185.
-LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 185.
-LaTeX Font Info:    ... okay on input line 185.
-LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 185.
-LaTeX Font Info:    ... okay on input line 185.
-LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 185.
-LaTeX Font Info:    ... okay on input line 185.
-LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 185.
-LaTeX Font Info:    ... okay on input line 185.
-LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 185.
-LaTeX Font Info:    ... okay on input line 185.
-LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 185.
-LaTeX Font Info:    ... okay on input line 185.
-LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 185.
-LaTeX Font Info:    ... okay on input line 185.
-LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 185.
-LaTeX Font Info:    ... okay on input line 185.
-LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 185.
-LaTeX Font Info:    ... okay on input line 185.
-LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 185.
-LaTeX Font Info:    ... okay on input line 185.
-LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 185.
-LaTeX Font Info:    ... okay on input line 185.
-LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 185.
-LaTeX Font Info:    ... okay on input line 185.
-LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 185.
-LaTeX Font Info:    ... okay on input line 185.
-LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 185.
-LaTeX Font Info:    ... okay on input line 185.
-LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 185.
-LaTeX Font Info:    ... okay on input line 185.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 185.
-LaTeX Font Info:    ... okay on input line 185.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 185.
-LaTeX Font Info:    ... okay on input line 185.
-LaTeX Font Info:    Try loading font information for T1+ppl on input line 185.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 186.
+LaTeX Font Info:    ... okay on input line 186.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 186.
+LaTeX Font Info:    ... okay on input line 186.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 186.
+LaTeX Font Info:    ... okay on input line 186.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 186.
+LaTeX Font Info:    ... okay on input line 186.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 186.
+LaTeX Font Info:    ... okay on input line 186.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 186.
+LaTeX Font Info:    ... okay on input line 186.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 186.
+LaTeX Font Info:    ... okay on input line 186.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 186.
+LaTeX Font Info:    ... okay on input line 186.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 186.
+LaTeX Font Info:    ... okay on input line 186.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 186.
+LaTeX Font Info:    ... okay on input line 186.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 186.
+LaTeX Font Info:    ... okay on input line 186.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 186.
+LaTeX Font Info:    ... okay on input line 186.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 186.
+LaTeX Font Info:    ... okay on input line 186.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 186.
+LaTeX Font Info:    ... okay on input line 186.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 186.
+LaTeX Font Info:    ... okay on input line 186.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 186.
+LaTeX Font Info:    ... okay on input line 186.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 186.
+LaTeX Font Info:    ... okay on input line 186.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 186.
+LaTeX Font Info:    ... okay on input line 186.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 186.
+LaTeX Font Info:    ... okay on input line 186.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 186.
+LaTeX Font Info:    ... okay on input line 186.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 186.
+LaTeX Font Info:    ... okay on input line 186.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 186.
+LaTeX Font Info:    ... okay on input line 186.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 186.
+LaTeX Font Info:    ... okay on input line 186.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 186.
+LaTeX Font Info:    ... okay on input line 186.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 186.
+LaTeX Font Info:    ... okay on input line 186.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 186.
+LaTeX Font Info:    ... okay on input line 186.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 186.
+LaTeX Font Info:    ... okay on input line 186.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 186.
+LaTeX Font Info:    ... okay on input line 186.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 186.
+LaTeX Font Info:    ... okay on input line 186.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 186.
+LaTeX Font Info:    ... okay on input line 186.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 186.
+LaTeX Font Info:    ... okay on input line 186.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 186.
+LaTeX Font Info:    ... okay on input line 186.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 186.
+LaTeX Font Info:    ... okay on input line 186.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 186.
+LaTeX Font Info:    ... okay on input line 186.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 186.
+LaTeX Font Info:    ... okay on input line 186.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 186.
+LaTeX Font Info:    ... okay on input line 186.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 186.
+LaTeX Font Info:    ... okay on input line 186.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 186.
+LaTeX Font Info:    ... okay on input line 186.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 186.
+LaTeX Font Info:    ... okay on input line 186.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 186.
+LaTeX Font Info:    ... okay on input line 186.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 186.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
@@ -1961,7 +1961,7 @@ See the subcaption package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.185 \begin{document}
+l.186 \begin{document}
                       
 ? 
 
@@ -1972,7 +1972,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.185 \begin{document}
+l.186 \begin{document}
                       
 ? 
 
@@ -1983,7 +1983,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.185 \begin{document}
+l.186 \begin{document}
                       
 ? 
 Package caption Info: End \AtBeginDocument code.
@@ -2022,13 +2022,13 @@ Package caption Info: End \AtBeginDocument code.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package scrlayer Info: Setting magic \footheight to \baselineskip while
-(scrlayer)             \begin{document} on input line 185.
-Package scrbase Info: activating english \authorshipname on input line 185.
-Package scrbase Info: activating english \byname on input line 185.
-Package scrbase Info: activating english \abbrevname on input line 185.
-Package scrbase Info: activating english \constantsname on input line 185.
-Package scrbase Info: activating english \symbolsname on input line 185.
-Package scrbase Info: activating english \acknowledgementname on input line 185
+(scrlayer)             \begin{document} on input line 186.
+Package scrbase Info: activating english \authorshipname on input line 186.
+Package scrbase Info: activating english \byname on input line 186.
+Package scrbase Info: activating english \abbrevname on input line 186.
+Package scrbase Info: activating english \constantsname on input line 186.
+Package scrbase Info: activating english \symbolsname on input line 186.
+Package scrbase Info: activating english \acknowledgementname on input line 186
 .
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
@@ -2045,8 +2045,8 @@ Package biblatex Warning: File 'main.bbl' is wrong format version - expected 2.
 
 Package biblatex Info: ... file 'main.bbl' found.
 (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 185.
-Package biblatex Info: Reference segment=0 on input line 185.
+Package biblatex Info: Reference section=0 on input line 186.
+Package biblatex Info: Reference segment=0 on input line 186.
 \AtBeginShipoutBox=\box58
  (/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
@@ -2057,7 +2057,7 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 )
-Package hyperref Info: Link coloring ON on input line 185.
+Package hyperref Info: Link coloring ON on input line 186.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -2067,16 +2067,16 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count439
 )
-LaTeX Info: Redefining \ref on input line 185.
-LaTeX Info: Redefining \pageref on input line 185.
-LaTeX Info: Redefining \nameref on input line 185.
+LaTeX Info: Redefining \ref on input line 186.
+LaTeX Info: Redefining \pageref on input line 186.
+LaTeX Info: Redefining \nameref on input line 186.
 
 (./main.out) (./main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
 \c__siunitx_mathsf_int=\count440
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 185.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 186.
 
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
@@ -2085,11 +2085,11 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 
 1: section
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 199.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 200.
 <Figures/Logo.jpg, id=15, 226.8475pt x 223.83624pt>
 File: Figures/Logo.jpg Graphic file (type jpg)
 <use Figures/Logo.jpg>
-Package pdftex.def Info: Figures/Logo.jpg  used on input line 222.
+Package pdftex.def Info: Figures/Logo.jpg  used on input line 223.
 (pdftex.def)             Requested size: 71.13188pt x 70.18773pt.
 [1
 
@@ -2107,109 +2107,131 @@ Package pdftex.def Info: Figures/Logo.jpg  used on input line 222.
 
 ]
 1: section
-Chapter 1.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 322.
-(./Chapters/Chapter4/introduction/introduction.tex
-
-LaTeX Warning: Citation 'Reference20' on page 1 undefined on input line 1.
-
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 330.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 1.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 335.
 
-LaTeX Warning: Citation 'Reference21' on page 1 undefined on input line 1.
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 335.
 
+(./Chapters/Chapter4/AnalysisStrategy/background_model.tex
+! Undefined control sequence.
+\@sharp ->\usedLumiB 
+                     (8 TeV)
+l.15 \multicolumn{4}{|c|}{\usedLumiB (8 TeV)}
+                                               \\
+? 
 
-LaTeX Warning: Citation 'Reference22' on page 1 undefined on input line 3.
+! LaTeX Error: \mathrm allowed only in math mode.
 
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 \Z
+       ~+~X & 1.52 $\pm$ 0.34 & 1.18 $\pm$ 0.48 & 4.16 $\pm$ 1.06 \\
+? 
+! Undefined control sequence.
+\@sharp ->\usedLumiA 
+                     (7 TeV)
+l.27 \multicolumn{4}{|c|}{\usedLumiA (7 TeV)}
+                                               \\
+? 
 
-LaTeX Warning: Citation 'Reference21a' on page 1 undefined on input line 3.
+! LaTeX Error: \mathrm allowed only in math mode.
 
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30 \Z
+       ~+~X                & 0.34 $\pm$ 0.09     & 0.22 $\pm$ 0.09     & 1.0...
 
-LaTeX Warning: Citation 'Reference21b' on page 1 undefined on input line 3.
+? 
 
-
-LaTeX Warning: Citation 'Reference21c' on page 1 undefined on input line 3.
-
-
-LaTeX Warning: Citation 'ATLAS:Hgg_8TeV' on page 1 undefined on input line 9.
-
-
-LaTeX Warning: Citation 'ATLAS:Hgg_8TeV_13TeV' on page 1 undefined on input lin
-e 9.
-
-
-LaTeX Warning: Citation 'ATLAS:H4l_8TeV' on page 1 undefined on input line 9.
-
-
-LaTeX Warning: Citation 'ATLAS:H4l_8TeV_13TeV' on page 1 undefined on input lin
-e 9.
-
-
-LaTeX Warning: Citation 'ATLAS:H4l_Hgg_8TeV' on page 1 undefined on input line 
-10.
-
-
-LaTeX Warning: Citation 'ATLAS:H4l_Hgg_8TeV_13TeV' on page 1 undefined on input
- line 10.
-
-
-LaTeX Warning: Citation 'CMS:Hgg_8TeV' on page 1 undefined on input line 11.
-
-
-LaTeX Warning: Citation 'Reference39' on page 1 undefined on input line 22.
-
-<Figures/Models_cartoon.jpg, id=39, 803.0pt x 602.25pt>
-File: Figures/Models_cartoon.jpg Graphic file (type jpg)
-<use Figures/Models_cartoon.jpg>
-Package pdftex.def Info: Figures/Models_cartoon.jpg  used on input line 26.
-(pdftex.def)             Requested size: 281.85036pt x 211.38797pt.
-
-LaTeX Warning: Citation 'Reference40' on page 1 undefined on input line 38.
-
-1: section
-[1
-
-]
-
-LaTeX Warning: Reference `sec:DatasetsSimulation' on page 2 undefined on input 
-line 41.
+LaTeX Warning: Citation 'Chatrchyan:2013mxa' on page 1 undefined on input line 
+44.
 
 
-LaTeX Warning: Reference `sec:AnalysisStrategy' on page 2 undefined on input li
-ne 41.
+LaTeX Warning: Citation 'Bonvini:2013' on page 1 undefined on input line 44.
 
 
-LaTeX Warning: Reference `sec:Systematics' on page 2 undefined on input line 43
-.
+LaTeX Warning: Citation 'Chatrchyan:2013mxa' on page 1 undefined on input line 
+51.
+
+[1]
+
+LaTeX Warning: Citation 'landau:1944' on page 2 undefined on input line 60.
 
 
-LaTeX Warning: Reference `sec:Results' on page 2 undefined on input line 43.
+LaTeX Warning: Citation 'Chatrchyan:2013mxa' on page 2 undefined on input line 
+60.
 
+
+LaTeX Warning: Citation 'Chatrchyan:2013mxa' on page 2 undefined on input line 
+64.
+
+
+LaTeX Warning: Reference `sec:ExtractionDifferential' on page 2 undefined on in
+put line 65.
+
+
+Overfull \hbox (55.01598pt too wide) in paragraph at lines 59--66
+\T1/ppl/m/n/12 i-cal an-a-lyt-i-cal func-tional con-structed by Lan-dau [[]] in
+ Ref. [[]].
+ []
+
+<Chapters/Chapter4/AnalysisStrategy/figures/Mass4l_DataMC_7TeV_mH125GeV_fullRan
+ge.pdf, id=54, 569.12625pt x 440.64626pt>
+File: Chapters/Chapter4/AnalysisStrategy/figures/Mass4l_DataMC_7TeV_mH125GeV_fu
+llRange.pdf Graphic file (type pdf)
+<use Chapters/Chapter4/AnalysisStrategy/figures/Mass4l_DataMC_7TeV_mH125GeV_ful
+lRange.pdf>
+Package pdftex.def Info: Chapters/Chapter4/AnalysisStrategy/figures/Mass4l_Data
+MC_7TeV_mH125GeV_fullRange.pdf  used on input line 79.
+(pdftex.def)             Requested size: 216.81pt x 167.86418pt.
+<Chapters/Chapter4/AnalysisStrategy/figures/Mass4l_DataMC_8TeV_mH125GeV_fullRan
+ge.pdf, id=55, 569.12625pt x 440.64626pt>
+File: Chapters/Chapter4/AnalysisStrategy/figures/Mass4l_DataMC_8TeV_mH125GeV_fu
+llRange.pdf Graphic file (type pdf)
+<use Chapters/Chapter4/AnalysisStrategy/figures/Mass4l_DataMC_8TeV_mH125GeV_ful
+lRange.pdf>
+Package pdftex.def Info: Chapters/Chapter4/AnalysisStrategy/figures/Mass4l_Data
+MC_8TeV_mH125GeV_fullRange.pdf  used on input line 82.
+(pdftex.def)             Requested size: 216.81pt x 167.86418pt.
+
+Overfull \hbox (2.28001pt too wide) in paragraph at lines 78--85
+[]$[]$ $[]$ 
+ []
+
+<Chapters/Chapter4/AnalysisStrategy/figures/RedBkgPrediction_A.pdf, id=56, 569.
+12625pt x 552.0625pt>
+File: Chapters/Chapter4/AnalysisStrategy/figures/RedBkgPrediction_A.pdf Graphic
+ file (type pdf)
+<use Chapters/Chapter4/AnalysisStrategy/figures/RedBkgPrediction_A.pdf>
+Package pdftex.def Info: Chapters/Chapter4/AnalysisStrategy/figures/RedBkgPredi
+ction_A.pdf  used on input line 93.
+(pdftex.def)             Requested size: 260.17465pt x 252.385pt.
+[2 <./Chapters/Chapter4/AnalysisStrategy/figures/Mass4l_DataMC_7TeV_mH125GeV_fu
+llRange.pdf, page is rotated 90 degrees> <./Chapters/Chapter4/AnalysisStrategy/
+figures/Mass4l_DataMC_8TeV_mH125GeV_fullRange.pdf, page is rotated 90 degrees>]
 )
 
-LaTeX Warning: Empty bibliography on input line 399.
+LaTeX Warning: Empty bibliography on input line 400.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 404.
-[2 <./Figures/Models_cartoon.jpg>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 404.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 405.
+[3 <./Chapters/Chapter4/AnalysisStrategy/figures/RedBkgPrediction_A.pdf, page i
+s rotated 90 degrees>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 405.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 404.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 404.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 405.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 405.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: AA874C79D4E7E120A3D37BB09C3CBD3E;282.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 85E11062FE09F50548BDDCD11D681265;752
-(rerunfilecheck)             After:  C6E4249407A150C8512118BE16EF8651;514.
 
 LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 
 Package biblatex Warning: Please (re)run BibTeX on the file(s):
@@ -2221,27 +2243,29 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35288 strings out of 492982
- 701885 string characters out of 6134896
- 925993 words of memory out of 5000000
- 38472 multiletter control sequences out of 15000+600000
- 562839 words of font info for 74 fonts, out of 8000000 for 9000
+ 35311 strings out of 492982
+ 703182 string characters out of 6134896
+ 928980 words of memory out of 5000000
+ 38487 multiletter control sequences out of 15000+600000
+ 564617 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 54i,20n,74p,10377b,1938s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 54i,20n,74p,10377b,1928s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/upl
-b8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (6 pages, 210961 bytes).
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
+y8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on main.pdf (7 pages, 204298 bytes).
 PDF statistics:
- 93 PDF objects out of 1000 (max. 8388607)
- 72 compressed objects within 1 object stream
- 11 named destinations out of 1000 (max. 500000)
- 27 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 245 PDF objects out of 1000 (max. 8388607)
+ 143 compressed objects within 2 object streams
+ 14 named destinations out of 1000 (max. 500000)
+ 37 words of extra memory for PDF output out of 10000 (max. 10000000)
 

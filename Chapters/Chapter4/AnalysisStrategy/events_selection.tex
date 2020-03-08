@@ -1,13 +1,84 @@
 The event selection for these measurements are similar to the event selection used in previous Higgs boson properties measurements in the same final 
-state~~\cite{Chatrchyan:2013mxa, Khachatryan:2014kca}. The online event selection is based on the double lepton  and triple electron triggers.  The minimum
-$p_{T}$ of 17 and 8~GeV is required for leading and subleading leptons for double leptons triggers, while 15, 8 and
-5~GeV for triple electron trigger.  In offline selection, events are selected with at least four well identified and isolated leptons produced at primary 
-vertex. Z$_{1}$ is reconstructed with invariant mass closest to the world average Z boson mass among all possible combinations of same flavor and opposite charge 
-(SFOS) pairs of the leptons within mass range of $40 \le m({\mathrm{Z}_1}) \le 120$~GeV. Z$_{2}$ is reconstructed by remaining SFOS pair of leptons within invariant 
-mass range of $12 \le m({\mathrm{Z}_2}) \le 120$~GeV. If more than one Z$_{2}$ pass the criteria, the leptons pair  with largest  $\Sigma |\pt|$ is 
-selected. There should be at least two leptons with \pt$ \ge 20$ and $ \ge 10 \Gev$ among four selected leptons forming Z$_{1}$ and Z$_{2}$. To remove 
-contamination from QCD low masses resonance, any opposite-charge pair of leptons is required to pass $m({\ell^{+}\ell'^{-}}) \ge 4 \GeV$. The final state
-radiated (FSR) photons are  also recovered and briefly discussed in Section \ref{sec:FSRphotons}.
+state~~\cite{HIG-18-001, HIG-16-041, Chatrchyan:2013mxa, Khachatryan:2014kca}. The online event selection is based on having fired High Level Trigger paths as described in \cite{sec:trigpaths}.  
+Unlike in the Run I analysis, the trigger requirement does not depend on the selected final state: it is always the OR of all HLT paths. The reason is in Run II we will be targeting associated production modes that can come with additional leptons, thus improving trigger efficiency further.
+%PV req
+The events are required to have at least one good primary
+vertex (PV) fullfilling the following criteria: high number of degree
+of freedom ($N_{PV}>4$), collisions restricted along the $z-$axis
+($z_{PV}<24$ cm) and small radius of the PV ($r_{PV}<2$ cm).
+
+
+The minimum $p_{T}$ of 17 and 8~GeV is required for leading and subleading leptons for double leptons triggers, while 15, 8 and
+5~GeV for triple electron trigger.  
+
+%In offline selection, events are selected with at least four well identified and isolated leptons produced at primary 
+%vertex. Z$_{1}$ is reconstructed with invariant mass closest to the world average Z boson mass among all possible combinations of same flavor and opposite charge 
+%(SFOS) pairs of the leptons within mass range of $40 \le m({\mathrm{Z}_1}) \le 120$~GeV. Z$_{2}$ is reconstructed by remaining SFOS pair of leptons within invariant 
+%mass range of $12 \le m({\mathrm{Z}_2}) \le 120$~GeV. If more than one Z$_{2}$ pass the criteria, the leptons pair  with largest  $\Sigma |\pt|$ is 
+%selected. There should be at least two leptons with \pt$ \ge 20$ and $ \ge 10 \Gev$ among four selected leptons forming Z$_{1}$ and Z$_{2}$. To remove 
+%contamination from QCD low masses resonance, any opposite-charge pair of leptons is required to pass $m({\ell^{+}\ell'^{-}}) \ge 4 \GeV$. The final state
+%radiated (FSR) photons are  also recovered and briefly discussed in Section \ref{sec:FSRphotons}.
+\subsection{ZZ Candidate Selection}
+\label{sec:zzcandsel}
+
+The four-lepton candidates are built from what we call {\bf selected leptons}, which
+are the tight leptons (defined in sections~\ref{sec:eleID} and~\ref{sec:muonReco}) that pass the ${\rm SIP_{3D}} < 4$ vertex constraint
+and the isolation cuts (defined in sections~\ref{sec:eleID} and~\ref{sec:muoniso}),
+where FSR photons are subtracted as described in Section~\ref{sec:FSRphotons}.
+A lepton cross cleaning is applied
+by discarding electrons which are within $\Delta R < 0.05$ of selected muons.
+
+
+The construction and selection of four-lepton candidates proceeds
+according to the following sequence:
+\begin{enumerate}
+\item {\bf Z candidates} are defined as pairs of selected leptons
+ of opposite charge and matching flavour ($e^+ e^-$, \, $\mu^+\mu^-$)
+ that satisfy $12 < m_{\ell\ell(\gamma)} < 120~\GeVcc$, where the Z candidate mass
+ includes the selected FSR photons if any.
+\item {\bf ZZ candidates} are defined as pairs of non-overlapping Z candidates.
+ The Z candidate with reconstructed mass $m_{\ell\ell}$ closest to the nominal Z boson
+ mass is denoted as ${\rm Z_1}$, and the second one is denoted as ${\rm Z_2}$.
+ ZZ candidates are required to satisfy the following list of requirements:
+  \begin{itemize}
+  \item {\bf Ghost removal }: $\Delta R(\eta,\phi) > 0.02$ between each of the four leptons.
+  \item {\bf lepton $p_T$}: Two of the four selected leptons should pass
+     $p_{T,i} > 20~\GeVc$ and $p_{T,j} > 10~\GeVc$.
+  \item {\bf QCD suppression}: all four opposite-sign pairs that can
+     be built with the four leptons (regardless of lepton flavor)
+     must satisfy $m_{\ell\ell} > 4~\GeVcc$.
+     Here, selected FSR photons are not used in computing $m_{\ell\ell}$,
+     since a QCD-induced low mass dilepton (eg. $J/\Psi$)
+     may have photons nearby (e.g. from $\pi_0$).
+  \item {\bf ${\rm Z_1}$ mass}: $m_{\rm Z1} > 40~\GeVcc$
+  \item {\bf 'smart cut'}: defining ${\rm Z_a}$ and ${\rm Z_b}$ as
+     the mass-sorted alternative pairing Z candidates
+     (${\rm Z_a}$ being the one closest to the nominal Z boson mass),
+     require NOT($|m_{\rm Za}-m_{\rm Z}| < |m_{\rm Z1}-m_{\rm Z}|$ AND $m_{\rm Zb}<12$).
+     Selected FSR photons are included in $m_{\rm Z}$'s computations.
+     This cut discards $4\mu$ and $4e$ candidates where the alternative pairing
+     looks like an on-shell Z + low-mass $\ell^+ \ell^-$.
+     (NB. In Run I, such a situation was avoided by choosing the best ZZ candidate
+     before applying kinematic cuts to it, most precisely before the $m_{\rm Z2} > 12~\GeVcc$ cut.
+     The present smart cut allows to choose the best ZZ candidate after all kinematic cuts.)
+  \item {\bf four-lepton invariant mass}: $\mllll > 70~\GeVcc$
+  \end{itemize}
+\item Events containing at least one selected ZZ candidate form the {\bf signal region}.
+\end{enumerate}
+
+
+\subsection{Choice of the best ZZ Candidate}
+\label{sec:zzbestcand}
+
+Unlike in the Run I analysis, the best ZZ candidate is now chosen after all kinematic cuts, a change that allows to test other selection strategies for this candidate choice.
+This is especially relevant for events with more than four selected leptons, having in mind the search for the Higgs boson production modes where associated particles can decay to leptons, such as VH and ttH.
+
+For fiducial cross section measurement, $Z_{1}$ is chosen with mass closest to nominal Z boson mass and $Z_{2}$ is chosen from the Z candidates whose lepton pair gives higher $p_{T}$ sum. For STXS measurement, we adopt a different approach: if more than one ZZ candidate survives the selection,
+we choose the one with the highest value of $\KD$ (defined in Section~\ref{sec:observables}, except when
+two candidates consist of the same four leptons in which case the candidate with ${\rm Z_1}$ closest in mass to nominal
+Z boson mass is retained. 
+
+
 \par Reconstruction of the jets is  incumbent to explore the differential cross section measurements with respect to jets related observables. Jets 
 are reconstructed with $p_T \ge 30$~GeV and $|\eta|\le 4.7$, discussed in Section \ref{jets_reco}. To remove jets overlap with leptons or selected photons, it is
 required to have at least   $\Delta R \equiv \sqrt{(\Delta \eta)^2+ (\Delta \phi)^2} > 0.5$~\cite{Chatrchyan:2013mx} from any of the selected leptons and FSR photons candidates. 

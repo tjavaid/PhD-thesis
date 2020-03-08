@@ -409,115 +409,115 @@ Fig.~\ref{fig:TrigEffC} that shows the trigger efficiency in 2018 data for diffe
 %	\label{tab:TrigEffC}
 %\end{table}
 
-%\subsection{Simulation}
-%
-%\subsubsection{Signal Samples}
-%
-%Descriptions of the SM Higgs boson production are obtained using the 
-%{\sc powheg V2}~\cite{Alioli:2008gx,Nason:2004rx,Frixione:2007vw} generator for the five main production modes: 
-%gluon fusion ($\ggH$) including quark mass effects~\cite{Bagnaschi:2011tu}, vector boson fusion 
-%(VBF)~\cite{Nason:2009ai}, and associated production (WH, $\cPZ$H and \ttbar$\,$H~\cite{Hartanto:2015uka}). 
-%In the case of WH and $\cPZ$H the {\sc MiNLO HVJ} extension of {\sc powheg} is used~\cite{Luisoni:2013kna}. 
-%The description of the decay of the Higgs boson to four leptons is obtained using the {\sc JHUgen} 
-%generator~\cite{Gao:2010qx}. In the case of WH, $\cPZ$H and \ttbar$\,$H, the Higgs boson is allowed
-%to decay to H$\to \cPZ \cPZ \to 2\ell2$X such that 4-lepton events where two leptons originate from 
-%the decay of associated $\cPZ$, W bosons or top quarks are also taken into account in the simulation. 
-%Showering of parton-level events is done using {\sc pythia8.209}, and in all cases matching is performed by 
-%allowing QCD emissions at all energies in the shower and vetoing them afterwards according to the 
-%{\sc powheg} internal scale. All samples are generated with the NNPDF 3.1 NLO parton distribution 
-%functions (PDFs)~\cite{Ball:2014uwa}. The list of signal samples and their cross sections are shown in 
-%Table~\ref{tab:SignalSamples}.
-%
-%\begin{table}
-%\begin{scriptsize}
-%    \centering
-%    \begin{tabular}{|l|l|r|}
-%   \hline
-% Process & Dataset Name & $\sigma\times BR (\times\epsilon_{\text{filter}})$ \\ \hline
-% $\rm{gg}\to\rm{H}\to\cPZ\cPZ \to 4\ell$ & /GluGluHToZZTo4L\_M125\_13TeV\_powheg2\_JHUgenV709\_pythia8/[1] & $12.18~\rm{fb}$ \\ % & $12.12~\rm{fb}$ \\
-% $\rm{qq}\to\rm{Hqq}\to\cPZ\cPZ\rm{qq}\to4\ell qq$ & /VBF\_HToZZTo4L\_M125\_13TeV\_powheg2\_JHUgenV709\_pythia8/[1] & $1.044~\rm{fb}$ \\ % $1.034~\rm{fb}$ \\
-% $\rm{q\bar{q}}\to\rm{W^{+}H}\to\rm{W^{+}}\cPZ\cPZ\to4\ell+\rm{X}$ & /WplusH\_HToZZTo4L\_M125\_13TeV\_powheg2-minlo-HWJ\_JHUgenV709\_pythia8/[1] & $0.232~\rm{fb}$ \\ % $0.2339~\rm{fb}$ \\
-% $\rm{q\bar{q}}\to\rm{W^{-}H}\to\rm{W^{-}}\cPZ\cPZ\to4\ell+\rm{X}$ & /WminusH\_HToZZTo4L\_M125\_13TeV\_powheg2-minlo-HWJ\_JHUgenV709\_pythia8/[1] & $0.147~\rm{fb}$ \\ % $0.1471~\rm{fb}$ \\
-% $\rm{q\bar{q}}\to\cPZ \rm{H}\to\cPZ\cPZ\cPZ\to4\ell+\rm{X}$ & /ZH\_HToZZ\_4LFilter\_M125\_13TeV\_powheg2-minlo-HZJ\_JHUgenV709\_pythia8/[1] & $0.668~\rm{fb}$ \\ % $0.652~\rm{fb}$ \\
-% $\rm{gg}\to\rm{ttH} \to\rm{tt}\cPZ\cPZ\to4\ell+\rm{X}$ & /ttH\_HToZZ\_4LFilter\_M125\_13TeV\_powheg\_JHUgenV709\_pythia8/[1] & $0.393~\rm{fb}$ \\ % $0.337~\rm{fb}$ \\ 
-%$\rm{gg}\to\rm{bbH} \to\rm{bb}\cPZ\cPZ\to4\ell+\rm{X}$ & /bbH\_ToZZTo4L\_M125\_13TeV\_JHUGenV7011\_pythia8/[1] & $0.135~\rm{fb}$ \\
-%$\rm{q\bar{q}/\rm{qg}\to tHq \to tq\cPZ\cPZ\to4\ell+\rm{X}$ & /tqH\_HToZZTo4L\_M125\_13TeV\_JHUGenV7011\_pythia8/[1] & 0.0213~\rm{fb}$} \\
-%
-% \hline
-% \multicolumn{3}{l}{[1] RunIIAutumn18MiniAOD-102X\_upgrade2018\_realistic\_v15} \\  %TrancheIV\_v6-v1} \\
-% \end{tabular}
-% \caption{Signal Monte Carlo samples and cross sections.}
-%  \label{tab:SignalSamples}
-%\end{scriptsize}
-%\end{table}
-%
-%\subsubsection{Background Samples}
-%
-%Production of $ZZ$ via quark-antiquark annihilation is generated at
-%next-to-leading order (NLO) using {\sc powheg V2}~\cite{Nason:2013ydw}
-%and {\sc pythia8}, with 
-%the same settings as for the Higgs signal. As this simulation covers a large
-%range of ZZ invariant masses, dynamical QCD factorization and renormalization
-%scales have been chosen, equal to $m_{\cPZ\cPZ}$. 
-%
-%The $\Pg\Pg \! \to \! ZZ$ process is simulated at leading order (LO) 
-%with MCFM~\cite{MCFM,Campbell:2013una}. In order to match the 
-%$\Pg\Pg \! \to \mathrm{H} \to \! ZZ$ transverse momentum spectra predicted 
-%by {\sc powheg} at NLO, the showering for MCFM samples is performed with 
-%different {\sc pythia8} settings, allowing only emissions up to the parton-level scale
-%(``wimpy'' shower).
-%
-%Although not directly used to model data observations, additional 
-%MC samples of W$\cPZ$, Drell-Yan+jets, \ttbar, and tribosons are
-%generated using {\sc MadGraph5\_aMCatNLO}~\cite{Alwall:2014hca} either
-%inclusively or merging several jet multiplicities, as detailed in the table.
-%Table~\ref{tab:MCsamples} summarizes the MC simulation datasets used for this analysis. 
-%
-%
-%\begin{table}
-%\begin{footnotesize}
-%    \centering
-%    \begin{tabular}{|l|l|r|}
-%   \hline
-% Process & Dataset Name & $\sigma\cdot BR$ \\ \hline
-% $\rm{qq} \to \cPZ\cPZ \to 4\ell$ & /ZZTo4L\_13TeV\_powheg\_pythia8/[1] & $1.256 \rm{pb}$ \\
-% $\rm{qq} \to \cPZ\cPZ \to 4\ell$ & /ZZTo4L\_13TeV-amcatnloFXFX-pythia8/[1] & $1.212 \rm{pb}$ \\
-% $\rm{gg} \rightarrow \cPZ\cPZ \to 4e$ & /GluGluToContinToZZTo4e\_13TeV\_MCFM701/[1] & $0.00159 \rm{ pb}$ \\
-% $\rm{gg} \rightarrow \cPZ\cPZ \to 4$$\mu$ & /GluGluToContinToZZTo4mu\_13TeV\_MCFM701/[1] & $0.00159 \rm{ pb}$ \\
-% $\rm{gg} \rightarrow \cPZ\cPZ \to 4$$\tau$ & /GluGluToContinToZZTo4tau\_13TeV\_MCFM701/[1] & $0.00159 \rm{ pb}$ \\
-% $\rm{gg} \rightarrow \cPZ\cPZ \to 2e2$$\mu$ & /GluGluToContinToZZTo2e2mu\_13TeV\_MCFM701/[1] & $0.00319 \rm{ pb}$ \\
-% $\rm{gg} \rightarrow \cPZ\cPZ \to 2e2$$\tau$ & /GluGluToContinToZZTo2e2tau\_13TeV\_MCFM701/[1] & $0.00319 \rm{ pb}$ \\
-% $\rm{gg} \rightarrow \cPZ\cPZ \to 2$$\mu2$$\tau$ & /GluGluToContinToZZTo2mu2tau\_13TeV\_MCFM701/[1] & $0.00319 \rm{ pb}$ \\ \hline
-% $\cPZ \to \ell\ell$ + jets & /DYJetsToLL\_M-50\_TuneCUETP8M1\_13TeV-amcatnloFXFX-pythia8/[1] & $6104 \rm{ pb}$ \\
-% $\cPZ \to \ell\ell$ + jets  & /DYJetsToLL\_M-10to50\_TuneCUETP8M1\_13TeV-amcatnloFXFX-pythia8/[1] & $18610 \rm{ pb}$ \\ \hline
-% %W$\cPZ \to 3\ell\nu$ & /WZJets\_TuneCUETP8M1\_13TeV-amcatnloFXFX-pythia8/[1] &  $5.29 \rm{pb}$ \\ 
-% W$\cPZ \to 3\ell\nu$ & /WZTo3LNu\_TuneCUETP8M1\_13TeV-powheg-pythia8/[1] & $4.430 \rm{ pb}$ \\ \hline
-% $t\bar{t}$ & /TTJets\_TuneCUETP8M1\_13TeV-amcatnloFXFX-pythia8/[1] & $815.96 \rm{ pb}$ \\ 
-% $t\bar{t} \to 2\ell2\nu 2b$ & /TTTo2L2Nu\_13TeV-powheg/[1] &  $87.31 \rm{pb}$ \\ \hline
-%% WWZ & /WWZ\_TuneCUETP8M1\_13TeV-amcatnlo-pythia8/[2] & $0.1651 \rm{ pb}$ \\
-%% W\cPZ\cPZ & /WZZ\_TuneCUETP8M1\_13TeV-amcatnlo-pythia8/[2] & $0.05565 \rm{ pb}$ \\
-%% \cPZ\cPZ\cPZ & /ZZZ\_TuneCUETP8M1\_13TeV-amcatnlo-pythia8/[2] & $0.01398 \rm{ pb}$ \\ \hline
-%% \multicolumn{3}{l}{[1] RunIISummer16MiniAODv2-PUMoriond17\_80X\_mcRun2\_asymptotic\_2016\_TrancheIV\_v6-v1} \\
-%\multicolumn{3}{l}{[1] RunIIAutumn18MiniAOD-102X\_upgrade2018\_realistic\_v15}\\
-% \end{tabular}
-% \caption{Background Monte Carlo samples and cross sections.}
-%  \label{tab:MCsamples}
-%\end{footnotesize}
-%\end{table}
-%
-%
-%\subsubsection{Pileup Reweighting}
-%
-%For each year, corresponding simulation samples are reweighted to match the pileup distribution in data. An example of reweighting procedure for 2018 data is
-%shown in Fig.~\ref{fig:puWeight2018}.
-%%=======
-%\begin{figure}[!htb]
-%	\vspace*{0.3cm}
-%	\begin{center}
-%		\includegraphics[width=0.95\textwidth]{Figures/PileUp/PileUp_2018.pdf} 
-%		\caption{Distribution of pileup in 2018 MC and Data shown before and after the application of PU weights. Up and down variations of 5\% in the minimum bias
-%			cross section when calculating the weighs are also shown.
-%			\label{fig:puWeight2018}}
-%	\end{center}
-%\end{figure}
-%%=======
+\subsection{Simulation}
+
+\subsubsection{Signal Samples}
+
+Descriptions of the SM Higgs boson production are obtained using the 
+{\sc powheg V2}~\cite{Alioli:2008gx,Nason:2004rx,Frixione:2007vw} generator for the five main production modes: 
+gluon fusion ($\ggH$) including quark mass effects~\cite{Bagnaschi:2011tu}, vector boson fusion 
+(VBF)~\cite{Nason:2009ai}, and associated production (WH, $\cPZ$H and \ttbar$\,$H~\cite{Hartanto:2015uka}). 
+In the case of WH and $\cPZ$H the {\sc MiNLO HVJ} extension of {\sc powheg} is used~\cite{Luisoni:2013kna}. 
+The description of the decay of the Higgs boson to four leptons is obtained using the {\sc JHUgen} 
+generator~\cite{Gao:2010qx}. In the case of WH, $\cPZ$H and \ttbar$\,$H, the Higgs boson is allowed
+to decay to H$\to \cPZ \cPZ \to 2\ell2$X such that 4-lepton events where two leptons originate from 
+the decay of associated $\cPZ$, W bosons or top quarks are also taken into account in the simulation. 
+Showering of parton-level events is done using {\sc pythia8.209}, and in all cases matching is performed by 
+allowing QCD emissions at all energies in the shower and vetoing them afterwards according to the 
+{\sc powheg} internal scale. All samples are generated with the NNPDF 3.1 NLO parton distribution 
+functions (PDFs)~\cite{Ball:2014uwa}. The list of signal samples and their cross sections are shown in 
+Table~\ref{tab:SignalSamples}.
+
+\begin{table}
+\begin{scriptsize}
+    \centering
+    \begin{tabular}{|l|l|r|}
+   \hline
+ Process & Dataset Name & $\sigma\times BR (\times\epsilon_{\text{filter}})$ \\ \hline
+ $\rm{gg}\to\rm{H}\to\cPZ\cPZ \to 4\ell$ & /GluGluHToZZTo4L\_M125\_13TeV\_powheg2\_JHUgenV709\_pythia8/[1] & $12.18~\rm{fb}$ \\ % & $12.12~\rm{fb}$ \\
+ $\rm{qq}\to\rm{Hqq}\to\cPZ\cPZ\rm{qq}\to4\ell qq$ & /VBF\_HToZZTo4L\_M125\_13TeV\_powheg2\_JHUgenV709\_pythia8/[1] & $1.044~\rm{fb}$ \\ % $1.034~\rm{fb}$ \\
+ $\rm{q\bar{q}}\to\rm{W^{+}H}\to\rm{W^{+}}\cPZ\cPZ\to4\ell+\rm{X}$ & /WplusH\_HToZZTo4L\_M125\_13TeV\_powheg2-minlo-HWJ\_JHUgenV709\_pythia8/[1] & $0.232~\rm{fb}$ \\ % $0.2339~\rm{fb}$ \\
+ $\rm{q\bar{q}}\to\rm{W^{-}H}\to\rm{W^{-}}\cPZ\cPZ\to4\ell+\rm{X}$ & /WminusH\_HToZZTo4L\_M125\_13TeV\_powheg2-minlo-HWJ\_JHUgenV709\_pythia8/[1] & $0.147~\rm{fb}$ \\ % $0.1471~\rm{fb}$ \\
+ $\rm{q\bar{q}}\to\cPZ \rm{H}\to\cPZ\cPZ\cPZ\to4\ell+\rm{X}$ & /ZH\_HToZZ\_4LFilter\_M125\_13TeV\_powheg2-minlo-HZJ\_JHUgenV709\_pythia8/[1] & $0.668~\rm{fb}$ \\ % $0.652~\rm{fb}$ \\
+ $\rm{gg}\to\rm{ttH} \to\rm{tt}\cPZ\cPZ\to4\ell+\rm{X}$ & /ttH\_HToZZ\_4LFilter\_M125\_13TeV\_powheg\_JHUgenV709\_pythia8/[1] & $0.393~\rm{fb}$ \\ % $0.337~\rm{fb}$ \\ 
+$\rm{gg}\to\rm{bbH} \to\rm{bb}\cPZ\cPZ\to4\ell+\rm{X}$ & /bbH\_ToZZTo4L\_M125\_13TeV\_JHUGenV7011\_pythia8/[1] & $0.135~\rm{fb}$ \\
+$\rm{q\bar{q}/\rm{qg}\to tHq \to tq\cPZ\cPZ\to4\ell+\rm{X}$ & /tqH\_HToZZTo4L\_M125\_13TeV\_JHUGenV7011\_pythia8/[1] & 0.0213~\rm{fb}$} \\
+
+ \hline
+ \multicolumn{3}{l}{[1] RunIIAutumn18MiniAOD-102X\_upgrade2018\_realistic\_v15} \\  %TrancheIV\_v6-v1} \\
+ \end{tabular}
+ \caption{Signal Monte Carlo samples and cross sections.}
+  \label{tab:SignalSamples}
+\end{scriptsize}
+\end{table}
+
+\subsubsection{Background Samples}
+
+Production of $ZZ$ via quark-antiquark annihilation is generated at
+next-to-leading order (NLO) using {\sc powheg V2}~\cite{Nason:2013ydw}
+and {\sc pythia8}, with 
+the same settings as for the Higgs signal. As this simulation covers a large
+range of ZZ invariant masses, dynamical QCD factorization and renormalization
+scales have been chosen, equal to $m_{\cPZ\cPZ}$. 
+
+The $\Pg\Pg \! \to \! ZZ$ process is simulated at leading order (LO) 
+with MCFM~\cite{MCFM,Campbell:2013una}. In order to match the 
+$\Pg\Pg \! \to \mathrm{H} \to \! ZZ$ transverse momentum spectra predicted 
+by {\sc powheg} at NLO, the showering for MCFM samples is performed with 
+different {\sc pythia8} settings, allowing only emissions up to the parton-level scale
+(``wimpy'' shower).
+
+Although not directly used to model data observations, additional 
+MC samples of W$\cPZ$, Drell-Yan+jets, \ttbar, and tribosons are
+generated using {\sc MadGraph5\_aMCatNLO}~\cite{Alwall:2014hca} either
+inclusively or merging several jet multiplicities, as detailed in the table.
+Table~\ref{tab:MCsamples} summarizes the MC simulation datasets used for this analysis. 
+
+
+\begin{table}
+\begin{footnotesize}
+    \centering
+    \begin{tabular}{|l|l|r|}
+   \hline
+ Process & Dataset Name & $\sigma\cdot BR$ \\ \hline
+ $\rm{qq} \to \cPZ\cPZ \to 4\ell$ & /ZZTo4L\_13TeV\_powheg\_pythia8/[1] & $1.256 \rm{pb}$ \\
+ $\rm{qq} \to \cPZ\cPZ \to 4\ell$ & /ZZTo4L\_13TeV-amcatnloFXFX-pythia8/[1] & $1.212 \rm{pb}$ \\
+ $\rm{gg} \rightarrow \cPZ\cPZ \to 4e$ & /GluGluToContinToZZTo4e\_13TeV\_MCFM701/[1] & $0.00159 \rm{ pb}$ \\
+ $\rm{gg} \rightarrow \cPZ\cPZ \to 4$$\mu$ & /GluGluToContinToZZTo4mu\_13TeV\_MCFM701/[1] & $0.00159 \rm{ pb}$ \\
+ $\rm{gg} \rightarrow \cPZ\cPZ \to 4$$\tau$ & /GluGluToContinToZZTo4tau\_13TeV\_MCFM701/[1] & $0.00159 \rm{ pb}$ \\
+ $\rm{gg} \rightarrow \cPZ\cPZ \to 2e2$$\mu$ & /GluGluToContinToZZTo2e2mu\_13TeV\_MCFM701/[1] & $0.00319 \rm{ pb}$ \\
+ $\rm{gg} \rightarrow \cPZ\cPZ \to 2e2$$\tau$ & /GluGluToContinToZZTo2e2tau\_13TeV\_MCFM701/[1] & $0.00319 \rm{ pb}$ \\
+ $\rm{gg} \rightarrow \cPZ\cPZ \to 2$$\mu2$$\tau$ & /GluGluToContinToZZTo2mu2tau\_13TeV\_MCFM701/[1] & $0.00319 \rm{ pb}$ \\ \hline
+ $\cPZ \to \ell\ell$ + jets & /DYJetsToLL\_M-50\_TuneCUETP8M1\_13TeV-amcatnloFXFX-pythia8/[1] & $6104 \rm{ pb}$ \\
+ $\cPZ \to \ell\ell$ + jets  & /DYJetsToLL\_M-10to50\_TuneCUETP8M1\_13TeV-amcatnloFXFX-pythia8/[1] & $18610 \rm{ pb}$ \\ \hline
+ %W$\cPZ \to 3\ell\nu$ & /WZJets\_TuneCUETP8M1\_13TeV-amcatnloFXFX-pythia8/[1] &  $5.29 \rm{pb}$ \\ 
+ W$\cPZ \to 3\ell\nu$ & /WZTo3LNu\_TuneCUETP8M1\_13TeV-powheg-pythia8/[1] & $4.430 \rm{ pb}$ \\ \hline
+ $t\bar{t}$ & /TTJets\_TuneCUETP8M1\_13TeV-amcatnloFXFX-pythia8/[1] & $815.96 \rm{ pb}$ \\ 
+ $t\bar{t} \to 2\ell2\nu 2b$ & /TTTo2L2Nu\_13TeV-powheg/[1] &  $87.31 \rm{pb}$ \\ \hline
+% WWZ & /WWZ\_TuneCUETP8M1\_13TeV-amcatnlo-pythia8/[2] & $0.1651 \rm{ pb}$ \\
+% W\cPZ\cPZ & /WZZ\_TuneCUETP8M1\_13TeV-amcatnlo-pythia8/[2] & $0.05565 \rm{ pb}$ \\
+% \cPZ\cPZ\cPZ & /ZZZ\_TuneCUETP8M1\_13TeV-amcatnlo-pythia8/[2] & $0.01398 \rm{ pb}$ \\ \hline
+% \multicolumn{3}{l}{[1] RunIISummer16MiniAODv2-PUMoriond17\_80X\_mcRun2\_asymptotic\_2016\_TrancheIV\_v6-v1} \\
+\multicolumn{3}{l}{[1] RunIIAutumn18MiniAOD-102X\_upgrade2018\_realistic\_v15}\\
+ \end{tabular}
+ \caption{Background Monte Carlo samples and cross sections.}
+  \label{tab:MCsamples}
+\end{footnotesize}
+\end{table}
+
+
+\subsubsection{Pileup Reweighting}
+
+For each year, corresponding simulation samples are reweighted to match the pileup distribution in data. An example of reweighting procedure for 2018 data is
+shown in Fig.~\ref{fig:puWeight2018}.
+%=======
+\begin{figure}[!htb]
+	\vspace*{0.3cm}
+	\begin{center}
+		\includegraphics[width=0.95\textwidth]{Figures/PileUp/PileUp_2018.pdf} 
+		\caption{Distribution of pileup in 2018 MC and Data shown before and after the application of PU weights. Up and down variations of 5\% in the minimum bias
+			cross section when calculating the weighs are also shown.
+			\label{fig:puWeight2018}}
+	\end{center}
+\end{figure}
+%=======

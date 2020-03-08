@@ -1,3 +1,7 @@
-Have look again on chapter 3, detector relevant,mainly to check whether there
-is some uprades during the years.
+Need to write on background estimation procedure both for ZZ and Z+X.
+
+-> need to fill information separate for 2016, 2017 and 2018 data possibly
+from HIG-16-041, HIG-18-001 and HIG-19-001.  (should put info. everywhere
+relevant to all three years instead of 2018 only??)
+
 and then to proceed
