@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.28)  8 MAR 2020 00:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.28)  11 MAR 2020 14:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2108,130 +2108,621 @@ Package pdftex.def Info: Figures/Logo.jpg  used on input line 223.
 ]
 1: section
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 330.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 325.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 326.
+(./Chapters/Chapter4/DatasetsandSimulations/dataset.tex
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 335.
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 335.
-
-(./Chapters/Chapter4/AnalysisStrategy/background_model.tex
-! Undefined control sequence.
-\@sharp ->\usedLumiB 
-                     (8 TeV)
-l.15 \multicolumn{4}{|c|}{\usedLumiB (8 TeV)}
-                                               \\
-? 
-
-! LaTeX Error: \mathrm allowed only in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.18 \Z
-       ~+~X & 1.52 $\pm$ 0.34 & 1.18 $\pm$ 0.48 & 4.16 $\pm$ 1.06 \\
-? 
-! Undefined control sequence.
-\@sharp ->\usedLumiA 
-                     (7 TeV)
-l.27 \multicolumn{4}{|c|}{\usedLumiA (7 TeV)}
-                                               \\
-? 
-
-! LaTeX Error: \mathrm allowed only in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.30 \Z
-       ~+~X                & 0.34 $\pm$ 0.09     & 0.22 $\pm$ 0.09     & 1.0...
-
-? 
-
-LaTeX Warning: Citation 'Chatrchyan:2013mxa' on page 1 undefined on input line 
-44.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 5.
 
 
-LaTeX Warning: Citation 'Bonvini:2013' on page 1 undefined on input line 44.
+LaTeX Warning: Reference `HIG-19-001' on page 1 undefined on input line 13.
+
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 18.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsppl.fd
+File: omsppl.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 18.
 
 
-LaTeX Warning: Citation 'Chatrchyan:2013mxa' on page 1 undefined on input line 
-51.
+LaTeX Warning: Reference `HIG-19-001' on page 1 undefined on input line 25.
+
+
+LaTeX Warning: Reference `fig:TrigEffC' on page 1 undefined on input line 318.
 
 [1]
+<Figures/Trigger/Histo_TrigEff_ptMin_4e_mZ2_12.pdf, id=51, 569.12625pt x 384.43
+625pt>
+File: Figures/Trigger/Histo_TrigEff_ptMin_4e_mZ2_12.pdf Graphic file (type pdf)
 
-LaTeX Warning: Citation 'landau:1944' on page 2 undefined on input line 60.
+<use Figures/Trigger/Histo_TrigEff_ptMin_4e_mZ2_12.pdf>
+Package pdftex.def Info: Figures/Trigger/Histo_TrigEff_ptMin_4e_mZ2_12.pdf  use
+d on input line 352.
+(pdftex.def)             Requested size: 195.12767pt x 131.80353pt.
+<Figures/Trigger/Histo_TrigEff_ptMin_4mu_mZ2_12.pdf, id=52, 569.12625pt x 384.4
+3625pt>
+File: Figures/Trigger/Histo_TrigEff_ptMin_4mu_mZ2_12.pdf Graphic file (type pdf
+)
+<use Figures/Trigger/Histo_TrigEff_ptMin_4mu_mZ2_12.pdf>
+Package pdftex.def Info: Figures/Trigger/Histo_TrigEff_ptMin_4mu_mZ2_12.pdf  us
+ed on input line 353.
+(pdftex.def)             Requested size: 195.12767pt x 131.80353pt.
+<Figures/Trigger/Histo_TrigEff_ptMin_2e2mu_mZ2_12.pdf, id=53, 569.12625pt x 384
+.43625pt>
+File: Figures/Trigger/Histo_TrigEff_ptMin_2e2mu_mZ2_12.pdf Graphic file (type p
+df)
+<use Figures/Trigger/Histo_TrigEff_ptMin_2e2mu_mZ2_12.pdf>
+Package pdftex.def Info: Figures/Trigger/Histo_TrigEff_ptMin_2e2mu_mZ2_12.pdf  
+used on input line 354.
+(pdftex.def)             Requested size: 195.12767pt x 131.80353pt.
+<Figures/Trigger/Histo_TrigEff_ptMin_4l_mZ2_12.pdf, id=54, 569.12625pt x 384.43
+625pt>
+File: Figures/Trigger/Histo_TrigEff_ptMin_4l_mZ2_12.pdf Graphic file (type pdf)
+
+<use Figures/Trigger/Histo_TrigEff_ptMin_4l_mZ2_12.pdf>
+Package pdftex.def Info: Figures/Trigger/Histo_TrigEff_ptMin_4l_mZ2_12.pdf  use
+d on input line 355.
+(pdftex.def)             Requested size: 195.12767pt x 131.80353pt.
+)
+(./Chapters/Chapter4/DatasetsandSimulations/simulation_theoretical_pridiction.t
+ex
+
+LaTeX Warning: Citation 'deFlorian:2012mx' on page 2 undefined on input line 2.
 
 
-LaTeX Warning: Citation 'Chatrchyan:2013mxa' on page 2 undefined on input line 
-60.
+
+LaTeX Warning: Citation 'Grazzini:2013mca' on page 2 undefined on input line 2.
 
 
-LaTeX Warning: Citation 'Chatrchyan:2013mxa' on page 2 undefined on input line 
+
+LaTeX Warning: Citation 'Hamilton:2012np' on page 2 undefined on input line 2.
+
+
+LaTeX Warning: Citation 'powheg' on page 2 undefined on input line 2.
+
+
+LaTeX Warning: Citation 'powhegvv' on page 2 undefined on input line 2.
+
+
+LaTeX Warning: Citation 'Hamilton:2012np' on page 2 undefined on input line 13.
+
+
+
+Overfull \hbox (24.58447pt too wide) in paragraph at lines 1--16
+\T1/ppl/m/n/12 (Fig-ure ) are ac-quired us-ing the \T1/ppl/m/sc/12 HRes \T1/ppl
+/m/n/12 [[], []], \T1/ppl/m/sc/12 powheg
+ []
+
+[2 <./Figures/Trigger/Histo_TrigEff_ptMin_4e_mZ2_12.pdf, page is rotated 90 deg
+rees> <./Figures/Trigger/Histo_TrigEff_ptMin_4mu_mZ2_12.pdf, page is rotated 90
+ degrees> <./Figures/Trigger/Histo_TrigEff_ptMin_2e2mu_mZ2_12.pdf, page is rota
+ted 90 degrees> <./Figures/Trigger/Histo_TrigEff_ptMin_4l_mZ2_12.pdf, page is r
+otated 90 degrees>]
+
+LaTeX Warning: Citation 'Alioli:2008gx' on page 3 undefined on input line 18.
+
+
+LaTeX Warning: Citation 'Nason:2004rx' on page 3 undefined on input line 18.
+
+
+LaTeX Warning: Citation 'Frixione:2007vw' on page 3 undefined on input line 18.
+
+
+
+LaTeX Warning: Citation 'Bagnaschi:2011tu' on page 3 undefined on input line 19
+.
+
+
+LaTeX Warning: Citation 'Nason:2009ai' on page 3 undefined on input line 20.
+
+! Undefined control sequence.
+<recently read> \cPZ 
+                     
+l.20 ...9ai}, and associated production (WH, $\cPZ
+                                                  $H and \ttbar$\,$H~\cite{H...
+
+? 
+! Undefined control sequence.
+l.20 ...ociated production (WH, $\cPZ$H and \ttbar
+                                                  $\,$H~\cite{Hartanto:2015u...
+
+? 
+
+LaTeX Warning: Citation 'Hartanto:2015uka' on page 3 undefined on input line 20
+.
+
+! Undefined control sequence.
+<recently read> \cPZ 
+                     
+l.21 In the case of WH and $\cPZ
+                                $H the {\sc MiNLO HVJ} extension of {\sc pow...
+
+? 
+
+LaTeX Warning: Citation 'Luisoni:2013kna' on page 3 undefined on input line 21.
+
+
+
+LaTeX Warning: Citation 'Gao:2010qx' on page 3 undefined on input line 23.
+
+! Undefined control sequence.
+<recently read> \cPZ 
+                     
+l.23 ...cite{Gao:2010qx}. In the case of WH, $\cPZ
+                                                  $H and \ttbar$\,$H, the Hi...
+
+? 
+! Undefined control sequence.
+l.23 ...qx}. In the case of WH, $\cPZ$H and \ttbar
+                                                  $\,$H, the Higgs boson is ...
+
+? 
+! Undefined control sequence.
+l.24 to decay to H$\to \cPZ
+                            \cPZ \to 2\ell2$X such that 4-lepton events wher...
+
+? 
+! Undefined control sequence.
+l.24 to decay to H$\to \cPZ \cPZ
+                                 \to 2\ell2$X such that 4-lepton events wher...
+
+? 
+! Undefined control sequence.
+<recently read> \cPZ 
+                     
+l.25 the decay of associated $\cPZ
+                                  $, W bosons or top quarks are also taken i...
+
+? 
+
+LaTeX Warning: Citation 'Ball:2014uwa' on page 3 undefined on input line 29.
+
+
+LaTeX Warning: Reference `HIG-19-001' on page 3 undefined on input line 30.
+
+
+Overfull \hbox (45.14397pt too wide) in paragraph at lines 17--32
+\T1/ppl/m/n/12 pro-duc-tion modes: gluon fu-sion ($[] \OMS/cmsy/m/n/12 ! \OT1/c
+mr/m/n/12 H$\T1/ppl/m/n/12 ) in-clud-ing quark mass ef-fects [[]],
+ []
+
+
+LaTeX Warning: Reference `sec:Results' on page 3 undefined on input line 37.
+
+<Figures/ggH_feynman2.png, id=238, 328.22626pt x 249.93375pt>
+File: Figures/ggH_feynman2.png Graphic file (type png)
+<use Figures/ggH_feynman2.png>
+Package pdftex.def Info: Figures/ggH_feynman2.png  used on input line 42.
+(pdftex.def)             Requested size: 208.13574pt x 158.48878pt.
+
+LaTeX Warning: Citation 'Khachatryan:2014kca' on page 3 undefined on input line
+ 54.
+
+
+LaTeX Warning: Reference `sec:Systematics' on page 3 undefined on input line 55
+.
+
+
+LaTeX Warning: Citation 'Gao:2010qx' on page 3 undefined on input line 56.
+
+
+LaTeX Warning: Citation 'Bolognesi:2012mm' on page 3 undefined on input line 56
+.
+
+
+LaTeX Warning: Citation 'Anderson:2013afp' on page 3 undefined on input line 56
+.
+
+
+Overfull \hbox (70.42685pt too wide) in paragraph at lines 50--58
+\OML/cmm/m/it/12 ^^M[]^^M[]$\T1/ppl/m/n/12 ) de-scribed by higher-order op-er-a
+-tors, as dis-cussed in de-tails in Ref. [[]].
+ []
+
+[3]
+
+LaTeX Warning: Reference `fig:ZZ_feynman' on page 4 undefined on input line 97.
+
+
+
+LaTeX Warning: Citation 'Nason:2013ydw' on page 4 undefined on input line 97.
+
+
+LaTeX Warning: Reference `fig:ZZ_feynman' on page 4 undefined on input line 102
+.
+
+
+LaTeX Warning: Citation 'MCFM' on page 4 undefined on input line 103.
+
+
+LaTeX Warning: Citation 'Campbell:2013una' on page 4 undefined on input line 10
+3.
+
+
+Overfull \hbox (44.02039pt too wide) in paragraph at lines 102--108
+[]\T1/ppl/m/n/12 The $\OT1/cmr/m/n/12 gg  \OMS/cmsy/m/n/12 !  \OML/cmm/m/it/12 
+ZZ$ \T1/ppl/m/n/12 pro-cess (Fig-ure []) is sim-u-lated at lead-ing or-der (LO)
+ with MCFM [[],
+ []
+
+<Figures/figures_feynman-qqZZ-t.png, id=247, 281.05pt x 295.1025pt>
+File: Figures/figures_feynman-qqZZ-t.png Graphic file (type png)
+<use Figures/figures_feynman-qqZZ-t.png>
+Package pdftex.def Info: Figures/figures_feynman-qqZZ-t.png  used on input line
+ 122.
+(pdftex.def)             Requested size: 130.08733pt x 136.59082pt.
+<Figures/figures_feynman-qqZZ-s.png, id=249, 303.1325pt x 296.10625pt>
+File: Figures/figures_feynman-qqZZ-s.png Graphic file (type png)
+<use Figures/figures_feynman-qqZZ-s.png>
+Package pdftex.def Info: Figures/figures_feynman-qqZZ-s.png  used on input line
+ 126.
+(pdftex.def)             Requested size: 130.08733pt x 127.07469pt.
+<Figures/figures_feynman-ggbox.png, id=250, 283.0575pt x 282.05376pt>
+File: Figures/figures_feynman-ggbox.png Graphic file (type png)
+<use Figures/figures_feynman-ggbox.png>
+Package pdftex.def Info: Figures/figures_feynman-ggbox.png  used on input line 
+130.
+(pdftex.def)             Requested size: 130.08733pt x 129.6301pt.
+
+LaTeX Warning: Citation 'cteq66' on page 4 undefined on input line 149.
+
+
+LaTeX Warning: Citation 'CT10' on page 4 undefined on input line 149.
+
+
+LaTeX Warning: Citation 'MSTW08' on page 4 undefined on input line 150.
+
+[4 <./Figures/ggH_feynman2.png>]
+
+LaTeX Warning: Citation 'Chatrchyan:2011id' on page 5 undefined on input line 1
+53.
+
+
+LaTeX Warning: Citation 'Field:2010bc' on page 5 undefined on input line 153.
+
+
+LaTeX Warning: Citation 'Pumplin:2002vw' on page 5 undefined on input line 154.
+
+
+! Undefined control sequence.
+\GEANTfour ->{\textsc {Geant4}}\xspace 
+                                       
+l.162 ...n of the CMS detector based on \GEANTfour
+                                                  ~\cite{GEANT} and were rec...
+
+? 
+
+LaTeX Warning: Citation 'GEANT' on page 5 undefined on input line 162.
+
+! Undefined control sequence.
+<recently read> \Pp 
+                    
+l.163 ...are used for data analysis. Multiple $\Pp
+                                                  \Pp$ interactions (pileup)...
+
+? 
+! Undefined control sequence.
+l.163 ... used for data analysis. Multiple $\Pp\Pp
+                                                  $ interactions (pileup) ar...
+
+? 
+
+LaTeX Warning: Citation 'Cacciari:2007fd' on page 5 undefined on input line 165
+.
+
+
+LaTeX Warning: Citation 'Cacciari:2008gn' on page 5 undefined on input line 165
+.
+
+
+LaTeX Warning: Citation 'Cacciari:2011ma' on page 5 undefined on input line 165
+.
+
+
+LaTeX Warning: Citation 'CMS:2011lsa' on page 5 undefined on input line 169.
+
+
+LaTeX Warning: Reference `sec:eleEffMeas' on page 5 undefined on input line 169
+.
+
+
+LaTeX Warning: Reference `sec:muonEffMeas' on page 5 undefined on input line 16
+9.
+
+
+LaTeX Warning: Citation 'Chatrchyan:2013mxa' on page 5 undefined on input line 
+172.
+
+
+Overfull \hbox (1.2282pt too wide) in paragraph at lines 169--173
+[]\T1/ppl/m/n/12 All the data-to-MC scale fac-tors are de-ter-mined us-ing a ``
+tag and probe'' method
+ []
+
+[5 <./Figures/figures_feynman-qqZZ-t.png> <./Figures/figures_feynman-qqZZ-s.png
+> <./Figures/figures_feynman-ggbox.png>]
+
+LaTeX Warning: Reference `fig:puWeight2018' on page 6 undefined on input line 1
+77.
+
+<Figures/PileUp/PileUp_2018.pdf, id=268, 569.12625pt x 534.99875pt>
+File: Figures/PileUp/PileUp_2018.pdf Graphic file (type pdf)
+<use Figures/PileUp/PileUp_2018.pdf>
+Package pdftex.def Info: Figures/PileUp/PileUp_2018.pdf  used on input line 182
+.
+(pdftex.def)             Requested size: 195.12767pt x 183.42372pt.
+) (./Chapters/Chapter4/AnalysisStrategy/AnalysisStrategy.tex [6 <./Figures/Pile
+Up/PileUp_2018.pdf, page is rotated 90 degrees>]
+
+LaTeX Warning: Reference `fig:cartoon' on page 7 undefined on input line 17.
+
+<Figures/cartoon.jpg, id=319, 803.0pt x 602.25pt>
+File: Figures/cartoon.jpg Graphic file (type jpg)
+<use Figures/cartoon.jpg>
+Package pdftex.def Info: Figures/cartoon.jpg  used on input line 22.
+(pdftex.def)             Requested size: 281.85036pt x 211.38797pt.
+) (./Chapters/Chapter4/AnalysisStrategy/events_selection.tex
+
+LaTeX Warning: Citation 'HIG-18-001' on page 7 undefined on input line 2.
+
+
+LaTeX Warning: Citation 'HIG-16-041' on page 7 undefined on input line 2.
+
+
+LaTeX Warning: Citation 'Chatrchyan:2013mxa' on page 7 undefined on input line 
+2.
+
+
+LaTeX Warning: Citation 'Khachatryan:2014kca' on page 7 undefined on input line
+ 2.
+
+
+LaTeX Warning: Citation 'sec:trigpaths' on page 7 undefined on input line 2.
+
+
+Overfull \hbox (18.65558pt too wide) in paragraph at lines 1--9
+\T1/ppl/m/n/12 in pre-vi-ous Higgs bo-son prop-er-ties mea-sure-ments in the sa
+me fi-nal state  [[],
+ []
+
+
+Overfull \hbox (8.39569pt too wide) in paragraph at lines 1--9
+\T1/ppl/m/n/12 tion is based on hav-ing fired High Level Trig-ger paths as de-s
+cribed in [[]].
+ []
+
+[7 <./Figures/cartoon.jpg>]
+
+LaTeX Warning: Reference `sec:eleID' on page 8 undefined on input line 25.
+
+
+LaTeX Warning: Reference `sec:muonReco' on page 8 undefined on input line 25.
+
+
+LaTeX Warning: Reference `sec:eleID' on page 8 undefined on input line 26.
+
+
+LaTeX Warning: Reference `sec:muoniso' on page 8 undefined on input line 26.
+
+
+LaTeX Warning: Reference `sec:FSRphotons' on page 8 undefined on input line 27.
+
+
+! Undefined control sequence.
+l.37 ...fy $12 < m_{\ell\ell(\gamma)} < 120~\GeVcc
+                                                  $, where the Z candidate mass
+
+? 
+! Undefined control sequence.
+l.46      $p_{T,i} > 20~\GeVc
+                             $ and $p_{T,j} > 10~\GeVc$.
+? 
+! Undefined control sequence.
+l.46 ..._{T,i} > 20~\GeVc$ and $p_{T,j} > 10~\GeVc
+                                                  $.
+? 
+! Undefined control sequence.
+l.49      must satisfy $m_{\ell\ell} > 4~\GeVcc
+                                               $.
+? 
+! Undefined control sequence.
+l.53 ...${\rm Z_1}$ mass}: $m_{\rm Z1} > 40~\GeVcc
+                                                  $
+? 
+! Undefined control sequence.
+l.62 ...ecisely before the $m_{\rm Z2} > 12~\GeVcc
+                                                  $ cut.
+? 
+[8]
+! Undefined control sequence.
+l.64 ...epton invariant mass}: $\mllll > 70~\GeVcc
+                                                  $
+? 
+
+LaTeX Warning: Reference `sec:observables' on page 9 undefined on input line 77
+.
+
+
+LaTeX Warning: Reference `jets_reco' on page 9 undefined on input line 83.
+
+
+LaTeX Warning: Citation 'Chatrchyan:2013mx' on page 9 undefined on input line 8
+4.
+
+) (./Chapters/Chapter4/AnalysisStrategy/background_model.tex
+
+! LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 \Z
+       \ + X               & $  21.1^{+ 8.5}_{-10.4}$ & $  34.4^{+14.5}_{-13...
+
+? 
+
+! LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35 \Z
+       \ + X & $12.39^{+ y.y}_{- z.z}$ & $36.39^{+ y.y}_{- z.z}$ & $44.45^{+...
+
+? 
+
+! LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.49         \Z
+               \ + X & $19.37^{+ y.y}_{- z.z}$ & $50.75^{+ y.y}_{- z.z}$ & $...
+
+? 
+
+LaTeX Warning: Citation 'Chatrchyan:2013mxa' on page 9 undefined on input line 
 64.
 
 
-LaTeX Warning: Reference `sec:ExtractionDifferential' on page 2 undefined on in
-put line 65.
+LaTeX Warning: Citation 'Bonvini:2013' on page 9 undefined on input line 64.
+
+[9]
+
+LaTeX Warning: Citation 'Chatrchyan:2013mxa' on page 10 undefined on input line
+ 71.
+
+[10]
+
+LaTeX Warning: Citation 'landau:1944' on page 11 undefined on input line 80.
 
 
-Overfull \hbox (55.01598pt too wide) in paragraph at lines 59--66
+LaTeX Warning: Citation 'Chatrchyan:2013mxa' on page 11 undefined on input line
+ 80.
+
+
+LaTeX Warning: Reference `fig:ZX' on page 11 undefined on input line 82.
+
+
+LaTeX Warning: Citation 'Chatrchyan:2013mxa' on page 11 undefined on input line
+ 84.
+
+
+LaTeX Warning: Reference `sec:ExtractionDifferential' on page 11 undefined on i
+nput line 85.
+
+
+Overfull \hbox (55.01598pt too wide) in paragraph at lines 79--86
 \T1/ppl/m/n/12 i-cal an-a-lyt-i-cal func-tional con-structed by Lan-dau [[]] in
  Ref. [[]].
  []
 
-<Chapters/Chapter4/AnalysisStrategy/figures/Mass4l_DataMC_7TeV_mH125GeV_fullRan
-ge.pdf, id=54, 569.12625pt x 440.64626pt>
-File: Chapters/Chapter4/AnalysisStrategy/figures/Mass4l_DataMC_7TeV_mH125GeV_fu
-llRange.pdf Graphic file (type pdf)
-<use Chapters/Chapter4/AnalysisStrategy/figures/Mass4l_DataMC_7TeV_mH125GeV_ful
-lRange.pdf>
-Package pdftex.def Info: Chapters/Chapter4/AnalysisStrategy/figures/Mass4l_Data
-MC_7TeV_mH125GeV_fullRange.pdf  used on input line 79.
-(pdftex.def)             Requested size: 216.81pt x 167.86418pt.
-<Chapters/Chapter4/AnalysisStrategy/figures/Mass4l_DataMC_8TeV_mH125GeV_fullRan
-ge.pdf, id=55, 569.12625pt x 440.64626pt>
-File: Chapters/Chapter4/AnalysisStrategy/figures/Mass4l_DataMC_8TeV_mH125GeV_fu
-llRange.pdf Graphic file (type pdf)
-<use Chapters/Chapter4/AnalysisStrategy/figures/Mass4l_DataMC_8TeV_mH125GeV_ful
-lRange.pdf>
-Package pdftex.def Info: Chapters/Chapter4/AnalysisStrategy/figures/Mass4l_Data
-MC_8TeV_mH125GeV_fullRange.pdf  used on input line 82.
-(pdftex.def)             Requested size: 216.81pt x 167.86418pt.
 
-Overfull \hbox (2.28001pt too wide) in paragraph at lines 78--85
+LaTeX Warning: Reference `tab:EventYieldsH4l' on page 11 undefined on input lin
+e 88.
+
+
+LaTeX Warning: Reference `fig:mass4l' on page 11 undefined on input line 90.
+
+<Chapters/Chapter4/AnalysisStrategy/figures/Combination.pdf, id=348, 569.12625p
+t x 415.5525pt>
+File: Chapters/Chapter4/AnalysisStrategy/figures/Combination.pdf Graphic file (
+type pdf)
+<use Chapters/Chapter4/AnalysisStrategy/figures/Combination.pdf>
+Package pdftex.def Info: Chapters/Chapter4/AnalysisStrategy/figures/Combination
+.pdf  used on input line 99.
+(pdftex.def)             Requested size: 216.81pt x 158.30472pt.
+<Chapters/Chapter4/AnalysisStrategy/figures/Combination_lowMass.pdf, id=349, 56
+9.12625pt x 415.5525pt>
+File: Chapters/Chapter4/AnalysisStrategy/figures/Combination_lowMass.pdf Graphi
+c file (type pdf)
+<use Chapters/Chapter4/AnalysisStrategy/figures/Combination_lowMass.pdf>
+Package pdftex.def Info: Chapters/Chapter4/AnalysisStrategy/figures/Combination
+_lowMass.pdf  used on input line 103.
+(pdftex.def)             Requested size: 216.81pt x 158.30472pt.
+
+Overfull \hbox (2.28001pt too wide) in paragraph at lines 97--106
 []$[]$ $[]$ 
  []
 
-<Chapters/Chapter4/AnalysisStrategy/figures/RedBkgPrediction_A.pdf, id=56, 569.
-12625pt x 552.0625pt>
-File: Chapters/Chapter4/AnalysisStrategy/figures/RedBkgPrediction_A.pdf Graphic
- file (type pdf)
-<use Chapters/Chapter4/AnalysisStrategy/figures/RedBkgPrediction_A.pdf>
-Package pdftex.def Info: Chapters/Chapter4/AnalysisStrategy/figures/RedBkgPredi
-ction_A.pdf  used on input line 93.
-(pdftex.def)             Requested size: 260.17465pt x 252.385pt.
-[2 <./Chapters/Chapter4/AnalysisStrategy/figures/Mass4l_DataMC_7TeV_mH125GeV_fu
-llRange.pdf, page is rotated 90 degrees> <./Chapters/Chapter4/AnalysisStrategy/
-figures/Mass4l_DataMC_8TeV_mH125GeV_fullRange.pdf, page is rotated 90 degrees>]
+) (./Chapters/Chapter4/AnalysisStrategy/fiducial_volume.tex [11 <./Chapters/Cha
+pter4/AnalysisStrategy/figures/Combination.pdf, page is rotated 90 degrees> <./
+Chapters/Chapter4/AnalysisStrategy/figures/Combination_lowMass.pdf, page is rot
+ated 90 degrees>]
+
+LaTeX Warning: Citation 'Chatrchyan:2013mxa' on page 12 undefined on input line
+ 15.
+
+
+LaTeX Warning: Reference `tab:efficiencySMnoGenIso' on page 12 undefined on inp
+ut line 17.
+
+
+Overfull \hbox (2.7828pt too wide) in paragraph at lines 9--20
+[]\T1/ppl/m/n/12 The fidu-cial phase space de-mands for at least four lep-tons 
+hav-ing $\OML/cmm/m/it/12 p[] > \OT1/cmr/m/n/12 7(5)[]$
+ []
+
+
+LaTeX Warning: Citation 'Kauer:2013cga' on page 12 undefined on input line 29.
+
+
+LaTeX Warning: Citation 'Kauer:2012hd' on page 12 undefined on input line 29.
+
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 41.
+
+Overfull \hbox (23.70474pt too wide) in paragraph at lines 38--78
+ [] 
+ []
+
+
+LaTeX Warning: Reference `sec:Systematics' on page 12 undefined on input line 8
+4.
+
+
+Overfull \hbox (23.24255pt too wide) in paragraph at lines 95--120
+ [] 
+ []
+
+
+Overfull \hbox (30.90897pt too wide) in paragraph at lines 132--157
+ [] 
+ []
+
+
+Overfull \hbox (65.11223pt too wide) in paragraph at lines 167--188
+ [] 
+ []
+
 )
 
 LaTeX Warning: Empty bibliography on input line 400.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 405.
-[3 <./Chapters/Chapter4/AnalysisStrategy/figures/RedBkgPrediction_A.pdf, page i
-s rotated 90 degrees>]
+[12] [13] [14]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 405.
  (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 405.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 405.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: AA874C79D4E7E120A3D37BB09C3CBD3E;282.
 
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 347EFF7241BBFEA30D1CC566672A1D3C;363
+(rerunfilecheck)             After:  E2994FE9B76C7441F01F6E74BA631BC9;2964.
 
 LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 
 Package biblatex Warning: Please (re)run BibTeX on the file(s):
@@ -2243,29 +2734,39 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35311 strings out of 492982
- 703182 string characters out of 6134896
- 928980 words of memory out of 5000000
- 38487 multiletter control sequences out of 15000+600000
- 564617 words of font info for 81 fonts, out of 8000000 for 9000
+ 35500 strings out of 492982
+ 707980 string characters out of 6134896
+ 949980 words of memory out of 5000000
+ 38599 multiletter control sequences out of 15000+600000
+ 569796 words of font info for 88 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 54i,20n,74p,10377b,1928s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
-y8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (7 pages, 204298 bytes).
+ 57i,20n,76p,10377b,1932s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{table.caption.6} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.4} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.5} has been referenced but does not e
+xist, replaced by a fixed one
+
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
+0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/urw/palatino/uplri8a.pfb>
+Output written on main.pdf (18 pages, 441314 bytes).
 PDF statistics:
- 245 PDF objects out of 1000 (max. 8388607)
- 143 compressed objects within 2 object streams
- 14 named destinations out of 1000 (max. 500000)
- 37 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 522 PDF objects out of 1000 (max. 8388607)
+ 295 compressed objects within 3 object streams
+ 57 named destinations out of 1000 (max. 500000)
+ 82 words of extra memory for PDF output out of 10000 (max. 10000000)
 
