@@ -66,9 +66,9 @@ f^{j}_{\mathrm{nonfid}} = \frac{N(\mathrm{j_{reco}} ~\&\&~ \mathrm{not~fid.})}{N
 These events arises due to imperfect detector resolution that can cause differences for the quantities calculated at generated and reconstructed levels
 such as lepton isolation and other quantities used for the event selection. This contribution is also treated as background and will be referred 
 "non-fiducial signal`` throughout  this document. It has been demonstrated with MC samples that these events can be described using same shape as resonant
-component. The values this fractions are extracted from simulation repeatedly for SM. This fraction changes from  4\%  for the $\ggH$ production 
-to 3\% for the $ttH$ production. The values for each model are listed in the Tables~\ref{tab:summarySM2016}, ~\ref{tab:summarySM2017} and ~\ref{tab:summarySM2018} for 2016, 2017 and 2018 respectively. %Tables~\ref{tab:Accept_Eff_fOut}, \ref{tab:Accept_Eff_fOut_7TeV} for 
-%8 and 7~TeV respectively.
+component. The values this fractions are extracted from simulation repeatedly for SM and other exotic models. This fraction changes from  4\%  for the $\ggH$ production 
+to 3\% for the $ttH$ production. The values for each model are listed in the Tables~\ref{tab:Accept_Eff_fOut}, \ref{tab:Accept_Eff_fOut_7TeV} for 
+8 and 7~TeV respectively.
 \par  
 To make comparison with the  theoretical predictions, measurements need to be corrected for detector resolution and efficiency effects. To unfold the 
 reconstruction-level distribution to the distribution before all detector effects, the efficiency matrix ($\epsilon$) is constructed using the signal

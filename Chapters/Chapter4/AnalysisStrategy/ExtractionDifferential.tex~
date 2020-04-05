@@ -127,7 +127,7 @@ In practice, the same parameters of the CB function are used in each cell and th
 general enough to cover
 the discrepancy of the signal mass spectrum among each cell.
 \par
-Examples of the fitted signal line shapes for differential bins of $\pt({\rm H})$ from gg$\rightarrow$H ({\sc powheg+JHUgen} 125 $\GeV$ 2018 sample) in the individual
+Examples of the fitted signal line shapes for differential bins of $\pt({\rm H})$ from gg$\rightarrow$H ({\sc powheg+JHUgen} 125 $\GeV$) in the individual
 final states are shown in Figure~\ref{fig:sigfits-pT4l-ggH-powheg15-JHUgen-125-maintext}, and examples of the efficiency matrices for $\pt({\rm H})$ for the
 $2e2\mu$ final state are shown in Fig~\ref{fig:eff-pT4l-2e2mu-maintext}. Many more examples can be seen in Appendix~\ref{signalinputs}.
 

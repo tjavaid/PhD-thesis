@@ -203,6 +203,6 @@ ggH(NNLOPS) & 0.003 & 0.003 & 0.004 & 0.003 \\
 \begin{minipage}{0.5\linewidth}
 \centerline{\includegraphics [width=\linewidth] {Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v2_mass4l_4l_recobin0.pdf}}
 \end{minipage}
-	\caption{Inclusive four lepton mass distributions for an Asimov Dataset generated using SM cross section values and SM efficiencies where the gg$\rightarrow$H prediction is from {\sc powheg+JHUgen} and resulting fitted values of the signal and background pdfs in different final states at $\sqrt{s} =  13$~TeV with 2018 data.}
+	\caption{Inclusive four lepton mass distributions for an Asimov Dataset generated using SM cross section values and SM efficiencies where the gg$\rightarrow$H prediction is from {\sc powheg+JHUgen} and resulting fitted values of the signal and background pdfs in different final states(2018 data).}
   \label{fig:sigfits-asimov-SM-inclusive}
 \end{figure}
