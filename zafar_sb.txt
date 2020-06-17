@@ -1,0 +1,3 @@
+due= 3,60,000
+handed over to Riaz sb= 20,000
+remaining= 3,40,000

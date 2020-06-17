@@ -44,17 +44,38 @@ Observed & 307 & 602 & 797 & 1706 \\
 \hline \hline
 \multicolumn{4}{|c|}{2018 (13 TeV)}  \\
 \hline
-$\Pq\Paq \to \Z\Z$ & $333.01^{+ y.y}_{- z.z}$ & $622.20^{+ y.y}_{- z.z}$ & $815.20^{+ y.y}_{- z.z}$ & $1770.41^{+ y.y}_{- z.z}$ \\
-        gg~$\to \Z\Z$ & $75.11^{+ y.y}_{- z.z}$ & $116.55^{+ y.y}_{- z.z}$ & $176.86^{+ y.y}_{- z.z}$ & $368.52^{+ y.y}_{- z.z}$ \\
-        \Z\ + X & $19.37^{+ y.y}_{- z.z}$ & $50.75^{+ y.y}_{- z.z}$ & $64.84^{+ y.y}_{- z.z}$ & $134.96^{+ y.y}_{- z.z}$ \\
+\hline
         \hline
-        Sum of backgrounds & $427.50^{+ y.y}_{- z.z}$ & $789.50^{+ y.y}_{- z.z}$ & $1056.89^{+ y.y}_{- z.z}$ & $2273.89^{+ y.y}_{- z.z}$ \\
+        \textbf{Channel} & $4\Pe$ & $4\Pgm$ & $2\Pe2\Pgm$ & $4\ell$ \\
         \hline
-        Signal ($\mH=125~\GeV$) & $19.58^{+ y.y}_{- z.z}$ & $40.83^{+ y.y}_{- z.z}$ & $50.68^{+ y.y}_{- z.z}$ & $111.09^{+ y.y}_{- z.z}$ \\
+        \qqZZ & $333^{+57}_{-53}$ & $622^{+31}_{-44}$ & $815\pm73$ & $1770^{+98}_{-101}$ \\
+        \ggZZ & $75.1^{+14.3}_{-13.5}$ & $116.6^{+11.7}_{-12.8}$ & $176.9\pm23.0$ & $368.5^{+29.5}_{-29.6}$ \\
+        \cPZ\ + X & $19.3\pm7.2$ & $50.8\pm15.2$ & $64.6\pm15.6$ & $134.7\pm22.9$ \\
         \hline
-        Total expected & $447.08^{+ y.y}_{- z.z}$ & $830.33^{+ y.y}_{- z.z}$ & $1107.57^{+ y.y}_{- z.z}$ & $2384.98^{+ y.y}_{- z.z}$ \\
+        Sum of backgrounds & $428^{+59.2}_{55.2}$ & $790^{+36.4}_{-48.3}$ & $1057\pm78.1$ & $2274^{+104.9}_{-107.7}$ \\
+        \hline
+        Signal ($\mH=125~\GeV$) & $19.6^{+3.3}_{-3.1}$ & $40.8^{+2.5}_{-2.9}$ & $50.7\pm5.6$ & $111.1^{+6.9}_{-7.0}$ \\
+        \hline
+        Total expected & $447^{+59.3}_{55.2}$ & $830^{+36.5}_{-48.4}$ & $1108\pm78.3$ & $2385^{+105.1}_{-107.9}$ \\
         \hline
         Observed & 462 & 850 & 1130 & 2442 \\
+        \hline
+        \hline
+	
+%	
+%	
+%	
+%	$\Pq\Paq \to \Z\Z$ & $333.01^{+ y.y}_{- z.z}$ & $622.20^{+ y.y}_{- z.z}$ & $815.20^{+ y.y}_{- z.z}$ & $1770.41^{+ y.y}_{- z.z}$ \\
+%        gg~$\to \Z\Z$ & $75.11^{+ y.y}_{- z.z}$ & $116.55^{+ y.y}_{- z.z}$ & $176.86^{+ y.y}_{- z.z}$ & $368.52^{+ y.y}_{- z.z}$ \\
+%        \Z\ + X & $19.37^{+ y.y}_{- z.z}$ & $50.75^{+ y.y}_{- z.z}$ & $64.84^{+ y.y}_{- z.z}$ & $134.96^{+ y.y}_{- z.z}$ \\
+%        \hline
+%        Sum of backgrounds & $427.50^{+ y.y}_{- z.z}$ & $789.50^{+ y.y}_{- z.z}$ & $1056.89^{+ y.y}_{- z.z}$ & $2273.89^{+ y.y}_{- z.z}$ \\
+%        \hline
+%        Signal ($\mH=125~\GeV$) & $19.58^{+ y.y}_{- z.z}$ & $40.83^{+ y.y}_{- z.z}$ & $50.68^{+ y.y}_{- z.z}$ & $111.09^{+ y.y}_{- z.z}$ \\
+%        \hline
+%        Total expected & $447.08^{+ y.y}_{- z.z}$ & $830.33^{+ y.y}_{- z.z}$ & $1107.57^{+ y.y}_{- z.z}$ & $2384.98^{+ y.y}_{- z.z}$ \\
+%        \hline
+%        Observed & 462 & 850 & 1130 & 2442 \\
 \hline \hline
 \end{tabular}
 \end{center}
@@ -88,9 +109,8 @@ The number of estimated signal and background events, along with observed data e
 $\Hllll$ measurements ($m_{4\ell} > 70 \GeV$) are listed in Table~\ref{tab:EventYieldsH4l} for full Run 2 datasets. 
 \par 
 Figure~\ref{fig:mass4l} shows the reconstructed four-leptons invariant mass distribution for whole Run 2 datasets and MC samples 
-in full mass range and high mass range. Predictions for the reducible background in a
-wide range of $m_{4\ell}$ in all three channels
-together, fitted using the empirical shape with indicated total uncertainty, is separately shown in Figure~\ref{fig:ZX}.
+in full mass range and high mass range. 
+%Predictions for the reducible background in a wide range of $m_{4\ell}$ in all three channels together, fitted using the empirical shape with indicated total uncertainty, is separately shown in Figure~\ref{fig:ZX}.
 % 
 
 %============
@@ -110,12 +130,12 @@ together, fitted using the empirical shape with indicated total uncertainty, is 
 
 %=============
 
- \begin{figure}[!htbp]
- \begin{center}
-   \includegraphics[width=0.60\textwidth]{Chapters/Chapter4/AnalysisStrategy/figures/RedBkgPrediction_A.pdf}
-   \caption{Prediction for the reducible background in all three channels together (black dots) fitted using an empirical shape (blue curve) with 
-   indicated total uncertainty (yellow band). Contributions from the 2P2F-like (green) and 3P1F-like (red) processes are fitted separately.}
- \label{fig:ZX}
- \end{center}
- \end{figure}
+% \begin{figure}[!htbp]
+% \begin{center}
+%   \includegraphics[width=0.60\textwidth]{Chapters/Chapter4/AnalysisStrategy/figures/RedBkgPrediction_A.pdf}
+%   \caption{Prediction for the reducible background in all three channels together (black dots) fitted using an empirical shape (blue curve) with 
+%   indicated total uncertainty (yellow band). Contributions from the 2P2F-like (green) and 3P1F-like (red) processes are fitted separately.}
+% \label{fig:ZX}
+% \end{center}
+% \end{figure}
 %============

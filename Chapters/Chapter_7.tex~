@@ -1,0 +1,53 @@
+% Chapter 7
+\chapter{Conclusions}\label{Chapter7}
+The work that covers the  fiducial cross section measurements of the Higgs boson production  in the $H \rightarrow 4\ell$  decay channel ($\ell = e, \mu$) in proton-proton 
+collisions at $\sqrt{s}=13$~TeV is presented in this dissertation. These measurements help to probe the structure, nature
+of interaction of Higgs boson  with decaying particles. These measurements provide a direct probe into SM Higgs sector perturbative QCD calculations at the TeV 
+energy scale. Any deviation of integrated or differential distributions from SM expectations would provide a direct hint to BSM contributions.
+The differential distributions has been extracted for 13~\TeV dataset. 
+\par These measurements are made using data from pp collisions corresponding to integrated luminosity of 137.1~\ifb.   To minimize the dependence of the results on the 
+underlying model of the Higgs boson production  mechanism and  its properties, the cross sections are extracted in a fiducial phase space closely matching
+with the experimental acceptance. The remaining model dependence is extracted by repeating the measurement for SM and other exotic model and reported as 
+a distinct systematic uncertainty. All measurements include the correction for the finite detection
+efficiency and resolution effects. As $\sigma \times BR$ strongly depend upon Higgs mass, the measurement has been extracted assuming $m_H =  125.09$~GeV, as
+measured using the $H \rightarrow 2\gamma$ and $H \rightarrow 4\ell$ decay channels by the CMS experiment~\cite{Reference39}. 
+
+The differential fiducial cross sections are presented using the full Run 2 CMS data collected at 13~\TeV~ as a function several kinematic observables which are sensitive to the Higgs-boson  production mechanisms: rapidity and transverse momentum of the four-lepton 
+system, associated jet multiplicity and transverse momentum of the leading jet. 
+The integrated fiducial cross sections are measured to be $2.73^{+0.30}_{-0.29}=2.73^{+0.23}_{-0.22}({\rm stat.})^{+0.24}_{-0.19}({\rm syst.})~{\rm fb}$ at 13\TeV.
+\par 
+ All results have been corrected for the detection efficiency and resolution  effects to allow for direct comparison with the SM predictions. The agreement between 
+ SM predictions and measured $H\rightarrow4\ell$ cross section measurement at $\Sqrt{s} = $13~TeV is found be good. These model independent cross
+ section measurements can be compared with any theoretical predictions in future with better accuracy. 
+ 
+\chapter{Outlook}\label{Chapter8}
+After the discovery of the Higgs boson, it became very natural and important to measure Higgs boson properties as precise as possible. Precision measurements of 
+the Higgs boson properties can provide us direct or indirect hint of any new physics for which we are looking desperately. This dissertation presented the 
+measurements of integrated and differential Higgs boson via $H \to 4\ell$ decay channel which is an important Higgs boson property.  
+These measurements provide a direct probe into SM Higgs sector perturbative QCD  calculations at the TeV energy scale. Any deviation of integrated or differential distributions from SM expectations would  provide a direct hint to BSM contributions. The differential distributions has been extracted only for 13~\TeV~ dataset. 
+These differential distributions are sensitive gluon fusion production mechanism, PDFs of  colliding proton, theoretical modeling of hard quark radiation and relative 
+contribution of different Higgs boson production mechanism. 
+
+\par
+
+The current measurements are emerged with significant statistical uncertainties. The studies based on simulations showed that the uncertainties on Higgs cross section measurements with 300~\fbinv pp collisions data would be significantly less than the current theoretical uncertainties 
+as shown in Figure~\ref{fig:Higgs_XS_100}. The Figure~\ref{fig:Higgs_XS_300} shows the Higgs cross section measurements with Asimov data corresponding to
+integrated luminosity of 300~\fbinv at $\sqrt{s} = 13$~TeV along with theoretical predictions per final state. LHC has aim to deliver 3000~\fbinv of pp 
+collisions data. The Higgs cross section measurements would be extremely important along with other properties  with more data. 
+
+
+\begin{figure}[!h!tb]
+  \begin{center}
+    \subfigure[]{
+      \includegraphics[width=0.65\textwidth,angle=0]{Figures/Higgs_XS_100.png}
+      \label{fig:Higgs_XS_100}
+    }
+    \subfigure[]{
+      \includegraphics[width=0.65\textwidth,angle=0]{Figures/Higgs_XS_300.png}
+      \label{fig:Higgs_XS_300}
+    }    
+    \caption{ Higgs cross section results using Asimov data corresponding to integrated luminosity of 100~\fbinv(a) and 300~\fbinv at $\sqrt{s} = 13$~TeV 
+    along with theoretical predictions per final state.}
+  \label{fig:Higgs_XS_100_300}
+ \end{center}
+\end{figure}

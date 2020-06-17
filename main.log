@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.28)  12 JUN 2020 15:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.28)  17 JUN 2020 13:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1728,10 +1728,6 @@ Package csquotes Info: Enabling multilingual quotes.
 Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 \symrsfs=\mathgroup4
 )
-! Too many }'s.
-l.160 }
-       
-? 
 
 ! Package biblatex Error: Incompatible package 'cite'.
 
@@ -1751,25 +1747,11 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
  (./main.aux
 
-LaTeX Warning: Label `fig:sigfits-asimov-SM-pT4l-4l:b' multiply defined.
+LaTeX Warning: Label `fig:differential-results-ZHasimov:b' multiply defined.
 
 
-LaTeX Warning: Label `sub@fig:sigfits-asimov-SM-pT4l-4l:b' multiply defined.
-
-
-LaTeX Warning: Label `fig:sigfits-asimov-SM-pT4l-4l:c' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:sigfits-asimov-SM-pT4l-4l:c' multiply defined.
-
-
-LaTeX Warning: Label `fig:sigfits-asimov-SM-pT4l-4l:d' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:sigfits-asimov-SM-pT4l-4l:d' multiply defined.
-
-
-LaTeX Warning: Label `sec:Systematics' multiply defined.
+LaTeX Warning: Label `sub@fig:differential-results-ZHasimov:b' multiply defined
+.
 
 )
 \openout1 = `main.aux'.
@@ -2108,7 +2090,7 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 1: section
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 200.
-<Figures/Logo.jpg, id=51, 226.8475pt x 223.83624pt>
+<Figures/Logo.jpg, id=19, 226.8475pt x 223.83624pt>
 File: Figures/Logo.jpg Graphic file (type jpg)
 <use Figures/Logo.jpg>
 Package pdftex.def Info: Figures/Logo.jpg  used on input line 223.
@@ -2118,361 +2100,146 @@ Package pdftex.def Info: Figures/Logo.jpg  used on input line 223.
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Figures/Logo.jpg>]
-[2
+(/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.bdg
+File: UTF8.bdg 2015/04/18 4.8.4
+)
+(/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.enc
+File: UTF8.enc 2015/04/18 4.8.4
+)
+(/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.chr
+File: UTF8.chr 2015/04/18 4.8.4
+) [2
+
+] (./main.toc
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 3.
+)
+\tf@toc=\write6
+\openout6 = `main.toc'.
+
+
+1: section
+[3] [4
+
+] (./main.lof)
+\tf@lof=\write7
+\openout7 = `main.lof'.
+
+
+1: section
+[5] [6
+
+] (./main.lot)
+\tf@lot=\write8
+\openout8 = `main.lot'.
+
+
+1: section
+[7] [8
 
 ]
 --------------------
  Dedicatory
 --------------------
 1: section
-[3] [4
+[9] [10
 
 ]
 1: section
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 343.
-(./Chapters/Chapter4/AnalysisStrategy/ExtractionDifferential.tex
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
+1: section
+[1
+
+] [2] (./Appendix/RestrictiveModelDep.tex
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 1.
 
+Overfull \hbox (35.32204pt too wide) in paragraph at lines 1--1
+[]\T1/ppl/b/n/17.28 Results with model de-pen-dance un-cer-tainty con-strained
+ []
 
-LaTeX Warning: Citation 'Chatrchyan:2013mxa' on page 1 undefined on input line 
-25.
-
-[1]
-
-LaTeX Warning: Reference `sec:SignalStatProcedure' on page 2 undefined on input
- line 127.
-
-
-LaTeX Warning: Citation 'Chatrchyan:2013mxa' on page 2 undefined on input line 
-128.
-
-
-LaTeX Warning: Reference `signalinputs' on page 2 undefined on input line 135.
-
-<Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin0_recobin0_effs_genWeight*pileupW
-eight*dataMCWeight.pdf, id=90, 569.12625pt x 551.05875pt>
-File: Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin0_recobin0_effs_genWeight*pi
-leupWeight*dataMCWeight.pdf Graphic file (type pdf)
-<use Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin0_recobin0_effs_genWeight*pil
-eupWeight*dataMCWeight.pdf>
-Package pdftex.def Info: Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin0_recobin
-0_effs_genWeight*pileupWeight*dataMCWeight.pdf  used on input line 144.
-(pdftex.def)             Requested size: 130.08733pt x 125.95885pt.
-<Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin1_recobin1_effs_genWeight*pileupW
-eight*dataMCWeight.pdf, id=91, 569.12625pt x 551.05875pt>
-File: Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin1_recobin1_effs_genWeight*pi
-leupWeight*dataMCWeight.pdf Graphic file (type pdf)
-<use Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin1_recobin1_effs_genWeight*pil
-eupWeight*dataMCWeight.pdf>
-Package pdftex.def Info: Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin1_recobin
-1_effs_genWeight*pileupWeight*dataMCWeight.pdf  used on input line 148.
-(pdftex.def)             Requested size: 130.08733pt x 125.95885pt.
-<Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin2_recobin2_effs_genWeight*pileupW
-eight*dataMCWeight.pdf, id=92, 569.12625pt x 551.05875pt>
-File: Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin2_recobin2_effs_genWeight*pi
-leupWeight*dataMCWeight.pdf Graphic file (type pdf)
-<use Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin2_recobin2_effs_genWeight*pil
-eupWeight*dataMCWeight.pdf>
-Package pdftex.def Info: Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin2_recobin
-2_effs_genWeight*pileupWeight*dataMCWeight.pdf  used on input line 152.
-(pdftex.def)             Requested size: 130.08733pt x 125.95885pt.
-<Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin3_recobin3_effs_genWeight*pileupW
-eight*dataMCWeight.pdf, id=93, 569.12625pt x 551.05875pt>
-File: Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin3_recobin3_effs_genWeight*pi
-leupWeight*dataMCWeight.pdf Graphic file (type pdf)
-<use Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin3_recobin3_effs_genWeight*pil
-eupWeight*dataMCWeight.pdf>
-Package pdftex.def Info: Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin3_recobin
-3_effs_genWeight*pileupWeight*dataMCWeight.pdf  used on input line 156.
-(pdftex.def)             Requested size: 130.08733pt x 125.95885pt.
-<Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin4_recobin4_effs_genWeight*pileupW
-eight*dataMCWeight.pdf, id=94, 569.12625pt x 551.05875pt>
-File: Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin4_recobin4_effs_genWeight*pi
-leupWeight*dataMCWeight.pdf Graphic file (type pdf)
-<use Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin4_recobin4_effs_genWeight*pil
-eupWeight*dataMCWeight.pdf>
-Package pdftex.def Info: Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin4_recobin
-4_effs_genWeight*pileupWeight*dataMCWeight.pdf  used on input line 160.
-(pdftex.def)             Requested size: 130.08733pt x 125.95885pt.
-<Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin5_recobin5_effs_genWeight*pileupW
-eight*dataMCWeight.pdf, id=95, 569.12625pt x 551.05875pt>
-File: Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin5_recobin5_effs_genWeight*pi
-leupWeight*dataMCWeight.pdf Graphic file (type pdf)
-<use Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin5_recobin5_effs_genWeight*pil
-eupWeight*dataMCWeight.pdf>
-Package pdftex.def Info: Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin5_recobin
-5_effs_genWeight*pileupWeight*dataMCWeight.pdf  used on input line 164.
-(pdftex.def)             Requested size: 130.08733pt x 125.95885pt.
-<Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin6_recobin6_effs_genWeight*pileupW
-eight*dataMCWeight.pdf, id=96, 569.12625pt x 551.05875pt>
-File: Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin6_recobin6_effs_genWeight*pi
-leupWeight*dataMCWeight.pdf Graphic file (type pdf)
-<use Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin6_recobin6_effs_genWeight*pil
-eupWeight*dataMCWeight.pdf>
-Package pdftex.def Info: Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin6_recobin
-6_effs_genWeight*pileupWeight*dataMCWeight.pdf  used on input line 168.
-(pdftex.def)             Requested size: 130.08733pt x 125.95885pt.
-[2
-
-] [3 <./Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin0_recobin0_effs_genWeight*
-pileupWeight*dataMCWeight.pdf, page is rotated 90 degrees> <./Plots/ggH_powheg_
-JHUgen_125_2e2mu_pT4l_genbin1_recobin1_effs_genWeight*pileupWeight*dataMCWeight
-.pdf, page is rotated 90 degrees> <./Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_gen
-bin2_recobin2_effs_genWeight*pileupWeight*dataMCWeight.pdf, page is rotated 90 
-degrees> <./Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin3_recobin3_effs_genWei
-ght*pileupWeight*dataMCWeight.pdf, page is rotated 90 degrees> <./Plots/ggH_pow
-heg_JHUgen_125_2e2mu_pT4l_genbin4_recobin4_effs_genWeight*pileupWeight*dataMCWe
-ight.pdf, page is rotated 90 degrees> <./Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l
-_genbin5_recobin5_effs_genWeight*pileupWeight*dataMCWeight.pdf, page is rotated
- 90 degrees> <./Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin6_recobin6_effs_ge
-nWeight*pileupWeight*dataMCWeight.pdf, page is rotated 90 degrees>]
-<Plots/eff2d_ggH_powheg_JHUgen_125_pT4l_2e2mu.pdf, id=418, 569.12625pt x 440.64
-626pt>
-File: Plots/eff2d_ggH_powheg_JHUgen_125_pT4l_2e2mu.pdf Graphic file (type pdf)
-<use Plots/eff2d_ggH_powheg_JHUgen_125_pT4l_2e2mu.pdf>
-Package pdftex.def Info: Plots/eff2d_ggH_powheg_JHUgen_125_pT4l_2e2mu.pdf  used
- on input line 203.
+<Plots/pT4l_unfoldwith_SM_125_logscale_constrained.pdf, id=92, 569.12625pt x 44
+0.64626pt>
+File: Plots/pT4l_unfoldwith_SM_125_logscale_constrained.pdf Graphic file (type 
+pdf)
+<use Plots/pT4l_unfoldwith_SM_125_logscale_constrained.pdf>
+Package pdftex.def Info: Plots/pT4l_unfoldwith_SM_125_logscale_constrained.pdf 
+ used on input line 9.
 (pdftex.def)             Requested size: 208.13574pt x 161.14719pt.
-<Plots/eff2d_ggH_NNLOPS_JHUgen_125_pT4l_2e2mu.pdf, id=419, 569.12625pt x 440.64
-626pt>
-File: Plots/eff2d_ggH_NNLOPS_JHUgen_125_pT4l_2e2mu.pdf Graphic file (type pdf)
-<use Plots/eff2d_ggH_NNLOPS_JHUgen_125_pT4l_2e2mu.pdf>
-Package pdftex.def Info: Plots/eff2d_ggH_NNLOPS_JHUgen_125_pT4l_2e2mu.pdf  used
- on input line 208.
+<Plots/massZ2_unfoldwith_SM_125_logscale_constrained.pdf, id=93, 569.12625pt x 
+440.64626pt>
+File: Plots/massZ2_unfoldwith_SM_125_logscale_constrained.pdf Graphic file (typ
+e pdf)
+<use Plots/massZ2_unfoldwith_SM_125_logscale_constrained.pdf>
+Package pdftex.def Info: Plots/massZ2_unfoldwith_SM_125_logscale_constrained.pd
+f  used on input line 13.
 (pdftex.def)             Requested size: 208.13574pt x 161.14719pt.
-<Plots/eff2d_VBF_powheg_JHUgen_125_pT4l_2e2mu.pdf, id=420, 569.12625pt x 440.64
-626pt>
-File: Plots/eff2d_VBF_powheg_JHUgen_125_pT4l_2e2mu.pdf Graphic file (type pdf)
-<use Plots/eff2d_VBF_powheg_JHUgen_125_pT4l_2e2mu.pdf>
-Package pdftex.def Info: Plots/eff2d_VBF_powheg_JHUgen_125_pT4l_2e2mu.pdf  used
- on input line 213.
-(pdftex.def)             Requested size: 208.13574pt x 161.14719pt.
-<Plots/eff2d_WH_powheg_JHUgen_125_pT4l_2e2mu.pdf, id=421, 569.12625pt x 440.646
-26pt>
-File: Plots/eff2d_WH_powheg_JHUgen_125_pT4l_2e2mu.pdf Graphic file (type pdf)
-<use Plots/eff2d_WH_powheg_JHUgen_125_pT4l_2e2mu.pdf>
-Package pdftex.def Info: Plots/eff2d_WH_powheg_JHUgen_125_pT4l_2e2mu.pdf  used 
-on input line 218.
-(pdftex.def)             Requested size: 208.13574pt x 161.14719pt.
-<Plots/eff2d_ZH_powheg_JHUgen_125_pT4l_2e2mu.pdf, id=422, 569.12625pt x 440.646
-26pt>
-File: Plots/eff2d_ZH_powheg_JHUgen_125_pT4l_2e2mu.pdf Graphic file (type pdf)
-<use Plots/eff2d_ZH_powheg_JHUgen_125_pT4l_2e2mu.pdf>
-Package pdftex.def Info: Plots/eff2d_ZH_powheg_JHUgen_125_pT4l_2e2mu.pdf  used 
-on input line 223.
-(pdftex.def)             Requested size: 208.13574pt x 161.14719pt.
-<Plots/eff2d_ttH_powheg_JHUgen_125_pT4l_2e2mu.pdf, id=423, 569.12625pt x 440.64
-626pt>
-File: Plots/eff2d_ttH_powheg_JHUgen_125_pT4l_2e2mu.pdf Graphic file (type pdf)
-<use Plots/eff2d_ttH_powheg_JHUgen_125_pT4l_2e2mu.pdf>
-Package pdftex.def Info: Plots/eff2d_ttH_powheg_JHUgen_125_pT4l_2e2mu.pdf  used
- on input line 228.
-(pdftex.def)             Requested size: 208.13574pt x 161.14719pt.
- [4 <./Plots/eff2d_ggH_powheg_JHUgen_125_pT4l_2e2mu.pdf, page is rotated 90 deg
-rees> <./Plots/eff2d_ggH_NNLOPS_JHUgen_125_pT4l_2e2mu.pdf, page is rotated 90 d
-egrees> <./Plots/eff2d_VBF_powheg_JHUgen_125_pT4l_2e2mu.pdf, page is rotated 90
- degrees> <./Plots/eff2d_WH_powheg_JHUgen_125_pT4l_2e2mu.pdf, page is rotated 9
-0 degrees> <./Plots/eff2d_ZH_powheg_JHUgen_125_pT4l_2e2mu.pdf, page is rotated 
-90 degrees> <./Plots/eff2d_ttH_powheg_JHUgen_125_pT4l_2e2mu.pdf, page is rotate
-d 90 degrees>]
-<Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4l_recobin0.pdf, id=696, 
-569.12625pt x 440.64626pt>
-File: Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4l_recobin0.pdf Grap
-hic file (type pdf)
-<use Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4l_recobin0.pdf>
-Package pdftex.def Info: Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4
-l_recobin0.pdf  used on input line 244.
-(pdftex.def)             Requested size: 173.44534pt x 134.2927pt.
-<Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4l_recobin1.pdf, id=697, 
-569.12625pt x 440.64626pt>
-File: Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4l_recobin1.pdf Grap
-hic file (type pdf)
-<use Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4l_recobin1.pdf>
-Package pdftex.def Info: Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4
-l_recobin1.pdf  used on input line 248.
-(pdftex.def)             Requested size: 173.44534pt x 134.2927pt.
-<Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4l_recobin2.pdf, id=698, 
-569.12625pt x 440.64626pt>
-File: Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4l_recobin2.pdf Grap
-hic file (type pdf)
-<use Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4l_recobin2.pdf>
-Package pdftex.def Info: Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4
-l_recobin2.pdf  used on input line 252.
-(pdftex.def)             Requested size: 173.44534pt x 134.2927pt.
-<Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4l_recobin3.pdf, id=699, 
-569.12625pt x 440.64626pt>
-File: Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4l_recobin3.pdf Grap
-hic file (type pdf)
-<use Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4l_recobin3.pdf>
-Package pdftex.def Info: Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4
-l_recobin3.pdf  used on input line 256.
-(pdftex.def)             Requested size: 173.44534pt x 134.2927pt.
-<Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4l_recobin4.pdf, id=700, 
-569.12625pt x 440.64626pt>
-File: Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4l_recobin4.pdf Grap
-hic file (type pdf)
-<use Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4l_recobin4.pdf>
-Package pdftex.def Info: Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4
-l_recobin4.pdf  used on input line 260.
-(pdftex.def)             Requested size: 173.44534pt x 134.2927pt.
-<Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4l_recobin5.pdf, id=701, 
-569.12625pt x 440.64626pt>
-File: Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4l_recobin5.pdf Grap
-hic file (type pdf)
-<use Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4l_recobin5.pdf>
-Package pdftex.def Info: Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4
-l_recobin5.pdf  used on input line 264.
-(pdftex.def)             Requested size: 173.44534pt x 134.2927pt.
-<Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4l_recobin6.pdf, id=702, 
-569.12625pt x 440.64626pt>
-File: Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4l_recobin6.pdf Grap
-hic file (type pdf)
-<use Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4l_recobin6.pdf>
-Package pdftex.def Info: Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4
-l_recobin6.pdf  used on input line 268.
-(pdftex.def)             Requested size: 173.44534pt x 134.2927pt.
-
-
-LaTeX Warning: Float too large for page by 67.56453pt on input line 274.
-
-[5
-
-
-] [6 <./Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4l_recobin0.pdf, p
-age is rotated 90 degrees> <./Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_p
-T4l_4l_recobin1.pdf, page is rotated 90 degrees> <./Plots/asimovdata_SM_125_v2_
-unfoldwith_SM_125_v3_pT4l_4l_recobin2.pdf, page is rotated 90 degrees> <./Plots
-/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4l_recobin3.pdf, page is rotate
-d 90 degrees> <./Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4l_recobi
-n4.pdf, page is rotated 90 degrees> <./Plots/asimovdata_SM_125_v2_unfoldwith_SM
-_125_v3_pT4l_4l_recobin5.pdf, page is rotated 90 degrees> <./Plots/asimovdata_S
-M_125_v2_unfoldwith_SM_125_v3_pT4l_4l_recobin6.pdf, page is rotated 90 degrees>
-])
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 346.
- (./Chapters/Chapter4/Systematics/Systematics.tex
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 7.
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
-File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+<Plots/rapidity4l_unfoldwith_SM_125_constrained.pdf, id=94, 569.12625pt x 440.6
+4626pt>
+File: Plots/rapidity4l_unfoldwith_SM_125_constrained.pdf Graphic file (type pdf
 )
-<Chapters/Chapter4/Systematics/NLOZZ_pdf.png, id=1024, 598.235pt x 574.145pt>
-File: Chapters/Chapter4/Systematics/NLOZZ_pdf.png Graphic file (type png)
-<use Chapters/Chapter4/Systematics/NLOZZ_pdf.png>
-Package pdftex.def Info: Chapters/Chapter4/Systematics/NLOZZ_pdf.png  used on i
-nput line 33.
-(pdftex.def)             Requested size: 208.13574pt x 199.75354pt.
-<Chapters/Chapter4/Systematics/ggZZ_pdf.png, id=1025, 598.235pt x 574.145pt>
-File: Chapters/Chapter4/Systematics/ggZZ_pdf.png Graphic file (type png)
-<use Chapters/Chapter4/Systematics/ggZZ_pdf.png>
-Package pdftex.def Info: Chapters/Chapter4/Systematics/ggZZ_pdf.png  used on in
-put line 34.
-(pdftex.def)             Requested size: 208.13574pt x 199.75354pt.
-<Chapters/Chapter4/Systematics/NLOZZ_QCD_Scale.png, id=1026, 598.235pt x 574.14
-5pt>
-File: Chapters/Chapter4/Systematics/NLOZZ_QCD_Scale.png Graphic file (type png)
+<use Plots/rapidity4l_unfoldwith_SM_125_constrained.pdf>
+Package pdftex.def Info: Plots/rapidity4l_unfoldwith_SM_125_constrained.pdf  us
+ed on input line 17.
+(pdftex.def)             Requested size: 208.13574pt x 161.14719pt.
+<Plots/cosThetaStar_unfoldwith_SM_125_constrained.pdf, id=95, 569.12625pt x 440
+.64626pt>
+File: Plots/cosThetaStar_unfoldwith_SM_125_constrained.pdf Graphic file (type p
+df)
+<use Plots/cosThetaStar_unfoldwith_SM_125_constrained.pdf>
+Package pdftex.def Info: Plots/cosThetaStar_unfoldwith_SM_125_constrained.pdf  
+used on input line 21.
+(pdftex.def)             Requested size: 208.13574pt x 161.14719pt.
+<Plots/njets_reco_pt30_eta4p7_unfoldwith_SM_125_logscale_constrained.pdf, id=96
+, 569.12625pt x 440.64626pt>
+File: Plots/njets_reco_pt30_eta4p7_unfoldwith_SM_125_logscale_constrained.pdf G
+raphic file (type pdf)
+<use Plots/njets_reco_pt30_eta4p7_unfoldwith_SM_125_logscale_constrained.pdf>
+Package pdftex.def Info: Plots/njets_reco_pt30_eta4p7_unfoldwith_SM_125_logscal
+e_constrained.pdf  used on input line 25.
+(pdftex.def)             Requested size: 208.13574pt x 161.14719pt.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 27.
 
-<use Chapters/Chapter4/Systematics/NLOZZ_QCD_Scale.png>
-Package pdftex.def Info: Chapters/Chapter4/Systematics/NLOZZ_QCD_Scale.png  use
-d on input line 47.
-(pdftex.def)             Requested size: 208.13574pt x 199.75354pt.
-<Chapters/Chapter4/Systematics/ggZZ_QCD_Scale.png, id=1027, 598.235pt x 574.145
-pt>
-File: Chapters/Chapter4/Systematics/ggZZ_QCD_Scale.png Graphic file (type png)
-<use Chapters/Chapter4/Systematics/ggZZ_QCD_Scale.png>
-Package pdftex.def Info: Chapters/Chapter4/Systematics/ggZZ_QCD_Scale.png  used
- on input line 48.
-(pdftex.def)             Requested size: 208.13574pt x 199.75354pt.
- [7
-
- <./Chapters/Chapter4/Systematics/NLOZZ_pdf.png> <./Chapters/Chapter4/Systemati
-cs/ggZZ_pdf.png>]
-[8 <./Chapters/Chapter4/Systematics/NLOZZ_QCD_Scale.png> <./Chapters/Chapter4/S
-ystematics/ggZZ_QCD_Scale.png>]
-
-LaTeX Warning: Citation 'Chatrchyan:2013mxa' on page 9 undefined on input line 
-84.
+LaTeX Warning: Reference `sec:totalZZXSecSyst' on page 3 undefined on input lin
+e 27.
 
 
-LaTeX Warning: Citation 'Aad:2013xqa' on page 9 undefined on input line 84.
+LaTeX Warning: Reference `sec:totalZZXSecSyst' on page 3 undefined on input lin
+e 27.
 
 
-Overfull \hbox (22.93988pt too wide) in paragraph at lines 82--89
-\T1/ppl/m/n/12 fect knowl-edge on sin-gle lep-ton ef-fi-ciency which are taken 
-from  [[],
- []
-
-
-LaTeX Warning: Reference `fig:jesvsjer' on page 9 undefined on input line 93.
-
-
-Overfull \hbox (46.46481pt too wide) detected at line 100
-[][]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 N[]; N[]\OMS/cmsy/m/n/12 j\OML/cmm/m/it/1
-2 ^^R[]\OT1/cmr/m/n/12 ) = (1 + \OML/cmm/m/it/12 ^^U\OT1/cmr/m/n/12 (\OML/cmm/m
-/it/12 N[]; N[]\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ^^R[]\OT1/cmr/m/n/12 ) \OMS/cm
-sy/m/n/12 ^^B []\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 N[]; N[]\OMS/cmsy/m/n/12 j\OM
-L/cmm/m/it/12 ^^R[] \OT1/cmr/m/n/12 = 0)\OML/cmm/m/it/12 :
- []
-
-
-LaTeX Warning: Citation 'Aad:pile_up_jet_ID' on page 9 undefined on input line 
-137.
-
-
-Overfull \hbox (2.18983pt too wide) in paragraph at lines 134--141
-\T1/ppl/m/n/12 very well in all re-gions ex-cept for $\OMS/cmsy/m/n/12 j\OML/cm
-m/m/it/12 ^^Q\OMS/cmsy/m/n/12 j \OML/cmm/m/it/12 > \OT1/cmr/m/n/12 3\OML/cmm/m/
-it/12 :\OT1/cmr/m/n/12 0$\T1/ppl/m/n/12 , as stud-ied in Ref. [[]].
- []
-
-[9]
-
-LaTeX Warning: Reference `fig:jesvsjer' on page 10 undefined on input line 145.
-
-
-
-LaTeX Warning: Reference `app:JetSystematics' on page 10 undefined on input lin
-e 145.
-
-<Plots/modeldep_inclusive.pdf, id=1055, 569.12625pt x 440.64626pt>
-File: Plots/modeldep_inclusive.pdf Graphic file (type pdf)
-<use Plots/modeldep_inclusive.pdf>
-Package pdftex.def Info: Plots/modeldep_inclusive.pdf  used on input line 166.
-(pdftex.def)             Requested size: 411.93768pt x 318.95943pt.
-
-Overfull \hbox (0.47322pt too wide) in paragraph at lines 157--171
-\T1/ppl/m/n/12 the fidu-cial sig-nal ef-fi-cien-cies, non-fiducial sig-nal frac
--tion, and $\OML/cmm/m/it/12 ^^U\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 N[]; N[]\OT1/
-cmr/m/n/12 )$
- []
-
-[10]
-
-LaTeX Warning: Reference `app:restrictive_md' on page 11 undefined on input lin
-e 177.
-
-[11 <./Plots/modeldep_inclusive.pdf, page is rotated 90 degrees>]
-
-LaTeX Warning: Reference `app:alternateasimov' on page 12 undefined on input li
-ne 181.
-
-
-Overfull \hbox (16.75473pt too wide) in paragraph at lines 194--232
- [][] 
- []
+LaTeX Warning: Float too large for page by 251.58253pt on input line 30.
 
 )
 
-LaTeX Warning: Empty bibliography on input line 402.
+LaTeX Warning: Empty bibliography on input line 403.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 407.
-[12]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 407.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 408.
+
+Package scrlayer-scrpage Warning: \headheight to low.
+(scrlayer-scrpage)                At least 28.99998pt needed,
+(scrlayer-scrpage)                but only 14.5pt found.
+(scrlayer-scrpage)                I'll enlarge \headheight, for further
+(scrlayer-scrpage)                processing, but you should do this yourself,
+(scrlayer-scrpage)                e.g., setting geometry's option
+(scrlayer-scrpage)                `head=28.99998pt'.
+(scrlayer-scrpage)                I'll also decrease \topmargin on input line 4
+08.
+
+
+Overfull \vbox (14.49998pt too high) has occurred while \output is active []
+
+
+[3] [4 <./Plots/pT4l_unfoldwith_SM_125_logscale_constrained.pdf, page is rotate
+d 90 degrees> <./Plots/massZ2_unfoldwith_SM_125_logscale_constrained.pdf, page 
+is rotated 90 degrees> <./Plots/rapidity4l_unfoldwith_SM_125_constrained.pdf, p
+age is rotated 90 degrees> <./Plots/cosThetaStar_unfoldwith_SM_125_constrained.
+pdf, page is rotated 90 degrees> <./Plots/njets_reco_pt30_eta4p7_unfoldwith_SM_
+125_logscale_constrained.pdf, page is rotated 90 degrees>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 408.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 407.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 407.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 408.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 408.
 
 
 Package rerunfilecheck Warning: File `main.out' has changed.
@@ -2480,82 +2247,40 @@ Package rerunfilecheck Warning: File `main.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 68504D8DB52EE596DED924758DCB0BAF;2903
-(rerunfilecheck)             After:  3D8E35AB034FB0E3B12A386A98C646BA;2903.
+(rerunfilecheck)             Before: E81B1358FE2D048E595034B0158A8AF9;510
+(rerunfilecheck)             After:  A9FA0FD488B25144CF96C6A4B26CAC37;717.
 
 LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-
-Package biblatex Warning: Please (re)run BibTeX on the file(s):
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
-
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35618 strings out of 492982
- 715466 string characters out of 6134896
- 929980 words of memory out of 5000000
- 38700 multiletter control sequences out of 15000+600000
- 577838 words of font info for 111 fonts, out of 8000000 for 9000
+ 35269 strings out of 492982
+ 701743 string characters out of 6134896
+ 924980 words of memory out of 5000000
+ 38407 multiletter control sequences out of 15000+600000
+ 570705 words of font info for 97 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,22n,75p,10377b,1940s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{table.caption.48} has been referenced but does no
-t exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.47} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.caption.44} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.38} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.37} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.27} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.20} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.46} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.45} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.39} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.35} has been referenced but does not exist,
- replaced by a fixed one
-
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/pala
-tino/uplri8a.pfb>
-Output written on main.pdf (16 pages, 627938 bytes).
+ 57i,20n,76p,10377b,1932s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/upl
+b8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on main.pdf (14 pages, 223126 bytes).
 PDF statistics:
- 1181 PDF objects out of 1200 (max. 8388607)
- 592 compressed objects within 6 object streams
- 71 named destinations out of 1000 (max. 500000)
- 219 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 375 PDF objects out of 1000 (max. 8388607)
+ 215 compressed objects within 3 object streams
+ 27 named destinations out of 1000 (max. 500000)
+ 55 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,53 @@
+\chapter{Introduction}
+The Standard Model (SM) of the particle physics describes the nature of the constituents of the matter and the fundamental forces 
+through which they interact. The three fundamental forces (electromagnetic, strong and weak) are described by three dedicated
+theoretical descriptions Quantum Electrodynamics (QED), Quantum Chromodynamics (QCD) and  Quantum Flavourdynamics (QFD) which are 
+encoded in the SM. Later, electromagnetic and weak interactions were unified into electroweak (EWK) interaction at the unification energy scale 
+of the order of 100~GeV with significant contributions by Sheldon Glashow, Abdus Salam, and Steven Weinberg. The experimental verifications of the existence
+of the electroweak interaction were established by the existence of neutral currents by the Gargamelle collaboration in 1973 and  the discovery of the 
+two massive ($\W$ and $\Z$) gauge bosons by  UA1 and  UA2 collaborations in 1981. These 
+boson should be massless (like photon in QED) according to Goldstone's theorem. To overcome this issue, spontaneous symmetry breaking was introduced 
+that generates the masses of the particles by the Higgs mechanism and separates weak interaction from  electromagnetic (EM) 
+interaction~\cite{Reference7,Reference8,Reference9,Reference10,Reference11,Reference12}. A new scalar particle-Higgs boson was introduced by the theory as a  last 
+missing patch of the SM. This triggered the search for that last missing patch of the SM which continued for many years. One of the main motivations of 
+the construction of the  Large Hadron Collider (LHC) at CERN was also to look for this new particle within full mass range allowed given unitary and above the
+Large Electron-Positron (LEP) constraints, i.e from 114~GeV to 1~TeV. After a long 
+search, the CMS and the ATLAS collaborations, the two general purpose experiments at LHC, announced the existence of the heavy scalar boson
+on 4 July 2012~\cite{Reference20,Reference21}. Further tests to  measure the properties of this scalar boson immediately started. The mass of newly discovered
+particle, the only free parameter in Higgs sector, is 
+measured to be $m_H = 125.09\pm 0.21(stat.)\pm0.11(syst.)$~GeV~\cite{Reference22}. The spin
+and parity~\cite{Reference21a} and couplings to other particles~\cite{Reference21b,Reference21c} have also been measured and found to be compatible with 
+SM predictions. Therefore, the new particle very probable appear appears as the SM Higgs boson, affiliated with EWK spontaneous symmetry breaking. 
+SM has  passed enormous experimental tests in last 50 years and no significant deviation has been seen yet. The biggest achievement of the SM is the
+experimental evidence of the Higgs boson. Other success includes the predictions of the $\W$ and $\Z$ boson, the gluon, top and charm quark before they
+have been verified experimentally. The ratio of the masses of $\W$ and $\Z$ bosons was also found to be consistent with SM predictions. 
+\par 
+Although SM has passed numerous experimental tests with great precision, it is not considered to be theory of everything. There are many 
+phenomenons which are not explained by SM i.e Hierarchy problem, existence of dark matter and dark energy, neutrinos masses etc. There are several theoretical 
+extension posed in SM such as Minimal Super Symmetrical Model(MSSM) and Next-to-Minimal Super Symmetric Standard Model (NMSSM) or completely new 
+theoretical description, such as string theory, extra dimensions. More precise Higgs boson properties measurements are needed to capture any possible deviation
+from SM predictions which can be a doorway to new physics. 
+\par 
+One of the important properties of the Higgs boson is its model independent production cross section for a particular process, where the cross section 
+illustrates the possibility of the occurrence of that process.  In this dissertation, measurements of the integrated and differential fiducial cross sections for 
+the Higgs boson production in the $H \rightarrow 4\ell$  decay channel ($\ell = e, \mu$) in proton-proton collisions at $\sqrt{s}=7, 8, 13$~TeV are presented. 
+These measurements provide a direct test of perturbative QCD  calculations in the Higgs sector of Standard Model at the
+TeV energy scale. Any deviation of the integrated or the differential cross sections from SM expectations would  provide a direct hint to BSM contributions. Nearly similar measurements
+have already been reported by the ATLAS experiment in  $H \rightarrow \gamma \gamma$~\cite{ATLAS:Hgg_8TeV,ATLAS:Hgg_8TeV_13TeV}, 
+$H \rightarrow 4\ell$~\cite{ATLAS:H4l_8TeV,ATLAS:H4l_8TeV_13TeV} decay  channels, combination of both 
+channels~\cite{ATLAS:H4l_Hgg_8TeV,ATLAS:H4l_Hgg_8TeV_13TeV} and by the CMS experiment in $H \rightarrow \gamma \gamma$ decay 
+channel~\cite{CMS:Hgg_8TeV}. 
+\par
+The Higgs cross section measurement helps to probe the structure, nature of the interaction of Higgs boson with decaying particles.  Differential fiducial cross 
+sections are produced using the 13~\TeV~data as a function several kinematic observables which are sensitive to the Higgs-boson production 
+mechanisms: rapidity and transverse momentum of the four-lepton  system, associated jet multiplicityand transverse momentum of the leading jet.  These differential distributions are sensitive to gluon fusion production mechanism, PDFs of colliding protons, theoretical modeling of hard quarks radiations and  relative contributions of different Higgs boson production mechanisms.
+%The results are also produced for kinematic observables which are sensitive to the Higgs boson decay mechanisms: the invariant masses of the two lepton pairs and five helicity angles formed by the leptons in the Collins-Soper frame~\cite{Reference40}.
+
+\par The fragmentation of the dissertation is  systematized as follows. An overview of the SM, Higgs boson production and decays are described in  Chapter 
+\ref{Chapter1}. The 
+overview of LHC and CMS detector are presented in Chapter \ref{Chapter2}. The calibrations and reconstructions of the  physics objects in the CMS detector are
+described in Chapter \ref{chapter_objects}. 
+Chapter \ref{Chapter4} presents the measurements of differential and integrated fiducial cross sections for Higgs boson production at $\sqrt{s} = 13$~TeV. 
+%Chapter \ref{Chapter5} presents the measurements of differential and integrated fiducial cross sections for Z boson production at $\sqrt{s} = 8$~TeV. 
+%Chapter \ref{Chapter6} presents the integrated measurement of integrated fiducial cross sections for Higgs boson production at $\sqrt{s} = 13$~TeV and Higgs boson production cross sections as a function of $\sqrt{s}$.
+Finally, the conclusions and outlook of the dissertation are summarized in Chapters \ref{Chapter7} and \ref{Chapter8}.

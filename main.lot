@@ -1,25 +1,2 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {english}{}
-\addvspace {10\p@ }
-\contentsline {table}{\numberline {1.1}{\ignorespaces Overview of input variables to the identification classifier. Variables not used in the RunI legacy MVA are marked with $(\mathord {\cdot })$.\relax }}{8}{table.caption.13}
-\contentsline {table}{\numberline {1.2}{\ignorespaces Signal (background) efficiencies of the chosen working point evaluated on MC samples at $\sqrt {s} = 13$~TeV.\relax }}{8}{table.caption.15}
-\contentsline {table}{\numberline {1.3}{\ignorespaces Minimum BDT score required for passing the electron identification for $\sqrt {s} = 13$~TeV.\relax }}{10}{table.caption.17}
-\contentsline {table}{\numberline {1.4}{\ignorespaces The cut values for the BDT obtained by optimization for $\sqrt {s} = 8$~TeV..\relax }}{11}{table.caption.18}
-\contentsline {table}{\numberline {1.5}{\ignorespaces Composition of the mixed sample used for signal leptons at $\sqrt {s} = 13$~TeV\relax }}{11}{table.caption.31}
-\contentsline {table}{\numberline {1.6}{\ignorespaces Comparison of the RunI and RunII electron isolation working points.\relax }}{15}{table.caption.33}
-\contentsline {table}{\numberline {1.7}{\ignorespaces Comparison of the RunI and RunII muon isolation working points.\relax }}{18}{table.caption.50}
-\contentsline {table}{\numberline {1.8}{\ignorespaces Electron efficiencies and scale factors for 13 TeV data with only statistical errors for efficiency measurements and total errors for scale factors.\relax }}{24}{table.caption.106}
-\addvspace {10\p@ }
-\contentsline {table}{\numberline {A.1}{\ignorespaces Signal Model Carlo Samples used to test model dependence. \relax }}{52}{table.caption.140}
-\contentsline {table}{\numberline {A.2}{\ignorespaces Fiducial volume acceptance per final state for different signal models used to check model dependence. \relax }}{53}{table.caption.141}
-\contentsline {table}{\numberline {A.3}{\ignorespaces Reconstruction efficiency ($\epsilon $) for fiducial events per final state for different models used to check model dependence. \relax }}{54}{table.caption.142}
-\contentsline {table}{\numberline {A.4}{\ignorespaces Ratio of reconstructed events which are from outside the fiducial volume and reconstructed events which are from within the fiducial volume ($f_{\mathrm {nonfid}}$) per final state for different models used to check model dependence. \relax }}{55}{table.caption.143}
-\contentsline {table}{\numberline {A.5}{\ignorespaces Estimated fraction of background events in each bin of $\ensuremath {p_T}(4\ell )$, for each final state. \relax }}{56}{table.caption.146}
-\contentsline {table}{\numberline {A.6}{\ignorespaces Estimated fraction of background events in each bin of $m(\mathrm {Z}_{2})$, for each final state. \relax }}{56}{table.caption.147}
-\contentsline {table}{\numberline {A.7}{\ignorespaces Estimated fraction of background events in each bin of $N_{\rm jets}$, for each final state. \relax }}{56}{table.caption.148}
-\contentsline {table}{\numberline {A.8}{\ignorespaces Estimated fraction of background events in each bin of $|y(4\ell )|$, for each final state. \relax }}{57}{table.caption.149}
-\contentsline {table}{\numberline {A.9}{\ignorespaces Estimated fraction of background events in each bin of $|\qopname \relax o{cos}\theta ^{*}|$, for each final state. \relax }}{57}{table.caption.150}
-\contentsline {table}{\numberline {A.10}{\ignorespaces Fiducial volume acceptance per final state for different Standard Model signal models for Z$\to $4l stand-alone (50$<m(4l)<$105 GeV) and Z$\to $4l over H$\to $4l Ratio (50$<m(4l)<$140 GeV) measurements. Because we do not have the pure s-channel qqZZ sample, only have the s+t channel and t-channel samples, the acceptance for the Z$\to $4l is defined as $A_{fid.} = \frac {N^{s+t}_{fid.}-N^{t}_{fid.}}{N^{s+t}_{total}}$. \relax }}{126}{table.caption.815}
-\contentsline {table}{\numberline {A.11}{\ignorespaces Reconstruction efficiency ($\epsilon _{fid.}$) for fiducial events per final state for different Standard Model signal models for Z$\to $4l stand-alone (50$<m(4l)<$105 GeV) and Z$\to $4l over H$\to $4l Ratio (50$<m(4l)<$140 GeV) measurements. \relax }}{127}{table.caption.816}
-\contentsline {table}{\numberline {A.12}{\ignorespaces Ratio of reconstructed events which are from outside the fiducial volume and reconstructed events which are from within the fiducial volume ($f_{out}$) per final state for different Standard Model signal models for Z$\to $4l stand-alone (50$<m(4l)<$105 GeV) and Z$\to $4l over H$\to $4l Ratio (50$<m(4l)<$140 GeV) measurements. \relax }}{128}{table.caption.817}
-\contentsline {table}{\numberline {A.13}{\ignorespaces Fraction of signal events in the mass range 50 to 140 GeV where at least one lepton selected is not from the Higgs boson decay for Ratio measurements. \relax }}{129}{table.caption.818}
