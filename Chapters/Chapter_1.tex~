@@ -105,7 +105,7 @@ quantum numbers, energy and momentum. QED is perturbative theory based on fundam
 established by three distinguished physicists W. Heisenberg, W. Pauli and P. A. M. Dirac during 1920s. Later on,  Freeman J. Dyson, Richard P. Feynman  and Julian S. Schwinger showed 
 that
 charged particle can possibly interact through a sequence of processes with growing complexity, and all of these processes could be 
-described by Feynman developed  graphical technique. QED is abelian gauge theory with $U(1)$ being its symmetry group.
+described by Feynman developed  graphical technique. QED is an abelian gauge theory with the symmetry group $U(1)$.
 \begin{figure}
 \begin{center}
 \includegraphics[width=0.5\linewidth]{Figures/chapter1_Figure/Annihilation_of_a_Positron_Electron_pair.png}
