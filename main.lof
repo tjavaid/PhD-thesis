@@ -1,8 +1,12 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {english}{}
-\contentsline {figure}{\numberline {1}{\ignorespaces Results of the differential cross section measurement for different observables. The predictions from {\sc powheg+JHUgen} and {\sc minloHJJ} are shown in blue and yellow, respectively. The central value of the measurement is obtained using SM efficiencies where the gg$\rightarrow $H prediction is from {\sc powheg+JHUgen} with m(H)= 125 $\GeV $, and the error bar represents the combined statistical and systematic uncertainty. The grey box represents the additional uncertainty incurred when using different models to unfold the observed data distribution back to particle level. In this case, this model-dependance uncertainty is assessed by taking into account the experimental constraints from the exiting CMS measurements, as discussed in Section~\ref {sec:totalZZXSecSyst}. The fraction of $4e,4\mu $ and $2e2\mu $ in each bin are allowed to float in the fit. \relax }}{4}{figure.caption.7}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$\ensuremath {p_T}(\mathrm {H})$}}}{4}{figure.caption.7}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\mathrm {m}(\mathrm {Z}_{2})$}}}{4}{figure.caption.7}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$|y(\mathrm {H})|$}}}{4}{figure.caption.7}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$|\qopname \relax o{cos}\theta ^{*}|$}}}{4}{figure.caption.7}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {N(jets)}}}{4}{figure.caption.7}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces The elementary particles given in three generations of matter, the gauge bosons in fourth column and the Higgs boson in the fifth.\relax }}{5}{figure.caption.11}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces A Feynman diagram of annihilation of electron positron.\relax }}{6}{figure.caption.14}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces The Higgs potential as in Eq.\ref {eq:higgs_potential}\relax }}{8}{figure.caption.23}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Higgs production mechanisms at tree level in proton-proton collisions: gluon-gluon fusion (top left);VV fusion (top right); W and Z associated production (bottom left); $t\bar {t}$ associated production (bottom right). \relax }}{12}{figure.caption.45}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Standard Model Higgs boson production cross sections at 7, 8 and 13 TeV as function of mass of Higgs boson.\relax }}{13}{figure.caption.46}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Higgs boson production cross sections as a function of center-of-mass energies at $m_H = 125$~GeV\relax }}{14}{figure.caption.47}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Branching ratios for different Higgs boson decay channels as a function of the Higgs mass.\relax }}{16}{figure.caption.55}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Higgs cross sections times branching ratios 7 TeV (left) and 8 TeV (right).\relax }}{17}{figure.caption.56}

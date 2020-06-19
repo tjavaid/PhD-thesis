@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.28)  17 JUN 2020 13:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.28)  18 JUN 2020 21:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1746,12 +1746,13 @@ File: english.lbx 2017/12/19 v3.10 biblatex localization (PK/JW/AB)
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
  (./main.aux
+(./Chapters/introduction.aux) (./Chapters/Chapter_1.aux)
 
-LaTeX Warning: Label `fig:differential-results-ZHasimov:b' multiply defined.
+LaTeX Warning: Label `fig:differential-results-fixfrac:b' multiply defined.
 
 
-LaTeX Warning: Label `sub@fig:differential-results-ZHasimov:b' multiply defined
-.
+LaTeX Warning: Label `sub@fig:differential-results-fixfrac:b' multiply defined.
+
 
 )
 \openout1 = `main.aux'.
@@ -2087,20 +2088,42 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 \c__siunitx_mathtt_int=\count441
 
+
+! LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.187 \bibliography
+                   {example.bib}
+? 
+
+! Package biblatex Error: '\bibliographystyle' invalid.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.188 \bibliographystyle{plain}
+                               
+? 
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+] [2
+
+]
 1: section
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 200.
-<Figures/Logo.jpg, id=19, 226.8475pt x 223.83624pt>
+<Figures/Logo.jpg, id=121, 226.8475pt x 223.83624pt>
 File: Figures/Logo.jpg Graphic file (type jpg)
 <use Figures/Logo.jpg>
 Package pdftex.def Info: Figures/Logo.jpg  used on input line 223.
 (pdftex.def)             Requested size: 71.13188pt x 70.18773pt.
 [1
 
-
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Figures/Logo.jpg>]
-(/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.bdg
+ <./Figures/Logo.jpg>] (/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.bdg
 File: UTF8.bdg 2015/04/18 4.8.4
 )
 (/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.enc
@@ -2121,7 +2144,12 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
 1: section
 [3] [4
 
-] (./main.lof)
+] (./main.lof
+
+LaTeX Warning: Reference `sec:totalZZXSecSyst' on page v undefined on input lin
+e 13.
+
+)
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
@@ -2129,7 +2157,19 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
 1: section
 [5] [6
 
-] (./main.lot)
+] (./main.lot
+Overfull \hbox (11.63643pt too wide) in paragraph at lines 7--7
+ [][] [][][]\T1/ppl/m/n/12 Higgs bo-son pro-duc-tion cross sec-tions in pb for 
+dif-fer-ent Higgs masses 
+ []
+
+
+Overfull \hbox (6.54845pt too wide) in paragraph at lines 8--8
+ [][] [][][]\T1/ppl/m/n/12 Higgs bo-son pro-duc-tion cross sec-tion in pb for d
+if-fer-ent Higgs masses 
+ []
+
+)
 \tf@lot=\write8
 \openout8 = `main.lot'.
 
@@ -2146,98 +2186,400 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
 
 ]
 1: section
+\openout2 = `Chapters/introduction.aux'.
+
+(./Chapters/introduction.tex
+Chapter 1.
+
+LaTeX Warning: Citation 'Reference7' on page 1 undefined on input line 16.
+
+
+LaTeX Warning: Citation 'Reference8' on page 1 undefined on input line 16.
+
+
+LaTeX Warning: Citation 'Reference9' on page 1 undefined on input line 16.
+
+
+LaTeX Warning: Citation 'Reference10' on page 1 undefined on input line 16.
+
+
+LaTeX Warning: Citation 'Reference11' on page 1 undefined on input line 16.
+
+
+LaTeX Warning: Citation 'Reference12' on page 1 undefined on input line 16.
+
+
+LaTeX Warning: Citation 'Reference20' on page 1 undefined on input line 21.
+
+
+LaTeX Warning: Citation 'Reference21' on page 1 undefined on input line 21.
+
+
+LaTeX Warning: Citation 'Reference22' on page 1 undefined on input line 22.
+
+
+LaTeX Warning: Citation 'Reference21a' on page 1 undefined on input line 22.
+
+
+LaTeX Warning: Citation 'Reference21b' on page 1 undefined on input line 22.
+
+
+LaTeX Warning: Citation 'Reference21c' on page 1 undefined on input line 22.
+
+
+Overfull \hbox (1.33844pt too wide) in paragraph at lines 3--24
+\T1/ppl/m/n/12 The Stan-dard Model (SM) of the par-ti-cle physics gives suc-ces
+s-ful ex-pla-na-tion about
+ []
+
 1: section
 [1
 
-] [2] (./Appendix/RestrictiveModelDep.tex
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 1.
 
-Overfull \hbox (35.32204pt too wide) in paragraph at lines 1--1
-[]\T1/ppl/b/n/17.28 Results with model de-pen-dance un-cer-tainty con-strained
+]
+
+LaTeX Warning: Citation 'ATLAS:Hgg_8TeV' on page 2 undefined on input line 32.
+
+
+LaTeX Warning: Citation 'ATLAS:Hgg_8TeV_13TeV' on page 2 undefined on input lin
+e 32.
+
+
+LaTeX Warning: Citation 'ATLAS:H4l_8TeV' on page 2 undefined on input line 33.
+
+
+LaTeX Warning: Citation 'ATLAS:H4l_8TeV_13TeV' on page 2 undefined on input lin
+e 33.
+
+
+LaTeX Warning: Citation 'ATLAS:H4l_Hgg_8TeV' on page 2 undefined on input line 
+34.
+
+
+LaTeX Warning: Citation 'ATLAS:H4l_Hgg_8TeV_13TeV' on page 2 undefined on input
+ line 34.
+
+
+LaTeX Warning: Citation 'CMS:Hgg_8TeV' on page 2 undefined on input line 34.
+
+
+LaTeX Warning: Reference `Chapter2' on page 2 undefined on input line 41.
+
+
+LaTeX Warning: Reference `chapter_objects' on page 2 undefined on input line 42
+.
+
+
+LaTeX Warning: Reference `Chapter4' on page 2 undefined on input line 43.
+
+
+LaTeX Warning: Reference `Chapter_7' on page 2 undefined on input line 47.
+
+) [2]
+\openout2 = `Chapters/Chapter_1.aux'.
+
+ (./Chapters/Chapter_1.tex
+Chapter 2.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <17.28> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 4.
+
+LaTeX Warning: Citation 'Reference1' on page 3 undefined on input line 7.
+
+
+LaTeX Warning: Citation 'Reference20' on page 3 undefined on input line 9.
+
+
+LaTeX Warning: Citation 'Reference21' on page 3 undefined on input line 9.
+
+
+Overfull \hbox (2.31712pt too wide) in paragraph at lines 18--18
+[]\T1/ppl/b/n/17.28 Fundamental Par-ti-cles and un-der-ly-ing In-ter-ac-tions 
  []
 
-<Plots/pT4l_unfoldwith_SM_125_logscale_constrained.pdf, id=92, 569.12625pt x 44
-0.64626pt>
-File: Plots/pT4l_unfoldwith_SM_125_logscale_constrained.pdf Graphic file (type 
-pdf)
-<use Plots/pT4l_unfoldwith_SM_125_logscale_constrained.pdf>
-Package pdftex.def Info: Plots/pT4l_unfoldwith_SM_125_logscale_constrained.pdf 
- used on input line 9.
-(pdftex.def)             Requested size: 208.13574pt x 161.14719pt.
-<Plots/massZ2_unfoldwith_SM_125_logscale_constrained.pdf, id=93, 569.12625pt x 
-440.64626pt>
-File: Plots/massZ2_unfoldwith_SM_125_logscale_constrained.pdf Graphic file (typ
-e pdf)
-<use Plots/massZ2_unfoldwith_SM_125_logscale_constrained.pdf>
-Package pdftex.def Info: Plots/massZ2_unfoldwith_SM_125_logscale_constrained.pd
-f  used on input line 13.
-(pdftex.def)             Requested size: 208.13574pt x 161.14719pt.
-<Plots/rapidity4l_unfoldwith_SM_125_constrained.pdf, id=94, 569.12625pt x 440.6
-4626pt>
-File: Plots/rapidity4l_unfoldwith_SM_125_constrained.pdf Graphic file (type pdf
-)
-<use Plots/rapidity4l_unfoldwith_SM_125_constrained.pdf>
-Package pdftex.def Info: Plots/rapidity4l_unfoldwith_SM_125_constrained.pdf  us
-ed on input line 17.
-(pdftex.def)             Requested size: 208.13574pt x 161.14719pt.
-<Plots/cosThetaStar_unfoldwith_SM_125_constrained.pdf, id=95, 569.12625pt x 440
-.64626pt>
-File: Plots/cosThetaStar_unfoldwith_SM_125_constrained.pdf Graphic file (type p
-df)
-<use Plots/cosThetaStar_unfoldwith_SM_125_constrained.pdf>
-Package pdftex.def Info: Plots/cosThetaStar_unfoldwith_SM_125_constrained.pdf  
-used on input line 21.
-(pdftex.def)             Requested size: 208.13574pt x 161.14719pt.
-<Plots/njets_reco_pt30_eta4p7_unfoldwith_SM_125_logscale_constrained.pdf, id=96
-, 569.12625pt x 440.64626pt>
-File: Plots/njets_reco_pt30_eta4p7_unfoldwith_SM_125_logscale_constrained.pdf G
-raphic file (type pdf)
-<use Plots/njets_reco_pt30_eta4p7_unfoldwith_SM_125_logscale_constrained.pdf>
-Package pdftex.def Info: Plots/njets_reco_pt30_eta4p7_unfoldwith_SM_125_logscal
-e_constrained.pdf  used on input line 25.
-(pdftex.def)             Requested size: 208.13574pt x 161.14719pt.
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 27.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 19.
 
-LaTeX Warning: Reference `sec:totalZZXSecSyst' on page 3 undefined on input lin
-e 27.
+Overfull \hbox (12.16313pt too wide) in paragraph at lines 20--26
+\T1/ppl/m/n/12 Fermions in-cludes all lep-tons, quarks and baryons (com-pos-ite
+ par-ti-cles three quarks).
+ []
+
+1: section
+[3
 
 
-LaTeX Warning: Reference `sec:totalZZXSecSyst' on page 3 undefined on input lin
-e 27.
+
+]
+Overfull \hbox (2.9086pt too wide) in paragraph at lines 32--50
+ [] 
+ []
+
+<Figures/chapter1_Figure/Standard_Model_of_Elementary_Particles.png, id=270, 80
+3.0pt x 603.25375pt>
+File: Figures/chapter1_Figure/Standard_Model_of_Elementary_Particles.png Graphi
+c file (type png)
+<use Figures/chapter1_Figure/Standard_Model_of_Elementary_Particles.png>
+Package pdftex.def Info: Figures/chapter1_Figure/Standard_Model_of_Elementary_P
+articles.png  used on input line 77.
+(pdftex.def)             Requested size: 346.89732pt x 260.6091pt.
+<Figures/chapter1_Figure/Annihilation_of_a_Positron_Electron_pair.png, id=273, 
+569.12625pt x 569.12625pt>
+File: Figures/chapter1_Figure/Annihilation_of_a_Positron_Electron_pair.png Grap
+hic file (type png)
+<use Figures/chapter1_Figure/Annihilation_of_a_Positron_Electron_pair.png>
+Package pdftex.def Info: Figures/chapter1_Figure/Annihilation_of_a_Positron_Ele
+ctron_pair.png  used on input line 111.
+(pdftex.def)             Requested size: 216.81pt x 216.80864pt.
+[4]
+
+LaTeX Warning: Citation 'Referencea' on page 5 undefined on input line 117.
 
 
-LaTeX Warning: Float too large for page by 251.58253pt on input line 30.
+LaTeX Warning: Citation 'Reference2' on page 5 undefined on input line 124.
 
-)
+
+LaTeX Warning: Citation 'Reference3' on page 5 undefined on input line 124.
+
+
+LaTeX Warning: Citation 'Reference4' on page 5 undefined on input line 124.
+
+
+LaTeX Warning: Citation 'Reference5' on page 5 undefined on input line 124.
+
+[5 <./Figures/chapter1_Figure/Standard_Model_of_Elementary_Particles.png>]
+
+LaTeX Warning: Citation 'Reference6' on page 6 undefined on input line 126.
+
+[6 <./Figures/chapter1_Figure/Annihilation_of_a_Positron_Electron_pair.png>]
+
+LaTeX Warning: Citation 'Reference7' on page 7 undefined on input line 158.
+
+
+LaTeX Warning: Citation 'Reference8' on page 7 undefined on input line 158.
+
+
+LaTeX Warning: Citation 'Reference9' on page 7 undefined on input line 158.
+
+
+LaTeX Warning: Citation 'Reference10' on page 7 undefined on input line 158.
+
+
+LaTeX Warning: Citation 'Reference11' on page 7 undefined on input line 158.
+
+
+LaTeX Warning: Citation 'Reference12' on page 7 undefined on input line 158.
+
+[7]
+<Figures/chapter1_Figure/higgs_potential.jpg, id=311, 486.81876pt x 300.12125pt
+>
+File: Figures/chapter1_Figure/higgs_potential.jpg Graphic file (type jpg)
+<use Figures/chapter1_Figure/higgs_potential.jpg>
+Package pdftex.def Info: Figures/chapter1_Figure/higgs_potential.jpg  used on i
+nput line 209.
+(pdftex.def)             Requested size: 260.17465pt x 160.39612pt.
+ [8 <./Figures/chapter1_Figure/higgs_potential.jpg>] [9] [10]
+
+LaTeX Warning: Citation 'Referenceb' on page 11 undefined on input line 373.
+
+<Figures/chapter1_Figure/HiggsProduction.jpg, id=357, 584.1825pt x 356.33125pt>
+
+File: Figures/chapter1_Figure/HiggsProduction.jpg Graphic file (type jpg)
+<use Figures/chapter1_Figure/HiggsProduction.jpg>
+Package pdftex.def Info: Figures/chapter1_Figure/HiggsProduction.jpg  used on i
+nput line 376.
+(pdftex.def)             Requested size: 303.53267pt x 185.15195pt.
+<Figures/chapter1_Figure/Higgs_XS_7TeV.pdf, id=358, 569.12625pt x 408.52625pt>
+File: Figures/chapter1_Figure/Higgs_XS_7TeV.pdf Graphic file (type pdf)
+<use Figures/chapter1_Figure/Higgs_XS_7TeV.pdf>
+Package pdftex.def Info: Figures/chapter1_Figure/Higgs_XS_7TeV.pdf  used on inp
+ut line 384.
+(pdftex.def)             Requested size: 260.17465pt x 186.76491pt.
+<Figures/chapter1_Figure/Higgs_XS_8TeV.pdf, id=359, 569.12625pt x 408.52625pt>
+File: Figures/chapter1_Figure/Higgs_XS_8TeV.pdf Graphic file (type pdf)
+<use Figures/chapter1_Figure/Higgs_XS_8TeV.pdf>
+Package pdftex.def Info: Figures/chapter1_Figure/Higgs_XS_8TeV.pdf  used on inp
+ut line 385.
+(pdftex.def)             Requested size: 260.17465pt x 186.76491pt.
+<Figures/chapter1_Figure/plot_13tev_BSM_aa.pdf, id=360, 569.12625pt x 410.53375
+pt>
+File: Figures/chapter1_Figure/plot_13tev_BSM_aa.pdf Graphic file (type pdf)
+<use Figures/chapter1_Figure/plot_13tev_BSM_aa.pdf>
+Package pdftex.def Info: Figures/chapter1_Figure/plot_13tev_BSM_aa.pdf  used on
+ input line 386.
+(pdftex.def)             Requested size: 260.17465pt x 187.68266pt.
+<Figures/chapter1_Figure/Escan_h125.pdf, id=361, 569.12625pt x 547.04375pt>
+File: Figures/chapter1_Figure/Escan_h125.pdf Graphic file (type pdf)
+<use Figures/chapter1_Figure/Escan_h125.pdf>
+Package pdftex.def Info: Figures/chapter1_Figure/Escan_h125.pdf  used on input 
+line 393.
+(pdftex.def)             Requested size: 260.17465pt x 250.09059pt.
+[11]
+
+LaTeX Warning: Citation 'Referenceb' on page 12 undefined on input line 400.
+
+
+LaTeX Warning: Citation 'Referenceb' on page 12 undefined on input line 412.
+
+
+Overfull \hbox (24.75175pt too wide) in paragraph at lines 408--415
+\T1/ppl/m/n/12 mode, two $\OML/cmm/m/it/12 W[]$ \T1/ppl/m/n/12 or $\OML/cmm/m/i
+t/12 Z$ \T1/ppl/m/n/12 bo-son fu-sion cre-ate Higgs that have been emit-ted by 
+a (anti)fermion
+ []
+
+[12 <./Figures/chapter1_Figure/HiggsProduction.jpg>] [13 <./Figures/chapter1_Fi
+gure/Higgs_XS_7TeV.pdf> <./Figures/chapter1_Figure/Higgs_XS_8TeV.pdf, page is r
+otated 90 degrees> <./Figures/chapter1_Figure/plot_13tev_BSM_aa.pdf, page is ro
+tated 90 degrees>]
+
+LaTeX Warning: Citation 'Referenceb' on page 14 undefined on input line 440.
+
+[14 <./Figures/chapter1_Figure/Escan_h125.pdf, page is rotated 90 degrees>]
+
+LaTeX Warning: Citation 'Referenceb' on page 15 undefined on input line 445.
+
+
+Overfull \hbox (25.04439pt too wide) in paragraph at lines 448--457
+[][]
+ []
+
+
+LaTeX Warning: Citation 'Referenceb' on page 15 undefined on input line 465.
+
+
+LaTeX Warning: Citation 'Reference13' on page 15 undefined on input line 468.
+
+
+LaTeX Warning: Citation 'Reference14' on page 15 undefined on input line 468.
+
+
+LaTeX Warning: Citation 'Reference15' on page 15 undefined on input line 468.
+
+[15]
+
+LaTeX Warning: Citation 'Referenceb' on page 16 undefined on input line 481.
+
+<Figures/chapter1_Figure/Higgs_BR_LM.pdf, id=540, 569.12625pt x 546.04pt>
+File: Figures/chapter1_Figure/Higgs_BR_LM.pdf Graphic file (type pdf)
+<use Figures/chapter1_Figure/Higgs_BR_LM.pdf>
+Package pdftex.def Info: Figures/chapter1_Figure/Higgs_BR_LM.pdf  used on input
+ line 484.
+(pdftex.def)             Requested size: 260.17465pt x 249.63171pt.
+<Figures/chapter1_Figure/XSBR_7TeV_SM_LM.pdf, id=541, 569.12625pt x 548.0475pt>
+
+File: Figures/chapter1_Figure/XSBR_7TeV_SM_LM.pdf Graphic file (type pdf)
+<use Figures/chapter1_Figure/XSBR_7TeV_SM_LM.pdf>
+Package pdftex.def Info: Figures/chapter1_Figure/XSBR_7TeV_SM_LM.pdf  used on i
+nput line 492.
+(pdftex.def)             Requested size: 216.81pt x 208.77869pt.
+<Figures/chapter1_Figure/XSBR_8TeV_SM_LM.pdf, id=542, 569.12625pt x 549.05125pt
+>
+File: Figures/chapter1_Figure/XSBR_8TeV_SM_LM.pdf Graphic file (type pdf)
+<use Figures/chapter1_Figure/XSBR_8TeV_SM_LM.pdf>
+Package pdftex.def Info: Figures/chapter1_Figure/XSBR_8TeV_SM_LM.pdf  used on i
+nput line 495.
+(pdftex.def)             Requested size: 216.81pt x 209.16107pt.
+
+Overfull \hbox (2.28001pt too wide) in paragraph at lines 491--497
+[]$[]$ $[]$ 
+ []
+
+
+LaTeX Warning: Citation 'Reference16' on page 16 undefined on input line 503.
+
+[16 <./Figures/chapter1_Figure/Higgs_BR_LM.pdf>]
+
+LaTeX Warning: Citation 'Reference2' on page 17 undefined on input line 509.
+
+
+LaTeX Warning: Citation 'Reference3' on page 17 undefined on input line 509.
+
+
+LaTeX Warning: Citation 'Reference4' on page 17 undefined on input line 509.
+
+
+LaTeX Warning: Citation 'Reference5' on page 17 undefined on input line 509.
+
+
+LaTeX Warning: Citation 'Reference17' on page 17 undefined on input line 513.
+
+
+LaTeX Warning: Citation 'Reference18' on page 17 undefined on input line 513.
+
+
+LaTeX Warning: Citation 'Reference18' on page 17 undefined on input line 518.
+
+
+Overfull \hbox (6.13844pt too wide) in paragraph at lines 511--519
+\T1/ppl/m/n/12 deeper look into $\OML/cmm/m/it/12 W; Z$ \T1/ppl/m/n/12 fur-ther
+ de-cays, their pre-cise mass mea-sure-ment [[],
+ []
+
+
+Overfull \hbox (35.38281pt too wide) in paragraph at lines 511--519
+[]\T1/ppl/m/n/12 ]. LEP was equipped with four de-tec-tors around the ring; ALE
+PH(Apparatus
+ []
+
+
+Overfull \hbox (2.11877pt too wide) in paragraph at lines 511--519
+\T1/ppl/m/n/12 for LEP Physics), DEL-PHI (De-tec-tor with Lep-ton and Hadron Id
+en-ti-fi-ca-tion), OPAL
+ []
+
+
+LaTeX Warning: Citation 'Reference19' on page 17 undefined on input line 519.
+
+
+LaTeX Warning: Citation 'Reference20' on page 17 undefined on input line 525.
+
+
+LaTeX Warning: Citation 'Reference21' on page 17 undefined on input line 525.
+
+
+LaTeX Warning: Citation 'Reference22' on page 17 undefined on input line 527.
+
+
+LaTeX Warning: Citation 'Reference23' on page 17 undefined on input line 527.
+
+
+LaTeX Warning: Citation 'Reference24' on page 17 undefined on input line 527.
+
+
+LaTeX Warning: Citation 'Reference25' on page 17 undefined on input line 527.
+
+
+Overfull \hbox (9.77267pt too wide) in paragraph at lines 519--528
+[]\T1/ppl/m/n/12 Around 2000, Large Hadron Col-lider [[]] at CERN con-struc-tio
+n started
+ []
+
+
+Overfull \hbox (3.91867pt too wide) in paragraph at lines 519--528
+\T1/ppl/m/n/12 (Com-pact Muon Solenoid), AL-ICE (A Large Ion Col-lider Ex-per-i
+-ment), LHCb (Large
+ []
+
+[17 <./Figures/chapter1_Figure/XSBR_7TeV_SM_LM.pdf> <./Figures/chapter1_Figure/
+XSBR_8TeV_SM_LM.pdf>]
+
+LaTeX Warning: Citation 'Reference26' on page 18 undefined on input line 532.
+
+
+LaTeX Warning: Citation 'Reference27' on page 18 undefined on input line 536.
+
+[18]) [19] [20
+
+
+]
+1: section
+[21] [22]
 
 LaTeX Warning: Empty bibliography on input line 403.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 408.
-
-Package scrlayer-scrpage Warning: \headheight to low.
-(scrlayer-scrpage)                At least 28.99998pt needed,
-(scrlayer-scrpage)                but only 14.5pt found.
-(scrlayer-scrpage)                I'll enlarge \headheight, for further
-(scrlayer-scrpage)                processing, but you should do this yourself,
-(scrlayer-scrpage)                e.g., setting geometry's option
-(scrlayer-scrpage)                `head=28.99998pt'.
-(scrlayer-scrpage)                I'll also decrease \topmargin on input line 4
-08.
-
-
-Overfull \vbox (14.49998pt too high) has occurred while \output is active []
-
-
-[3] [4 <./Plots/pT4l_unfoldwith_SM_125_logscale_constrained.pdf, page is rotate
-d 90 degrees> <./Plots/massZ2_unfoldwith_SM_125_logscale_constrained.pdf, page 
-is rotated 90 degrees> <./Plots/rapidity4l_unfoldwith_SM_125_constrained.pdf, p
-age is rotated 90 degrees> <./Plots/cosThetaStar_unfoldwith_SM_125_constrained.
-pdf, page is rotated 90 degrees> <./Plots/njets_reco_pt30_eta4p7_unfoldwith_SM_
-125_logscale_constrained.pdf, page is rotated 90 degrees>]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 408.
- (./main.aux)
+(./main.aux (./Chapters/introduction.aux) (./Chapters/Chapter_1.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 408.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 408.
 
@@ -2247,40 +2589,57 @@ Package rerunfilecheck Warning: File `main.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: E81B1358FE2D048E595034B0158A8AF9;510
-(rerunfilecheck)             After:  A9FA0FD488B25144CF96C6A4B26CAC37;717.
+(rerunfilecheck)             Before: D8DA75502F7C4F10B7AA2E7A82EDD2A8;4995
+(rerunfilecheck)             After:  5E0FD0B26E9C9DC4DF8D3A6E9ED184EE;4522.
 
 LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
+
+Package biblatex Warning: Please (re)run BibTeX on the file(s):
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35269 strings out of 492982
- 701743 string characters out of 6134896
- 924980 words of memory out of 5000000
- 38407 multiletter control sequences out of 15000+600000
- 570705 words of font info for 97 fonts, out of 8000000 for 9000
+ 35617 strings out of 492982
+ 708244 string characters out of 6134896
+ 932980 words of memory out of 5000000
+ 38658 multiletter control sequences out of 15000+600000
+ 567977 words of font info for 88 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,20n,76p,10377b,1932s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/upl
-b8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (14 pages, 223126 bytes).
+ 57i,20n,82p,10377b,1946s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{figure.caption.68} has been referenced but does n
+ot exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.67} has been referenced but does not exist,
+ replaced by a fixed one
+
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw
+/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/up
+lr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on main.pdf (34 pages, 675650 bytes).
 PDF statistics:
- 375 PDF objects out of 1000 (max. 8388607)
- 215 compressed objects within 3 object streams
- 27 named destinations out of 1000 (max. 500000)
- 55 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 692 PDF objects out of 1000 (max. 8388607)
+ 531 compressed objects within 6 object streams
+ 103 named destinations out of 1000 (max. 500000)
+ 269 words of extra memory for PDF output out of 10000 (max. 10000000)
 
