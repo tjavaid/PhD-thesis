@@ -184,8 +184,8 @@ headsepline, % Uncomment to get a line under the header
 \hypersetup{pdfauthor=\authorname} % Set the PDF's author to your name
 \hypersetup{pdfkeywords=\keywordnames} % Set the PDF's keywords to your keywords
 \begin{document}
-%\bibliography{example.bib} 
-%\bibliographystyle{plain}
+\bibliography{example.bib} 
+\bibliographystyle{plain}
 \frontmatter % Use roman page numbering style (i, ii, iii, iv...) for the pre-content pages
 \pagestyle{plain} % Default to the plain heading style until the thesis style is called for the body content
 %----------------------------------------------------------------------------------------
@@ -314,8 +314,8 @@ headsepline, % Uncomment to get a line under the header
 % Include the chapters of the thesis as separate files from the Chapters folder
 % Uncomment the lines as you write the chapters
 
-\include{Chapters/introduction}
-\include{Chapters/Chapter_1}
+%\include{Chapters/introduction}
+%\include{Chapters/Chapter_1}
 %\include{Chapters/Chapter_2}  % initial draft ready 06.03.2020
 %\include{Chapters/Chapter_3}  % initial draft ready 02.03.2020
 %\chapter{Probing four lepton final-state for Higgs Cross section measurement}\label{Chapter4}
@@ -390,7 +390,7 @@ headsepline, % Uncomment to get a line under the header
 %\clearpage
 %\input{Appendix/FixFrac} \label{app:fixfrac}
 %\clearpage
-\input{Appendix/RestrictiveModelDep} \label{app:restrictive_md}
+%\input{Appendix/RestrictiveModelDep} \label{app:restrictive_md}
 %\clearpage
 %\input{Appendix/AlternateAsimov} \label{app:alternateasimov}
 %\clearpage

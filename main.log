@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.28)  18 JUN 2020 21:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.28)  20 JUN 2020 15:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1746,15 +1746,7 @@ File: english.lbx 2017/12/19 v3.10 biblatex localization (PK/JW/AB)
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
  (./main.aux
-(./Chapters/introduction.aux) (./Chapters/Chapter_1.aux)
-
-LaTeX Warning: Label `fig:differential-results-fixfrac:b' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:differential-results-fixfrac:b' multiply defined.
-
-
-)
+(./Chapters/introduction.aux) (./Chapters/Chapter_1.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 186.
@@ -1838,7 +1830,8 @@ LaTeX Font Info:    ... okay on input line 186.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 186.
 LaTeX Font Info:    ... okay on input line 186.
 LaTeX Font Info:    Try loading font information for T1+ppl on input line 186.
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ppl.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
 Now handling font encoding TS1 ...
@@ -2116,7 +2109,7 @@ l.188 \bibliographystyle{plain}
 1: section
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 200.
-<Figures/Logo.jpg, id=121, 226.8475pt x 223.83624pt>
+<Figures/Logo.jpg, id=117, 226.8475pt x 223.83624pt>
 File: Figures/Logo.jpg Graphic file (type jpg)
 <use Figures/Logo.jpg>
 Package pdftex.def Info: Figures/Logo.jpg  used on input line 223.
@@ -2144,12 +2137,7 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
 1: section
 [3] [4
 
-] (./main.lof
-
-LaTeX Warning: Reference `sec:totalZZXSecSyst' on page v undefined on input lin
-e 13.
-
-)
+] (./main.lof)
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
@@ -2314,7 +2302,7 @@ Overfull \hbox (2.9086pt too wide) in paragraph at lines 32--50
  [] 
  []
 
-<Figures/chapter1_Figure/Standard_Model_of_Elementary_Particles.png, id=270, 80
+<Figures/chapter1_Figure/Standard_Model_of_Elementary_Particles.png, id=250, 80
 3.0pt x 603.25375pt>
 File: Figures/chapter1_Figure/Standard_Model_of_Elementary_Particles.png Graphi
 c file (type png)
@@ -2322,7 +2310,7 @@ c file (type png)
 Package pdftex.def Info: Figures/chapter1_Figure/Standard_Model_of_Elementary_P
 articles.png  used on input line 77.
 (pdftex.def)             Requested size: 346.89732pt x 260.6091pt.
-<Figures/chapter1_Figure/Annihilation_of_a_Positron_Electron_pair.png, id=273, 
+<Figures/chapter1_Figure/Annihilation_of_a_Positron_Electron_pair.png, id=253, 
 569.12625pt x 569.12625pt>
 File: Figures/chapter1_Figure/Annihilation_of_a_Positron_Electron_pair.png Grap
 hic file (type png)
@@ -2370,7 +2358,7 @@ LaTeX Warning: Citation 'Reference11' on page 7 undefined on input line 158.
 LaTeX Warning: Citation 'Reference12' on page 7 undefined on input line 158.
 
 [7]
-<Figures/chapter1_Figure/higgs_potential.jpg, id=311, 486.81876pt x 300.12125pt
+<Figures/chapter1_Figure/higgs_potential.jpg, id=290, 486.81876pt x 300.12125pt
 >
 File: Figures/chapter1_Figure/higgs_potential.jpg Graphic file (type jpg)
 <use Figures/chapter1_Figure/higgs_potential.jpg>
@@ -2379,100 +2367,98 @@ nput line 209.
 (pdftex.def)             Requested size: 260.17465pt x 160.39612pt.
  [8 <./Figures/chapter1_Figure/higgs_potential.jpg>] [9] [10]
 
-LaTeX Warning: Citation 'Referenceb' on page 11 undefined on input line 373.
+LaTeX Warning: Citation 'Referenceb' on page 11 undefined on input line 375.
 
-<Figures/chapter1_Figure/HiggsProduction.jpg, id=357, 584.1825pt x 356.33125pt>
+<Figures/chapter1_Figure/HiggsProduction.jpg, id=337, 584.1825pt x 356.33125pt>
 
 File: Figures/chapter1_Figure/HiggsProduction.jpg Graphic file (type jpg)
 <use Figures/chapter1_Figure/HiggsProduction.jpg>
 Package pdftex.def Info: Figures/chapter1_Figure/HiggsProduction.jpg  used on i
-nput line 376.
+nput line 378.
 (pdftex.def)             Requested size: 303.53267pt x 185.15195pt.
-<Figures/chapter1_Figure/Higgs_XS_7TeV.pdf, id=358, 569.12625pt x 408.52625pt>
+<Figures/chapter1_Figure/Higgs_XS_7TeV.pdf, id=338, 569.12625pt x 408.52625pt>
 File: Figures/chapter1_Figure/Higgs_XS_7TeV.pdf Graphic file (type pdf)
 <use Figures/chapter1_Figure/Higgs_XS_7TeV.pdf>
 Package pdftex.def Info: Figures/chapter1_Figure/Higgs_XS_7TeV.pdf  used on inp
-ut line 384.
+ut line 386.
 (pdftex.def)             Requested size: 260.17465pt x 186.76491pt.
-<Figures/chapter1_Figure/Higgs_XS_8TeV.pdf, id=359, 569.12625pt x 408.52625pt>
+<Figures/chapter1_Figure/Higgs_XS_8TeV.pdf, id=339, 569.12625pt x 408.52625pt>
 File: Figures/chapter1_Figure/Higgs_XS_8TeV.pdf Graphic file (type pdf)
 <use Figures/chapter1_Figure/Higgs_XS_8TeV.pdf>
 Package pdftex.def Info: Figures/chapter1_Figure/Higgs_XS_8TeV.pdf  used on inp
-ut line 385.
+ut line 387.
 (pdftex.def)             Requested size: 260.17465pt x 186.76491pt.
-<Figures/chapter1_Figure/plot_13tev_BSM_aa.pdf, id=360, 569.12625pt x 410.53375
+<Figures/chapter1_Figure/plot_13tev_BSM_aa.pdf, id=340, 569.12625pt x 410.53375
 pt>
 File: Figures/chapter1_Figure/plot_13tev_BSM_aa.pdf Graphic file (type pdf)
 <use Figures/chapter1_Figure/plot_13tev_BSM_aa.pdf>
 Package pdftex.def Info: Figures/chapter1_Figure/plot_13tev_BSM_aa.pdf  used on
- input line 386.
+ input line 388.
 (pdftex.def)             Requested size: 260.17465pt x 187.68266pt.
-<Figures/chapter1_Figure/Escan_h125.pdf, id=361, 569.12625pt x 547.04375pt>
+<Figures/chapter1_Figure/Escan_h125.pdf, id=341, 569.12625pt x 547.04375pt>
 File: Figures/chapter1_Figure/Escan_h125.pdf Graphic file (type pdf)
 <use Figures/chapter1_Figure/Escan_h125.pdf>
 Package pdftex.def Info: Figures/chapter1_Figure/Escan_h125.pdf  used on input 
-line 393.
+line 395.
 (pdftex.def)             Requested size: 260.17465pt x 250.09059pt.
 [11]
 
-LaTeX Warning: Citation 'Referenceb' on page 12 undefined on input line 400.
+LaTeX Warning: Citation 'Referenceb' on page 12 undefined on input line 403.
 
 
-LaTeX Warning: Citation 'Referenceb' on page 12 undefined on input line 412.
-
-
-Overfull \hbox (24.75175pt too wide) in paragraph at lines 408--415
-\T1/ppl/m/n/12 mode, two $\OML/cmm/m/it/12 W[]$ \T1/ppl/m/n/12 or $\OML/cmm/m/i
-t/12 Z$ \T1/ppl/m/n/12 bo-son fu-sion cre-ate Higgs that have been emit-ted by 
-a (anti)fermion
- []
+LaTeX Warning: Citation 'Referenceb' on page 12 undefined on input line 413.
 
 [12 <./Figures/chapter1_Figure/HiggsProduction.jpg>] [13 <./Figures/chapter1_Fi
 gure/Higgs_XS_7TeV.pdf> <./Figures/chapter1_Figure/Higgs_XS_8TeV.pdf, page is r
 otated 90 degrees> <./Figures/chapter1_Figure/plot_13tev_BSM_aa.pdf, page is ro
 tated 90 degrees>]
 
-LaTeX Warning: Citation 'Referenceb' on page 14 undefined on input line 440.
+LaTeX Warning: Citation 'Referenceb' on page 14 undefined on input line 439.
+
+
+Overfull \hbox (17.31883pt too wide) in paragraph at lines 434--440
+\T1/ppl/m/n/12 Such pro-duc-tion of Higgs is known as $\OML/cmm/m/it/12 HiggsSt
+rahlung$ \T1/ppl/m/n/12 as il-lus-trated in Fig-ure [][]2.4[][] (bot-
+ []
 
 [14 <./Figures/chapter1_Figure/Escan_h125.pdf, page is rotated 90 degrees>]
 
-LaTeX Warning: Citation 'Referenceb' on page 15 undefined on input line 445.
+LaTeX Warning: Citation 'Referenceb' on page 15 undefined on input line 444.
 
 
-Overfull \hbox (25.04439pt too wide) in paragraph at lines 448--457
+Overfull \hbox (25.04439pt too wide) in paragraph at lines 447--456
 [][]
  []
 
 
-LaTeX Warning: Citation 'Referenceb' on page 15 undefined on input line 465.
+LaTeX Warning: Citation 'Referenceb' on page 15 undefined on input line 467.
 
 
-LaTeX Warning: Citation 'Reference13' on page 15 undefined on input line 468.
+LaTeX Warning: Citation 'Reference13' on page 15 undefined on input line 470.
 
 
-LaTeX Warning: Citation 'Reference14' on page 15 undefined on input line 468.
+LaTeX Warning: Citation 'Reference14' on page 15 undefined on input line 470.
 
 
-LaTeX Warning: Citation 'Reference15' on page 15 undefined on input line 468.
+LaTeX Warning: Citation 'Reference15' on page 15 undefined on input line 470.
 
-[15]
 
-LaTeX Warning: Citation 'Referenceb' on page 16 undefined on input line 481.
+LaTeX Warning: Citation 'Referenceb' on page 15 undefined on input line 481.
 
-<Figures/chapter1_Figure/Higgs_BR_LM.pdf, id=540, 569.12625pt x 546.04pt>
+<Figures/chapter1_Figure/Higgs_BR_LM.pdf, id=516, 569.12625pt x 546.04pt>
 File: Figures/chapter1_Figure/Higgs_BR_LM.pdf Graphic file (type pdf)
 <use Figures/chapter1_Figure/Higgs_BR_LM.pdf>
 Package pdftex.def Info: Figures/chapter1_Figure/Higgs_BR_LM.pdf  used on input
  line 484.
 (pdftex.def)             Requested size: 260.17465pt x 249.63171pt.
-<Figures/chapter1_Figure/XSBR_7TeV_SM_LM.pdf, id=541, 569.12625pt x 548.0475pt>
+<Figures/chapter1_Figure/XSBR_7TeV_SM_LM.pdf, id=517, 569.12625pt x 548.0475pt>
 
 File: Figures/chapter1_Figure/XSBR_7TeV_SM_LM.pdf Graphic file (type pdf)
 <use Figures/chapter1_Figure/XSBR_7TeV_SM_LM.pdf>
 Package pdftex.def Info: Figures/chapter1_Figure/XSBR_7TeV_SM_LM.pdf  used on i
 nput line 492.
 (pdftex.def)             Requested size: 216.81pt x 208.77869pt.
-<Figures/chapter1_Figure/XSBR_8TeV_SM_LM.pdf, id=542, 569.12625pt x 549.05125pt
+<Figures/chapter1_Figure/XSBR_8TeV_SM_LM.pdf, id=518, 569.12625pt x 549.05125pt
 >
 File: Figures/chapter1_Figure/XSBR_8TeV_SM_LM.pdf Graphic file (type pdf)
 <use Figures/chapter1_Figure/XSBR_8TeV_SM_LM.pdf>
@@ -2484,22 +2470,23 @@ Overfull \hbox (2.28001pt too wide) in paragraph at lines 491--497
 []$[]$ $[]$ 
  []
 
+[15]
 
 LaTeX Warning: Citation 'Reference16' on page 16 undefined on input line 503.
 
+
+LaTeX Warning: Citation 'Reference2' on page 16 undefined on input line 509.
+
+
+LaTeX Warning: Citation 'Reference3' on page 16 undefined on input line 509.
+
+
+LaTeX Warning: Citation 'Reference4' on page 16 undefined on input line 509.
+
+
+LaTeX Warning: Citation 'Reference5' on page 16 undefined on input line 509.
+
 [16 <./Figures/chapter1_Figure/Higgs_BR_LM.pdf>]
-
-LaTeX Warning: Citation 'Reference2' on page 17 undefined on input line 509.
-
-
-LaTeX Warning: Citation 'Reference3' on page 17 undefined on input line 509.
-
-
-LaTeX Warning: Citation 'Reference4' on page 17 undefined on input line 509.
-
-
-LaTeX Warning: Citation 'Reference5' on page 17 undefined on input line 509.
-
 
 LaTeX Warning: Citation 'Reference17' on page 17 undefined on input line 513.
 
@@ -2507,73 +2494,48 @@ LaTeX Warning: Citation 'Reference17' on page 17 undefined on input line 513.
 LaTeX Warning: Citation 'Reference18' on page 17 undefined on input line 513.
 
 
-LaTeX Warning: Citation 'Reference18' on page 17 undefined on input line 518.
+LaTeX Warning: Citation 'Reference18' on page 17 undefined on input line 516.
 
 
-Overfull \hbox (6.13844pt too wide) in paragraph at lines 511--519
-\T1/ppl/m/n/12 deeper look into $\OML/cmm/m/it/12 W; Z$ \T1/ppl/m/n/12 fur-ther
- de-cays, their pre-cise mass mea-sure-ment [[],
- []
+LaTeX Warning: Citation 'Reference19' on page 17 undefined on input line 517.
 
 
-Overfull \hbox (35.38281pt too wide) in paragraph at lines 511--519
-[]\T1/ppl/m/n/12 ]. LEP was equipped with four de-tec-tors around the ring; ALE
-PH(Apparatus
- []
+LaTeX Warning: Citation 'Reference20' on page 17 undefined on input line 518.
 
 
-Overfull \hbox (2.11877pt too wide) in paragraph at lines 511--519
-\T1/ppl/m/n/12 for LEP Physics), DEL-PHI (De-tec-tor with Lep-ton and Hadron Id
-en-ti-fi-ca-tion), OPAL
- []
+LaTeX Warning: Citation 'Reference21' on page 17 undefined on input line 518.
 
 
-LaTeX Warning: Citation 'Reference19' on page 17 undefined on input line 519.
+LaTeX Warning: Citation 'Reference22' on page 17 undefined on input line 520.
 
 
-LaTeX Warning: Citation 'Reference20' on page 17 undefined on input line 525.
+LaTeX Warning: Citation 'Reference23' on page 17 undefined on input line 520.
 
 
-LaTeX Warning: Citation 'Reference21' on page 17 undefined on input line 525.
+LaTeX Warning: Citation 'Reference24' on page 17 undefined on input line 520.
 
 
-LaTeX Warning: Citation 'Reference22' on page 17 undefined on input line 527.
+LaTeX Warning: Citation 'Reference25' on page 17 undefined on input line 520.
 
 
-LaTeX Warning: Citation 'Reference23' on page 17 undefined on input line 527.
-
-
-LaTeX Warning: Citation 'Reference24' on page 17 undefined on input line 527.
-
-
-LaTeX Warning: Citation 'Reference25' on page 17 undefined on input line 527.
-
-
-Overfull \hbox (9.77267pt too wide) in paragraph at lines 519--528
-[]\T1/ppl/m/n/12 Around 2000, Large Hadron Col-lider [[]] at CERN con-struc-tio
-n started
- []
-
-
-Overfull \hbox (3.91867pt too wide) in paragraph at lines 519--528
+Overfull \hbox (3.91867pt too wide) in paragraph at lines 517--521
 \T1/ppl/m/n/12 (Com-pact Muon Solenoid), AL-ICE (A Large Ion Col-lider Ex-per-i
 -ment), LHCb (Large
  []
 
+
+LaTeX Warning: Citation 'Reference26' on page 17 undefined on input line 525.
+
+
+LaTeX Warning: Citation 'Reference27' on page 17 undefined on input line 529.
+
 [17 <./Figures/chapter1_Figure/XSBR_7TeV_SM_LM.pdf> <./Figures/chapter1_Figure/
-XSBR_8TeV_SM_LM.pdf>]
-
-LaTeX Warning: Citation 'Reference26' on page 18 undefined on input line 532.
-
-
-LaTeX Warning: Citation 'Reference27' on page 18 undefined on input line 536.
-
-[18]) [19] [20
-
-
-]
+XSBR_8TeV_SM_LM.pdf>] [18]) [19] [20]
 1: section
-[21] [22]
+[21
+
+
+] [22]
 
 LaTeX Warning: Empty bibliography on input line 403.
 
@@ -2582,20 +2544,11 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 408.
 (./main.aux (./Chapters/introduction.aux) (./Chapters/Chapter_1.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 408.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 408.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 9223DCBECD842F0D87301688D3523931;4731.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: D8DA75502F7C4F10B7AA2E7A82EDD2A8;4995
-(rerunfilecheck)             After:  5E0FD0B26E9C9DC4DF8D3A6E9ED184EE;4522.
 
 LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
 
 
 Package biblatex Warning: Please (re)run BibTeX on the file(s):
@@ -2607,39 +2560,33 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35617 strings out of 492982
- 708244 string characters out of 6134896
- 932980 words of memory out of 5000000
- 38658 multiletter control sequences out of 15000+600000
- 567977 words of font info for 88 fonts, out of 8000000 for 9000
+ 35602 strings out of 492982
+ 707813 string characters out of 6134896
+ 931980 words of memory out of 5000000
+ 38646 multiletter control sequences out of 15000+600000
+ 567302 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,20n,82p,10377b,1946s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{figure.caption.68} has been referenced but does n
-ot exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.67} has been referenced but does not exist,
- replaced by a fixed one
-
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
-10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw
-/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/up
-lr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (34 pages, 675650 bytes).
+ 57i,20n,81p,10377b,1946s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/u
+rw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/
+uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on main.pdf (34 pages, 674157 bytes).
 PDF statistics:
- 692 PDF objects out of 1000 (max. 8388607)
- 531 compressed objects within 6 object streams
- 103 named destinations out of 1000 (max. 500000)
- 269 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 671 PDF objects out of 1000 (max. 8388607)
+ 510 compressed objects within 6 object streams
+ 101 named destinations out of 1000 (max. 500000)
+ 261 words of extra memory for PDF output out of 10000 (max. 10000000)
 

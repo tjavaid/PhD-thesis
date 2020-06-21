@@ -9,13 +9,13 @@
 \contentsline {subsection}{\numberline {2.2.1}Fundamental Particles}{3}{subsection.9}
 \contentsline {subsection}{\numberline {2.2.2}Fundamental Interactions}{4}{subsection.13}
 \contentsline {section}{\numberline {2.3}The Brout-Englert-Higgs Mechanism (BEH)}{7}{section.18}
-\contentsline {subsection}{\numberline {2.3.1}Vector Boson Masses and Couplings}{9}{subsection.29}
+\contentsline {subsection}{\numberline {2.3.1}Masses and Couplings of Vector Bosons}{9}{subsection.29}
 \contentsline {subsection}{\numberline {2.3.2}Fermions Masses and Couplings}{10}{subsection.35}
-\contentsline {section}{\numberline {2.4}Production and Decay of the Higgs Boson }{11}{section.43}
-\contentsline {subsection}{\numberline {2.4.1}Higgs Production}{12}{subsection.44}
+\contentsline {section}{\numberline {2.4}Higgs boson Production and its Decay }{11}{section.43}
+\contentsline {subsection}{\numberline {2.4.1}Higgs boson Production}{12}{subsection.44}
 \contentsline {subsubsection}{Gluon-gluon Fusion }{12}{section*.48}
-\contentsline {subsubsection}{Vector Boson Fusion }{14}{section*.49}
-\contentsline {subsubsection}{W and Z Associated Production}{15}{section*.51}
+\contentsline {subsubsection}{Vector Boson Fusion (VBF)}{12}{section*.49}
+\contentsline {subsubsection}{Production of Higgs in association with W and Z bosons}{14}{section*.51}
 \contentsline {subsubsection}{Top Fusion}{15}{section*.52}
 \contentsline {subsection}{\numberline {2.4.2}Higgs Decay}{15}{subsection.54}
 \contentsline {section}{\numberline {2.5}Experimental Observations}{16}{section.57}
