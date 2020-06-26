@@ -2,7 +2,6 @@
 \babel@toc {english}{}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {2.1}{\ignorespaces Generations, charge and interaction types of quarks and leptons.\relax }}{4}{table.caption.10}
-\contentsline {table}{\numberline {2.2}{\ignorespaces Gauge bosons and their masses, coupling constants and interaction ranges for the three forces of the SM\relax }}{4}{table.caption.12}
-\contentsline {table}{\numberline {2.3}{\ignorespaces Higgs boson production cross sections in pb for different Higgs masses and center-of-mass energies by ggH and VBF productions mechanism at LHC.\relax }}{14}{table.caption.50}
-\contentsline {table}{\numberline {2.4}{\ignorespaces Higgs boson production cross section in pb for different Higgs masses and center-of-mass energies by associative productions mechanism at LHC.\relax }}{15}{table.caption.53}
+\contentsline {table}{\numberline {2.1}{\ignorespaces Number of observed candidates, expected background and the signal events passing all selections in mass range $m_{4\ell } > 70 \GeV $ corresponding to three different years. Z+X is estimated by control regions in the data while ZZ and signal events are estimated using MC simulation. \relax }}{9}{table.caption.27}
+\contentsline {table}{\numberline {2.2}{\ignorespaces Overview of all requirements utilized to define the fiducial phase space. \relax }}{12}{table.caption.30}
+\contentsline {table}{\numberline {2.3}{\ignorespaces Summary of different SM signal models. The MC samples are from full Run 2 yearly productions (2016, 2017 and 2018) assuming $m_{\rm H} = 125.0\GeV $. The fiducial acceptance ($\mathcal {A}_{\rm fid}$) defined the fraction of events passing fiducial phase space selections, reconstruction efficiency ($\epsilon $) represented by the ratio of reconstructed to accepted events. Also, $f_{\rm nonfid}$ which are reconstructed events but does not pass fiducial phase space definition at generator level. Values are obtained using 13~TeV signal models and the uncertainties shown are only statistical uncertainties. \relax }}{13}{table.caption.31}

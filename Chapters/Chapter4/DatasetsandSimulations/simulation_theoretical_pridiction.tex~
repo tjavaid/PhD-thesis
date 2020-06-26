@@ -1,40 +1,53 @@
-The SM Higgs boson production by gluon fusion ($\ggH$) process  descriptions (Figure ) are acquired using the
-{\sc HRes}~\cite{deFlorian:2012mx, Grazzini:2013mca}, {\sc powheg minlo-HJ}~\cite{Hamilton:2012np} and {\sc powheg V2}~\cite{powheg, powhegvv} generators.
-The $\ggH$ process description at next-to-next-to-leading order  (NNLO) accuracy in perturbative QCD and next-to-next-to-leading logarithmic (NNLL) accuracy
-in resummation of soft-gluon effects at small transverse  momenta  is obtained by partonic level MC generator {\sc HRes}. The inclusive jet associated
-activity predictions of fiducial cross section is attained by {\sc HRes} because the resummation is inclusive over the QCD radiation recoiling against 
-the Higgs boson. {\sc HRes} predictions are obtained using the central values for the factorization and normalization scales to be $m_H = 125$~GeV.
-The partonic level matrix-element generator, the {\sc powheg}, provides  perturbative QCD calculations at 
-next-to-leading (NLO) accuracy with an connection to parton-shower programs. The Higgs boson production via $\ggH$ with zero associated jets can be 
-described at NLO accuracy using the {\sc powheg}. For this analysis, the $p_{T}$ spectrum of  the Higgs boson obtained by {\sc powheg} 
- has been reweighted to match closely with {\sc HRes} generator in the full phase space. 
-This factor shrinks additional jets emission in large $p_T$ region, and raises the contribution in the region where $p_T$ approaches to zero by the Sudakov
-form factor. The $\ggH$ production in association with up to one additional jets is improved to next-to-leading logarithmic (NLL) accuracy by extending
-{\sc powheg} generator to  the {\sc powheg minlo-HJ} generator based on the MiNLO  prescription~\cite{Hamilton:2012np}.
-The {\sc powheg minlo-HJ} generator provides NLO accuracy $\ggH$ production in association with zero and one additional jets and LO accuracy for 
-two jets. Finite masses of top and bottom quarks has been considered for $\ggH$ production for all generators. The SM Higgs boson production by 
+Simulations of the interesting events help us build a realistic model of experiment in high energy. It enables us for a detailed study of physics processes (signal and background). Particularly for proton-proton collisions, generation of simulated events can be separated in many stages.
+For this analysis, in particular, descriptions of the production of SM Higgs through 
+%its five main production modes $(ggH, VBF, WH, ZH and ttH)$
+process of gluon-gluon fusion (Fig. \ref{fig:ggZZ_box}) 
+are acquired using 
+%{\sc HRes}~\cite{deFlorian:2012mx, Grazzini:2013mca}, 
+%{\sc powheg minlo-HJ}~\cite{Hamilton:2012np} and 
+{\sc powheg V2}~\cite{powheg, powhegvv} generator.
+%At accuracy level of next-to-next-to-leading order and the logarithmic  (i.e. NNLO and NNLL) in perturbative QCD (pQCD), $\ggH$ process description %in resummation of soft-gluon effects at small transverse  momenta  
+At accuracy level of next-to-next-to-leading order (i.e. NNLO) in perturbative QCD (pQCD), $\ggH$ process description %in resummation of soft-gluon effects at small transverse  momenta  
+is obtained by partonic level MC generator {\sc NNLOPS}. 
+
+%The inclusive jet associated
+%activity predictions of fiducial cross section is attained by {\sc HRes} because the resummation is inclusive over the QCD radiation recoiling against 
+%the Higgs boson. {\sc HRes} predictions are obtained using the central values for the factorization and normalization scales to be $m_H = 125$~GeV.
+%The partonic level matrix-element generator, 
+The {\sc powheg}, provides  perturbative QCD calculations at next-to-leading (NLO) accuracy with an connection to parton-shower programs. Using the {\sc powheg}, Higgs production via $\ggH$ with zero associated jets can be described at accuracy level of NLO. 
+%For this analysis, the $p_{T}$ spectrum of  the Higgs boson obtained by {\sc powheg} 
+% has been reweighted to match closely with {\sc HRes} generator in the full phase space. 
+%This factor shrinks additional jets emission in large $p_T$ region, and raises the contribution in the region where $p_T$ approaches to zero by the Sudakov
+%form factor. 
+%The $\ggH$ production in association with up to one additional jets is improved to next-to-leading logarithmic (NLL) accuracy by extending
+%{\sc powheg} generator to  the {\sc powheg minlo-HJ} generator based on the MiNLO  prescription~\cite{Hamilton:2012np}.
+%The {\sc powheg minlo-HJ} generator provides NLO accuracy $\ggH$ production in association with zero and one additional jets and LO accuracy for 
+%two jets. 
+Finite masses of top and bottom quarks has been considered for $\ggH$ production for all generators. The SM Higgs boson production by 
+%
+
 \subsubsection{Signal Samples}
 Descriptions of the SM Higgs boson production are obtained using the 
-{\sc powheg V2}~\cite{Alioli:2008gx,Nason:2004rx,Frixione:2007vw} generator for the five main production modes: 
-gluon fusion ($\ggH$) including quark mass effects~\cite{Bagnaschi:2011tu}, vector boson fusion 
-(VBF)~\cite{Nason:2009ai}, and associated production (WH, $\cPZ$H and \ttbar$\,$H~\cite{Hartanto:2015uka}). 
-In the case of WH and $\cPZ$H the {\sc MiNLO HVJ} extension of {\sc powheg} is used~\cite{Luisoni:2013kna}. 
-The description of the decay of the Higgs boson to four leptons is obtained using the {\sc JHUgen} 
-generator~\cite{Gao:2010qx}. In the case of WH, $\cPZ$H and \ttbar$\,$H, the Higgs boson is allowed
-to decay to H$\to \cPZ \cPZ \to 2\ell2$X such that 4-lepton events where two leptons originate from 
-the decay of associated $\cPZ$, W bosons or top quarks are also taken into account in the simulation. 
+{\sc powheg V2}~\cite{Alioli:2008gx,Nason:2004rx,Frixione:2007vw} generator for the five main production modes (ggH, VBF, WH, ZH and ttH) as described in section \ref{chapter1_sec3} ~\cite{Bagnaschi:2011tu}, ~\cite{Nason:2009ai}, \cite{Hartanto:2015uka}, ~\cite{Luisoni:2013kna}.
+%: 
+%gluon fusion ($\ggH$) including quark mass effects~\cite{Bagnaschi:2011tu}, vector boson fusion 
+%(VBF)~\cite{Nason:2009ai}, and associated production (WH, $\cPZ$H and \ttbar$\,$H~\cite{Hartanto:2015uka}). 
+However, WH and $Z$H production modes are simulated by the {\sc MiNLO HVJ} extension of the {\sc powheg}~\cite{Luisoni:2013kna}. 
+Higgs decay to four lepton is simulated by {\sc JHUgen} generator~\cite{Gao:2010qx}. For the WH, ZH and ttH modes, Higgs is allowed
+to decay to H$\to ZZ \to 2\ell2$X such that two leptons from 4-lepton events are produced from 
+the decay of associated W, Z bosons or top quarks are included in simulation. 
 Showering of parton-level events is done using {\sc pythia8.209}, and in all cases matching is performed by  
 allowing QCD emissions at all energies in the shower and vetoing them afterwards according to the 
 {\sc powheg} internal scale. All samples are generated with the NNPDF 3.1 NLO parton distribution 
-functions (PDFs)~\cite{Ball:2014uwa}. The list of signal samples and their cross sections are shown in  
-~\ref{HIG-19-001}.
-A subset of these samples are used to asses the model dependence of the measurement results are indicated in the Table \ref{tab:Accept_Eff_fOut}.
+functions (PDFs)~\cite{Ball:2014uwa}. The list of signal samples with the corresponding cross sections are shown in \ref{HIG-19-001}.
+These samples are also used to asses model dependence of measurement results are indicated in the Table \ref{tab:Accept_Eff_fOut}.
 
 \par The MC samples generated by {\sc powheg} and  {\sc pythia8.209} are used to extract fiducial phase space acceptance and reconstruction 
-efficiencies for individual models separately as described in Section \ref{sec:FiducialVolume}. 
-These samples, along with the  samples generated 
- by using the {\sc HRes} and the {\sc powheg minlo-HJ} with alternate representation of $\ggH$ process, are utilized for the comparison of the measurement 
- results with theoretical predictions based on SM calculation in Section \ref{sec:Results}.
+efficiencies for individual models separately as explained in Section \ref{sec:FiducialVolume}. 
+These samples,  with the sample generated 
+ by using the {\sc NNLOPS}
+% and the {\sc powheg minlo-HJ} 
+with alternate representation of $\ggH$ process, are utilized for the comparison of measurement  results with the theoretical predictions based on SM calculation in Section \ref{sec:Results}.
  %%%%%%%%
 \begin{figure}[!htb]
   \begin{center}
@@ -47,14 +60,15 @@ These samples, along with the  samples generated
 %%%%%%%%
  
 \par
-All SM production modes have been produced individually to estimate the dependence of the measurements on underlying assumptions of 
-Higgs boson production mechanism. We have also simulated a wide range of samples that provide descriptions for exotic Higgs-like resonances productions and 
-their decay to the four-lepton final state to estimate the dependence of the measurements on the Higgs boson properties. These include spin-zero, spin-one
-and spin-two resonances with anomalous interactions with a pair of neutral gauge bosons ($ZZ$, $Z\gamma^{*}$, $\gamma^{*}\gamma^{*}$) described by
-higher-order operators, as discussed in details in Ref.~\cite{Khachatryan:2014kca}. The details of the method used to asses the model dependence will be
-described in Section ~\ref{sec:Systematics}. All these MC samples are produced using the {\sc powheg} 
-generator for the representation of NLO QCD effects in the production mechanisms, and {\sc JHUgen}~\cite{Gao:2010qx,Bolognesi:2012mm,Anderson:2013afp} to 
-represent the decay of these exotic resonances to four-leptons containing all spin correlations.
+All SM production modes have been produced individually to approximate the dependence of measurements on underlying assumptions of Higgs production mechanism. 
+%We have also simulated a wide range of samples that provide descriptions for exotic Higgs-like resonances productions and their decay to the four-lepton final state to estimate the dependence of the measurements on the Higgs boson properties. These include spin-zero, spin-one
+%and spin-two resonances with anomalous interactions with a pair of neutral gauge bosons ($ZZ$, $Z\gamma^{*}$, $\gamma^{*}\gamma^{*}$) described by
+%higher-order operators, as discussed in details in Ref.~\cite{Khachatryan:2014kca}. 
+The details of the method used to asses the model dependence will be
+described in Section ~\ref{sec:Systematics}. 
+All these MC samples are produced using {\sc powheg} 
+for the representation of QCD effects at NLO in Higgs production, and by using {\sc JHUgen}~\cite{Gao:2010qx,Bolognesi:2012mm,Anderson:2013afp} to 
+represent such exotic resonances decays to four-leptons containing all the spin correlations.
 \par
 %The list of Standard Model Higgs boson  samples at $\sqrt{s} = 8$~TeV with corresponding values of cross sections can be found in Table~\ref{tab:MCsamplesSig}, 
 %while all the signal MC samples studied in the analysis are listed in the Table~\ref{tab:samplesSM}. 
@@ -93,18 +107,18 @@ represent the decay of these exotic resonances to four-leptons containing all sp
 %\end{center}
 %\end{table}
 \subsubsection{Background Samples}
-For the estimations of the backgrounds using MC samples, the background process $\Pq\Paq \to \Z \Z \to 4\ell$ was generated at NLO accuracy containing
+For the estimations of the backgrounds using MC samples, the dominant process $\Pq\Paq \to \Z \Z \to 4\ell$ was generated at the NLO accuracy level containing
 s-, t- and u-channel diagrams (Figure~\ref{fig:ZZ_feynman}) using {\sc powheg V2}~\cite{Nason:2013ydw}
-and {\sc pythia8}, with the same settings as for the Higgs signal. As this simulation covers a large
-range of ZZ invariant masses, dynamical QCD factorization and renormalization
-scales have been chosen, equal to $m_{\Z\Z}$. 
+and {\sc pythia8}, with the same configurations as for the Higgs signal. 
+The dynamical renormalization and factorization scales have been chosed equal to $m_{\Z\Z}$ since the simulation covers a wide range of invariant masses of ZZ.
+%As this simulation covers a large
+%range of ZZ invariant masses, dynamical QCD factorization and renormalization
+%scales have been chosen, equal to $m_{\Z\Z}$. 
 
 The $\Pg\Pg \! \to \! ZZ$ process (Figure~\ref{fig:ZZ_feynman}) is simulated at leading order (LO) 
-with MCFM~\cite{MCFM,Campbell:2013una}. In order to match the 
-$\Pg\Pg \! \to \mathrm{H} \to \! ZZ$ transverse momentum spectra predicted 
-by {\sc powheg} at NLO, the showering for MCFM samples is performed with 
-different {\sc pythia8} settings, allowing only emissions up to the parton-level scale
-(``wimpy'' shower).
+with MCFM~\cite{MCFM,Campbell:2013una}. 
+In order to have matching in spectra of $\Pg\Pg \! \to \mathrm{H} \to \! ZZ$ as predicted at NLO by {\sc powheg}, the showering of these samples has been performed with some different {\sc pythia8} settings.
+This only allows emissions only up to parton-level scale (``wimpy'' shower).
 
 %Although not directly used to model data observations, additional 
 %MC samples of W$\cPZ$, Drell-Yan+jets, \ttbar, and tribosons are
@@ -143,33 +157,57 @@ different {\sc pythia8} settings, allowing only emissions up to the parton-level
 %%%%%%%%
 
 \par 
-The initial- and final-state radiation have been included for all events generators, which can guide to the existence 
-of extra hard photons in the event. The {\sc powheg} and {\sc JHUgen} event generators also properly take into account interference between 
-all contributing amplitudes of the $H \rightarrow 4\ell$ process, containing those affiliated to the reordering of identical leptons
-in the $4\mu$ and $4e$ final states. The set of parton distribution functions (PDF) \textsc{cteq6l}~\cite{cteq66}, \textsc{CT10}~\cite{CT10}
-and \textsc{MSTW2008}~\cite{MSTW08} are used for LO, NLO, and NNLO generators.
+The initial-state and final-state radiations are included for all events generators, which provides hints for the existence of extra (hard) photons in the event. 
+Interference between all amplitudes of process $H \rightarrow 4\ell$ are properly taken into consideration both in {\sc powheg} and the {\sc JHUgen}.
+%The {\sc powheg} and {\sc JHUgen} event generators also properly take into account interference between 
+%all contributing amplitudes of the $H \rightarrow 4\ell$ process, containing those affiliated to the reordering of identical leptons
+%in the $4\mu$ and $4e$ final states.
+For the generators (at LO, NLO at NNLO) \textsc{cteq6l}~\cite{cteq66}, \textsc{CT10}~\cite{CT10} and \textsc{MSTW2008}~\cite{MSTW08} PDFs are used.
+%The set of parton distribution functions (PDF) \textsc{cteq6l}~\cite{cteq66}, \textsc{CT10}~\cite{CT10}
+%and \textsc{MSTW2008}~\cite{MSTW08} are used for LO, NLO, and NNLO generators.
 \par
- To include the fact of parton shower, underlying events and hadronization, all generated events  were interfaced
- to {\sc pythia 6.4} Tune $Z2^{*}$~\cite{Chatrchyan:2011id}. The {\sc pythia 6.4} $Z2^*$ tune is obtained from the Z1 tune~\cite{Field:2010bc}, that takes
- the CTEQ5L parton distribution set, whereas $Z2^*$ follows CTEQ6L~\cite{Pumplin:2002vw}. {\sc HRes} does not supply  an interface with the programs
- that can include the effects of hadronization and multi-parton interaction. To correct {\sc HRes} predictions for these effects, the {\sc powheg+JHUgen}
- events without hadronization and  multi-parton interactions were reweighted to match closely the {\sc HRes} events in a  phase space minimally 
- greater than fiducial phase space. After that, the hadronization and multi-parton interaction effects are included in reweighted
- {\sc powheg+JHUgen} events by an interface with {\sc pythia}. The procedure of reweighting events to match {\sc HRes} to add non-perturbative effects 
- to {\sc HRes} partonic level predictions was
-  repeated for all studied observables for integrated and differential cross section measurements. 
+The generated events were interfaced to {\sc pythia 6.4} Tune $Z2^{*}$~\cite{Chatrchyan:2011id} which follows CTEQ6L, to include the fact of the parton shower, underlying events and hadronization.
+%, all generated events  were interfaced
+% to {\sc pythia 6.4} Tune $Z2^{*}$~\cite{Chatrchyan:2011id}. 
+%The {\sc pythia 6.4} $Z2^*$ tune is obtained from the Z1 tune~\cite{Field:2010bc}, that takes  the CTEQ5L parton distribution set, whereas $Z2^*$ follows CTEQ6L~\cite{Pumplin:2002vw}. {\sc HRes} does not supply  an interface with the programs
+% that can include the effects of hadronization and multi-parton interaction. To correct {\sc HRes} predictions for these effects, the {\sc powheg+JHUgen}
+% events without hadronization and  multi-parton interactions were reweighted to match closely the {\sc HRes} events in a  phase space minimally 
+% greater than fiducial phase space. 
+% After that, the hadronization and multi-parton interaction effects are included in reweighted
+% {\sc powheg+JHUgen} events by an interface with {\sc pythia}. The procedure of reweighting events to match {\sc HRes} to add non-perturbative effects 
+% to {\sc HRes} partonic level predictions was
+%  repeated for all studied observables for integrated and differential cross section measurements. 
  \par
-All the generated events were processed via a  full simulation of the CMS detector based on \GEANTfour~\cite{GEANT} and were reconstructed with the
-same algorithms that are used for data analysis. Multiple $\Pp\Pp$ interactions (pileup) are incorporated in simulations by reweighting the number 
-of primary vertex distribution to match the   distribution of the observed data. Energy deposits from pileup interactions and  underlying events are subtracted
-when computing the energy of jets and isolation of reconstructed objects using the \textsc{FastJet} technique~\cite{Cacciari:2007fd,Cacciari:2008gn,Cacciari:2011ma}.
-This technique is based on the calculation of the $\eta$-dependent average energy density %($\rho$), 
-evaluated individually for each event.
+Processing of all generated events was made via a  full simulation for CMS detector using \GEANTfour~\cite{GEANT} and their reconstruction was done by exploiting same algorithms used for the data analysis.
+%were reconstructed with the same algorithms that are used for data analysis. 
+Multiple proton-proton interactions are incorporated in the simulations by reweighting the pileup distribution to match the  distribution of the observed data. 
+While measuring the energy of jets and isolation of objects (using \textsc{FastJet} technique) ~\cite{Cacciari:2007fd,Cacciari:2008gn,Cacciari:2011ma}, the energy deposits from pileup interactions and  underlying events are subtracted.
+%when computing the energy of jets and isolation of reconstructed objects using the \textsc{FastJet} technique~\cite{Cacciari:2007fd,Cacciari:2008gn,Cacciari:2011ma}.
+%This technique is based on the calculation of the $\eta$-dependent average energy density %($\rho$), evaluated individually for each event.
 \par
-All the data-to-MC scale factors are  determined using a ``tag and probe'' method \cite{CMS:2011lsa}, discussed in Sections \ref{sec:eleEffMeas} and \ref{sec:muonEffMeas}, and  are used to correct simulated samples to compensate the differences
-of the leptons selection efficiencies in data and simulation. The dependency of the selection efficiency on the
-number of reconstructed primary vertices in the event is found to be negligible for data samples.
+All the data-to-MC scale factors are  computed by using a ``T\&P'' technique \cite{CMS:2011lsa}, as described in Sections \ref{sec:eleEffMeas} and \ref{sec:muonEffMeas}, and  are used to correct simulated samples to compensate the differences
+of leptons' selection efficiencies in the data and MC simulation. There is negligibe dependence of the selection efficiencies used in the analysis over the primary vertices.
+%The dependency of the selection efficiency on the
+%number of reconstructed primary vertices in the event is found to be negligible for data samples.
 More details are presented and discussed in Ref.~\cite{Chatrchyan:2013mxa}.
+
+\subsubsection{Pileup Reweighting}
+
+For each year, corresponding simulation samples are reweighted to meet pileup distribution in the data. An example of the reweighting procedure for 2018 data is
+shown in Fig. \ref{fig:puWeight2018}.
+%=======
+\begin{figure}[!htb]
+       \vspace*{0.3cm}
+       \begin{center}
+               \includegraphics[width=0.45\textwidth]{Figures/PileUp/PileUp_2018.pdf} 
+               \caption{Distribution of pileup in 2018 MC and Data shown before and after the application of PU weights. Up and down variations of 5\% in the minimum bias
+                       cross section when calculating the weighs are also shown.
+                       \label{fig:puWeight2018}}
+       \end{center}
+\end{figure}
+%%=======
+
+
 
 
 %%%%%%%%%%

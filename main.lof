@@ -2,11 +2,11 @@
 \babel@toc {english}{}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces The elementary particles given in three generations of matter, the gauge bosons in fourth column and the Higgs boson in the fifth.\relax }}{5}{figure.caption.11}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces A Feynman diagram of annihilation of electron positron.\relax }}{6}{figure.caption.14}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces The Higgs potential as in Eq.\ref {eq:higgs_potential}\relax }}{8}{figure.caption.23}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Feynman diagrams of Higgs production at tree level: gluon-gluon fusion (upper left);VV fusion (upper right); associated production with W and Z bosons (bottom left); associated production with $t\bar {t}$ (bottom right). \relax }}{12}{figure.caption.45}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Production cross sections of SM Higgs boson at 7, 8 and 13 TeV as function of its mass.\relax }}{13}{figure.caption.46}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Production cross sections of Higgs boson ($m_H =125$~GeV) as a function of center of mass energies\relax }}{14}{figure.caption.47}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Branching ratios for different Higgs boson decay channels as a function of the Higgs mass.\relax }}{16}{figure.caption.55}
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Cross sections of Higgs times branching ratios at 7 TeV and 8 TeV (left and right diagrams respectively).\relax }}{17}{figure.caption.56}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces $\ensuremath {\mathrm {g}\mathrm {g}\to }$ process fynman diagram.\relax }}{4}{figure.caption.9}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces $\ensuremath {\mathrm {q}}\ensuremath {\mathrm {\overline {q}}}to \mathrm {Z}\mathrm {Z}\to 4\ell $ process s- and t- channel fynman diagrams (a) and (b). $\mathrm {g}\mathrm {g}\rightarrow \mathrm {Z}\mathrm {Z}\to 4\ell $ process fynman diagram (c).\relax }}{5}{figure.caption.11}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {s-channel}}}{5}{figure.caption.11}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {t-channel}}}{5}{figure.caption.11}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {ggZZ-box}}}{5}{figure.caption.11}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Pileup distribution in 2018 MC and Data shown before and after the application of PU weights. Up and down variations of 5\% in the minimum bias cross section when calculating the weighs are also shown. \relax }}{6}{figure.caption.16}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Fiducial efficiency($\epsilon $) and nonfiducial($f_{nonfid}$) signal definition.\relax }}{7}{figure.caption.18}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Invariant mass distributions of invariant mass of four-leptons using full Run 2 datasets in the full (left) and the low (right) mass range, along with predictions for Standard Model Higgs ($m_H=125.0$ GeV), including $Z\rightarrow 4\ell $ resonance.\relax }}{11}{figure.caption.28}

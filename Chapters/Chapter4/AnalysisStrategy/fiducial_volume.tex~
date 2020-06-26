@@ -1,75 +1,76 @@
-The fraction of all $\Hllll$ events that get selected following the event selection procedure can change significantly for various Higgs boson 
-production mechanism and distinct exotic models of the Higgs boson. 
+Fraction of all $\Hllll$ events that get selected following the event selection procedure can change significantly for various production mechanisms of Higgs and for its distinct exotic models. % of the Higgs boson. 
 %The acceptance difference between SM $\Hllll$ decays and other 
 %exotic models (Higgs-like spin-one models), processes with large hadronic activity ( like $\ttH$ production ) and different kinematics processes
 %(like H$\to  {\rm Z}\gamma^{*}(\gamma^{*}\gamma^{*})  \to 4 \ell$ ) can vary up to 70\%.  
-In order to minimize the dependence of the measurements on the underlying assumption on the models of the Higgs boson production and properties, the
-fiducial phase space for the $\Hllll$ cross section measurements is defined to match as closely as possible the experimental acceptance 
-defined by the reconstruction level selection.
+In order to minimize the effects of model dependent acceptances, measurements
+on Higgs cross sections (Inclusive and differential) in $\Hllll$ are made in a fiducial region. This fiducial phase space is defined so as to closely match with the experimental acceptance as defined from selections made at reconstruction level.
 \par 
-The fiducial phase space demands for at least four leptons having $\pt>7(5) \GeV$  for electrons (muons) with leading and sub-leading leptons
-having $\pt>20 \GeV$ and $\pt>10 \GeV$. The four-momenta of each lepton is calculated at the hard scattering level
-({\sc pythia} status code $= 3$), before any final state radiation occurs. All electrons (muons) must have pseudorapidity  $|\eta|<2.5(2.4)$.
-Each lepton isolation is calculated by adding $\pt$ of all stable particles ({\sc pythia} status code $= 1$) within a cone of radius $\Delta R<0.3$ around 
-that lepton. All neutrinos and FSR photons are excluded from above summation. Then the relative isolation of the lepton is defined by the ratio of this
-sum and $\pt$ of the considered lepton which is required to be less than $0.35$, consistent with reconstruction level isolation 
-requirement~\cite{Chatrchyan:2013mxa}. The requirement of isolation in fiducial phase space definition is crucial to control the  difference of 
+Requirement of fiducial phase space is minimum four leptons having $\pt>7 \GeV$ and $|\eta|<2.5$ in case of electron, and $\pt>5 \GeV$ and $|\eta|<2.4$ in case of muon. Besides, the leading and sub-leaing leptons are required to have $\pt>20 \GeV$ and $\pt>10 \GeV$ respectively.
+%The fiducial phase space demands for at least four leptons having $\pt>7(5) \GeV$  for electrons (muons) with leading and sub-leading leptons
+%having $\pt>20 \GeV$ and $\pt>10 \GeV$. 
+The four-momenta of each lepton is calculated at the hard scattering level
+({\sc pythia} status code $= 3$), before any final state radiation occurs. 
+%All electrons (muons) must have pseudorapidity  $|\eta|<2.5(2.4)$.
+Each lepton isolation is calculated by adding $\pt$ of all stable particles ({\sc pythia} status code $= 1$) within a cone size $\Delta R<0.3$ around the lepton. All neutrinos and FSR photons are excluded from above summation. 
+Then the lepton's relative isolation which is defined by ratio of this sum and $\pt$ of considered lepton and is required to be less than $0.35$, consistent with reconstruction level isolation 
+requirement~\cite{Chatrchyan:2013mxa}. 
+The requirement of isolation in definition of fiducial phase space is crucial to control the  difference of 
 signal selection efficiency among different models. The studies based on simulation samples  show that signal efficiency can change up to 
-45\% among different models without requiring lepton isolation at fiducial level as shown in Table \ref{tab:efficiencySMnoGenIso}, the maximum difference comes 
+45\% among different models without requiring lepton isolation at fiducial level as shown in Table ~\ref{tab:efficiencySMnoGenIso}, the maximum difference comes 
 from $\ttH$ and $\ggH$ production modes. This behavior is expected as $\ttH$ events has more hadronic activity around leptons as compared to $\ggH$ 
 events, so the cut at relative isolation  kills more events in $\ttH$ than $\ggH$.
  \par 
-Furthermore, fiducial phase space is defined by several other topological and kinematics selections. There must be two SFOS lepton pairs, 
-Z$_{1}$ is reconstructed with invariant mass closest to the world average Z boson mass by all possible combination of same flavor and opposite charge 
-(SFOS) pairs of leptons within mass range of $40 \le m({\mathrm{Z}_1}) \le 120$~GeV. Z$_{2}$ is reconstructed by remaining SFOS pair of leptons within inv. 
-mass range of $12 \le m({\mathrm{Z}_2}) \le 120$~GeV. If more than one Z$_{2}$ passes the criteria, the leptons pair  with largest  $\Sigma |\pt|$ is 
-selected. To remove the overlapping between leptons, we ask for $\Delta R(\ell_{i}\ell_{j})>0.02$ for any $i\neq j$. To remove 
-contamination from QCD low masses resonance, any opposite-charge pair of leptons is required to pass $m({\ell^{+}\ell'^{-}}) \ge 4 \GeV$. Finally, 
+Furthermore, fiducial phase space is defined by several other topological and kinematics selections. There must be two SFOS lepton pairs where Z$_{1}$ being the one with invariant mass closest to the SM Z boson and reconstructed with $40 \le m({\mathrm{Z}_1}) \le 120$~GeV. 
+Z$_{2}$ is reconstructed by remaining SFOS pair of leptons within inv. 
+mass range of $12 \le m({\mathrm{Z}_2}) \le 120$~GeV. 
+In case of more than one Z$_{2}$ passing the criteria, leptons pair  with highest  $\Sigma |\pt|$ is selected. To remove the overlapping between leptons, we ask for $\Delta R(\ell_{i}\ell_{j})>0.02$ for any $i\neq j$. To remove 
+contamination from QCD low masses resonance, any opposite-charge pair of leptons is required to meet the condition $m({\ell^{+}\ell'^{-}}) \ge 4 \GeV$. Finally, 
 We require that all selected leptons must emerge from Higgs boson decay and invariant  mass of four-leptons must fulfill  
-$105 \GeV < \mathrm{m}(4\ell) < 140 \GeV$. The demand for $\mathrm{m}(4\ell)$ helps to control the contamination from off-shell gg fusion production
+$105 \GeV < \mathrm{m}(4\ell) < 140 \GeV$. Demand for $\mathrm{m}(4\ell)$ helps to control the contamination from off-shell gg fusion production
 which is of considerable size, capable to increase the total cross sextion by a few percent~\cite{Kauer:2013cga, Kauer:2012hd}. The requirements
 that defines  fiducial phase space are also gathered in Table~\ref{tab:FidDef}.
 \begin{table}[!h!tb]
 \begin{center}
 \small
 \caption{
-Overview of all requirements utilized to define the fiducial phase space for the $\Hllll$ cross section measurements.
+Overview of all requirements utilized to define the fiducial phase space.
+	%for the $\Hllll$ cross section measurements.
 \label{tab:FidDef}
 }
 \begin{tabular}{|lc|}
 \hline %---------------------------------------------------------
 \hline %---------------------------------------------------------
-\multicolumn{2}{|c|}{\textbf{Requirements for the $\Hllll$ fiducial phase space}} \\
+\multicolumn{2}{|c|}{\textbf{Requirements on $\Hllll$ fiducial phase space}} \\
 \hline %---------------------------------------------------------
 \hline %---------------------------------------------------------
-\multicolumn{2}{|c|}{Lepton kinematics and isolation} \\
+\multicolumn{2}{|c|}{Lepton kinematics and the isolation} \\
 \hline %---------------------------------------------------------
 \vspace{-0.4cm} & \\
-Leading lepton $\pt$ & $\pt  > 20$~GeV \\
+$\pt$ of the leading lepton & $\pt  > 20$~GeV \\
 \vspace{-0.4cm} & \\
-Sub-leading lepton $\pt$ & $\pt  > 10$~GeV \\
+$\pt$ of sub-leading lepton  & $\pt  > 10$~GeV \\
 \vspace{-0.4cm} & \\
 Additional electrons (muons) $\pt$ & $\pt  > 7~(5)$~GeV \\
 \vspace{-0.4cm} & \\
 Pseudorapidity of electrons (muons) & $|\eta| < 2.5~(2.4)$ \\
 \vspace{-0.4cm} & \\
-Sum of scalar $\pt$ of all stable particles within $\Delta R < 0.3$ from lepton & $< 0.35 \pt$ \\
+Sum of the scalar $\pt$ of all the stable objects within $\Delta R < 0.3$ from the lepton & $< 0.35 \pt$ \\
 %\vspace{-0.4cm} & \\
 \hline %---------------------------------------------------------
 \hline %---------------------------------------------------------
 \multicolumn{2}{|c|}{Event topology} \\
 \hline %---------------------------------------------------------
-\multicolumn{2}{|l|}{Existence of at least two SFOS lepton pairs, where leptons satisfy criteria above} \\
+\multicolumn{2}{|l|}{From leptons satisfying criteria above, minimum two SFOS lepton pairs} \\
 %\vspace{-0.4cm} & \\
-Inv. mass of the Z$_1$ candidate & $40 < m($Z$_{1}$)$< 120 \GeV$ \\
+Invarivant mass of Z$_1$ candidate & $40 < m($Z$_{1}$)$< 120 \GeV$ \\
 \vspace{-0.4cm} & \\
-Inv. mass of the Z$_2$ candidate & $12 < m($Z$_{2}$)$< 120 \GeV$ \\
+Invariant mass of Z$_2$ candidate & $12 < m($Z$_{2}$)$< 120 \GeV$ \\
 \vspace{-0.4cm} & \\
-Distance between selected four leptons & $\Delta R(\ell_{i}\ell_{j})>0.02$  \\
+Separation between selected four leptons & $\Delta R(\ell_{i}\ell_{j})>0.02$  \\
 \vspace{-0.4cm} & \\
-Inv. mass of any opposite-sign lepton pair & $m(\ell^{+}_{i}\ell^{-}_{j})>4 \GeV$ \\
+Invariant mass of any OS lepton pair & $m(\ell^{+}_{i}\ell^{-}_{j})>4 \GeV$ \\
 \vspace{-0.4cm} & \\
-Inv. mass of the selected four leptons & $105 < m_{4\ell} < 140 \GeV$  \\
+Invariant mass of selected four leptons & $105 < m_{4\ell} < 140 \GeV$  \\
 %The selected four leptons must originate from the $\Hllll$
 %\vspace{-0.4cm} & \\
 %\multicolumn{2}{|l|}{The selected four leptons must originate from the $\Hllll$ decay} \\
@@ -82,9 +83,10 @@ Inv. mass of the selected four leptons & $105 < m_{4\ell} < 140 \GeV$  \\
 \par 
 It has been established based on simulation samples that with including isolation for the events passing fiducial phase space definition  
 reconstruction efficiencies faintly depends
-on Higgs boson properties and production modes. The remaining model dependence will be quoted as a separate uncertainty as explained in 
+on Higgs properties and its production modes. The remaining model dependence will be quoted as a separate uncertainty as explained in 
 Section~\ref{sec:Systematics}. Part of the signal events passing fiducial phase space definition ($\mathcal{A}_{\rm fid}$), and reconstruction efficiencies
-($\epsilon$) for SM production modes are registered in Tables~\ref{tab:summarySM2016}, ~\ref{tab:summarySM2017} and ~\ref{tab:summarySM2018}.  
+%($\epsilon$) for SM production modes are registered in Tables~\ref{tab:summarySM2016}, ~\ref{tab:summarySM2017} and ~\ref{tab:summarySM2018}.  
+($\epsilon$) for SM production modes are registered in Table~\ref{tab:summarySMfullRun2}.   
 %\small
 %\caption{
 %The fiducial acceptance ($\mathcal{A}_{\rm fid}$) defined the fraction of events passing fiducial phase space selections, reconstruction efficiency ($\epsilon$)
@@ -96,20 +98,21 @@ Section~\ref{sec:Systematics}. Part of the signal events passing fiducial phase 
         \begin{center}
                 \small
                 \caption{
-			Summary of different Standard Model signal models. The MC samples are from full Run 2 yearly productions (2016, 2017 and 2018) assuming $m_{\rm H} = 125.0\GeV$. The fiducial acceptance ($\mathcal{A}_{\rm fid}$) defined the fraction of events passing fiducial phase space selections, reconstruction efficiency ($\epsilon$)
+			Summary of different SM signal models. The MC samples are from full Run 2 yearly productions (2016, 2017 and 2018) assuming $m_{\rm H} = 125.0\GeV$. The fiducial acceptance ($\mathcal{A}_{\rm fid}$) defined the fraction of events passing fiducial phase space selections, reconstruction efficiency ($\epsilon$)
 represented by the ratio of reconstructed to accepted events. Also, $f_{\rm nonfid}$ which are reconstructed events but does not pass fiducial phase space definition
 at generator level. Values are obtained using 13~TeV signal models and the uncertainties shown are only statistical uncertainties.
-                        \label{tab:summarySM2016}
+                        %\label{tab:summarySM2016}
+                        \label{tab:summarySMfullRun2}
                 }
                 \begin{tabular}{|l|c|c|c|c|} \hline \hline
                         \textbf{Signal process} & $\mathcal{A}_{\rm fid}$ & $\epsilon$ & $f_{\rm nonfid}$  & $(1+f_{\rm nonfid})\epsilon$ \\ \hline \hline
-                        \multicolumn{5}{|c|}{Individual Higgs boson production modes} \\ \hline
+                        \multicolumn{5}{|c|}{Individual production modes of Higgs boson} \\ \hline
 			gg$\rightarrow$H ({\sc powheg})  & 0.402 $\pm$ 0.001 & 0.592 $\pm$ 0.002 & 0.053 $\pm$ 0.001 & 0.624 $\pm$ 0.002 \\  
 			VBF ({\sc powheg})  & 0.444 $\pm$ 0.002 & 0.605 $\pm$ 0.003 & 0.043 $\pm$ 0.001 & 0.631 $\pm$ 0.003 \\  
 			WH ({\sc powheg+minlo}) & 0.325 $\pm$ 0.002 & 0.588 $\pm$ 0.003 & 0.075 $\pm$ 0.002 & 0.632 $\pm$ 0.004 \\  
  			ZH ({\sc powheg+minlo})  & 0.340 $\pm$ 0.003 & 0.594 $\pm$ 0.005 & 0.081 $\pm$ 0.004 & 0.643 $\pm$ 0.006 \\  
  			ttH ({\sc powheg}) & 0.314 $\pm$ 0.003 & 0.585 $\pm$ 0.006 & 0.169 $\pm$ 0.006 & 0.684 $\pm$ 0.007 \\  
- 			ggH(NNLOPS) & 0.442 $\pm$ 0.001 & 0.595 $\pm$ 0.002 & 0.049 $\pm$ 0.001 & 0.624 $\pm$ 0.002 \\
+ %			ggH(NNLOPS) & 0.442 $\pm$ 0.001 & 0.595 $\pm$ 0.002 & 0.049 $\pm$ 0.001 & 0.624 $\pm$ 0.002 \\
 			
 %			gg$\rightarrow$H ({\sc powheg})& 0.398 & 0.592 $\pm$ 0.001 & 0.049 $\pm$ 0.001 & 0.621 $\pm$ 0.001 \\
 %                        %gg$\rightarrow$H ({\sc minloHJ NNLOPS})& 0.442 & 0.595 $\pm$ 0.001 & 0.049 $\pm$ 0.001 & 0.624 $\pm$ 0.001 \\ 

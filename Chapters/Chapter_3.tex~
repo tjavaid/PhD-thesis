@@ -1,4 +1,7 @@
-\section{Objects}
+%\section{Objects}
+\chapter{Physics Objects studies with the CMS detector} % Main chapter title
+\label{Chapter3}
+\section{Physics Objects}
 \label{sec:objects}
 
 \subsection{Electrons}
@@ -32,7 +35,7 @@
 \subsubsection{Muon Reconstruction and Identification}
 \label{sec:muonReco}
 \input{Objects/muonReco}
-
+%reph. tomorrow
 \subsubsection{Muon Isolation}
 \label{sec:muoniso}
 \input{Objects/muonIso}

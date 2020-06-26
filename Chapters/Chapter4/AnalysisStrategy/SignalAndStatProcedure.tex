@@ -3,17 +3,14 @@ achieve
 this target, the corrections are extracted by using simulated samples and then encoded in the parametrization of $m_{4\ell}$ spectra at the 
 reconstruction level. Then we directly extract the parameter of interest ($\sigma{}_{fid}$) by performing the maximum likelihood fit of background and 
 signal
-parametrization to the observed $m_{4\ell}$ distribution. All the systematic uncertainties are encoded as nuisance parameters, which are profited properly
-in the fit procedure. To obtain results, we used asymptotic approach~\cite{Cowan:2010js} with the test statistics based on the profile likelihood
-ratio~\cite{LHC-HCG}. The maximization of the  likelihood is performed by fitting simultaneously the signal cross section in each bin at the fiducial level with
-all reconstruction bins and
-all three final states. The procedure applied in case of the $\Hllll$ integrated and differential fiducial 
-cross section measurements will be given in  Sections~\ref{sec:SignalInclusive} and \ref{sec:SignalDifferential}. 
-Finally, the unfolding procedure to extract the fiducial cross section in bins of kinematic observables at the fiducial level, corrected for the detection 
+parametrization to the observed $m_{4\ell}$ distribution. 
+All the systematic uncertainties in the measurements are encoded as nuisance parameters, which are profited properly in fit procedure. In order to obtain results, we used asymptotic approach~\cite{Cowan:2010js} with test statistics that is based on profile likelihood ratio~\cite{LHC-HCG}. Maximization of  likelihood is performed by fitting simultaneously, in each bin, the signal cross section at the fiducial level with all reconstruction bins and all three final states. 
+The procedure applied for $\Hllll$ fiducial (integrated and differential) cross section measurements will be given in  Sections~\ref{sec:SignalInclusive} and \ref{sec:SignalDifferential}. 
+Finally, the unfolding procedure to extract fiducial cross section kinematic observables' bins at the fiducial level, corrected for the detection 
 efficiency and resolution effects, is performed as discussed in Ref.~\cite{Prosper:2011zz} and similar to what is adopted for $H \rightarrow \gamma\gamma$ decay
 channel~\cite{CMS:HIG-14-016}.
 \par 
-The shape of signal resonant contribution ($\mathcal{P}_{\mathrm{res}}(m_{4\ell})$) is denoted by double-sided Crystal Ball function~\cite{Chatrchyan:2013mxa} given below, with the yield proportional to the
+Double Crystal Ball function is used for shape description of signal resonant contribution ($\mathcal{P}_{\mathrm{res}}(m_{4\ell})$) ~\cite{Chatrchyan:2013mxa} as is given below, with the yield proportional to the
 parameter of interest ($\sigma_{\mathrm{fid}}$). 
 \begin{equation}\label{eq:dCBDef}
 f_{dCB}(x;\alpha,n,s,\sigma) = N
@@ -50,35 +47,33 @@ $N$ is the normalization constant.
 
 
 \par
-In case of $\WH$, $\ZH$ and $t\bar{t}{\rm H}$ production modes the event selection procedure will occasionally select $4\ell$ candidates where at
-least one reconstructed lepton originates from associated vector bosons or jets, and not from the $\Hllll$ decays.
-Fraction of such signal events in the mass range $105 \GeV < \mathrm{m}(4\ell) < 140 \GeV$ amounts to about 4\%, 18\% and
-22\% for $\WH$, $\ZH$ and $t\bar{t}{\rm H}$ production modes, respectively. These events have a broad invariant $m_{4\ell}$ mass distribution
+In case of $\W(Z)H$, %$\ZH$ 
+and $t\bar{t}{\rm H}$ modes of Higgs production, the event selection procedure will occasionally select $4\ell$ candidates where minimum one lepton is produced from associated W or Z bosons or jets, and not from $\Hllll$ process.
+Fraction of such signal events in $105 \GeV < \mathrm{m}(4\ell) < 140 \GeV$ mass range mounts to about 4\%, 18\% and 22\% for $\WH$, $\ZH$ and $t\bar{t}{\rm H}$ modes of production, respectively. These events have a broad invariant $m_{4\ell}$ mass distribution
 that depends on the exact production mechanism. The shape of the contribution by this background , $\mathcal{P}_{\mathrm{comb}}(m_{4\ell})$, is described
 a Landau distribution with parameters extracted from simulations. 
 \par 
-The ratio of the reconstructed events which are from outside of the fiducial phase space to the events to reconstructed events which  from within 
-fiducial phase space($f_{\mathrm{nonfid}}$).
-The $f_{\mathrm{nonfid}}$ fraction describes the ratio of the nonfiducial and fiducial signal contribution in bin j at the reconstruction level.
+$f_{\mathrm{nonfid}}$ represents the ratio of the events reconstructed from out of fiducial region to those reconstructed from within fiducial volume.
+For a particular bin j at reconstruction level, it is given as:
+%The $f_{\mathrm{nonfid}}$ fraction describes the ratio of the nonfiducial and fiducial signal contribution in bin j at the reconstruction level.
 \begin{eqnarray}
 f^{j}_{\mathrm{nonfid}} = \frac{N(\mathrm{j_{reco}} ~\&\&~ \mathrm{not~fid.})}{N(\mathrm{j_{reco}} ~\&\&~ \mathrm{fid.})}.
 \end{eqnarray}
-These events arises due to imperfect detector resolution that can cause differences for the quantities calculated at generated and reconstructed levels
-such as lepton isolation and other quantities used for the event selection. This contribution is also treated as background and will be referred 
-"non-fiducial signal`` throughout  this document. It has been demonstrated with MC samples that these events can be described using same shape as resonant
-component. The values this fractions are extracted from simulation repeatedly for SM. This fraction changes from  4\%  for the $\ggH$ production 
-to 3\% for the $ttH$ production. The values for each model are listed in the Tables~\ref{tab:summarySM2016}, ~\ref{tab:summarySM2017} and ~\ref{tab:summarySM2018} for 2016, 2017 and 2018 respectively. %Tables~\ref{tab:Accept_Eff_fOut}, \ref{tab:Accept_Eff_fOut_7TeV} for 
+Such events arise from imperfect detector resolution which causes the differences for quantities calculated at generated and reconstructed levels.
+%such as lepton isolation and other quantities used for the event selection. 
+Fraction of these events are also treated as background and will be referred 
+"non-fiducial signal`` throughout  this disseration. It has been demonstrated with MC samples that these events can be described using same shape as resonant
+component. The values of such fraction are extracted from simulation repeatedly for SM. This fraction varies among different production modes of Higgs e.g. it is  4\%  for the $\ggH$ and 3\% for $ttH$ production mode. The values for each model are listed in the Tables \ref{tab:summarySM2016},  \ref{tab:summarySM2017} and  \ref{tab:summarySM2018} for 2016, 2017 and 2018 respectively. %Tables~\ref{tab:Accept_Eff_fOut}, \ref{tab:Accept_Eff_fOut_7TeV} for 
 %8 and 7~TeV respectively.
 \par  
-To make comparison with the  theoretical predictions, measurements need to be corrected for detector resolution and efficiency effects. To unfold the 
+To make comparison with the  theoretical predictions, measurements need corrections for resolution of detector and effects of efficiency. To unfold 
 reconstruction-level distribution to the distribution before all detector effects, the efficiency matrix ($\epsilon$) is constructed using the signal
-MC samples. The efficiency matrix ($\epsilon$) provides the probability of an event that was in i-th bin at the fiducial level and is reconstructed 
+MC samples. The efficiency matrix ($\epsilon$) provides the probability of an event that was generated in $i$th bin at the fiducial level and is reconstructed 
 in j-th bin as:
 \begin{equation}
 \epsilon_{i,j} = \frac{N(\mathrm{j_{reco}} ~\&\&~ \mathrm{i_{gen}})}{N(\mathrm{i_{gen}})}\ ,
 \end{equation}
-where $N(i_{gen})$ is the number of the events in i-th bin at the fiducial level and $N(\mathrm{j_{reco}} ~\&\&~ \mathrm{i_{gen}})$ is the number of events
-that was in i-th bin at the fiducial level and  reconstructed in j-th bin. For integrated measurements, where we have only one bin, fiducial efficiency is 
+where $N(i_{gen})$ is total number of the events in $i$th bin at fiducial level and $N(\mathrm{j_{reco}} ~\&\&~ \mathrm{i_{gen}})$ is total number events which $i$th bin at the fiducial level but reconstructed in $j$th bin. For integrated measurements, where we have only one bin, fiducial efficiency is 
 about 65\% which can change upto 7\% for other signal models. For differential measurements, it is described by detector response matrix for each observable.
 Figure \ref{fig:eff-pT4l-4e} shows the efficiency matrix for $p_{T}(H)$  measurement using different SM production MC samples. The efficiency matrix is
 dominated by diagonal elements, but in general it can have non-negligible off-diagonal elements specially for jet related observables due to

@@ -1,4 +1,4 @@
-\section{Datasets}
+%\section{Datasets}
 
 \subsection{Data}
 
@@ -6,11 +6,11 @@
 \label{sec:trigpaths}
 
 
-This analysis uses a data sample recorded by the CMS experiment during 2016, 2017 and 2018, corresponding to $\usedLumiABC$ of data.  
+The analysis uses full Run 2 (2016, 2017 and 2018) CMS data sample corresponding to $\usedLumiABC$ intergrated luminosity.  
 %The HLT paths used for different periods of collision data are listed in Table~\ref{tab:triggerPathsA},~\ref{tab:triggerPathsB}, and ~\ref{tab:triggerPathsC}. 
 
 %The datasets used are listed in Tables~\ref{tab:datasets_dataA}, ~\ref{tab:datasets_dataB}, and ~\ref{tab:datasets_dataC} along with the integrated luminosity. 
-The datasets used are listed and documented in ~\ref{HIG-19-001}. 
+The datasets used are listed and documented in \ref{HIG-19-001}. % in appendix? FIXME 
 The analysis relies on four different primary datasets (PDs), {\it DoubleMuon}, {\it MuEG}, {\it EGamma}, and {\it SingleMuon},
 each of which combines a certain collections of HLT paths. 
 To avoid duplicate events from different primary datasets, events are taken: 
@@ -302,20 +302,23 @@ The HLT paths used for 2018 collision data is listed in ~\ref{HIG-19-001}.
 
 \subsubsection{Trigger Efficiency}
 
-The efficiency in data of the combination of triggers used in the anlysis with respect to the offline reconstruction and selection is measured
-by considering 4$\ell$ events triggered by single lepton triggers. One of the four reconstructed leptons ( the ``tag'') is geometrically matched 
-to a trigger object passing the final filter of one of the single muon or single electron triggers. The other three leptons are 
-used as ``probes''. In each 4$\ell$ event there are up to 4 possible tag-probe combinations, and all possible combinations are counted in the
-denominator of the efficiency. For each of the three probe leptons all matching trigger filter objects are collected. Then the matched trigger filter
+Efficiency in data of combination of triggers used for the anlysis 
+%with respect to offline reconstruction and selection 
+is measured by considering 4$\ell$ events triggered by single lepton triggers. 
+Among the reconstructed four leptons, is geometrically associated with an object that passes at least one single electron or muon triggers.
+Rest of three leptons are regarded as ``probes".
+In a 4$\ell$ event, the possible tag-probe pairs are 4 and are counted in denominator while computing efficiency.
+For each of three leptons which are probes, all matching trigger filter objects are collected. Then the matched trigger filter
 objects of the three probe leptons are combined in attempt to reconstruct any of the triggers used in the anlysis. If any of the analysis triggers
-can be formed using the probe leptons, the set of probes is also counted in the numerator of the efficiency.
+can be formed using the probe leptons, probes are call passing probes which are countedas numerator for the efficiency measurement.
 
-This method does not have a perfect closure in MC events due to the fact that the presence of a fourth lepton increases the trigger efficiency,
-and this effect is not accounted for. Also, in the  $2e2\mu$ final state, the three probe leptons cannot be combined to form all possible triggers which 
-can collect events with two electrons and two muons (e.g. if the tag lepton is an electron, the three remaining leptons cannot pass a double electron
-trigger). Therefore the method is also exercised on MC and the difference between data and MC is used to determine the reliability of the simulation.
- The efficiency plotted as a function of the minimum $p_{\rm{T}}$ of the three probe leptons in data and MC using this method can be seen in 
-Fig.~\ref{fig:TrigEffC} that shows the trigger efficiency in 2018 data for different final states. The MC efficiency describes well the data within the statistical uncertainties.
+%This method does not have a perfect closure in MC events due to the fact that the presence of a fourth lepton increases the trigger efficiency,
+%and this effect is not accounted for. Also, in the  $2e2\mu$ final state, the three probe leptons cannot be combined to form all possible triggers which 
+%can collect events with two electrons and two muons (e.g. if the tag lepton is an electron, the three remaining leptons cannot pass a double electron
+%trigger). 
+This technique is used to measure efficiency on MC and the comparison with data is exploited to estimate the reliability of simulation.
+%also exercised on MC and the difference between data and MC is used to determine the reliability of the simulation.
+ Fig.~\ref{fig:TrigEffC} shows the measured efficiency both in data and MC (2018) varied with minimum $p_{\rm{T}}$ of leptons. MC efficiency seems to describe data well within the uncertainties.
 
 %=======
 %\begin{figure}[!htb]
@@ -355,7 +358,7 @@ Fig.~\ref{fig:TrigEffC} that shows the trigger efficiency in 2018 data for diffe
 		\includegraphics[width=0.45\textwidth]{Figures/Trigger/Histo_TrigEff_ptMin_4l_mZ2_12.pdf} \\
 		\caption{
 		%\textbf{FIXME: Add figure once ready.}
-		Trigger efficiency measured in 2018 data using $4\ell$ events collected by single lepton triggers for the $4e$ (top left), $4\mu$ (top right), $2e2\mu$ (bottom left) and $4\ell$ (bottom right) final states. 
+		Measured trigger efficiency in 2018 data where the event collection is made using single electron and muon triggers: $4e$ (top left), $4\mu$ (top right), $2e2\mu$ (bottom left) and $4\ell$ (bottom right) final states. 
 			\label{fig:TrigEffC}}
 	\end{center}
 \end{figure}

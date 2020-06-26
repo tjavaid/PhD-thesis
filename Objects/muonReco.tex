@@ -1,11 +1,13 @@
-More details on muon reconstruction can be found in Ref.~\cite{AN-15-277}.
+%More details on muon reconstruction can be found in Ref.~\cite{AN-15-277}.
 We define {\bf loose muons} as the muons that satisfy  
 $p_T > 5$, $|\eta| < 2.4$, $dxy< 0.5$ cm, $dz < 1$ cm, where $dxy$ and $dz$ are 
 defined w.r.t. the PV and using the 'muonBestTrack'. Muons have to be 
 reconstructed by either the Global Muon or Tracker Muon algorithm. Standalone 
-Muon tracks that are only reconstructed in the muon system are rejected.
+Tracks of muon reconstructed only in the muon system are rejected.
 Muons with \verb|muonBestTrackType==2| (standalone) are discarded even if they 
-are marked as global or tracker muons. 
+are marked as global or tracker muons.
+More details on the reconstruction of muons can be seen in Ref.~\cite{AN-15-277}.
+
 
 Loose muons with $\pt$ below 200\GeV are considered identified muons if they 
 also pass the PF muon ID (note that the naming 
@@ -15,8 +17,8 @@ above 200\GeV are considered identified muons if they pass the PF ID or the Trac
 High-$\pt$ ID, the definition of which is shown in Table~\ref{tab:highPtID}.
 This relaxed definition is used to increase signal efficiency for the high-mass
 search. When a very heavy resonance decays to two $\cPZ$ bosons, both bosons
-will be very boosted. In the lab frame, the leptons coming from the decay of
-a highly boosted $\cPZ$ will be nearly collinear, and the PF ID loses 
+will be very boosted. In the lab frame, the leptons originating from decay of
+a highly boosted $Z$ will be nearly collinear, and the PF ID loses 
 efficiency for muons separated by approximately $\Delta R < 0.4$, which roughly 
 corresponds to muons originating from $\cPZ$ bosons with $\pt > 500\GeV$.
 
@@ -32,9 +34,9 @@ corresponds to muons originating from $\cPZ$ bosons with $\pt > 500\GeV$.
       \hline
       Plain-text description         & Technical description                 \\
       \hline
-      Muon station matching          & Muon is matched to segments           \\
-                                     & in at least two muon stations         \\
-                                     & \textbf{NB: this implies the muon is} \\
+      Muon station matching          & Matching of muon to the   \\
+                                     & segments in two muon stations at least \\
+                                     & \textbf{NB: It means that muon is} \\
                                      & \textbf{an arbitrated tracker muon.}  \\
       \hline                                                          
       Good $\pt$ measurement         & $\frac{\pt}{\sigma_{\pt}} < 0.3$      \\
@@ -43,7 +45,7 @@ corresponds to muons originating from $\cPZ$ bosons with $\pt > 500\GeV$.
       \hline
       Vertex compatibility ($z$)     & $d_{z} < 5$~mm                        \\
       \hline
-      Pixel hits                     & At least one pixel hit                \\
+      Pixel hits                     & One pixel hit at least               \\
       \hline
       Tracker hits                   & Hits in at least six tracker layers   \\
       \hline
@@ -53,12 +55,11 @@ corresponds to muons originating from $\cPZ$ bosons with $\pt > 500\GeV$.
     \end{small}
 \end{table}
 
-An additional ``ghost-cleaning'' step is performed to deal with situations when a single muon
-can be incorrectly reconstructed as two or more muons:
+It may happen that a single muon is reconstruted incorrectly as two muons or even more. To cope with this situation, additional ``ghost-cleaning'' is performed as:
 
 \begin{itemize}
 
-\item Tracker Muons that are not Global Muons are required to be arbitrated.
-\item If two muons are sharing 50\% or more of their segments then the muon with lower quality is removed.
+\item Those tracker Muons which are not Global Muons, are needed to be arbitrated.
+\item If two muons are sharing their segments upto 50\% or more, lower quality muon is removed.
 
 \end{itemize}

@@ -28,7 +28,20 @@
 \newcommand{\nanob}{\mbox{{\rm ~nb}~}}
 %%%%%%%%From AN%%%%%%%%%%%%%%%%%
 %note: Some of the following conflict with the CMS-wide definitions
- \newcommand{\suthree}{\ensuremath{\mathrm{SU(3)}}}
+\newcommand{\ggH}{\ensuremath{\Pg\Pg\to\PH}}
+\newcommand{\qqH}{\ensuremath{\cPq\cPq\to\cPq\cPq\PH}}
+\newcommand{\WH}{\ensuremath{\PW\PH}\xspace}
+\newcommand{\ZH}{\ensuremath{\cPZ\PH}\xspace}
+\newcommand{\VH}{\ensuremath{V\PH}\xspace}
+\newcommand{\ttH}{\ensuremath{\cPqt\bar{\cPqt}\PH}\xspace}
+\newcommand{\bbH}{\ensuremath{\cPqb\bar{\cPqb}\PH}\xspace}
+\newcommand{\qqZZ}{\ensuremath{\cPq\bar{\cPq}\to\cPZ\cPZ}}
+\newcommand{\ggZZ}{\ensuremath{\Pg\Pg\to\cPZ\cPZ}}
+\newcommand{\HZZfl}{\ensuremath{\PH\to\cPZ\cPZ\to4\ell}}
+\newcommand{\Hllll}{\ensuremath{\PH\to4\ell}}
+\newcommand{\mH}{\ensuremath{m_{\PH}}}
+
+\newcommand{\suthree}{\ensuremath{\mathrm{SU(3)}}}
  \newcommand{\suthreec}{\ensuremath{\mathrm{SU(3)_C}}}
  \newcommand{\sutwo}{\ensuremath{\mathrm{SU(2)}}}
  \newcommand{\sutwol}{\ensuremath{\mathrm{SU(2)_L}}}
@@ -128,7 +141,9 @@ headsepline, % Uncomment to get a line under the header
 %%%%%%%
 %\usepackage[backend=bibtex,style=authoryear,natbib=true]{biblatex} % Use the bibtex backend with the authoryear citation style (which resembles APA)
 \usepackage{cite}
-\usepackage[backend=bibtex,style=numeric,sorting=none,natbib=true]{biblatex}
+\usepackage[backend=bibtex,style=numeric,sorting=none]{biblatex}
+%\usepackage[backend=bibtex,style=numeric,sorting=none,natbib=true]{biblatex}
+\addbibresource{example.bib} % The filename of the bibliography
 
 \renewcommand*{\newunitpunct}{\addcomma\space}
 \renewcommand{\labelalphaothers}{}
@@ -141,7 +156,7 @@ headsepline, % Uncomment to get a line under the header
 \AtEveryBibitem{\clearfield{issn}}
 
 \addbibresource{example.bib} % The filename of the bibliography
-\usepackage[autostyle=true]{csquotes} % Required to generate language-dependent quotes in the bibliography
+%\usepackage[autostyle=true]{csquotes} % Required to generate language-dependent quotes in the bibliography
 \usepackage{mathrsfs}
 
 %\usepackage{feynman}
@@ -169,7 +184,6 @@ headsepline, % Uncomment to get a line under the header
 \supervisor{Prof. Guoming \textsc{Chen} } % Your supervisor's name, this is used in the title page, print it elsewhere with \supname
 \examiner{} % Your examiner's name, this is not currently used anywhere in the template, print it elsewhere with \examname
 \degree{Doctor of Science} % Your degree name, this is used in the title page and abstract, print it elsewhere with \degreename
-%\author{Muhammad \textsc{Ahmad}} % Your name, this is used in the title page and abstract, print it elsewhere with \authorname
 \author{Tahir \textsc{Javaid}} % Your name, this is used in the title page and abstract, print it elsewhere with \authorname
 \addresses{} % Your address, this is not currently used anywhere in the template, print it elsewhere with \addressname
 
@@ -314,30 +328,30 @@ headsepline, % Uncomment to get a line under the header
 % Include the chapters of the thesis as separate files from the Chapters folder
 % Uncomment the lines as you write the chapters
 
-%\include{Chapters/introduction}
-%\include{Chapters/Chapter_1}
-\include{Chapters/Chapter_2}  % initial draft ready 06.03.2020
+\include{Chapters/introduction} % revised after rep.
+%\include{Chapters/Chapter_1}% revised after rep.
+%\include{Chapters/Chapter_2}  % initial draft ready 06.03.2020, revised after rep.
 %\include{Chapters/Chapter_3}  % initial draft ready 02.03.2020
-%\chapter{Probing four lepton final-state for Higgs Cross section measurement}\label{Chapter4}
-%\chaptermark{Fiducial Cross Sections for $pp\rightarrow H \rightarrow  4\ell$}
+\chapter{Probing four lepton final-state for Higgs Cross section measurement}\label{Chapter4}
+\chaptermark{Fiducial Cross Sections for $pp\rightarrow H \rightarrow  4\ell$}
 %  \section{Introduction}\label{sec:Introduction}
 %    \input{Chapters/Chapter4/introduction/introduction}    % done 06.03.2020
 %  \subsection{Datasets, Simulation Samples and Theoretical Predictions}\label{sec:DatasetsSimulation}
 %    \subsection{Datasets}\label{sec:Datasets}
 %    \input{Chapters/Chapter4/DatasetsandSimulations/dataset}  % done 07.03.2020
-%    \subsection{Simulation Samples and Theoretical Predictions} \label{sec:Simulations}
-%    \input{Chapters/Chapter4/DatasetsandSimulations/simulation_theoretical_pridiction}    % done 07.03.2020
-%  \section{Analysis Strategy}\label{sec:AnalysisStrategy} 
-%    \input{Chapters/Chapter4/AnalysisStrategy/AnalysisStrategy}\label{sec:GeneralStrategy} % okay, need to be revised
-%    \subsection{Event Selection and Background Modeling}\label{sec:EventsBackgrounds}
-%      \subsubsection{Event Selection}
-%      \input{Chapters/Chapter4/AnalysisStrategy/events_selection}\label{sec:events_selection}  % okay, need to be revised
-%      \subsubsection{Background Modeling}
-%      \input{Chapters/Chapter4/AnalysisStrategy/background_model}\label{sec:background_model}    % done, need be read and revised
-%    \subsection{Definition of the Fiducial Volume}\label{sec:FiducialVolume}
-%      \input{Chapters/Chapter4/AnalysisStrategy/fiducial_volume} 
-%    \subsection{Signal Model and Statistical Procedure}\label{sec:SignalStatProcedure}
-%      \input{Chapters/Chapter4/AnalysisStrategy/SignalAndStatProcedure}
+    \subsection{Simulation Samples and Theoretical Predictions} \label{sec:Simulations}
+    \input{Chapters/Chapter4/DatasetsandSimulations/simulation_theoretical_pridiction}    % done 07.03.2020
+  \section{Analysis Strategy}\label{sec:AnalysisStrategy} 
+    \input{Chapters/Chapter4/AnalysisStrategy/AnalysisStrategy}\label{sec:GeneralStrategy} % okay, need to be revised
+    \subsection{Event Selection and Background Modeling}\label{sec:EventsBackgrounds}
+      \subsubsection{Event Selection}
+      \input{Chapters/Chapter4/AnalysisStrategy/events_selection}\label{sec:events_selection}  % okay, need to be revised
+      \subsubsection{Background Modeling}
+      \input{Chapters/Chapter4/AnalysisStrategy/background_model}\label{sec:background_model}    % done, need be read and revised
+    \subsection{Definition of the Fiducial Volume}\label{sec:FiducialVolume}
+     \input{Chapters/Chapter4/AnalysisStrategy/fiducial_volume} 
+    \subsection{Signal Model and Statistical Procedure}\label{sec:SignalStatProcedure}
+      \input{Chapters/Chapter4/AnalysisStrategy/SignalAndStatProcedure}
 %    \subsection{Extraction of Integrated \texorpdfstring{$\Hllll$}{H to 4l} Fiducial Cross Section}\label{sec:ExtractionInclusive}
 %       \input{Chapters/Chapter4/AnalysisStrategy/ExtractionInclusive}    % need to be added, lumi weighted single table
 %    \subsection{Extraction of Differential \texorpdfstring{$\Hllll$}{H to 4l} Fiducial Cross Sections}\label{sec:ExtractionDifferential}
@@ -402,7 +416,5 @@ headsepline, % Uncomment to get a line under the header
 %----------------------------------------------------------------------------------------
 \printbibliography[heading=bibintoc]
 %end
-
 %----------------------------------------------------------------------------------------
-
 \end{document}  
