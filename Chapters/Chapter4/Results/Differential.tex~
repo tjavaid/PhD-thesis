@@ -1,26 +1,23 @@
-The observed data along with the prediction for a SM Higgs boson with m(H)=125.09 $\GeV$ and the expected background in each differential bin for
-the chosen observables are shown in Figures ~\ref{fig:differential-bins} for production related observables. 
+Observed data along with prediction of SM Higgs boson ($m_{H}=125.09 \GeV$) and expected background in each differential bin for
+ chosen observables are shown in Figures ~\ref{fig:differential-bins} for production related observables. 
 The differential results are only produced using 13~TeV data. 
-The extracted measurements of differential fiducial cross section for production related observables are shown in Figures ~\ref{fig:differential-results}. The results are produced for four-leptons transverse momentum and rapidity, transverse momentum of leading jet, jet multiplicity. 
-The uncertainty in the theoretical prediction for the dominant $\ggH$ process is estimated in each bin of the studied observable with the generator
-used for the specific signal description {\sc powheg+JHUgen}. 
-The uncertainty in the theoretical prediction for the associated production mechanisms are assumed to be constant among differential bins and 
-are obtained from Ref.~\cite{LHCHiggsCrossSectionWorkingGroup:2013tqa}.
-The differential cross sections as a function of four-leptons transverse momentum and rapidity are sensitive to perturbative QCD calculations of
-the the dominant loop-mediated $\ggH$ production mode, in which Higgs transverse momentum $p_T(H)$ is anticipated to be balanced with the emission 
-of soft quarks and gluons. The differential distribution as a function rapidity of four-lepton system also probes the PDFs of the colliding protons
-and representation of the gluon fusion production modes. The differential observables, transverse momentum of leading jet and jet multiplicity N(jets) probe the hard quark and gluon radiation theoretical modelling in this process. %comparative contribution of different Higgs production modes. 
-The comparison of the measurements with theoretical predictions
-from {\sc powheg} and {\sc NNLOPS} for the gg$\rightarrow$H process (shown in blue and brown colors, respectively) together with
-the predictions for XH $=$ VBF ({\sc powheg}) $+$ VH $+$ ttH({\sc pythia}) (shown in green) is also shown. The error bars represents  
+%The extracted measurements of differential fiducial cross section for production related observables are shown in Figures ~\ref{fig:differential-results}.
+The results of Higgs differential cross section measurements are produced for four-leptons transverse momentum and rapidity, transverse momentum of leading jet, jet multiplicity and are shown in the Figures ~\ref{fig:differential-results}. 
+The uncertainty in the theoretical prediction for dominant process i.e. $\ggH$ is estimated in the each differential bin of studied observable with {\sc powheg+JHUgen} which carries specific signal description. 
+The uncertainty in the theoretical prediction for associated production mechanisms are assumed to be constant among differential bins and  are obtained from Ref.~\cite{LHCHiggsCrossSectionWorkingGroup:2013tqa}.
+The differential cross sections as a function of Higgs transverse momentum and rapidity are sensitive to pQCD calculations of
+$\ggH$ production mode which is mediated by a loop, in which Higgs $p_T(H)$ is anticipated to be balanced with emission of the soft quarks and gluons. The differential distribution as a function rapidity of Higgs also probes PDFs of the colliding protons and representation of the gluon fusion production modes. 
+The differential observables, transverse momentum $p_T)$ of leading jet and jet multiplicity N(jets) probe hard quark and gluon radiations theoretical modelling in the process. %comparative contribution of different Higgs production modes. 
+Comparison of measurements with theoretical predictions
+from {\sc powheg} and {\sc NNLOPS} for the gg$\rightarrow$H process (displayed in the blue and brown colors, respectively) together with predictions for XH $=$ VBF ({\sc powheg}) $+$ VH $+$ ttH({\sc pythia}) (shown in green) is also shown. The error bars represents  
 statistical and systematic uncertainty.
 %, while the grey box represents the additional uncertainty incurred when using different models to unfold the observed data distribution back to particle level. 
-The results are found to be compatible with SM based theoretical predictions within uncertainties.  
+The results are found to be compatible with SM based theoretical predictions within the uncertainties.  
 %Although the observables considered for the differential measurement are sensitive to the higher order QCD effects and to the proton PDF, the present data does not allow one to discriminate between generators used to describe the dominant $\ggH$ process.
 \par 
-When extracting the differential fiducial cross sections, the fractions
+While extracting the differential measurements, the fractions
 of the $4e,4\mu$ and $2e2\mu$ contributions to the fiducial cross sections in each bin is allowed to float. 
-Results where the fractions are fixed to their SM expectations are included in Appendix~\ref{app:fixfrac}. Similarly, results
+Results where the fractions are set to their SM predictions are included in Appendix \ref{app:fixfrac}. Similarly, results
 where the model dependence uncertainty is assessed by taking into account the experimental constraints from the existing CMS measurements are included in
 Appendix~\ref{fig:differential-results-restrictive_md}. 
 %The largest deviation from the SM based predictions is observed in case of the jet multiplicity differential cross section, with p-value that quantifies
@@ -46,9 +43,7 @@ Appendix~\ref{fig:differential-results-restrictive_md}.
       \label{fig:differential-bins:c}
     }
     %\caption{Observed data along with the SM signal (m(H)=$125.0 \GeV$) and background expectations for different observables and for all final 
-    \caption{Expected yield using 2018 Asimov data along with the SM signal (m(H)=$125.09 \GeV$) and background expectations for different observables and for all final 
-    \states combined, in range $105 < m_{4\ell} < 140 \GeV$ used for the $\Hllll$ measurements. The extraction of the signal is performed by
-    exploiting the differences in the expected $m_{4\ell}$ spectra of the signal and background contributions in each bin of an observable.}
+	  \caption{Expected yield using 2018 Asimov data along with SM signal ($m_{H}=125.09 \GeV$) and background expectations for different observables and for all final states combined, in mass window $105 < m_{4\ell} < 140 \GeV$ which is used for$\Hllll$ measurements. The extraction of the signal is performed by  exploiting the differences in the expected $m_{4\ell}$ spectra of the signal and the background contributions in each differential bin of an observable.}
   \label{fig:differential-bins}
 \end{center}
 \end{figure}
@@ -67,7 +62,7 @@ Appendix~\ref{fig:differential-results-restrictive_md}.
       \includegraphics[width=0.45\textwidth,angle=0]{Plots/rapidity4l_unfoldwith_SM_125.pdf} 
       \label{fig:differential-results:b}
     } \\
-    \subfigure[$\pt(\mathrm{leading~jet})$]{
+    \subfigure[$\pt(\mathrm{leading~jet}), |\eta|<2.5$]{
       \includegraphics[width=0.45\textwidth,angle=0]{Plots/pt_leadingjet_pt30_eta2p5_unfoldwith_SM_125_logscale.pdf}
       \label{fig:differential-results:c}
     }
@@ -75,53 +70,11 @@ Appendix~\ref{fig:differential-results-restrictive_md}.
       \includegraphics[width=0.45\textwidth,angle=0]{Plots/njets_pt30_eta2p5_unfoldwith_SM_125_logscale.pdf}
       \label{fig:differential-results:f}
     }
-    \caption{The differential fiducial cross section results for $\pt({\rm H})$ (top left), $|y({\rm H})|$ (top right), $p_T$ of the leading jet (bottom left) and N(jets) (bottom right) in $\Hllll$ using full Run 2 CMS data and comparison with the theoretical predictions. 
-        Systematic uncertainty is indicated by red bars while black bars shows the total statistical and systematic uncertainties, combined in quadrature. The blue and brown colors show the theoretical predictions. The acceptance and theoretical uncertainties in the differential bins are are calculated using \POWHEG. The sub-dominant production contributions XH $=$ VBF $+$ VH $+$ $\ttH$ are shown in green separately. The total inclusive cross section is normalized to the SM estimate computed at NNLL+NNLO accuracy for all theoretical predictions. The systematic uncertainties correspond to the generators accuracy are also taken in to account for differential predictions. The fraction of $4e,4\mu$ and $2e2\mu$ in each bin is allowed to float in the fit.
+    \caption{Differential fiducial cross section results for $\pt({\rm H})$ (top left), $|y({\rm H})|$ (top right), $p_T$ of leading jet (bottom left) and N(jets) (bottom right) in $\Hllll$ using full Run 2 CMS data and comparison with the theoretical predictions. 
+        Systematic uncertainty is indicated by red bars and black bars show total statistical and the systematic uncertainties, combined in quadrature. The blue and brown colors show the theoretical predictions. 
+	  The acceptances and the theoretical uncertainties in differential bins are computed using {\sc powheg}. Sub-dominant production contributions XH $=$ VBF $+$ VH $+$ $\TTH$ are shown in green separately. The inclusive cross section is normalized to SM estimates calculated at NNLL+NNLO level of accuracy for all theoretical predictions. The systematic uncertainties correspond to the generators accuracy are also taken in to account for differential predictions. The fraction of $4\mu$, $4e$ and $2e2\mu$ in each differential bin is allowed to float in fit.
     }
   \label{fig:differential-results}
  \end{center}
 \end{figure}
 
-%\begin{figure}[!h!tb]
-%  \begin{center}
-%    \subfigure[$|\cos \theta^{*}|$]{
-%      \includegraphics[width=0.30\textwidth,angle=0]{Plots/cosThetaStar_unfoldwith_SM_125_unpublished.pdf}
-%      \label{fig:differential-results-2:a}
-%    }
-%    \subfigure[$|\cos \theta_{1}|$]{
-%      \includegraphics[width=0.30\textwidth,angle=0]{Plots/cosTheta1_unfoldwith_SM_125_unpublished.pdf}
-%      \label{fig:differential-results-2:b}
-%    }
-%    \subfigure[$|\cos \theta_{2}|$]{
-%      \includegraphics[width=0.30\textwidth,angle=0]{Plots/cosTheta2_unfoldwith_SM_125_unpublished.pdf}
-%      \label{fig:differential-results-2:c}
-%    } \\
-%    \subfigure[$|\Phi|$]{
-%      \includegraphics[width=0.30\textwidth,angle=0]{Plots/Phi_unfoldwith_SM_125_unpublished.pdf}
-%      \label{fig:differential-results-2:d}
-%    }
-%    \subfigure[$|\Phi_{1}|$]{
-%      \includegraphics[width=0.30\textwidth,angle=0]{Plots/Phi1_unfoldwith_SM_125_unpublished.pdf}
-%      \label{fig:differential-results-2:e}
-%    } \\
-%    \subfigure[$\mathrm{m}(\mathrm{Z}_{1})$]{
-%      \includegraphics[width=0.30\textwidth,angle=0]{Plots/massZ1_unfoldwith_SM_125_unpublished.pdf}
-%      \label{fig:differential-results:f}
-%    }
-%    \subfigure[$\mathrm{m}(\mathrm{Z}_{2})$]{
-%      \includegraphics[width=0.30\textwidth,angle=0]{Plots/massZ2_unfoldwith_SM_125_logscale_unpublished.pdf}
-%      \label{fig:differential-results:g}
-%    }     
-%        \caption{The differential fiducial cross section results for $\pt({\rm H})$ (top left), $|y({\rm H})|$ (top right), $p_T$ of the leading jet (bottom left) and N(jets) (bottom right) in $\Hllll$ using full Run 2 CMS data and comparison with the theoretical predictions. 
-%        Systematic uncertainty is indicated by red bars while black bars shows the total statistical and systematic uncertainties, combined in quadrature.
-%        The model dependence is shown as an additional systematic uncertainty by the grey boxes.  The pink, yellow and blue colors shows
-%        the theoretical predictions, where acceptance of the 
-%        dominant $\ggH$ production mode is calculated by {\sc HRes},{\sc powheg minlo-HJ}+{\sc Pythia} and  {\sc powheg+JHUgen}+{\sc Pythia} respectively.
-%        The sub-dominant production contributions XH $=$ VBF $+$ VH $+$ $\ttH$ are shown in green separately. The total inclusive cross section is 
-%        normalized to the SM estimate computed at NNLO accuracy for all theoretical predictions. The systematic uncertainties correspond to the 
-%        generators accuracy are also taken in to account for differential predictions. The fraction of $4e,4\mu$ and $2e2\mu$ in each bin is allowed 
-%        to float in the fit.
-%    }
-%  \label{fig:differential-results-2}
-% \end{center}
-%\end{figure}

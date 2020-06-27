@@ -1,25 +1,23 @@
-\section{Systematic uncertainties}
+%\section{Systematic uncertainties}
 %\textbf{FIX ME: TO BE UPDATED when the new number will be there}
-
-The main experimental uncertainties which affect both signal and background are the uncertainty on the integrated luminosity
-(from 2.3\% to 2.5\%, depending on the year of data taking) and the uncertainty on the lepton identification and reconstruction efficiency (ranging from 2.5--16.1\% on the 
-overall event yield for the $4\mu$ 
-and $4e$ channels, respectively). Experimental uncertainties for the reducible background estimation, 
-%described in Section~\ref{sec:redbkgd},
+\subsection{Experimental uncertainties souces}
+Main experimental uncertainties affecting signal and background are uncertainty on integrated luminosity
+(from 2.3\% to 2.5\%, depending on the year of data taking) and the uncertainty on efficiencies of lepton reconstruction and identification (ranging from 2.5--16.1\% in $4\mu$  and $4e$ channels, respectively). 
+Uncertainties on estimation of reducible backround, as discussed in %described in Section~\ref{sec:redbkgd},
 described in Section~\ref{sec:background_model},
-originating from the background composition and misidentification rate uncertainty vary depending on the final state
+originating from the background composition and misidentification rate uncertainty vary for different final states.
 %and category. 
 %vary between 6\% to 32\% from the variation of the fake rates. 
-The mismatch in the composition of backgrounds between the samples where the fake rate is derived and where it is applied accounts between 24 and 43\%.
+Mismatch in composition of backgrounds between different samples where the fake rate is derived and where it is applied accounts between 24 and 43\%.
 %($4\mu$)  to 32\% ($4e$).  
 
-The uncertainty of the lepton energy scale is assessed by propagating down to the four-leptons invariant mass the uncertainty associated the lepton momentum corrections on each indiviudal lepton. It is determined by considering the
-$Z\rightarrow\ell\ell$ mass distributions in data and simulation. Events are separated into categories based on the
-$\pt$ and $\eta$ of one of the two leptons, determined randomly, and integrating over the other. The dilepton mass
-distributions are then fit by a Breit-Wigner parameterization convolved with a double-sided Crystal Ball function.
+Lepton energy scale uncertainty is assessed by propagating down to the four-leptons invariant mass the uncertainty associated the lepton momentum corrections on each indiviudal lepton. 
+It is estimated by exploiting $Z\rightarrow\ell\ell$ invariant mass distributions both in data and the simulation. 
+Events are categorized on the basis $\pt$ and $\eta$ of either(randomly determined) of two leptons and integrating on the other lepton. The dilepton mass distributions are then fit by parameterization of a Breit-Wigner convoluted with a DCB function.
 The uncertainty is treated as uncorrelated (all up or all down). The new four-leptons invariant mass obtained this way is then fitted with only the mean value floating.
 %, as shown on Fig.~\ref{fig:m4lup} for the 4e channel. 
-The difference between the new mean value and the default one gives an estimation of the impact of the lepton energy scale. The values are reported in the Table~\ref{tab:leptonscalereso}, together with the estimation of the impact of lepton momentum resolution, following a similar procedure.
+Difference between new mean value and default one gives an estimation of impact of lepton energy scale. 
+Values of the differences are reported in the Table~\ref{tab:leptonscalereso}, together with estimation of the impact of lepton momentum resolution, following a similar procedure.
 
 
 
@@ -40,7 +38,7 @@ The difference between the new mean value and the default one gives an estimatio
 \begin{table}[h]
    \centering
     \caption{
-    Difference (in \%) between the nominal mean and width of the four-leptons Higgs mass distribution and those where the lepton momentum scale and resolution uncertainties have been propagated.
+    Difference (in \%) between the nominal mean and the width of four-leptons or Higgs invariant mass distribution and those where the lepton momentum scale and resolution uncertainties have been propagated.
     }
     \begin{tabular}{| l | c | c | c |} \hline
                 & 4e         & $4\mu$                      & $2e2\mu$       \\ 
@@ -96,25 +94,25 @@ The results obtained this way suggest that the uncertainties from 2016 (20\% on 
 %\label{fig:lepScaleM4l}}
 %\end{center}
 %\end{figure}
-
-Theoretical uncertainties which affect both the signal and background estimation 
-include uncertainties from the renormalization and factorization scale and choice of PDF set. 
-The uncertainty from the renormalization and factorization scale is determined by varying these scales between 
-0.5 and 2 times their nominal value while keeping their ratio between 0.5 and 2. In the case of ggF production mode, the QCD scale uncertainty is broke down to 9 different sources. %The renormalization and factorization scale affect the overal cross section, the migration of the stage1.1 bins in differnt Higgs pT and number of jets, top loop effects are treated as indepandant uncertainties, and correclated among different stage 1.1 bins. The numbers are shown in Fig~\ref{fig:ggH_sys}. 
-The uncertainty from the PDF set is determined 
-by taking the root mean square of the variation when using different replicas of the default NNPDF set. 
+\subsection{Theoretical uncertainties}
+Estimation of the theoretical uncertainties affecting signal and the background include uncertainties from factorization and renormalization scale is done by varying the two scales 0.5-2 times the nominal values with their ratio kept in between 0.5-2.
+%The uncertainty from the renormalization and factorization scale is determined by varying these scales between 
+%0.5 and 2 times their nominal value while keeping their ratio between 0.5 and 2. 
+In the case of ggF production mode, the QCD scale uncertainty is broke down to 9 different sources. %The renormalization and factorization scale affect the overal cross section, the migration of the stage1.1 bins in differnt Higgs pT and number of jets, top loop effects are treated as indepandant uncertainties, and correclated among different stage 1.1 bins. The numbers are shown in Fig~\ref{fig:ggH_sys}. 
+Other theoretical uncertainty source is PDF set choice which is determined RMS of the variation when different replias of default NNPDF set is used.
+%by taking the root mean square of the variation when using different replicas of the default NNPDF set. 
 %PDF uncertainty arises from $\alphaS$ uncertainty is also taken into account 
 %On the background, an additional uncertainty of 10\% on the K factor used for the $\ggZZ$ prediction is applied as described in Section~\ref{sec:irrbkgd}.
-On the background, an additional uncertainty of 10\% on the K factor used for the $\ggZZ$ prediction is applied as described in Section~\ref{sec:background_model}.
-A systematic uncertainty of 2\% on the branching ratio of $\HZZfl$ only affects the signal yield. 
+Additional uncertainty on the background which is 10\% on K factor applied on $ggZZ$ prediction is considered as described in Section~\ref{sec:background_model}.
+Systematic uncertainty of about 2\% on the branching ratio of ~$\Hllll$ is only applicable to signal yield. 
 %In the case of event categorization, experimental and theoretical uncertainties which account for
 %possible migration of signal and background events between categories are included. The main sources 
 %of uncertainty on the event categorization include the QCD scale, PDF set, and the modeling of hadronization and the underlying 
 %event. These uncertainties amount to between 4--20\% for the signal and 3--20\% for the background depending on the category.
 %The lower range corresponds to the VBF and VH processes and the upper range corresponds to the $\ggH$ process yield in the VBF-2jet-tagged category. 
 %Additional uncertainties come from the imprecise knowledge of the jet energy scale (from 2\% for the $\ggH$ yield in the untagged category to 22\% for  $\ggH$ yield in the VBF-2jet-tagged category) and b-tagging efficiency and mistag 
-Additional uncertainties come from the imprecise knowledge of the jet energy scale and resolution (from 2\% to 22\% ), b-tagging efficiency and light quarks (u, d, s, c) and gluon jet mistag rate. 
-In the cross section measurement, the signal cross section uncertainties arise from theoretical sources are removed. %, while they are kept in the signal strength measurement. 
+Additional sources are the imprecise jet energy scale and resolution knowledge (from 2\% to 22\% ), the efficiency on b-tagging and the light quarks ($i.e.$ u, d, s, c) and gluon jet mistag rate. 
+While cross section measurement, signal cross section uncertainties arising from theoretical sources are removed. %, while they are kept in the signal strength measurement. 
 %The exact numbers are shown in Table~\ref{tab:SystOverviewTheo} and Table~\ref{tab:SystOverviewTheo_cat}. 
 
 %Uncertainties affecting the shape of the kinematic discriminants are taken into account. While none is affecting $\KD$, there are several sources that could affect the shape of $\DbkgVBFdec$ or $\DbkgVHdec$: jet energy scale or resolution uncertainty, Pythia tune, variations on QCD renormalization scale or PDF weights, etc... Only the leading one in each category and process is taken. These uncertainties are modeled as alternative templates of the kinematic discriminants in the final fit. The Fig~\ref{fig:alt_template} shows examples of nominal and alternative templates for the VBF-2 jets tagged category.
@@ -124,25 +122,25 @@ In the cross section measurement, the signal cross section uncertainties arise f
 	\begin{center}
 		\small
 		\caption{
-			Summary of the experimental systematic uncertainties in the $\Hllll$ measurements of 2016 data. %Details about the derivation of each uncertainty can be found in the text.
+			A chart of experimental systematic uncertainties in the $\Hllll$ cross section measurements of 2016 data. %Details about the derivation of each uncertainty can be found in the text.
 			\label{tab:SystOverviewA}
 		}
 		\begin{tabular}{|lc|} 
 			\hline %---------------------------------------------------------
 			\hline %---------------------------------------------------------
-			\multicolumn{2}{|c|}{\textbf{Summary of relative systematic uncertainties}} \\
+			\multicolumn{2}{|c|}{\textbf{Relative systematic uncertainties}} \\
 			\hline %---------------------------------------------------------
 			\hline %---------------------------------------------------------
-			\multicolumn{2}{|c|}{Common experimental uncertainties} \\
+			\multicolumn{2}{|c|}{Uncertainties from common experimental sources } \\
 			\hline %---------------------------------------------------------
 			\vspace{-0.4cm} & \\
 			Luminosity & 2.6 \%  \\ 
 			\vspace{-0.4cm} & \\
-			Lepton identification/reconstruction efficiencies & 2.5 -- 9 \% \\ 
+			Lepton selection efficiencies & 2.5 -- 9 \% \\ 
 			%\vspace{-0.4cm} & \\
 			\hline %---------------------------------------------------------
 			\hline %---------------------------------------------------------
-			\multicolumn{2}{|c|}{Background related uncertainties} \\
+			\multicolumn{2}{|c|}{Uncertainties related to background} \\
 			\hline %--------------------------------------------------------
 			\vspace{-0.4cm} & \\
 			Reducible background (Z+X) & 36 -- 43 \% \\ 
@@ -152,7 +150,7 @@ In the cross section measurement, the signal cross section uncertainties arise f
 			%\vspace{-0.4cm} & \\
 			\hline %---------------------------------------------------------
 			\hline %---------------------------------------------------------
-			\multicolumn{2}{|c|}{Signal related uncertainties} \\
+			\multicolumn{2}{|c|}{Uncertainties related to Signal} \\
 			\hline %---------------------------------------------------------
 			\vspace{-0.4cm} & \\
 			Lepton energy scale & 0.04 -- 0.3 \% \\ 
@@ -175,25 +173,26 @@ In the cross section measurement, the signal cross section uncertainties arise f
 \begin{center}
 \small
 \caption{
-Summary of the experimental systematic uncertainties in the $\Hllll$ measurements of 2017 data. %Details about the derivation of each uncertainty can be found in the text.
+	A chart of experimental systematic uncertainties in the $\Hllll$ cross section measurements of 2017 data
+%Summary of the experimental systematic uncertainties in the $\Hllll$ measurements of 2017 data. %Details about the derivation of each uncertainty can be found in the text.
 \label{tab:SystOverviewB}
 }
 \begin{tabular}{|lc|} 
 \hline %---------------------------------------------------------
 \hline %---------------------------------------------------------
-\multicolumn{2}{|c|}{\textbf{Summary of relative systematic uncertainties}} \\
+\multicolumn{2}{|c|}{\textbf{Relative systematic uncertainties}} \\
 \hline %---------------------------------------------------------
 \hline %---------------------------------------------------------
-\multicolumn{2}{|c|}{Common experimental uncertainties} \\
+\multicolumn{2}{|c|}{Uncertainties from common experimental sources} \\
 \hline %---------------------------------------------------------
 \vspace{-0.4cm} & \\
 Luminosity & 2.3 \%  \\ 
 \vspace{-0.4cm} & \\
-Lepton identification/reconstruction efficiencies & 3. -- 12.5 \% \\ 
+Lepton selection efficiencies & 3. -- 12.5 \% \\ 
 %\vspace{-0.4cm} & \\
 \hline %---------------------------------------------------------
 \hline %---------------------------------------------------------
-\multicolumn{2}{|c|}{Background related uncertainties} \\
+\multicolumn{2}{|c|}{Uncertainties related to background} \\
 \hline %--------------------------------------------------------
 \vspace{-0.4cm} & \\
 %Reducible background composition (Z+X) & 32 -- 35 \% \\ 
@@ -204,7 +203,7 @@ Reducible background fake rate variation (Z+X) & 6 -- 32 \% \\
 %\vspace{-0.4cm} & \\
 \hline %---------------------------------------------------------
 \hline %---------------------------------------------------------
-\multicolumn{2}{|c|}{Signal related uncertainties} \\
+\multicolumn{2}{|c|}{Uncertainties related to Signal} \\
 \hline %---------------------------------------------------------
 \vspace{-0.4cm} & \\
 Lepton energy scale & 0.04 -- 0.3 \% \\ 
@@ -225,25 +224,26 @@ Lepton energy resolution & 20 \% \\
 	\begin{center}
 		\small
 		\caption{\fixme{TO BE UPDATED. COPY PASTE NUMBERS OF 2017 FOR NOW.}
-			Summary of the experimental systematic uncertainties in the $\Hllll$ measurements of 2018 data. %Details about the derivation of each uncertainty can be found in the text.
+A chart of experimental systematic uncertainties in the $\Hllll$ cross section measurements of 2018 data
+%		Summary of the experimental systematic uncertainties in the $\Hllll$ measurements of 2018 data. %Details about the derivation of each uncertainty can be found in the text.
 			\label{tab:SystOverviewC}
 		}
 		\begin{tabular}{|lc|} 
 			\hline %---------------------------------------------------------
 			\hline %---------------------------------------------------------
-			\multicolumn{2}{|c|}{\textbf{Summary of relative systematic uncertainties}} \\
+			\multicolumn{2}{|c|}{\textbf{Relative systematic uncertainties}} \\
 			\hline %---------------------------------------------------------
 			\hline %---------------------------------------------------------
-			\multicolumn{2}{|c|}{Common experimental uncertainties} \\
+			\multicolumn{2}{|c|}{Uncertainties from common experimental sources} \\
 			\hline %---------------------------------------------------------
 			\vspace{-0.4cm} & \\
 			Luminosity & 2.3 \%  \\ 
 			\vspace{-0.4cm} & \\
-			Lepton identification/reconstruction efficiencies & 3. -- 12.5 \% \\ 
+			Lepton selection efficiencies & 3. -- 12.5 \% \\ 
 			%\vspace{-0.4cm} & \\
 			\hline %---------------------------------------------------------
 			\hline %---------------------------------------------------------
-			\multicolumn{2}{|c|}{Background related uncertainties} \\
+			\multicolumn{2}{|c|}{Uncertainties related to background} \\
 			\hline %--------------------------------------------------------
 			\vspace{-0.4cm} & \\
 			%Reducible background composition (Z+X) & 32 -- 35 \% \\ 
@@ -254,7 +254,7 @@ Lepton energy resolution & 20 \% \\
 			%\vspace{-0.4cm} & \\
 			\hline %---------------------------------------------------------
 			\hline %---------------------------------------------------------
-			\multicolumn{2}{|c|}{Signal related uncertainties} \\
+			\multicolumn{2}{|c|}{Uncertainties related to Signal} \\
 			\hline %---------------------------------------------------------
 			\vspace{-0.4cm} & \\
 			Lepton energy scale & 0.04 -- 0.3 \% \\ 
@@ -277,7 +277,7 @@ Lepton energy resolution & 20 \% \\
 \begin{center}
 \small
 \label{tab:SystOverviewTheo_bkg}
-\caption{Summary of the theory systematic uncertainties in the $\Hllll$ measurements for the inclusive analysis}
+\caption{Table theory uncertainties in the $\Hllll$ Inclusive cross section measurements}
 \begin{tabular}{|lc|}
 \hline %---------------------------------------------------------
 \hline %---------------------------------------------------------
@@ -448,7 +448,7 @@ Electroweak corrections ($\Pq\Pq\to \Z\Z$) & $\pm$ 0.1 \% \\
 \end{center}
 \end{figure}
 
-\subsection{Systematic uncertainties treatment when combining the data sets}
+\subsection{Systematic uncertainties treatment when combining yearly measurements on data}
 
-In the combination of the three data taking periods, the theoretical uncertainties as well as the experimental ones related to leptons or jets are treated as correlated while all other ones from experimental sources are taken as uncorrelated.
+In combination of three data taking periods, theoretical uncertainties as well as the experimental ones related to leptons or jets are treated as correlated while all other ones from experimental sources are taken as uncorrelated.
 %In this Section we describe how different systematic uncertainties are treated when combining the data sets. The theoretical uncertainties are correlated. All the experimental systematics are treated indepandently.

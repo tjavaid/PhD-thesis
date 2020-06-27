@@ -1,15 +1,14 @@
 \subsubsection{Kinematic Observables} \label{sec:KinematicObservables}
 
-The differential cross section measurements are performed as a function of the kinematic properties of the four-lepton system and the jet multiplicity, and
-are unfolded to the particle level.
-In this document, regarding the kinematic properties of the four-lepton system, the results are reported for the transverse momentum and
-rapidity of the four-lepton system ($\pt({\rm H})$ or $\pt(4\ell)$, $|y({\rm H})|$ or $|y(4\ell)|$), N(jets), and $\pt({\rm jet})$ which probe the production mechanism.
+Measurements on differential cross section which are performed as function of the kinematic properties of four-lepton system and as well as  jet multiplicity are unfolded to the particle level.
+In this dissertation, mainly the kinematic properties of four-lepton system are exploited and the results are reported for transverse momentum and
+rapidity of Higgs or the four lepton system($\pt({\rm H})$ or $\pt(4\ell)$, $|y({\rm H})|$ or $|y(4\ell)|$), N(jets), and $\pt({\rm jet})$ which probe the production mechanism.
 %,
 %as well as for the invariant mass of the two leading leptons $m(\mathrm{Z}_{1})$, the invariant mass of the two sub-leading leptons $m(\mathrm{Z}_{2})$ and
 %the five helicity angles in the Collins-Soper 
 %frame~\cite{Collins:1977iv} ($|\cos(\theta)|$, $|\cos(\theta_{1})|$, $|\cos(\theta_{2})|$, $|\Phi|$, $|\Phi_{1}|$), which are also related to properties
 %of the decay mechanism. 
-The binning boundaries for each kinematic observable have been optimized in order to have a similar expected measured cross-section for every bin.
+For each kinematic or differential observable, selection procedure of the binning boundaries has been optimized in order to have a similar expected measured cross-section for every bin.
 %The same set of observables are used in the differential cross section measurements for both $\Hllll$ and $\Zllll$ decays.
 
 \subsubsection{Background Model} \label{sec:BackgroundDifferential}
@@ -34,7 +33,7 @@ regions in the data. This procedure is similar to the one described and used in 
 %%and~\ref{fig:bkg-cosThetaStar-qqZZ-ggZZ}, for $m(\mathrm{Z}_{2})$ in Figures~\ref{fig:bkg-massZ2-qqZZ-ZX} and~\ref{fig:bkg-massZ2-qqZZ-ggZZ}, 
 %for $N_{\rm jets}$ in Figures~\ref{fig:bkg-njets_reco_pt30_eta4p7-qqZZ-ZX} and~\ref{fig:bkg-njets_reco_pt30_eta4p7-qqZZ-ggZZ}). 
 %Similarly, fractions of background events in each bin of $\pt(4\ell)$, $m(\mathrm{Z}_{2})$, $N_{\rm jets}$, $|y(4\ell)|$  and  $|\cos \theta^{*}|$~are presented in 
-Fractions of background events in each bin of $\pt(4\ell)$ ~are presented in Table \ref{tab:fractions_pT4l}. 
+In each differential bin of $\pt(4\ell)$ fractions of background events are presented in the Table \ref{tab:fractions_pT4l}. 
 %of background events in each bin of $\pt(4\ell)$ are presented in Tables~\ref{tab:fractions_pT4l}. 
 %of background events in each bin of $\pt(4\ell)$, $N_{\rm jets}$, $|y(4\ell)|$  and $\pt({\rm jet})$ are presented in Tables~\ref{tab:fractions_pT4l},~\ref{tab:fractions_massZ2},~\ref{tab:fractions_rapidity4l},~\ref{tab:fractions_cosThetaStar} 
 %and~\ref{tab:fractions_njets_reco_pt30_eta4p7}  respectively in the Appendix~\ref{app:bkginputs_fractions}.
@@ -123,12 +122,9 @@ Z+X (CR)& 4l  & 0.0992521  & 0.211153  & 0.209307 & 0.305327  & 0.120303  & 0.04
 \clearpage
 
 \subsubsection{Signal Model and Statistical Procedure} \label{sec:SignalDifferential}
-In order to measure the differential cross sections within the fiducial phase space, we extract the cross sections in the bins of kinematic observables at the fiducial
-level following the procedure outlined in Section~\ref{sec:SignalStatProcedure}. To extract the signal yields, the signal mass spectrum is built in each cell
-of the response matrix using a double-sided Crytal Ball (CB) function, as was done in Ref.~\cite{Chatrchyan:2013mxa}.
-In practice, the same parameters of the CB function are used in each cell and the systematic uncertainties assigned on the energy scale and resolution are 
-general enough to cover
-the discrepancy of the signal mass spectrum among each cell.
+The fiducial differential cross section is extracted in the bins of kinematic observables at the fiducial level following the procedure outlined in Section~\ref{sec:SignalStatProcedure}. 
+For signal yields, mass spectrum of signal is built in each cell of the response matrix using a Double Crytal Ball (DCB) function, similar to what was done in Ref.~\cite{Chatrchyan:2013mxa}.
+In practice, the same parameters of the CB function are used in each cell and the systematic uncertainties assigned on the energy scale and resolution generally cover discrepancy of signal mass spectrum among each cell.
 \par
 Examples of the fitted signal line shapes for differential bins of $\pt({\rm H})$ from gg$\rightarrow$H ({\sc powheg+JHUgen} 125 $\GeV$ 2018 sample) in the individual
 final states are shown in Figure~\ref{fig:sigfits-pT4l-ggH-powheg15-JHUgen-125-maintext}, and examples of the efficiency matrices for $\pt({\rm H})$ for the
@@ -138,55 +134,56 @@ $2e2\mu$ final state are shown in Fig~\ref{fig:eff-pT4l-2e2mu-maintext}. Many mo
 \begin{figure}[htb]
   \begin{center}
     \subfigure[$0.0 < \pt(\mathrm{H}) < 15.0 $]{
-      \includegraphics[width=0.3\textwidth,angle=0]{Plots/ggH_powheg15_JHUgen_125_4e_pT4l_genbin0_recobin0_effs_eventMCWeight.pdf}
+      %\includegraphics[width=0.3\textwidth,angle=0]{Plots/ggH_powheg15_JHUgen_125_4e_pT4l_genbin0_recobin0_effs_eventMCWeight.pdf}
+      \includegraphics[width=0.3\textwidth,angle=0]{Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin0_recobin0_effs_genWeight*pileupWeight*dataMCWeight.pdf}
       \label{fig:sigfits-pT4l-ggH-powheg15-JHUgen-125-maintext:a}
     }
-    \subfigure[$0.0 < \pt(\mathrm{H}) < 15.0$]{
-      \includegraphics[width=0.3\textwidth,angle=0]{Plots/ggH_powheg15_JHUgen_125_4mu_pT4l_genbin0_recobin0_effs_eventMCWeight.pdf}
+    \subfigure[$15.0 < \pt(\mathrm{H}) < 30.0$]{
+      \includegraphics[width=0.3\textwidth,angle=0]{Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin1_recobin1_effs_genWeight*pileupWeight*dataMCWeight.pdf}
       \label{fig:sigfits-pT4l-ggH-powheg15-JHUgen-125-maintext:b}
     }
-   \subfigure[$0.0 < \pt(\mathrm{H}) < 15.0$]{
-      \includegraphics[width=0.3\textwidth,angle=0]{Plots/ggH_powheg15_JHUgen_125_2e2mu_pT4l_genbin0_recobin0_effs_eventMCWeight.pdf}
+   \subfigure[$30.0 < \pt(\mathrm{H}) < 45.0$]{
+      \includegraphics[width=0.3\textwidth,angle=0]{Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin2_recobin2_effs_genWeight*pileupWeight*dataMCWeight.pdf}
       \label{fig:sigfits-pT4l-ggH-powheg15-JHUgen-125-maintext:c}
     }  \\
-    \subfigure[$15.0 < \pt(\mathrm{H}) < 30.0$]{
-      \includegraphics[width=0.3\textwidth,angle=0]{Plots/ggH_powheg15_JHUgen_125_4e_pT4l_genbin1_recobin1_effs_eventMCWeight.pdf}
+    \subfigure[$45.0 < \pt(\mathrm{H}) < 80.0$]{
+      \includegraphics[width=0.3\textwidth,angle=0]{Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin3_recobin3_effs_genWeight*pileupWeight*dataMCWeight.pdf}
       \label{fig:sigfits-pT4l-ggH-powheg15-JHUgen-125-maintext:d}
     }
-    \subfigure[$15.0 < \pt(\mathrm{H}) < 30.0$]{
-      \includegraphics[width=0.3\textwidth,angle=0]{Plots/ggH_powheg15_JHUgen_125_4mu_pT4l_genbin1_recobin1_effs_eventMCWeight.pdf}
+    \subfigure[$80.0 < \pt(\mathrm{H}) < 120.0$]{
+      \includegraphics[width=0.3\textwidth,angle=0]{Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin4_recobin4_effs_genWeight*pileupWeight*dataMCWeight.pdf}
       \label{fig:sigfits-pT4l-ggH-powheg15-JHUgen-125-maintext:e}
     }
-    \subfigure[$15.0 < \pt(\mathrm{H}) < 30.0$]{
-      \includegraphics[width=0.3\textwidth,angle=0]{Plots/ggH_powheg15_JHUgen_125_2e2mu_pT4l_genbin1_recobin1_effs_eventMCWeight.pdf}
+    \subfigure[$120.0 < \pt(\mathrm{H}) < 200.0$]{
+      \includegraphics[width=0.3\textwidth,angle=0]{Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin5_recobin5_effs_genWeight*pileupWeight*dataMCWeight.pdf}
       \label{fig:sigfits-pT4l-ggH-powheg15-JHUgen-125-maintext:f}
     } \\
-    \subfigure[$30.0 < \pt(\mathrm{H}) < 60.0$]{
-      \includegraphics[width=0.3\textwidth,angle=0]{Plots/ggH_powheg15_JHUgen_125_4e_pT4l_genbin2_recobin2_effs_eventMCWeight.pdf}
+    \subfigure[$200.0 < \pt(\mathrm{H}) < 13000.0$]{
+      \includegraphics[width=0.3\textwidth,angle=0]{Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin6_recobin6_effs_genWeight*pileupWeight*dataMCWeight.pdf}
       \label{fig:sigfits-pT4l-ggH-powheg15-JHUgen-125-maintext:g}
     }
-    \subfigure[$30.0 < \pt(\mathrm{H}) < 60.0$]{
-      \includegraphics[width=0.3\textwidth,angle=0]{Plots/ggH_powheg15_JHUgen_125_4mu_pT4l_genbin2_recobin2_effs_eventMCWeight.pdf}
-      \label{fig:sigfits-pT4l-ggH-powheg15-JHUgen-125-maintext:h}
-    }
-    \subfigure[$30.0  < \pt(\mathrm{H}) < 60.0$]{
-      \includegraphics[width=0.3\textwidth,angle=0]{Plots/ggH_powheg15_JHUgen_125_2e2mu_pT4l_genbin2_recobin2_effs_eventMCWeight.pdf}
-      \label{fig:sigfits-pT4l-ggH-powheg15-JHUgen-125-maintext:i}
-    } \\
-    \subfigure[$60.0  < \pt(\mathrm{H}) < 200.0 $]{
-      \includegraphics[width=0.3\textwidth,angle=0]{Plots/ggH_powheg15_JHUgen_125_4e_pT4l_genbin3_recobin3_effs_eventMCWeight.pdf}
-      \label{fig:sigfits-pT4l-ggH-powheg15-JHUgen-125-maintext:j}
-    }
-    \subfigure[$60.0  < \pt(\mathrm{H}) < 200.0 $]{
-      \includegraphics[width=0.3\textwidth,angle=0]{Plots/ggH_powheg15_JHUgen_125_4mu_pT4l_genbin3_recobin3_effs_eventMCWeight.pdf}
-      \label{fig:sigfits-pT4l-ggH-powheg15-JHUgen-125-maintext:k}
-    }
-    \subfigure[$60.0  < \pt(\mathrm{H}) < 200.0$]{
-      \includegraphics[width=0.3\textwidth,angle=0]{Plots/ggH_powheg15_JHUgen_125_2e2mu_pT4l_genbin3_recobin3_effs_eventMCWeight.pdf}
-      \label{fig:sigfits-pT4l-ggH-powheg15-JHUgen-125-maintext:l}
-    }
+%    \subfigure[$30.0 < \pt(\mathrm{H}) < 60.0$]{
+%      \includegraphics[width=0.3\textwidth,angle=0]{Plots/ggH_powheg15_JHUgen_125_4mu_pT4l_genbin2_recobin2_effs_eventMCWeight.pdf}
+%      \label{fig:sigfits-pT4l-ggH-powheg15-JHUgen-125-maintext:h}
+%    }
+%    \subfigure[$30.0  < \pt(\mathrm{H}) < 60.0$]{
+%      \includegraphics[width=0.3\textwidth,angle=0]{Plots/ggH_powheg15_JHUgen_125_2e2mu_pT4l_genbin2_recobin2_effs_eventMCWeight.pdf}
+%      \label{fig:sigfits-pT4l-ggH-powheg15-JHUgen-125-maintext:i}
+%    } \\
+%    \subfigure[$60.0  < \pt(\mathrm{H}) < 200.0 $]{
+%      \includegraphics[width=0.3\textwidth,angle=0]{Plots/ggH_powheg15_JHUgen_125_4e_pT4l_genbin3_recobin3_effs_eventMCWeight.pdf}
+%      \label{fig:sigfits-pT4l-ggH-powheg15-JHUgen-125-maintext:j}
+%    }
+%    \subfigure[$60.0  < \pt(\mathrm{H}) < 200.0 $]{
+%      \includegraphics[width=0.3\textwidth,angle=0]{Plots/ggH_powheg15_JHUgen_125_4mu_pT4l_genbin3_recobin3_effs_eventMCWeight.pdf}
+%      \label{fig:sigfits-pT4l-ggH-powheg15-JHUgen-125-maintext:k}
+%    }
+%    \subfigure[$60.0  < \pt(\mathrm{H}) < 200.0$]{
+%      \includegraphics[width=0.3\textwidth,angle=0]{Plots/ggH_powheg15_JHUgen_125_2e2mu_pT4l_genbin3_recobin3_effs_eventMCWeight.pdf}
+%      \label{fig:sigfits-pT4l-ggH-powheg15-JHUgen-125-maintext:l}
+%    }
     \\
-    \caption{ Distributions of m(4$\ell$) for the $gg\rightarrow \mathrm{H}$ production mode from {\sc powheg+JHUGen} in different bins of $\pt(\mathrm{H})$.
+    \caption{ Distributions of m(4$\ell$) in $2e2\mu$ final state for the $gg\rightarrow \mathrm{H}$ production mode from {\sc powheg+JHUGen} in different bins of $\pt(\mathrm{H})$.
     }
   \label{fig:sigfits-pT4l-ggH-powheg15-JHUgen-125-maintext}
  \end{center}
@@ -231,8 +228,7 @@ $2e2\mu$ final state are shown in Fig~\ref{fig:eff-pT4l-2e2mu-maintext}. Many mo
 \end{figure} \clearpage
 %%%%%%%
 Figure~\ref{fig:sigfits-asimov-SM-pt4l-4l} shows the four lepton mass distributions for an Asimov dataset generated using SM cross section values and efficiencies 
-from the gg$\rightarrow$H production mode from {\sc powheg+JHUgen}, and resulting fitted values of the signal and background pdfs in different bins
-of $\pt(\mathrm{H})$ (all final states combined).
+from the gg$\rightarrow$H production mode from {\sc powheg+JHUgen}, and resulting fitted values of PDFs of signal and background for different bins of $\pt(\mathrm{H})$ (all final states combined).
 %The same distributions and resulting fitted values of the signal and background pdfs in bins of all considered observables can be found in the Appendix~\ref{}.
 % |0|15|30|45|80|120|200|13000|
 \begin{figure}[htb]

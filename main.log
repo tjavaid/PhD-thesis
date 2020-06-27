@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.28)  27 JUN 2020 00:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.28)  27 JUN 2020 18:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -93,17 +93,6 @@ Type  H <return>  for immediate help.
                                                   
 l.106 \newcommand{\WH}{\ensuremath{{\rm WH}}}
                                              
-? 
-
-! LaTeX Error: Command \ttH already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.107 ...mmand{\ttH}{\ensuremath{t\bar{t}{\rm H}}}
-                                                  
 ? 
 (./MastersDoctoralThesis.cls
 Document Class: MastersDoctoralThesis 2016/03/25 v1.4 LaTeXTemplates.com
@@ -1410,11 +1399,6 @@ Now handling font encoding C62 ...
 LaTeX Info: Redefining \selectfont on input line 755.
 \CJK@indent=\box56
 )
-(/usr/share/texlive/texmf-dist/tex/latex/cite/cite.sty
-LaTeX Info: Redefining \cite on input line 302.
-LaTeX Info: Redefining \nocite on input line 332.
-Package: cite 2015/02/27  v 5.5
-)
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2017/12/19 v3.10 programmable bibliographies (PK/JW/AB)
 
@@ -1631,6 +1615,12 @@ File: biblatex.def 2017/12/19 v3.10 biblatex compatibility (PK/JW/AB)
 \c@biburllcpenalty=\count413
 \c@smartand=\count414
 )
+Package biblatex Info: Trying to load natbib compatibility...
+Package biblatex Info: ... file 'blx-natbib.def' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-natbib.def
+File: blx-natbib.def 2017/12/19 v3.10 biblatex compatibility (PK/JW/AB)
+)
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
 
@@ -1747,7 +1737,7 @@ LaTeX Info: Redefining \pageref on input line 6443.
 )
 Package scrhack Info: hyperref hack deactivated because of
 (scrhack)             detection of hyperref version, that doesn't
-(scrhack)             need that hack, on input line 146.
+(scrhack)             need that hack, on input line 150.
 Package hyperref Info: Driver (autodetected): hpdftex.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
@@ -1762,34 +1752,25 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip85
 )
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 146.
-Package hyperref Info: Option `hypertexnames' set `false' on input line 146.
-Package hyperref Info: Option `colorlinks' set `true' on input line 146.
-Package hyperref Info: Option `unicode' set `true' on input line 146.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 150.
+Package hyperref Info: Option `hypertexnames' set `false' on input line 150.
+Package hyperref Info: Option `colorlinks' set `true' on input line 150.
+Package hyperref Info: Option `unicode' set `true' on input line 150.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2018/02/06 v6.86b Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Option `breaklinks' set `true' on input line 146.
+Package hyperref Info: Option `breaklinks' set `true' on input line 150.
 
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
 Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 \symrsfs=\mathgroup4
 )
-
-! Package biblatex Error: Incompatible package 'cite'.
-
-See the biblatex package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.200 \begin{document}
-                      
-? 
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
+
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2017/12/19 v3.10 biblatex localization (PK/JW/AB)
 )
@@ -1802,87 +1783,87 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (./main.aux (./Chapters/introduction.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 200.
-LaTeX Font Info:    ... okay on input line 200.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 200.
-LaTeX Font Info:    ... okay on input line 200.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 200.
-LaTeX Font Info:    ... okay on input line 200.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 200.
-LaTeX Font Info:    ... okay on input line 200.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 200.
-LaTeX Font Info:    ... okay on input line 200.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 200.
-LaTeX Font Info:    ... okay on input line 200.
-LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 200.
-LaTeX Font Info:    ... okay on input line 200.
-LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 200.
-LaTeX Font Info:    ... okay on input line 200.
-LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 200.
-LaTeX Font Info:    ... okay on input line 200.
-LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 200.
-LaTeX Font Info:    ... okay on input line 200.
-LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 200.
-LaTeX Font Info:    ... okay on input line 200.
-LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 200.
-LaTeX Font Info:    ... okay on input line 200.
-LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 200.
-LaTeX Font Info:    ... okay on input line 200.
-LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 200.
-LaTeX Font Info:    ... okay on input line 200.
-LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 200.
-LaTeX Font Info:    ... okay on input line 200.
-LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 200.
-LaTeX Font Info:    ... okay on input line 200.
-LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 200.
-LaTeX Font Info:    ... okay on input line 200.
-LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 200.
-LaTeX Font Info:    ... okay on input line 200.
-LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 200.
-LaTeX Font Info:    ... okay on input line 200.
-LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 200.
-LaTeX Font Info:    ... okay on input line 200.
-LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 200.
-LaTeX Font Info:    ... okay on input line 200.
-LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 200.
-LaTeX Font Info:    ... okay on input line 200.
-LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 200.
-LaTeX Font Info:    ... okay on input line 200.
-LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 200.
-LaTeX Font Info:    ... okay on input line 200.
-LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 200.
-LaTeX Font Info:    ... okay on input line 200.
-LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 200.
-LaTeX Font Info:    ... okay on input line 200.
-LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 200.
-LaTeX Font Info:    ... okay on input line 200.
-LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 200.
-LaTeX Font Info:    ... okay on input line 200.
-LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 200.
-LaTeX Font Info:    ... okay on input line 200.
-LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 200.
-LaTeX Font Info:    ... okay on input line 200.
-LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 200.
-LaTeX Font Info:    ... okay on input line 200.
-LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 200.
-LaTeX Font Info:    ... okay on input line 200.
-LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 200.
-LaTeX Font Info:    ... okay on input line 200.
-LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 200.
-LaTeX Font Info:    ... okay on input line 200.
-LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 200.
-LaTeX Font Info:    ... okay on input line 200.
-LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 200.
-LaTeX Font Info:    ... okay on input line 200.
-LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 200.
-LaTeX Font Info:    ... okay on input line 200.
-LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 200.
-LaTeX Font Info:    ... okay on input line 200.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 200.
-LaTeX Font Info:    ... okay on input line 200.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 200.
-LaTeX Font Info:    ... okay on input line 200.
-LaTeX Font Info:    Try loading font information for T1+ppl on input line 200.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 204.
+LaTeX Font Info:    ... okay on input line 204.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 204.
+LaTeX Font Info:    ... okay on input line 204.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 204.
+LaTeX Font Info:    ... okay on input line 204.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 204.
+LaTeX Font Info:    ... okay on input line 204.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 204.
+LaTeX Font Info:    ... okay on input line 204.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 204.
+LaTeX Font Info:    ... okay on input line 204.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 204.
+LaTeX Font Info:    ... okay on input line 204.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 204.
+LaTeX Font Info:    ... okay on input line 204.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 204.
+LaTeX Font Info:    ... okay on input line 204.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 204.
+LaTeX Font Info:    ... okay on input line 204.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 204.
+LaTeX Font Info:    ... okay on input line 204.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 204.
+LaTeX Font Info:    ... okay on input line 204.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 204.
+LaTeX Font Info:    ... okay on input line 204.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 204.
+LaTeX Font Info:    ... okay on input line 204.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 204.
+LaTeX Font Info:    ... okay on input line 204.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 204.
+LaTeX Font Info:    ... okay on input line 204.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 204.
+LaTeX Font Info:    ... okay on input line 204.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 204.
+LaTeX Font Info:    ... okay on input line 204.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 204.
+LaTeX Font Info:    ... okay on input line 204.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 204.
+LaTeX Font Info:    ... okay on input line 204.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 204.
+LaTeX Font Info:    ... okay on input line 204.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 204.
+LaTeX Font Info:    ... okay on input line 204.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 204.
+LaTeX Font Info:    ... okay on input line 204.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 204.
+LaTeX Font Info:    ... okay on input line 204.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 204.
+LaTeX Font Info:    ... okay on input line 204.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 204.
+LaTeX Font Info:    ... okay on input line 204.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 204.
+LaTeX Font Info:    ... okay on input line 204.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 204.
+LaTeX Font Info:    ... okay on input line 204.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 204.
+LaTeX Font Info:    ... okay on input line 204.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 204.
+LaTeX Font Info:    ... okay on input line 204.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 204.
+LaTeX Font Info:    ... okay on input line 204.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 204.
+LaTeX Font Info:    ... okay on input line 204.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 204.
+LaTeX Font Info:    ... okay on input line 204.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 204.
+LaTeX Font Info:    ... okay on input line 204.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 204.
+LaTeX Font Info:    ... okay on input line 204.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 204.
+LaTeX Font Info:    ... okay on input line 204.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 204.
+LaTeX Font Info:    ... okay on input line 204.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 204.
+LaTeX Font Info:    ... okay on input line 204.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 204.
+LaTeX Font Info:    ... okay on input line 204.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 204.
+LaTeX Font Info:    ... okay on input line 204.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 204.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
@@ -2012,7 +1993,7 @@ See the subcaption package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.200 \begin{document}
+l.204 \begin{document}
                       
 ? 
 
@@ -2023,7 +2004,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.200 \begin{document}
+l.204 \begin{document}
                       
 ? 
 
@@ -2034,7 +2015,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.200 \begin{document}
+l.204 \begin{document}
                       
 ? 
 Package caption Info: End \AtBeginDocument code.
@@ -2073,13 +2054,13 @@ Package caption Info: End \AtBeginDocument code.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package scrlayer Info: Setting magic \footheight to \baselineskip while
-(scrlayer)             \begin{document} on input line 200.
-Package scrbase Info: activating english \authorshipname on input line 200.
-Package scrbase Info: activating english \byname on input line 200.
-Package scrbase Info: activating english \abbrevname on input line 200.
-Package scrbase Info: activating english \constantsname on input line 200.
-Package scrbase Info: activating english \symbolsname on input line 200.
-Package scrbase Info: activating english \acknowledgementname on input line 200
+(scrlayer)             \begin{document} on input line 204.
+Package scrbase Info: activating english \authorshipname on input line 204.
+Package scrbase Info: activating english \byname on input line 204.
+Package scrbase Info: activating english \abbrevname on input line 204.
+Package scrbase Info: activating english \constantsname on input line 204.
+Package scrbase Info: activating english \symbolsname on input line 204.
+Package scrbase Info: activating english \acknowledgementname on input line 204
 .
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
@@ -2092,8 +2073,8 @@ Package biblatex Info: Data encoding 'utf8' specified.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
 (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 200.
-Package biblatex Info: Reference segment=0 on input line 200.
+Package biblatex Info: Reference section=0 on input line 204.
+Package biblatex Info: Reference segment=0 on input line 204.
 \AtBeginShipoutBox=\box58
  (/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
@@ -2104,7 +2085,7 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 )
-Package hyperref Info: Link coloring ON on input line 200.
+Package hyperref Info: Link coloring ON on input line 204.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -2114,58 +2095,36 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count435
 )
-LaTeX Info: Redefining \ref on input line 200.
-LaTeX Info: Redefining \pageref on input line 200.
-LaTeX Info: Redefining \nameref on input line 200.
+LaTeX Info: Redefining \ref on input line 204.
+LaTeX Info: Redefining \pageref on input line 204.
+LaTeX Info: Redefining \nameref on input line 204.
 
 (./main.out) (./main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
 \c__siunitx_mathsf_int=\count436
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 200.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 204.
 
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 \c__siunitx_mathtt_int=\count437
 
-
-! LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.201 \bibliography
-                   {example.bib}
-? 
-
-! Package biblatex Error: '\bibliographystyle' invalid.
-
-See the biblatex package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.202 \bibliographystyle{plain}
-                               
-? 
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
-
-] [2
-
-]
 1: section
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 214.
-<Figures/Logo.jpg, id=73, 226.8475pt x 223.83624pt>
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 218.
+<Figures/Logo.jpg, id=19, 226.8475pt x 223.83624pt>
 File: Figures/Logo.jpg Graphic file (type jpg)
 <use Figures/Logo.jpg>
-Package pdftex.def Info: Figures/Logo.jpg  used on input line 237.
+Package pdftex.def Info: Figures/Logo.jpg  used on input line 241.
 (pdftex.def)             Requested size: 71.13188pt x 70.18773pt.
 [1
 
- <./Figures/Logo.jpg>] (/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.bdg
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Figures/Logo.jpg>]
+(/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.bdg
 File: UTF8.bdg 2015/04/18 4.8.4
 )
 (/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.enc
@@ -2298,710 +2257,30 @@ LaTeX Warning: Reference `chapter_objects' on page 2 undefined on input line 42
 .
 
 
+LaTeX Warning: Reference `Chapter4' on page 2 undefined on input line 43.
+
+
 LaTeX Warning: Reference `Chapter_7' on page 2 undefined on input line 47.
 
 ) [2]
-Chapter 2.
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 342.
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 342.
-
-
-(./Chapters/Chapter4/DatasetsandSimulations/simulation_theoretical_pridiction.t
-ex
-
-LaTeX Warning: Citation 'powheg' on page 3 undefined on input line 8.
-
-
-LaTeX Warning: Citation 'powhegvv' on page 3 undefined on input line 8.
-
-! Undefined control sequence.
-<argument> \Pg \Pg \to \PH 
-                           
-l.10 ...e. NNLO) in perturbative QCD (pQCD), $\ggH
-                                                  $ process description %in ...
-
-? 
-! Undefined control sequence.
-<argument> \Pg \Pg \to \PH 
-                           
-l.17 ...e {\sc powheg}, Higgs production via $\ggH
-                                                  $ with zero associated jet...
-
-? 
-! Undefined control sequence.
-<argument> \Pg \Pg \to \PH 
-                           
-l.26 ...ottom quarks has been considered for $\ggH
-                                                  $ production for all gener...
-
-? 
-
-Overfull \hbox (1.82727pt too wide) in paragraph at lines 17--28
-[]\T1/ppl/m/n/12 The \T1/ppl/m/sc/12 powheg\T1/ppl/m/n/12 , pro-vides per-tur-b
-a-tive QCD cal-cu-la-tions at next-to-leading (NLO)
- []
-
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 29.
-
-
-LaTeX Warning: Citation 'Alioli:2008gx' on page 3 undefined on input line 31.
-
-
-LaTeX Warning: Citation 'Nason:2004rx' on page 3 undefined on input line 31.
-
-
-LaTeX Warning: Citation 'Frixione:2007vw' on page 3 undefined on input line 31.
-
-
-
-LaTeX Warning: Reference `chapter1_sec3' on page 3 undefined on input line 31.
-
-
-LaTeX Warning: Citation 'Bagnaschi:2011tu' on page 3 undefined on input line 31
-.
-
-
-LaTeX Warning: Citation 'Nason:2009ai' on page 3 undefined on input line 31.
-
-
-LaTeX Warning: Citation 'Hartanto:2015uka' on page 3 undefined on input line 31
-.
-
-
-LaTeX Warning: Citation 'Luisoni:2013kna' on page 3 undefined on input line 31.
-
-
-
-LaTeX Warning: Citation 'Luisoni:2013kna' on page 3 undefined on input line 35.
-
-
-
-LaTeX Warning: Citation 'Gao:2010qx' on page 3 undefined on input line 36.
-
-
-LaTeX Warning: Citation 'Ball:2014uwa' on page 3 undefined on input line 42.
-
-
-LaTeX Warning: Reference `HIG-19-001' on page 3 undefined on input line 42.
-
-
-LaTeX Warning: Reference `tab:Accept_Eff_fOut' on page 3 undefined on input lin
-e 43.
-
-
-Overfull \hbox (58.79488pt too wide) in paragraph at lines 30--44
-\T1/ppl/m/n/12 pro-duc-tion modes (ggH, VBF, WH, ZH and ttH) as de-scribed in s
-ec-tion []  [[]],
- []
-
-
-Overfull \hbox (82.2782pt too wide) in paragraph at lines 30--44
-\T1/ppl/m/n/12 pro-duc-tion modes are sim-u-lated by the \T1/ppl/m/sc/12 MiNLO 
-HVJ \T1/ppl/m/n/12 ex-ten-sion of the \T1/ppl/m/sc/12 powheg \T1/ppl/m/n/12 [[]
-].
- []
-
 1: section
 [3
 
 
-]
+] [4]
 
-LaTeX Warning: Reference `sec:FiducialVolume' on page 4 undefined on input line
- 46.
+LaTeX Warning: Empty bibliography on input line 422.
 
-! Undefined control sequence.
-<argument> \Pg \Pg \to \PH 
-                           
-l.50 with alternate representation of $\ggH
-                                           $ process, are utilized for the c...
-
-? 
-
-LaTeX Warning: Reference `sec:Results' on page 4 undefined on input line 50.
-
-<Figures/ggH_feynman2.png, id=178, 328.22626pt x 249.93375pt>
-File: Figures/ggH_feynman2.png Graphic file (type png)
-<use Figures/ggH_feynman2.png>
-Package pdftex.def Info: Figures/ggH_feynman2.png  used on input line 55.
-(pdftex.def)             Requested size: 208.13574pt x 158.48878pt.
-! Undefined control sequence.
-\ggH ->\ensuremath {\Pg \Pg \to \PH 
-                                    }
-l.56     \caption{$\ggH$ process fynman diagram.}
-                                                 
-? 
-! Undefined control sequence.
-<argument> \Pg \Pg \to \PH 
-                           
-l.56     \caption{$\ggH$ process fynman diagram.}
-                                                 
-? 
-! Undefined control sequence.
-<argument> \Pg \Pg \to \PH 
-                           
-l.56     \caption{$\ggH$ process fynman diagram.}
-                                                 
-? 
-
-LaTeX Warning: Reference `sec:Systematics' on page 4 undefined on input line 68
-.
-
-
-LaTeX Warning: Citation 'Gao:2010qx' on page 4 undefined on input line 70.
-
-
-LaTeX Warning: Citation 'Bolognesi:2012mm' on page 4 undefined on input line 70
-.
-
-
-LaTeX Warning: Citation 'Anderson:2013afp' on page 4 undefined on input line 70
-.
-
-
-LaTeX Warning: Citation 'Nason:2013ydw' on page 4 undefined on input line 111.
-
-
-LaTeX Warning: Citation 'MCFM' on page 4 undefined on input line 119.
-
-
-LaTeX Warning: Citation 'Campbell:2013una' on page 4 undefined on input line 11
-9.
-
-<Figures/figures_feynman-qqZZ-t.png, id=181, 281.05pt x 295.1025pt>
-File: Figures/figures_feynman-qqZZ-t.png Graphic file (type png)
-<use Figures/figures_feynman-qqZZ-t.png>
-Package pdftex.def Info: Figures/figures_feynman-qqZZ-t.png  used on input line
- 136.
-(pdftex.def)             Requested size: 130.08733pt x 136.59082pt.
-<Figures/figures_feynman-qqZZ-s.png, id=183, 303.1325pt x 296.10625pt>
-File: Figures/figures_feynman-qqZZ-s.png Graphic file (type png)
-<use Figures/figures_feynman-qqZZ-s.png>
-Package pdftex.def Info: Figures/figures_feynman-qqZZ-s.png  used on input line
- 140.
-(pdftex.def)             Requested size: 130.08733pt x 127.07469pt.
-<Figures/figures_feynman-ggbox.png, id=184, 283.0575pt x 282.05376pt>
-File: Figures/figures_feynman-ggbox.png Graphic file (type png)
-<use Figures/figures_feynman-ggbox.png>
-Package pdftex.def Info: Figures/figures_feynman-ggbox.png  used on input line 
-144.
-(pdftex.def)             Requested size: 130.08733pt x 129.6301pt.
-
-LaTeX Warning: Citation 'cteq66' on page 4 undefined on input line 165.
-
-
-LaTeX Warning: Citation 'CT10' on page 4 undefined on input line 165.
-
-
-LaTeX Warning: Citation 'MSTW08' on page 4 undefined on input line 165.
-
-[4 <./Figures/ggH_feynman2.png>]
-
-LaTeX Warning: Citation 'Chatrchyan:2011id' on page 5 undefined on input line 1
-69.
-
-
-Overfull \hbox (16.36623pt too wide) in paragraph at lines 169--180
-[]\T1/ppl/m/n/12 The gen-er-ated events were in-ter-faced to \T1/ppl/m/sc/12 py
-thia 6.4 \T1/ppl/m/n/12 Tune $\OML/cmm/m/it/12 Z\OT1/cmr/m/n/12 2[]$ \T1/ppl/m/
-n/12 [[]]
- []
-
-! Undefined control sequence.
-\GEANTfour ->{\textsc {Geant4}}\xspace 
-                                       
-l.181 ...ulation for CMS detector using \GEANTfour
-                                                  ~\cite{GEANT} and their re...
-
-? 
-
-LaTeX Warning: Citation 'GEANT' on page 5 undefined on input line 181.
-
-
-LaTeX Warning: Citation 'Cacciari:2007fd' on page 5 undefined on input line 184
-.
-
-
-LaTeX Warning: Citation 'Cacciari:2008gn' on page 5 undefined on input line 184
-.
-
-
-LaTeX Warning: Citation 'Cacciari:2011ma' on page 5 undefined on input line 184
-.
-
-
-LaTeX Warning: Citation 'CMS:2011lsa' on page 5 undefined on input line 188.
-
-
-LaTeX Warning: Reference `sec:eleEffMeas' on page 5 undefined on input line 188
-.
-
-
-LaTeX Warning: Reference `sec:muonEffMeas' on page 5 undefined on input line 18
-8.
-
-
-LaTeX Warning: Citation 'Chatrchyan:2013mxa' on page 5 undefined on input line 
-192.
-
-<Figures/PileUp/PileUp_2018.pdf, id=191, 569.12625pt x 534.99875pt>
-File: Figures/PileUp/PileUp_2018.pdf Graphic file (type pdf)
-<use Figures/PileUp/PileUp_2018.pdf>
-Package pdftex.def Info: Figures/PileUp/PileUp_2018.pdf  used on input line 202
-.
-(pdftex.def)             Requested size: 195.12767pt x 183.42372pt.
-)
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 344.
- (./Chapters/Chapter4/AnalysisStrategy/AnalysisStrategy.tex [5 <./Figures/figur
-es_feynman-qqZZ-t.png> <./Figures/figures_feynman-qqZZ-s.png> <./Figures/figure
-s_feynman-ggbox.png>]
-<Figures/cartoon.jpg, id=205, 803.0pt x 602.25pt>
-File: Figures/cartoon.jpg Graphic file (type jpg)
-<use Figures/cartoon.jpg>
-Package pdftex.def Info: Figures/cartoon.jpg  used on input line 24.
-(pdftex.def)             Requested size: 281.85036pt x 211.38797pt.
-) [6 <./Figures/PileUp/PileUp_2018.pdf, page is rotated 90 degrees>] (./Chapter
-s/Chapter4/AnalysisStrategy/events_selection.tex
-
-LaTeX Warning: Citation 'HIG-18-001' on page 7 undefined on input line 1.
-
-
-LaTeX Warning: Citation 'HIG-16-041' on page 7 undefined on input line 1.
-
-
-LaTeX Warning: Citation 'Chatrchyan:2013mxa' on page 7 undefined on input line 
-1.
-
-
-LaTeX Warning: Citation 'Khachatryan:2014kca' on page 7 undefined on input line
- 1.
-
-
-LaTeX Warning: Citation 'sec:trigpaths' on page 7 undefined on input line 2.
-
-
-Overfull \hbox (32.54158pt too wide) in paragraph at lines 1--8
-\T1/ppl/m/n/12 same fi-nal state  [[], [], [], []].
- []
-
-
-LaTeX Warning: Reference `sec:eleID' on page 7 undefined on input line 23.
-
-
-LaTeX Warning: Reference `sec:muonReco' on page 7 undefined on input line 23.
-
-
-LaTeX Warning: Reference `sec:eleID' on page 7 undefined on input line 24.
-
-
-LaTeX Warning: Reference `sec:muoniso' on page 7 undefined on input line 24.
-
-
-LaTeX Warning: Reference `sec:FSRphotons' on page 7 undefined on input line 25.
-
-
-[7 <./Figures/cartoon.jpg>]
-LaTeX Font Info:    Try loading font information for OMS+ppl on input line 40.
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsppl.fd
-File: omsppl.fd 
-)
-LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 40.
-
-! Undefined control sequence.
-l.42      $p_{T,i} > 20~\GeVc
-                             $ and $p_{T,j} > 10~\GeVc$.
-? 
-! Undefined control sequence.
-l.42 ..._{T,i} > 20~\GeVc$ and $p_{T,j} > 10~\GeVc
-                                                  $.
-? 
-! Undefined control sequence.
-l.43 ...rdless of flavor) $m_{\ell\ell} > 4~\GeVcc
-                                                  $ for QCD induced  $J/\Psi...
-
-? 
-! Undefined control sequence.
-l.58 ...epton invariant mass}: $\mllll > 70~\GeVcc
-                                                  $
-? 
-
-LaTeX Warning: Reference `jets_reco' on page 8 undefined on input line 77.
-
-
-LaTeX Warning: Citation 'Chatrchyan:2013mx' on page 8 undefined on input line 7
-7.
-
-) (./Chapters/Chapter4/AnalysisStrategy/background_model.tex
-! Undefined control sequence.
-<argument> \PH 
-               \to 4\ell 
-l.1 ...ominant irreducible backgrounds for $\Hllll
-                                                  $ process are the producti...
-
-? 
-
-! LaTeX Error: \mathrm allowed only in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.18 \Z
-       \ + X               & $  21.1^{+ 8.5}_{-10.4}$ & $  34.4^{+14.5}_{-13...
-
-? 
-! Undefined control sequence.
-<argument> m_{\PH 
-                  }
-l.22 Signal ($\mH
-                 =125~\GeV$) & $  12.1^{+ 1.3}_{- 1.4}$ & $  23.8\pm2.1$    ...
-
-? 
-
-! LaTeX Error: \mathrm allowed only in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.32 \Z
-       \ + X & $12.39^{+ y.y}_{- z.z}$ & $36.39^{+ y.y}_{- z.z}$ & $44.45^{+...
-
-? 
-! Undefined control sequence.
-<argument> m_{\PH 
-                  }
-l.36 Signal ($\mH
-                 =125~\GeV$) & $13.85^{+ y.y}_{- z.z}$ & $28.64^{+ y.y}_{- z...
-
-? 
-
-! LaTeX Error: \mathrm allowed only in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.50         \Z
-               \ + X & $19.3\pm7.2$ & $50.8\pm15.2$ & $64.6\pm15.6$ & $134.7...
-
-? 
-! Undefined control sequence.
-<argument> m_{\PH 
-                  }
-l.54         Signal ($\mH
-                         =125~\GeV$) & $19.6^{+3.3}_{-3.1}$ & $40.8^{+2.5}_{...
-
-? 
-[8]
-! Undefined control sequence.
-<argument> \PH 
-               \to 4\ell 
-l.81 ...cial cross section measurement for $\Hllll
-                                                  $, both of irreducible bac...
-
-? 
-
-LaTeX Warning: Citation 'Chatrchyan:2013mxa' on page 9 undefined on input line 
-82.
-
-
-LaTeX Warning: Citation 'Bonvini:2013' on page 9 undefined on input line 82.
-
-! Undefined control sequence.
-<argument> \PH 
-               \to 4\ell 
-l.83 ...ll}$ dependent) k-factor as signal $\Hllll
-                                                  $ process to leading order...
-
-? 
-[9]
-
-LaTeX Warning: Citation 'Chatrchyan:2013mxa' on page 10 undefined on input line
- 86.
-
-
-Overfull \hbox (55.15945pt too wide) in paragraph at lines 86--88
-\T1/ppl/m/n/12 rate'' tech-nique is used in the con-trol re-gions of data by fo
-l-low-ing Ref. [[]].
- []
-
-
-LaTeX Warning: Citation 'landau:1944' on page 10 undefined on input line 99.
-
-
-LaTeX Warning: Citation 'Chatrchyan:2013mxa' on page 10 undefined on input line
- 99.
-
-
-LaTeX Warning: Reference `fig:ZX' on page 10 undefined on input line 100.
-
-! Undefined control sequence.
-<argument> \PH 
-               \to 4\ell 
-l.103 For differentiall measurements in $\Hllll
-                                               $, shape of reducible backgro...
-
-? 
-
-LaTeX Warning: Citation 'Chatrchyan:2013mxa' on page 10 undefined on input line
- 103.
-
-! Undefined control sequence.
-<argument> \PH 
-               \to 4\ell 
-l.106 of differential measurements of $\Hllll
-                                             $ will be given in Section \ref...
-
-? 
-
-LaTeX Warning: Reference `sec:ExtractionDifferential' on page 10 undefined on i
-nput line 106.
-
-
-Overfull \hbox (55.01598pt too wide) in paragraph at lines 98--107
-\T1/ppl/m/n/12 i-cal an-a-lyt-i-cal func-tional con-structed by Lan-dau [[]] in
- Ref. [[]].
- []
-
-
-Overfull \hbox (3.05202pt too wide) in paragraph at lines 112--115
-[]\T1/ppl/m/n/12 Reconstructed four-leptons in-vari-ant mass dis-tri-bu-tion fo
-r whole Run 2 datasets
- []
-
-<Chapters/Chapter4/AnalysisStrategy/figures/Combination.pdf, id=272, 569.12625p
-t x 415.5525pt>
-File: Chapters/Chapter4/AnalysisStrategy/figures/Combination.pdf Graphic file (
-type pdf)
-<use Chapters/Chapter4/AnalysisStrategy/figures/Combination.pdf>
-Package pdftex.def Info: Chapters/Chapter4/AnalysisStrategy/figures/Combination
-.pdf  used on input line 120.
-(pdftex.def)             Requested size: 216.81pt x 158.30472pt.
-<Chapters/Chapter4/AnalysisStrategy/figures/Combination_lowMass.pdf, id=273, 56
-9.12625pt x 415.5525pt>
-File: Chapters/Chapter4/AnalysisStrategy/figures/Combination_lowMass.pdf Graphi
-c file (type pdf)
-<use Chapters/Chapter4/AnalysisStrategy/figures/Combination_lowMass.pdf>
-Package pdftex.def Info: Chapters/Chapter4/AnalysisStrategy/figures/Combination
-_lowMass.pdf  used on input line 124.
-(pdftex.def)             Requested size: 216.81pt x 158.30472pt.
-
-Overfull \hbox (2.28001pt too wide) in paragraph at lines 118--127
-[]$[]$ $[]$ 
- []
-
-) (./Chapters/Chapter4/AnalysisStrategy/fiducial_volume.tex
-! Undefined control sequence.
-<argument> \PH 
-               \to 4\ell 
-l.1 Fraction of all $\Hllll
-                           $ events that get selected following the event se...
-
-? 
-! Undefined control sequence.
-<argument> \PH 
-               \to 4\ell 
-l.6 ...ons (Inclusive and differential) in $\Hllll
-                                                  $ are made in a fiducial r...
-
-? 
-[10]
-
-LaTeX Warning: Citation 'Chatrchyan:2013mxa' on page 11 undefined on input line
- 16.
-
-
-LaTeX Warning: Reference `tab:efficiencySMnoGenIso' on page 11 undefined on inp
-ut line 19.
-
-! Undefined control sequence.
-<argument> \cPqt 
-                 \bar {\cPqt }\PH 
-l.20 from $\ttH
-               $ and $\ggH$ production modes. This behavior is expected as $...
-
-? 
-! Undefined control sequence.
-<recently read> \cPqt 
-                      
-l.20 from $\ttH
-               $ and $\ggH$ production modes. This behavior is expected as $...
-
-? 
-! Undefined control sequence.
-<argument> \cPqt 
-                 
-l.20 from $\ttH
-               $ and $\ggH$ production modes. This behavior is expected as $...
-
-? 
-! Undefined control sequence.
-<argument> \cPqt \bar {\cPqt }\PH 
-                                  
-l.20 from $\ttH
-               $ and $\ggH$ production modes. This behavior is expected as $...
-
-? 
-! Undefined control sequence.
-\ttH ...suremath {\cPqt \bar {\cPqt }\PH }\xspace 
-                                                  
-l.20 from $\ttH
-               $ and $\ggH$ production modes. This behavior is expected as $...
-
-? 
-! Undefined control sequence.
-<argument> \Pg \Pg \to \PH 
-                           
-l.20 from $\ttH$ and $\ggH
-                          $ production modes. This behavior is expected as $...
-
-? 
-! Undefined control sequence.
-<argument> \cPqt 
-                 \bar {\cPqt }\PH 
-l.20 ... modes. This behavior is expected as $\ttH
-                                                  $ events has more hadronic...
-
-? 
-! Undefined control sequence.
-<recently read> \cPqt 
-                      
-l.20 ... modes. This behavior is expected as $\ttH
-                                                  $ events has more hadronic...
-
-? 
-! Undefined control sequence.
-<argument> \cPqt 
-                 
-l.20 ... modes. This behavior is expected as $\ttH
-                                                  $ events has more hadronic...
-
-? 
-! Undefined control sequence.
-<argument> \cPqt \bar {\cPqt }\PH 
-                                  
-l.20 ... modes. This behavior is expected as $\ttH
-                                                  $ events has more hadronic...
-
-? 
-! Undefined control sequence.
-\ttH ...suremath {\cPqt \bar {\cPqt }\PH }\xspace 
-                                                  
-l.20 ... modes. This behavior is expected as $\ttH
-                                                  $ events has more hadronic...
-
-? 
-! Undefined control sequence.
-<argument> \Pg \Pg \to \PH 
-                           
-l.20 ...tivity around leptons as compared to $\ggH
-                                                  $
-? 
-! Undefined control sequence.
-<argument> \cPqt 
-                 \bar {\cPqt }\PH 
-l.21 ...tive isolation  kills more events in $\ttH
-                                                  $ than $\ggH$.
-? 
-! Undefined control sequence.
-<recently read> \cPqt 
-                      
-l.21 ...tive isolation  kills more events in $\ttH
-                                                  $ than $\ggH$.
-? 
-! Undefined control sequence.
-<argument> \cPqt 
-                 
-l.21 ...tive isolation  kills more events in $\ttH
-                                                  $ than $\ggH$.
-? 
-! Undefined control sequence.
-<argument> \cPqt \bar {\cPqt }\PH 
-                                  
-l.21 ...tive isolation  kills more events in $\ttH
-                                                  $ than $\ggH$.
-? 
-! Undefined control sequence.
-\ttH ...suremath {\cPqt \bar {\cPqt }\PH }\xspace 
-                                                  
-l.21 ...tive isolation  kills more events in $\ttH
-                                                  $ than $\ggH$.
-? 
-! Undefined control sequence.
-<argument> \Pg \Pg \to \PH 
-                           
-l.21 ...on  kills more events in $\ttH$ than $\ggH
-                                                  $.
-? 
-
-LaTeX Warning: Citation 'Kauer:2013cga' on page 11 undefined on input line 30.
-
-
-LaTeX Warning: Citation 'Kauer:2012hd' on page 11 undefined on input line 30.
-
-
-LaTeX Warning: Reference `tab:FidDef' on page 11 undefined on input line 31.
-
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 43.
-! Undefined control sequence.
-<argument> \PH 
-               \to 4\ell 
-l.43 ...rements on $\Hllll$ fiducial phase space}}
-                                                   \\
-? 
-
-Overfull \hbox (69.32175pt too wide) in paragraph at lines 40--81
- [] 
- []
-
-[11 <./Chapters/Chapter4/AnalysisStrategy/figures/Combination.pdf, page is rota
-ted 90 degrees> <./Chapters/Chapter4/AnalysisStrategy/figures/Combination_lowMa
-ss.pdf, page is rotated 90 degrees>]
-
-LaTeX Warning: Reference `sec:Systematics' on page 12 undefined on input line 8
-7.
-
-
-LaTeX Warning: Reference `tab:summarySMfullRun2' on page 12 undefined on input 
-line 89.
-
-) [12] [13] [14
-
-]
-1: section
-[15] [16]
-
-LaTeX Warning: Empty bibliography on input line 417.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 420.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 420.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 425.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 425.
 (./main.aux (./Chapters/introduction.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 420.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 420.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 425.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 425.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 4C7E212187254148F7A158D641BF4B86;348.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 2B006C725B45B6E1F1117A0DF4E20F97;2551
-(rerunfilecheck)             After:  3B1D11AEC36EA2FEFE7EBF12787E7F49;2786.
 
 LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 
 Package biblatex Warning: Please (re)run BibTeX on the file(s):
@@ -3013,30 +2292,25 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35034 strings out of 492982
- 698666 string characters out of 6134896
- 918196 words of memory out of 5000000
- 38121 multiletter control sequences out of 15000+600000
- 569796 words of font info for 88 fonts, out of 8000000 for 9000
+ 34767 strings out of 492982
+ 692758 string characters out of 6134896
+ 906367 words of memory out of 5000000
+ 37933 multiletter control sequences out of 15000+600000
+ 557534 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,21n,79p,10377b,1935s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 52i,19n,75p,10377b,1931s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
-y10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/font
-s/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (28 pages, 383427 bytes).
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/u
+rw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/
+uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on main.pdf (14 pages, 126918 bytes).
 PDF statistics:
- 454 PDF objects out of 1000 (max. 8388607)
- 320 compressed objects within 4 object streams
- 61 named destinations out of 1000 (max. 500000)
- 158 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 129 PDF objects out of 1000 (max. 8388607)
+ 102 compressed objects within 2 object streams
+ 21 named destinations out of 1000 (max. 500000)
+ 30 words of extra memory for PDF output out of 10000 (max. 10000000)
 

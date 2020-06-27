@@ -1,4 +1,4 @@
-The purpose is to extract integrated and differential fiducial cross sections after corrections of detector effects, resolution and systematic biases. To
+ The purpose is to extract integrated and differential fiducial cross sections after corrections of detector effects, resolution and systematic biases. To
 achieve
 this target, the corrections are extracted by using simulated samples and then encoded in the parametrization of $m_{4\ell}$ spectra at the 
 reconstruction level. Then we directly extract the parameter of interest ($\sigma{}_{fid}$) by performing the maximum likelihood fit of background and 
@@ -79,8 +79,7 @@ Figure \ref{fig:eff-pT4l-4e} shows the efficiency matrix for $p_{T}(H)$  measure
 dominated by diagonal elements, but in general it can have non-negligible off-diagonal elements specially for jet related observables due to
 jet energy scale uncertainty. In case of differential variable, jet multiplicity,  neighbour elements of diagonal varies from 3\% to 21\% as shown in Figures
 \ref{fig:eff-njets_reco_pt30_eta4p7-4e}-\ref{fig:eff-njets_reco_pt30_eta4p7-2e2mu} in the Appendix \ref{app:siginputs}.
-\par The number of estimated events in each final state $f$ and in bin $i$ of a studied 
-observable are described as a function of $m_{4\ell}$ given by:
+\par The estimated number events for a studied differential observable in a final state $f$ and in the defined bin $i$ are described in terms of $m_{4\ell}$ given by:
 \begin{eqnarray}
 \label{eqn:m4l}
 \begin{aligned}
@@ -90,12 +89,11 @@ N_{\mathrm{obs}}^{\mathrm{f},i}(m_{4\ell}) &= N_{\mathrm{fid}}^{\mathrm{f},i}(m_
 \end{aligned}
 \end{eqnarray}
 Where  $N_{\mathrm{fid}}^{\mathrm{f},i}(m_{4\ell})$, $N_{\mathrm{nonfid}}^{\mathrm{f},i}(m_{4\ell})$, $N_{\mathrm{comb}}^{\mathrm{f},i}(m_{4\ell})$
-and $N_{\mathrm{bkg}}^{\mathrm{f},i}(m_{4\ell})$ denote the resonant fiducial signal, resonant nonfiducial signal, combinatorial contribution from
-fiducial signal, and background contributions in bin $i$ as functions of $m_{4\ell}$, respectively.
-Similarly, the corresponding probability density functions for the resonant (fiducial and nonfiducial) signal, combinatorial signal, and background 
-contributions are  $\mathcal{P}_{\mathrm{res}}(m_{4\ell})$, $\mathcal{P}_{\mathrm{comb}}(m_{4\ell})$ and $\mathcal{P}_{\mathrm{bkg}}(m_{4\ell})$  respectively.
- $\epsilon_{i,j}^{\mathrm{f}}$ is  the  detector response matrix that connects the reconstructed level events in bin $i$ with fiducial events in the bin $j$
-for studied differential observable. The $f_{\rm nonfid}^{i}$ fraction represents the ratio of the nonfiducial and fiducial signal contributions 
-in bin $i$ at the reconstruction level. The parameter $\sigma_{\mathrm{fid}}^{\mathrm{f},j}$ is the signal cross section for the final
-state f in bin $j$ of the fiducial phase space.
+and $N_{\mathrm{bkg}}^{\mathrm{f},i}(m_{4\ell})$ denote the resonant fiducial signal, the nonfiducial resonant, the combinatorial contribution of
+fiducial signal, and background contributions in a defined bin $i$ as functions of $m_{4\ell}$ (four lepton invariant mass), respectively.
+Then, probability density functions corresponding to the resonant (fiducial and the nonfiducial) signal, the combinatorial contributions of fiducial signal, and contribution from the background  are  $\mathcal{P}_{\mathrm{res}}(m_{4\ell})$, $\mathcal{P}_{\mathrm{comb}}(m_{4\ell})$ and $\mathcal{P}_{\mathrm{bkg}}(m_{4\ell})$  respectively.
+ $\epsilon_{i,j}^{\mathrm{f}}$ is  the  response matrix that connects reconstructed level events in a defined bin $i$ with fiducial events in the bin $j$
+for studied differential observable. The $f_{\rm nonfid}^{i}$ fraction represents the ratio of nonfiducial signal to the fiducial signal contributions 
+in a defined bin $i$ at reconstruction level. $\sigma_{\mathrm{fid}}^{\mathrm{f},j}$ is the parameter of interest that represents signal cross section for a final
+state f in a defined bin $j$ of fiducial region.
 

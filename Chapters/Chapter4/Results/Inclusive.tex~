@@ -1,19 +1,16 @@
 
-The resulting fits to the inclusive m$(4\ell)$ distributions for the integrated $\Hllll$ fiducial cross section measurements for different final states, 
-performed in the $m_{4\ell}$ range from 105~GeV to 140~GeV, are shown in Figure~\ref{fig:sigfits-data-SM-inclusive}. The extracted inclusive cross sections as function of center of mass energy are shown in Figure~\ref{fig:inclusive-results:a} while the extracted integrated cross section results for different final states at 13~TeV corresponding to different data taking periods are shown in Figure~\ref{fig:inclusive-results:b}. 
-The red error bar represents the systematic uncertainty, while black error bar represents the combined statistical and 
-systematic uncertainties, summed in quadrature. The sub-dominant component of the signal XH $=$ VBF $+$ VH $+$ $\ttH$ is indicated in green separately. 
+Resulting fits to the inclusive m$(4\ell)$ distributions (extracted in $m_{4\ell}$ range $viz$ 105~GeV to 140~GeV) for measurement of integrated $\Hllll$ fiducial cross section in different final states,
+are shown in Figure~\ref{fig:sigfits-data-SM-inclusive}. 
+Extracted inclusive cross sections as function of colliding center of mass energy has been shown in the Figure~\ref{fig:inclusive-results:a} while the extracted integrated cross section results for different final states at 13~TeV corresponding to different years of data taking are shown in Figure~\ref{fig:inclusive-results:b}. 
+Systematic on the measurement is represented by red bar, whereas black error bar represents total uncertainties, summed from the individuals in quadrature. Contributions of the sub-dominant component of the signal i.e. XH $=$ VBF $+$ VH $+$ $\ttH$ is indicated in green separately. 
 %The additional systematic uncertainty associated with the model dependence
 %is separately represented by a grey box. 
-Above listed results are summarized in Tables \ref{tab:incresults} and \ref{tab:incresultsPAS}.
+These results are also given in Tables \ref{tab:incresults} and \ref{tab:incresultsPAS}.
 % Summary of individual measurements of inclusive $\Hllll$ fiducial cross sections at 7~TeV and 8~TeV, performed in the $m_{4\ell}$ range from 105~GeV 
 % to 140~GeV,  are presented in Table~\ref{tab:incresults} and Figure~\ref{fig:inclusive-results-summary} and Figure~\ref{fig:ratio7o8-results-summary}.
 
-The $\Hllll$ measurements are compared to the SM NNLO theoretical estimations where the acceptance of the 
-dominant $\ggH$ contribution is modelled using {\sc powheg} at  $\sqrt{s}$=13\TeV and {\sc HRes}~\cite{Grazzini:2013mca,deFlorian:2012mx} at  $\sqrt{s}$=7 and 8\TeV and the total gluon fusion cross section and uncertainty  
-are taken from Ref.~\cite{Anastasiou2016}. The fiducial volume for $\sqrt{s}$=6--9\TeV uses the lepp
-ton isolation definition from Ref.~\cite{CMSH4lFiducial8TeV}, while for $\sqrt{s}$=12--14\TeV the definition descrr
-ibed in the text is used.
+The inclusive $\Hllll$ measurements are compared with SM NNLO theoretical estimations where acceptance of dominant $\ggH$ contribution is estimated using {\sc powheg} at  $\sqrt{s}$=13\TeV and {\sc HRes}~\cite{Grazzini:2013mca,deFlorian:2012mx} at  $\sqrt{s}$=7 and 8\TeV. Total gluon fusion cross section and associated uncertainty has been taken from Ref.~\cite{Anastasiou2016}. 
+Definition of fiducial volume for $\sqrt{s}$=6--9\TeV uses the lepton isolation definition from Ref.~\cite{CMSH4lFiducial8TeV}, while for $\sqrt{s}$=12--14\TeV the definition described in the text is used.
 
 %Total uncertainty on NNLL+NNLO theoretical computations is obtained from Ref.~\cite{LHCHiggsCrossSectionWorkingGroup:2013tqa} and includes
 %uncertainties due to the renormalization and factorization scales ($\sim 7.8\%$), PDFs ($\sim 7.5\%$),branching fraction (2\%) and acceptance ($2\%$). For
@@ -25,7 +22,7 @@ ibed in the text is used.
 % signal XH $=$ VBF $+$ VH $+$ $\ttH$ is indicated in green separately.
 %A small difference between the predictions based on {\sc powheg+JHUgen} and {\sc minloHJ}
 % is arising from the way the acceptance of the gg$\rightarrow$H contribution is modelled by these two generators.
-When extracting the total H$\rightarrow4\ell$ fiducial cross section, the parameter of interest is the total fiducial cross section and the fractions of $4e,4\mu,$ and $2e2\mu$ is floated in the fit. When extracting the fiducial cross section for each final state, the three parameters of interest are the cross sections of three individual final states.
+When extracting the integrated H$\rightarrow4\ell$ fiducial cross section, the parameter of interest is  total fiducial cross section and the fractions of $4e,4\mu,$ and $2e2\mu$ is floated in the fit. When extracting the fiducial cross section in the final states, three parameters of interest are the cross sections of three individual final states.
 
 \begin{figure}[!htb]
   \begin{center}
@@ -46,7 +43,7 @@ When extracting the total H$\rightarrow4\ell$ fiducial cross section, the parame
       \includegraphics[width=0.48\textwidth,angle=0]{Plots/data_unfoldwith_SM_125_v3_mass4l_4l_recobin0.pdf}
        \label{fig:sigfits-data-SM-inclusive:d}
     } \\
-    \caption{Inclusive four lepton mass distributions in data and the resulting fitted values of the signal and background pdfs in different final states.}
+    \caption{Inclusive four lepton invariant mass distributions in data and resulting fitted values of signal and the background PDFs in different final states.}
   \label{fig:sigfits-data-SM-inclusive}
   \end{center}
 \end{figure}
@@ -78,8 +75,7 @@ When extracting the total H$\rightarrow4\ell$ fiducial cross section, the parame
 \begin{table}[!h!tb]
 \begin{center}
       \caption{
-Results of the $\Hllll$ integrated fiducial cross section measurements performed in the $m_{4\ell}$ range from 105~GeV to 140~GeV for proton 
-collisions at 13~TeV.
+Measured $\Hllll$ Inclusive fiducial cross section in $m_{4\ell}$ ranging from 105~GeV to 140~GeV in proton collisions at 13~TeV.
         } \label{tab:incresults}
 \begin{tabular}{|c|c|}
 \hline %---------------------------------------------------------
@@ -94,11 +90,11 @@ Measured & $2.73^{+0.30}_{-0.29}=2.73^{+0.23}_{-0.22}({\rm stat.})^{+0.24}_{-0.1
 \hline %---------------------------------------------------------
 \vspace{-0.4cm} & \\
 %Measured & $0.94^{\rm +0.79}_{\rm -0.57} \, {\rm(stat.)}\, ^{\rm +0.22}_{\rm -0.18}\,  {\rm (sys.)} \, ^{+0.04}_{-0.03}\,  {\rm (model)}\, {\rm fb}$  \\
-\small gg$\rightarrow$H({\sc powheg}) + XH & $0.93^{\rm +0.10}_{\rm -0.11}{\rm fb}$ \\
+\small gg$\rightarrow$H({\sc powheg}) + XH & $2.72^{\rm +0.14}_{\rm -0.14}{\rm fb}$ \\
 \vspace{-0.4cm} & \\
 \hline %---------------------------------------------------------
 \vspace{-0.4cm} & \\
-\small gg$\rightarrow$H({\sc NNLOPS}) + XH & $0.94^{\rm +0.10}_{\rm -0.10}{\rm fb}$ \\ 
+\small gg$\rightarrow$H({\sc NNLOPS}) + XH & $2.72^{\rm +0.14}_{\rm -0.14}{\rm fb}$ \\  % FIXME
 %\vspace{-0.4cm} & \\
 \hline %---------------------------------------------------------
 %\vspace{-0.4cm} & \\
@@ -166,25 +162,24 @@ Measured & $2.73^{+0.30}_{-0.29}=2.73^{+0.23}_{-0.22}({\rm stat.})^{+0.24}_{-0.1
 
 %==================
  
-The measurement of the integrated $\Hllll$ fiducial cross section using 13~TeV data is found to be nice agreement with the theoretical predictions 
-within the corresponding uncertainties. The dominant and sub-dominant uncertainties on the measurement are systematic and statistical uncertainties which are about 24\% and  23\% respectively. The theoretical uncertainty is about FIXME: 11\%. 
+Measured integrated $\Hllll$ fiducial cross section using 13~TeV data is in nice agreement with theoretical predictions within corresponding uncertainties. Dominant and sub-dominant uncertainties on the measurement are systematic and statistical uncertainties which are about 24\% and  23\% respectively. The theoretical uncertainty is about 11\%.  % FIXME
  
 %============
 \begin{table}[!h!tb]
 \begin{center}
       \caption{ 
-The results of the $\Hllll$ integrated fiducial cross section measurement performed in the $m_{4\ell}$ range from 105~GeV to 140~GeV, and
-results of the $\Zllll$ integrated fiducial cross section measurement performed in the $m_{4\ell}$ range from 50~GeV to 105~GeV.
+The results of the H$\rightarrow 4l$  integrated fiducial cross section measurement performed in the $m_{4\ell}$ range from 105~GeV to 140~GeV.
+%	, and results of the $\Zllll$ integrated fiducial cross section measurement performed in the $m_{4\ell}$ range from 50~GeV to 105~GeV.
         } \label{tab:incresultsPAS}
 \begin{tabular}{|c|c|c|c|c|}
 \hline %---------------------------------------------------------
 \hline %---------------------------------------------------------
-\multicolumn{5}{|l|}{ Fiducial cross section H$\rightarrow 4l$ (fb) at 8~TeV. } \\
+\multicolumn{5}{|l|}{ Fiducial cross section H$\rightarrow 4l$ (fb) at 13~TeV. } \\
 \hline %---------------------------------------------------------
 & 4l & $2e2\mu$ & $4\mu$ & $4e$ \\
 \hline %---------------------------------------------------------
 \vspace{-0.4cm} &&&&\\
-Measured (stat.~$\oplus$~sys.)(model)
+Measured (stat.~$\oplus$~sys.)
 &$1.11^{+0.43}_{-0.36}{}^{+0.08}_{-0.02}$
 &$0.48^{+0.27}_{-0.22}{}^{+0.03}_{-0.03}$
 &$0.26^{+0.17}_{-0.13}{}^{+0.01}_{-0.01}$
