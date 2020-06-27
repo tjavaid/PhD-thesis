@@ -200,7 +200,7 @@ shown in Fig. \ref{fig:puWeight2018}.
        \vspace*{0.3cm}
        \begin{center}
                \includegraphics[width=0.45\textwidth]{Figures/PileUp/PileUp_2018.pdf} 
-               \caption{Distribution of pileup in 2018 MC and Data shown before and after the application of PU weights. Up and down variations of 5\% in the minimum bias
+               \caption{Pileup distribution in 2018 MC and Data shown before and after the application of PU weights. Up and down variations of 5\% in the minimum bias
                        cross section when calculating the weighs are also shown.
                        \label{fig:puWeight2018}}
        \end{center}

@@ -1,7 +1,7 @@
 With respect to previous analyses, an important improvement brought in this analysis is  usage of a new multivariate discriminant for electron selection in all data taking periods.
 
 Identification and isolation of the reconstructed electrons is now made using Gradient Boosted Decision Tree (GBDT) which is a multivariate classifier algorithm. 
-It exploits inputs from electromagnetic cluster, cluster-track matching, variables which  exclusively depend on tracking measurements and as well as particle flow isolation sums. The list of observables used can be seen in the Table~\ref{tab:ele_ID_input_variables}.
+It exploits inputs from electromagnetic cluster, cluster-track matching, variables which  exclusively depend on tracking measurements and as well as particle flow isolation sums. The list of observables used can be seen in the Table \ref{tab:ele_ID_input_variables}.
 %The BDT has been retrained using CMSSW\_8\_0\_X samples.
 
  \begin{table}[h!]
@@ -55,7 +55,7 @@ For both signal and the background, the classifier is trained on 2017 MC samples
 %/DYJetsToLL M-50 TuneCUETP8M1 13TeV-madgraphMLM-pythia8/RunIISummer17MiniAOD-92X upgrade2017 realistic v10 ext1-v1/MINIAODSIM.
 %\end{verbatim}
 %}
-Fig.~\ref{fig:ele_ID_output} shows the output of the multiclassifier discriminant for prompt electrons from DY events and fakes from jets in DY events.
+Fig. \ref{fig:ele_ID_output} shows the output of the multiclassifier discriminant for prompt electrons from DY events and fakes from jets in DY events.
 
 \begin{figure}[!htb]
 \vspace*{0.3cm}
@@ -66,7 +66,7 @@ Fig.~\ref{fig:ele_ID_output} shows the output of the multiclassifier discriminan
 \end{center}
 \end{figure}
 
-The impact of the transition from the TMVA(v1) to the xgboost(v2) training library is shown in Fig.~\ref{fig:ele_ID_ROC}.
+The impact of the transition from the TMVA(v1) to the xgboost(v2) training library is shown in Fig. \ref{fig:ele_ID_ROC}.
 The working points shown are adopted to get the same signal efficiency as the cut on MVA ID and a cut on the PF isolation, in each $p_T$ and $\eta$ bin.
 
 \begin{figure}[!htb]
@@ -115,7 +115,7 @@ The working points shown are adopted to get the same signal efficiency as the cu
 % \end{figure}
 
 %Table~\ref{tab:ele_ID_input_variables} summarizes the full list of observables used as input to the classifier
-Table~\ref{tab:ele_ID_WP} lists the cut values applied to the BDT score for the chosen working point.
+Table \ref{tab:ele_ID_WP} lists the cut values applied to the BDT score for the chosen working point.
 For the analysis, loose electrons have to pass this MVA identification and isolation working point.
 
 %\begin{table}[h!]

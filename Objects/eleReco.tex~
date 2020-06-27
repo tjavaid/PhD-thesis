@@ -17,7 +17,7 @@ The electron reconstruction scale factors are shown Fig.~\ref{fig:ele_rec_scale_
 \includegraphics[width=0.4\textwidth]{Figures/Electrons/ErecoPt_lowPt}
 %\includegraphics[width=0.4\textwidth]{Figures/Electrons/ErecoEta_lowPt}
 \end{center}
-\caption{Electron reconstruction efficiencies efficiency in data versus $p_T$ (left) and $\eta$ (right) for electrons with $\pt > 20 \GeV$ (top) and $\pt < 20 \GeV$ (bottom) with corresponding data/MC scale factors as provided by the EGM POG.}
+\caption{Reconstruction efficiencies of electron in data versus $p_T$ (left), $\eta$ (right) for electrons having $\pt > 20 \GeV$ (top) and $\pt < 20 \GeV$ (bottom) with corresponding data/MC scale factors as provided by the EGM POG.}
 \label{fig:ele_rec_scale_factors}
 \end{figure}
 

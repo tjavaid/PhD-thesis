@@ -55,12 +55,11 @@ corresponds to muons originating from $\cPZ$ bosons with $\pt > 500\GeV$.
     \end{small}
 \end{table}
 
-An additional ``ghost-cleaning'' step is performed to deal with situations when a single muon
-can be incorrectly reconstructed as two or more muons:
+It may happen that a single muon is reconstruted incorrectly as two muons or even more. To cope with this situation, additional ``ghost-cleaning'' is performed as:
 
 \begin{itemize}
 
-\item Tracker Muons that are not Global Muons are required to be arbitrated.
-\item If two muons are sharing 50\% or more of their segments then the muon with lower quality is removed.
+\item Those tracker Muons which are not Global Muons, are needed to be arbitrated.
+\item If two muons are sharing their segments upto 50\% or more, lower quality muon is removed.
 
 \end{itemize}

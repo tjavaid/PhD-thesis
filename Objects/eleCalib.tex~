@@ -22,8 +22,8 @@ The electron energy scale is measured in data by fitting a Crystall-ball functio
 \subfigure [] {\resizebox{7cm}{!}{\includegraphics{Figures/Electrons/ZMass_ele_EEEE.pdf}}} \\
 \end{center}
 \caption{
-(a): electron energy scale measured in the $Z\rightarrow \Pe \Pe$ control region for all electrons, for both electrons in the barrel (b), for one electron in the barrel, one in the endcaps (c) and for both electrons in the endcaps (d).
-The results of the Crystall-ball fit are reported in the figures.
+	(a) electron energy scale measured in the $Z\rightarrow \Pe \Pe$ control region for all electrons,(b) for both electrons in barrel, (c) for one electron in barrel and other in endcaps, and for both of the electrons in endcaps (d).
+In these figures, the results based on fits using Crystall-ball are shown.
 %\textbf{FIXME: e-scale and smearing corrections NOT yet available and thus NOT yet applied} 
 }
 \label{fig:ele_energy_scale}

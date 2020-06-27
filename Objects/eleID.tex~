@@ -48,7 +48,7 @@ observable type    &  observable name      	\\
     \label{tab:ele_ID_input_variables}
 \end{table}
 
-The classifier is trained on 2017 Drell-Yan plus jets MC sample for both signal and background.
+For both signal and the background, the classifier is trained on 2017 MC samples of Drell-Yan(DY) plus jets.
 %{
 %\tiny
 %\begin{verbatim}
@@ -67,7 +67,7 @@ Fig.~\ref{fig:ele_ID_output} shows the output of the multiclassifier discriminan
 \end{figure}
 
 The impact of the transition from the TMVA(v1) to the xgboost(v2) training library is shown in Fig.~\ref{fig:ele_ID_ROC}.
-The working points shown are chosen so as to get the  same signal efficiency as a cut on MVA ID and a cut on the PF isolation, in each $p_T$ and $\eta$ bin.
+The working points shown are adopted to get the same signal efficiency as the cut on MVA ID and a cut on the PF isolation, in each $p_T$ and $\eta$ bin.
 
 \begin{figure}[!htb]
 \vspace*{0.3cm}
@@ -173,6 +173,6 @@ $p_T > 10$ GeV                      &  1.080		         & 95.7\%      &  \multico
 
      \end{tabular}
 \small
-    \caption{Minimum BDT score required for passing the electron identification, together with the corresponding signal and background efficiencies.}% \textbf{FIXME: WP to be defined!}}
+    \caption{Minimum value of BDT score for electron to pass identification, together with the corresponding signal and the background efficiencies.}% \textbf{FIXME: WP to be defined!}}
     \label{tab:ele_ID_WP}
 \end{table}

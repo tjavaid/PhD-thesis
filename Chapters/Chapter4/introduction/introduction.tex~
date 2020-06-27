@@ -6,7 +6,7 @@ channels, combination of both channels [ATLAS-CONF-2019-032] ~\cite{ATLAS:H4l_Hg
 channel~\cite{CMS:Hgg_8TeV}. 
 \par The integrated fiducial cross section measurements 
 are performed using collisions data of CMS (LHC) corresponding to 137.1 $fb^{-1}$ integrated luminosity at $\sqrt{s}=13$~TeV. % 
-It is important to minimize results' dependence on underlying models of Higgs production  mechanism and its properties. Hence, cross sections are extracted in the fiducial phase space that closely matches with the detector geometry as shown in Figure~\ref{fig:Models_cartoon}. The remaining model dependence is extracted by repeating the measurements for SM and other exotic models and reported as a distinct systematic uncertainty. All measurements includes the corrections for the finite detection efficiency and resolution effects. As $\sigma \times BR$ strongly depends on the mass of Higgs, measurements are extracted assuming $m_H =  125.09$~GeV, as measured from $H \rightarrow 2\gamma$ and $H \rightarrow 4\ell$
+It is important to minimize results' dependence on underlying models of Higgs production  mechanism and its properties. Hence, cross sections are extracted in the fiducial phase space that closely matches with the detector geometry as shown in Figure \ref{fig:Models_cartoon}. The remaining model dependence is extracted by repeating the measurements for SM and other exotic models and reported as a distinct systematic uncertainty. All measurements includes the corrections for the finite detection efficiency and resolution effects. As $\sigma \times BR$ strongly depends on the mass of Higgs, measurements are extracted assuming $m_H =  125.09$~GeV, as measured from $H \rightarrow 2\gamma$ and $H \rightarrow 4\ell$
 decay modes at CMS experiment of LHC ~\cite{Reference39}. 
 %==================
 \begin{figure}[!h!tb]
@@ -22,8 +22,6 @@ decay modes at CMS experiment of LHC ~\cite{Reference39}.
 %function of the jet multiplicity. The results are reported for 
  kinematic observables. In this dissertation we study the differential observables which are sensitive to production mechanism of Higgs: transverse momentum and the rapidity of Higgs, the transverse momentum of leading jet and jet multiplicity.  
 
-\par The chapter is structured as follows. The datasets and simulated samples used for the analysis are introduced in 
-Section \ref{sec:DatasetsSimulation}. The analysis strategy is described in Section \ref{sec:AnalysisStrategy}, where fiducial phase space definition, 
-event selection and method for extracting integrated and differential fiducial cross sections are explained.
-In Section~\ref{sec:Systematics}  details of systematic uncertainties affecting the measurement are explained. In Section \ref{sec:Results} results 
-are compared with SM theoretical predictions.  
+\par The structure of this chapter follows as the datasets and MC or simulated samples used are introduced in 
+Section \ref{sec:DatasetsSimulation}. The analysis strategy is described in Section \ref{sec:AnalysisStrategy}, where event selection, fiducial phase space definition and strategy method for extracting inlusive and differential fiducial cross sections.
+In Section~\ref{sec:Systematics}  details of systematic uncertainties affecting the cross section measurement are explained. In Section \ref{sec:Results} results of measurements are compared with SM predictions.  

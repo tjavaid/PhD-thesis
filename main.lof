@@ -1,3 +1,128 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {english}{}
 \addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces The elementary particles given in three generations of matter, the gauge bosons in fourth column and the Higgs boson in the fifth.\relax }}{5}{figure.caption.11}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces A Feynman diagram of annihilation of electron positron.\relax }}{6}{figure.caption.14}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces The Higgs potential as in Eq.\ref {eq:higgs_potential}\relax }}{8}{figure.caption.23}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Feynman diagrams of Higgs production at tree level: gluon-gluon fusion (upper left);VV fusion (upper right); associated production with W and Z bosons (bottom left); associated production with $t\bar {t}$ (bottom right). \relax }}{12}{figure.caption.45}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Production cross sections of SM Higgs boson at 7, 8 and 13 TeV as function of its mass.\relax }}{13}{figure.caption.46}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Production cross sections of Higgs boson ($m_H =125$~GeV) as a function of center of mass energies\relax }}{14}{figure.caption.47}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Branching ratios for different Higgs boson decay channels as a function of the Higgs mass.\relax }}{16}{figure.caption.55}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Cross sections of Higgs times branching ratios at 7 TeV and 8 TeV (left and right diagrams respectively).\relax }}{17}{figure.caption.56}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces LHC experiment at CERN\relax }}{22}{figure.caption.68}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces The Schematic layout of the LHC\relax }}{23}{figure.caption.71}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Cross section values for different process corresponding to machine luminosity $ \mathscr {L} = 10^{33}~cm^{2}~s^{-1}$.\relax }}{25}{figure.caption.78}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Integrated luminosities of LHC delivered (blue) and CMS recorded (yellow) data for year 2015(a), year 2016(b), year 2017(c) and year 2018(d).\relax }}{27}{figure.caption.80}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{27}{figure.caption.80}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{27}{figure.caption.80}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{27}{figure.caption.80}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{27}{figure.caption.80}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces The CMS detector sectional view.\relax }}{28}{figure.caption.86}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces The CMS Experiment coordinate system.\relax }}{29}{figure.caption.88}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Schematic diagram of CMS tracker system. Lines represent detector modules (before phase 1 pixel upgrades ).\relax }}{32}{figure.caption.94}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Schematic diagram of pixel detector's upgrade. Old pixel detector is shown by the lower half detector, and the new pixel detector is represented by the upper half.\relax }}{32}{figure.caption.95}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Pixel detector's hit efficiency as function of instantaneous luminosity corresponding to 2016 data (left) and to 2017 data (right) Ref.[in comments] \relax }}{32}{figure.caption.96}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces CMS ECAL layout and pseudorapidity coverage.\relax }}{34}{figure.caption.100}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces CMS ECAL energy resolution.\relax }}{36}{figure.caption.105}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces CMS HCAL layout.\relax }}{37}{figure.caption.108}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces CMS muon system layout.\relax }}{40}{figure.caption.115}
+\contentsline {figure}{\numberline {3.14}{\ignorespaces DT electric field created by cathode, anode and insulating strips .\relax }}{40}{figure.caption.117}
+\contentsline {figure}{\numberline {3.15}{\ignorespaces CSC layout (left) and induced current (right) when a charged particle pass thorugh it .\relax }}{42}{figure.caption.119}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{42}{figure.caption.119}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{42}{figure.caption.119}
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Momentum resolution of muon as a function of $p_T$ of muons both in barrel and endcap regions.\relax }}{43}{figure.caption.124}
+\contentsline {figure}{\numberline {3.17}{\ignorespaces The configuration of L1 trigger.\relax }}{44}{figure.caption.127}
+\contentsline {figure}{\numberline {3.18}{\ignorespaces The CMS DAQ system structure.\relax }}{45}{figure.caption.130}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Reconstruction efficiencies of electron in data versus $p_T$ (left), $\eta $ (right) for electrons having $\ensuremath {p_T}> 20 \GeV $ (top) and $\ensuremath {p_T}< 20 \GeV $ (bottom) with corresponding data/MC scale factors as provided by the EGM POG.\relax }}{48}{figure.caption.136}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Output of the multiclassifier discriminant for prompt electrons matched to truth electrons from Z decay (blue) and for fakes (red). Events are all taken from DY events MC sample. \relax }}{49}{figure.caption.139}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces The receiver operating characteristic curves (background efficiency vs signal efficiency) of the MVA's trained on the 2017 simulation and applied on the 2018 simulation. The training combines identification and isolation variables. Performance are shown for electrons with $5 < p_T < 10 $~GeV (left), $p_T > 10 GeV$~(right) and $|\eta |<0.8$~(top), $0.8 < |####eta| < 1.479$~(middle) and $|####eta| > 1.479$~(bottom). V1 and V2 versions of training are compared, exploiting TMVA and xgboost training libraries respectively. \relax }}{50}{figure.caption.140}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces (a) electron energy scale measured in the $Z\rightarrow \ensuremath {\mathrm {e}}\ensuremath {\mathrm {e}}$ control region for all electrons,(b) for both electrons in barrel, (c) for one electron in barrel and other in endcaps, and for both of the electrons in endcaps (d). In these figures, the results based on fits using Crystall-ball are shown. \relax }}{52}{figure.caption.144}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{52}{figure.caption.144}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{52}{figure.caption.144}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{52}{figure.caption.144}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{52}{figure.caption.144}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Electron selection efficiencies vs $p_T$ measured using the Tag-and-Probe technique, non-gap electrons (left) and gap electrons (right), together with the corresponding data/MC ratio bottom part of each plot.\relax }}{53}{figure.caption.150}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{53}{figure.caption.150}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{53}{figure.caption.150}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Electron selection efficiencies vs $\eta $, non-gap electrons (left) and gap electrons (right), together wit the corresponding data/MC ratio at the bottom part of each plot.\relax }}{53}{figure.caption.153}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{53}{figure.caption.153}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{53}{figure.caption.153}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces (a): muon energy scale measured in the $Z\rightarrow \mu \mu $ control region for all muons, for both of muons frome barrel region (b), for one muon from barrel, one from endcaps (c) and for both muons in the endcaps (d). The results in the figures are extrated from fits using the Crystall-ball function. \relax }}{57}{figure.caption.163}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{57}{figure.caption.163}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{57}{figure.caption.163}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{57}{figure.caption.163}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{57}{figure.caption.163}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Reconstruction and identification efficiencies of muons at low \ensuremath {p_T}, measured with the $T\&P$ method on events, in bins of \ensuremath {p_T}in barrel (left) and endcaps (center), and in terms of $\eta $ for $\ensuremath {p_T}> 7\GeV $ (right). In upper panel of each diagram, the larger uncertainty bars include also the systematical uncertainties, while the smaller ones are purely statistical. In the lower panel showing the ratio of two efficiencies, black uncertainty bars are for statistical uncertainty, the orange rectangles for the systematical uncertainty and the violet rectangles include both uncertainties.\relax }}{58}{figure.caption.170}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{58}{figure.caption.170}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{58}{figure.caption.170}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{58}{figure.caption.170}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Efficiency of the muon impact parameter requirements, measured with the $T\&P$ method on $\mathrm {Z}$ events, in bins of \ensuremath {p_T}in barrel (left) and endcaps (center), and in terms of $\eta $ for all $\ensuremath {p_T}$ (right). In upper panel, the larger uncertainty bars include also the systematical uncertainties, while the smaller ones are purely statistical. In the lower panel showing the ratio of two efficiencies, black error bars are for statistical uncertainty, the orange rectangles for the systematical uncertainty and the violet rectangles include both uncertainties.\relax }}{59}{figure.caption.175}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{59}{figure.caption.175}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{59}{figure.caption.175}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{59}{figure.caption.175}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Efficiency of muon isolation requirement, measured with the tag\&probe method on \mathrm {Z}events, as function of \ensuremath {p_T}in the barrel (left) and endcaps (right). In the upper panel, the larger error bars include also the systematical uncertainties, while the smaller ones are purely statistical. In the lower panel showing the ratio of the two efficiencies, the black error bars are for the statistical uncertainty, the orange rectangles for the systematical uncertainty and the violet rectangles include both uncertainties.\relax }}{59}{figure.caption.180}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{59}{figure.caption.180}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{59}{figure.caption.180}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Left: Overall scale factors for muons, as function of \ensuremath {p_T}and $\eta $. Right: Uncertainties on overall scale factors muons shown in two dimensions of \ensuremath {p_T}and $\eta $.\relax }}{60}{figure.caption.185}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Comparison of data with MC for leading jet $\eta $ in Z$\rightarrow \ell \ell $ +jets. MC is normalized to data. Jet ID and Jet PUID are applied. MC samples include DY and ttbar. Data/MC ratio plots are shown in the bottom of each plots, together with the uncertainties (shaded histograms) from Jet Energy Corrections. \relax }}{63}{figure.caption.198}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Fiducial phase definition among different models.\relax }}{68}{figure.caption.203}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Measured trigger efficiency in 2018 data where the event collection is made using single electron and muon triggers: $4e$ (top left), $4\mu $ (top right), $2e2\mu $ (bottom left) and $4\ell $ (bottom right) final states. \relax }}{70}{figure.caption.208}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces $\ensuremath {{\rm gg}\to {\rm H}}$ process fynman diagram.\relax }}{71}{figure.caption.211}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces $\ensuremath {\mathrm {q}}\ensuremath {\mathrm {\overline {q}}}to \mathrm {Z}\mathrm {Z}\to 4\ell $ process s- and t- channel fynman diagrams (a) and (b). $\mathrm {g}\mathrm {g}\rightarrow \mathrm {Z}\mathrm {Z}\to 4\ell $ process fynman diagram (c).\relax }}{72}{figure.caption.213}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {s-channel}}}{72}{figure.caption.213}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {t-channel}}}{72}{figure.caption.213}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {ggZZ-box}}}{72}{figure.caption.213}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Pileup distribution in 2018 MC and Data shown before and after the application of PU weights. Up and down variations of 5\% in the minimum bias cross section when calculating the weighs are also shown. \relax }}{73}{figure.caption.218}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Fiducial efficiency($\epsilon $) and nonfiducial($f_{nonfid}$) signal definition.\relax }}{74}{figure.caption.220}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Invariant mass distributions of invariant mass of four-leptons using full Run 2 datasets in the full (left) and the low (right) mass range, along with predictions for Standard Model Higgs ($m_H=125.0$ GeV), including $Z\rightarrow 4\ell $ resonance.\relax }}{78}{figure.caption.230}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Inclusive four lepton mass distributions for an Asimov Dataset generated using SM cross section values and SM efficiencies where the gg$\rightarrow $H prediction is from {\sc powheg+JHUgen} and resulting fitted values of the signal and background pdfs in different final states at $\sqrt {s} = 13$~TeV with 2018 data.\relax }}{83}{figure.caption.244}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Distributions of m(4$\ell $) in $2e2\mu $ final state for the $gg\rightarrow \mathrm {H}$ production mode from {\sc powheg+JHUGen} in different bins of $\ensuremath {p_T}(\mathrm {H})$. \relax }}{87}{figure.caption.250}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$0.0 < \ensuremath {p_T}(\mathrm {H}) < 15.0 $}}}{87}{figure.caption.250}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$15.0 < \ensuremath {p_T}(\mathrm {H}) < 30.0$}}}{87}{figure.caption.250}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$30.0 < \ensuremath {p_T}(\mathrm {H}) < 45.0$}}}{87}{figure.caption.250}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$45.0 < \ensuremath {p_T}(\mathrm {H}) < 80.0$}}}{87}{figure.caption.250}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$80.0 < \ensuremath {p_T}(\mathrm {H}) < 120.0$}}}{87}{figure.caption.250}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$120.0 < \ensuremath {p_T}(\mathrm {H}) < 200.0$}}}{87}{figure.caption.250}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$200.0 < \ensuremath {p_T}(\mathrm {H}) < 13000.0$}}}{87}{figure.caption.250}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Efficiency matrices for $\ensuremath {p_T}({\rm H})$ for different SM production modes in the $2e2\mu $ final state using 2018 samples. \relax }}{88}{figure.caption.258}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$gg\rightarrow $H ({\sc powheg+JHUgen})}}}{88}{figure.caption.258}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$gg\rightarrow $H ({\sc minloHJJ})}}}{88}{figure.caption.258}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {VBF ({\sc powheg})}}}{88}{figure.caption.258}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {WH ({\sc pythia})}}}{88}{figure.caption.258}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {ZH ({\sc pythia})}}}{88}{figure.caption.258}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {ttH ({\sc pythia})}}}{88}{figure.caption.258}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Four lepton mass distributions for an Asimov dataset generated using SM cross section values and SM efficiencies where the gg$\rightarrow $H prediction is from {\sc powheg+JHUgen} and resulting fitted values of PDFs of signal and background for different bins of $\ensuremath {p_T}(\mathrm {H})$ (all final states combined).\relax }}{90}{figure.caption.265}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$0.0 \hbox {$\tmspace +\thickmuskip {.2777em}\hbox {\rm GeV}$}< \ensuremath {p_T}(\mathrm {H}) < 15.0 \hbox {$\tmspace +\thickmuskip {.2777em}\hbox {\rm GeV}$}$}}}{90}{figure.caption.265}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$15.0 \hbox {$\tmspace +\thickmuskip {.2777em}\hbox {\rm GeV}$}< \ensuremath {p_T}(\mathrm {H}) < 30.0 \hbox {$\tmspace +\thickmuskip {.2777em}\hbox {\rm GeV}$}$}}}{90}{figure.caption.265}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$30.0 \hbox {$\tmspace +\thickmuskip {.2777em}\hbox {\rm GeV}$}< \ensuremath {p_T}(\mathrm {H}) < 45.0 \hbox {$\tmspace +\thickmuskip {.2777em}\hbox {\rm GeV}$}$}}}{90}{figure.caption.265}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$45.0 \hbox {$\tmspace +\thickmuskip {.2777em}\hbox {\rm GeV}$}< \ensuremath {p_T}(\mathrm {H}) < 80.0 \hbox {$\tmspace +\thickmuskip {.2777em}\hbox {\rm GeV}$}$}}}{90}{figure.caption.265}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$80.0 \hbox {$\tmspace +\thickmuskip {.2777em}\hbox {\rm GeV}$}< \ensuremath {p_T}(\mathrm {H}) < 120.0 \hbox {$\tmspace +\thickmuskip {.2777em}\hbox {\rm GeV}$}$}}}{90}{figure.caption.265}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$120.0 \hbox {$\tmspace +\thickmuskip {.2777em}\hbox {\rm GeV}$}< \ensuremath {p_T}(\mathrm {H}) < 200.0 \hbox {$\tmspace +\thickmuskip {.2777em}\hbox {\rm GeV}$}$}}}{90}{figure.caption.265}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$200.0 \hbox {$\tmspace +\thickmuskip {.2777em}\hbox {\rm GeV}$}< \ensuremath {p_T}(\mathrm {H}) < 13000.0 \hbox {$\tmspace +\thickmuskip {.2777em}\hbox {\rm GeV}$}$}}}{90}{figure.caption.265}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Pulls. Overall impact of different uncertainties sources on the inclusive measurement ($2e2\mu $ final state) \relax }}{94}{figure.caption.281}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Inclusive four lepton invariant mass distributions in data and resulting fitted values of signal and the background PDFs in different final states.\relax }}{95}{figure.caption.285}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$4e$}}}{95}{figure.caption.285}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$4\mu $}}}{95}{figure.caption.285}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$2e2\mu $}}}{95}{figure.caption.285}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$4\ell $}}}{95}{figure.caption.285}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$\ensuremath {\mathrm {H}\to 4\ell }$ (7, 8 and 13 TeV)}}}{96}{subfigure.292}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\ensuremath {\mathrm {H}\to 4\ell }$ (13 TeV)}}}{96}{subfigure.292}
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Expected yield using 2018 Asimov data along with SM signal ($m_{H}=125.09 \GeV $) and background expectations for different observables and for all final states combined, in mass window $105 < m_{4\ell } < 140 \GeV $ which is used for$\ensuremath {\mathrm {H}\to 4\ell }$ measurements. The extraction of the signal is performed by exploiting the differences in the expected $m_{4\ell }$ spectra of the signal and the background contributions in each differential bin of an observable.\relax }}{98}{figure.caption.296}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$\ensuremath {p_T}(\mathrm {H})$}}}{98}{figure.caption.296}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$|y(\mathrm {H})|$}}}{98}{figure.caption.296}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {N(jets), $|\eta |<2.5$}}}{98}{figure.caption.296}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$\ensuremath {p_T}(\mathrm {jet}), |\eta |<2.5$}}}{98}{figure.caption.296}
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Differential fiducial cross section results for $\ensuremath {p_T}({\rm H})$ (top left), $|y({\rm H})|$ (top right), $p_T$ of leading jet (bottom left) and N(jets) (bottom right) in $\ensuremath {\mathrm {H}\to 4\ell }$ using full Run 2 CMS data and comparison with the theoretical predictions. Systematic uncertainty is indicated by red bars and black bars show total statistical and the systematic uncertainties, combined in quadrature. The blue and brown colors show the theoretical predictions. The acceptances and the theoretical uncertainties in differential bins are computed using {\sc powheg}. Sub-dominant production contributions XH $=$ VBF $+$ VH $+$ $\ensuremath {t\bar {t}{\rm H}}$ are shown in green separately. The inclusive cross section is normalized to SM estimates calculated at NNLL+NNLO level of accuracy for all theoretical predictions. The systematic uncertainties correspond to the generators accuracy are also taken in to account for differential predictions. The fraction of $4\mu $, $4e$ and $2e2\mu $ in each differential bin is allowed to float in fit. \relax }}{99}{figure.caption.301}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$\ensuremath {p_T}(\mathrm {H})$}}}{99}{figure.caption.301}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$|y(\mathrm {H})|$}}}{99}{figure.caption.301}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$\ensuremath {p_T}(\mathrm {leading~jet}), |\eta |<2.5$}}}{99}{figure.caption.301}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {N(jets), $|\eta |<2.5$}}}{99}{figure.caption.301}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Higgs cross section results using Asimov data corresponding to integrated luminosity of 100~\unhbox \voidb@x \hbox {\ensuremath {\tmspace +\thinmuskip {.1667em}\text {fb}^\text {$-$1}}}(a) and 300~\unhbox \voidb@x \hbox {\ensuremath {\tmspace +\thinmuskip {.1667em}\text {fb}^\text {$-$1}}}at $\sqrt {s} = 13$~TeV along with theoretical predictions per final state.\relax }}{104}{figure.caption.308}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{104}{figure.caption.308}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{104}{figure.caption.308}

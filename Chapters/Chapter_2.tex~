@@ -30,7 +30,7 @@ was constructed at CERN from 1998 to 2008, in a tunnel of 27~Kilometers (17 mi) 
 \end{figure}
 \subsection{Machine Layout and Performance} 
 \subsubsection{Machine Layout}
-Basic layout of LHC and LEP  machines are similar, having eight linear and eight arcs sections as elaborated in Figure~\ref{Fig:lhc_schematic_layout}~\cite{Reference28}. The LHC is 
+Basic layout of LHC and LEP  machines are similar, having eight linear and eight arcs sections as elaborated in Figure \ref{Fig:lhc_schematic_layout}~\cite{Reference28}. The LHC is 
 designed to have two separate rings containing clockwise and counterclockwise proton beams, equipped with separate magnetic fields and vacuum chambers. These
 two rings only intersect each other at the 
 points where detectors are installed. Point 1 and point 5, opposite to each other, where ATLAS and CMS, two general purpose detectors of LHC, are installed respectively. The other 
@@ -50,12 +50,12 @@ LHC design goal is to test SM Physics to ultimate precision and hunt for any kin
 \begin{equation}
  N = \mathscr{L}\sigma_{process}
 \end{equation}
-Here $\mathscr{L}$ represents machine luminosity and $\sigma_{process}$~ is the production cross section of a certain process. All possible processes' cross sections produced during proton-(anti) proton collisions at LHC machine luminosity $\mathscr{L} = 10^{33}~cm^{2}~s^{-1}$ are shown in Figure~\ref{Fig:lhc_all}. 
+Here $\mathscr{L}$ represents machine luminosity and $\sigma_{process}$~ is the production cross section of a certain process. All possible processes' cross sections produced during proton-(anti) proton collisions at LHC machine luminosity $\mathscr{L} = 10^{33}~cm^{2}~s^{-1}$ are shown in Figure \ref{Fig:lhc_all}. 
 Higgs production at LHC facility is rare as compared to other QCD and weak boson ($W,Z$) productions which act as backgrounds in the Higgs boson searches. In order to reconstruct
-Higgs boson at LHC, one need to exploit specific final states providing enough signal to background discrimination. From Figure~\ref{Fig:lhc_all} its clear that Higgs boson
+Higgs boson at LHC, one need to exploit specific final states providing enough signal to background discrimination. From Figure \ref{Fig:lhc_all} its clear that Higgs boson
 production rises with increase in center-of-mass energies. So increase in  machine luminosity and center-of-mass energies enables us to get more 
 statistics of Higgs boson. The Nominal luminosity for CMS and ATLAS experiment is $\mathscr{L}$ = 10$^{34}$cm$^{2}$s$^{-1}$, and nominal center of mass energy of LHC is $\sqrt{s} = 14$~TeV. 
- The cross section in Figure~\ref{Fig:lhc_all}~\cite{Reference29}~shows that LHC has possibility to produce a single Higgs boson after every 100~s at mass 500~GeV. To get 
+ The cross section in Figure \ref{Fig:lhc_all} ~\cite{Reference29}~shows that LHC has possibility to produce a single Higgs boson after every 100~s at mass 500~GeV. To get 
 ultimate number of Higgs bosons produced at certain luminosity, one need to multiply this with specific branching ratio, selection and reconstruction efficiencies. 
 \subsubsection{Nominal Luminosity and Beam Parameters}
 The machine luminosity can be expressed in terms of beam parameters as:
@@ -71,7 +71,7 @@ This factor can be written as below
 where $\theta_c$, $\theta_z$ and $\sigma^{\ast}$ are crossing angle at point of interaction, root mean square (RMS) length of bunch and $\sigma^{\ast}$ the 
 transverse RMS size of beam at IP. The expression above is valid for two circular beams with same parameters. \par The two major experiment of LHC, the CMS~\cite{Reference30} and the ATLAS~\cite{reference31}, are designed to operate at luminosity of $\mathscr{L} = 10^{34} cm^2s^{-1}$. 
 The summary of the 
-parameters to obtain this nominal luminosity is summarized in Table~\ref{Tab:nominal_lumi_parameters}. Such high luminosity can not be attained by 
+parameters to obtain this nominal luminosity is summarized in Table \ref{Tab:nominal_lumi_parameters}. Such high luminosity can not be attained by 
 proton-anti-proton collisions, leaving
 only possibility of proton proton collisions for LHC machine.  To align two opposite moving proton beams in both rings for collisions needs dipole 
 magnetic with opposite fields 
@@ -115,7 +115,7 @@ heavy-ion collisions targeting highest luminosity $\mathscr{L} = 10^{27} cm^2 s^
 %center-of-mass of energy to 8~TeV during 2012 and luminosity reached at the value of $10^{33} cm^{-2}s^{-1}$. LHC delivered 23.3~\ifb of data during 2012 as 
 %shown in Figure~\ref{fig:luminosity_2012}. The protons bunch spacing was reduced from 50~ns to 25~ns to increase the luminosity. 
 After successful data taking during Run 1, LHC machine was shutdown for two years in 2013 and 2014 for major upgrades in LHC machine and detectors. LHC started again in 2015 at center-of-mass energies to 13~TeV(close to its design value i.e 14~TeV). LHC delivered 4.2~\ifb during 2015 at 13~TeV center of mass energy and subsequently, it delivered 41.0~\ifb, 49.8~\ifb and 67.9~\ifb  
-during the years 2016, 2017 and 2018 as shown in the Figure~\ref{fig:luminosity_2015}, ~\ref{fig:luminosity_2016}, ~\ref{fig:luminosity_2017} and ~\ref{fig:luminosity_2018} respectively. 
+during the years 2016, 2017 and 2018 as shown in the Figure \ref{fig:luminosity_2015}, \ref{fig:luminosity_2016}, \ref{fig:luminosity_2017} and \ref{fig:luminosity_2018} respectively. 
 %%%%%
 \begin{figure}[!htb]
   \begin{center}
@@ -145,7 +145,7 @@ during the years 2016, 2017 and 2018 as shown in the Figure~\ref{fig:luminosity_
 The CMS detector is 28 m in length, 15 m in height and 14,000 tonnes heavy general purpose particle detector installed on LHC ring. It is capable to study large areas from SM Physics (including Higgs Physics) to search for extra dimensions and the dark matter. CMS is efficient 
 enough to cover a large range of physics with energy ranges from a few 100~GeV to TeV scale~\cite{Reference34}. CMS and ATLAS experiment shares the same 
 physics goal though both
-independent experiment uses different technical solution and detectors design. It is apparent from Figure~\ref{Fig:lhc_all} that the total cross section proton-proton collisionis at  $\sqrt{s} = 14 $~TeV is approximately 100~mb. While designed LHC luminosity leads to have $10^9$ inelastic events/s approximately. It is huge experimental challenge to deal with such high rate collisions. 
+independent experiment uses different technical solution and detectors design. It is apparent from Figure \ref{Fig:lhc_all} that the total cross section proton-proton collisionis at  $\sqrt{s} = 14 $~TeV is approximately 100~mb. While designed LHC luminosity leads to have $10^9$ inelastic events/s approximately. It is huge experimental challenge to deal with such high rate collisions. 
 CMS trigger system helps to select online events and reducing the huge rate to approximately 100 events/s to be stored and used for physics analysis later. 
 The read-out and trigger system designed to meet the short bunch crossing time, 25 ns. 
 \\Being CMS as general purpose detector, followings are  the main requirements to fulfill physics goal of LHC:
@@ -658,14 +658,14 @@ through a grid known as the Worldwide LHC Computing Grid (WLCG).
 \par There are three layers of Tier (Tier-0, Tier-1 and Tier-2) for data flow between different computing sites. 
 The types of dataset is described below briefly
 \begin{itemize}
- \item RAW that contains all the recorded information from detector along with triggers decisions and other metadata. A copy of RAW data is achieved and placed
+ \item RAW data that contains all the recorded information from detector along with triggers decisions and other metadata. A copy of RAW data is achieved and placed
  at permanent storage element. A occupancy of  around 1.5 (2.0) MB/event is needed to store data (simulated data) in RAW version.
- \item Many algorithms and pattern recognition  like cluster and track-finding; primary and secondary vertex reconstruction etc are applied to RAW to 
+ \item Many algorithms and pattern recognition techniques like cluster and track-finding; primary and secondary vertex reconstruction etc. are applied to RAW data to 
  obtain RECO data format. RECO events occupancy is roughly three times less than RAW (0.5~MB/event).
  \item The most compact format of data AOD (analysis object data) is obtained by dropping unnecessary information and reducing per event size up to 100 KB.
 \end{itemize}
-Tier-0 is located at CERN with primary duties to copy recorded data to permanent storage, promptly reconstruct data from RAW version to have first version of
-prompt-RECO data and exporting a copy of RAW data to Tier-1 centers. Tier-1 are mainly hosted by national computing centers and labs from collaborative countries. 
+Tier-0 is located at CERN with which copies the recorded data to permanent storage, promptly reconstruct data from RAW version to have first version of
+prompt-RECO data and copies RAW data to Tier-1 centers. Tier-1 are mainly held in national computing centers and labs from collaborative countries. 
 At each Tier-1, a fraction of detailed the reconstruction of RAW data simulated data has been performed to get AOD. Tier-1 also responsible to store and 
 export AOD format data to Tier-2. The last layer Tier-3 is hosted by CMS collaborative institutes where main analysis activity, alignment, detector related studies and 
 offline calibration is done. Tier-3 are used for Monte Carlo (MC) data production which can be exported to Tier-1 for long term storage.

@@ -20,7 +20,7 @@ interactions with the concept of mediating gauge bosons. The last unverified par
 Particle with unknown structure is called fundamental particle. Fundamental particles can be categorized into fermions (characterized by Fermi-Dirac statistics) and bosons (Bose-Einstein statistics). 
 %Particles which are characterized by Fermi-Dirac statistics and Bose-Einstein statistics are called fermions and bosons respectively. 
 The spin-statistics theorem classifies the particles with integral spin as bosons, while particles with half-integral spin as fermions. Fermions includes all leptons, quarks and baryons (composite particles three  quarks). 
-Ordinary matter is composed of leptons and quarks which are categorized in three ``generations'' as illustrated in Table~\ref{table:quarks_leptons}. 
+Ordinary matter is composed of leptons and quarks which are categorized in three ``generations'' as illustrated in Table \ref{table:quarks_leptons}. 
 First generation includes an ``up'' type quark which carries electric charge $+\frac{2}{3}$ and a ``down'' type quark carrying electric charge
 $-\frac{1}{3}$. Quarks also carry color charge (red, green, or blue) which is responsible for the strong interaction. The types of the quarks in order of increasing mass are ``up'', ``down'', ``strange'', ``charm'', ``bottom'' and ``top''. The whole visible world is only made of light type of quarks,``up`` and ''down''. The heavy quarks can be produced only in high energy collisions (cosmic rays, particle accelerators) and quickly decays into ``up'' and ``down'' quarks.
 \par Quarks interact through all three Standard Model forces, weak, strong, and electromagnetic. 
@@ -86,7 +86,7 @@ in the fifth.}
 \begin{tabular}{|c|c|c|c|}
 \hline
 Force  &  Weak & Electromagnetic & Strong \\ \hline
-Mediator boson & $W^{\pm} and Z$ & photon ($\gamma$)& Gluon (g) \\ \hline
+Mediator boson & $W^{\pm}$ and $Z$ & photon ($\gamma$)& Gluon (g) \\ \hline
 Mass(GeV)    & 80.4, 91.2 GeV& 0& 0 \\ \hline
 Coupling Constant & $G_F\approx  1.2 \times 10^{-5}$~\ensuremath{\mathrm{GeV^{-2}}} & $\alpha=\frac{1}{137}$ & $\alpha_s\approx 0.1$  \\ \hline
 Interaction Range &$10^{-16}$~cm& $\infty$& $10^{-13}$~cm \\ \hline
@@ -98,7 +98,7 @@ theoretical descriptions Quantum Electrodynamics (QED), Quantum Chromodynamics (
 encoded in SM. Electromagnetic and weak interactions were then unified into electroweak (EWK) interaction
 %at the unification energy scale of the order of 100~GeV 
 with significant contributions by Abdus Salam, Sheldon Glashow and Steven Weinberg. The mathematical 
-description of interaction of charged particles are described by QED. Photon of QED is the force carrier of electromagnetic force. QED is the first theory which explains the interaction between light and matter that patches up special relativity and quantum mechanics. Figure~\ref{Fig:Feynmann_Diagram_Gluon_Radiation}
+description of interaction of charged particles are described by QED. Photon of QED is the force carrier of electromagnetic force. QED is the first theory which explains the interaction between light and matter that patches up special relativity and quantum mechanics. Figure \ref{Fig:Feynmann_Diagram_Gluon_Radiation}
 shows an example of QED, electron-positron annihilation. Annihilation is the process of destruction of particle and anti particle pair to any set of particles 
 obeying conservation of 
 quantum numbers, energy and momentum. QED is perturbative theory based on fundamentals of quantum mechanics
@@ -125,7 +125,7 @@ collaborations in 1983~\cite{Reference2,Reference3,Reference4,Reference5}.
 \par The representation of SM is made by \suthreec$\otimes$\sutwol$\otimes$\uoneg~gauge symmetry. Where \uoneg~is representation of QED, \sutwol~ represents weak theory and 
 \suthreec~ represents QCD. By the unification of electromagnetic and weak force represented by \sutwol$\otimes$\uoneg \\ gauge symmetry \cite{Reference6}, Glashow, Salam and Weinberg was
 able to formulate the fields to account the $W^\pm$, $Z$~and $\gamma$~(A) boson in footings of the original basis fields $A^{\prime}$~and $B$~as expressed 
-in equations~\ref{eqn:wmass}, \ref{eqn:zmass}~and~\ref{eqn:Amass}. The spontaneous breaking of \sutwol$\otimes$\uoneg~gauge symmetry is primary reason for the generation of masses of the particles and separate electroweak (EW) interaction from electromagnetic (EM) and weak interactions. At higher 
+in equations \ref{eqn:wmass}, \ref{eqn:zmass} ~and \ref{eqn:Amass}. The spontaneous breaking of \sutwol$\otimes$\uoneg~gauge symmetry is primary reason for the generation of masses of the particles and separate electroweak (EW) interaction from electromagnetic (EM) and weak interactions. At higher 
 energies($>100~GeV$), both weak and EM forces acts as similar style. Further details would be described in \ref{chapter1_sec2} section. 
 \begin{equation}
 W_{\mu}^{\pm} = \sqrt{\frac{1}{2}} (A_{\mu}^{1}\pm iA_{\mu}^{2}) \qquad~M_W = \frac{1}{2}g\mathrm{v}
@@ -193,13 +193,13 @@ in terms of the covariant derivatives whereas the potential only depends upon th
  \end{tabular}
   \end{center} 
 %  \end{table}
-while the potential term in Equation \ref{eq:EWSB_lagrangian} can also be expressed as 
+while the potential term in Equation ~\ref{eq:EWSB_lagrangian} can also be expressed as 
 \begin{equation}
  \mathrm{V}(\phi^{\dag}\phi) = -\mu^{2}\phi^{\dag} \phi-\lambda(\phi^{\dag}\phi)^{2}
  \label{eq:higgs_potential}
 \end{equation}
 here $\mu$ is mass term and the parameter $\lambda$ represents the strength of the interaction. In the scenario, $ \mu > 0$ and $\lambda>0$ and the 
-potential shapes becomes very interesting, which is essential for Higgs mechanism shown in Figure~\ref{Fig:higgs_potential}. There occurs a minima for 
+potential shapes becomes very interesting, which is essential for Higgs mechanism shown in Figure \ref{Fig:higgs_potential}. There occurs a minima for 
 \begin{equation}
  \phi^{\dag}\phi =  \frac{1}{2}(\phi_{1}^{\dag}+\phi_{2}^{\dag}+\phi_{3}^{\dag}+\phi_{4}^{\dag}) =  \frac{-\mu^{2}}{2\lambda} \equiv \frac{\mathrm{V^{2}}}{2}
 \end{equation}
@@ -560,7 +560,7 @@ fundamental force generally referred as Grand Unification Theory (GUT). This imp
 
 \section{Higgs Boson as a Probe to BSM}\label{chapter1_sec6}
 After the discovery of the Higgs boson, it became very natural and important to measure Higgs boson properties as precise as possible. Measurements of its properties provide a direct probe into SM Higs sector of perturbative QCD calculations at TeV energy scale.
-\par Couplings of Higgs boson with fermions are predicted by SM through Yukawa interactions. Throug Yukawa interactions with Higgs, quarks and leptons get masses. While in SM the coupling strength of Higgs particle with other particles is directly proportional to mass of that particle. The masses of leptons and quarks are well know by experiments, so it possible to estimate the decay rates of Higgs to fermions precisely. Experimental measurements can test these prediction which will provide a direct hint to BSM if any deviation is observed.
+\par Couplings of Higgs boson with fermions are predicted by SM through Yukawa interactions. Through Yukawa interactions with Higgs, quarks and leptons get masses. While in SM the coupling strength of Higgs particle with other particles is directly proportional to mass of that particle. The masses of leptons and quarks are well know by experiments, so it possible to estimate the decay rates of Higgs to fermions precisely. Experimental measurements can test these prediction which will provide a direct hint to BSM if any deviation is observed.
 %\par The couplings of the Higgs boson with fermions are predicted by SM through Yukawa interactions. Quarks and leptons acquire masses through Yukawa interactions 
 \par The cross section measurements of the Higgs boson in a process illustrate the possibility of occurrence of that process. 
 Any deviation from SM prediction in integrated or differential cross sections will guide to BSM effects. 
