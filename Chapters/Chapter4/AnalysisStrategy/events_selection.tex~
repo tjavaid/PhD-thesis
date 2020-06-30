@@ -20,9 +20,9 @@ For the double lepton triggers, the requirement on minimum $p_{T}$ for leading a
 \label{sec:zzcandsel}
 
 The four-lepton candidates are built from what we call {\bf selected leptons}, which
-are the tight leptons (defined in sections~\ref{sec:eleID} and~\ref{sec:muonReco}) that pass the ${\rm SIP_{3D}} < 4$ vertex constraint
-and the isolation cuts (defined in sections~\ref{sec:eleID} and~\ref{sec:muoniso}),
-where FSR photons are subtracted as briefed in Section~\ref{sec:FSRphotons}.
+are the tight leptons (defined in sections \ref{sec:eleID} and  \ref{sec:muonReco}) that pass the ${\rm SIP_{3D}} < 4$ vertex constraint
+and the isolation cuts (defined in sections \ref{sec:eleID} and \ref{sec:muoniso}),
+where FSR photons are subtracted as briefed in Section \ref{sec:FSRphotons}.
 A lepton cross cleaning is applied
 by discarding electrons which are within $\Delta R < 0.05$ of selected muons.
 

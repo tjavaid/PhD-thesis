@@ -10,7 +10,7 @@ The analysis uses full Run 2 (2016, 2017 and 2018) CMS data sample corresponding
 %The HLT paths used for different periods of collision data are listed in Table~\ref{tab:triggerPathsA},~\ref{tab:triggerPathsB}, and ~\ref{tab:triggerPathsC}. 
 
 %The datasets used are listed in Tables~\ref{tab:datasets_dataA}, ~\ref{tab:datasets_dataB}, and ~\ref{tab:datasets_dataC} along with the integrated luminosity. 
-The datasets used are listed and documented in \ref{HIG-19-001}. % in appendix? FIXME 
+The datasets used are listed and documented in ~\cite{HIG-19-001}. % in appendix? FIXME 
 The analysis relies on four different primary datasets (PDs), {\it DoubleMuon}, {\it MuEG}, {\it EGamma}, and {\it SingleMuon},
 each of which combines a certain collections of HLT paths. 
 To avoid duplicate events from different primary datasets, events are taken: 
@@ -22,7 +22,7 @@ To avoid duplicate events from different primary datasets, events are taken:
 \item from SingleMuon if they pass the singleMuon trigger and fail all the above triggers. 
 \end{itemize} 
 
-The HLT paths used for 2018 collision data is listed in \ref{HIG-19-001}.
+The HLT paths used for 2018 collision data is listed in ~\cite{HIG-19-001}.
 
 
 %\begin{table}[h]
@@ -318,7 +318,7 @@ can be formed using the probe leptons, probes are call passing probes which are 
 %trigger). 
 This technique is used to measure efficiency on MC and the comparison with data is exploited to estimate the reliability of simulation.
 %also exercised on MC and the difference between data and MC is used to determine the reliability of the simulation.
- Fig.~\ref{fig:TrigEffC} shows the measured efficiency both in data and MC (2018) varied with minimum $p_{\rm{T}}$ of leptons. MC efficiency seems to describe data well within the uncertainties.
+ Fig. \ref{fig:TrigEffC} shows the measured efficiency both in data and MC (2018) varied with minimum $p_{\rm{T}}$ of leptons. MC efficiency seems to describe data well within the uncertainties.
 
 %=======
 %\begin{figure}[!htb]

@@ -1,7 +1,8 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {english}{}
-\contentsline {chapter}{List of Figures}{vii}{chapter*.2}
-\contentsline {chapter}{List of Tables}{xiii}{chapter*.3}
+\contentsline {chapter}{Abstract}{iii}{section*.1}
+\contentsline {chapter}{List of Figures}{vii}{chapter*.3}
+\contentsline {chapter}{List of Tables}{ix}{chapter*.4}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.5}
 \contentsline {chapter}{\numberline {2}Theoretical Background}{3}{chapter.6}
 \contentsline {section}{\numberline {2.1}The Standard Model}{3}{section.7}
@@ -19,9 +20,9 @@
 \contentsline {subsubsection}{Top Fusion}{15}{section*.52}
 \contentsline {subsection}{\numberline {2.4.2}Higgs Decay}{15}{subsection.54}
 \contentsline {section}{\numberline {2.5}Experimental Observations}{16}{section.57}
-\contentsline {section}{\numberline {2.6}Beyond Standard Model}{18}{section.58}
+\contentsline {section}{\numberline {2.6}Beyond Standard Model}{17}{section.58}
 \contentsline {subsection}{\numberline {2.6.1}Hierarchy Problem}{18}{subsection.59}
-\contentsline {subsection}{\numberline {2.6.2}Dark Matter and Dark Energy}{19}{subsection.62}
+\contentsline {subsection}{\numberline {2.6.2}Dark Matter and Dark Energy}{18}{subsection.62}
 \contentsline {subsection}{\numberline {2.6.3}Matter Antimatter Asymmetry}{19}{subsection.63}
 \contentsline {subsection}{\numberline {2.6.4}Grand Unification and Beyond}{19}{subsection.64}
 \contentsline {section}{\numberline {2.7}Higgs Boson as a Probe to BSM}{19}{section.65}
@@ -31,79 +32,3 @@
 \contentsline {subsubsection}{Machine Layout}{22}{section*.70}
 \contentsline {subsubsection}{LHC Performance Goals}{22}{section*.72}
 \contentsline {subsubsection}{Nominal Luminosity and Beam Parameters}{24}{section*.74}
-\contentsline {subsection}{\numberline {3.1.2}Data Taking from 2015 to 2018 (Full Run 2) }{26}{subsection.79}
-\contentsline {section}{\numberline {3.2}The Compact Muon Solenoid (CMS) Experiment}{26}{section.85}
-\contentsline {subsection}{\numberline {3.2.1}CMS Detector Geometry}{28}{subsection.87}
-\contentsline {subsection}{\numberline {3.2.2}Inner Tracking System (ITS) }{30}{subsection.92}
-\contentsline {subsection}{\numberline {3.2.3}Electromagnetic Calorimeter (ECAL) }{31}{subsection.97}
-\contentsline {subsubsection}{ECAL Crystals and Geometry}{33}{section*.98}
-\contentsline {subsubsection}{Photodetectors}{35}{section*.101}
-\contentsline {subsubsection}{Preshower}{35}{section*.102}
-\contentsline {subsubsection}{Energy Resolution}{35}{section*.103}
-\contentsline {subsection}{\numberline {3.2.4}Hadron Calorimeter}{35}{subsection.106}
-\contentsline {subsubsection}{Forward Calorimeter}{37}{section*.107}
-\contentsline {subsection}{\numberline {3.2.5}Superconducting Magnet}{38}{subsection.113}
-\contentsline {subsection}{\numberline {3.2.6}CMS Muon System }{38}{subsection.114}
-\contentsline {subsubsection}{Drift Tubes of muon system of CMS}{39}{section*.116}
-\contentsline {subsubsection}{Cathode Strip Chambers of the CMS muon system}{41}{section*.118}
-\contentsline {subsubsection}{Resistive Plate Chambers of muon system of CMS}{41}{section*.122}
-\contentsline {subsubsection}{Momentum Resolution}{42}{section*.123}
-\contentsline {subsection}{\numberline {3.2.7}Trigger and Data Acquisition System of CMS}{42}{subsection.125}
-\contentsline {subsubsection}{Level-1 Trigger Architecture}{44}{section*.126}
-\contentsline {subsubsection}{High-Level Trigger Architecture}{44}{section*.128}
-\contentsline {subsubsection}{Data Acquisition (DAQ) System of CMS}{45}{section*.129}
-\contentsline {subsection}{\numberline {3.2.8}Computing Grid}{46}{subsection.131}
-\contentsline {chapter}{\numberline {4}Physics Objects studies with the CMS detector}{47}{chapter.132}
-\contentsline {section}{\numberline {4.1}Physics Objects}{47}{section.133}
-\contentsline {subsection}{\numberline {4.1.1}Electrons}{47}{subsection.134}
-\contentsline {subsubsection}{Electron Reconstruction}{47}{section*.135}
-\contentsline {subsubsection}{Electron Identification and Isolation}{47}{section*.137}
-\contentsline {subsubsection}{Electron Impact Parameter Selection}{49}{section*.142}
-\contentsline {subsubsection}{Electron Energy Calibrations}{51}{section*.143}
-\contentsline {subsubsection}{Electron Efficiency Measurements}{51}{section*.149}
-\contentsline {subsection}{\numberline {4.1.2}Muons}{55}{subsection.156}
-\contentsline {subsubsection}{Muon Reconstruction and Identification}{55}{section*.157}
-\contentsline {subsubsection}{Muon Isolation}{56}{section*.159}
-\contentsline {subsubsection}{Muon Impact Parameter Selection}{56}{section*.161}
-\contentsline {subsubsection}{Muon Energy Calibrations}{56}{section*.162}
-\contentsline {subsubsection}{Efficiency Measurements of muons}{56}{section*.168}
-\contentsline {subsection}{\numberline {4.1.3}Photons for FSR recovery}{61}{subsection.186}
-\contentsline {subsection}{\numberline {4.1.4}Jets}{61}{subsection.193}
-\contentsline {subsubsection}{Jet Identification}{62}{section*.194}
-\contentsline {subsubsection}{Jet Energy Corrections}{62}{section*.195}
-\contentsline {subsubsection}{B-tagging}{62}{section*.196}
-\contentsline {subsubsection}{Validation on data}{62}{section*.197}
-\contentsline {subsection}{\numberline {4.1.5}Object Summary}{64}{subsection.199}
-\contentsline {chapter}{\numberline {5}Probing four lepton final-state for Higgs Cross section measurement}{67}{chapter.201}
-\contentsline {section}{\numberline {5.1}Introduction}{67}{section.202}
-\contentsline {subsection}{\numberline {5.1.1}Datasets, Simulation Samples and Theoretical Predictions}{68}{subsection.204}
-\contentsline {subsection}{\numberline {5.1.2}Datasets}{68}{subsection.205}
-\contentsline {subsubsection}{Triggers and Datasets}{68}{section*.206}
-\contentsline {subsubsection}{Trigger Efficiency}{69}{section*.207}
-\contentsline {subsection}{\numberline {5.1.3}Simulation Samples and Theoretical Predictions}{69}{subsection.209}
-\contentsline {subsubsection}{Signal Samples}{70}{section*.210}
-\contentsline {subsubsection}{Background Samples}{71}{section*.212}
-\contentsline {subsubsection}{Pileup Reweighting}{72}{section*.217}
-\contentsline {section}{\numberline {5.2}Analysis Strategy}{73}{section.219}
-\contentsline {subsection}{\numberline {5.2.1}Event Selection and Background Modeling}{74}{subsection.221}
-\contentsline {subsubsection}{Event Selection}{74}{section*.222}
-\contentsline {subsection}{\numberline {5.2.2}ZZ Candidate Selection}{75}{subsection.223}
-\contentsline {subsection}{\numberline {5.2.3}Choice of best ZZ Candidate}{75}{subsection.227}
-\contentsline {subsubsection}{Background Modeling}{76}{section*.228}
-\contentsline {subsection}{\numberline {5.2.4}Definition of the Fiducial Volume}{77}{subsection.231}
-\contentsline {subsection}{\numberline {5.2.5}Signal Model and Statistical Procedure}{79}{subsection.234}
-\contentsline {subsection}{\numberline {5.2.6}Extraction of Integrated $\mathrm {H}\to 4\ell $ Fiducial Cross Section}{82}{subsection.239}
-\contentsline {subsubsection}{Signal Model and Statistical Procedure}{82}{section*.240}
-\contentsline {subsection}{\numberline {5.2.7}Extraction of Differential $\mathrm {H}\to 4\ell $ Fiducial Cross Sections}{84}{subsection.245}
-\contentsline {subsubsection}{Kinematic Observables}{84}{section*.246}
-\contentsline {subsubsection}{Background Model}{85}{section*.247}
-\contentsline {subsubsection}{Signal Model and Statistical Procedure}{86}{section*.249}
-\contentsline {section}{\numberline {5.3}Systematic Uncertainties}{91}{section.273}
-\contentsline {subsection}{\numberline {5.3.1}Experimental uncertainties souces}{91}{subsection.274}
-\contentsline {subsection}{\numberline {5.3.2}Theoretical uncertainties}{91}{subsection.276}
-\contentsline {subsection}{\numberline {5.3.3}Systematic uncertainties treatment when combining yearly measurements on data}{92}{subsection.282}
-\contentsline {section}{\numberline {5.4}Results}{93}{section.283}
-\contentsline {subsection}{\numberline {5.4.1}Measurement of Integrated Fiducial Cross Section}{93}{subsection.284}
-\contentsline {subsection}{\numberline {5.4.2}Measurement of Differential Fiducial Cross Sections}{95}{subsection.295}
-\contentsline {chapter}{\numberline {6}Conclusions}{101}{chapter.306}
-\contentsline {chapter}{\numberline {7}Outlook}{103}{chapter.307}

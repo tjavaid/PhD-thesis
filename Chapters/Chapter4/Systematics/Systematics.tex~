@@ -1,10 +1,10 @@
-\section{Systematic uncertainties}
+%\section{Systematic uncertainties}
 %\textbf{FIX ME: TO BE UPDATED when the new number will be there}
 \subsection{Experimental uncertainties souces}
 Main experimental uncertainties affecting signal and background are uncertainty on integrated luminosity
 (from 2.3\% to 2.5\%, depending on the year of data taking) and the uncertainty on efficiencies of lepton reconstruction and identification (ranging from 2.5--16.1\% in $4\mu$  and $4e$ channels, respectively). 
-Uncertainties on estimation of reducible backround, as discussed in %described in Section~\ref{sec:redbkgd},
-described in Section~\ref{sec:background_model},
+Uncertainties on estimation of reducible backround, %as discussed in %described in Section~\ref{sec:redbkgd},
+described in Section \ref{sec:background_model},
 originating from the background composition and misidentification rate uncertainty vary for different final states.
 %and category. 
 %vary between 6\% to 32\% from the variation of the fake rates. 
@@ -103,7 +103,7 @@ Other theoretical uncertainty source is PDF set choice which is determined RMS o
 %by taking the root mean square of the variation when using different replicas of the default NNPDF set. 
 %PDF uncertainty arises from $\alphaS$ uncertainty is also taken into account 
 %On the background, an additional uncertainty of 10\% on the K factor used for the $\ggZZ$ prediction is applied as described in Section~\ref{sec:irrbkgd}.
-Additional uncertainty on the background which is 10\% on K factor applied on $ggZZ$ prediction is considered as described in Section~\ref{sec:background_model}.
+Additional uncertainty on the background which is 10\% on K factor applied on $ggZZ$ prediction is considered as described in Section \ref{sec:background_model}.
 Systematic uncertainty of about 2\% on the branching ratio of ~$\Hllll$ is only applicable to signal yield. 
 %In the case of event categorization, experimental and theoretical uncertainties which account for
 %possible migration of signal and background events between categories are included. The main sources 

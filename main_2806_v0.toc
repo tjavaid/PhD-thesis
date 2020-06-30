@@ -1,0 +1,37 @@
+\babel@toc {english}{}
+\contentsline {chapter}{Abstract}{iii}{section*.1}
+\contentsline {chapter}{List of Figures}{vii}{chapter*.3}
+\contentsline {chapter}{List of Tables}{ix}{chapter*.4}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {chapter}{\numberline {2}Theoretical Background}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}The Standard Model}{3}{section.2.1}
+\contentsline {section}{\numberline {2.2}Fundamental Particles and underlying Interactions}{3}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Fundamental Particles}{3}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Fundamental Interactions}{4}{subsection.2.2.2}
+\contentsline {section}{\numberline {2.3}The Brout-Englert-Higgs Mechanism (BEH)}{6}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Masses and Couplings of Vector Bosons}{9}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Fermions Masses and Couplings}{9}{subsection.2.3.2}
+\contentsline {section}{\numberline {2.4}Higgs boson Production and its Decay }{10}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Higgs boson Production}{10}{subsection.2.4.1}
+\contentsline {subsubsection}{Gluon-gluon Fusion }{11}{section*.13}
+\contentsline {subsubsection}{Vector Boson Fusion (VBF)}{11}{section*.14}
+\contentsline {subsubsection}{Production of Higgs in association with W and Z bosons}{11}{section*.16}
+\contentsline {subsubsection}{Top Fusion}{12}{section*.17}
+\contentsline {subsection}{\numberline {2.4.2}Higgs Decay}{12}{subsection.2.4.2}
+\contentsline {section}{\numberline {2.5}Experimental Observations}{12}{section.2.5}
+\contentsline {section}{\numberline {2.6}Beyond Standard Model}{13}{section.2.6}
+\contentsline {subsection}{\numberline {2.6.1}Hierarchy Problem}{14}{subsection.2.6.1}
+\contentsline {subsection}{\numberline {2.6.2}Dark Matter and Dark Energy}{14}{subsection.2.6.2}
+\contentsline {subsection}{\numberline {2.6.3}Matter Antimatter Asymmetry}{14}{subsection.2.6.3}
+\contentsline {subsection}{\numberline {2.6.4}Grand Unification and Beyond}{14}{subsection.2.6.4}
+\contentsline {section}{\numberline {2.7}Higgs Boson as a Probe to BSM}{15}{section.2.7}
+\contentsline {chapter}{\numberline {3}Experiment}{17}{chapter.3}
+\contentsline {section}{\numberline {3.1}The Large Hadron Collider (LHC) }{17}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Machine Layout and Performance}{18}{subsection.3.1.1}
+\contentsline {subsubsection}{Machine Layout}{18}{section*.22}
+\contentsline {subsubsection}{LHC Performance Goals}{18}{section*.24}
+\contentsline {subsubsection}{Nominal Luminosity and Beam Parameters}{18}{section*.25}
+\contentsline {subsection}{\numberline {3.1.2}Data Taking from 2015 to 2018 (Full Run 2) }{19}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}The Compact Muon Solenoid (CMS) Experiment}{21}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}CMS Detector Geometry}{21}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Inner Tracking System (ITS) }{23}{subsection.3.2.2}

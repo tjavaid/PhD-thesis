@@ -7,94 +7,94 @@
 \begin{figure}[htb]
   \begin{center}
     \subfigure[$0.0 < \pt(\mathrm{H}) < 15.0$]{
-      \includegraphics[width=0.18\textwidth,angle=0]{Plots/ggH_powheg_JHUgen_125_4e_pT4l_genbin0_recobin0_effs_genWeight*pileupWeight*dataMCWeight.pdf}
+      \includegraphics[width=0.30\textwidth,angle=0]{Plots/ggH_powheg_JHUgen_125_4e_pT4l_genbin0_recobin0_effs_genWeight*pileupWeight*dataMCWeight.pdf}
       \label{fig:sigfits-pT4l-ggH-powheg15-JHUgen-125:a}
     }    
     \subfigure[$0.0 < \pt(\mathrm{H}) < 15.0$]{
-      \includegraphics[width=0.18\textwidth,angle=0]{Plots/ggH_powheg_JHUgen_125_4mu_pT4l_genbin0_recobin0_effs_genWeight*pileupWeight*dataMCWeight.pdf}
+      \includegraphics[width=0.30\textwidth,angle=0]{Plots/ggH_powheg_JHUgen_125_4mu_pT4l_genbin0_recobin0_effs_genWeight*pileupWeight*dataMCWeight.pdf}
       \label{fig:sigfits-pT4l-ggH-powheg15-JHUgen-125:b}
     }    
    \subfigure[$0.0< \pt(\mathrm{H}) < 15.0$]{
-      \includegraphics[width=0.18\textwidth,angle=0]{Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin0_recobin0_effs_genWeight*pileupWeight*dataMCWeight.pdf}
+      \includegraphics[width=0.30\textwidth,angle=0]{Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin0_recobin0_effs_genWeight*pileupWeight*dataMCWeight.pdf}
       \label{fig:sigfits-pT4l-ggH-powheg15-JHUgen-125:c}
     }  \\
     \subfigure[$15.0 < \pt(\mathrm{H}) < 30.0$]{
-      \includegraphics[width=0.18\textwidth,angle=0]{Plots/ggH_powheg_JHUgen_125_4e_pT4l_genbin1_recobin1_effs_genWeight*pileupWeight*dataMCWeight.pdf}
+      \includegraphics[width=0.30\textwidth,angle=0]{Plots/ggH_powheg_JHUgen_125_4e_pT4l_genbin1_recobin1_effs_genWeight*pileupWeight*dataMCWeight.pdf}
       \label{fig:sigfits-pT4l-ggH-powheg15-JHUgen-125:d}
     } 
     \subfigure[$15.0< \pt(\mathrm{H}) < 30.0$]{
-      \includegraphics[width=0.18\textwidth,angle=0]{Plots/ggH_powheg_JHUgen_125_4mu_pT4l_genbin1_recobin1_effs_genWeight*pileupWeight*dataMCWeight.pdf}
+      \includegraphics[width=0.30\textwidth,angle=0]{Plots/ggH_powheg_JHUgen_125_4mu_pT4l_genbin1_recobin1_effs_genWeight*pileupWeight*dataMCWeight.pdf}
       \label{fig:sigfits-pT4l-ggH-powheg15-JHUgen-125:e}
     }  
     \subfigure[$15.0< \pt(\mathrm{H}) < 30.0$]{
-      \includegraphics[width=0.18\textwidth,angle=0]{Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin1_recobin1_effs_genWeight*pileupWeight*dataMCWeight.pdf}
+      \includegraphics[width=0.30\textwidth,angle=0]{Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin1_recobin1_effs_genWeight*pileupWeight*dataMCWeight.pdf}
       \label{fig:sigfits-pT4l-ggH-powheg15-JHUgen-125:f}
     } \\
     \subfigure[$30.0 < \pt(\mathrm{H}) < 45.0$]{
-      \includegraphics[width=0.18\textwidth,angle=0]{Plots/ggH_powheg_JHUgen_125_4e_pT4l_genbin2_recobin2_effs_genWeight*pileupWeight*dataMCWeight.pdf}
+      \includegraphics[width=0.30\textwidth,angle=0]{Plots/ggH_powheg_JHUgen_125_4e_pT4l_genbin2_recobin2_effs_genWeight*pileupWeight*dataMCWeight.pdf}
       \label{fig:sigfits-pT4l-ggH-powheg15-JHUgen-125:g}
     }
     \subfigure[$30.0 < \pt(\mathrm{H}) < 45.0$]{
-      \includegraphics[width=0.18\textwidth,angle=0]{Plots/ggH_powheg_JHUgen_125_4mu_pT4l_genbin2_recobin2_effs_genWeight*pileupWeight*dataMCWeight.pdf}
+      \includegraphics[width=0.30\textwidth,angle=0]{Plots/ggH_powheg_JHUgen_125_4mu_pT4l_genbin2_recobin2_effs_genWeight*pileupWeight*dataMCWeight.pdf}
       \label{fig:sigfits-pT4l-ggH-powheg15-JHUgen-125:h}
     }
     \subfigure[$30.0 < \pt(\mathrm{H}) < 45.0$]{
-      \includegraphics[width=0.18\textwidth,angle=0]{Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin2_recobin2_effs_genWeight*pileupWeight*dataMCWeight.pdf}
+      \includegraphics[width=0.30\textwidth,angle=0]{Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin2_recobin2_effs_genWeight*pileupWeight*dataMCWeight.pdf}
       \label{fig:sigfits-pT4l-ggH-powheg15-JHUgen-125:i}
     } \\
     \subfigure[$45.0 < \pt(\mathrm{H}) < 80.0$]{
-      \includegraphics[width=0.18\textwidth,angle=0]{Plots/ggH_powheg_JHUgen_125_4e_pT4l_genbin3_recobin3_effs_genWeight*pileupWeight*dataMCWeight.pdf}
+      \includegraphics[width=0.30\textwidth,angle=0]{Plots/ggH_powheg_JHUgen_125_4e_pT4l_genbin3_recobin3_effs_genWeight*pileupWeight*dataMCWeight.pdf}
       \label{fig:sigfits-pT4l-ggH-powheg15-JHUgen-125:j}
     } 
     \subfigure[$45.0 < \pt(\mathrm{H}) < 80.0$]{
-	    \includegraphics[width=0.18\textwidth,angle=0]{Plots/ggH_powheg_JHUgen_125_4mu_pT4l_genbin3_recobin3_effs_genWeight*pileupWeight*dataMCWeight.pdf}
+	    \includegraphics[width=0.30\textwidth,angle=0]{Plots/ggH_powheg_JHUgen_125_4mu_pT4l_genbin3_recobin3_effs_genWeight*pileupWeight*dataMCWeight.pdf}
       \label{fig:sigfits-pT4l-ggH-powheg15-JHUgen-125:k}
     }
      \subfigure[$45.0 < \pt(\mathrm{H}) < 80.0$]{
-      \includegraphics[width=0.18\textwidth,angle=0]{Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin3_recobin3_effs_genWeight*pileupWeight*dataMCWeight.pdf}
+      \includegraphics[width=0.30\textwidth,angle=0]{Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin3_recobin3_effs_genWeight*pileupWeight*dataMCWeight.pdf}
       \label{fig:sigfits-pT4l-ggH-powheg15-JHUgen-125:l}
     }
 	  \\
 	  \subfigure[$80.0 < \pt(\mathrm{H}) < 120.0$]{
-      \includegraphics[width=0.18\textwidth,angle=0]{Plots/ggH_powheg_JHUgen_125_4e_pT4l_genbin4_recobin4_effs_genWeight*pileupWeight*dataMCWeight.pdf}
+      \includegraphics[width=0.30\textwidth,angle=0]{Plots/ggH_powheg_JHUgen_125_4e_pT4l_genbin4_recobin4_effs_genWeight*pileupWeight*dataMCWeight.pdf}
       \label{fig:sigfits-pT4l-ggH-powheg15-JHUgen-125:m}
     }    
     \subfigure[$80.0 < \pt(\mathrm{H}) < 120.0$]{
-            \includegraphics[width=0.18\textwidth,angle=0]{Plots/ggH_powheg_JHUgen_125_4mu_pT4l_genbin4_recobin4_effs_genWeight*pileupWeight*dataMCWeight.pdf}
+            \includegraphics[width=0.30\textwidth,angle=0]{Plots/ggH_powheg_JHUgen_125_4mu_pT4l_genbin4_recobin4_effs_genWeight*pileupWeight*dataMCWeight.pdf}
       \label{fig:sigfits-pT4l-ggH-powheg15-JHUgen-125:n}
     }    
      \subfigure[$80.0 < \pt(\mathrm{H}) < 120.0$]{
-      \includegraphics[width=0.18\textwidth,angle=0]{Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin4_recobin4_effs_genWeight*pileupWeight*dataMCWeight.pdf}
+      \includegraphics[width=0.30\textwidth,angle=0]{Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin4_recobin4_effs_genWeight*pileupWeight*dataMCWeight.pdf}
       \label{fig:sigfits-pT4l-ggH-powheg15-JHUgen-125:o}
     }\\
 
     \subfigure[$120.0 < \pt(\mathrm{H}) < 200.0$]{
-      \includegraphics[width=0.18\textwidth,angle=0]{Plots/ggH_powheg_JHUgen_125_4e_pT4l_genbin5_recobin5_effs_genWeight*pileupWeight*dataMCWeight.pdf}
+      \includegraphics[width=0.30\textwidth,angle=0]{Plots/ggH_powheg_JHUgen_125_4e_pT4l_genbin5_recobin5_effs_genWeight*pileupWeight*dataMCWeight.pdf}
       \label{fig:sigfits-pT4l-ggH-powheg15-JHUgen-125:p}
     }
     \subfigure[$120.0 < \pt(\mathrm{H}) < 200.0$]{
-            \includegraphics[width=0.18\textwidth,angle=0]{Plots/ggH_powheg_JHUgen_125_4mu_pT4l_genbin5_recobin5_effs_genWeight*pileupWeight*dataMCWeight.pdf}
+            \includegraphics[width=0.30\textwidth,angle=0]{Plots/ggH_powheg_JHUgen_125_4mu_pT4l_genbin5_recobin5_effs_genWeight*pileupWeight*dataMCWeight.pdf}
       \label{fig:sigfits-pT4l-ggH-powheg15-JHUgen-125:q}
     }
      \subfigure[$120.0 < \pt(\mathrm{H}) < 200.0$]{
-      \includegraphics[width=0.18\textwidth,angle=0]{Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin5_recobin5_effs_genWeight*pileupWeight*dataMCWeight.pdf}
+      \includegraphics[width=0.30\textwidth,angle=0]{Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin5_recobin5_effs_genWeight*pileupWeight*dataMCWeight.pdf}
       \label{fig:sigfits-pT4l-ggH-powheg15-JHUgen-125:r}
     }\\
 
     \subfigure[$200.0 < \pt(\mathrm{H}) < 13000.0$]{
-      \includegraphics[width=0.18\textwidth,angle=0]{Plots/ggH_powheg_JHUgen_125_4e_pT4l_genbin6_recobin6_effs_genWeight*pileupWeight*dataMCWeight.pdf}
+      \includegraphics[width=0.30\textwidth,angle=0]{Plots/ggH_powheg_JHUgen_125_4e_pT4l_genbin6_recobin6_effs_genWeight*pileupWeight*dataMCWeight.pdf}
       \label{fig:sigfits-pT4l-ggH-powheg15-JHUgen-125:s}
     }
     \subfigure[$200.0 < \pt(\mathrm{H}) < 13000.0$]{
-            \includegraphics[width=0.18\textwidth,angle=0]{Plots/ggH_powheg_JHUgen_125_4mu_pT4l_genbin6_recobin6_effs_genWeight*pileupWeight*dataMCWeight.pdf}
+            \includegraphics[width=0.30\textwidth,angle=0]{Plots/ggH_powheg_JHUgen_125_4mu_pT4l_genbin6_recobin6_effs_genWeight*pileupWeight*dataMCWeight.pdf}
       \label{fig:sigfits-pT4l-ggH-powheg15-JHUgen-125:t}
     }
      \subfigure[$200.0 < \pt(\mathrm{H}) < 13000.0$]{
-      \includegraphics[width=0.18\textwidth,angle=0]{Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin6_recobin6_effs_genWeight*pileupWeight*dataMCWeight.pdf}
+      \includegraphics[width=0.30\textwidth,angle=0]{Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin6_recobin6_effs_genWeight*pileupWeight*dataMCWeight.pdf}
       \label{fig:sigfits-pT4l-ggH-powheg15-JHUgen-125:u}
     }\\
 
-	  \caption{ Distributions of m(4$\ell$) for the $\Pg\Pg\rightarrow \mathrm{H}$ production mode from {\sc powheg+JHUGen} in different bins of $\pt(\mathrm{H})$.    
+	  \caption{ Distributions of m(4$\ell$) for the $gg\rightarrow \mathrm{H}$ production mode from {\sc powheg+JHUGen} in different bins of $\pt(\mathrm{H})$.    
     }
   \label{fig:sigfits-pT4l-ggH-powheg15-JHUgen-125}
 
@@ -567,11 +567,11 @@
 
 \begin{figure}[!h!tb]
   \begin{center}
-    \subfigure[$\Pg\Pg\rightarrow$H ({\sc powheg+JHUgen})]{
+    \subfigure[$gg\rightarrow$H ({\sc powheg+JHUgen})]{
     \includegraphics[width=0.48\textwidth,angle=0]{Plots/eff2d_ggH_powheg_JHUgen_125_pT4l_4e.pdf}
     \label{fig:eff-pT4l-4e:a}
     }
-    \subfigure[$\Pg\Pg\rightarrow$H ({\sc minloHJJ})]{
+    \subfigure[$gg\rightarrow$H ({\sc minloHJJ})]{
     \includegraphics[width=0.48\textwidth,angle=0]{Plots/eff2d_ggH_minloHJJ_125_pT4l_4e.pdf}
     \label{fig:eff-pT4l-4e:b}
     } \\
@@ -599,7 +599,7 @@
 
 \begin{figure}[!h!tb]
   \begin{center}
-    \subfigure[$\Pg\Pg\rightarrow$H ({\sc powheg+JHUgen})]{
+    \subfigure[$gg\rightarrow$H ({\sc powheg+JHUgen})]{
     \includegraphics[width=0.48\textwidth,angle=0]{Plots/eff2d_ggH_powheg_JHUgen_125_pT4l_4mu.pdf}
     \label{fig:eff-pT4l-4mu:a}
     }
@@ -630,7 +630,7 @@
 
 \begin{figure}[!h!tb]
   \begin{center}
-    \subfigure[$\Pg\Pg\rightarrow$H ({\sc powheg+JHUgen})]{
+    \subfigure[$gg\rightarrow$H ({\sc powheg+JHUgen})]{
     \includegraphics[width=0.48\textwidth,angle=0]{Plots/eff2d_ggH_powheg_JHUgen_125_pT4l_2e2mu.pdf}
     \label{fig:eff-pT4l-2e2mu:a}
     }
@@ -1192,7 +1192,7 @@
 
 
 	  
-	  \caption{ Distributions of m(4$\ell$) for the $\Pg\Pg\rightarrow \mathrm{H}$ production mode from {\sc powheg+JHUGen} in different bins of $|y(\mathrm{H})|$.    
+	  \caption{ Distributions of m(4$\ell$) for the $gg\rightarrow \mathrm{H}$ production mode from {\sc powheg+JHUGen} in different bins of $|y(\mathrm{H})|$.    
     }
   \label{fig:sigfits-rapidity4l-ggH-powheg15-JHUgen-125}
 
@@ -1612,7 +1612,7 @@
 
 \begin{figure}[!h!tb]
   \begin{center}
-    \subfigure[$\Pg\Pg\rightarrow$H ({\sc powheg+JHUgen})]{
+    \subfigure[$gg\rightarrow$H ({\sc powheg+JHUgen})]{
     \includegraphics[width=0.48\textwidth,angle=0]{Plots/eff2d_ggH_powheg_JHUgen_125_rapidity4l_4e.pdf}
     \label{fig:eff-rapidity4l-4e:a}
     }
@@ -1644,7 +1644,7 @@
 
 \begin{figure}[!h!tb]
   \begin{center}
-    \subfigure[$\Pg\Pg\rightarrow$H ({\sc powheg+JHUgen})]{
+    \subfigure[$gg\rightarrow$H ({\sc powheg+JHUgen})]{
     \includegraphics[width=0.48\textwidth,angle=0]{Plots/eff2d_ggH_powheg_JHUgen_125_rapidity4l_4mu.pdf}
     \label{fig:eff-rapidity4l-4mu:a}
     }
@@ -1675,7 +1675,7 @@
 
 \begin{figure}[!h!tb]
   \begin{center}
-    \subfigure[$\Pg\Pg\rightarrow$H ({\sc powheg+JHUgen})]{
+    \subfigure[$gg\rightarrow$H ({\sc powheg+JHUgen})]{
     \includegraphics[width=0.48\textwidth,angle=0]{Plots/eff2d_ggH_powheg_JHUgen_125_rapidity4l_2e2mu.pdf}
     \label{fig:eff-rapidity4l-2e2mu:a}
     }
@@ -2222,7 +2222,7 @@
 
 	  
 	  
-	  \caption{ Distributions of m(4$\ell$) for the $\Pg\Pg\rightarrow \mathrm{H}$ production mode from {\sc powheg+JHUGen} in different bins of N(jets).    
+	  \caption{ Distributions of m(4$\ell$) for the $gg\rightarrow \mathrm{H}$ production mode from {\sc powheg+JHUGen} in different bins of N(jets).    
     }
   \label{fig:sigfits-njets_reco_pt30_eta2p5-ggH-powheg15-JHUgen-125}
 
@@ -2583,7 +2583,7 @@
 
 \begin{figure}[!h!tb]
   \begin{center}
-    \subfigure[$\Pg\Pg\rightarrow$H ({\sc powheg+JHUgen})]{
+    \subfigure[$gg\rightarrow$H ({\sc powheg+JHUgen})]{
     \includegraphics[width=0.48\textwidth,angle=0]{Plots/eff2d_ggH_powheg_JHUgen_125_njets_reco_pt30_eta2p5_4e.pdf}
     \label{fig:eff-njets_reco_pt30_eta2p5-4e:a}
     }
@@ -2615,7 +2615,7 @@
 
 \begin{figure}[!h!tb]
   \begin{center}
-    \subfigure[$\Pg\Pg\rightarrow$H ({\sc powheg+JHUgen})]{
+    \subfigure[$gg\rightarrow$H ({\sc powheg+JHUgen})]{
     \includegraphics[width=0.48\textwidth,angle=0]{Plots/eff2d_ggH_powheg_JHUgen_125_njets_reco_pt30_eta2p5_4mu.pdf}
     \label{fig:eff-njets_reco_pt30_eta2p5-4mu:a}
     }
@@ -2646,7 +2646,7 @@
 
 \begin{figure}[!h!tb]
   \begin{center}
-    \subfigure[$\Pg\Pg\rightarrow$H ({\sc powheg+JHUgen})]{
+    \subfigure[$gg\rightarrow$H ({\sc powheg+JHUgen})]{
     \includegraphics[width=0.48\textwidth,angle=0]{Plots/eff2d_ggH_powheg_JHUgen_125_njets_reco_pt30_eta2p5_2e2mu.pdf}
     \label{fig:eff-njets_reco_pt30_eta2p5-2e2mu:a}
     }

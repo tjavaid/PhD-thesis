@@ -1,0 +1,117 @@
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: main_simple.aux
+The style file: biblatex.bst
+A level-1 auxiliary file: Chapters/abstract.aux
+A level-1 auxiliary file: Chapters/introduction.aux
+White space in argument---line 82 of file main_simple.aux
+ : \citation{atlas-conf-2019-025
+ :                               }
+I'm skipping whatever remains of this command
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: main_simple-blx.bib
+Database file #2: example_merged2.bib
+Warning--I didn't find a database entry for "Khachatryan:2015yvw"
+Warning--I didn't find a database entry for "CMS:2015hja"
+Warning--I didn't find a database entry for "CMS:2016rqf"
+Warning--I didn't find a database entry for "Sirunyan:2017exp"
+Warning--I didn't find a database entry for "CMS:2018hhg"
+Warning--I didn't find a database entry for "atlas-conf-2019-029"
+Warning--I didn't find a database entry for "atlas-conf-2019-032"
+Warning--I didn't find a database entry for "CMS:2019drq"
+Biblatex version: 3.8
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Name 1 in "G. S. Guralnik, C. R. Hagen, and T. W. B. Kibble" has a comma at the end for entry Reference9
+while executing---line 2633 of file biblatex.bst
+Name 1 in "G. S. Guralnik, C. R. Hagen, and T. W. B. Kibble" has a comma at the end for entry Reference9
+while executing---line 2633 of file biblatex.bst
+Name 1 in "G. S. Guralnik, C. R. Hagen, and T. W. B. Kibble" has a comma at the end for entry Reference9
+while executing---line 2633 of file biblatex.bst
+Name 1 in "G. S. Guralnik, C. R. Hagen, and T. W. B. Kibble" has a comma at the end for entry Reference9
+while executing---line 2633 of file biblatex.bst
+Name 1 in "G. S. Guralnik, C. R. Hagen, and T. W. B. Kibble" has a comma at the end for entry Reference9
+while executing---line 2637 of file biblatex.bst
+Name 1 in "G. S. Guralnik, C. R. Hagen, and T. W. B. Kibble" has a comma at the end for entry Reference9
+while executing---line 2643 of file biblatex.bst
+Name 1 in "G. S. Guralnik, C. R. Hagen, and T. W. B. Kibble" has a comma at the end for entry Reference9
+while executing---line 2647 of file biblatex.bst
+Name 1 in "G. S. Guralnik, C. R. Hagen, and T. W. B. Kibble" has a comma at the end for entry Reference9
+while executing---line 2647 of file biblatex.bst
+Name 1 in "G. S. Guralnik, C. R. Hagen, and T. W. B. Kibble" has a comma at the end for entry Reference9
+while executing---line 2651 of file biblatex.bst
+Name 1 in "G. S. Guralnik, C. R. Hagen, and T. W. B. Kibble" has a comma at the end for entry Reference9
+while executing---line 2657 of file biblatex.bst
+Name 1 in "G. S. Guralnik, C. R. Hagen, and T. W. B. Kibble" has a comma at the end for entry Reference9
+while executing---line 2661 of file biblatex.bst
+Name 1 in "G. S. Guralnik, C. R. Hagen, and T. W. B. Kibble" has a comma at the end for entry Reference9
+while executing---line 2661 of file biblatex.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Name 1 in "G. S. Guralnik, C. R. Hagen, and T. W. B. Kibble" has a comma at the end for entry Reference9
+while executing---line 2749 of file biblatex.bst
+Name 1 in "G. S. Guralnik, C. R. Hagen, and T. W. B. Kibble" has a comma at the end for entry Reference9
+while executing---line 2749 of file biblatex.bst
+Name 1 in "G. S. Guralnik, C. R. Hagen, and T. W. B. Kibble" has a comma at the end for entry Reference9
+while executing---line 2749 of file biblatex.bst
+Name 1 in "G. S. Guralnik, C. R. Hagen, and T. W. B. Kibble" has a comma at the end for entry Reference9
+while executing---line 2749 of file biblatex.bst
+Name 1 in "G. S. Guralnik, C. R. Hagen, and T. W. B. Kibble" has a comma at the end for entry Reference9
+while executing---line 2749 of file biblatex.bst
+Name 1 in "G. S. Guralnik, C. R. Hagen, and T. W. B. Kibble" has a comma at the end for entry Reference9
+while executing---line 2749 of file biblatex.bst
+Name 1 in "G. S. Guralnik, C. R. Hagen, and T. W. B. Kibble" has a comma at the end for entry Reference9
+while executing---line 2749 of file biblatex.bst
+You've used 17 entries,
+            6268 wiz_defined-function locations,
+            1290 strings with 11628 characters,
+and the built_in function-call counts, 65386 in all, are:
+= -- 4034
+> -- 1321
+< -- 274
++ -- 1153
+- -- 406
+* -- 4473
+:= -- 6013
+add.period$ -- 0
+call.type$ -- 17
+change.case$ -- 112
+chr.to.int$ -- 30
+cite$ -- 32
+duplicate$ -- 6846
+empty$ -- 6884
+format.name$ -- 789
+if$ -- 13960
+int.to.chr$ -- 0
+int.to.str$ -- 46
+missing$ -- 0
+newline$ -- 368
+num.names$ -- 650
+pop$ -- 5270
+preamble$ -- 1
+purify$ -- 166
+quote$ -- 0
+skip$ -- 2377
+stack$ -- 0
+substring$ -- 6394
+swap$ -- 1824
+text.length$ -- 305
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 566
+warning$ -- 0
+while$ -- 722
+width$ -- 0
+write$ -- 352
+(There were 20 error messages)

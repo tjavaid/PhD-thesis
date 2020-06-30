@@ -1,0 +1,1 @@
+bibtool -s -d example.bib ../AN-18-340/AN-18-340.bib -o example_merged2.bib

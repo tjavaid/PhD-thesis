@@ -1,5 +1,9 @@
 #scp -r tjavaid@melrose.ihepa.ufl.edu:/raid/raid7/tjavaid/fiducial_XS/CMSSW_7_4_7/src/thesis_2018/plots/ggH_powheg*.pdf Plots/
 #scp -r tjavaid@newberry.ihepa.ufl.edu:/raid/raid7/tjavaid/fiducial_XS/CMSSW_7_4_7/src/thesis_2018/plots/*.pdf Plots/
 
-scp -r tjavaid@newberry.ihepa.ufl.edu:/raid/raid7/tjavaid/fiducial_XS/CMSSW_7_4_7/src/FidXS_13TeV_2018_80X_preM19_newBinning_preApp/plots/eff2d*.pdf Plots/
-
+#scp -r tjavaid@newberry.ihepa.ufl.edu:/raid/raid7/tjavaid/fiducial_XS/CMSSW_7_4_7/src/FidXS_13TeV_2018_80X_preM19_newBinning_preApp/plots/eff2d*.pdf Plots/
+#for obs in rapidity4l njets_pt30_eta2p5 pt_leadingjet_pt30_eta2p5; do
+##scp -r tjavaid@newberry.ihepa.ufl.edu:/raid/raid7/tjavaid/fiducial_XS/CMSSW_7_4_7/src/FidXS_13TeV_2018_80X_preM19_newBinning_preApp/plots/*_125_*_$obs\_genbin*_recobin*_effs_genWeight*pileupWeight*dataMCWeight.pdf Plots/
+#scp -r tjavaid@newberry.ihepa.ufl.edu:/raid/raid7/tjavaid/fiducial_XS/CMSSW_7_4_7/src/FidXS_13TeV_2018_80X_preM19_newBinning_preApp/plots/*_$obs\_*dataMCWeight.pdf Plots/
+#done
+scp -r tjavaid@newberry.ihepa.ufl.edu:/raid/raid7/tjavaid/fiducial_XS/CMSSW_7_4_7/src/thesis_2018/plots/*dataMCWeight.pdf Plots/

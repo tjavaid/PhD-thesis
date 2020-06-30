@@ -16,7 +16,7 @@ Then the lepton's relative isolation which is defined by ratio of this sum and $
 requirement~\cite{Chatrchyan:2013mxa}. 
 The requirement of isolation in definition of fiducial phase space is crucial to control the  difference of 
 signal selection efficiency among different models. The studies based on simulation samples  show that signal efficiency can change up to 
-45\% among different models without requiring lepton isolation at fiducial level as shown in Table ~\ref{tab:efficiencySMnoGenIso}, the maximum difference comes 
+45\% among different models without requiring lepton isolation at fiducial level as shown in Table \ref{tab:efficiencySMnoGenIso}, the maximum difference comes 
 from $\ttH$ and $\ggH$ production modes. This behavior is expected as $\ttH$ events has more hadronic activity around leptons as compared to $\ggH$ 
 events, so the cut at relative isolation  kills more events in $\ttH$ than $\ggH$.
  \par 
@@ -28,7 +28,7 @@ contamination from QCD low masses resonance, any opposite-charge pair of leptons
 We require that all selected leptons must emerge from Higgs boson decay and invariant  mass of four-leptons must fulfill  
 $105 \GeV < \mathrm{m}(4\ell) < 140 \GeV$. Demand for $\mathrm{m}(4\ell)$ helps to control the contamination from off-shell gg fusion production
 which is of considerable size, capable to increase the total cross sextion by a few percent~\cite{Kauer:2013cga, Kauer:2012hd}. The requirements
-that defines  fiducial phase space are also gathered in Table~\ref{tab:FidDef}.
+that defines  fiducial phase space are also gathered in Table \ref{tab:FidDef}.
 \begin{table}[!h!tb]
 \begin{center}
 \small
@@ -84,9 +84,9 @@ Invariant mass of selected four leptons & $105 < m_{4\ell} < 140 \GeV$  \\
 It has been established based on simulation samples that with including isolation for the events passing fiducial phase space definition  
 reconstruction efficiencies faintly depends
 on Higgs properties and its production modes. The remaining model dependence will be quoted as a separate uncertainty as explained in 
-Section~\ref{sec:Systematics}. Part of the signal events passing fiducial phase space definition ($\mathcal{A}_{\rm fid}$), and reconstruction efficiencies
+Section \ref{sec:Systematics}. Part of the signal events passing fiducial phase space definition ($\mathcal{A}_{\rm fid}$), and reconstruction efficiencies
 %($\epsilon$) for SM production modes are registered in Tables~\ref{tab:summarySM2016}, ~\ref{tab:summarySM2017} and ~\ref{tab:summarySM2018}.  
-($\epsilon$) for SM production modes are registered in Table~\ref{tab:summarySMfullRun2}.   
+($\epsilon$) for SM production modes are registered in Table \ref{tab:summarySMfullRun2}.   
 %\small
 %\caption{
 %The fiducial acceptance ($\mathcal{A}_{\rm fid}$) defined the fraction of events passing fiducial phase space selections, reconstruction efficiency ($\epsilon$)
