@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.28)  28 JUN 2020 19:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.28)  30 JUN 2020 10:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1904,13 +1904,6 @@ Package pdftex.def Info: Figures/Logo.jpg  used on input line 247.
 --------------------
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 1.
-! Undefined control sequence.
-\fbinv ...ath {\,\text {fb}^\text {$-$1}}}\xspace 
-                                                  
-l.5 ... to integrated luminosities of 137.1~\fbinv
-                                                   at 13\TeV. These measurem...
-
-? 
 )
 1: section
 [3] (/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.bdg
@@ -2016,9 +2009,41 @@ f-fer-ent Higgs masses
 (./Chapters/introduction.tex
 Chapter 1.
 
-Overfull \hbox (1.33844pt too wide) in paragraph at lines 3--25
-\T1/ppl/m/n/12 The Stan-dard Model (SM) of the par-ti-cle physics gives suc-ces
-s-ful ex-pla-na-tion about
+LaTeX Warning: Citation `Khachatryan:2015yvw' on page 1 undefined on input line
+ 42.
+
+
+LaTeX Warning: Citation `CMS:2015hja' on page 1 undefined on input line 42.
+
+
+LaTeX Warning: Citation `CMS:2016rqf' on page 1 undefined on input line 42.
+
+
+LaTeX Warning: Citation `Sirunyan:2017exp' on page 1 undefined on input line 42
+.
+
+
+LaTeX Warning: Citation `CMS:2018hhg' on page 1 undefined on input line 42.
+
+
+LaTeX Warning: Citation `atlas-conf-2019-029' on page 1 undefined on input line
+ 42.
+
+
+LaTeX Warning: Citation `atlas-conf-2019-025 ' on page 1 undefined on input lin
+e 42.
+
+
+LaTeX Warning: Citation `atlas-conf-2019-032' on page 1 undefined on input line
+ 43.
+
+
+LaTeX Warning: Citation `CMS:2019drq' on page 1 undefined on input line 43.
+
+
+Overfull \hbox (9.53288pt too wide) in paragraph at lines 50--55
+\T1/ppl/m/n/12 which are mea-sured us-ing the full Run 2 CMS data recorded at 1
+3 []corresponding
  []
 
 1: section
@@ -2026,43 +2051,52 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.30 \par
-          [1
+l.55 
+      [1
 
 
 ]
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 58.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsppl.fd
+File: omsppl.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 58.
+
 ! Undefined control sequence.
 \reserved@b ->\T@ref 
                      
-l.42 ...of H boson are described in Chapter ~\ref{
-                                                  Chapter1}. Overview of the...
+l.58 	\item \textbf{Chapter  1~\ref{Chapter1}:  }
+                                                  An overview of theoretical...
 
 ? 
 ! Undefined control sequence.
 \reserved@b ->\T@ref 
                      
-l.42 ...experiment are presented in Chapter ~\ref{
-                                                  Chapter2}. The calibration...
+l.59 	\item \textbf{Chapter 2~\ref{Chapter2}: }
+                                                Overview of relevant experim...
 
 ? 
 ! Undefined control sequence.
 \reserved@b ->\T@ref 
                      
-l.43 described in Chapter ~\ref{
-                                Chapter3}.
-? 
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.44 Chapter ~\ref{
-                   Chapter4} presents the procedure of measurements of inclu...
+l.60 	\item \textbf{Chapter 3~\ref{Chapter3}: }
+                                                The calibrations and reconst...
 
 ? 
 ! Undefined control sequence.
 \reserved@b ->\T@ref 
                      
-l.47 ...sertation are summarized in Chapter ~\ref{
-                                                  Chapter7}.
+l.61 ... \item \textbf{Chapter 4~\ref{Chapter4}: }
+                                                   Presents the procedure of...
+
+? 
+! Undefined control sequence.
+\reserved@b ->\T@ref 
+                     
+l.62 	\item \textbf{Chapter 5~\ref{Chapter7}: }
+                                                Finally, the conclusions and...
+
 ? 
 )pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
  been already used, duplicate ignored
@@ -2162,7 +2196,7 @@ l.71 ...etails would be described in Section~\ref{
                                                   fundamentalforces}. Electr...
 
 ? 
-<Figures/chapter1_Figure/Standard_Model_of_Elementary_Particles.png, id=336, 80
+<Figures/chapter1_Figure/Standard_Model_of_Elementary_Particles.png, id=330, 80
 3.0pt x 603.25375pt>
 File: Figures/chapter1_Figure/Standard_Model_of_Elementary_Particles.png Graphi
 c file (type png)
@@ -2209,7 +2243,7 @@ l.110 \begin
 l.110 \begin
             {center}
 ? 
-<Figures/chapter1_Figure/Annihilation_of_a_Positron_Electron_pair.png, id=338, 
+<Figures/chapter1_Figure/Annihilation_of_a_Positron_Electron_pair.png, id=332, 
 569.12625pt x 569.12625pt>
 File: Figures/chapter1_Figure/Annihilation_of_a_Positron_Electron_pair.png Grap
 hic file (type png)
@@ -2519,7 +2553,7 @@ l.205 \end{equation}
 l.205 \end{equation}
                     
 ? 
-<Figures/chapter1_Figure/higgs_potential.jpg, id=376, 486.81876pt x 300.12125pt
+<Figures/chapter1_Figure/higgs_potential.jpg, id=370, 486.81876pt x 300.12125pt
 >
 File: Figures/chapter1_Figure/higgs_potential.jpg Graphic file (type jpg)
 <use Figures/chapter1_Figure/higgs_potential.jpg>
@@ -3110,7 +3144,7 @@ l.377 \begin
 l.377 \begin
             {center}
 ? 
-<Figures/chapter1_Figure/HiggsProduction.jpg, id=410, 584.1825pt x 356.33125pt>
+<Figures/chapter1_Figure/HiggsProduction.jpg, id=404, 584.1825pt x 356.33125pt>
 
 File: Figures/chapter1_Figure/HiggsProduction.jpg Graphic file (type jpg)
 <use Figures/chapter1_Figure/HiggsProduction.jpg>
@@ -3139,19 +3173,19 @@ l.385  \begin
 l.385  \begin
              {center}
 ? 
-<Figures/chapter1_Figure/Higgs_XS_7TeV.pdf, id=411, 569.12625pt x 408.52625pt>
+<Figures/chapter1_Figure/Higgs_XS_7TeV.pdf, id=405, 569.12625pt x 408.52625pt>
 File: Figures/chapter1_Figure/Higgs_XS_7TeV.pdf Graphic file (type pdf)
 <use Figures/chapter1_Figure/Higgs_XS_7TeV.pdf>
 Package pdftex.def Info: Figures/chapter1_Figure/Higgs_XS_7TeV.pdf  used on inp
 ut line 386.
 (pdftex.def)             Requested size: 260.17465pt x 186.76491pt.
-<Figures/chapter1_Figure/Higgs_XS_8TeV.pdf, id=412, 569.12625pt x 408.52625pt>
+<Figures/chapter1_Figure/Higgs_XS_8TeV.pdf, id=406, 569.12625pt x 408.52625pt>
 File: Figures/chapter1_Figure/Higgs_XS_8TeV.pdf Graphic file (type pdf)
 <use Figures/chapter1_Figure/Higgs_XS_8TeV.pdf>
 Package pdftex.def Info: Figures/chapter1_Figure/Higgs_XS_8TeV.pdf  used on inp
 ut line 387.
 (pdftex.def)             Requested size: 260.17465pt x 186.76491pt.
-<Figures/chapter1_Figure/plot_13tev_BSM_aa.pdf, id=413, 569.12625pt x 410.53375
+<Figures/chapter1_Figure/plot_13tev_BSM_aa.pdf, id=407, 569.12625pt x 410.53375
 pt>
 File: Figures/chapter1_Figure/plot_13tev_BSM_aa.pdf Graphic file (type pdf)
 <use Figures/chapter1_Figure/plot_13tev_BSM_aa.pdf>
@@ -3180,7 +3214,7 @@ l.394  \begin
 l.394  \begin
              {center}
 ? 
-<Figures/chapter1_Figure/Escan_h125.pdf, id=414, 569.12625pt x 547.04375pt>
+<Figures/chapter1_Figure/Escan_h125.pdf, id=408, 569.12625pt x 547.04375pt>
 File: Figures/chapter1_Figure/Escan_h125.pdf Graphic file (type pdf)
 <use Figures/chapter1_Figure/Escan_h125.pdf>
 Package pdftex.def Info: Figures/chapter1_Figure/Escan_h125.pdf  used on input 
@@ -3559,7 +3593,7 @@ l.483  \begin
 l.483  \begin
              {center}
 ? 
-<Figures/chapter1_Figure/Higgs_BR_LM.pdf, id=437, 569.12625pt x 546.04pt>
+<Figures/chapter1_Figure/Higgs_BR_LM.pdf, id=431, 569.12625pt x 546.04pt>
 File: Figures/chapter1_Figure/Higgs_BR_LM.pdf Graphic file (type pdf)
 <use Figures/chapter1_Figure/Higgs_BR_LM.pdf>
 Package pdftex.def Info: Figures/chapter1_Figure/Higgs_BR_LM.pdf  used on input
@@ -3587,14 +3621,14 @@ l.490 \begin{figure}[!htbp]
 l.490 \begin{figure}[!htbp]
                            
 ? 
-<Figures/chapter1_Figure/XSBR_7TeV_SM_LM.pdf, id=438, 569.12625pt x 548.0475pt>
+<Figures/chapter1_Figure/XSBR_7TeV_SM_LM.pdf, id=432, 569.12625pt x 548.0475pt>
 
 File: Figures/chapter1_Figure/XSBR_7TeV_SM_LM.pdf Graphic file (type pdf)
 <use Figures/chapter1_Figure/XSBR_7TeV_SM_LM.pdf>
 Package pdftex.def Info: Figures/chapter1_Figure/XSBR_7TeV_SM_LM.pdf  used on i
 nput line 492.
 (pdftex.def)             Requested size: 216.81pt x 208.77869pt.
-<Figures/chapter1_Figure/XSBR_8TeV_SM_LM.pdf, id=439, 569.12625pt x 549.05125pt
+<Figures/chapter1_Figure/XSBR_8TeV_SM_LM.pdf, id=433, 569.12625pt x 549.05125pt
 >
 File: Figures/chapter1_Figure/XSBR_8TeV_SM_LM.pdf Graphic file (type pdf)
 <use Figures/chapter1_Figure/XSBR_8TeV_SM_LM.pdf>
@@ -3621,7 +3655,7 @@ l.501 \section
 
 ]
 Chapter 3.
-<Figures/chapter2_Figure/Cern-accelerator-complex.png, id=493, 803.0pt x 522.95
+<Figures/chapter2_Figure/Cern-accelerator-complex.png, id=487, 803.0pt x 522.95
 375pt>
 File: Figures/chapter2_Figure/Cern-accelerator-complex.png Graphic file (type p
 ng)
@@ -3670,7 +3704,7 @@ l.42 \begin
 l.42 \begin
            {center}
 ? 
-<Figures/chapter2_Figure/lhc-schematic.png, id=495, 375.804pt x 395.076pt>
+<Figures/chapter2_Figure/lhc-schematic.png, id=489, 375.804pt x 395.076pt>
 File: Figures/chapter2_Figure/lhc-schematic.png Graphic file (type png)
 <use Figures/chapter2_Figure/lhc-schematic.png>
 Package pdftex.def Info: Figures/chapter2_Figure/lhc-schematic.png  used on inp
@@ -3708,23 +3742,23 @@ thebeams:$
 ! Undefined control sequence.
 \reserved@b ->\T@ref 
                      
-l.53 ...}~cm^{2}~s^{-1}$ are shown in Figure \ref{
+l.55 ...~cm^{2}~s^{-1}$ are shown in Figure ~\ref{
                                                   Fig:lhc_all}.
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.53 ...~s^{-1}$ are shown in Figure \ref{Fig:lhc_
+l.55 ...s^{-1}$ are shown in Figure ~\ref{Fig:lhc_
                                                   all}.
 ? 
 ! Extra }, or forgotten $.
-l.53 ...-1}$ are shown in Figure \ref{Fig:lhc_all}
+l.55 ...1}$ are shown in Figure ~\ref{Fig:lhc_all}
                                                   .
 ? 
 ! Undefined control sequence.
 \reserved@b ->\T@ref 
                      
-l.55 ...ckground discrimination. From Figure \ref{
+l.57 ...ckground discrimination. From Figure \ref{
                                                   Fig:lhc_all} its clear tha...
 
 ? 
@@ -3735,54 +3769,54 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.57 ... for CMS and ATLAS experiment is $\mathscr
+l.59 ... for CMS and ATLAS experiment is $\mathscr
                                                   {L}$ = 10$^{34}$cm$^{2}$s$...
 
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.57 ...d ATLAS experiment is $\mathscr{L}$ = 10$^
+l.59 ...d ATLAS experiment is $\mathscr{L}$ = 10$^
                                                   {34}$cm$^{2}$s$^{-1}$, and...
 
 ? 
 ! Undefined control sequence.
 \reserved@b ->\T@ref 
                      
-l.58  The cross section in Figure \ref{
+l.60  The cross section in Figure \ref{
                                        Fig:lhc_all} ~\cite{Reference29}~show...
 
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.58  The cross section in Figure \ref{Fig:lhc_
+l.60  The cross section in Figure \ref{Fig:lhc_
                                                all} ~\cite{Reference29}~show...
 
 ? 
 ! Extra }, or forgotten $.
-l.58 ... cross section in Figure \ref{Fig:lhc_all}
+l.60 ... cross section in Figure \ref{Fig:lhc_all}
                                                    ~\cite{Reference29}~shows...
 
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.60 \subsubsection
+l.62 \subsubsection
                    {Nominal Luminosity and Beam Parameters}
 ? 
 
-Overfull \hbox (1538.96704pt too wide) in paragraph at lines 52--60
-\T1/ppl/m/n/12 Fig-ure Fig:lhc$[]\OML/cmm/m/it/12 ll:HiggsproductionatLHCfacili
-tyisrareascomparedtootherQCDandweakboson\OT1/cmr/m/n/12 ($\T1/ppl/m/n/12 W,Z$\O
-T1/cmr/m/n/12 )\OML/cmm/m/it/12 productionswhichactasbackgroundsintheHiggsboson
-searches:InordertoreconstructHiggsbosonatLHC; oneneedtoexploitspecificfinalstat
-esprovidingenoughsignaltobackgrounddiscrimination:FromFigure[]itsclearthatHiggs
-bosonproductionriseswithincreaseincenter \OMS/cmsy/m/n/12 ^^@
+Overfull \hbox (1591.89868pt too wide) in paragraph at lines 55--62
+\T1/ppl/m/n/12 shown in Fig-ure  Fig:lhc$[]\OML/cmm/m/it/12 ll:Higgsproductiona
+tLHCfacilityisrareascomparedtootherQCDandweakboson\OT1/cmr/m/n/12 ($\T1/ppl/m/n
+/12 W,Z$\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 productionswhichactasbackgroundsinthe
+Higgsbosonsearches:InordertoreconstructHiggsbosonatLHC; oneneedtoexploitspecifi
+cfinalstatesprovidingenoughsignaltobackgrounddiscrimination:FromFigure[]itsclea
+rthatHiggsbosonproductionriseswithincreaseincenter \OMS/cmsy/m/n/12 ^^@
  []
 
 
-Overfull \hbox (540.4921pt too wide) in paragraph at lines 52--60
+Overfull \hbox (540.4921pt too wide) in paragraph at lines 55--62
 \OML/cmm/m/it/12 of \OMS/cmsy/m/n/12 ^^@ \OML/cmm/m/it/12 massenergies:Soincrea
 seinmachineluminosityandcenter \OMS/cmsy/m/n/12 ^^@ \OML/cmm/m/it/12 of \OMS/cm
 sy/m/n/12 ^^@ \OML/cmm/m/it/12 massenergiesenablesustogetmorestatisticsofHiggsb
@@ -3791,7 +3825,7 @@ oson:TheNominalluminosityforCMSandATLASexperimentis$\T1/ppl/m/n/12 L$\OT1/cmr/m
  []
 
 
-Overfull \hbox (1024.73329pt too wide) in paragraph at lines 52--60
+Overfull \hbox (1024.73329pt too wide) in paragraph at lines 55--62
 \T1/ppl/m/n/12 sec-tion in Fig-ure Fig:lhc$[]\OML/cmm/m/it/12 ll \OT1/cmr/m/n/1
 2 [[]] \OML/cmm/m/it/12 showsthatLHChaspossibilitytoproduceasingleHiggsbosonaft
 erevery\OT1/cmr/m/n/12 100 \OML/cmm/m/it/12 satmass\OT1/cmr/m/n/12 500 \OML/cmm
@@ -3804,19 +3838,19 @@ ies:$
 ! Undefined control sequence.
 \reserved@b ->\T@ref 
                      
-l.74 ...al luminosity is summarized in Table \ref{
+l.77 ...al luminosity is summarized in Table \ref{
                                                   Tab:nominal_lumi_parameter...
 
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.74 ...y is summarized in Table \ref{Tab:nominal_
+l.77 ...y is summarized in Table \ref{Tab:nominal_
                                                   lumi_parameters}. Such hig...
 
 ? 
 ! Extra }, or forgotten $.
-l.74 ...in Table \ref{Tab:nominal_lumi_parameters}
+l.77 ...in Table \ref{Tab:nominal_lumi_parameters}
                                                   . Such high luminosity can...
 
 ? 
@@ -3827,32 +3861,32 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.78 ...y B Physics with peak luminosity $\mathscr
+l.81 ...y B Physics with peak luminosity $\mathscr
                                                   {L} = 10^{32} cm^2 s^{-1}$...
 
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.78 ...cs with peak luminosity $\mathscr{L} = 10^
+l.81 ...cs with peak luminosity $\mathscr{L} = 10^
                                                   {32} cm^2 s^{-1}$. And the...
 
 ? 
-<Figures/chapter2_Figure/LHC_all2.png, id=514, 561.09625pt x 798.985pt>
+<Figures/chapter2_Figure/LHC_all2.png, id=507, 561.09625pt x 798.985pt>
 File: Figures/chapter2_Figure/LHC_all2.png Graphic file (type png)
 <use Figures/chapter2_Figure/LHC_all2.png>
 Package pdftex.def Info: Figures/chapter2_Figure/LHC_all2.png  used on input li
-ne 105.
+ne 108.
 (pdftex.def)             Requested size: 346.89732pt x 493.96356pt.
 
-Overfull \hbox (291.38335pt too wide) in paragraph at lines 72--111
+Overfull \hbox (291.38335pt too wide) in paragraph at lines 75--114
 \T1/ppl/m/n/12 ters to ob-tain this nom-i-nal lu-mi-nos-ity is sum-ma-rized in 
 Ta-ble Tab:nominal$[]\OML/cmm/m/it/12 umi[]arameters:Suchhighluminositycannotbe
 attainedbyproton \OMS/cmsy/m/n/12 ^^@
  []
 
 
-Overfull \hbox (1040.768pt too wide) in paragraph at lines 72--111
+Overfull \hbox (1040.768pt too wide) in paragraph at lines 75--114
 \OML/cmm/m/it/12 anti \OMS/cmsy/m/n/12 ^^@ \OML/cmm/m/it/12 protoncollisions; l
 eavingonlypossibilityofprotonprotoncollisionsforLHCmachine:Toaligntwooppositemo
 vingprotonbeamsinbothringsforcollisionsneedsdipolemagneticwithoppositefieldsdir
@@ -3863,273 +3897,261 @@ tostudyBPhysicswithpeakluminosity$\T1/ppl/m/n/12 L
 ! Undefined control sequence.
 \reserved@b ->\T@ref 
                      
-l.118 ...017 and 2018 as shown in the Figure \ref{
+l.121 ...017 and 2018 as shown in the Figure \ref{
                                                   fig:luminosity_2015}, \ref...
 
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.118 ... shown in the Figure \ref{fig:luminosity_
+l.121 ... shown in the Figure \ref{fig:luminosity_
                                                   2015}, \ref{fig:luminosity...
 
 ? 
 ! Extra }, or forgotten $.
-l.118 ...n in the Figure \ref{fig:luminosity_2015}
+l.121 ...n in the Figure \ref{fig:luminosity_2015}
                                                   , \ref{fig:luminosity_2016...
 
 ? 
 ! Undefined control sequence.
 \reserved@b ->\T@ref 
                      
-l.118 ...e Figure \ref{fig:luminosity_2015}, \ref{
+l.121 ...e Figure \ref{fig:luminosity_2015}, \ref{
                                                   fig:luminosity_2016}, \ref...
 
 ? 
 ! Undefined control sequence.
 \reserved@b ->\T@ref 
                      
-l.118 ...y_2015}, \ref{fig:luminosity_2016}, \ref{
+l.121 ...y_2015}, \ref{fig:luminosity_2016}, \ref{
                                                   fig:luminosity_2017} and \...
 
 ? 
 ! Undefined control sequence.
 \reserved@b ->\T@ref 
                      
-l.118 ...016}, \ref{fig:luminosity_2017} and \ref{
+l.121 ...016}, \ref{fig:luminosity_2017} and \ref{
                                                   fig:luminosity_2018} respe...
 
 ? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.123 
+      
+? 
 
-! LaTeX Error: Not in outer par mode.
+Overfull \hbox (272.81209pt too wide) in paragraph at lines 120--123
+\T1/ppl/m/n/12 2017 and 2018 as shown in the Fig-ure fig:luminosity$[]\OT1/cmr/
+m/n/12 015\OML/cmm/m/it/12 ; []; []and[]respectively:$ 
+ []
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.120 \begin{figure}[!htb]
-                          
-? 
-! Undefined control sequence.
-\latex@xfloat ...vf \fi \global \setbox \@currbox 
-                                                  \color@vbox \normalcolor \...
-l.120 \begin{figure}[!htb]
-                          
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \vbox 
-l.120 \begin{figure}[!htb]
-                          
-? 
-<Figures/chapter2_Figure/int_lumi_per_day_cumulative_pp_2015_prelim.pdf, id=515
+[19] [20 <./Figures/chapter2_Figure/LHC_all2.png (PNG copy)>]
+<Figures/chapter2_Figure/int_lumi_per_day_cumulative_pp_2015_prelim.pdf, id=525
 , 578.16pt x 433.62pt>
 File: Figures/chapter2_Figure/int_lumi_per_day_cumulative_pp_2015_prelim.pdf Gr
 aphic file (type pdf)
 <use Figures/chapter2_Figure/int_lumi_per_day_cumulative_pp_2015_prelim.pdf>
 Package pdftex.def Info: Figures/chapter2_Figure/int_lumi_per_day_cumulative_pp
-_2015_prelim.pdf  used on input line 125.
+_2015_prelim.pdf  used on input line 130.
 (pdftex.def)             Requested size: 208.13574pt x 156.09647pt.
+
 ! Undefined control sequence.
 <recently read> \strip@period 
                               
-l.125     }
+l.130     }
            
 ? 
 ! Undefined control sequence.
 \sf@sub@label ...rip@period #1\relax .\relax \@@@ 
                                                   }\fi \sf@@sub@label {#2}
-l.125     }
+l.130     }
            
 ? 
 ! Undefined control sequence.
 <recently read> \strip@period 
                               
-l.125     }
+l.130     }
            
 ? 
 ! Undefined control sequence.
 <argument> ...urrentlabelname \relax .\relax \@@@ 
                                                   }{\@currentHref }{}}
-l.125     }
+l.130     }
            
 ? 
-<Figures/chapter2_Figure/int_lumi_per_day_cumulative_pp_2016_prelim.pdf, id=516
+<Figures/chapter2_Figure/int_lumi_per_day_cumulative_pp_2016_prelim.pdf, id=526
 , 578.16pt x 433.62pt>
 File: Figures/chapter2_Figure/int_lumi_per_day_cumulative_pp_2016_prelim.pdf Gr
 aphic file (type pdf)
 <use Figures/chapter2_Figure/int_lumi_per_day_cumulative_pp_2016_prelim.pdf>
 Package pdftex.def Info: Figures/chapter2_Figure/int_lumi_per_day_cumulative_pp
-_2016_prelim.pdf  used on input line 129.
+_2016_prelim.pdf  used on input line 134.
 (pdftex.def)             Requested size: 208.13574pt x 156.09647pt.
 ! Undefined control sequence.
 <recently read> \strip@period 
                               
-l.129     }
+l.134     }
            
 ? 
 ! Undefined control sequence.
 \sf@sub@label ...rip@period #1\relax .\relax \@@@ 
                                                   }\fi \sf@@sub@label {#2}
-l.129     }
+l.134     }
            
 ? 
 ! Undefined control sequence.
 <recently read> \strip@period 
                               
-l.129     }
+l.134     }
            
 ? 
 ! Undefined control sequence.
 <argument> ...urrentlabelname \relax .\relax \@@@ 
                                                   }{\@currentHref }{}}
-l.129     }
+l.134     }
            
 ? 
-<Figures/chapter2_Figure/int_lumi_per_day_cumulative_pp_2017_prelim.pdf, id=517
+<Figures/chapter2_Figure/int_lumi_per_day_cumulative_pp_2017_prelim.pdf, id=527
 , 578.16pt x 433.62pt>
 File: Figures/chapter2_Figure/int_lumi_per_day_cumulative_pp_2017_prelim.pdf Gr
 aphic file (type pdf)
 <use Figures/chapter2_Figure/int_lumi_per_day_cumulative_pp_2017_prelim.pdf>
 Package pdftex.def Info: Figures/chapter2_Figure/int_lumi_per_day_cumulative_pp
-_2017_prelim.pdf  used on input line 134.
+_2017_prelim.pdf  used on input line 139.
 (pdftex.def)             Requested size: 208.13574pt x 156.09647pt.
 ! Undefined control sequence.
 <recently read> \strip@period 
                               
-l.134     }
+l.139     }
            
 ? 
 ! Undefined control sequence.
 \sf@sub@label ...rip@period #1\relax .\relax \@@@ 
                                                   }\fi \sf@@sub@label {#2}
-l.134     }
+l.139     }
            
 ? 
 ! Undefined control sequence.
 <recently read> \strip@period 
                               
-l.134     }
+l.139     }
            
 ? 
 ! Undefined control sequence.
 <argument> ...urrentlabelname \relax .\relax \@@@ 
                                                   }{\@currentHref }{}}
-l.134     }
+l.139     }
            
 ? 
-<Figures/chapter2_Figure/int_lumi_per_day_cumulative_pp_2018_prelim.pdf, id=518
+<Figures/chapter2_Figure/int_lumi_per_day_cumulative_pp_2018_prelim.pdf, id=528
 , 578.16pt x 433.62pt>
 File: Figures/chapter2_Figure/int_lumi_per_day_cumulative_pp_2018_prelim.pdf Gr
 aphic file (type pdf)
 <use Figures/chapter2_Figure/int_lumi_per_day_cumulative_pp_2018_prelim.pdf>
 Package pdftex.def Info: Figures/chapter2_Figure/int_lumi_per_day_cumulative_pp
-_2018_prelim.pdf  used on input line 138.
+_2018_prelim.pdf  used on input line 143.
 (pdftex.def)             Requested size: 208.13574pt x 156.09647pt.
 ! Undefined control sequence.
 <recently read> \strip@period 
                               
-l.138     }
+l.143     }
            \\
 ? 
 ! Undefined control sequence.
 \sf@sub@label ...rip@period #1\relax .\relax \@@@ 
                                                   }\fi \sf@@sub@label {#2}
-l.138     }
+l.143     }
            \\
 ? 
 ! Undefined control sequence.
 <recently read> \strip@period 
                               
-l.138     }
+l.143     }
            \\
 ? 
 ! Undefined control sequence.
 <argument> ...urrentlabelname \relax .\relax \@@@ 
                                                   }{\@currentHref }{}}
-l.138     }
+l.143     }
            \\
 ? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.144 \section
-              {The Compact Muon Solenoid (CMS) Experiment}
-? 
-
-Overfull \hbox (272.81209pt too wide) in paragraph at lines 117--144
-\T1/ppl/m/n/12 2017 and 2018 as shown in the Fig-ure fig:luminosity$[]\OT1/cmr/
-m/n/12 015\OML/cmm/m/it/12 ; []; []and[]respectively:$ 
- []
-
 ! Undefined control sequence.
 \reserved@b ->\T@ref 
                      
-l.148 ... design. It is apparent from Figure \ref{
+l.153 ... design. It is apparent from Figure \ref{
                                                   Fig:lhc_all} that the tota...
 
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.148 ... It is apparent from Figure \ref{Fig:lhc_
+l.153 ... It is apparent from Figure \ref{Fig:lhc_
                                                   all} that the total cross ...
 
 ? 
 ! Extra }, or forgotten $.
-l.148 ...is apparent from Figure \ref{Fig:lhc_all}
+l.153 ...is apparent from Figure \ref{Fig:lhc_all}
                                                    that the total cross sect...
 
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.148 ...ion proton-proton collisionis at  $\sqrt{
+l.153 ...ion proton-proton collisionis at  $\sqrt{
                                                   s} = 14 $~TeV is approxima...
 
 ? 
-[19] [20 <./Figures/chapter2_Figure/LHC_all2.png (PNG copy)>]
-LaTeX Font Info:    Try loading font information for OMS+ppl on input line 153.
+[21 <./Figures/chapter2_Figure/int_lumi_per_day_cumulative_pp_2015_prelim.pdf> 
+<./Figures/chapter2_Figure/int_lumi_per_day_cumulative_pp_2016_prelim.pdf
 
+pdfTeX warning: pdflatex (file ./Figures/chapter2_Figure/int_lumi_per_day_cumul
+ative_pp_2016_prelim.pdf): PDF inclusion: multiple pdfs with page group include
+d in a single page
+> <./Figures/chapter2_Figure/int_lumi_per_day_cumulative_pp_2017_prelim.pdf
 
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsppl.fd
-File: omsppl.fd 
-)
-LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 153.
-<Figures/chapter2_Figure/CMS_detector_design.png, id=536, 3189.9175pt x 2253.41
+pdfTeX warning: pdflatex (file ./Figures/chapter2_Figure/int_lumi_per_day_cumul
+ative_pp_2017_prelim.pdf): PDF inclusion: multiple pdfs with page group include
+d in a single page
+> <./Figures/chapter2_Figure/int_lumi_per_day_cumulative_pp_2018_prelim.pdf
+
+pdfTeX warning: pdflatex (file ./Figures/chapter2_Figure/int_lumi_per_day_cumul
+ative_pp_2018_prelim.pdf): PDF inclusion: multiple pdfs with page group include
+d in a single page
+>]
+<Figures/chapter2_Figure/CMS_detector_design.png, id=814, 3189.9175pt x 2253.41
 875pt>
 File: Figures/chapter2_Figure/CMS_detector_design.png Graphic file (type png)
 <use Figures/chapter2_Figure/CMS_detector_design.png>
 Package pdftex.def Info: Figures/chapter2_Figure/CMS_detector_design.png  used 
-on input line 160.
+on input line 165.
 (pdftex.def)             Requested size: 346.89732pt x 245.02292pt.
-
+ [22 <./Figures/chapter2_Figure/CMS_detector_design.png>]
 ! Undefined control sequence.
 \reserved@b ->\T@ref 
                      
-l.168 CMS overall  design is shown in Figure \ref{
+l.173 CMS overall  design is shown in Figure \ref{
                                                   Fig:CMS_detector_design}.
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.168 ...  design is shown in Figure \ref{Fig:CMS_
+l.173 ...  design is shown in Figure \ref{Fig:CMS_
                                                   detector_design}.
 ? 
 ! Extra }, or forgotten $.
-l.168 ...n in Figure \ref{Fig:CMS_detector_design}
+l.173 ...n in Figure \ref{Fig:CMS_detector_design}
                                                   .
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.170 ... which covers pseudorapidity up to $|\eta
+l.175 ... which covers pseudorapidity up to $|\eta
                                                   | < 3.0$. After ECAL, hadr...
 
 ? 
 
-Overfull \hbox (1317.5108pt too wide) in paragraph at lines 168--171
+Overfull \hbox (1317.5108pt too wide) in paragraph at lines 173--176
 []\T1/ppl/m/n/12 CMS over-all de-sign is shown in Fig-ure Fig:CMS$[]\OML/cmm/m/
 it/12 etector[]esign:CMSmagnetissuperconductingsolenoidwhichis\OT1/cmr/m/n/12 1
 3\OML/cmm/m/it/12 mlengthwithinnerdiameterof\OT1/cmr/m/n/12 6\OML/cmm/m/it/12 m
@@ -4142,7 +4164,7 @@ m/n/12 )\OML/cmm/m/it/12 arethesub \OMS/cmsy/m/n/12 ^^@
  []
 
 
-Overfull \hbox (825.60822pt too wide) in paragraph at lines 168--171
+Overfull \hbox (825.60822pt too wide) in paragraph at lines 173--176
 \OML/cmm/m/it/12 detectorsofCMSwhicharefittedinsidethelargesolenoidmagnet:Inner
 trackerofCMShavelargetrackmultiplicityasbeingclosesttobeampipewherecollisionsha
 ppens:ECALisbuildwithcrystalsofleadtungstatewhichcoverspseudorapidityupto$\T1/p
@@ -4152,19 +4174,19 @@ pl/m/n/12 |$\OML/cmm/m/it/12 ^^Q\OMS/cmsy/m/n/12 j \OML/cmm/m/it/12 <
 ! Undefined control sequence.
 \reserved@b ->\T@ref 
                      
-l.173 as illustrated in Figure \ref{
+l.178 as illustrated in Figure \ref{
                                     Fig:CMS_detector_design}. The center of ...
 
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.173 as illustrated in Figure \ref{Fig:CMS_
+l.178 as illustrated in Figure \ref{Fig:CMS_
                                             detector_design}. The center of ...
 
 ? 
 ! Extra }, or forgotten $.
-l.173 ...d in Figure \ref{Fig:CMS_detector_design}
+l.178 ...d in Figure \ref{Fig:CMS_detector_design}
                                                   . The center of the experi...
 
 ? 
@@ -4175,68 +4197,68 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.176 \begin
+l.181 \begin
             {center}
 ? 
 ! Undefined control sequence.
 \latex@xfloat ...vf \fi \global \setbox \@currbox 
                                                   \color@vbox \normalcolor \...
-l.176 \begin
+l.181 \begin
             {center}
 ? 
 ! Missing number, treated as zero.
 <to be read again> 
                    \vbox 
-l.176 \begin
+l.181 \begin
             {center}
 ? 
-<Figures/chapter2_Figure/CMS_coorinidates.pdf, id=537, 670.09209pt x 443.41397p
+<Figures/chapter2_Figure/CMS_coorinidates.pdf, id=821, 670.09209pt x 443.41397p
 t>
 File: Figures/chapter2_Figure/CMS_coorinidates.pdf Graphic file (type pdf)
 <use Figures/chapter2_Figure/CMS_coorinidates.pdf>
 Package pdftex.def Info: Figures/chapter2_Figure/CMS_coorinidates.pdf  used on 
-input line 177.
+input line 182.
 (pdftex.def)             Requested size: 346.89732pt x 229.55493pt.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.182 ...nent in transverse (xy) plane while $\phi
+l.187 ...nent in transverse (xy) plane while $\phi
                                                   $ is the the azimuthal ang...
 
 ? 
 ! Undefined control sequence.
 \reserved@b ->\T@ref 
                      
-l.182 ... from the z axis as shown in Figure \ref{
+l.187 ... from the z axis as shown in Figure \ref{
                                                   Fig:CMS_coordinates}. Dire...
 
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.182 ...e z axis as shown in Figure \ref{Fig:CMS_
+l.187 ...e z axis as shown in Figure \ref{Fig:CMS_
                                                   coordinates}. Direction of...
 
 ? 
 ! Extra }, or forgotten $.
-l.182 ...shown in Figure \ref{Fig:CMS_coordinates}
+l.187 ...shown in Figure \ref{Fig:CMS_coordinates}
                                                   . Direction of any particl...
 
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.183 by $(\eta
+l.188 by $(\eta
                ,\phi)$, where $\eta$ being the pseudo-rapidity defined as
 ? 
 
-Overfull \hbox (1.79526pt too wide) in paragraph at lines 172--187
+Overfull \hbox (1.79526pt too wide) in paragraph at lines 177--192
 \T1/ppl/m/n/12 The co-or-di-nate sys-tem would be de-scribed in this Sec-tion a
 nd will be used through-
  []
 
 
-Overfull \hbox (964.46391pt too wide) in paragraph at lines 172--187
+Overfull \hbox (964.46391pt too wide) in paragraph at lines 177--192
 \T1/ppl/m/n/12 trated in Fig-ure Fig:CMS$[]\OML/cmm/m/it/12 etector[]esign:Thec
 enteroftheexperimentliesinsidebeampipewheretwobeamscollides\OT1/cmr/m/n/12 ; \O
 ML/cmm/m/it/12 theyaxisisdirectedverticallyupwardsandthexaxisbeinghorizontaltow
@@ -4246,71 +4268,71 @@ mm/m/it/12 planewhile$$^^^$
  []
 
 
-Overfull \hbox (195.6555pt too wide) in paragraph at lines 172--187
+Overfull \hbox (195.6555pt too wide) in paragraph at lines 177--192
 \T1/ppl/m/n/12 mea-sured from the z axis as shown in Fig-ure Fig:CMS$[]\OML/cmm
 /m/it/12 oordinates:DirectionofanyparticlewithinCMSisdescribedby$\T1/ppl/m/n/12
  ($\OML/cmm/m/it/12 ^^Q; ^^^\OT1/cmr/m/n/12 )$\T1/ppl/m/n/12 ,
  []
 
-[21] [22 <./Figures/chapter2_Figure/CMS_detector_design.png>]
 ! Undefined control sequence.
 \reserved@b ->\T@ref 
                      
-l.205 ...n of interaction as shown in Figure \ref{
+l.210 ...n of interaction as shown in Figure \ref{
                                                   Fig:CMS_detector_design}. ...
 
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.205 ...eraction as shown in Figure \ref{Fig:CMS_
+l.210 ...eraction as shown in Figure \ref{Fig:CMS_
                                                   detector_design}. Its is 2...
 
 ? 
 ! Extra }, or forgotten $.
-l.205 ...n in Figure \ref{Fig:CMS_detector_design}
+l.210 ...n in Figure \ref{Fig:CMS_detector_design}
                                                   . Its is 2.5 m in diameter...
 
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.205 ...diameter and 5 m in length feeding $|\eta
+l.210 ...diameter and 5 m in length feeding $|\eta
                                                   |$ coverage up to 2.5.  Th...
 
 ? 
 
-Overfull \hbox (95.69766pt too wide) in paragraph at lines 205--210
+Overfull \hbox (95.69766pt too wide) in paragraph at lines 210--215
 \T1/ppl/m/n/12 in-ter-ac-tion as shown in Fig-ure Fig:CMS$[]\OML/cmm/m/it/12 et
 ector[]esign:Itsis\OT1/cmr/m/n/12 2\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 5\OML/cmm/
 m/it/12 mindiameterand\OT1/cmr/m/n/12 5\OML/cmm/m/it/12 minlengthfeeding$\T1/pp
 l/m/n/12 |$\OML/cmm/m/it/12 ^^Q\OMS/cmsy/m/n/12 j$
  []
 
+[23]
 ! Undefined control sequence.
 \reserved@b ->\T@ref 
                      
-l.214 ...es of inner tracker listed in Table \ref{
+l.219 ...es of inner tracker listed in Table \ref{
                                                   Tab:cms_detector_regions}.
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.214 ...ner tracker listed in Table \ref{Tab:cms_
+l.219 ...ner tracker listed in Table \ref{Tab:cms_
                                                   detector_regions}.
 ? 
 ! Extra }, or forgotten $.
-l.214 ...d in Table \ref{Tab:cms_detector_regions}
+l.219 ...d in Table \ref{Tab:cms_detector_regions}
                                                   .
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.217 ...ole tracker system is kept at about -20$^
+l.222 ...ole tracker system is kept at about -20$^
                                                   {\circ}$ C.
 ? 
 
-Overfull \hbox (1104.57785pt too wide) in paragraph at lines 210--234
+Overfull \hbox (1104.57785pt too wide) in paragraph at lines 215--239
 \T1/ppl/m/n/12 tances of in-ner tracker listed in Ta-ble Tab:cms$[]\OML/cmm/m/i
 t/12 etector[]egions:Silicondetectorsarechosendueitsuniquepropertiesoffastrespo
 nseandgoodspatialresolutionwhichenablesittoworkefficientlyeveninhighradiationen
@@ -4321,70 +4343,69 @@ OMS/cmsy/m/n/12 ^^@
 ! Undefined control sequence.
 \reserved@b ->\T@ref 
                      
-l.234 ...hase 1 upgrades) is shown in Figure \ref{
+l.239 ...hase 1 upgrades) is shown in Figure \ref{
                                                   Fig:CMS_tracker}~\cite{Ref...
 
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.234 ...pgrades) is shown in Figure \ref{Fig:CMS_
+l.239 ...pgrades) is shown in Figure \ref{Fig:CMS_
                                                   tracker}~\cite{Reference34...
 
 ? 
 ! Extra }, or forgotten $.
-l.234 ... is shown in Figure \ref{Fig:CMS_tracker}
+l.239 ... is shown in Figure \ref{Fig:CMS_tracker}
                                                   ~\cite{Reference34}. Track...
 
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.235 ...ovides accurate traces in $z$ and $r-\phi
+l.240 ...ovides accurate traces in $z$ and $r-\phi
                                                   $ with a pixel cell of  si...
 
 ? 
 
-Overfull \hbox (620.84691pt too wide) in paragraph at lines 234--238
+Overfull \hbox (620.84691pt too wide) in paragraph at lines 239--243
 \T1/ppl/m/n/12 is shown in Fig-ure Fig:CMS$[]\OML/cmm/m/it/12 racker \OT1/cmr/m
 /n/12 [[]]\OML/cmm/m/it/12 :Trackermostinnerregionisthepixeldetectorthatisneare
 sttotheinteractionpointconsistsofdiskmodulesoneachsideandbarrellayers:Itprovide
 saccuratetracesin$\T1/ppl/m/n/12 z$\OML/cmm/m/it/12 and$\T1/ppl/m/n/12 r-
  []
 
-[23]
 ! Undefined control sequence.
 \reserved@b ->\T@ref 
                      
-l.242 ...way from it as it is shown in Fig.  \ref{
+l.247 ...way from it as it is shown in Fig.  \ref{
                                                   Fig:CMS_pixel_upgrade} %(F...
 
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.242 ... it as it is shown in Fig.  \ref{Fig:CMS_
+l.247 ... it as it is shown in Fig.  \ref{Fig:CMS_
                                                   pixel_upgrade} %(Figure 1)
 ? 
 ! Extra }, or forgotten $.
-l.242 ...hown in Fig.  \ref{Fig:CMS_pixel_upgrade}
+l.247 ...hown in Fig.  \ref{Fig:CMS_pixel_upgrade}
                                                    %(Figure 1)
 ? 
 ! Undefined control sequence.
 \reserved@b ->\T@ref 
                      
-l.248 In the figure \ref{
+l.253 In the figure \ref{
                          Fig:hit_efficiency_upgrade} clear improvments in th...
 
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.250 
+l.255 
       
 ? 
 
-Overfull \hbox (1189.70029pt too wide) in paragraph at lines 239--250
+Overfull \hbox (1189.70029pt too wide) in paragraph at lines 244--255
 \T1/ppl/m/n/12 fur-ther away from it as it is shown in Fig. Fig:CMS$[]\OML/cmm/
 m/it/12 ixel[]pgradeItalsousesnewReadoutChips\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 
 ROCs\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 benefittedfromreduceddatalossathighercoll
@@ -4396,7 +4417,7 @@ atelybyafactorofeight\OT1/cmr/m/n/12 (320\OML/cmm/m/it/12 Mbit=s\OT1/cmr/m/n/12
  []
 
 
-Overfull \hbox (1768.31396pt too wide) in paragraph at lines 239--250
+Overfull \hbox (1768.31396pt too wide) in paragraph at lines 244--255
 \OML/cmm/m/it/12 DCpowerconverterswereinstalledtoallowreusingtheexistingfibersa
 ndcables:Hence; theupgradedpixeldetectorhasahigherratecapabilityandnumberofchan
 nels; providingincreasedtrackingefficiency; reducedfakerate; andimprovedimpactp
@@ -4406,26 +4427,27 @@ r/m/n/12 2017(\OML/cmm/m/it/12 withpixelupgrades\OT1/cmr/m/n/12 )\OML/cmm/m/it/
 T1/cmr/m/n/12 )\OML/cmm/m/it/12 canbeseen:$ 
  []
 
-<Figures/chapter2_Figure/CMS_tracker.pdf, id=557, 817.139pt x 394.5942pt>
+[24]
+<Figures/chapter2_Figure/CMS_tracker.pdf, id=835, 817.139pt x 394.5942pt>
 File: Figures/chapter2_Figure/CMS_tracker.pdf Graphic file (type pdf)
 <use Figures/chapter2_Figure/CMS_tracker.pdf>
 Package pdftex.def Info: Figures/chapter2_Figure/CMS_tracker.pdf  used on input
- line 259.
+ line 264.
 (pdftex.def)             Requested size: 346.89732pt x 167.51666pt.
-<Figures/chapter2_Figure/CMS_pixel_upgrade.png, id=558, 1891.065pt x 604.2575pt
+<Figures/chapter2_Figure/CMS_pixel_upgrade.png, id=836, 1891.065pt x 604.2575pt
 >
 File: Figures/chapter2_Figure/CMS_pixel_upgrade.png Graphic file (type png)
 <use Figures/chapter2_Figure/CMS_pixel_upgrade.png>
 Package pdftex.def Info: Figures/chapter2_Figure/CMS_pixel_upgrade.png  used on
- input line 267.
+ input line 272.
 (pdftex.def)             Requested size: 346.89732pt x 110.84541pt.
-<Figures/chapter2_Figure/hit_efficiency_upgrade.png, id=559, 1786.675pt x 838.1
+<Figures/chapter2_Figure/hit_efficiency_upgrade.png, id=837, 1786.675pt x 838.1
 3126pt>
 File: Figures/chapter2_Figure/hit_efficiency_upgrade.png Graphic file (type png
 )
 <use Figures/chapter2_Figure/hit_efficiency_upgrade.png>
 Package pdftex.def Info: Figures/chapter2_Figure/hit_efficiency_upgrade.png  us
-ed on input line 278.
+ed on input line 283.
 (pdftex.def)             Requested size: 346.89732pt x 162.72516pt.
 )
 Runaway argument?
@@ -4437,3687 +4459,14 @@ l.343 \include{Chapters/Chapter_2}
                                     % initial draft ready 06.03.2020, revise...
 
 ? 
-\openout2 = `Chapters/Chapter_3.aux'.
-
-(./Chapters/Chapter_3.tex
-Chapter 4.
-(./Objects/eleReco.tex
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.7 ...technique outlined later (see Section \ref{
-                                                  sec:eleEffMeas}).
-? 
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.10 ...ruction scale factors are shown Fig. \ref{
-                                                  fig:ele_rec_scale_factors}...
-
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.10 ...scale factors are shown Fig. \ref{fig:ele_
-                                                  rec_scale_factors} and are...
-
-? 
-! Extra }, or forgotten $.
-l.10 ...shown Fig. \ref{fig:ele_rec_scale_factors}
-                                                   and are applied as a func...
-
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.10 ... of electron $\pt$ and super cluster $\eta
-                                                  $.
-? 
-
-! LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.12 \begin{figure}[!htb]
-                         
-? 
-<Figures/Electrons/ErecoPt.pdf, id=561, 569.12625pt x 546.04pt>
-File: Figures/Electrons/ErecoPt.pdf Graphic file (type pdf)
-<use Figures/Electrons/ErecoPt.pdf>
-Package pdftex.def Info: Figures/Electrons/ErecoPt.pdf  used on input line 15.
-(pdftex.def)             Requested size: 173.44534pt x 166.41281pt.
-<Figures/Electrons/ErecoEta.pdf, id=562, page=2, 569.12625pt x 552.0625pt>
-File: Figures/Electrons/ErecoEta.pdf Graphic file (type pdf)
-<use Figures/Electrons/ErecoEta.pdf, page 2>
-Package pdftex.def Info: Figures/Electrons/ErecoEta.pdf , page2 used on input l
-ine 16.
-(pdftex.def)             Requested size: 173.44534pt x 168.24825pt.
-<Figures/Electrons/ErecoPt_lowPt.pdf, id=563, 569.12625pt x 546.04pt>
-File: Figures/Electrons/ErecoPt_lowPt.pdf Graphic file (type pdf)
-<use Figures/Electrons/ErecoPt_lowPt.pdf>
-Package pdftex.def Info: Figures/Electrons/ErecoPt_lowPt.pdf  used on input lin
-e 17.
-(pdftex.def)             Requested size: 173.44534pt x 166.41281pt.
-! Undefined control sequence.
-\CJK@XX ...r `#1\endcsname {`#2}\CJK@ignorespaces 
-                                                  \fi 
-l.20 ...cale factors as provided by the EGM POG.}
-                                                  
-? 
-! Undefined control sequence.
-\CJK@XX ...r `#1\endcsname {`#2}\CJK@ignorespaces 
-                                                  \fi 
-l.20 ...cale factors as provided by the EGM POG.}
-                                                  
-? 
-) (./Objects/eleID.tex
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.4 ...rvables used can be seen in the Table \ref{
-                                                  tab:ele_ID_input_variables}.
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.4 ...used can be seen in the Table \ref{tab:ele_
-                                                  ID_input_variables}.
-? 
-! Extra }, or forgotten $.
-l.4 ... the Table \ref{tab:ele_ID_input_variables}
-                                                  .
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.6 
-    
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.6 
-    
-? 
-
-! LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.7  \begin{table}[h!]
-                      
-? 
-! Undefined control sequence.
-l.17 \multirow
-              {6}{*}{cluster shape}
-? 
-! Undefined control sequence.
-\CJK@XX ...r `#1\endcsname {`#2}\CJK@ignorespaces 
-                                                  \fi 
-l.20 ...ergy behind the supercluster of electron 
-                                                  to supercluster energy, $H...
-
-? 
-! Undefined control sequence.
-<recently read> \multirow 
-                          
-l.25 \multirow
-              {2}{*}{track-cluster matching}
-? 
-! Undefined control sequence.
-<recently read> \multirow 
-                          
-l.29 \multirow
-              {5}{*}{tracking}
-? 
-! Undefined control sequence.
-<recently read> \multirow 
-                          
-l.36 \multirow
-              {3}{*}{isolation}
-? 
-! Undefined control sequence.
-<recently read> \multirow 
-                          
-l.41 \multirow
-              {1}{*}{For PU-resilience}
-? 
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.58 Fig. \ref{
-               fig:ele_ID_output} shows the output of the multiclassifier di...
-
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.58 Fig. \ref{fig:ele_
-                       ID_output} shows the output of the multiclassifier di...
-
-? 
-! Extra }, or forgotten $.
-l.58 Fig. \ref{fig:ele_ID_output}
-                                  shows the output of the multiclassifier di...
-
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.59 
-     
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.59 
-     
-? 
-
-Overfull \hbox (257.38583pt too wide) in paragraph at lines 51--59
- \T1/ppl/m/n/12 fig:ele$[]\OML/cmm/m/it/12 D[]utputshowstheoutputofthemulticlas
-sifierdiscriminantforpromptelectronsfromDYeventsandfakesfromjetsinDYevents:[]$ 
-
- []
-
-
-! LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.60 \begin{figure}[!htb]
-                         
-? 
-<Figures/Electrons/Ele_BDTv2_Score.pdf, id=564, 569.12625pt x 544.0325pt>
-File: Figures/Electrons/Ele_BDTv2_Score.pdf Graphic file (type pdf)
-<use Figures/Electrons/Ele_BDTv2_Score.pdf>
-Package pdftex.def Info: Figures/Electrons/Ele_BDTv2_Score.pdf  used on input l
-ine 63.
-(pdftex.def)             Requested size: 346.89732pt x 331.6186pt.
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.69 ...2) training library is shown in Fig. \ref{
-                                                  fig:ele_ID_ROC}.
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.69 ...ing library is shown in Fig. \ref{fig:ele_
-                                                  ID_ROC}.
-? 
-! Extra }, or forgotten $.
-l.69 ...rary is shown in Fig. \ref{fig:ele_ID_ROC}
-                                                  .
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.70 ...and a cut on the PF isolation, in each $p_
-                                                  T$ and $\eta$ bin.
-? 
-
-Overfull \hbox (279.09814pt too wide) in paragraph at lines 69--71
- \T1/ppl/m/n/12 fig:ele$[]\OML/cmm/m/it/12 D[]OC:Theworkingpointsshownareadopte
-dtogetthesamesignalefficiencyasthecutonMVAIDandacutonthePFisolation; ineach$\T1
-/ppl/m/n/12 p$[]$ 
- []
-
-
-! LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.72 \begin{figure}[!htb]
-                         
-? 
-<Figures/Electrons/2018_EB1_5.pdf, id=565, 416.32538pt x 315.83257pt>
-File: Figures/Electrons/2018_EB1_5.pdf Graphic file (type pdf)
-<use Figures/Electrons/2018_EB1_5.pdf>
-Package pdftex.def Info: Figures/Electrons/2018_EB1_5.pdf  used on input line 7
-5.
-(pdftex.def)             Requested size: 195.12767pt x 148.0317pt.
-<Figures/Electrons/2018_EB1_10.pdf, id=566, 416.32538pt x 315.83257pt>
-File: Figures/Electrons/2018_EB1_10.pdf Graphic file (type pdf)
-<use Figures/Electrons/2018_EB1_10.pdf>
-Package pdftex.def Info: Figures/Electrons/2018_EB1_10.pdf  used on input line 
-76.
-(pdftex.def)             Requested size: 195.12767pt x 148.0317pt.
-<Figures/Electrons/2018_EB2_5.pdf, id=567, 416.32538pt x 315.83257pt>
-File: Figures/Electrons/2018_EB2_5.pdf Graphic file (type pdf)
-<use Figures/Electrons/2018_EB2_5.pdf>
-Package pdftex.def Info: Figures/Electrons/2018_EB2_5.pdf  used on input line 7
-7.
-(pdftex.def)             Requested size: 195.12767pt x 148.0317pt.
-<Figures/Electrons/2018_EB2_10.pdf, id=568, 416.32538pt x 315.83257pt>
-File: Figures/Electrons/2018_EB2_10.pdf Graphic file (type pdf)
-<use Figures/Electrons/2018_EB2_10.pdf>
-Package pdftex.def Info: Figures/Electrons/2018_EB2_10.pdf  used on input line 
-78.
-(pdftex.def)             Requested size: 195.12767pt x 148.0317pt.
-<Figures/Electrons/2018_EE_5.pdf, id=569, 416.32538pt x 315.83257pt>
-File: Figures/Electrons/2018_EE_5.pdf Graphic file (type pdf)
-<use Figures/Electrons/2018_EE_5.pdf>
-Package pdftex.def Info: Figures/Electrons/2018_EE_5.pdf  used on input line 79
-.
-(pdftex.def)             Requested size: 195.12767pt x 148.0317pt.
-<Figures/Electrons/2018_EE_10.pdf, id=570, 416.32538pt x 315.83257pt>
-File: Figures/Electrons/2018_EE_10.pdf Graphic file (type pdf)
-<use Figures/Electrons/2018_EE_10.pdf>
-Package pdftex.def Info: Figures/Electrons/2018_EE_10.pdf  used on input line 8
-0.
-(pdftex.def)             Requested size: 195.12767pt x 148.0317pt.
-! Illegal parameter number in definition of \@currentlabelname.
-<to be read again> 
-                   e
-l.83 \label{fig:ele_ID_ROC}}
-                            
-? 
-! Illegal parameter number in definition of \@currentlabelname.
-<to be read again> 
-                   e
-l.83 \label{fig:ele_ID_ROC}}
-                            
-? 
-! Illegal parameter number in definition of \@tempa.
-<to be read again> 
-                   e
-l.83 \label{fig:ele_ID_ROC}}
-                            
-? 
-! Illegal parameter number in definition of \@tempa.
-<to be read again> 
-                   e
-l.83 \label{fig:ele_ID_ROC}}
-                            
-? 
-! Illegal parameter number in definition of \reserved@a.
-<to be read again> 
-                   e
-l.83 \label{fig:ele_ID_ROC}}
-                            
-? 
-! Illegal parameter number in definition of \reserved@a.
-<to be read again> 
-                   e
-l.83 \label{fig:ele_ID_ROC}}
-                            
-? 
-! Illegal parameter number in definition of \caption@tempa.
-<to be read again> 
-                   e
-l.83 \label{fig:ele_ID_ROC}}
-                            
-? 
-! Illegal parameter number in definition of \caption@tempa.
-<to be read again> 
-                   e
-l.83 \label{fig:ele_ID_ROC}}
-                            
-? 
-! You can't use `macro parameter character #' in math mode.
-<argument> ... and $|\eta |<0.8$~(top), $0.8 < |##
-                                                  eta| < 1.479$~(middle) and...
-l.83 \label{fig:ele_ID_ROC}}
-                            
-? 
-! You can't use `macro parameter character #' in math mode.
-<argument> ...< |##eta| < 1.479$~(middle) and $|##
-                                                  eta| > 1.479$~(bottom). V1...
-l.83 \label{fig:ele_ID_ROC}}
-                            
-? 
-! You can't use `macro parameter character #' in math mode.
-<argument> ... and $|\eta |<0.8$~(top), $0.8 < |##
-                                                  eta| < 1.479$~(middle) and...
-l.83 \label{fig:ele_ID_ROC}}
-                            
-? 
-! You can't use `macro parameter character #' in math mode.
-<argument> ...< |##eta| < 1.479$~(middle) and $|##
-                                                  eta| > 1.479$~(bottom). V1...
-l.83 \label{fig:ele_ID_ROC}}
-                            
-? 
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.118 Table \ref{
-                 tab:ele_ID_WP} lists the cut values applied to the BDT scor...
-
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.118 Table \ref{tab:ele_
-                         ID_WP} lists the cut values applied to the BDT scor...
-
-? 
-! Extra }, or forgotten $.
-l.118 Table \ref{tab:ele_ID_WP}
-                                lists the cut values applied to the BDT scor...
-
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.120 
-      
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.120 
-      
-? 
-
-Overfull \hbox (468.98552pt too wide) in paragraph at lines 118--120
- \T1/ppl/m/n/12 tab:ele$[]\OML/cmm/m/it/12 D[]PliststhecutvaluesappliedtotheBDT
-scoreforthechosenworkingpoint:Fortheanalysis; looseelectronshavetopassthisMVAid
-entificationandisolationworkingpoint:[]$ 
- []
-
-
-! LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.139 \begin{table}[h!]
-                       
-? 
-) (./Objects/eleIP.tex) (./Objects/eleCalib.tex
-! Undefined control sequence.
-\CJK@XX ...r `#1\endcsname {`#2}\CJK@ignorespaces 
-                                                  \fi 
-l.4 ...w \Pe \Pe$ sample to align the dielectron 
-                                                  
-? 
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.14 ...e full 2018 dataset is shown in Fig. \ref{
-                                                  fig:ele_energy_scale}(a) a...
-
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.14 ...018 dataset is shown in Fig. \ref{fig:ele_
-                                                  energy_scale}(a) and agree...
-
-? 
-! Extra }, or forgotten $.
-l.14 ...s shown in Fig. \ref{fig:ele_energy_scale}
-                                                  (a) and agrees decently wi...
-
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.15 
-     
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.15 
-     
-? 
-
-Overfull \hbox (141.9873pt too wide) in paragraph at lines 14--15
- \T1/ppl/m/n/12 fig:ele$[]\OML/cmm/m/it/12 nergy[]cale\OT1/cmr/m/n/12 (\OML/cmm
-/m/it/12 a\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 andagreesdecentlywiththeMCwiththepr
-eliminarycorrectionsreleasedbyEGAMMAPOG:[]$ 
- []
-
-
-! LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.16 \begin{figure}[!htb]
-                         
-? 
-<Figures/Electrons/ZMass_ele.pdf, id=571, 569.12625pt x 552.0625pt>
-File: Figures/Electrons/ZMass_ele.pdf Graphic file (type pdf)
-<use Figures/Electrons/ZMass_ele.pdf>
-Package pdftex.def Info: Figures/Electrons/ZMass_ele.pdf  used on input line 19
-.
-(pdftex.def)             Requested size: 569.12486pt x 552.06114pt.
-<Figures/Electrons/ZMass_ele_EBEB.pdf, id=572, 569.12625pt x 552.0625pt>
-File: Figures/Electrons/ZMass_ele_EBEB.pdf Graphic file (type pdf)
-<use Figures/Electrons/ZMass_ele_EBEB.pdf>
-Package pdftex.def Info: Figures/Electrons/ZMass_ele_EBEB.pdf  used on input li
-ne 20.
-(pdftex.def)             Requested size: 569.12486pt x 552.06114pt.
-<Figures/Electrons/ZMass_ele_EBEE.pdf, id=573, 569.12625pt x 552.0625pt>
-File: Figures/Electrons/ZMass_ele_EBEE.pdf Graphic file (type pdf)
-<use Figures/Electrons/ZMass_ele_EBEE.pdf>
-Package pdftex.def Info: Figures/Electrons/ZMass_ele_EBEE.pdf  used on input li
-ne 21.
-(pdftex.def)             Requested size: 569.12486pt x 552.06114pt.
-<Figures/Electrons/ZMass_ele_EEEE.pdf, id=574, 569.12625pt x 552.0625pt>
-File: Figures/Electrons/ZMass_ele_EEEE.pdf Graphic file (type pdf)
-<use Figures/Electrons/ZMass_ele_EEEE.pdf>
-Package pdftex.def Info: Figures/Electrons/ZMass_ele_EEEE.pdf  used on input li
-ne 22.
-(pdftex.def)             Requested size: 569.12486pt x 552.06114pt.
-) (./Objects/eleEffMeas.tex
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.24 ...s, it is measured separately. Figure \ref{
-                                                  fig:ele_sel_pt_turn_on} an...
-
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.24 ... measured separately. Figure \ref{fig:ele_
-                                                  sel_pt_turn_on} and \ref{f...
-
-? 
-! Extra }, or forgotten $.
-l.24 ...ately. Figure \ref{fig:ele_sel_pt_turn_on}
-                                                   and \ref{fig:ele_ele_eta_...
-
-? 
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.24 ...ure \ref{fig:ele_sel_pt_turn_on} and \ref{
-                                                  fig:ele_ele_eta_turn_on} s...
-
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.24 ...ref{fig:ele_ele_eta_turn_on} shows the $p_
-                                                  {T}$ and $\eta$ turn-on cu...
-
-? 
-
-! LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.28 \begin{figure}[!htb]
-                         
-? 
-<Figures/Electrons/eleSFvspT.png, id=576, 1073.82312pt x 1030.8702pt>
-File: Figures/Electrons/eleSFvspT.png Graphic file (type png)
-<use Figures/Electrons/eleSFvspT.png>
-Package pdftex.def Info: Figures/Electrons/eleSFvspT.png  used on input line 30
-.
-(pdftex.def)             Requested size: 1073.82051pt x 1030.86768pt.
-<Figures/Electrons/eleSFvspTgap.png, id=577, 1073.82312pt x 1030.8702pt>
-File: Figures/Electrons/eleSFvspTgap.png Graphic file (type png)
-<use Figures/Electrons/eleSFvspTgap.png>
-Package pdftex.def Info: Figures/Electrons/eleSFvspTgap.png  used on input line
- 31.
-(pdftex.def)             Requested size: 1073.82051pt x 1030.86768pt.
-
-! LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.37 \begin{figure}[!htb]
-                         
-? 
-<Figures/Electrons/eleSFvsEta.png, id=578, 1073.82312pt x 1041.77887pt>
-File: Figures/Electrons/eleSFvsEta.png Graphic file (type png)
-<use Figures/Electrons/eleSFvsEta.png>
-Package pdftex.def Info: Figures/Electrons/eleSFvsEta.png  used on input line 3
-9.
-(pdftex.def)             Requested size: 1073.82051pt x 1041.77634pt.
-<Figures/Electrons/eleSFvsEtagap.png, id=579, 1073.82312pt x 1041.77887pt>
-File: Figures/Electrons/eleSFvsEtagap.png Graphic file (type png)
-<use Figures/Electrons/eleSFvsEtagap.png>
-Package pdftex.def Info: Figures/Electrons/eleSFvsEtagap.png  used on input lin
-e 40.
-(pdftex.def)             Requested size: 1073.82051pt x 1041.77634pt.
-) (./Objects/muonReco.tex
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 7.
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
-File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-)
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.17 ...efinition of which is shown in Table \ref{
-                                                  tab:highPtID}.
-? 
-! Undefined control sequence.
-<recently read> \cPZ 
-                     
-l.19 ...a very heavy resonance decays to two $\cPZ
-                                                  $ bosons, both bosons
-? 
-! Undefined control sequence.
-<recently read> \cPZ 
-                     
-l.23 corresponds to muons originating from $\cPZ
-                                                $ bosons with $\pt > 500\GeV$.
-? 
-
-! LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.25 \begin{table}[h]
-                     
-? 
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 39.
-) (./Objects/muonIso.tex
-! Undefined control sequence.
-<argument> ...max (\sum ^\text {neutral had.} \ET 
-                                                  + \sum ^\text {photon} \ET...
-l.9 ... \ET - \Delta \beta, 0)}{\pt^\text{lepton}}
-                                                  
-? 
-! Undefined control sequence.
-<argument> ...ad.} \ET + \sum ^\text {photon} \ET 
-                                                  - \Delta \beta , 0)
-l.9 ... \ET - \Delta \beta, 0)}{\pt^\text{lepton}}
-                                                  
-? 
-) (./Objects/muIP.tex
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.1 ...ectrons which is described in Section~\ref{
-                                                  sec:eleSIP}:
-? 
-) (./Objects/muCalib.tex
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.4 From Fig.~\ref{
-                   fig:mu_energy_scale} shows a very good comparison of data...
-
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.4 From Fig.~\ref{fig:mu_
-                          energy_scale} shows a very good comparison of data...
-
-? 
-! Extra }, or forgotten $.
-l.4 From Fig.~\ref{fig:mu_energy_scale}
-                                        shows a very good comparison of data...
-
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.5 
-    
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.5 
-    
-? 
-
-! LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.6 \begin{figure}[!htb]
-                        
-? 
-<Figures/Muons/ZMass_mu.pdf, id=582, 569.12625pt x 552.0625pt>
-File: Figures/Muons/ZMass_mu.pdf Graphic file (type pdf)
-<use Figures/Muons/ZMass_mu.pdf>
-Package pdftex.def Info: Figures/Muons/ZMass_mu.pdf  used on input line 9.
-(pdftex.def)             Requested size: 569.12486pt x 552.06114pt.
-<Figures/Muons/ZMass_mu_MBMB.pdf, id=583, 569.12625pt x 552.0625pt>
-File: Figures/Muons/ZMass_mu_MBMB.pdf Graphic file (type pdf)
-<use Figures/Muons/ZMass_mu_MBMB.pdf>
-Package pdftex.def Info: Figures/Muons/ZMass_mu_MBMB.pdf  used on input line 10
-.
-(pdftex.def)             Requested size: 569.12486pt x 552.06114pt.
-<Figures/Muons/ZMass_mu_MBME.pdf, id=584, 569.12625pt x 552.0625pt>
-File: Figures/Muons/ZMass_mu_MBME.pdf Graphic file (type pdf)
-<use Figures/Muons/ZMass_mu_MBME.pdf>
-Package pdftex.def Info: Figures/Muons/ZMass_mu_MBME.pdf  used on input line 11
-.
-(pdftex.def)             Requested size: 569.12486pt x 552.06114pt.
-<Figures/Muons/ZMass_mu_MEME.pdf, id=585, 569.12625pt x 552.0625pt>
-File: Figures/Muons/ZMass_mu_MEME.pdf Graphic file (type pdf)
-<use Figures/Muons/ZMass_mu_MEME.pdf>
-Package pdftex.def Info: Figures/Muons/ZMass_mu_MEME.pdf  used on input line 12
-.
-(pdftex.def)             Requested size: 569.12486pt x 552.06114pt.
-) (./Objects/muonEffMeas.tex
-! Undefined control sequence.
-l.2 $Z \to \Pgm\Pgm$ and $ \PJpsi
-                                 \to\mu\mu$ events in bins of $\pt$ and $\et...
-
-? 
-! Undefined control sequence.
-<recently read> \Jpsi 
-                      
-l.8 ...ntification efficiency at low $\pt$, $\Jpsi
-                                                  $ sample is used as it ben...
-
-? 
-! Undefined control sequence.
-l.20 ...for low \pt muons were derived using \Jpsi
-                                                   events, with the same def...
-
-? 
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.24 ...eir ratios in bins are shown in Fig.~\ref{
-                                                  fig:MuonIDEff_1}.
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.24 ...bins are shown in Fig.~\ref{fig:MuonIDEff_
-                                                  1}.
-? 
-! Extra }, or forgotten $.
-l.24 ...ns are shown in Fig.~\ref{fig:MuonIDEff_1}
-                                                  .
-? 
-
-! LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.25 \begin{figure}[htbp]
-                         
-? 
-<Figures/Muons/mu_Loose_barrel.pdf, id=590, 469.755pt x 569.12625pt>
-File: Figures/Muons/mu_Loose_barrel.pdf Graphic file (type pdf)
-<use Figures/Muons/mu_Loose_barrel.pdf>
-Package pdftex.def Info: Figures/Muons/mu_Loose_barrel.pdf  used on input line 
-27.
-(pdftex.def)             Requested size: 138.76157pt x 168.1079pt.
-<Figures/Muons/mu_Loose_endcap.pdf, id=591, 469.755pt x 569.12625pt>
-File: Figures/Muons/mu_Loose_endcap.pdf Graphic file (type pdf)
-<use Figures/Muons/mu_Loose_endcap.pdf>
-Package pdftex.def Info: Figures/Muons/mu_Loose_endcap.pdf  used on input line 
-28.
-(pdftex.def)             Requested size: 138.76157pt x 168.1079pt.
-<Figures/Muons/mu_Loose_pt7.pdf, id=592, 469.755pt x 569.12625pt>
-File: Figures/Muons/mu_Loose_pt7.pdf Graphic file (type pdf)
-<use Figures/Muons/mu_Loose_pt7.pdf>
-Package pdftex.def Info: Figures/Muons/mu_Loose_pt7.pdf  used on input line 29.
-
-(pdftex.def)             Requested size: 138.76157pt x 168.1079pt.
-! Undefined control sequence.
-<argument> ...red with the $T\&P$ method on \Jpsi 
-                                                  events, in bins of \pt in ...
-l.30 ...et rectangles include both uncertainties.}
-                                                  
-? 
-! Undefined control sequence.
-<argument> ...red with the $T\&P$ method on \Jpsi 
-                                                  events, in bins of \pt in ...
-l.30 ...et rectangles include both uncertainties.}
-                                                  
-? 
-! Undefined control sequence.
-<argument> ...red with the $T\&P$ method on \Jpsi 
-                                                  events, in bins of \pt in ...
-l.30 ...et rectangles include both uncertainties.}
-                                                  
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.34 
-     
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.34 
-     
-? 
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.40 The results are shown in the Fig.~\ref{
-                                            fig:MuonIDEff_2}.
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.40 ... are shown in the Fig.~\ref{fig:MuonIDEff_
-                                                  2}.
-? 
-! Extra }, or forgotten $.
-l.40 ...re shown in the Fig.~\ref{fig:MuonIDEff_2}
-                                                  .
-? 
-
-! LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.45 \begin{figure}[htbp]
-                         
-? 
-<Figures/Muons/mu_SIP4_barrel.pdf, id=593, 469.755pt x 569.12625pt>
-File: Figures/Muons/mu_SIP4_barrel.pdf Graphic file (type pdf)
-<use Figures/Muons/mu_SIP4_barrel.pdf>
-Package pdftex.def Info: Figures/Muons/mu_SIP4_barrel.pdf  used on input line 4
-7.
-(pdftex.def)             Requested size: 138.76157pt x 168.1079pt.
-<Figures/Muons/mu_SIP4_endcap.pdf, id=594, 469.755pt x 569.12625pt>
-File: Figures/Muons/mu_SIP4_endcap.pdf Graphic file (type pdf)
-<use Figures/Muons/mu_SIP4_endcap.pdf>
-Package pdftex.def Info: Figures/Muons/mu_SIP4_endcap.pdf  used on input line 4
-8.
-(pdftex.def)             Requested size: 138.76157pt x 168.1079pt.
-<Figures/Muons/mu_SIP4_pt20.pdf, id=595, 469.755pt x 569.12625pt>
-File: Figures/Muons/mu_SIP4_pt20.pdf Graphic file (type pdf)
-<use Figures/Muons/mu_SIP4_pt20.pdf>
-Package pdftex.def Info: Figures/Muons/mu_SIP4_pt20.pdf  used on input line 49.
-
-(pdftex.def)             Requested size: 138.76157pt x 168.1079pt.
-! Missing $ inserted.
-<inserted text> 
-                $
-l.54 
-     
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.54 
-     
-? 
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.58 The results are shown in Fig.~\ref{
-                                        fig:MuonIDEff_3}.
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.58 ...ults are shown in Fig.~\ref{fig:MuonIDEff_
-                                                  3}.
-? 
-! Extra }, or forgotten $.
-l.58 ...ts are shown in Fig.~\ref{fig:MuonIDEff_3}
-                                                  .
-? 
-
-! LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.59 \begin{figure}[htbp]
-                         
-? 
-<Figures/Muons/mu_Iso_barrel.pdf, id=597, 469.755pt x 569.12625pt>
-File: Figures/Muons/mu_Iso_barrel.pdf Graphic file (type pdf)
-<use Figures/Muons/mu_Iso_barrel.pdf>
-Package pdftex.def Info: Figures/Muons/mu_Iso_barrel.pdf  used on input line 61
-.
-(pdftex.def)             Requested size: 138.76157pt x 168.1079pt.
-<Figures/Muons/mu_Iso_endcap.pdf, id=598, 469.755pt x 569.12625pt>
-File: Figures/Muons/mu_Iso_endcap.pdf Graphic file (type pdf)
-<use Figures/Muons/mu_Iso_endcap.pdf>
-Package pdftex.def Info: Figures/Muons/mu_Iso_endcap.pdf  used on input line 62
-.
-(pdftex.def)             Requested size: 138.76157pt x 168.1079pt.
-
-! LaTeX Error: \mathrm allowed only in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.63 ...et rectangles include both uncertainties.}
-                                                  
-? 
-
-! LaTeX Error: \mathrm allowed only in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.63 ...et rectangles include both uncertainties.}
-                                                  
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.67 
-     
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.67 
-     
-? 
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.87 ...n in two dimensional display in Fig.~\ref{
-                                                  fig:MuonIDEff_5}. The figu...
-
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.87 ...sional display in Fig.~\ref{fig:MuonIDEff_
-                                                  5}. The figure also shows ...
-
-? 
-! Extra }, or forgotten $.
-l.87 ...onal display in Fig.~\ref{fig:MuonIDEff_5}
-                                                  . The figure also shows ov...
-
-? 
-
-! LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.89 \begin{figure}[htbp]
-                         
-? 
-<Figures/Muons/HZZ_SF_2018_RunA2D_2801.png, id=599, 903.375pt x 893.3375pt>
-File: Figures/Muons/HZZ_SF_2018_RunA2D_2801.png Graphic file (type png)
-<use Figures/Muons/HZZ_SF_2018_RunA2D_2801.png>
-Package pdftex.def Info: Figures/Muons/HZZ_SF_2018_RunA2D_2801.png  used on inp
-ut line 91.
-(pdftex.def)             Requested size: 195.12767pt x 192.94984pt.
-<Figures/Muons/HZZ_SF_errors_2018_RunA2D_2801.png, id=600, 903.375pt x 893.3375
-pt>
-File: Figures/Muons/HZZ_SF_errors_2018_RunA2D_2801.png Graphic file (type png)
-<use Figures/Muons/HZZ_SF_errors_2018_RunA2D_2801.png>
-Package pdftex.def Info: Figures/Muons/HZZ_SF_errors_2018_RunA2D_2801.png  used
- on input line 92.
-(pdftex.def)             Requested size: 195.12767pt x 192.94984pt.
-! Missing $ inserted.
-<inserted text> 
-                $
-l.97 
-     
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.97 
-     
-? 
-) (./Objects/FSR.tex
-Underfull \hbox (badness 2111) in paragraph at lines 10--11
-[]\T1/ppl/m/n/12 Photons not sat-is-fy-ing the re-quire-ments $\OT1/cmr/m/n/12 
-^^A\OML/cmm/m/it/12 R\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 ^^M; l\OT1/cmr/m/n/12 )\
-OML/cmm/m/it/12 =E[] < \OT1/cmr/m/n/12 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 012$\
-T1/ppl/m/n/12 , and
- []
-
-) (./Objects/jets.tex
-! Undefined control sequence.
-l.38 Events containing $\Zee$ or $Z\rightarrow\cP
-                                                 \mu^{+}\cP\mu^{-}$ were sel...
-
-? 
-! Undefined control sequence.
-l.38 ...ining $\Zee$ or $Z\rightarrow\cP\mu^{+}\cP
-                                                  \mu^{-}$ were selecting, f...
-
-? 
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.40 Figure~\ref{
-                 fig:jets} shows comparison of data with the MC in bins of p...
-
-? 
-! Undefined control sequence.
-<argument> \cPqt 
-                 \bar {\cPqt }
-l.40 ...ell-Yan and $\ensuremath{\cPqt\bar{\cPqt}}
-                                                  $ are used. Uncertainties ...
-
-? 
-! Undefined control sequence.
-<recently read> \cPqt 
-                      
-l.40 ...ell-Yan and $\ensuremath{\cPqt\bar{\cPqt}}
-                                                  $ are used. Uncertainties ...
-
-? 
-! Undefined control sequence.
-<argument> \cPqt 
-                 
-l.40 ...ell-Yan and $\ensuremath{\cPqt\bar{\cPqt}}
-                                                  $ are used. Uncertainties ...
-
-? 
-
-! LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.57 \begin{figure}[!h]
-                       
-? 
-<Figures/Jets/leadingJet_Eta.pdf, id=607, 569.12625pt x 385.44pt>
-File: Figures/Jets/leadingJet_Eta.pdf Graphic file (type pdf)
-<use Figures/Jets/leadingJet_Eta.pdf>
-Package pdftex.def Info: Figures/Jets/leadingJet_Eta.pdf  used on input line 61
-.
-(pdftex.def)             Requested size: 299.19885pt x 202.64133pt.
-) (./Objects/summary.tex
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.1 ...2018 data) are summed up in the Table~\ref{
-                                                  tab:objsummary}. In additi...
-
-? 
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.1 ...ed to the muons, as described in Sec.~\ref{
-                                                  sec:muonReco}.
-? 
-
-! LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.6 \begin{table}[H]
-                    
-? 
-! Undefined control sequence.
-<recently read> \abs 
-                     
-l.17 ...\GeV$ \hspace{0.5cm} $\abs{\eta^e} < 2.5$}
-                                                                            ...
-
-? 
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.20 ...with cuts from Table~\ref{tab:ele_ID_WP} }
-                                                      \\
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.20 ...with cuts from Table~\ref{tab:ele_ID_WP} }
-                                                      \\
-? 
-! Extra }, or forgotten $.
-\@sharp ...th cuts from Table~\ref {tab:ele_ID_WP}
-                                                   
-l.20 ...with cuts from Table~\ref{tab:ele_ID_WP} }
-                                                      \\
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.20 ...with cuts from Table~\ref{tab:ele_ID_WP} }
-                                                      \\
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.20 ...with cuts from Table~\ref{tab:ele_ID_WP} }
-                                                      \\
-? 
-! Undefined control sequence.
-<recently read> \abs 
-                     
-l.28 ...d \hspace{0.5cm} $\abs{\eta^{\mu}} < 2.4$}
-                                                                            ...
-
-? 
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.31 ...able~\ref{tab:highPtID}) if $p_T>200$ GeV}
-                                                                            ...
-
-? 
-! Undefined control sequence.
-<recently read> \abs 
-                     
-l.34 ...hspace{0.5cm} $\abs{\eta^{\gamma}} < 2.4$}
-                                                                            ...
-
-? 
-! Undefined control sequence.
-<recently read> \abs 
-                     
-l.38 ...{0.5cm} $\abs{\eta^{\mathrm{jet}}} < 4.7$}
-                                                                            ...
-
-? 
-
-Overfull \hbox (84.8932pt too wide) in paragraph at lines 11--48
- [][] 
- []
-
-))
-Chapter 5.
-(./Chapters/Chapter4/introduction/introduction.tex
-
-LaTeX Warning: Citation `Khachatryan:2015yvw' on page 24 undefined on input lin
-e 3.
-
-
-LaTeX Warning: Citation `CMS:2015hja' on page 24 undefined on input line 3.
-
-
-LaTeX Warning: Citation `CMS:2016rqf' on page 24 undefined on input line 3.
-
-
-LaTeX Warning: Citation `Sirunyan:2017exp' on page 24 undefined on input line 3
-.
-
-
-LaTeX Warning: Citation `CMS:2018hhg' on page 24 undefined on input line 3.
-
-
-LaTeX Warning: Citation `atlas-conf-2019-029' on page 24 undefined on input lin
-e 4.
-
-
-LaTeX Warning: Citation `atlas-conf-2019-025' on page 24 undefined on input lin
-e 4.
-
-
-LaTeX Warning: Citation `atlas-conf-2019-032' on page 24 undefined on input lin
-e 5.
-
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.8 ...detector geometry as shown in Figure ~\ref{
-                                                  fig:Models_cartoon}. The r...
-
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.8 ...ometry as shown in Figure ~\ref{fig:Models_
-                                                  cartoon}. The remaining mo...
-
-? 
-! Extra }, or forgotten $.
-l.8 ...s shown in Figure ~\ref{fig:Models_cartoon}
-                                                  . The remaining model depe...
-
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.8 ...ficiency and resolution effects. As $\sigma
-                                                   \times BR$ strongly depen...
-
-? 
-<Figures/Models_cartoon.jpg, id=622, 803.0pt x 602.25pt>
-File: Figures/Models_cartoon.jpg Graphic file (type jpg)
-<use Figures/Models_cartoon.jpg>
-Package pdftex.def Info: Figures/Models_cartoon.jpg  used on input line 13.
-(pdftex.def)             Requested size: 281.85036pt x 211.38797pt.
-
-Overfull \hbox (971.69255pt too wide) in paragraph at lines 6--18
- \T1/ppl/m/n/12 fig:Models$[]\OML/cmm/m/it/12 artoon:Theremainingmodeldependenc
-eisextractedbyrepeatingthemeasurementsforSMandotherexoticmodelsandreportedasadi
-stinctsystematicuncertainty:Allmeasurementsincludesthecorrectionsforthefinitede
-tectionefficiencyandresolutioneffects:As$$^^[ \OMS/cmsy/m/n/12 ^^B 
- []
-
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.25 Section \ref{
-                  sec:DatasetsSimulation}. The analysis strategy is describe...
-
-? 
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.25 ...sis strategy is described in Section \ref{
-                                                  sec:AnalysisStrategy}, whe...
-
-? 
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.26 In Section~\ref{
-                     sec:Systematics}  details of systematic uncertainties a...
-
-? 
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.26 ...easurement are explained. In Section \ref{
-                                                  sec:Results} results of me...
-
-? 
-) (./Chapters/Chapter4/DatasetsandSimulations/dataset.tex
-
-LaTeX Warning: Citation `CMS:2019chr' on page 24 undefined on input line 13.
-
-
-LaTeX Warning: Citation `CMS:2019chr' on page 24 undefined on input line 25.
-
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.321  Fig. \ref{
-                 fig:TrigEffC} shows the measured efficiency both in data an...
-
-? 
-
-! LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.352 \begin{figure}[!htb]
-                          
-? 
-<Figures/Trigger/Histo_TrigEff_ptMin_4e_mZ2_12.pdf, id=623, 569.12625pt x 384.4
-3625pt>
-File: Figures/Trigger/Histo_TrigEff_ptMin_4e_mZ2_12.pdf Graphic file (type pdf)
-
-<use Figures/Trigger/Histo_TrigEff_ptMin_4e_mZ2_12.pdf>
-Package pdftex.def Info: Figures/Trigger/Histo_TrigEff_ptMin_4e_mZ2_12.pdf  use
-d on input line 355.
-(pdftex.def)             Requested size: 195.12767pt x 131.80353pt.
-<Figures/Trigger/Histo_TrigEff_ptMin_4mu_mZ2_12.pdf, id=624, 569.12625pt x 384.
-43625pt>
-File: Figures/Trigger/Histo_TrigEff_ptMin_4mu_mZ2_12.pdf Graphic file (type pdf
-)
-<use Figures/Trigger/Histo_TrigEff_ptMin_4mu_mZ2_12.pdf>
-Package pdftex.def Info: Figures/Trigger/Histo_TrigEff_ptMin_4mu_mZ2_12.pdf  us
-ed on input line 356.
-(pdftex.def)             Requested size: 195.12767pt x 131.80353pt.
-<Figures/Trigger/Histo_TrigEff_ptMin_2e2mu_mZ2_12.pdf, id=625, 569.12625pt x 38
-4.43625pt>
-File: Figures/Trigger/Histo_TrigEff_ptMin_2e2mu_mZ2_12.pdf Graphic file (type p
-df)
-<use Figures/Trigger/Histo_TrigEff_ptMin_2e2mu_mZ2_12.pdf>
-Package pdftex.def Info: Figures/Trigger/Histo_TrigEff_ptMin_2e2mu_mZ2_12.pdf  
-used on input line 357.
-(pdftex.def)             Requested size: 195.12767pt x 131.80353pt.
-<Figures/Trigger/Histo_TrigEff_ptMin_4l_mZ2_12.pdf, id=626, 569.12625pt x 384.4
-3625pt>
-File: Figures/Trigger/Histo_TrigEff_ptMin_4l_mZ2_12.pdf Graphic file (type pdf)
-
-<use Figures/Trigger/Histo_TrigEff_ptMin_4l_mZ2_12.pdf>
-Package pdftex.def Info: Figures/Trigger/Histo_TrigEff_ptMin_4l_mZ2_12.pdf  use
-d on input line 358.
-(pdftex.def)             Requested size: 195.12767pt x 131.80353pt.
-)
-(./Chapters/Chapter4/DatasetsandSimulations/simulation_theoretical_pridiction.t
-ex
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.4 process of gluon-gluon fusion (Fig. \ref{
-                                             fig:ggZZ_box})
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.4 ... of gluon-gluon fusion (Fig. \ref{fig:ggZZ_
-                                                  box})
-? 
-! Extra }, or forgotten $.
-l.4 ...gluon-gluon fusion (Fig. \ref{fig:ggZZ_box}
-                                                  )
-? 
-
-LaTeX Font Warning: Command \sc invalid in math mode on input line 8.
-
-
-LaTeX Font Warning: Command \sc invalid in math mode on input line 11.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.12 
-     
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.12 
-     
-? 
-
-Overfull \hbox (2.7735pt too wide) in paragraph at lines 1--12
- \T1/ppl/m/n/12 fig:ggZZ$[]\OML/cmm/m/it/12 ox\OT1/cmr/m/n/12 )\OML/cmm/m/it/12
- areacquiredusing[] \OT1/cmr/m/n/12 [[]]\OML/cmm/m/it/12 generator:Ataccuracyle
-velofnext \OMS/cmsy/m/n/12 ^^@ 
- []
-
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.31 ... ZH and ttH) as described in section \ref{
-                                                  chapter1_sec3} ~\cite{Bagn...
-
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.31 ...tH) as described in section \ref{chapter1_
-                                                  sec3} ~\cite{Bagnaschi:201...
-
-? 
-! Extra }, or forgotten $.
-l.31 ...s described in section \ref{chapter1_sec3}
-                                                   ~\cite{Bagnaschi:2011tu},...
-
-? 
-
-LaTeX Font Warning: Command \sc invalid in math mode on input line 35.
-
-
-LaTeX Font Warning: Command \sc invalid in math mode on input line 35.
-
-
-LaTeX Font Warning: Command \sc invalid in math mode on input line 36.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.37 to decay to H$\to
-                       ZZ \to 2\ell2$X such that two leptons from 4-lepton e...
-
-? 
-
-LaTeX Warning: Citation `CMS:2019chr' on page 24 undefined on input line 42.
-
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.43 ... results are indicated in the Table ~\ref{
-                                                  tab:Accept_Eff_fOut}.
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.43 ...e indicated in the Table ~\ref{tab:Accept_
-                                                  Eff_fOut}.
-? 
-! Extra }, or forgotten $.
-l.43 ...ed in the Table ~\ref{tab:Accept_Eff_fOut}
-                                                  .
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.44 
-     
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.44 
-     
-? 
-
-Overfull \hbox (884.45438pt too wide) in paragraph at lines 30--44
- \T1/ppl/m/n/12 chapter1$[]\OML/cmm/m/it/12 ec\OT1/cmr/m/n/12 3 [[]]\OML/cmm/m/
-it/12 ;  \OT1/cmr/m/n/12 [[]]\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 [[]]\OML/cmm/m/
-it/12 ;  \OT1/cmr/m/n/12 [[]]\OML/cmm/m/it/12 :However; WHand$\T1/ppl/m/n/12 Z$
-\OML/cmm/m/it/12 Hproductionmodesaresimulatedbythe[]extensionofthe[] \OT1/cmr/m
-/n/12 [[]]\OML/cmm/m/it/12 :Higgsdecaytofourleptonissimulatedby[]generator \OT1
-/cmr/m/n/12 [[]]\OML/cmm/m/it/12 :FortheWH; ZHandttHmodes; Higgsisallowedtodeca
-ytoH$$\OMS/cmsy/m/n/12 ! 
- []
-
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.46 ...s separately as explained in Section \ref{
-                                                  sec:FiducialVolume}.
-? 
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.50 ...s based on SM calculation in Section \ref{
-                                                  sec:Results}.
-? 
-<Figures/ggH_feynman2.png, id=639, 328.22626pt x 249.93375pt>
-File: Figures/ggH_feynman2.png Graphic file (type png)
-<use Figures/ggH_feynman2.png>
-Package pdftex.def Info: Figures/ggH_feynman2.png  used on input line 55.
-(pdftex.def)             Requested size: 208.13574pt x 158.48878pt.
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.68 described in Section \ref{
-                               sec:Systematics}.
-? 
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.111 s-, t- and u-channel diagrams (Figure \ref{
-                                                 fig:ZZ_feynman}) using {\sc...
-
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.111 ...d u-channel diagrams (Figure \ref{fig:ZZ_
-                                                  feynman}) using {\sc powhe...
-
-? 
-! Extra }, or forgotten $.
-l.111 ...nel diagrams (Figure \ref{fig:ZZ_feynman}
-                                                  ) using {\sc powheg V2}~\c...
-
-? 
-
-LaTeX Font Warning: Command \sc invalid in math mode on input line 111.
-
-
-LaTeX Font Warning: Command \sc invalid in math mode on input line 112.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.113 ...tion scales have been chosed equal to $m_
-                                                  {\Z\Z}$ since the simulati...
-
-? 
-
-Overfull \hbox (503.95137pt too wide) in paragraph at lines 110--117
- \T1/ppl/m/n/12 fig:ZZ$[]\OML/cmm/m/it/12 eynman\OT1/cmr/m/n/12 )\OML/cmm/m/it/
-12 using[] \OT1/cmr/m/n/12 [[]]\OML/cmm/m/it/12 and[]; withthesameconfiguration
-sasfortheHiggssignal:Thedynamicalrenormalizationandfactorizationscaleshavebeenc
-hosedequalto$\T1/ppl/m/n/12 m$[]$ 
- []
-
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.118 ...Pg\Pg \! \to \! ZZ$ process (Figure \ref{
-                                                  fig:ZZ_feynman}) is simula...
-
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.118 ...! \to \! ZZ$ process (Figure \ref{fig:ZZ_
-                                                  feynman}) is simulated at ...
-
-? 
-! Extra }, or forgotten $.
-l.118 ... ZZ$ process (Figure \ref{fig:ZZ_feynman}
-                                                  ) is simulated at leading ...
-
-? 
-
-! LaTeX Error: \mathrm allowed only in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.120 In order to have matching in spectra of $\Pg
-                                                  \Pg \! \to \mathrm{H} \to ...
-
-? 
-
-! LaTeX Error: \mathrm allowed only in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.120 ...er to have matching in spectra of $\Pg\Pg
-                                                   \! \to \mathrm{H} \to \! ...
-
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.120 ...ave matching in spectra of $\Pg\Pg \! \to
-                                                   \mathrm{H} \to \! ZZ$ as ...
-
-? 
-
-Overfull \hbox (129.4916pt too wide) in paragraph at lines 118--122
- \T1/ppl/m/n/12 fig:ZZ$[]\OML/cmm/m/it/12 eynman\OT1/cmr/m/n/12 )\OML/cmm/m/it/
-12 issimulatedatleadingorder\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 LO\OT1/cmr/m/n/12
- )\OML/cmm/m/it/12 withMCFM \OT1/cmr/m/n/12 [[]]\OML/cmm/m/it/12 :Inordertohave
-matchinginspectraof$\T1/ppl/m/n/12 gg 
- []
-
-
-! LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.131 \begin{figure}[!htb]
-                          
-? 
-<Figures/figures_feynman-qqZZ-t.png, id=646, 281.05pt x 295.1025pt>
-File: Figures/figures_feynman-qqZZ-t.png Graphic file (type png)
-<use Figures/figures_feynman-qqZZ-t.png>
-Package pdftex.def Info: Figures/figures_feynman-qqZZ-t.png  used on input line
- 136.
-(pdftex.def)             Requested size: 130.08733pt x 136.59082pt.
-! Undefined control sequence.
-<recently read> \strip@period 
-                              
-l.136     }
-           
-? 
-! Undefined control sequence.
-\sf@sub@label ...rip@period #1\relax .\relax \@@@ 
-                                                  }\fi \sf@@sub@label {#2}
-l.136     }
-           
-? 
-! Undefined control sequence.
-<recently read> \strip@period 
-                              
-l.136     }
-           
-? 
-! Undefined control sequence.
-<argument> ...urrentlabelname \relax .\relax \@@@ 
-                                                  }{\@currentHref }{}}
-l.136     }
-           
-? 
-<Figures/figures_feynman-qqZZ-s.png, id=647, 303.1325pt x 296.10625pt>
-File: Figures/figures_feynman-qqZZ-s.png Graphic file (type png)
-<use Figures/figures_feynman-qqZZ-s.png>
-Package pdftex.def Info: Figures/figures_feynman-qqZZ-s.png  used on input line
- 140.
-(pdftex.def)             Requested size: 130.08733pt x 127.07469pt.
-! Undefined control sequence.
-<recently read> \strip@period 
-                              
-l.140     }
-           
-? 
-! Undefined control sequence.
-\sf@sub@label ...rip@period #1\relax .\relax \@@@ 
-                                                  }\fi \sf@@sub@label {#2}
-l.140     }
-           
-? 
-! Undefined control sequence.
-<recently read> \strip@period 
-                              
-l.140     }
-           
-? 
-! Undefined control sequence.
-<argument> ...urrentlabelname \relax .\relax \@@@ 
-                                                  }{\@currentHref }{}}
-l.140     }
-           
-? 
-<Figures/figures_feynman-ggbox.png, id=648, 283.0575pt x 282.05376pt>
-File: Figures/figures_feynman-ggbox.png Graphic file (type png)
-<use Figures/figures_feynman-ggbox.png>
-Package pdftex.def Info: Figures/figures_feynman-ggbox.png  used on input line 
-144.
-(pdftex.def)             Requested size: 130.08733pt x 129.6301pt.
-! Undefined control sequence.
-<recently read> \strip@period 
-                              
-l.144     }
-           
-? 
-! Undefined control sequence.
-\sf@sub@label ...rip@period #1\relax .\relax \@@@ 
-                                                  }\fi \sf@@sub@label {#2}
-l.144     }
-           
-? 
-! Undefined control sequence.
-<recently read> \strip@period 
-                              
-l.144     }
-           
-? 
-! Undefined control sequence.
-<argument> ...urrentlabelname \relax .\relax \@@@ 
-                                                  }{\@currentHref }{}}
-l.144     }
-           
-? 
-! Undefined control sequence.
-\GEANTfour ->{\textsc {Geant4}}\xspace 
-                                       
-l.181 ...ulation for CMS detector using \GEANTfour
-                                                  ~\cite{GEANT} and their re...
-
-? 
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.188 ...:2011lsa}, as described in Sections \ref{
-                                                  sec:eleEffMeas} and \ref{s...
-
-? 
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.188 ...n Sections \ref{sec:eleEffMeas} and \ref{
-                                                  sec:muonEffMeas}, and  are...
-
-? 
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.197 shown in Fig. \ref{
-                         fig:puWeight2018}.
-? 
-<Figures/PileUp/PileUp_2018.pdf, id=659, 569.12625pt x 534.99875pt>
-File: Figures/PileUp/PileUp_2018.pdf Graphic file (type pdf)
-<use Figures/PileUp/PileUp_2018.pdf>
-Package pdftex.def Info: Figures/PileUp/PileUp_2018.pdf  used on input line 202
-.
-(pdftex.def)             Requested size: 195.12767pt x 183.42372pt.
-) (./Chapters/Chapter4/AnalysisStrategy/AnalysisStrategy.tex
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.19 ... a background, illustrated in Figure \ref{
-                                                  fig:cartoon}.
-? 
-
-! LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.22 \begin{figure}[!h!tb]
-                          
-? 
-<Figures/cartoon.jpg, id=660, 803.0pt x 602.25pt>
-File: Figures/cartoon.jpg Graphic file (type jpg)
-<use Figures/cartoon.jpg>
-Package pdftex.def Info: Figures/cartoon.jpg  used on input line 24.
-(pdftex.def)             Requested size: 281.85036pt x 211.38797pt.
-) (./Chapters/Chapter4/AnalysisStrategy/events_selection.tex
-
-LaTeX Warning: Citation `CMS:2018mmw' on page 24 undefined on input line 1.
-
-
-LaTeX Warning: Citation `CMS:2017jkd' on page 24 undefined on input line 1.
-
-
-LaTeX Warning: Citation `sec:trigpaths' on page 24 undefined on input line 2.
-
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.23 ...e tight leptons (defined in sections \ref{
-                                                  sec:eleID} and  \ref{sec:m...
-
-? 
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.23 ...ned in sections \ref{sec:eleID} and  \ref{
-                                                  sec:muonReco}) that pass t...
-
-? 
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.24 ... isolation cuts (defined in sections \ref{
-                                                  sec:eleID} and \ref{sec:mu...
-
-? 
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.24 ...ined in sections \ref{sec:eleID} and \ref{
-                                                  sec:muoniso}),
-? 
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.25 ...are subtracted as briefed in Section \ref{
-                                                  sec:FSRphotons}.
-? 
-! Undefined control sequence.
-l.42      $p_{T,i} > 20~\GeVc
-                             $ and $p_{T,j} > 10~\GeVc$.
-? 
-! Undefined control sequence.
-l.42 ..._{T,i} > 20~\GeVc$ and $p_{T,j} > 10~\GeVc
-                                                  $.
-? 
-! Undefined control sequence.
-l.43 ...rdless of flavor) $m_{\ell\ell} > 4~\GeVcc
-                                                  $ for QCD induced  $J/\Psi...
-
-? 
-! Undefined control sequence.
-l.58 ...epton invariant mass}: $\mllll > 70~\GeVcc
-                                                  $
-? 
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.77 ...\eta|\le 4.7$, discussed in Section ~\ref{
-                                                  jets_reco}. To remove over...
-
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.77 ...\le 4.7$, discussed in Section ~\ref{jets_
-                                                  reco}. To remove overlappi...
-
-? 
-! Extra }, or forgotten $.
-l.77 ....7$, discussed in Section ~\ref{jets_reco}
-                                                  . To remove overlapping of...
-
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.77 ..., it is required to have at least  $\Delta
-                                                   R > 0.5$ where $\Delta R ...
-
-? 
-)
-Overfull \hbox (122.52415pt too wide) in paragraph at lines 76--359
- \T1/ppl/m/n/12 jets$[]\OML/cmm/m/it/12 eco:Toremoveoverlappingofjetsoverlapfro
-mleptonsorselectedphotons; itisrequiredtohaveatleast$$\OT1/cmr/m/n/12 ^^A\OML/c
-mm/m/it/12 R > 
- []
-
-(./Chapters/Chapter4/AnalysisStrategy/background_model.tex
-
-! LaTeX Error: \mathrm allowed only in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.18 \Z
-       \ + X               & $  21.1^{+ 8.5}_{-10.4}$ & $  34.4^{+14.5}_{-13...
-
-? 
-
-! LaTeX Error: \mathrm allowed only in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.32 \Z
-       \ + X & $12.39^{+ y.y}_{- z.z}$ & $36.39^{+ y.y}_{- z.z}$ & $44.45^{+...
-
-? 
-
-! LaTeX Error: \mathrm allowed only in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.50         \Z
-               \ + X & $19.3\pm7.2$ & $50.8\pm15.2$ & $64.6\pm15.6$ & $134.7...
-
-? 
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.100 ...ainty indicated is shown in Figure ~\ref{
-                                                  fig:ZX}.
-? 
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.106 ...f $\Hllll$ will be given in Section \ref{
-                                                  sec:ExtractionDifferential}.
-? 
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.110 are listed in Table \ref{
-                               tab:EventYieldsH4l} for full Run 2 datasets.
-? 
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.112 ... mass range is shownn in the Figure \ref{
-                                                  fig:mass4l}.
-? 
-
-! LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.117 \begin{figure}[!htbp]
-                           
-? 
-<Chapters/Chapter4/AnalysisStrategy/figures/Combination.pdf, id=670, 569.12625p
-t x 415.5525pt>
-File: Chapters/Chapter4/AnalysisStrategy/figures/Combination.pdf Graphic file (
-type pdf)
-<use Chapters/Chapter4/AnalysisStrategy/figures/Combination.pdf>
-Package pdftex.def Info: Chapters/Chapter4/AnalysisStrategy/figures/Combination
-.pdf  used on input line 120.
-(pdftex.def)             Requested size: 216.81pt x 158.30472pt.
-<Chapters/Chapter4/AnalysisStrategy/figures/Combination_lowMass.pdf, id=671, 56
-9.12625pt x 415.5525pt>
-File: Chapters/Chapter4/AnalysisStrategy/figures/Combination_lowMass.pdf Graphi
-c file (type pdf)
-<use Chapters/Chapter4/AnalysisStrategy/figures/Combination_lowMass.pdf>
-Package pdftex.def Info: Chapters/Chapter4/AnalysisStrategy/figures/Combination
-_lowMass.pdf  used on input line 124.
-(pdftex.def)             Requested size: 216.81pt x 158.30472pt.
-
-Overfull \hbox (2.28001pt too wide) in paragraph at lines 118--127
-[]$[]$ $[]$ 
- []
-
-) (./Chapters/Chapter4/AnalysisStrategy/fiducial_volume.tex
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.19 ...at fiducial level as shown in Table ~\ref{
-                                                  tab:efficiencySMnoGenIso},...
-
-? 
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.31 ...ase space are also gathered in Table \ref{
-                                                  tab:FidDef}.
-? 
-
-Overfull \hbox (69.32175pt too wide) in paragraph at lines 40--81
- [] 
- []
-
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.87 Section \ref{
-                  sec:Systematics}. Part of the signal events passing fiduci...
-
-? 
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.89 ...uction modes are registered in Table \ref{
-                                                  tab:summarySMfullRun2}.
-? 
-) (./Chapters/Chapter4/AnalysisStrategy/SignalAndStatProcedure.tex
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.8 ...asurements will be given in  Sections \ref{
-                                                  sec:SignalInclusive} and \...
-
-? 
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.8 ...ections \ref{sec:SignalInclusive} and \ref{
-                                                  sec:SignalDifferential}.
-? 
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.66 ... each model are listed in the Tables \ref{
-                                                  tab:summarySM2016},  \ref{...
-
-? 
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.66 ...the Tables \ref{tab:summarySM2016},  \ref{
-                                                  tab:summarySM2017} and  \r...
-
-? 
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.66 ...2016},  \ref{tab:summarySM2017} and  \ref{
-                                                  tab:summarySM2018} for 201...
-
-? 
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.78 Figure \ref{
-                 fig:eff-pT4l-4e} shows the efficiency matrix for $p_{T}(H)$...
-
-? 
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.81 \ref{
-          fig:eff-njets_reco_pt30_eta4p7-4e}-\ref{fig:eff-njets_reco_pt30_et...
-
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.81 \ref{fig:eff-njets_
-                        reco_pt30_eta4p7-4e}-\ref{fig:eff-njets_reco_pt30_et...
-
-? 
-! Extra }, or forgotten $.
-l.81 \ref{fig:eff-njets_reco_pt30_eta4p7-4e}
-                                            -\ref{fig:eff-njets_reco_pt30_et...
-
-? 
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.81 \ref{fig:eff-njets_reco_pt30_eta4p7-4e}-\ref{
-                                                  fig:eff-njets_reco_pt30_et...
-
-? 
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.81 ...o_pt30_eta4p7-2e2mu} in the Appendix \ref{
-                                                  app:siginputs}.
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.82 \par
-          The estimated number events for a studied differential observable ...
-
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.82 \par
-          The estimated number events for a studied differential observable ...
-
-? 
-)
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 365.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\to' on input line 365.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\ell' on input line 365.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 365.
-
-(./Chapters/Chapter4/AnalysisStrategy/ExtractionInclusive.tex
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.2 ...ns measurement as outlined in Section~\ref{
-                                                  sec:SignalStatProcedure}, ...
-
-? 
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.4 Table~\ref{
-               tab:efficiencySM} shows the reconstruction efficiency ($\epsi...
-
-? 
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.4 ...on$) for fiducial events, while Table~\ref{
-                                                  tab:foutSM} shows the rati...
-
-? 
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.8 Section~\ref{
-                 sec:AnalysisStrategy}.
-? 
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.11 ...Higgs boson decay are shown in Table~\ref{
-                                                  tab:wrongracSM}.
-? 
-
-! LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.13 \begin{table}[!h!tb]
-                         
-? 
-
-! LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.51 \begin{table}[!h!tb]
-                         
-? 
-
-! LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.154 \begin{table}[!h!tb]
-                          
-? 
-
-! LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.192 \begin{figure}[!htbp]
-                           
-? 
-<Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v2_mass4l_4e_recobin0.pdf, id=680
-, 569.12625pt x 440.64626pt>
-File: Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v2_mass4l_4e_recobin0.pdf Gr
-aphic file (type pdf)
-<use Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v2_mass4l_4e_recobin0.pdf>
-Package pdftex.def Info: Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v2_mass4l
-_4e_recobin0.pdf  used on input line 194.
-(pdftex.def)             Requested size: 216.81pt x 167.86418pt.
-<Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v2_mass4l_4mu_recobin0.pdf, id=68
-1, 569.12625pt x 440.64626pt>
-File: Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v2_mass4l_4mu_recobin0.pdf G
-raphic file (type pdf)
-<use Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v2_mass4l_4mu_recobin0.pdf>
-Package pdftex.def Info: Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v2_mass4l
-_4mu_recobin0.pdf  used on input line 197.
-(pdftex.def)             Requested size: 216.81pt x 167.86418pt.
-<Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v2_mass4l_2e2mu_recobin0.pdf, id=
-682, 569.12625pt x 440.64626pt>
-File: Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v2_mass4l_2e2mu_recobin0.pdf
- Graphic file (type pdf)
-<use Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v2_mass4l_2e2mu_recobin0.pdf>
-
-Package pdftex.def Info: Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v2_mass4l
-_2e2mu_recobin0.pdf  used on input line 200.
-(pdftex.def)             Requested size: 216.81pt x 167.86418pt.
-<Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v2_mass4l_4l_recobin0.pdf, id=683
-, 569.12625pt x 440.64626pt>
-File: Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v2_mass4l_4l_recobin0.pdf Gr
-aphic file (type pdf)
-<use Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v2_mass4l_4l_recobin0.pdf>
-Package pdftex.def Info: Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v2_mass4l
-_4l_recobin0.pdf  used on input line 203.
-(pdftex.def)             Requested size: 216.81pt x 167.86418pt.
-
-Overfull \hbox (2.28001pt too wide) in paragraph at lines 193--205
-[]$[]$ $[]$
- []
-
-
-Overfull \hbox (2.28001pt too wide) in paragraph at lines 193--205
-[]$ $[]$ 
- []
-
-)
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 367.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\to' on input line 367.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\ell' on input line 367.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 367.
-
-(./Chapters/Chapter4/AnalysisStrategy/ExtractionDifferential.tex
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.36 ...nd events are presented in the Table \ref{
-                                                  tab:fractions_pT4l}.
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.36 ...presented in the Table \ref{tab:fractions_
-                                                  pT4l}.
-? 
-! Extra }, or forgotten $.
-l.36 ...nted in the Table \ref{tab:fractions_pT4l}
-                                                  .
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.40 
-     
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.40 
-     
-? 
-
-! LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.42 \begin{table}[!h!tb]
-                         
-? 
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.125 ...g the procedure outlined in Section~\ref{
-                                                  sec:SignalStatProcedure}.
-? 
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.130 final states are shown in Figure~\ref{
-                                            fig:sigfits-pT4l-ggH-powheg15-JH...
-
-? 
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.131 $2e2\mu$ final state are shown in Fig~\ref{
-                                                 fig:eff-pT4l-2e2mu-maintext...
-
-? 
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.131 ...re examples can be seen in Appendix~\ref{
-                                                  signalinputs}.
-? 
-
-! LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.134 \begin{figure}[htb]
-                         
-? 
-<Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin0_recobin0_effs_genWeight*pileupW
-eight*dataMCWeight.pdf, id=686, 569.12625pt x 551.05875pt>
-File: Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin0_recobin0_effs_genWeight*pi
-leupWeight*dataMCWeight.pdf Graphic file (type pdf)
-<use Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin0_recobin0_effs_genWeight*pil
-eupWeight*dataMCWeight.pdf>
-Package pdftex.def Info: Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin0_recobin
-0_effs_genWeight*pileupWeight*dataMCWeight.pdf  used on input line 140.
-(pdftex.def)             Requested size: 130.08733pt x 125.95885pt.
-! Undefined control sequence.
-<recently read> \strip@period 
-                              
-l.140     }
-           
-? 
-! Undefined control sequence.
-\sf@sub@label ...rip@period #1\relax .\relax \@@@ 
-                                                  }\fi \sf@@sub@label {#2}
-l.140     }
-           
-? 
-! Undefined control sequence.
-<recently read> \strip@period 
-                              
-l.140     }
-           
-? 
-! Undefined control sequence.
-<argument> ...urrentlabelname \relax .\relax \@@@ 
-                                                  }{\@currentHref }{}}
-l.140     }
-           
-? 
-<Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin1_recobin1_effs_genWeight*pileupW
-eight*dataMCWeight.pdf, id=687, 569.12625pt x 551.05875pt>
-File: Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin1_recobin1_effs_genWeight*pi
-leupWeight*dataMCWeight.pdf Graphic file (type pdf)
-<use Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin1_recobin1_effs_genWeight*pil
-eupWeight*dataMCWeight.pdf>
-Package pdftex.def Info: Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin1_recobin
-1_effs_genWeight*pileupWeight*dataMCWeight.pdf  used on input line 144.
-(pdftex.def)             Requested size: 130.08733pt x 125.95885pt.
-! Undefined control sequence.
-<recently read> \strip@period 
-                              
-l.144     }
-           
-? 
-! Undefined control sequence.
-\sf@sub@label ...rip@period #1\relax .\relax \@@@ 
-                                                  }\fi \sf@@sub@label {#2}
-l.144     }
-           
-? 
-! Undefined control sequence.
-<recently read> \strip@period 
-                              
-l.144     }
-           
-? 
-! Undefined control sequence.
-<argument> ...urrentlabelname \relax .\relax \@@@ 
-                                                  }{\@currentHref }{}}
-l.144     }
-           
-? 
-<Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin2_recobin2_effs_genWeight*pileupW
-eight*dataMCWeight.pdf, id=688, 569.12625pt x 551.05875pt>
-File: Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin2_recobin2_effs_genWeight*pi
-leupWeight*dataMCWeight.pdf Graphic file (type pdf)
-<use Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin2_recobin2_effs_genWeight*pil
-eupWeight*dataMCWeight.pdf>
-Package pdftex.def Info: Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin2_recobin
-2_effs_genWeight*pileupWeight*dataMCWeight.pdf  used on input line 148.
-(pdftex.def)             Requested size: 130.08733pt x 125.95885pt.
-! Undefined control sequence.
-<recently read> \strip@period 
-                              
-l.148     }
-             \\
-? 
-! Undefined control sequence.
-\sf@sub@label ...rip@period #1\relax .\relax \@@@ 
-                                                  }\fi \sf@@sub@label {#2}
-l.148     }
-             \\
-? 
-! Undefined control sequence.
-<recently read> \strip@period 
-                              
-l.148     }
-             \\
-? 
-! Undefined control sequence.
-<argument> ...urrentlabelname \relax .\relax \@@@ 
-                                                  }{\@currentHref }{}}
-l.148     }
-             \\
-? 
-<Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin3_recobin3_effs_genWeight*pileupW
-eight*dataMCWeight.pdf, id=689, 569.12625pt x 551.05875pt>
-File: Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin3_recobin3_effs_genWeight*pi
-leupWeight*dataMCWeight.pdf Graphic file (type pdf)
-<use Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin3_recobin3_effs_genWeight*pil
-eupWeight*dataMCWeight.pdf>
-Package pdftex.def Info: Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin3_recobin
-3_effs_genWeight*pileupWeight*dataMCWeight.pdf  used on input line 152.
-(pdftex.def)             Requested size: 130.08733pt x 125.95885pt.
-! Undefined control sequence.
-<recently read> \strip@period 
-                              
-l.152     }
-           
-? 
-! Undefined control sequence.
-\sf@sub@label ...rip@period #1\relax .\relax \@@@ 
-                                                  }\fi \sf@@sub@label {#2}
-l.152     }
-           
-? 
-! Undefined control sequence.
-<recently read> \strip@period 
-                              
-l.152     }
-           
-? 
-! Undefined control sequence.
-<argument> ...urrentlabelname \relax .\relax \@@@ 
-                                                  }{\@currentHref }{}}
-l.152     }
-           
-? 
-<Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin4_recobin4_effs_genWeight*pileupW
-eight*dataMCWeight.pdf, id=690, 569.12625pt x 551.05875pt>
-File: Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin4_recobin4_effs_genWeight*pi
-leupWeight*dataMCWeight.pdf Graphic file (type pdf)
-<use Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin4_recobin4_effs_genWeight*pil
-eupWeight*dataMCWeight.pdf>
-Package pdftex.def Info: Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin4_recobin
-4_effs_genWeight*pileupWeight*dataMCWeight.pdf  used on input line 156.
-(pdftex.def)             Requested size: 130.08733pt x 125.95885pt.
-! Undefined control sequence.
-<recently read> \strip@period 
-                              
-l.156     }
-           
-? 
-! Undefined control sequence.
-\sf@sub@label ...rip@period #1\relax .\relax \@@@ 
-                                                  }\fi \sf@@sub@label {#2}
-l.156     }
-           
-? 
-! Undefined control sequence.
-<recently read> \strip@period 
-                              
-l.156     }
-           
-? 
-! Undefined control sequence.
-<argument> ...urrentlabelname \relax .\relax \@@@ 
-                                                  }{\@currentHref }{}}
-l.156     }
-           
-? 
-<Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin5_recobin5_effs_genWeight*pileupW
-eight*dataMCWeight.pdf, id=691, 569.12625pt x 551.05875pt>
-File: Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin5_recobin5_effs_genWeight*pi
-leupWeight*dataMCWeight.pdf Graphic file (type pdf)
-<use Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin5_recobin5_effs_genWeight*pil
-eupWeight*dataMCWeight.pdf>
-Package pdftex.def Info: Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin5_recobin
-5_effs_genWeight*pileupWeight*dataMCWeight.pdf  used on input line 160.
-(pdftex.def)             Requested size: 130.08733pt x 125.95885pt.
-! Undefined control sequence.
-<recently read> \strip@period 
-                              
-l.160     }
-            \\
-? 
-! Undefined control sequence.
-\sf@sub@label ...rip@period #1\relax .\relax \@@@ 
-                                                  }\fi \sf@@sub@label {#2}
-l.160     }
-            \\
-? 
-! Undefined control sequence.
-<recently read> \strip@period 
-                              
-l.160     }
-            \\
-? 
-! Undefined control sequence.
-<argument> ...urrentlabelname \relax .\relax \@@@ 
-                                                  }{\@currentHref }{}}
-l.160     }
-            \\
-? 
-<Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin6_recobin6_effs_genWeight*pileupW
-eight*dataMCWeight.pdf, id=692, 569.12625pt x 551.05875pt>
-File: Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin6_recobin6_effs_genWeight*pi
-leupWeight*dataMCWeight.pdf Graphic file (type pdf)
-<use Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin6_recobin6_effs_genWeight*pil
-eupWeight*dataMCWeight.pdf>
-Package pdftex.def Info: Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin6_recobin
-6_effs_genWeight*pileupWeight*dataMCWeight.pdf  used on input line 164.
-(pdftex.def)             Requested size: 130.08733pt x 125.95885pt.
-! Undefined control sequence.
-<recently read> \strip@period 
-                              
-l.164     }
-           
-? 
-! Undefined control sequence.
-\sf@sub@label ...rip@period #1\relax .\relax \@@@ 
-                                                  }\fi \sf@@sub@label {#2}
-l.164     }
-           
-? 
-! Undefined control sequence.
-<recently read> \strip@period 
-                              
-l.164     }
-           
-? 
-! Undefined control sequence.
-<argument> ...urrentlabelname \relax .\relax \@@@ 
-                                                  }{\@currentHref }{}}
-l.164     }
-           
-? 
-
-! LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.193 \begin{figure}[htb]
-                         
-? 
-<Plots/eff2d_ggH_powheg_JHUgen_125_pT4l_2e2mu.pdf, id=693, 569.12625pt x 440.64
-626pt>
-File: Plots/eff2d_ggH_powheg_JHUgen_125_pT4l_2e2mu.pdf Graphic file (type pdf)
-<use Plots/eff2d_ggH_powheg_JHUgen_125_pT4l_2e2mu.pdf>
-Package pdftex.def Info: Plots/eff2d_ggH_powheg_JHUgen_125_pT4l_2e2mu.pdf  used
- on input line 199.
-(pdftex.def)             Requested size: 208.13574pt x 161.14719pt.
-! Undefined control sequence.
-<recently read> \strip@period 
-                              
-l.199     }
-           
-? 
-! Undefined control sequence.
-\sf@sub@label ...rip@period #1\relax .\relax \@@@ 
-                                                  }\fi \sf@@sub@label {#2}
-l.199     }
-           
-? 
-! Undefined control sequence.
-<recently read> \strip@period 
-                              
-l.199     }
-           
-? 
-! Undefined control sequence.
-<argument> ...urrentlabelname \relax .\relax \@@@ 
-                                                  }{\@currentHref }{}}
-l.199     }
-           
-? 
-<Plots/eff2d_ggH_NNLOPS_JHUgen_125_pT4l_2e2mu.pdf, id=694, 569.12625pt x 440.64
-626pt>
-File: Plots/eff2d_ggH_NNLOPS_JHUgen_125_pT4l_2e2mu.pdf Graphic file (type pdf)
-<use Plots/eff2d_ggH_NNLOPS_JHUgen_125_pT4l_2e2mu.pdf>
-Package pdftex.def Info: Plots/eff2d_ggH_NNLOPS_JHUgen_125_pT4l_2e2mu.pdf  used
- on input line 204.
-(pdftex.def)             Requested size: 208.13574pt x 161.14719pt.
-! Undefined control sequence.
-<recently read> \strip@period 
-                              
-l.204     }
-            \\
-? 
-! Undefined control sequence.
-\sf@sub@label ...rip@period #1\relax .\relax \@@@ 
-                                                  }\fi \sf@@sub@label {#2}
-l.204     }
-            \\
-? 
-! Undefined control sequence.
-<recently read> \strip@period 
-                              
-l.204     }
-            \\
-? 
-! Undefined control sequence.
-<argument> ...urrentlabelname \relax .\relax \@@@ 
-                                                  }{\@currentHref }{}}
-l.204     }
-            \\
-? 
-<Plots/eff2d_VBF_powheg_JHUgen_125_pT4l_2e2mu.pdf, id=695, 569.12625pt x 440.64
-626pt>
-File: Plots/eff2d_VBF_powheg_JHUgen_125_pT4l_2e2mu.pdf Graphic file (type pdf)
-<use Plots/eff2d_VBF_powheg_JHUgen_125_pT4l_2e2mu.pdf>
-Package pdftex.def Info: Plots/eff2d_VBF_powheg_JHUgen_125_pT4l_2e2mu.pdf  used
- on input line 209.
-(pdftex.def)             Requested size: 208.13574pt x 161.14719pt.
-! Undefined control sequence.
-<recently read> \strip@period 
-                              
-l.209     }
-           
-? 
-! Undefined control sequence.
-\sf@sub@label ...rip@period #1\relax .\relax \@@@ 
-                                                  }\fi \sf@@sub@label {#2}
-l.209     }
-           
-? 
-! Undefined control sequence.
-<recently read> \strip@period 
-                              
-l.209     }
-           
-? 
-! Undefined control sequence.
-<argument> ...urrentlabelname \relax .\relax \@@@ 
-                                                  }{\@currentHref }{}}
-l.209     }
-           
-? 
-<Plots/eff2d_WH_powheg_JHUgen_125_pT4l_2e2mu.pdf, id=696, 569.12625pt x 440.646
-26pt>
-File: Plots/eff2d_WH_powheg_JHUgen_125_pT4l_2e2mu.pdf Graphic file (type pdf)
-<use Plots/eff2d_WH_powheg_JHUgen_125_pT4l_2e2mu.pdf>
-Package pdftex.def Info: Plots/eff2d_WH_powheg_JHUgen_125_pT4l_2e2mu.pdf  used 
-on input line 214.
-(pdftex.def)             Requested size: 208.13574pt x 161.14719pt.
-! Undefined control sequence.
-<recently read> \strip@period 
-                              
-l.214     }
-            \\
-? 
-! Undefined control sequence.
-\sf@sub@label ...rip@period #1\relax .\relax \@@@ 
-                                                  }\fi \sf@@sub@label {#2}
-l.214     }
-            \\
-? 
-! Undefined control sequence.
-<recently read> \strip@period 
-                              
-l.214     }
-            \\
-? 
-! Undefined control sequence.
-<argument> ...urrentlabelname \relax .\relax \@@@ 
-                                                  }{\@currentHref }{}}
-l.214     }
-            \\
-? 
-<Plots/eff2d_ZH_powheg_JHUgen_125_pT4l_2e2mu.pdf, id=697, 569.12625pt x 440.646
-26pt>
-File: Plots/eff2d_ZH_powheg_JHUgen_125_pT4l_2e2mu.pdf Graphic file (type pdf)
-<use Plots/eff2d_ZH_powheg_JHUgen_125_pT4l_2e2mu.pdf>
-Package pdftex.def Info: Plots/eff2d_ZH_powheg_JHUgen_125_pT4l_2e2mu.pdf  used 
-on input line 219.
-(pdftex.def)             Requested size: 208.13574pt x 161.14719pt.
-! Undefined control sequence.
-<recently read> \strip@period 
-                              
-l.219     }
-           
-? 
-! Undefined control sequence.
-\sf@sub@label ...rip@period #1\relax .\relax \@@@ 
-                                                  }\fi \sf@@sub@label {#2}
-l.219     }
-           
-? 
-! Undefined control sequence.
-<recently read> \strip@period 
-                              
-l.219     }
-           
-? 
-! Undefined control sequence.
-<argument> ...urrentlabelname \relax .\relax \@@@ 
-                                                  }{\@currentHref }{}}
-l.219     }
-           
-? 
-<Plots/eff2d_ttH_powheg_JHUgen_125_pT4l_2e2mu.pdf, id=698, 569.12625pt x 440.64
-626pt>
-File: Plots/eff2d_ttH_powheg_JHUgen_125_pT4l_2e2mu.pdf Graphic file (type pdf)
-<use Plots/eff2d_ttH_powheg_JHUgen_125_pT4l_2e2mu.pdf>
-Package pdftex.def Info: Plots/eff2d_ttH_powheg_JHUgen_125_pT4l_2e2mu.pdf  used
- on input line 224.
-(pdftex.def)             Requested size: 208.13574pt x 161.14719pt.
-! Undefined control sequence.
-<recently read> \strip@period 
-                              
-l.224     }
-           
-? 
-! Undefined control sequence.
-\sf@sub@label ...rip@period #1\relax .\relax \@@@ 
-                                                  }\fi \sf@@sub@label {#2}
-l.224     }
-           
-? 
-! Undefined control sequence.
-<recently read> \strip@period 
-                              
-l.224     }
-           
-? 
-! Undefined control sequence.
-<argument> ...urrentlabelname \relax .\relax \@@@ 
-                                                  }{\@currentHref }{}}
-l.224     }
-           
-? 
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.230 Figure~\ref{
-                  fig:sigfits-asimov-SM-pt4l-4l} shows the four lepton mass ...
-
-? 
-<Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4l_recobin0.pdf, id=699, 
-569.12625pt x 440.64626pt>
-File: Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4l_recobin0.pdf Grap
-hic file (type pdf)
-<use Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4l_recobin0.pdf>
-Package pdftex.def Info: Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4
-l_recobin0.pdf  used on input line 239.
-(pdftex.def)             Requested size: 173.44534pt x 134.2927pt.
-! Undefined control sequence.
-<recently read> \strip@period 
-                              
-l.239     }
-           
-? 
-! Undefined control sequence.
-\sf@sub@label ...rip@period #1\relax .\relax \@@@ 
-                                                  }\fi \sf@@sub@label {#2}
-l.239     }
-           
-? 
-! Undefined control sequence.
-<recently read> \strip@period 
-                              
-l.239     }
-           
-? 
-! Undefined control sequence.
-<argument> ...urrentlabelname \relax .\relax \@@@ 
-                                                  }{\@currentHref }{}}
-l.239     }
-           
-? 
-<Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4l_recobin1.pdf, id=700, 
-569.12625pt x 440.64626pt>
-File: Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4l_recobin1.pdf Grap
-hic file (type pdf)
-<use Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4l_recobin1.pdf>
-Package pdftex.def Info: Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4
-l_recobin1.pdf  used on input line 243.
-(pdftex.def)             Requested size: 173.44534pt x 134.2927pt.
-! Undefined control sequence.
-<recently read> \strip@period 
-                              
-l.243     }
-            \\
-? 
-! Undefined control sequence.
-\sf@sub@label ...rip@period #1\relax .\relax \@@@ 
-                                                  }\fi \sf@@sub@label {#2}
-l.243     }
-            \\
-? 
-! Undefined control sequence.
-<recently read> \strip@period 
-                              
-l.243     }
-            \\
-? 
-! Undefined control sequence.
-<argument> ...urrentlabelname \relax .\relax \@@@ 
-                                                  }{\@currentHref }{}}
-l.243     }
-            \\
-? 
-<Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4l_recobin2.pdf, id=701, 
-569.12625pt x 440.64626pt>
-File: Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4l_recobin2.pdf Grap
-hic file (type pdf)
-<use Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4l_recobin2.pdf>
-Package pdftex.def Info: Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4
-l_recobin2.pdf  used on input line 247.
-(pdftex.def)             Requested size: 173.44534pt x 134.2927pt.
-! Undefined control sequence.
-<recently read> \strip@period 
-                              
-l.247     }
-           
-? 
-! Undefined control sequence.
-\sf@sub@label ...rip@period #1\relax .\relax \@@@ 
-                                                  }\fi \sf@@sub@label {#2}
-l.247     }
-           
-? 
-! Undefined control sequence.
-<recently read> \strip@period 
-                              
-l.247     }
-           
-? 
-! Undefined control sequence.
-<argument> ...urrentlabelname \relax .\relax \@@@ 
-                                                  }{\@currentHref }{}}
-l.247     }
-           
-? 
-<Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4l_recobin3.pdf, id=702, 
-569.12625pt x 440.64626pt>
-File: Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4l_recobin3.pdf Grap
-hic file (type pdf)
-<use Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4l_recobin3.pdf>
-Package pdftex.def Info: Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4
-l_recobin3.pdf  used on input line 251.
-(pdftex.def)             Requested size: 173.44534pt x 134.2927pt.
-! Undefined control sequence.
-<recently read> \strip@period 
-                              
-l.251     }
-            \\
-? 
-! Undefined control sequence.
-\sf@sub@label ...rip@period #1\relax .\relax \@@@ 
-                                                  }\fi \sf@@sub@label {#2}
-l.251     }
-            \\
-? 
-! Undefined control sequence.
-<recently read> \strip@period 
-                              
-l.251     }
-            \\
-? 
-! Undefined control sequence.
-<argument> ...urrentlabelname \relax .\relax \@@@ 
-                                                  }{\@currentHref }{}}
-l.251     }
-            \\
-? 
-<Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4l_recobin4.pdf, id=703, 
-569.12625pt x 440.64626pt>
-File: Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4l_recobin4.pdf Grap
-hic file (type pdf)
-<use Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4l_recobin4.pdf>
-Package pdftex.def Info: Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4
-l_recobin4.pdf  used on input line 255.
-(pdftex.def)             Requested size: 173.44534pt x 134.2927pt.
-! Undefined control sequence.
-<recently read> \strip@period 
-                              
-l.255     }
-           
-? 
-! Undefined control sequence.
-\sf@sub@label ...rip@period #1\relax .\relax \@@@ 
-                                                  }\fi \sf@@sub@label {#2}
-l.255     }
-           
-? 
-! Undefined control sequence.
-<recently read> \strip@period 
-                              
-l.255     }
-           
-? 
-! Undefined control sequence.
-<argument> ...urrentlabelname \relax .\relax \@@@ 
-                                                  }{\@currentHref }{}}
-l.255     }
-           
-? 
-<Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4l_recobin5.pdf, id=704, 
-569.12625pt x 440.64626pt>
-File: Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4l_recobin5.pdf Grap
-hic file (type pdf)
-<use Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4l_recobin5.pdf>
-Package pdftex.def Info: Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4
-l_recobin5.pdf  used on input line 259.
-(pdftex.def)             Requested size: 173.44534pt x 134.2927pt.
-! Undefined control sequence.
-<recently read> \strip@period 
-                              
-l.259     }
-            \\
-? 
-! Undefined control sequence.
-\sf@sub@label ...rip@period #1\relax .\relax \@@@ 
-                                                  }\fi \sf@@sub@label {#2}
-l.259     }
-            \\
-? 
-! Undefined control sequence.
-<recently read> \strip@period 
-                              
-l.259     }
-            \\
-? 
-! Undefined control sequence.
-<argument> ...urrentlabelname \relax .\relax \@@@ 
-                                                  }{\@currentHref }{}}
-l.259     }
-            \\
-? 
-<Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4l_recobin6.pdf, id=705, 
-569.12625pt x 440.64626pt>
-File: Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4l_recobin6.pdf Grap
-hic file (type pdf)
-<use Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4l_recobin6.pdf>
-Package pdftex.def Info: Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4
-l_recobin6.pdf  used on input line 263.
-(pdftex.def)             Requested size: 173.44534pt x 134.2927pt.
-! Undefined control sequence.
-<recently read> \strip@period 
-                              
-l.263     }
-            \\
-? 
-! Undefined control sequence.
-\sf@sub@label ...rip@period #1\relax .\relax \@@@ 
-                                                  }\fi \sf@@sub@label {#2}
-l.263     }
-            \\
-? 
-! Undefined control sequence.
-<recently read> \strip@period 
-                              
-l.263     }
-            \\
-? 
-! Undefined control sequence.
-<argument> ...urrentlabelname \relax .\relax \@@@ 
-                                                  }{\@currentHref }{}}
-l.263     }
-            \\
-? 
-
-LaTeX Warning: Float too large for page by 67.56453pt on input line 269.
-
-) (./Chapters/Chapter4/Systematics/Systematics.tex
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.7 described in Section~\ref{
-                              sec:background_model},
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.7 described in Section~\ref{sec:background_
-                                             model},
-? 
-! Extra }, or forgotten $.
-l.7 ...ribed in Section~\ref{sec:background_model}
-                                                  ,
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.13 
-     
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.13 
-     
-? 
-
-Overfull \hbox (1023.12009pt too wide) in paragraph at lines 4--13
- \T1/ppl/m/n/12 tion sec:background$[]\OML/cmm/m/it/12 odel; originatingfromthe
-backgroundcompositionandmisidentificationrateuncertaintyvaryfordifferentfinalst
-ates:Mismatchincompositionofbackgroundsbetweendifferentsampleswherethefakeratei
-sderivedandwhereitisappliedaccountsbetween\OT1/cmr/m/n/12 24\OML/cmm/m/it/12 an
-d\OT1/cmr/m/n/12 43%\OML/cmm/m/it/12 :[]$ 
- []
-
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.20 ...ifferences are reported in the Table~\ref{
-                                                  tab:leptonscalereso}, toge...
-
-? 
-
-! LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.38 \begin{table}[h]
-                     
-? 
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.106 ... considered as described in Section~\ref{
-                                                  sec:background_model}.
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.106 ...described in Section~\ref{sec:background_
-                                                  model}.
-? 
-! Extra }, or forgotten $.
-l.106 ...bed in Section~\ref{sec:background_model}
-                                                  .
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.117 
-      
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.117 
-      
-? 
-
-Overfull \hbox (28.44499pt too wide) in paragraph at lines 98--117
- \T1/ppl/m/n/12 tion sec:background$[]\OML/cmm/m/it/12 odel:Systematicuncertain
-tyofabout\OT1/cmr/m/n/12 2%\OML/cmm/m/it/12 onthebranchingratioof $$\OT1/cmr/m/
-n/12 H \OMS/cmsy/m/n/12 ! 
- []
-
-
-Overfull \hbox (306.51488pt too wide) in paragraph at lines 98--117
- \OT1/cmr/m/n/12 4\OML/cmm/m/it/12 `$$isonlyapplicabletosignalyield:Additionals
-ourcesaretheimprecisejetenergyscaleandresolutionknowledge\OT1/cmr/m/n/12 (\OML/
-cmm/m/it/12 from\OT1/cmr/m/n/12 2%\OML/cmm/m/it/12 to\OT1/cmr/m/n/12 22%)\OML/c
-mm/m/it/12 ; theefficiencyonb \OMS/cmsy/m/n/12 ^^@ 
- []
-
-
-Overfull \hbox (460.98096pt too wide) in paragraph at lines 98--117
- \OML/cmm/m/it/12 taggingandthelightquarks\OT1/cmr/m/n/12 ($\T1/ppl/m/n/12 i.e.
-$\OML/cmm/m/it/12 u; d; s; c\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 andgluonjetmistag
-rate:Whilecrosssectionmeasurement; signalcrosssectionuncertaintiesarisingfromth
-eoreticalsourcesareremoved:[]$ 
- []
-
-
-! LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.121 \begin{table}[!htb]
-                         
-? 
-
-! LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.172 \begin{table}[!htb]
-                         
-? 
-
-! LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.223 \begin{table}[!htb]
-                         
-? 
-! Undefined control sequence.
-<argument> ...e {thetable}}}{\ignorespaces \fixme 
-                                                  {TO BE UPDATED. COPY PASTE...
-l.230 		}
-         
-? 
-! Undefined control sequence.
-<argument> \fixme 
-                  {TO BE UPDATED. COPY PASTE NUMBERS OF 2017 FOR NOW.} A cha...
-l.230 		}
-         
-? 
-! Undefined control sequence.
-<argument> \fixme 
-                  {TO BE UPDATED. COPY PASTE NUMBERS OF 2017 FOR NOW.} A cha...
-l.230 		}
-         
-? 
-
-! LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.276 \begin{table}[!htb]
-                         
-? 
-
-! LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.439 \begin{figure}[!htb]
-                          
-? 
-<Plots/impacts_2e2mu.png, id=706, 925.4575pt x 765.86125pt>
-File: Plots/impacts_2e2mu.png Graphic file (type png)
-<use Plots/impacts_2e2mu.png>
-Package pdftex.def Info: Plots/impacts_2e2mu.png  used on input line 443.
-(pdftex.def)             Requested size: 390.25536pt x 322.95668pt.
-) (./Chapters/Chapter4/Results/Inclusive.tex
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.3 are shown in Figure~\ref{
-                             fig:sigfits-data-SM-inclusive}.
-? 
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.4 ...s energy has been shown in the Figure~\ref{
-                                                  fig:inclusive-results:a} w...
-
-? 
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.4 ...rs of data taking are shown in Figure~\ref{
-                                                  fig:inclusive-results:b}.
-? 
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.8 These results are also given in Tables \ref{
-                                                tab:incresults} and \ref{tab...
-
-? 
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.8 ...en in Tables \ref{tab:incresults} and \ref{
-                                                  tab:incresultsPAS}.
-? 
-
-! LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.27 \begin{figure}[!htb]
-                         
-? 
-<Plots/data_unfoldwith_SM_125_v3_mass4l_4e_recobin0.pdf, id=711, 569.12625pt x 
-440.64626pt>
-File: Plots/data_unfoldwith_SM_125_v3_mass4l_4e_recobin0.pdf Graphic file (type
- pdf)
-<use Plots/data_unfoldwith_SM_125_v3_mass4l_4e_recobin0.pdf>
-Package pdftex.def Info: Plots/data_unfoldwith_SM_125_v3_mass4l_4e_recobin0.pdf
-  used on input line 33.
-(pdftex.def)             Requested size: 208.13574pt x 161.14719pt.
-! Undefined control sequence.
-<recently read> \strip@period 
-                              
-l.33     }
-          
-? 
-! Undefined control sequence.
-\sf@sub@label ...rip@period #1\relax .\relax \@@@ 
-                                                  }\fi \sf@@sub@label {#2}
-l.33     }
-          
-? 
-! Undefined control sequence.
-<recently read> \strip@period 
-                              
-l.33     }
-          
-? 
-! Undefined control sequence.
-<argument> ...urrentlabelname \relax .\relax \@@@ 
-                                                  }{\@currentHref }{}}
-l.33     }
-          
-? 
-<Plots/data_unfoldwith_SM_125_v3_mass4l_4mu_recobin0.pdf, id=712, 569.12625pt x
- 440.64626pt>
-File: Plots/data_unfoldwith_SM_125_v3_mass4l_4mu_recobin0.pdf Graphic file (typ
-e pdf)
-<use Plots/data_unfoldwith_SM_125_v3_mass4l_4mu_recobin0.pdf>
-Package pdftex.def Info: Plots/data_unfoldwith_SM_125_v3_mass4l_4mu_recobin0.pd
-f  used on input line 37.
-(pdftex.def)             Requested size: 208.13574pt x 161.14719pt.
-! Undefined control sequence.
-<recently read> \strip@period 
-                              
-l.37     }
-           \\
-? 
-! Undefined control sequence.
-\sf@sub@label ...rip@period #1\relax .\relax \@@@ 
-                                                  }\fi \sf@@sub@label {#2}
-l.37     }
-           \\
-? 
-! Undefined control sequence.
-<recently read> \strip@period 
-                              
-l.37     }
-           \\
-? 
-! Undefined control sequence.
-<argument> ...urrentlabelname \relax .\relax \@@@ 
-                                                  }{\@currentHref }{}}
-l.37     }
-           \\
-? 
-<Plots/data_unfoldwith_SM_125_v3_mass4l_2e2mu_recobin0.pdf, id=713, 569.12625pt
- x 440.64626pt>
-File: Plots/data_unfoldwith_SM_125_v3_mass4l_2e2mu_recobin0.pdf Graphic file (t
-ype pdf)
-<use Plots/data_unfoldwith_SM_125_v3_mass4l_2e2mu_recobin0.pdf>
-Package pdftex.def Info: Plots/data_unfoldwith_SM_125_v3_mass4l_2e2mu_recobin0.
-pdf  used on input line 41.
-(pdftex.def)             Requested size: 208.13574pt x 161.14719pt.
-! Undefined control sequence.
-<recently read> \strip@period 
-                              
-l.41     }
-          
-? 
-! Undefined control sequence.
-\sf@sub@label ...rip@period #1\relax .\relax \@@@ 
-                                                  }\fi \sf@@sub@label {#2}
-l.41     }
-          
-? 
-! Undefined control sequence.
-<recently read> \strip@period 
-                              
-l.41     }
-          
-? 
-! Undefined control sequence.
-<argument> ...urrentlabelname \relax .\relax \@@@ 
-                                                  }{\@currentHref }{}}
-l.41     }
-          
-? 
-<Plots/data_unfoldwith_SM_125_v3_mass4l_4l_recobin0.pdf, id=714, 569.12625pt x 
-440.64626pt>
-File: Plots/data_unfoldwith_SM_125_v3_mass4l_4l_recobin0.pdf Graphic file (type
- pdf)
-<use Plots/data_unfoldwith_SM_125_v3_mass4l_4l_recobin0.pdf>
-Package pdftex.def Info: Plots/data_unfoldwith_SM_125_v3_mass4l_4l_recobin0.pdf
-  used on input line 45.
-(pdftex.def)             Requested size: 208.13574pt x 161.14719pt.
-! Undefined control sequence.
-<recently read> \strip@period 
-                              
-l.45     }
-           \\
-? 
-! Undefined control sequence.
-\sf@sub@label ...rip@period #1\relax .\relax \@@@ 
-                                                  }\fi \sf@@sub@label {#2}
-l.45     }
-           \\
-? 
-! Undefined control sequence.
-<recently read> \strip@period 
-                              
-l.45     }
-           \\
-? 
-! Undefined control sequence.
-<argument> ...urrentlabelname \relax .\relax \@@@ 
-                                                  }{\@currentHref }{}}
-l.45     }
-           \\
-? 
-
-! LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.51 \begin{figure}[!htb]
-                         
-? 
-<Plots/xs_vs_sqrts.pdf, id=715, 569.12625pt x 555.07375pt>
-File: Plots/xs_vs_sqrts.pdf Graphic file (type pdf)
-<use Plots/xs_vs_sqrts.pdf>
-Package pdftex.def Info: Plots/xs_vs_sqrts.pdf  used on input line 56.
-(pdftex.def)             Requested size: 208.13574pt x 202.99406pt.
-! Undefined control sequence.
-<recently read> \strip@period 
-                              
-l.56     }
-          
-? 
-! Undefined control sequence.
-\sf@sub@label ...rip@period #1\relax .\relax \@@@ 
-                                                  }\fi \sf@@sub@label {#2}
-l.56     }
-          
-? 
-! Undefined control sequence.
-<recently read> \strip@period 
-                              
-l.56     }
-          
-? 
-! Undefined control sequence.
-<argument> ...urrentlabelname \relax .\relax \@@@ 
-                                                  }{\@currentHref }{}}
-l.56     }
-          
-? 
-<Plots/mass4l_unfoldwith_SM_125_ThreeYears.pdf, id=716, 569.12625pt x 559.08875
-pt>
-File: Plots/mass4l_unfoldwith_SM_125_ThreeYears.pdf Graphic file (type pdf)
-<use Plots/mass4l_unfoldwith_SM_125_ThreeYears.pdf>
-Package pdftex.def Info: Plots/mass4l_unfoldwith_SM_125_ThreeYears.pdf  used on
- input line 60.
-(pdftex.def)             Requested size: 208.13574pt x 204.46239pt.
-! Undefined control sequence.
-<recently read> \strip@period 
-                              
-l.60     }
-          
-? 
-! Undefined control sequence.
-\sf@sub@label ...rip@period #1\relax .\relax \@@@ 
-                                                  }\fi \sf@@sub@label {#2}
-l.60     }
-          
-? 
-! Undefined control sequence.
-<recently read> \strip@period 
-                              
-l.60     }
-          
-? 
-! Undefined control sequence.
-<argument> ...urrentlabelname \relax .\relax \@@@ 
-                                                  }{\@currentHref }{}}
-l.60     }
-          
-? 
-Runaway argument?
-{The measured fiducial cross section as a function of $\sqrt {s}$ (le\ETC.
-! Paragraph ended before \caption@prepareanchor was complete.
-<to be read again> 
-                   \par 
-l.68     }
-          
-? 
-! Extra }, or forgotten \endgroup.
-\@caption ...\else \caption@prepareanchor {#1}{#2}
-                                                  \memcaptioninfo {#1}{\csna...
-l.68     }
-          
-? 
-Runaway argument?
-{\ignorespaces The measured fiducial cross section as a function of $\ETC.
-! Paragraph ended before \caption@@@addcontentsline was complete.
-<to be read again> 
-                   \par 
-l.68     }
-          
-? 
-! Extra }, or forgotten \endgroup.
-\caption@@addcontentsline ...}{\ignorespaces #2}}}
-                                                  
-l.68     }
-          
-? 
-! Undefined control sequence.
-<argument> ...eptance is calculated using \POWHEG 
-                                                  at $\sqrt {s}$=13\TeV and ...
-l.68     }
-          
-? 
-! Undefined control sequence.
-<argument> ...eptance is calculated using \POWHEG 
-                                                  at $\sqrt {s}$=13\TeV and ...
-l.68     }
-          
-? 
-
-! LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.75 \begin{table}[!h!tb]
-                         
-? 
-
-! LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.168 \begin{table}[!h!tb]
-                          
-? 
-
-Overfull \hbox (11.22739pt too wide) in paragraph at lines 174--243
- [] 
- []
-
-) (./Chapters/Chapter4/Results/Differential.tex
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.2 ...sen observables are shown in Figures ~\ref{
-                                                  fig:differential-bins} for...
-
-? 
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.5 ...plicity and are shown in the Figures ~\ref{
-                                                  fig:differential-results}.
-? 
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.20 ...predictions are included in Appendix \ref{
-                                                  app:fixfrac}. Similarly, r...
-
-? 
-! Undefined control sequence.
-\reserved@b ->\T@ref 
-                     
-l.22 Appendix~\ref{
-                   fig:differential-results-restrictive_md}.
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.22 ...\ref{fig:differential-results-restrictive_
-                                                  md}.
-? 
-! Extra }, or forgotten $.
-l.22 ...f{fig:differential-results-restrictive_md}
-                                                  .
-? 
-
-! LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.26 \begin{figure}[!htb]
-                         
-? 
-<Plots/asimovdata_SM_125_v2_pT4l_4l.pdf, id=726, 569.12625pt x 440.64626pt>
-File: Plots/asimovdata_SM_125_v2_pT4l_4l.pdf Graphic file (type pdf)
-<use Plots/asimovdata_SM_125_v2_pT4l_4l.pdf>
-Package pdftex.def Info: Plots/asimovdata_SM_125_v2_pT4l_4l.pdf  used on input 
-line 32.
-(pdftex.def)             Requested size: 195.12767pt x 151.07507pt.
-! Undefined control sequence.
-<recently read> \strip@period 
-                              
-l.32     }
-          
-? 
-! Undefined control sequence.
-\sf@sub@label ...rip@period #1\relax .\relax \@@@ 
-                                                  }\fi \sf@@sub@label {#2}
-l.32     }
-          
-? 
-! Undefined control sequence.
-<recently read> \strip@period 
-                              
-l.32     }
-          
-? 
-! Undefined control sequence.
-<argument> ...urrentlabelname \relax .\relax \@@@ 
-                                                  }{\@currentHref }{}}
-l.32     }
-          
-? 
-<Plots/asimovdata_SM_125_v2_rapidity4l_4l.pdf, id=727, 569.12625pt x 440.64626p
-t>
-File: Plots/asimovdata_SM_125_v2_rapidity4l_4l.pdf Graphic file (type pdf)
-<use Plots/asimovdata_SM_125_v2_rapidity4l_4l.pdf>
-Package pdftex.def Info: Plots/asimovdata_SM_125_v2_rapidity4l_4l.pdf  used on 
-input line 36.
-(pdftex.def)             Requested size: 195.12767pt x 151.07507pt.
-! Undefined control sequence.
-<recently read> \strip@period 
-                              
-l.36     }
-          \\
-? 
-! Undefined control sequence.
-\sf@sub@label ...rip@period #1\relax .\relax \@@@ 
-                                                  }\fi \sf@@sub@label {#2}
-l.36     }
-          \\
-? 
-! Undefined control sequence.
-<recently read> \strip@period 
-                              
-l.36     }
-          \\
-? 
-! Undefined control sequence.
-<argument> ...urrentlabelname \relax .\relax \@@@ 
-                                                  }{\@currentHref }{}}
-l.36     }
-          \\
-? 
-<Plots/asimovdata_SM_125_v2_njets_pt30_eta2p5_4l.pdf, id=728, 569.12625pt x 440
-.64626pt>
-File: Plots/asimovdata_SM_125_v2_njets_pt30_eta2p5_4l.pdf Graphic file (type pd
-f)
-<use Plots/asimovdata_SM_125_v2_njets_pt30_eta2p5_4l.pdf>
-Package pdftex.def Info: Plots/asimovdata_SM_125_v2_njets_pt30_eta2p5_4l.pdf  u
-sed on input line 40.
-(pdftex.def)             Requested size: 195.12767pt x 151.07507pt.
-! Undefined control sequence.
-<recently read> \strip@period 
-                              
-l.40     }
-          
-? 
-! Undefined control sequence.
-\sf@sub@label ...rip@period #1\relax .\relax \@@@ 
-                                                  }\fi \sf@@sub@label {#2}
-l.40     }
-          
-? 
-! Undefined control sequence.
-<recently read> \strip@period 
-                              
-l.40     }
-          
-? 
-! Undefined control sequence.
-<argument> ...urrentlabelname \relax .\relax \@@@ 
-                                                  }{\@currentHref }{}}
-l.40     }
-          
-? 
-<Plots/asimovdata_SM_125_v2_pt_leadingjet_pt30_eta2p5_4l.pdf, id=729, 569.12625
-pt x 440.64626pt>
-File: Plots/asimovdata_SM_125_v2_pt_leadingjet_pt30_eta2p5_4l.pdf Graphic file 
-(type pdf)
-<use Plots/asimovdata_SM_125_v2_pt_leadingjet_pt30_eta2p5_4l.pdf>
-Package pdftex.def Info: Plots/asimovdata_SM_125_v2_pt_leadingjet_pt30_eta2p5_4
-l.pdf  used on input line 44.
-(pdftex.def)             Requested size: 195.12767pt x 151.07507pt.
-! Undefined control sequence.
-<recently read> \strip@period 
-                              
-l.44     }
-          
-? 
-! Undefined control sequence.
-\sf@sub@label ...rip@period #1\relax .\relax \@@@ 
-                                                  }\fi \sf@@sub@label {#2}
-l.44     }
-          
-? 
-! Undefined control sequence.
-<recently read> \strip@period 
-                              
-l.44     }
-          
-? 
-! Undefined control sequence.
-<argument> ...urrentlabelname \relax .\relax \@@@ 
-                                                  }{\@currentHref }{}}
-l.44     }
-          
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.50 
-     
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.50 
-     
-? 
-
-! LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.53 \begin{figure}[!h!tb]
-                          
-? 
-<Plots/pT4l_unfoldwith_SM_125_logscale.pdf, id=730, 569.12625pt x 559.08875pt>
-File: Plots/pT4l_unfoldwith_SM_125_logscale.pdf Graphic file (type pdf)
-<use Plots/pT4l_unfoldwith_SM_125_logscale.pdf>
-Package pdftex.def Info: Plots/pT4l_unfoldwith_SM_125_logscale.pdf  used on inp
-ut line 59.
-(pdftex.def)             Requested size: 195.12767pt x 191.68295pt.
-! Undefined control sequence.
-<recently read> \strip@period 
-                              
-l.59     }
-          
-? 
-! Undefined control sequence.
-\sf@sub@label ...rip@period #1\relax .\relax \@@@ 
-                                                  }\fi \sf@@sub@label {#2}
-l.59     }
-          
-? 
-! Undefined control sequence.
-<recently read> \strip@period 
-                              
-l.59     }
-          
-? 
-! Undefined control sequence.
-<argument> ...urrentlabelname \relax .\relax \@@@ 
-                                                  }{\@currentHref }{}}
-l.59     }
-          
-? 
-<Plots/rapidity4l_unfoldwith_SM_125.pdf, id=731, 569.12625pt x 559.08875pt>
-File: Plots/rapidity4l_unfoldwith_SM_125.pdf Graphic file (type pdf)
-<use Plots/rapidity4l_unfoldwith_SM_125.pdf>
-Package pdftex.def Info: Plots/rapidity4l_unfoldwith_SM_125.pdf  used on input 
-line 64.
-(pdftex.def)             Requested size: 195.12767pt x 191.68295pt.
-! Undefined control sequence.
-<recently read> \strip@period 
-                              
-l.64     }
-           \\
-? 
-! Undefined control sequence.
-\sf@sub@label ...rip@period #1\relax .\relax \@@@ 
-                                                  }\fi \sf@@sub@label {#2}
-l.64     }
-           \\
-? 
-! Undefined control sequence.
-<recently read> \strip@period 
-                              
-l.64     }
-           \\
-? 
-! Undefined control sequence.
-<argument> ...urrentlabelname \relax .\relax \@@@ 
-                                                  }{\@currentHref }{}}
-l.64     }
-           \\
-? 
-<Plots/pt_leadingjet_pt30_eta2p5_unfoldwith_SM_125_logscale.pdf, id=732, 569.12
-625pt x 559.08875pt>
-File: Plots/pt_leadingjet_pt30_eta2p5_unfoldwith_SM_125_logscale.pdf Graphic fi
-le (type pdf)
-<use Plots/pt_leadingjet_pt30_eta2p5_unfoldwith_SM_125_logscale.pdf>
-Package pdftex.def Info: Plots/pt_leadingjet_pt30_eta2p5_unfoldwith_SM_125_logs
-cale.pdf  used on input line 68.
-(pdftex.def)             Requested size: 195.12767pt x 191.68295pt.
-! Undefined control sequence.
-<recently read> \strip@period 
-                              
-l.68     }
-          
-? 
-! Undefined control sequence.
-\sf@sub@label ...rip@period #1\relax .\relax \@@@ 
-                                                  }\fi \sf@@sub@label {#2}
-l.68     }
-          
-? 
-! Undefined control sequence.
-<recently read> \strip@period 
-                              
-l.68     }
-          
-? 
-! Undefined control sequence.
-<argument> ...urrentlabelname \relax .\relax \@@@ 
-                                                  }{\@currentHref }{}}
-l.68     }
-          
-? 
-<Plots/njets_pt30_eta2p5_unfoldwith_SM_125_logscale.pdf, id=733, 569.12625pt x 
-559.08875pt>
-File: Plots/njets_pt30_eta2p5_unfoldwith_SM_125_logscale.pdf Graphic file (type
- pdf)
-<use Plots/njets_pt30_eta2p5_unfoldwith_SM_125_logscale.pdf>
-Package pdftex.def Info: Plots/njets_pt30_eta2p5_unfoldwith_SM_125_logscale.pdf
-  used on input line 72.
-(pdftex.def)             Requested size: 195.12767pt x 191.68295pt.
-! Undefined control sequence.
-<recently read> \strip@period 
-                              
-l.72     }
-          
-? 
-! Undefined control sequence.
-\sf@sub@label ...rip@period #1\relax .\relax \@@@ 
-                                                  }\fi \sf@@sub@label {#2}
-l.72     }
-          
-? 
-! Undefined control sequence.
-<recently read> \strip@period 
-                              
-l.72     }
-          
-? 
-! Undefined control sequence.
-<argument> ...urrentlabelname \relax .\relax \@@@ 
-                                                  }{\@currentHref }{}}
-l.72     }
-          
-? 
-)
-\openout2 = `Chapters/Chapter_7.aux'.
-
- (./Chapters/Chapter_7.tex
-Chapter 6.
-! Undefined control sequence.
-<recently read> \Sqrt 
-                      
-l.20 ...4\ell$ cross section measurement at $\Sqrt
-                                                  {s} = $13~TeV is found be ...
-
-? 
-Chapter 7.
-! Undefined control sequence.
-\fbinv ...ath {\,\text {fb}^\text {$-$1}}}\xspace 
-                                                  
-l.33 ...cross section measurements with 300~\fbinv
-                                                   pp collisions data would ...
-
-? 
-! Undefined control sequence.
-\fbinv ...ath {\,\text {fb}^\text {$-$1}}}\xspace 
-                                                  
-l.37 LHC has aim to deliver 3000~\fbinv
-                                        of pp
-? 
-) (./main_2806_v0.bbl
+(./main_2806_v0.bbl
 ! Undefined control sequence.
 l.581 ...nnel in pp collisions at $\sqrt{s} =8\tev
                                                   $.
 ? 
 )
 
-! LaTeX Error: \begin{center} on input line 277 ended by \end{document}.
+! LaTeX Error: \begin{center} on input line 282 ended by \end{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -8129,8 +4478,7 @@ l.437 \end{document}
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 437.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 437.
 (./main_2806_v0.aux (./Chapters/abstract.aux) (./Chapters/introduction.aux)
-(./Chapters/Chapter_1.aux) (./Chapters/Chapter_2.aux) (./Chapters/Chapter_3.aux
-) (./Chapters/Chapter_7.aux))
+(./Chapters/Chapter_1.aux) (./Chapters/Chapter_2.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 437.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 437.
 Package rerunfilecheck Info: File `main_2806_v0.out' has not changed.
@@ -8139,6 +4487,9 @@ Package rerunfilecheck Info: File `main_2806_v0.out' has not changed.
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 ! You can't use `\end' in internal vertical mode.
 \enddocument ...cumenthook \deadcycles \z@ \@@end 
                                                   
@@ -8146,7 +4497,7 @@ l.437 \end{document}
                     
 ? 
 
-! LaTeX Error: \begin{center} on input line 277 ended by \end{document}.
+! LaTeX Error: \begin{center} on input line 282 ended by \end{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -8155,117 +4506,7 @@ Type  H <return>  for immediate help.
 l.437 \end{document}
                     
 ? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.437 \end{document}
-                    
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.437 \end{document}
-                    
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.437 \end{document}
-                    
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.437 \end{document}
-                    
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.437 \end{document}
-                    
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.437 \end{document}
-                    
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.437 \end{document}
-                    
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.437 \end{document}
-                    
-? 
 )
-*
-(Please type a command or say `\end')
-*
-(Please type a command or say `\end')
-*
-(Please type a command or say `\end')
-*
-(Please type a command or say `\end')
-*
-(Please type a command or say `\end')
-*
-(Please type a command or say `\end')
-*
-(Please type a command or say `\end')
-*
-(Please type a command or say `\end')
-*
-(Please type a command or say `\end')
-*
-(Please type a command or say `\end')
-*
-(Please type a command or say `\end')
-*
-(Please type a command or say `\end')
-*
-(Please type a command or say `\end')
-*
-(Please type a command or say `\end')
-*
-(Please type a command or say `\end')
-*
-(Please type a command or say `\end')
-*
-(Please type a command or say `\end')
-*
-(Please type a command or say `\end')
-*
-(Please type a command or say `\end')
-*
-(Please type a command or say `\end')
-*
-(Please type a command or say `\end')
-*
-(Please type a command or say `\end')
-*
-(Please type a command or say `\end')
-*
-(Please type a command or say `\end')
-*
-(Please type a command or say `\end')
-*
-(Please type a command or say `\end')
-*
-(Please type a command or say `\end')
-*
-(Please type a command or say `\end')
-*
-(Please type a command or say `\end')
-*
-(Please type a command or say `\end')
-*
-(Please type a command or say `\end')
 *
 (Please type a command or say `\end')
 *
@@ -8316,11 +4557,11 @@ End of file on the terminal!
 
  
 Here is how much of TeX's memory you used:
- 27048 strings out of 492982
- 583415 string characters out of 6134896
- 865248 words of memory out of 5000000
- 29884 multiletter control sequences out of 15000+600000
- 581956 words of font info for 120 fonts, out of 8000000 for 9000
+ 26382 strings out of 492982
+ 554189 string characters out of 6134896
+ 663078 words of memory out of 5000000
+ 29405 multiletter control sequences out of 15000+600000
+ 571056 words of font info for 92 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 52i,20n,78p,10385b,1912s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 52i,20n,78p,10385b,1444s stack positions out of 5000i,500n,10000p,200000b,80000s
 !  ==> Fatal error occurred, no output PDF file produced!

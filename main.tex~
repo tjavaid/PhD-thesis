@@ -132,7 +132,7 @@ headsepline, % Uncomment to get a line under the header
 %\usepackage{subfigure}
 \usepackage{caption}
 %\usepackage{subfigure}
-\usepackage{comment}
+%\usepackage{comment}
 \usepackage[width=\textwidth]{caption}
 \usepackage{subcaption}
 %\usepackage{subfigure}
@@ -142,6 +142,7 @@ headsepline, % Uncomment to get a line under the header
 %\usepackage[UTF8] %{ctex}
 %\usepackage[UTF8]{ctex}
 \usepackage{CJK}
+\usepackage[bottom]{footmisc}
 %\AtEveryBibitem{\clearfield{issn}}
 %%%%%%%
 %\usepackage[backend=bibtex,style=authoryear,natbib=true]{biblatex} % Use the bibtex backend with the authoryear citation style (which resembles APA)
@@ -364,49 +365,49 @@ headsepline, % Uncomment to get a line under the header
 \include{Chapters/introduction} % revised after rep.
 \include{Chapters/Chapter_1}% revised after rep.
 \include{Chapters/Chapter_2}  % initial draft ready 06.03.2020, revised after rep.
-\include{Chapters/Chapter_3}  % initial draft ready 02.03.2020
-\chapter{Probing four lepton final-state for Higgs Cross section measurement}\label{Chapter4}
-\chaptermark{Fiducial Cross Sections for $pp\rightarrow H \rightarrow  4\ell$}
-  \section{Introduction}\label{sec:Introduction}
-    \input{Chapters/Chapter4/introduction/introduction}    % done 06.03.2020
-  \subsection{Datasets, Simulation Samples and Theoretical Predictions}\label{sec:DatasetsSimulation}
-    \subsection{Datasets}\label{sec:Datasets}
-    \input{Chapters/Chapter4/DatasetsandSimulations/dataset}  % done 07.03.2020
-    \subsection{Simulation Samples and Theoretical Predictions} \label{sec:Simulations}
-    \input{Chapters/Chapter4/DatasetsandSimulations/simulation_theoretical_pridiction}    % done 07.03.2020
-  \section{Analysis Strategy}\label{sec:AnalysisStrategy} 
-    \input{Chapters/Chapter4/AnalysisStrategy/AnalysisStrategy}\label{sec:GeneralStrategy} % okay, need to be revised
-    \subsection{Event Selection and Background Modeling}\label{sec:EventsBackgrounds}
-      \subsubsection{Event Selection}
-      \input{Chapters/Chapter4/AnalysisStrategy/events_selection}\label{sec:events_selection}  % okay, need to be revised
-      \subsubsection{Background Modeling}
-      \input{Chapters/Chapter4/AnalysisStrategy/background_model}\label{sec:background_model}    % done, need be read and revised
-    \subsection{Definition of the Fiducial Volume}\label{sec:FiducialVolume}
-     \input{Chapters/Chapter4/AnalysisStrategy/fiducial_volume} 
-    \subsection{Signal Model and Statistical Procedure}\label{sec:SignalStatProcedure}
-      \input{Chapters/Chapter4/AnalysisStrategy/SignalAndStatProcedure}
-    \subsection{Extraction of Integrated $\mathrm{H}\to4\ell$ Fiducial Cross Section}\label{sec:ExtractionInclusive}
-       \input{Chapters/Chapter4/AnalysisStrategy/ExtractionInclusive}    % need to be added, lumi weighted single table
-    \subsection{Extraction of Differential $\mathrm{H}\to4\ell$ Fiducial Cross Sections}\label{sec:ExtractionDifferential}
-       \input{Chapters/Chapter4/AnalysisStrategy/ExtractionDifferential}  % back. and eff. plots to be updated
-%%%
-\section{Systematic Uncertainties}\label{sec:Systematics}\label{sec:Systematics}
-	\input{Chapters/Chapter4/Systematics/Systematics} % added, need to be revised and nos. checked
-%%%
-         \section{Results}\label{sec:Results} %
-%         \input{Chapters/Chapter4/Results/Intro}  \label{sec:ResultsIntro} % do not include
-    \subsection{Measurement of Integrated Fiducial Cross Section}\label{sec:ResultsInclusiveXS}
-     \input{Chapters/Chapter4/Results/Inclusive}  % added,need be revised and updated the XS no. in tables
-    \subsection{Measurement of Differential Fiducial Cross Sections}\label{sec:ResultsDifferentialXS}
-      \input{Chapters/Chapter4/Results/Differential}
-%%%     \subsection{Comparison With ATLAS Results}\label{sec:atlas_results}  % do not include
-%%%      \input{Chapters/Chapter4/Results/atlas_results}
-%%    \section{Summary}\label{sec:Summary}\label{sec:Conclusion}
-%%%        \input{Chapters/Chapter4/Conclusions.tex} 
-%%\include{Chapters/Chapter_5}
-%%\include{Chapters/Chapter_6}
-%% conclusion
-\include{Chapters/Chapter_7} % include as conclusion and outlook 26062020
+%\include{Chapters/Chapter_3}  % initial draft ready 02.03.2020
+%\chapter{Probing four lepton final-state for Higgs Cross section measurement}\label{Chapter4}
+%\chaptermark{Fiducial Cross Sections for $pp\rightarrow H \rightarrow  4\ell$}
+%  \section{Introduction}\label{sec:Introduction}
+%    \input{Chapters/Chapter4/introduction/introduction}    % done 06.03.2020
+%  \subsection{Datasets, Simulation Samples and Theoretical Predictions}\label{sec:DatasetsSimulation}
+%    \subsection{Datasets}\label{sec:Datasets}
+%    \input{Chapters/Chapter4/DatasetsandSimulations/dataset}  % done 07.03.2020
+%    \subsection{Simulation Samples and Theoretical Predictions} \label{sec:Simulations}
+%    \input{Chapters/Chapter4/DatasetsandSimulations/simulation_theoretical_pridiction}    % done 07.03.2020
+%  \section{Analysis Strategy}\label{sec:AnalysisStrategy} 
+%    \input{Chapters/Chapter4/AnalysisStrategy/AnalysisStrategy}\label{sec:GeneralStrategy} % okay, need to be revised
+%    \subsection{Event Selection and Background Modeling}\label{sec:EventsBackgrounds}
+%      \subsubsection{Event Selection}
+%      \input{Chapters/Chapter4/AnalysisStrategy/events_selection}\label{sec:events_selection}  % okay, need to be revised
+%      \subsubsection{Background Modeling}
+%      \input{Chapters/Chapter4/AnalysisStrategy/background_model}\label{sec:background_model}    % done, need be read and revised
+%    \subsection{Definition of the Fiducial Volume}\label{sec:FiducialVolume}
+%     \input{Chapters/Chapter4/AnalysisStrategy/fiducial_volume} 
+%    \subsection{Signal Model and Statistical Procedure}\label{sec:SignalStatProcedure}
+%      \input{Chapters/Chapter4/AnalysisStrategy/SignalAndStatProcedure}
+%    \subsection{Extraction of Integrated $\mathrm{H}\to4\ell$ Fiducial Cross Section}\label{sec:ExtractionInclusive}
+%       \input{Chapters/Chapter4/AnalysisStrategy/ExtractionInclusive}    % need to be added, lumi weighted single table
+%    \subsection{Extraction of Differential $\mathrm{H}\to4\ell$ Fiducial Cross Sections}\label{sec:ExtractionDifferential}
+%       \input{Chapters/Chapter4/AnalysisStrategy/ExtractionDifferential}  % back. and eff. plots to be updated
+%%%%
+%\section{Systematic Uncertainties}\label{sec:Systematics}\label{sec:Systematics}
+%	\input{Chapters/Chapter4/Systematics/Systematics} % added, need to be revised and nos. checked
+%%%%
+%         \section{Results}\label{sec:Results} %
+%%         \input{Chapters/Chapter4/Results/Intro}  \label{sec:ResultsIntro} % do not include
+%    \subsection{Measurement of Integrated Fiducial Cross Section}\label{sec:ResultsInclusiveXS}
+%     \input{Chapters/Chapter4/Results/Inclusive}  % added,need be revised and updated the XS no. in tables
+%    \subsection{Measurement of Differential Fiducial Cross Sections}\label{sec:ResultsDifferentialXS}
+%      \input{Chapters/Chapter4/Results/Differential}
+%%%%     \subsection{Comparison With ATLAS Results}\label{sec:atlas_results}  % do not include
+%%%%      \input{Chapters/Chapter4/Results/atlas_results}
+%%%    \section{Summary}\label{sec:Summary}\label{sec:Conclusion}
+%%%%        \input{Chapters/Chapter4/Conclusions.tex} 
+%%%\include{Chapters/Chapter_5}
+%%%\include{Chapters/Chapter_6}
+%%% conclusion
+%\include{Chapters/Chapter_7} % include as conclusion and outlook 26062020
 % \include{Chapters/Chapter_8}
 
 %----------------------------------------------------------------------------------------

@@ -26,9 +26,3 @@
 \contentsline {subsection}{\numberline {2.6.3}Matter Antimatter Asymmetry}{19}{subsection.63}
 \contentsline {subsection}{\numberline {2.6.4}Grand Unification and Beyond}{19}{subsection.64}
 \contentsline {section}{\numberline {2.7}Higgs Boson as a Probe to BSM}{19}{section.65}
-\contentsline {chapter}{\numberline {3}Experiment}{21}{chapter.66}
-\contentsline {section}{\numberline {3.1}The Large Hadron Collider (LHC) }{21}{section.67}
-\contentsline {subsection}{\numberline {3.1.1}Machine Layout and Performance}{22}{subsection.69}
-\contentsline {subsubsection}{Machine Layout}{22}{section*.70}
-\contentsline {subsubsection}{LHC Performance Goals}{22}{section*.72}
-\contentsline {subsubsection}{Nominal Luminosity and Beam Parameters}{24}{section*.74}

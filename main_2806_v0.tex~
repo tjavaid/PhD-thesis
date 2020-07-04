@@ -427,7 +427,8 @@ headsepline, % Uncomment to get a line under the header
 \bibliographystyle{unsrt}
 %\bibliography{example}
 %\bibliography{AN-18-340}
-\bibliography{example_merged}
+%\bibliography{example_merged}
+\bibliography{example_merged2}
 \addcontentsline{toc}{chapter}{References}
 %\printbibliography[heading=bibintoc]
 %\printbibliography %[heading=bibintoc]

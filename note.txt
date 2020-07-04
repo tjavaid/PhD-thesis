@@ -1,0 +1,7 @@
+\chapter{Experiment: The Large Hadron Collider (LHC) } % Main chapter title
+
+\label{Chapter2} % For referencing the chapter elsewhere, use \ref{Chapter2} 
+%----------------------------------------------------------------------------------------
+%\section{The Large Hadron Collider (LHC) }\label{chapter2_sec1}
+LHC is located at CERN \textit{(European Organization for Nuclear Research)} near Geneva and is most powerful setup of its kind to probe resarches in particle physics.
+From its design, it is capable enough to accelerate and then collide two proton beams at center of mass energy upto 14~TeV

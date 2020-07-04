@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.28)  30 JUN 2020 01:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.28)  4 JUL 2020 00:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2031,11 +2031,11 @@ Package biblatex Info: ... file 'biblatex.cfg' found.
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.cfg
 File: biblatex.cfg 
 ))
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 211.
-Package hyperref Info: Option `hypertexnames' set `false' on input line 211.
-Package hyperref Info: Option `colorlinks' set `true' on input line 211.
-Package hyperref Info: Option `unicode' set `true' on input line 211.
-Package hyperref Info: Option `breaklinks' set `true' on input line 211.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 212.
+Package hyperref Info: Option `hypertexnames' set `false' on input line 212.
+Package hyperref Info: Option `colorlinks' set `true' on input line 212.
+Package hyperref Info: Option `unicode' set `true' on input line 212.
+Package hyperref Info: Option `breaklinks' set `true' on input line 212.
 
 (/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.bdg
 File: UTF8.bdg 2015/04/18 4.8.4
@@ -2054,94 +2054,97 @@ Package biblatex Info: ... file 'english.lbx' found.
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2017/12/19 v3.10 biblatex localization (PK/JW/AB)
 )
-(./main_simple.aux (./Chapters/abstract.aux) (./Chapters/introduction.aux))
+(./main_simple.aux (./Chapters/Chapter_2_CMS.aux
+
+LaTeX Warning: Label `fig:cms_coordinates2:b' multiply defined.
+
+))
 \openout1 = `main_simple.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 214.
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 214.
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 214.
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 214.
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 214.
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 214.
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 214.
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 214.
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 214.
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 214.
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 214.
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 214.
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 214.
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 214.
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 214.
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 214.
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 214.
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 214.
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 214.
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 214.
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 214.
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 214.
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 214.
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 214.
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 214.
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 214.
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 214.
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 214.
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 214.
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 214.
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 214.
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 214.
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 214.
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 214.
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 214.
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 214.
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 214.
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 214.
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 214.
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 214.
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 214.
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Try loading font information for T1+ppl on input line 214.
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ppl.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 215.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
@@ -2194,7 +2197,7 @@ See the subcaption package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.214 \begin{document}
+l.215 \begin{document}
                       
 ? 
 
@@ -2205,7 +2208,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.214 \begin{document}
+l.215 \begin{document}
                       
 ? 
 
@@ -2216,7 +2219,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.214 \begin{document}
+l.215 \begin{document}
                       
 ? 
 Package caption Info: End \AtBeginDocument code.
@@ -2255,17 +2258,17 @@ Package caption Info: End \AtBeginDocument code.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package scrlayer Info: Setting magic \footheight to \baselineskip while
-(scrlayer)             \begin{document} on input line 214.
-Package scrbase Info: activating english \authorshipname on input line 214.
-Package scrbase Info: activating english \byname on input line 214.
-Package scrbase Info: activating english \abbrevname on input line 214.
-Package scrbase Info: activating english \constantsname on input line 214.
-Package scrbase Info: activating english \symbolsname on input line 214.
-Package scrbase Info: activating english \acknowledgementname on input line 214
+(scrlayer)             \begin{document} on input line 215.
+Package scrbase Info: activating english \authorshipname on input line 215.
+Package scrbase Info: activating english \byname on input line 215.
+Package scrbase Info: activating english \abbrevname on input line 215.
+Package scrbase Info: activating english \constantsname on input line 215.
+Package scrbase Info: activating english \symbolsname on input line 215.
+Package scrbase Info: activating english \acknowledgementname on input line 215
 .
 \AtBeginShipoutBox=\box65
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty)
-Package hyperref Info: Link coloring ON on input line 214.
+Package hyperref Info: Link coloring ON on input line 215.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -2275,9 +2278,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count458
 )
-LaTeX Info: Redefining \ref on input line 214.
-LaTeX Info: Redefining \pageref on input line 214.
-LaTeX Info: Redefining \nameref on input line 214.
+LaTeX Info: Redefining \ref on input line 215.
+LaTeX Info: Redefining \pageref on input line 215.
+LaTeX Info: Redefining \nameref on input line 215.
 
 (./main_simple.out) (./main_simple.out)
 \@outlinefile=\write6
@@ -2285,7 +2288,7 @@ LaTeX Info: Redefining \nameref on input line 214.
 
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 214.
+LaTeX Info: Redefining \selectfont on input line 215.
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
@@ -2297,10 +2300,10 @@ Package biblatex Info: Data encoding 'utf8' specified.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main_simple.bbl' found.
  (./main_simple.bbl)
-Package biblatex Info: Reference section=0 on input line 214.
-Package biblatex Info: Reference segment=0 on input line 214.
+Package biblatex Info: Reference section=0 on input line 215.
+Package biblatex Info: Reference segment=0 on input line 215.
 \c__siunitx_mathsf_int=\count459
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 214.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 215.
 
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
@@ -2308,45 +2311,33 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 \c__siunitx_mathtt_int=\count460
 
 1: section
-LaTeX Font Info:    Try loading font information for T1+phv on input line 233.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 234.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 236.
-<Figures/Logo.jpg, id=23, 226.8475pt x 223.83624pt>
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 237.
+<Figures/Logo.jpg, id=59, 226.8475pt x 223.83624pt>
 File: Figures/Logo.jpg Graphic file (type jpg)
 <use Figures/Logo.jpg>
-Package pdftex.def Info: Figures/Logo.jpg  used on input line 259.
+Package pdftex.def Info: Figures/Logo.jpg  used on input line 260.
 (pdftex.def)             Requested size: 71.13188pt x 70.18773pt.
  [1
 
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Figures/Logo.jpg>]
-\openout2 = `Chapters/abstract.aux'.
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Figures/Logo.jpg>] [2
 
- (./Chapters/abstract.tex [2
-
-
-]
---------------------
- Abstract
---------------------
+] (./main_simple.toc
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 1.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 3.
 )
-1: section
-[3] [4
-
-
-] (./main_simple.toc)
 \tf@toc=\write7
 \openout7 = `main_simple.toc'.
 
 
 1: section
-[5] [6
+[3] [4
 
 ] (./main_simple.lof)
 \tf@lof=\write8
@@ -2354,7 +2345,7 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
 
 
 1: section
-[7] [8
+[5] [6
 
 ] (./main_simple.lot)
 \tf@lot=\write9
@@ -2362,107 +2353,299 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
 
 
 1: section
-[9] [10
+[7] [8
 
 ]
 1: section
-\openout2 = `Chapters/introduction.aux'.
+\openout2 = `Chapters/Chapter_2_CMS.aux'.
 
-(./Chapters/introduction.tex
+(./Chapters/Chapter_2_CMS.tex
 Chapter 1.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <17.28> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 9.
 
-Overfull \hbox (6.60759pt too wide) in paragraph at lines 3--7
-\T1/ppl/m/n/12 to en-cor-po-rate mass prob-lem. Un-der this mech-a-nism, elec-t
-roweak sym-me-try breaks
- []
+LaTeX Warning: Citation 'Reference34' on page 1 undefined on input line 12.
 
-
-LaTeX Warning: Citation 'Khachatryan:2015yvw' on page 1 undefined on input line
- 42.
-
-
-LaTeX Warning: Citation 'CMS:2015hja' on page 1 undefined on input line 42.
-
-
-LaTeX Warning: Citation 'CMS:2016rqf' on page 1 undefined on input line 42.
-
-
-LaTeX Warning: Citation 'Sirunyan:2017exp' on page 1 undefined on input line 42
-.
-
-
-LaTeX Warning: Citation 'CMS:2018hhg' on page 1 undefined on input line 42.
-
-
-LaTeX Warning: Citation 'atlas-conf-2019-029' on page 1 undefined on input line
- 42.
-
-
-LaTeX Warning: Citation 'atlas-conf-2019-025 ' on page 1 undefined on input lin
-e 42.
-
-
-LaTeX Warning: Citation 'atlas-conf-2019-032' on page 1 undefined on input line
- 43.
-
-
-LaTeX Warning: Citation 'CMS:2019drq' on page 1 undefined on input line 43.
-
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 13.
 1: section
 [1
 
 
 ]
-Overfull \hbox (9.29283pt too wide) in paragraph at lines 50--55
-\T1/ppl/m/n/12 which are mea-sured us-ing the full Run 2 CMS data recorded at 1
-3 []corresponding
+
+! LaTeX Error: \begin{document} ended by \end{itemize}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 \end{itemize}
+                  
+? 
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.27 \end{itemize}
+                  
+? 
+<Figures/chapter2_Figure/CMS_detector_design.png, id=152, 3189.9175pt x 2253.41
+875pt>
+File: Figures/chapter2_Figure/CMS_detector_design.png Graphic file (type png)
+<use Figures/chapter2_Figure/CMS_detector_design.png>
+Package pdftex.def Info: Figures/chapter2_Figure/CMS_detector_design.png  used 
+on input line 30.
+(pdftex.def)             Requested size: 346.89732pt x 245.02292pt.
+[2 <./Figures/chapter2_Figure/CMS_detector_design.png>]
+<Figures/chapter2_Figure/magnet_diagram.png, id=164, 853.1875pt x 733.74126pt>
+File: Figures/chapter2_Figure/magnet_diagram.png Graphic file (type png)
+<use Figures/chapter2_Figure/magnet_diagram.png>
+Package pdftex.def Info: Figures/chapter2_Figure/magnet_diagram.png  used on in
+put line 48.
+(pdftex.def)             Requested size: 195.12767pt x 167.80528pt.
+
+
+LaTeX Warning: Citation 'cms:MFTDR' on page 3 undefined on input line 57.
+
+
+LaTeX Warning: Citation 'Reference36' on page 3 undefined on input line 57.
+
+
+LaTeX Warning: Citation 'Reference37' on page 3 undefined on input line 57.
+
+
+LaTeX Warning: Citation 'Reference38' on page 3 undefined on input line 57.
+
+[3]
+
+LaTeX Warning: Reference `fig:cms_coordinates2:a' on page 4 undefined on input 
+line 61.
+
+<Figures/chapter2_Figure/cms_coordinate_system1.png, id=176, 136.3494pt x 138.7
+584pt>
+File: Figures/chapter2_Figure/cms_coordinate_system1.png Graphic file (type png
+)
+<use Figures/chapter2_Figure/cms_coordinate_system1.png>
+Package pdftex.def Info: Figures/chapter2_Figure/cms_coordinate_system1.png  us
+ed on input line 69.
+(pdftex.def)             Requested size: 130.08733pt x 132.38927pt.
+<Figures/chapter2_Figure/cms_coordinate_system2.png, id=177, 903.375pt x 443.65
+75pt>
+File: Figures/chapter2_Figure/cms_coordinate_system2.png Graphic file (type png
+)
+<use Figures/chapter2_Figure/cms_coordinate_system2.png>
+Package pdftex.def Info: Figures/chapter2_Figure/cms_coordinate_system2.png  us
+ed on input line 73.
+(pdftex.def)             Requested size: 281.85036pt x 138.41922pt.
+[4 <./Figures/chapter2_Figure/magnet_diagram.png> <./Figures/chapter2_Figure/cm
+s_coordinate_system1.png> <./Figures/chapter2_Figure/cms_coordinate_system2.png
+>]
+<Figures/chapter2_Figure/CMS_tracker.pdf, id=189, 817.139pt x 394.5942pt>
+File: Figures/chapter2_Figure/CMS_tracker.pdf Graphic file (type pdf)
+<use Figures/chapter2_Figure/CMS_tracker.pdf>
+Package pdftex.def Info: Figures/chapter2_Figure/CMS_tracker.pdf  used on input
+ line 129.
+(pdftex.def)             Requested size: 346.89732pt x 167.51666pt.
+
+
+LaTeX Warning: Citation 'Reference34' on page 5 undefined on input line 172.
+
+
+LaTeX Warning: Reference `Klein:2017nke' on page 5 undefined on input line 177.
+
+
+[5]
+<Figures/chapter2_Figure/CMS_pixel_upgrade.png, id=196, 1891.065pt x 604.2575pt
+>
+File: Figures/chapter2_Figure/CMS_pixel_upgrade.png Graphic file (type png)
+<use Figures/chapter2_Figure/CMS_pixel_upgrade.png>
+Package pdftex.def Info: Figures/chapter2_Figure/CMS_pixel_upgrade.png  used on
+ input line 193.
+(pdftex.def)             Requested size: 346.89732pt x 110.84541pt.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.199 
+      
+? 
+
+LaTeX Warning: Citation 'Sonneveld:2018ntf' on page 6 undefined on input line 2
+05.
+
+[6 <./Figures/chapter2_Figure/CMS_tracker.pdf> <./Figures/chapter2_Figure/CMS_p
+ixel_upgrade.png>]
+<Figures/chapter2_Figure/hit_efficiency_upgrade.png, id=275, 1786.675pt x 838.1
+3126pt>
+File: Figures/chapter2_Figure/hit_efficiency_upgrade.png Graphic file (type png
+)
+<use Figures/chapter2_Figure/hit_efficiency_upgrade.png>
+Package pdftex.def Info: Figures/chapter2_Figure/hit_efficiency_upgrade.png  us
+ed on input line 209.
+(pdftex.def)             Requested size: 346.89732pt x 162.72516pt.
+
+
+LaTeX Warning: Citation 'Reference34' on page 7 undefined on input line 290.
+
+
+LaTeX Warning: Citation 'cms:ECALTDR' on page 7 undefined on input line 292.
+
+
+Overfull \hbox (9.93019pt too wide) in paragraph at lines 288--293
+\T1/ppl/m/n/12 with emis-sion of light that is di-rectly pro-por-tional in-ci-d
+ent par-ti-cle's en-ergy (through
  []
 
-LaTeX Font Info:    Try loading font information for OMS+ppl on input line 58.
+[7 <./Figures/chapter2_Figure/hit_efficiency_upgrade.png>]
+<Figures/chapter2_Figure/ecal_2.pdf, id=282, 569.54585pt x 278.23146pt>
+File: Figures/chapter2_Figure/ecal_2.pdf Graphic file (type pdf)
+<use Figures/chapter2_Figure/ecal_2.pdf>
+Package pdftex.def Info: Figures/chapter2_Figure/ecal_2.pdf  used on input line
+ 300.
+(pdftex.def)             Requested size: 303.53267pt x 148.28134pt.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.308 ...m${}^{3}$) with less radiation length (X_
+                                                  $\circ$ of 0.89~cm ).
+? 
+! Missing { inserted.
+<to be read again> 
+                   $
+l.308 ...${}^{3}$) with less radiation length (X_$
+                                                  \circ$ of 0.89~cm ).
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.308 ...${}^{3}$) with less radiation length (X_$
+                                                  \circ$ of 0.89~cm ).
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.308 ...3}$) with less radiation length (X_$\circ
+                                                  $ of 0.89~cm ).
+? 
+[8 <./Figures/chapter2_Figure/ecal_2.pdf>]
+<Figures/chapter2_Figure/CMS_Electromagnetic_calorimeter.pdf, id=309, 805.15166
+pt x 553.4301pt>
+File: Figures/chapter2_Figure/CMS_Electromagnetic_calorimeter.pdf Graphic file 
+(type pdf)
+<use Figures/chapter2_Figure/CMS_Electromagnetic_calorimeter.pdf>
+Package pdftex.def Info: Figures/chapter2_Figure/CMS_Electromagnetic_calorimete
+r.pdf  used on input line 344.
+(pdftex.def)             Requested size: 303.53267pt x 208.64201pt.
+<Figures/chapter2_Figure/ecal_contributions.png, id=311, 865.2325pt x 732.7375p
+t>
+File: Figures/chapter2_Figure/ecal_contributions.png Graphic file (type png)
+<use Figures/chapter2_Figure/ecal_contributions.png>
+Package pdftex.def Info: Figures/chapter2_Figure/ecal_contributions.png  used o
+n input line 372.
+(pdftex.def)             Requested size: 260.17465pt x 220.32608pt.
+ [9 <./Figures/chapter2_Figure/CMS_Electromagnetic_calorimeter.pdf>]
+
+LaTeX Warning: Citation 'Zghiche_2019' on page 10 undefined on input line 381.
+
+<Figures/chapter2_Figure/ecal_energy_resolution_2017.png, id=345, 1854.93pt x 6
+25.33624pt>
+File: Figures/chapter2_Figure/ecal_energy_resolution_2017.png Graphic file (typ
+e png)
+<use Figures/chapter2_Figure/ecal_energy_resolution_2017.png>
+Package pdftex.def Info: Figures/chapter2_Figure/ecal_energy_resolution_2017.pn
+g  used on input line 386.
+(pdftex.def)             Requested size: 433.62001pt x 146.18114pt.
+[10 <./Figures/chapter2_Figure/ecal_contributions.png> <./Figures/chapter2_Figu
+re/ecal_energy_resolution_2017.png>]
+
+LaTeX Warning: Citation 'Reference34' on page 11 undefined on input line 406.
+
+<Figures/chapter2_Figure/CMS_HCAL.pdf, id=354, 1073.00874pt x 636.37732pt>
+File: Figures/chapter2_Figure/CMS_HCAL.pdf Graphic file (type pdf)
+<use Figures/chapter2_Figure/CMS_HCAL.pdf>
+Package pdftex.def Info: Figures/chapter2_Figure/CMS_HCAL.pdf  used on input li
+ne 410.
+(pdftex.def)             Requested size: 303.53267pt x 180.00996pt.
+! Missing $ inserted.
+<inserted text> 
+                $
+l.424 ...a \eta \times \Delta \phi $ = 0.87 \times
+                                                   0.87.
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.426 
+      
+? 
+[11 <./Figures/chapter2_Figure/CMS_HCAL.pdf>]
+
+LaTeX Warning: Citation 'pixel_hcal_upgrade' on page 12 undefined on input line
+ 501.
+
+[12]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.531 ...e. Having long lifetime (i.e. 2.19 \times
+                                                   $10^{-6}$ ~which is even ...
+
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.531 ...ving long lifetime (i.e. 2.19 \times $10^
+                                                  {-6}$ ~which is even highe...
+
+? 
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 534.
+
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsppl.fd
 File: omsppl.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 58.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 534.
 
 
-LaTeX Warning: Reference `Chapter1' on page 2 undefined on input line 58.
+LaTeX Warning: Citation 'cms:muonsystem_TDR' on page 13 undefined on input line
+ 539.
+
+<Figures/chapter2_Figure/MS_layout.png, id=426, 785.93625pt x 581.17125pt>
+File: Figures/chapter2_Figure/MS_layout.png Graphic file (type png)
+<use Figures/chapter2_Figure/MS_layout.png>
+Package pdftex.def Info: Figures/chapter2_Figure/MS_layout.png  used on input l
+ine 562.
+(pdftex.def)             Requested size: 303.53267pt x 224.45662pt.
+[13]) [14] [15 <./Figures/chapter2_Figure/MS_layout.png>] [16
 
 
-LaTeX Warning: Reference `Chapter2' on page 2 undefined on input line 59.
-
-
-LaTeX Warning: Reference `Chapter3' on page 2 undefined on input line 60.
-
-
-LaTeX Warning: Reference `Chapter4' on page 2 undefined on input line 61.
-
-
-LaTeX Warning: Reference `Chapter7' on page 2 undefined on input line 62.
-
-) [2]
-Overfull \hbox (0.46481pt too wide) in paragraph at lines 449--449
+]
+Overfull \hbox (0.46481pt too wide) in paragraph at lines 451--451
 []\T1/ppl/m/n/12 P. W. Higgs. ^^P  Spon-ta-neous Sym-me-try Break-down with-out
  Mass-less Bosons^^Q.
  []
 
 1: section
-[3
-
-
-]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 449.
- [4]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 449.
- (./main_simple.aux (./Chapters/abstract.aux)
-(./Chapters/introduction.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 449.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 449.
+[17]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 451.
+ [18]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 451.
+ (./main_simple.aux (./Chapters/Chapter_2_CMS.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 451.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 451.
 Package rerunfilecheck Info: File `main_simple.out' has not changed.
-(rerunfilecheck)             Checksum: 168DDF3F6FC07A7F974824320DFD93F0;432.
+(rerunfilecheck)             Checksum: 01B9B8F61C004DBD820ADDA9AA9B2AEE;2412.
 
 
 LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
 
 
 Package biblatex Warning: Please (re)run BibTeX on the file(s):
@@ -2474,28 +2657,35 @@ Package logreq Info: Writing requests to 'main_simple.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 37686 strings out of 492982
- 752689 string characters out of 6134896
- 975045 words of memory out of 5000000
- 40741 multiletter control sequences out of 15000+600000
- 561844 words of font info for 73 fonts, out of 8000000 for 9000
+ 37817 strings out of 492982
+ 756613 string characters out of 6134896
+ 978045 words of memory out of 5000000
+ 40822 multiletter control sequences out of 15000+600000
+ 568907 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,19n,76p,10384b,1944s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 57i,19n,83p,10384b,2012s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhv
-r8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main_simple.pdf (14 pages, 157741 bytes).
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
+y10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/font
+s/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/
+palatino/uplri8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/urw/times/utmri8a.pfb>
+Output written on main_simple.pdf (26 pages, 5327326 bytes).
 PDF statistics:
- 185 PDF objects out of 1000 (max. 8388607)
- 155 compressed objects within 2 object streams
- 37 named destinations out of 1000 (max. 500000)
- 38 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 535 PDF objects out of 1000 (max. 8388607)
+ 435 compressed objects within 5 object streams
+ 76 named destinations out of 1000 (max. 500000)
+ 175 words of extra memory for PDF output out of 10000 (max. 10000000)
 

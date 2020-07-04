@@ -1,0 +1,14 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {english}{}
+\contentsline {chapter}{List of Figures}{v}{chapter*.2}
+\contentsline {chapter}{List of Tables}{vii}{chapter*.3}
+\contentsline {chapter}{\numberline {1}Experiment}{1}{chapter.5}
+\contentsline {section}{\numberline {1.1}The Large Hadron Collider (LHC) }{1}{section.6}
+\contentsline {subsection}{\numberline {1.1.1}Machine Layout and Performance}{2}{subsection.8}
+\contentsline {subsubsection}{Machine Layout}{2}{section*.9}
+\contentsline {subsubsection}{LHC Performance Goals}{2}{section*.11}
+\contentsline {subsubsection}{Nominal Luminosity and Beam Parameters}{4}{section*.13}
+\contentsline {subsection}{\numberline {1.1.2}Data Taking from 2015 to 2018 (Full Run 2) }{6}{subsection.18}
+\contentsline {section}{\numberline {1.2}The Compact Muon Solenoid (CMS) Experiment}{6}{section.24}
+\contentsline {subsection}{\numberline {1.2.1}CMS Detector Geometry}{8}{subsection.26}
+\contentsline {subsection}{\numberline {1.2.2}Inner Tracking System (ITS) }{10}{subsection.31}

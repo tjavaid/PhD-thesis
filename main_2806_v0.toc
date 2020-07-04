@@ -30,8 +30,8 @@
 \contentsline {subsection}{\numberline {3.1.1}Machine Layout and Performance}{18}{subsection.3.1.1}
 \contentsline {subsubsection}{Machine Layout}{18}{section*.22}
 \contentsline {subsubsection}{LHC Performance Goals}{18}{section*.24}
-\contentsline {subsubsection}{Nominal Luminosity and Beam Parameters}{18}{section*.25}
+\contentsline {subsubsection}{Nominal Luminosity and Beam Parameters}{19}{section*.25}
 \contentsline {subsection}{\numberline {3.1.2}Data Taking from 2015 to 2018 (Full Run 2) }{19}{subsection.3.1.2}
 \contentsline {section}{\numberline {3.2}The Compact Muon Solenoid (CMS) Experiment}{21}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}CMS Detector Geometry}{21}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Inner Tracking System (ITS) }{23}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.1}CMS Detector Geometry}{23}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Inner Tracking System (ITS) }{24}{subsection.3.2.2}
