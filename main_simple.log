@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.28)  4 JUL 2020 00:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.28)  5 JUL 2020 04:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2317,7 +2317,7 @@ File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 237.
-<Figures/Logo.jpg, id=59, 226.8475pt x 223.83624pt>
+<Figures/Logo.jpg, id=83, 226.8475pt x 223.83624pt>
 File: Figures/Logo.jpg Graphic file (type jpg)
 <use Figures/Logo.jpg>
 Package pdftex.def Info: Figures/Logo.jpg  used on input line 260.
@@ -2339,21 +2339,21 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
 1: section
 [3] [4
 
-] (./main_simple.lof)
+] (./main_simple.lof
+1: section
+[5])
 \tf@lof=\write8
 \openout8 = `main_simple.lof'.
 
-
-1: section
-[5] [6
-
-] (./main_simple.lot)
+ [6] (./main_simple.lot)
 \tf@lot=\write9
 \openout9 = `main_simple.lot'.
 
 
 1: section
-[7] [8
+[7
+
+] [8
 
 ]
 1: section
@@ -2362,12 +2362,12 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
 (./Chapters/Chapter_2_CMS.tex
 Chapter 1.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 9.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 10.
 
-LaTeX Warning: Citation 'Reference34' on page 1 undefined on input line 12.
+LaTeX Warning: Citation 'Reference34' on page 1 undefined on input line 13.
 
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 13.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 14.
 1: section
 [1
 
@@ -2380,67 +2380,67 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.27 \end{itemize}
+l.28 \end{itemize}
                   
 ? 
 ! Extra \endgroup.
 <recently read> \endgroup 
                           
-l.27 \end{itemize}
+l.28 \end{itemize}
                   
 ? 
-<Figures/chapter2_Figure/CMS_detector_design.png, id=152, 3189.9175pt x 2253.41
+<Figures/chapter2_Figure/CMS_detector_design.png, id=211, 3189.9175pt x 2253.41
 875pt>
 File: Figures/chapter2_Figure/CMS_detector_design.png Graphic file (type png)
 <use Figures/chapter2_Figure/CMS_detector_design.png>
 Package pdftex.def Info: Figures/chapter2_Figure/CMS_detector_design.png  used 
-on input line 30.
+on input line 31.
 (pdftex.def)             Requested size: 346.89732pt x 245.02292pt.
 [2 <./Figures/chapter2_Figure/CMS_detector_design.png>]
-<Figures/chapter2_Figure/magnet_diagram.png, id=164, 853.1875pt x 733.74126pt>
+<Figures/chapter2_Figure/magnet_diagram.png, id=222, 853.1875pt x 733.74126pt>
 File: Figures/chapter2_Figure/magnet_diagram.png Graphic file (type png)
 <use Figures/chapter2_Figure/magnet_diagram.png>
 Package pdftex.def Info: Figures/chapter2_Figure/magnet_diagram.png  used on in
-put line 48.
+put line 49.
 (pdftex.def)             Requested size: 195.12767pt x 167.80528pt.
 
 
-LaTeX Warning: Citation 'cms:MFTDR' on page 3 undefined on input line 57.
+LaTeX Warning: Citation 'cms:MFTDR' on page 3 undefined on input line 58.
 
 
-LaTeX Warning: Citation 'Reference36' on page 3 undefined on input line 57.
+LaTeX Warning: Citation 'Reference36' on page 3 undefined on input line 58.
 
 
-LaTeX Warning: Citation 'Reference37' on page 3 undefined on input line 57.
+LaTeX Warning: Citation 'Reference37' on page 3 undefined on input line 58.
 
 
-LaTeX Warning: Citation 'Reference38' on page 3 undefined on input line 57.
+LaTeX Warning: Citation 'Reference38' on page 3 undefined on input line 58.
 
 [3]
 
 LaTeX Warning: Reference `fig:cms_coordinates2:a' on page 4 undefined on input 
-line 61.
+line 62.
 
-<Figures/chapter2_Figure/cms_coordinate_system1.png, id=176, 136.3494pt x 138.7
+<Figures/chapter2_Figure/cms_coordinate_system1.png, id=234, 136.3494pt x 138.7
 584pt>
 File: Figures/chapter2_Figure/cms_coordinate_system1.png Graphic file (type png
 )
 <use Figures/chapter2_Figure/cms_coordinate_system1.png>
 Package pdftex.def Info: Figures/chapter2_Figure/cms_coordinate_system1.png  us
-ed on input line 69.
+ed on input line 70.
 (pdftex.def)             Requested size: 130.08733pt x 132.38927pt.
-<Figures/chapter2_Figure/cms_coordinate_system2.png, id=177, 903.375pt x 443.65
+<Figures/chapter2_Figure/cms_coordinate_system2.png, id=235, 903.375pt x 443.65
 75pt>
 File: Figures/chapter2_Figure/cms_coordinate_system2.png Graphic file (type png
 )
 <use Figures/chapter2_Figure/cms_coordinate_system2.png>
 Package pdftex.def Info: Figures/chapter2_Figure/cms_coordinate_system2.png  us
-ed on input line 73.
+ed on input line 74.
 (pdftex.def)             Requested size: 281.85036pt x 138.41922pt.
 [4 <./Figures/chapter2_Figure/magnet_diagram.png> <./Figures/chapter2_Figure/cm
 s_coordinate_system1.png> <./Figures/chapter2_Figure/cms_coordinate_system2.png
 >]
-<Figures/chapter2_Figure/CMS_tracker.pdf, id=189, 817.139pt x 394.5942pt>
+<Figures/chapter2_Figure/CMS_tracker.pdf, id=247, 817.139pt x 394.5942pt>
 File: Figures/chapter2_Figure/CMS_tracker.pdf Graphic file (type pdf)
 <use Figures/chapter2_Figure/CMS_tracker.pdf>
 Package pdftex.def Info: Figures/chapter2_Figure/CMS_tracker.pdf  used on input
@@ -2455,7 +2455,7 @@ LaTeX Warning: Reference `Klein:2017nke' on page 5 undefined on input line 177.
 
 
 [5]
-<Figures/chapter2_Figure/CMS_pixel_upgrade.png, id=196, 1891.065pt x 604.2575pt
+<Figures/chapter2_Figure/CMS_pixel_upgrade.png, id=254, 1891.065pt x 604.2575pt
 >
 File: Figures/chapter2_Figure/CMS_pixel_upgrade.png Graphic file (type png)
 <use Figures/chapter2_Figure/CMS_pixel_upgrade.png>
@@ -2479,7 +2479,7 @@ LaTeX Warning: Citation 'Sonneveld:2018ntf' on page 6 undefined on input line 2
 
 [6 <./Figures/chapter2_Figure/CMS_tracker.pdf> <./Figures/chapter2_Figure/CMS_p
 ixel_upgrade.png>]
-<Figures/chapter2_Figure/hit_efficiency_upgrade.png, id=275, 1786.675pt x 838.1
+<Figures/chapter2_Figure/hit_efficiency_upgrade.png, id=334, 1786.675pt x 838.1
 3126pt>
 File: Figures/chapter2_Figure/hit_efficiency_upgrade.png Graphic file (type png
 )
@@ -2501,7 +2501,7 @@ ent par-ti-cle's en-ergy (through
  []
 
 [7 <./Figures/chapter2_Figure/hit_efficiency_upgrade.png>]
-<Figures/chapter2_Figure/ecal_2.pdf, id=282, 569.54585pt x 278.23146pt>
+<Figures/chapter2_Figure/ecal_2.pdf, id=341, 569.54585pt x 278.23146pt>
 File: Figures/chapter2_Figure/ecal_2.pdf Graphic file (type pdf)
 <use Figures/chapter2_Figure/ecal_2.pdf>
 Package pdftex.def Info: Figures/chapter2_Figure/ecal_2.pdf  used on input line
@@ -2533,7 +2533,7 @@ l.308 ...3}$) with less radiation length (X_$\circ
                                                   $ of 0.89~cm ).
 ? 
 [8 <./Figures/chapter2_Figure/ecal_2.pdf>]
-<Figures/chapter2_Figure/CMS_Electromagnetic_calorimeter.pdf, id=309, 805.15166
+<Figures/chapter2_Figure/CMS_Electromagnetic_calorimeter.pdf, id=367, 805.15166
 pt x 553.4301pt>
 File: Figures/chapter2_Figure/CMS_Electromagnetic_calorimeter.pdf Graphic file 
 (type pdf)
@@ -2541,7 +2541,7 @@ File: Figures/chapter2_Figure/CMS_Electromagnetic_calorimeter.pdf Graphic file
 Package pdftex.def Info: Figures/chapter2_Figure/CMS_Electromagnetic_calorimete
 r.pdf  used on input line 344.
 (pdftex.def)             Requested size: 303.53267pt x 208.64201pt.
-<Figures/chapter2_Figure/ecal_contributions.png, id=311, 865.2325pt x 732.7375p
+<Figures/chapter2_Figure/ecal_contributions.png, id=369, 865.2325pt x 732.7375p
 t>
 File: Figures/chapter2_Figure/ecal_contributions.png Graphic file (type png)
 <use Figures/chapter2_Figure/ecal_contributions.png>
@@ -2552,7 +2552,7 @@ n input line 372.
 
 LaTeX Warning: Citation 'Zghiche_2019' on page 10 undefined on input line 381.
 
-<Figures/chapter2_Figure/ecal_energy_resolution_2017.png, id=345, 1854.93pt x 6
+<Figures/chapter2_Figure/ecal_energy_resolution_2017.png, id=403, 1854.93pt x 6
 25.33624pt>
 File: Figures/chapter2_Figure/ecal_energy_resolution_2017.png Graphic file (typ
 e png)
@@ -2565,7 +2565,7 @@ re/ecal_energy_resolution_2017.png>]
 
 LaTeX Warning: Citation 'Reference34' on page 11 undefined on input line 406.
 
-<Figures/chapter2_Figure/CMS_HCAL.pdf, id=354, 1073.00874pt x 636.37732pt>
+<Figures/chapter2_Figure/CMS_HCAL.pdf, id=412, 1073.00874pt x 636.37732pt>
 File: Figures/chapter2_Figure/CMS_HCAL.pdf Graphic file (type pdf)
 <use Figures/chapter2_Figure/CMS_HCAL.pdf>
 Package pdftex.def Info: Figures/chapter2_Figure/CMS_HCAL.pdf  used on input li
@@ -2580,48 +2580,163 @@ l.424 ...a \eta \times \Delta \phi $ = 0.87 \times
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.426 
+l.425 
       
 ? 
 [11 <./Figures/chapter2_Figure/CMS_HCAL.pdf>]
 
 LaTeX Warning: Citation 'pixel_hcal_upgrade' on page 12 undefined on input line
- 501.
+ 499.
+
+
+Overfull \hbox (34.1832pt too wide) in paragraph at lines 499--528
+\T1/ppl/m/n/12 (SiPMs) for noise elim-i-na-tion and bet-ter photo de-tec-tion e
+f-fi-ciency  [[]]. 
+ []
 
 [12]
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.531 ...e. Having long lifetime (i.e. 2.19 \times
-                                                   $10^{-6}$ ~which is even ...
+l.529 ...e. Having long lifetime (i.e. 2.19 \times
+                                                   $10^{-6}$ , which is even...
 
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.531 ...ving long lifetime (i.e. 2.19 \times $10^
-                                                  {-6}$ ~which is even highe...
+l.529 ...ving long lifetime (i.e. 2.19 \times $10^
+                                                  {-6}$ , which is even high...
 
 ? 
-LaTeX Font Info:    Try loading font information for OMS+ppl on input line 534.
+
+LaTeX Warning: Citation 'cms:muonsystem_TDR' on page 13 undefined on input line
+ 529.
+
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 532.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsppl.fd
 File: omsppl.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 534.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 532.
+<Figures/chapter2_Figure/cms_muon_system_layout.png, id=484, 1307.88625pt x 849
+.1725pt>
+File: Figures/chapter2_Figure/cms_muon_system_layout.png Graphic file (type png
+)
+<use Figures/chapter2_Figure/cms_muon_system_layout.png>
+Package pdftex.def Info: Figures/chapter2_Figure/cms_muon_system_layout.png  us
+ed on input line 547.
+(pdftex.def)             Requested size: 390.25536pt x 253.38023pt.
 
 
-LaTeX Warning: Citation 'cms:muonsystem_TDR' on page 13 undefined on input line
- 539.
+LaTeX Warning: Citation 'Ref->' on page 13 undefined on input line 591.
 
-<Figures/chapter2_Figure/MS_layout.png, id=426, 785.93625pt x 581.17125pt>
-File: Figures/chapter2_Figure/MS_layout.png Graphic file (type png)
-<use Figures/chapter2_Figure/MS_layout.png>
-Package pdftex.def Info: Figures/chapter2_Figure/MS_layout.png  used on input l
-ine 562.
-(pdftex.def)             Requested size: 303.53267pt x 224.45662pt.
-[13]) [14] [15 <./Figures/chapter2_Figure/MS_layout.png>] [16
+
+LaTeX Warning: Citation 'cms_muon_tdr' on page 13 undefined on input line 591.
+
+! Undefined control sequence.
+\micro ->\ERROR 
+                
+l.592 ...e wire made of steel (of radius 25 \micro
+                                                   m) togther with walls of ...
+
+? 
+
+LaTeX Warning: Citation 'comm' on page 13 undefined on input line 593.
+
+
+LaTeX Warning: Citation 'article_dt' on page 13 undefined on input line 593.
+
+[13] [14 <./Figures/chapter2_Figure/cms_muon_system_layout.png>]
+<Figures/chapter2_Figure/drift_tube.png, id=496, 916.42375pt x 533.995pt>
+File: Figures/chapter2_Figure/drift_tube.png Graphic file (type png)
+<use Figures/chapter2_Figure/drift_tube.png>
+Package pdftex.def Info: Figures/chapter2_Figure/drift_tube.png  used on input 
+line 617.
+(pdftex.def)             Requested size: 195.12767pt x 113.69855pt.
+<Figures/chapter2_Figure/dt_chamers.png, id=497, 830.10126pt x 849.1725pt>
+File: Figures/chapter2_Figure/dt_chamers.png Graphic file (type png)
+<use Figures/chapter2_Figure/dt_chamers.png>
+Package pdftex.def Info: Figures/chapter2_Figure/dt_chamers.png  used on input 
+line 621.
+(pdftex.def)             Requested size: 216.81pt x 221.79031pt.
+
+
+LaTeX Warning: Citation 'article' on page 15 undefined on input line 648.
+
+<Figures/chapter2_Figure/cms_rpc.png, id=499, 853.1875pt x 323.2075pt>
+File: Figures/chapter2_Figure/cms_rpc.png Graphic file (type png)
+<use Figures/chapter2_Figure/cms_rpc.png>
+Package pdftex.def Info: Figures/chapter2_Figure/cms_rpc.png  used on input lin
+e 660.
+(pdftex.def)             Requested size: 303.53267pt x 114.98851pt.
+[15 <./Figures/chapter2_Figure/drift_tube.png> <./Figures/chapter2_Figure/dt_ch
+amers.png>]
+
+LaTeX Warning: Reference `Fig:CMS_muon_system_layout' on page 16 undefined on i
+nput line 697.
+
+<Figures/chapter2_Figure/csc_layout.png, id=509, 1389.19pt x 718.685pt>
+File: Figures/chapter2_Figure/csc_layout.png Graphic file (type png)
+<use Figures/chapter2_Figure/csc_layout.png>
+Package pdftex.def Info: Figures/chapter2_Figure/csc_layout.png  used on input 
+line 707.
+(pdftex.def)             Requested size: 303.53267pt x 157.02553pt.
+[16 <./Figures/chapter2_Figure/cms_rpc.png>]
+<Figures/chapter2_Figure/csc_chamber_electronics2.png, id=518, 1544.77126pt x 7
+78.91pt>
+File: Figures/chapter2_Figure/csc_chamber_electronics2.png Graphic file (type p
+ng)
+<use Figures/chapter2_Figure/csc_chamber_electronics2.png>
+Package pdftex.def Info: Figures/chapter2_Figure/csc_chamber_electronics2.png  
+used on input line 718.
+(pdftex.def)             Requested size: 411.93768pt x 207.70566pt.
+
+
+LaTeX Warning: Citation 'Sirunyan:2018fpa' on page 17 undefined on input line 7
+26.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 726--746
+
+ []
+
+[17 <./Figures/chapter2_Figure/csc_layout.png>]
+
+LaTeX Warning: Reference `updated_cms' on page 18 undefined on input line 751.
+
+
+LaTeX Warning: Citation 'Radogna:2016esa' on page 18 undefined on input line 75
+1.
+
+
+LaTeX Warning: Citation 'Costantini:2711362' on page 18 undefined on input line
+ 751.
+
+[18 <./Figures/chapter2_Figure/csc_chamber_electronics2.png>]
+<Figures/chapter2_Figure/updated_cms.png, id=530, 555.0336pt x 365.6862pt>
+File: Figures/chapter2_Figure/updated_cms.png Graphic file (type png)
+<use Figures/chapter2_Figure/updated_cms.png>
+Package pdftex.def Info: Figures/chapter2_Figure/updated_cms.png  used on input
+ line 785.
+(pdftex.def)             Requested size: 411.93768pt x 271.40706pt.
+
+! Undefined control sequence.
+\micro ->\ERROR 
+                
+l.896 ...uon system to make decisions (in 4 \micro
+                                                   s) in several steps to ac...
+
+? 
+[19 <./Figures/chapter2_Figure/updated_cms.png>]
+<Figures/chapter2_Figure/cms_l1_trigger.png, id=537, 986.68625pt x 706.64pt>
+File: Figures/chapter2_Figure/cms_l1_trigger.png Graphic file (type png)
+<use Figures/chapter2_Figure/cms_l1_trigger.png>
+Package pdftex.def Info: Figures/chapter2_Figure/cms_l1_trigger.png  used on in
+put line 901.
+(pdftex.def)             Requested size: 368.57965pt x 263.96501pt.
+ [20 <./Figures/chapter2_Figure/cms_l1_trigger.png>]) [21] [22
 
 
 ]
@@ -2631,15 +2746,15 @@ Overfull \hbox (0.46481pt too wide) in paragraph at lines 451--451
  []
 
 1: section
-[17]
+[23]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 451.
- [18]
+ [24]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 451.
  (./main_simple.aux (./Chapters/Chapter_2_CMS.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 451.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 451.
 Package rerunfilecheck Info: File `main_simple.out' has not changed.
-(rerunfilecheck)             Checksum: 01B9B8F61C004DBD820ADDA9AA9B2AEE;2412.
+(rerunfilecheck)             Checksum: 1373C9D4C9218CB351FD9831A4636EF3;3990.
 
 
 LaTeX Warning: There were undefined references.
@@ -2657,35 +2772,38 @@ Package logreq Info: Writing requests to 'main_simple.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 37817 strings out of 492982
- 756613 string characters out of 6134896
+ 37911 strings out of 492982
+ 758859 string characters out of 6134896
  978045 words of memory out of 5000000
- 40822 multiletter control sequences out of 15000+600000
- 568907 words of font info for 81 fonts, out of 8000000 for 9000
+ 40882 multiletter control sequences out of 15000+600000
+ 574477 words of font info for 96 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,19n,83p,10384b,2012s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
-y10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/font
-s/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/
-palatino/uplri8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/urw/times/utmri8a.pfb>
-Output written on main_simple.pdf (26 pages, 5327326 bytes).
+ 57i,20n,83p,10384b,2425s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{figure.caption.48} has been referenced but does n
+ot exist, replaced by a fixed one
+
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
+0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/pa
+latino/uplri8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+urw/times/utmri8a.pfb>
+Output written on main_simple.pdf (32 pages, 6827757 bytes).
 PDF statistics:
- 535 PDF objects out of 1000 (max. 8388607)
- 435 compressed objects within 5 object streams
- 76 named destinations out of 1000 (max. 500000)
- 175 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 648 PDF objects out of 1000 (max. 8388607)
+ 526 compressed objects within 6 object streams
+ 98 named destinations out of 1000 (max. 500000)
+ 258 words of extra memory for PDF output out of 10000 (max. 10000000)
 

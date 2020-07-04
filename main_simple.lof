@@ -14,4 +14,12 @@
 \contentsline {figure}{\numberline {1.9}{\ignorespaces CMS ECAL energy resolution curve with individual term contributions.\relax }}{10}{figure.caption.25}
 \contentsline {figure}{\numberline {1.10}{\ignorespaces CMS ECAL energy resolution.\relax }}{10}{figure.caption.26}
 \contentsline {figure}{\numberline {1.11}{\ignorespaces CMS HCAL layout.\relax }}{11}{figure.caption.28}
-\contentsline {figure}{\numberline {1.12}{\ignorespaces CMS muon system layout.\relax }}{15}{figure.caption.32}
+\contentsline {figure}{\numberline {1.12}{\ignorespaces CMS muon system layout (as stood by Run2 operations of LHC).\relax }}{14}{figure.caption.32}
+\contentsline {figure}{\numberline {1.13}{\ignorespaces (a) Schematic diagram of drift cell and produced electric field. (b) Cross sectional view of DT chambers in barrel shown one of the five wheels\relax }}{15}{figure.caption.34}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{15}{figure.caption.34}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{15}{figure.caption.34}
+\contentsline {figure}{\numberline {1.14}{\ignorespaces Cross sectional view of a RPC chamber.\relax }}{16}{figure.caption.38}
+\contentsline {figure}{\numberline {1.15}{\ignorespaces CSC layout (left) and induced current (right) when a charged particle pass through it.\relax }}{17}{figure.caption.40}
+\contentsline {figure}{\numberline {1.16}{\ignorespaces Overview of electronic boards of a CSC chamber and involved in communication of data. Readout system of ME/1/1 chambers were upgraded after Run 1, hence differs from other chambers.\relax }}{18}{figure.caption.42}
+\contentsline {figure}{\numberline {1.17}{\ignorespaces Updated schematic diagram of CMS muon system with addition of GEM chambers.\relax }}{19}{figure.caption.44}
+\contentsline {figure}{\numberline {1.18}{\ignorespaces The configuration of L1 trigger.\relax }}{20}{figure.caption.47}
