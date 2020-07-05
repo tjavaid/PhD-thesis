@@ -17,148 +17,6 @@
 \endgroup
 
 \datalist[entry]{none/global//global/global}
-  \entry{Reference7}{article}{}
-    \name{author}{2}{}{%
-      {{hash=EF}{%
-         family={Englert},
-         familyi={E\bibinitperiod},
-         given={F.},
-         giveni={F\bibinitperiod},
-      }}%
-      {{hash=BR}{%
-         family={Brout},
-         familyi={B\bibinitperiod},
-         given={R.},
-         giveni={R\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{EFBR1}
-    \strng{fullhash}{EFBR1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{number}{9}
-    \field{pages}{321\bibrangedash 323}
-    \field{title}{Broken Symmetry and the Mass of Gauge Vector Mesons}
-    \field{volume}{13}
-    \field{journaltitle}{Phys.Lett.}
-    \field{year}{1964}
-  \endentry
-
-  \entry{Reference8}{article}{}
-    \name{author}{1}{}{%
-      {{hash=KTWB}{%
-         family={Kibble},
-         familyi={K\bibinitperiod},
-         given={T.\bibnamedelima W.\bibnamedelima B.},
-         giveni={T\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim
-  B\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{KTWB1}
-    \strng{fullhash}{KTWB1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{number}{5}
-    \field{pages}{1554\bibrangedash 1561}
-    \field{title}{Symmetry Breaking in Non-Abelian Gauge Theories}
-    \field{volume}{155}
-    \field{journaltitle}{Phys. Rev. Lett.}
-    \field{year}{1966}
-  \endentry
-
-  \entry{Reference9}{article}{}
-    \name{author}{2}{}{%
-      {{hash=GSGCRH}{%
-         family={G.\bibnamedelima S.\bibnamedelima Guralnik},
-         familyi={G\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim
-  G\bibinitperiod},
-         given={C.\bibnamedelima R.\bibnamedelima Hagen},
-         giveni={C\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim
-  H\bibinitperiod},
-      }}%
-      {{hash=KTWB}{%
-         family={Kibble},
-         familyi={K\bibinitperiod},
-         given={T.\bibnamedelima W.\bibnamedelima B.},
-         giveni={T\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim
-  B\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{GSGCRHKTWB1}
-    \strng{fullhash}{GSGCRHKTWB1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{number}{20}
-    \field{pages}{585\bibrangedash 587}
-    \field{title}{Global Conservation Laws and Massless Particles}
-    \field{volume}{13}
-    \field{journaltitle}{Phys. Rev. Lett.}
-    \field{year}{1964}
-  \endentry
-
-  \entry{Reference10}{article}{}
-    \name{author}{1}{}{%
-      {{hash=HPW}{%
-         family={Higgs},
-         familyi={H\bibinitperiod},
-         given={P.\bibnamedelima W.},
-         giveni={P\bibinitperiod\bibinitdelim W\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{HPW1}
-    \strng{fullhash}{HPW1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{number}{2}
-    \field{pages}{132\bibrangedash 133}
-    \field{title}{Broken symmetries, massless particles and gauge fields}
-    \field{volume}{12}
-    \field{journaltitle}{Phys. Rev. Lett.}
-    \field{year}{1964}
-  \endentry
-
-  \entry{Reference11}{article}{}
-    \name{author}{1}{}{%
-      {{hash=HPW}{%
-         family={Higgs},
-         familyi={H\bibinitperiod},
-         given={P.\bibnamedelima W.},
-         giveni={P\bibinitperiod\bibinitdelim W\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{HPW1}
-    \strng{fullhash}{HPW1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{number}{16}
-    \field{pages}{508\bibrangedash 509}
-    \field{title}{Broken Symmetries and the Masses of Gauge Bosons}
-    \field{volume}{13}
-    \field{journaltitle}{Phys. Rev. Lett.}
-    \field{year}{1964}
-  \endentry
-
-  \entry{Reference12}{article}{}
-    \name{author}{1}{}{%
-      {{hash=HPW}{%
-         family={Higgs},
-         familyi={H\bibinitperiod},
-         given={P.\bibnamedelima W.},
-         giveni={P\bibinitperiod\bibinitdelim W\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{HPW1}
-    \strng{fullhash}{HPW1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{number}{4}
-    \field{pages}{1156\bibrangedash 1163}
-    \field{title}{Spontaneous Symmetry Breakdown without Massless Bosons}
-    \field{volume}{145}
-    \field{journaltitle}{Phys. Rev. Lett.}
-    \field{year}{1965}
-  \endentry
-
   \entry{Reference20}{article}{}
     \name{author}{1}{}{%
       {{hash=CA}{%
@@ -220,6 +78,73 @@
     \field{volume}{726}
     \field{journaltitle}{Phys. Lett. B}
     \field{year}{2013}
+  \endentry
+
+  \entry{Reference21a}{article}{}
+    \name{author}{2}{}{%
+      {{hash=A}{%
+         family={ATLAS},
+         familyi={A\bibinitperiod},
+      }}%
+      {{hash=CC}{%
+         family={Collaboration},
+         familyi={C\bibinitperiod},
+         given={CMS},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ACC1}
+    \strng{fullhash}{ACC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{191803}
+    \field{title}{Combined measurement of the Higgs Boson mass in pp collisions
+  at $\sqrt{s}$~= 7 and 8 TeV with the ATLAS and CMS experiment}
+    \field{volume}{115}
+    \field{journaltitle}{Physics Rev. Lett.}
+    \field{year}{2015}
+  \endentry
+
+  \entry{Reference21b}{article}{}
+    \name{author}{1}{}{%
+      {{hash=CA}{%
+         family={Collaboration},
+         familyi={C\bibinitperiod},
+         given={ATLAS},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CA1}
+    \strng{fullhash}{CA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{476}
+    \field{title}{Study of the spin and parity of the Higgs Boson in diboson
+  decays with the ATLAS detector}
+    \field{volume}{C75}
+    \field{journaltitle}{Eur. Phys. Phys. J.}
+    \field{year}{2015}
+  \endentry
+
+  \entry{Reference21c}{article}{}
+    \name{author}{1}{}{%
+      {{hash=CC}{%
+         family={Collaboration},
+         familyi={C\bibinitperiod},
+         given={CMS},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CC1}
+    \strng{fullhash}{CC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{012004}
+    \field{title}{Constraints on the spin-parity and anomalous HVV couplings of
+  the Higgs boson in proton collisions at 7 and 8 TeV}
+    \field{volume}{D92}
+    \field{journaltitle}{Phys. Rev.}
+    \field{year}{2015}
   \endentry
 
   \entry{ATLAS:Hgg_8TeV}{article}{}
@@ -388,6 +313,28 @@
     \field{volume}{76}
     \field{journaltitle}{Eur. Phys. J. C}
     \field{year}{2016}
+  \endentry
+
+  \entry{Reference39}{article}{}
+    \name{author}{1}{}{%
+      {{hash=CC}{%
+         family={Collaboration},
+         familyi={C\bibinitperiod},
+         given={CMS},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CC1}
+    \strng{fullhash}{CC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{212}
+    \field{title}{Precise determination of the mass of the Higgs boson and
+  tests of compatibility of its couplings with the standard model predictions
+  using proton collisions at 7 and 8 TeV}
+    \field{volume}{75}
+    \field{journaltitle}{Eur. Phys. J. C}
+    \field{year}{2015}
   \endentry
 \enddatalist
 \endinput
