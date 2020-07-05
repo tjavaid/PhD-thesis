@@ -740,6 +740,7 @@ From Run1 to Run2 operations of LHC, increasing luminosity was challenging for m
 %    year = "2018"
 %}
 To minimize the misidentification rates, and improve efficiency and redundancy, RPC and CSC were extended to install RE4 and ME4 as fourth stations in the mainstream.
+Due to this,  CSC and RPC Trigger Track-Finder were rebuilt to accommodate the additional information from ME4 and RE4 planes.
 Readout electronics and trigger system were also enhanced.  To increase the bandwidth, optical fibre links in DT and CSC were added. During Run1, strips in ME1/1a ring were ganged together into a group of 3. Subsequently, new electronics, Digital Cathode Front End Boards (DCFEBS), were installed in ME1/1 chambers of CSC to provide readout to every strip separately allowing ME1/1 to effectively perform in high luminosity environment.\\
 During ongoing long shutdown 2 (LS2), there several upgrades are in process for upcoming physics programs under high luminosity LHC.
 CSC will undergo upgrade of readout system of ME1/1, ME2/1, ME3/1, and ME4/1. Total 180 chambers will be refurbished to replace CFEBs with upgraded DCFEBs and ALCT mezzanine boards. Also for ME2/1, ME3/1 and ME4/1, LVDBs will also be upgraded.\\
@@ -885,7 +886,8 @@ Updated schematic diagram of CMS muon system with addition of GEM chambers can b
 %\end{center}
 %\end{figure} 
 %\subsection{Trigger and Data Acquisition System of CMS}
-\section{CMS Trigger System and the Data Acquisition}
+%\section{CMS Trigger System and the Data Acquisition}
+\section{CMS Trigger System }
 CMS is big and general purpose experiment purposed to explore data that LHC has produced during the proton-proton collisions. 
 LHC produces around 40 million collisions in a second (40 MHz); however, not all the collisions are interesting for physics purposes. Further, for the data acquisition (DAQ) system, it is not effective to read every event produce at high rate.
 Also, storing the uninteresting eventsprouced in LHC collisions will require a lot of storage.
@@ -908,7 +910,9 @@ L1 trigger is build with programmable electronics, that exploits coarse informat
 L1 trigger can be classified into calorimeter and muon triggers.
 Calorimeter has ECAL and HCAL as independent regional triggers that provide information to the global Calorimeter Trigger (GCT). Likewise, muon trigger has local trigger corresponding to CSC, DT and RPC each which then combine to make global muon trigger (GMT). GCT and GMT then feed to Global Trigger (GT) to make final decision about the event whether to accept or reject. 
 
-In order to cope with higher event rate for Run 2 operations, a new trigger architecture, the Time Multiplexed Trigger (TMT) was planted. TMT uses sophisticated algorithms (i.e. FPGAs) in $\mu TCA$ to exploit full granularity of the calorimeters and benefitted from technological improvements in hardware. 
+In order to cope with higher event rate for Run 2 operations, a new trigger architecture, the Time Multiplexed Trigger (TMT) was planted. TMT uses sophisticated algorithms (i.e. FPGAs) in $\mu TCA$ to exploit full granularity of the calorimeters and is benefitted from technological improvements in hardware. 
+rebuilding the CSC Trigger Track-Finder to accommodate the additional information from
+ME4/2 and ME1/1
 
 %Sophisticated algorithms, developed to fully exploit the advantages provided by the
 %new hardware architecture, have been implemented. The new trigger system started taking physics
@@ -942,16 +946,28 @@ In order to cope with higher event rate for Run 2 operations, a new trigger arch
 %\label{Fig:CMS_L1_trigger_configuration}
 %\end{center}
 %\end{figure} 
-\subsubsection{High-Level Trigger Architecture}
-HLT  is three level (2, 2.5 and 3) trigger with growing complexity starting at level 2  which usually works on top of the information provided by L1 trigger. Goal of the HLT is to use output event rate of L1-trigger(100kHz) and reduce it upto 1 kHZ.  Level 2 HLT is to build fine granularity objects by combining the information from sub-detectors e.g from preshower and ECAL energy clusters are combined for electrons. Bremsstrahlung  
-of the electrons causes its energy to spread into several neighbor cells. To compensate this effect, clusters of ECAL are combined to form superclusters.
-\par At HLT level 2.5, the inner tracker information is combined and matched with calorimeters and muon system. In case of electron, energy supercluster is 
-matched with the hits in the tracker, if matches it form a seed. Tracker hits are matched with the hits in muon system to reconstruct global muon.
-HLT level 3 reconstructs the complete track, if its found electron seed or matching hits of muon. After these three stages, precise energy and momentum are calculated of 
-the objects that decides to accept or reject the event. 
-\par There are more than 200 different HLT paths each derived by at least one L1 bit. The data which pass the HLT trigger is organized into different 
-datasets according to the objects reconstructed in the event and the passed selection e.g an event with two muons reconstructed with transverse momentum
-greater than 8 and 17~GeV will be placed in "DoubleMu'' dataset. 
+\subsubsection{High-Level Trigger System (HLT)}
+HLT performs event selections in a similar way that we perform for the offline processing of events.
+Primary goal of the HLT system is to take events (coming at 100kHz) from L1 trigger and reduce it to get an output rate of 1 kHz. This is done is done in several steps.
+For a process of interest, to reconstruct or identify an object (like electron, muon or so) a certain criteria is applied over each event.
+HLT is built with a farm of single processor computers which is known as event filter farm which assembles fragments of an individual event with the help of the builder units to construct the complete events. An assembled event is then fed to the filter unit which transforms the raw information into the data structure which is specific to the detector and does event reconstruction and filterig of trigger. These builder and filter units in a machine and linked through a shared memory.
+Filtering process exploits the precise data coming out of the trigger wherein event selection is based on the quality of the offline reconstruction algorithms. Available CPU power allows to take events at rate of 100 kHz which sustains for average processing time per event $viz$ 90 ms which can be increased with an increased CPU power.\\
+Performance of HLT is based on \textit{HLT paths} which consist of a set of algorithms to perform in a predefined order to perform physics object selections followed by reconstruction step. Each HLT path applies in growing order of complexity as simpler algorithms run first to impose basic selections. Different HLT paths are based on diffrent algorithms which are designed quite similar to ones used for offline reconstruction in analysis. This helps to use CMS software which is used for offline analyses.\\
+Events passing L1 trigger are sent to HLT menu having certain paths which are assigned to make decision.
+HLT operates at a specific instantaneous luminosity which is done by dividing the passed events with a paramer, $n$, called prescale factor. HLT path with pre-scale value $n$ selects one event out of $n$ passing events. Events organized in streams of HLT decisions are then passed to storage manager softwares which store them on local disks and finally transfer to Tier-0 of CMS for its permanent storage.  % https://arxiv.org/pdf/1609.02366.pdf
+
+
+%
+%
+%HLT  is three level (2, 2.5 and 3) trigger with growing complexity starting at level 2  which usually works on top of the information provided by L1 trigger. Goal of the HLT is to use output event rate of L1-trigger(100kHz) and reduce it upto 1 kHZ.  Level 2 HLT is to build fine granularity objects by combining the information from sub-detectors e.g from preshower and ECAL energy clusters are combined for electrons. Bremsstrahlung  
+%of the electrons causes its energy to spread into several neighbor cells. To compensate this effect, clusters of ECAL are combined to form superclusters.
+%\par At HLT level 2.5, the inner tracker information is combined and matched with calorimeters and muon system. In case of electron, energy supercluster is 
+%matched with the hits in the tracker, if matches it form a seed. Tracker hits are matched with the hits in muon system to reconstruct global muon.
+%HLT level 3 reconstructs the complete track, if its found electron seed or matching hits of muon. After these three stages, precise energy and momentum are calculated of 
+%the objects that decides to accept or reject the event. 
+%\par There are more than 200 different HLT paths each derived by at least one L1 bit. The data which pass the HLT trigger is organized into different 
+%datasets according to the objects reconstructed in the event and the passed selection e.g an event with two muons reconstructed with transverse momentum
+%greater than 8 and 17~GeV will be placed in "DoubleMu'' dataset. 
 %\subsubsection{Data Acquisition (DAQ) System of CMS}
 %The schematic skeleton of CMS DAQ system is presented in Figure \ref{Fig:CMS_DAQ_layout}. CMS DAQ provides data from 650 different readout channels to 
 %HLT along with enough computing resources to limit the output data rate~\cite{cms:DAQ_TDR}. Frangments of an event with a size of 2KB is provided by each module. 

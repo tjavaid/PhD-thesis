@@ -2,20 +2,6 @@
 \babel@toc {english}{}
 \contentsline {chapter}{List of Figures}{v}{chapter*.2}
 \contentsline {chapter}{List of Tables}{vii}{chapter*.3}
-\contentsline {chapter}{\numberline {1}The Compat Muon Solenoid (CMS) detector}{1}{chapter.4}
-\contentsline {section}{\numberline {1.1}The Compact Muon Solenoid (CMS) detector}{1}{section.5}
-\contentsline {subsection}{\numberline {1.1.1}General aspects and the geometry}{2}{subsection.6}
-\contentsline {subsubsection}{The CMS magnet}{3}{section*.8}
-\contentsline {subsection}{\numberline {1.1.2}CMS Coordinate system}{4}{subsection.11}
-\contentsline {subsection}{\numberline {1.1.3}Inner Tracking System (ITS) }{5}{subsection.15}
-\contentsline {subsubsection}{The Pixel Detector}{5}{section*.17}
-\contentsline {subsubsection}{The Silicon Strip}{7}{section*.20}
-\contentsline {subsection}{\numberline {1.1.4}Electromagnetic Calorimeter (ECAL) }{8}{subsection.21}
-\contentsline {subsection}{\numberline {1.1.5}Hadron Calorimeter (HCAL)}{11}{subsection.27}
-\contentsline {subsection}{\numberline {1.1.6}CMS Muon System }{13}{subsection.31}
-\contentsline {subsubsection}{Drift Tubes (DT)}{13}{section*.33}
-\contentsline {subsubsection}{Resistive Plate Chambers (RPC)}{15}{section*.37}
-\contentsline {subsubsection}{Cathode Strip Chambers (CSC)}{16}{section*.39}
-\contentsline {subsubsection}{Improvements in CMS muon system during Run1 - Run2 and during ongoing long shutdowon 2}{17}{section*.43}
-\contentsline {section}{\numberline {1.2}CMS Trigger System and the Data Acquisition}{19}{section.45}
-\contentsline {subsection}{\numberline {1.2.1}The L1 Trigger of CMS}{20}{subsection.46}
+\contentsline {chapter}{\numberline {1}Summary and Outlook}{1}{chapter.4}
+\contentsline {section}{\numberline {1.1}Summary of the dissertation}{1}{section.5}
+\contentsline {section}{\numberline {1.2}Outlook}{2}{section.6}
