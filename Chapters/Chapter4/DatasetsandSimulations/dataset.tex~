@@ -2,27 +2,27 @@
 
 %\subsection{Data}
 
-\subsubsection{Triggers and Datasets}
-\label{sec:trigpaths}
-
-
-The analysis uses full Run 2 (2016, 2017 and 2018) CMS data sample corresponding to $\usedLumiABC$ intergrated luminosity.  
+%\subsubsection{Triggers and Datasets}
+%\label{sec:trigpaths}
+%
+The analysis uses full Run 2 (2016, 2017 and 2018) CMS data corresponding to $\usedLumiABC$ intergrated luminosity.  
 %The HLT paths used for different periods of collision data are listed in Table~\ref{tab:triggerPathsA},~\ref{tab:triggerPathsB}, and ~\ref{tab:triggerPathsC}. 
 
 %The datasets used are listed in Tables~\ref{tab:datasets_dataA}, ~\ref{tab:datasets_dataB}, and ~\ref{tab:datasets_dataC} along with the integrated luminosity. 
-The datasets used are listed and documented in ~\cite{HIG-19-001}. % in appendix? FIXME 
+Used datasets are listed and documented in ~\cite{CMS:2019chr} with the corresponding integrated luminosities. % in appendix? FIXME 
 The analysis relies on four different primary datasets (PDs), {\it DoubleMuon}, {\it MuEG}, {\it EGamma}, and {\it SingleMuon},
 each of which combines a certain collections of HLT paths. 
-To avoid duplicate events from different primary datasets, events are taken: 
+Events are collected to avoid duplications from different PDs, using: 
 \begin{itemize}
-\item from EGamma if they pass the diEle or triEle or singleElectron triggers,
-\item from DoubleMuon if they pass the diMuon or triMuon triggers and fail the diEle and triEle triggers,
-\item from MuEG if they pass the MuEle or MuDiEle or DiMuEle triggers and fail the diEle, triEle, singleElectron, diMuon and triMuon triggers,
+\item EGamma if they pass the diEle or triEle or singleElectron triggers,
+\item DoubleMuon if they pass the diMuon or triMuon triggers and fail the diEle and triEle triggers,
+\item MuEG if they pass the MuEle or MuDiEle or DiMuEle triggers and fail the diEle, triEle, singleElectron, diMuon and triMuon triggers,
 %\item from SingleElectron if they pass the singleElectron trigger and fail all the above triggers. 
-\item from SingleMuon if they pass the singleMuon trigger and fail all the above triggers. 
+\item SingleMuon if they pass the singleMuon trigger and fail all the above triggers. 
 \end{itemize} 
 
-The HLT paths used for 2018 collision data is listed in ~\cite{HIG-19-001}.
+%The HLT paths used for 2018 collision data is listed in ~\cite{CMS:2019chr}.
+The HLT paths used for full Run 2 collision data is listed in ~\cite{CMS:2019chr} and also in the Appendix. % give address
 
 
 %\begin{table}[h]
@@ -300,7 +300,8 @@ The HLT paths used for 2018 collision data is listed in ~\cite{HIG-19-001}.
 %\end{table}
 
 
-\subsubsection{Trigger Efficiency}
+%\subsubsection{Trigger Efficiency}
+\subsection{Trigger Efficiency}
 
 Efficiency in data of combination of triggers used for the anlysis 
 %with respect to offline reconstruction and selection 
@@ -318,7 +319,7 @@ can be formed using the probe leptons, probes are call passing probes which are 
 %trigger). 
 This technique is used to measure efficiency on MC and the comparison with data is exploited to estimate the reliability of simulation.
 %also exercised on MC and the difference between data and MC is used to determine the reliability of the simulation.
- Fig. \ref{fig:TrigEffC} shows the measured efficiency both in data and MC (2018) varied with minimum $p_{\rm{T}}$ of leptons. MC efficiency seems to describe data well within the uncertainties.
+ Fig. ~\ref{Fig:TrigEffC} shows the measured efficiency both in data and MC (2018) varied with minimum $p_{\rm{T}}$ of leptons. MC efficiency seems to describe data well within the uncertainties.
 
 %=======
 %\begin{figure}[!htb]
@@ -359,7 +360,7 @@ This technique is used to measure efficiency on MC and the comparison with data 
 		\caption{
 		%\textbf{FIXME: Add figure once ready.}
 		Measured trigger efficiency in 2018 data where the event collection is made using single electron and muon triggers: $4e$ (top left), $4\mu$ (top right), $2e2\mu$ (bottom left) and $4\ell$ (bottom right) final states. 
-			\label{fig:TrigEffC}}
+			\label{Fig:TrigEffC}}
 	\end{center}
 \end{figure}
 %=======

@@ -1,12 +1,17 @@
-This dissertation is based on the analysis for which event selection for measurements are similar to what was used in pervious analyses on same topic and in the same final state~~\cite{HIG-18-001, HIG-16-041, Chatrchyan:2013mxa, Khachatryan:2014kca}. 
-The online event selection is based on having fired High Level Trigger paths as described in \cite{sec:trigpaths}.  
-Unlike in the Run I analysis, the trigger requirement does not depend on the selected final state: it is always the OR of all HLT paths. The reason is in Run II we will be targeting associated production modes that can come with additional leptons, thus improving trigger efficiency further.
+This dissertation is based on the analysis for which event selections are similar to what was used in pervious analyses on same topic using the same final state ~\cite{CMS:2018mmw, CMS:2017jkd, Chatrchyan:2013mxa, Khachatryan:2014kca}. 
+The online event selection is based on having fired High Level Trigger paths as described in ~\ref{sec:trigpaths}.  
+Unlike in the analysis based on Run I dataset, we require OR of all HLT paths so that the trigger requirement does not depend on the selected final state. 
+The reason is Full Run II data (at $\usedLumiABC$), associated production modes that can come with additional leptons are targeted which improve trigger efficiency. % further.
 %PV req
-The events are required to have at least one primary
-vertex (PV) that fullfills the criteria of having large degree of freedom ($N_{PV}>4$) with radius of PV being small ($r_{PV}<2$ cm) and the collisions being restricted along $z-$axis ($z_{PV}<24$ cm).
-%and small radius of the PV ($r_{PV}<2$ cm).
-
-
+\subsubsection{Vertex Selection}
+The events are required to have at least one primary vertex (PV) that fullfills the criteria:
+\begin{itemize}
+	\item Large degree of freedom ($N_{PV}>4$)
+	\item Small radius of PV being small ($r_{PV}<2$ cm)
+	\item Restricted collisions along $z-$axis ($z_{PV}<24$ cm).
+\end{itemize}
+		%and small radius of the PV ($r_{PV}<2$ cm).
+\subsubsection{$\pt$ threshold requirements on the Triggers}
 For the double lepton triggers, the requirement on minimum $p_{T}$ for leading and the subleading lepton are imposed to be 17 and 8~GeV respectively; however, for triple electron triggers, it is 15, 8 and 5~GeV in the same order respectively.  
 
 %In offline selection, events are selected with at least four well identified and isolated leptons produced at primary 
@@ -16,14 +21,23 @@ For the double lepton triggers, the requirement on minimum $p_{T}$ for leading a
 %selected. There should be at least two leptons with \pt$ \ge 20$ and $ \ge 10 \Gev$ among four selected leptons forming Z$_{1}$ and Z$_{2}$. To remove 
 %contamination from QCD low masses resonance, any opposite-charge pair of leptons is required to pass $m({\ell^{+}\ell'^{-}}) \ge 4 \GeV$. The final state
 %radiated (FSR) photons are  also recovered and briefly discussed in Section \ref{sec:FSRphotons}.
+\subsubsection{Lepton Selection}
+Details on the selection requirments on electron and muons are explained in sections \ref{sec:eleID} and  \ref{sec:muonReco}, and \ref{sec:eleID} and \ref{sec:muoniso} respectively. Both electrons and muons are initially required to pass POG Loose identification criteria with subsequent requirements on imparameter and isolation. These leptons are regarded as {\bf selected leptons} and can be used for analysis.
+
+
+%\subsubsection{Jet Selection}
+%\par Reconstruction of the jets is mandatory to study the differential cross section measurements for the jet related observables.
+%Jets are reconstructed with $p_T \ge 30$~GeV within $|\eta|\le 4.7$, discussed in Section ~\ref{jets_reco}. To remove overlapping of jets overlap from leptons or selected photons, it is required to have at least  $\Delta R > 0.5$ where $\Delta R \equiv \sqrt{(\Delta \eta)^2+ (\Delta \phi)^2}$ ~\cite{Chatrchyan:2013mx} with respect to any of the selected leptons and FSR photons candidates.
+
 \subsection{ZZ Candidate Selection}
 \label{sec:zzcandsel}
 
-The four-lepton candidates are built from what we call {\bf selected leptons}, which
-are the tight leptons (defined in sections \ref{sec:eleID} and  \ref{sec:muonReco}) that pass the ${\rm SIP_{3D}} < 4$ vertex constraint
+Four-lepton candidates are built from the selected leptons, %four-lepton candidates are built %from what we call {\bf selected leptons}, 
+%which are the tight leptons (defined in sections \ref{sec:eleID} and  \ref{sec:muonReco}) that 
+that pass the ${\rm SIP_{3D}} < 4$ vertex constraint
 and the isolation cuts (defined in sections \ref{sec:eleID} and \ref{sec:muoniso}),
 where FSR photons are subtracted as briefed in Section \ref{sec:FSRphotons}.
-A lepton cross cleaning is applied
+Cross cleaning of the leptons is made
 by discarding electrons which are within $\Delta R < 0.05$ of selected muons.
 
 
@@ -39,8 +53,8 @@ Z boson candidate is also required to include FSR photons (if any).
   \begin{itemize}
   \item {\bf Ghost removal }: Selected four leptons are required to have $\Delta R(\eta,\phi) > 0.02$ among each other.
   \item {\bf lepton $p_T$}: Among selected four leptons, two are required to fulfill
-     $p_{T,i} > 20~\GeVc$ and $p_{T,j} > 10~\GeVc$.
-  \item {\bf QCD suppression}: Dilepton inivariant mass is required to pass (regardless of flavor) $m_{\ell\ell} > 4~\GeVcc$ for QCD induced  $J/\Psi$ veto.
+     $p_{T,i} > 20 GeV$ and $p_{T,j} > 10 GeV$.
+  \item {\bf QCD suppression}: Dilepton inivariant mass is required to pass (regardless of flavor) $m_{\ell\ell} > 4~ GeV$ for QCD induced  $J/\Psi$ veto.
 %     Here, selected FSR photons are not used in computing $m_{\ell\ell}$,
 %     since a QCD-induced low mass dilepton (eg. $J/\Psi$)
 %     may have photons nearby (e.g. from $\pi_0$).
@@ -55,17 +69,16 @@ Z boson candidate is also required to include FSR photons (if any).
 %     (NB. In Run I, such a situation was avoided by choosing the best ZZ candidate
 %     before applying kinematic cuts to it, most precisely before the $m_{\rm Z2} > 12~\GeVcc$ cut.
 %     The present smart cut allows to choose the best ZZ candidate after all kinematic cuts.)
-  \item {\bf four-lepton invariant mass}: $\mllll > 70~\GeVcc$
+  \item {\bf four-lepton invariant mass}: $\mllll > 70~ GeV $
   \end{itemize}
-\item Events containing one selected ZZ candidate at leaset should form the {\bf signal region}.
+\item {\bf Signal region} is built from the events containing one selected ZZ candidate at leaset.% should form the {\bf signal region}.
 \end{enumerate}
 
 
 \subsection{Choice of best ZZ Candidate}
 \label{sec:zzbestcand}
 
-Unlike in the Run I analysis, the best ZZ candidate is now chosen after all kinematic cuts, a change that allows to test other selection strategies for this candidate choice.
-This is especially relevant for events with more than four selected leptons, having in mind search for Higgs boson production modes where associated particles can decay to leptons, such as VH and ttH.
+An important change with respect to the Run I analysis is to choose the best ZZ candidate after all kinematic cuts. This helps to test other selection strategies for this candidate choice and becomes important for events having more than four selected leptons to search for Higgs boson production modes where associated particles can decay leptonically (e.g. VH and ttH).
 
 For fiducial cross section measurement, $Z_{1}$ is chosen with mass closest to the mass of SM Z boson mass while $Z_{2}$ is chosen from Z candidates whose lepton pair gives higher $p_{T}$ sum. 
 %For STXS measurement, we adopt a different approach: if more than one ZZ candidate survives the selection, we choose the one with the highest value of $\KD$ (defined in Section~\ref{sec:observables}, except when
@@ -73,5 +86,8 @@ For fiducial cross section measurement, $Z_{1}$ is chosen with mass closest to t
 %Z boson mass is retained. 
 
 
-\par Reconstruction of the jets is  incumbent to explore the differential cross section measurements with respect to jets related observables. 
-Jets are reconstructed with $p_T \ge 30$~GeV within $|\eta|\le 4.7$, discussed in Section ~\ref{jets_reco}. To remove overlapping of jets overlap from leptons or selected photons, it is required to have at least  $\Delta R > 0.5$ where $\Delta R \equiv \sqrt{(\Delta \eta)^2+ (\Delta \phi)^2}$ ~\cite{Chatrchyan:2013mx} with respect to any of the selected leptons and FSR photons candidates. 
+\subsubsection{Jet Selection}
+\par Reconstruction of the jets is mandatory to study the differential cross section measurements for the jet related observables.
+Jets are reconstructed with $p_T \ge 30$~GeV within $|\eta|\le 4.7$, discussed in Section ~\ref{jets_reco}. To remove overlapping of jets overlap from leptons or selected photons, it is required to have at least  $\Delta R > 0.5$ where $\Delta R \equiv \sqrt{(\Delta \eta)^2+ (\Delta \phi)^2}$ ~\cite{Chatrchyan:2013mx} with respect to any of the selected leptons and FSR photons candidates.
+%\par Reconstruction of the jets is  incumbent to explore the differential cross section measurements for the jet related observables. 
+%Jets are reconstructed with $p_T \ge 30$~GeV within $|\eta|\le 4.7$, discussed in Section ~\ref{jets_reco}. To remove overlapping of jets overlap from leptons or selected photons, it is required to have at least  $\Delta R > 0.5$ where $\Delta R \equiv \sqrt{(\Delta \eta)^2+ (\Delta \phi)^2}$ ~\cite{Chatrchyan:2013mx} with respect to any of the selected leptons and FSR photons candidates. 

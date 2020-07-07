@@ -1,0 +1,8 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {english}{}
+\contentsline {chapter}{List of Figures}{v}{chapter*.2}
+\contentsline {chapter}{List of Tables}{vii}{chapter*.3}
+\contentsline {chapter}{\numberline {1}Probing four lepton final-state for Higgs Cross section measurement}{1}{chapter.4}
+\contentsline {section}{\numberline {1.1}Introduction}{1}{section.5}
+\contentsline {section}{\numberline {1.2}Datasets and Triggers}{2}{section.7}
+\contentsline {subsection}{\numberline {1.2.1}Trigger Efficiency}{3}{subsection.8}

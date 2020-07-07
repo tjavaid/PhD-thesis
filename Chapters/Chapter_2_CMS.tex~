@@ -59,8 +59,8 @@ The magnetic field direction inside (tracker) and outside the solenoid (muon sys
 
 %\subsection{CMS Detector Geometry}
 \subsection{CMS Coordinate system}
-Coordinate system used for CMS detector for its operations is sketched in Figures \ref{fig:cms_coordinates1:a} \ref{fig:cms_coordinates2:a}. %This will be used throughout. 
-The CMS detector is in cylinderical shape around beam axis as illustrated in Figure \ref{Fig:CMS_detector_design} which is represented by $Z-axis$ in Figures \ref{fig:cms_coordinates1:a} \ref{fig:cms_coordinates1:a}. The point where two beams collides in beam pipe is called center of experiment; the y axis is directed 
+Coordinate system used for CMS detector for its operations is sketched in Figures \ref{fig:cms_coordinates1:a} and \ref{fig:cms_coordinates2:b}. %This will be used throughout. 
+The CMS detector is in cylinderical shape around beam axis as illustrated in Figure \ref{Fig:CMS_detector_design} which is represented by $Z-axis$ in Figures \ref{fig:cms_coordinates2:b}. The point where two beams collides in beam pipe is called center of experiment; the y axis is directed 
 vertically upwards and the x axis being horizontal towards the LHC ring center. 
 \begin{figure}[htb]
   \begin{center}
@@ -74,7 +74,7 @@ vertically upwards and the x axis being horizontal towards the LHC ring center.
     } \\
     
           \caption{CMS spherical coordinte system}
-  \label{fig:cms_coordinates2:b}
+  \label{fig:cms_coordinates}
   \end{center}
 \end{figure}
 
@@ -955,6 +955,39 @@ Filtering process exploits the precise data coming out of the trigger wherein ev
 Performance of HLT is based on \textit{HLT paths} which consist of a set of algorithms to perform in a predefined order to perform physics object selections followed by reconstruction step. Each HLT path applies in growing order of complexity as simpler algorithms run first to impose basic selections. Different HLT paths are based on diffrent algorithms which are designed quite similar to ones used for offline reconstruction in analysis. This helps to use CMS software which is used for offline analyses.\\
 Events passing L1 trigger are sent to HLT menu having certain paths which are assigned to make decision.
 HLT operates at a specific instantaneous luminosity which is done by dividing the passed events with a paramer, $n$, called prescale factor. HLT path with pre-scale value $n$ selects one event out of $n$ passing events. Events organized in streams of HLT decisions are then passed to storage manager softwares which store them on local disks and finally transfer to Tier-0 of CMS for its permanent storage.  % https://arxiv.org/pdf/1609.02366.pdf
+
+\section{Worldwide LHC Computing Grid}
+There is a dire demand of the four experiments of LHC (CMS, ATLAS, ALICE, LHCb) for a facility to store the prompt data obtained from LHC collisions.
+Further to process and analyse the huge amount of data to extract  physics results is also challenging. LHC produces about 15 petabyte data each year duing its operation.
+To cope with this huge amount of data, setting a multi-tiered computing infrastructure was approved by CERN council in 2002. This is known as Worldwide LHC Computing Grid (WLCG) and which links around 170 computing centers in more than 40 countries. WLCG is mainly tasked for providing infrastructure of organized computing facilities to the four main experiments of CERN. To fulfill the goals, it is connected with around 150 thousand cores of processors with storage capicity of 50 petabytes on the disks \cite{Fisk:2010jd}.
+
+%%@inproceedings{Fisk:2010jd,
+%    author = "Fisk, Ian",
+%    collaboration = "CMS",
+%    title = "{First Experiences with LHC Grid Computing and Distributed Analysis}",
+%    booktitle = "{21st Hadron Collider Physics Symposium}",
+%    eprint = "1012.1980",
+%    archivePrefix = "arXiv",
+%    primaryClass = "physics.data-an",
+%    reportNumber = "FERMILAB-CONF-10-503-CD",
+%    month = "12",
+%    year = "2010"
+%}
+
+Schematic diagram of WLCG Tier system is shown in the Figure \ref{Fig:LHC_computing_grid}.
+\begin{figure}
+\begin{center}
+\includegraphics[width=0.65\linewidth]{Figures/chapter2_Figure/LHC_computing_grid.jpg}
+\caption{A sketch of WLCG Tier architecture.}
+\label{Fig:LHC_computing_grid}
+\end{center}
+\end{figure}
+
+
+\subsection{3-Tier Architecture}
+Computing models at WLCG are mainly based on 3 tier levels.
+Tier-0 facility is situated at CERN. It receives prompt data (RAW data) produced from LHC collisions as a primary backup and does the reconstruction of the events and store in the form of prompt-RECO dta.
+It then exports the RAW data to to large computing centers at Tier-1 where the events are set to be reconstructed again with refined calibrations and at each Tier-1 site, a detailed reconstruction of RAW data is performed to get AOD(Analysis Object Data) version of data which most compact form of data. It also serves to distribute the AOD data to Tier-2 sites where the data can be used for end-user analysis specific reprocessing and simulations for all experiments.
 
 
 %

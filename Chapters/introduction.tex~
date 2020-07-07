@@ -59,7 +59,7 @@ from SM predictions which can be a doorway to new physics.
 \begin{itemize}
 	\item \textbf{Chapter  1~\ref{Chapter1}:  } An overview of theoretical background i.e. the SM of particle physics, production and decays of H boson are described.% in Chapter ~\ref{Chapter1}. 
 	\item \textbf{Chapter 2~\ref{Chapter2}: } Overview of LHC experiment and its operation are described. 
-	\item \textbf{Chapter 3~\ref{Chapter2_CMS}: } CMS detector and reconstructions of the  physics objects within the CMS detector are described. % in Chapter ~\ref{Chapter3}. 
+	\item \textbf{Chapter 3~\ref{Chapter2_CMS}: } CMS detector, its sub-detectors and gradual upgrades are described. % in Chapter ~\ref{Chapter3}. 
 	\item \textbf{Chapter 4~\ref{Chapter3}: } The calibrations and reconstructions of the  physics objects within the CMS detector are described. % in Chapter ~\ref{Chapter3}. 
         \item \textbf{Chapter 5~\ref{Chapter4}: } Presents the procedure of measurements of inclusive and differential fiducial cross sections of H boson production at $\sqrt{s} = 13$~TeV.
 	\item \textbf{Chapter 6~\ref{Chapter7}: } Finally, the conclusions and outlook of the dissertation are summarized.

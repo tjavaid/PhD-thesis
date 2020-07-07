@@ -1,6 +1,6 @@
 % Chapter 2
 
-\chapter{Experiment: The Large Hadron Collider (LHC) } % Main chapter title
+\chapter{The Large Hadron Collider (LHC) } % Main chapter title
 
 \label{Chapter2} % For referencing the chapter elsewhere, use \ref{Chapter2} 
 %----------------------------------------------------------------------------------------
@@ -164,30 +164,31 @@ High luminosity LHC is, therefore, planned to achieve a peak luminosity of 5 \ti
 %%center-of-mass of energy to 8~TeV during 2012 and luminosity reached at the value of $10^{33} cm^{-2}s^{-1}$. LHC delivered 23.3~\ifb of data during 2012 as 
 %%shown in Figure~\ref{fig:luminosity_2012}. The protons bunch spacing was reduced from 50~ns to 25~ns to increase the luminosity. 
 After successful data taking during Run 1, LHC machine was shutdown for two years in 2013 and 2014 for major upgrades in LHC machine and detectors. LHC started again in 2015 at center-of-mass energies to 13~TeV(close to its design value i.e 14~TeV). LHC delivered 4.2~\ifb during 2015 at 13~TeV center of mass energy and subsequently, it delivered 41.0~\ifb, 49.8~\ifb and 67.9~\ifb  
-during the years 2016, 2017 and 2018 as shown in the Figure \ref{fig:luminosity_2015}, \ref{fig:luminosity_2016}, \ref{fig:luminosity_2017} and \ref{fig:luminosity_2018} respectively. In the figures we can also see the recorded data by the CMS experiment from LHC delivered data in different run periods.
+during the years 2016, 2017 and 2018 as shown in the Figure \ref{fig:test}. %, \ref{fig:luminosity_2016}, \ref{fig:luminosity_2017} and \ref{fig:luminosity_2018} respectively. 
+In the figures we can also see the recorded data by the CMS experiment from LHC delivered data in different run periods.
 %\vspace{6em}
 %
 %%%%%%
 \begin{figure}[!htb]
   \begin{center}
-    \subfigure[]{
+    \subfigure{
       \includegraphics[width=0.48\textwidth,angle=0]{Figures/chapter2_Figure/int_lumi_per_day_cumulative_pp_2015_prelim.pdf}
       \label{fig:luminosity_2015}
     }
-    \subfigure[]{
+    \subfigure{
       \includegraphics[width=0.48\textwidth,angle=0]{Figures/chapter2_Figure/int_lumi_per_day_cumulative_pp_2016_prelim.pdf}
       \label{fig:luminosity_2016}
     } 
-    \subfigure[]{
+    \subfigure{
       %\includegraphics[width=0.48\textwidth,angle=0]{Figures/chapter2_Figure/int_lumi_per_day_cumulative_pp_2015.pdf}
       \includegraphics[width=0.48\textwidth,angle=0]{Figures/chapter2_Figure/int_lumi_per_day_cumulative_pp_2017_prelim.pdf}
       \label{fig:luminosity_2017}                                                                                                                            
     } 
-    \subfigure[]{
+    \subfigure{
       \includegraphics[width=0.48\textwidth,angle=0]{Figures/chapter2_Figure/int_lumi_per_day_cumulative_pp_2018_prelim.pdf}
       \label{fig:luminosity_2018}
     }\\
-    \caption{Integrated luminosities of LHC delivered (blue) and CMS recorded (yellow) data for year 2015(a), year 2016(b), year 2017(c) and year 2018(d).}
+    \caption{Integrated luminosities of LHC delivered (blue) and CMS recorded (yellow) data for year 2015 (top left), year 2016 (top right), year 2017 (bottom left) and year 2018 (bottom right).}
   \label{fig:test}
 \end{center}
 \end{figure}
@@ -701,11 +702,11 @@ during the years 2016, 2017 and 2018 as shown in the Figure \ref{fig:luminosity_
 %\label{Fig:CMS_DAQ_layout}
 %\end{center}
 %\end{figure}
-\section{Worldwide LHC Computing Grid}
-There is a dire demand of the four experiments of LHC (CMS, ATLAS, ALICE, LHCb) for a facility to store the prompt data obtained from LHC collisions. 
-Further to process and analyse the huge amount of data to extract  physics results is also challenging. LHC produces about 15 petabyte data each year duing its operation. 
-To cope with this huge amount of data, setting a multi-tiered computing infrastructure was approved by CERN council in 2002. This is known as Worldwide LHC Computing Grid (WLCG) and which links around 170 computing centers in more than 40 countries. WLCG is mainly tasked for providing infrastructure of organized computing facilities to the four main experiments of CERN. To fulfill the goals, it is connected with around 150 thousand cores of processors with storage capicity of 50 petabytes on the disks \cite{Fisk:2010jd}.
-%@inproceedings{Fisk:2010jd,
+%\section{Worldwide LHC Computing Grid}
+%There is a dire demand of the four experiments of LHC (CMS, ATLAS, ALICE, LHCb) for a facility to store the prompt data obtained from LHC collisions. 
+%Further to process and analyse the huge amount of data to extract  physics results is also challenging. LHC produces about 15 petabyte data each year duing its operation. 
+%To cope with this huge amount of data, setting a multi-tiered computing infrastructure was approved by CERN council in 2002. This is known as Worldwide LHC Computing Grid (WLCG) and which links around 170 computing centers in more than 40 countries. WLCG is mainly tasked for providing infrastructure of organized computing facilities to the four main experiments of CERN. To fulfill the goals, it is connected with around 150 thousand cores of processors with storage capicity of 50 petabytes on the disks \cite{Fisk:2010jd}.
+%%@inproceedings{Fisk:2010jd,
 %    author = "Fisk, Ian",
 %    collaboration = "CMS",
 %    title = "{First Experiences with LHC Grid Computing and Distributed Analysis}",
@@ -724,31 +725,31 @@ To cope with this huge amount of data, setting a multi-tiered computing infrastr
 %trigger system of CMS drastically reduces the amount of data but even then CMS delivers data at the order of petabytes every year.  To analyze and store this huge 
 %amount of the data, LHC has connected huge number of computing resources from collaborative institutes or universities, computer centers and middleware providers 
 %through a grid known as the Worldwide LHC Computing Grid (WLCG). 
-\subsection{3-Tier Architecture}
-Computing models at WLCG are mainly based on 3 tier levels. 
-Tier-0 facility is situated at CERN. It receives prompt data (RAW data) produced from LHC collisions as a primary backup and does the reconstruction of the events and store in the form of prompt-RECO dta. 
-It then exports the RAW data to to large computing centers at Tier-1 where the events are set to be reconstructed again with refined calibrations and at each Tier-1 site, a detailed reconstruction of RAW data is performed to get AOD(Analysis Object Data) version of data which most compact form of data. It also serves to distribute the AOD data to Tier-2 sites where the data can be used for end-user analysis specific reprocessing and simulations for all experiments. 
-
+%\subsection{3-Tier Architecture}
+%Computing models at WLCG are mainly based on 3 tier levels. 
+%Tier-0 facility is situated at CERN. It receives prompt data (RAW data) produced from LHC collisions as a primary backup and does the reconstruction of the events and store in the form of prompt-RECO dta. 
+%It then exports the RAW data to to large computing centers at Tier-1 where the events are set to be reconstructed again with refined calibrations and at each Tier-1 site, a detailed reconstruction of RAW data is performed to get AOD(Analysis Object Data) version of data which most compact form of data. It also serves to distribute the AOD data to Tier-2 sites where the data can be used for end-user analysis specific reprocessing and simulations for all experiments. 
+%
 %of the data, low latency workflows for calibration and detector commissioning,
 %archival storage of the data, and distribution of samples to the Tier-1 centers. 
 %The Tier-1 centers are connected to CERN via an optical private network (OPN). The Tier-1s are responsible for reprocessing of the data samples,
 %custodial storage of data and simulation, and serving the data to the Tier-2s. The Tier-2s for most of the LHC
 %experiments are the primary resources used for analysis and for all the experiments are the largest sources of simulated
 %event production. 
-Schematic diagram of WLCG Tier system is shown in the Figure \ref{Fig:LHC_computing_grid}.
-\begin{figure}
-\begin{center}
-\includegraphics[width=0.65\linewidth]{Figures/chapter2_Figure/LHC_computing_grid.jpg}
-\caption{A sketch of WLCG Tier architecture.}
-\label{Fig:LHC_computing_grid}
-\end{center}
-\end{figure}
+%Schematic diagram of WLCG Tier system is shown in the Figure \ref{Fig:LHC_computing_grid}.
+%\begin{figure}
+%\begin{center}
+%\includegraphics[width=0.65\linewidth]{Figures/chapter2_Figure/LHC_computing_grid.jpg}
+%\caption{A sketch of WLCG Tier architecture.}
+%\label{Fig:LHC_computing_grid}
+%\end{center}
+%\end{figure}
 
 %
 \section{LHC upgradation during Long shutdown 2 (LS2) } \label{LHC_upgrade}
 After successfully delivering data during its Run2 as described in section \ref{data_taking}, LHC is passing through its long shutdown 2 period. During this period, several upgardes are ongoing which can be regarded as preparations for High Luminosity LHC later on (HL-LHC). However, main upgrades in this regards will take place during LS3 after Run 3 period of LHC.
 One is the replacement of Linac2 with the Linac4. It is about 90 meter in length that took around 10 years to build it.It would be capable to accelerate negative hydrogen ions ($H^{-}$) for beam energy upto 160 MeV and will enable beam to double its intensity Ref. \ref{linac4}. % https://home.cern/news/press-release/cern/cern-celebrates-completion-linac-4-its-brand-new-linear-particle
-Besides, the individual experiments of LHC, i.e. CMS, ATLAS, ALICE and LHCb, have also planned certain upgarades during this LS2 period.\\
+Besides, the individual experiments of LHC, i.e. CMS, ATLAS, ALICE and LHCb, have also planned certain upgarades during this LS2 period \ref{LS2_upgrades}.\\ % https://indico.cern.ch/event/315626/contributions/729447/attachments/605638/833479/Challenges_Experiments.pdf
 \textbf{ATLAS} is builing muon small wheels to be integrated with the trigger system. For high pileup LAr electronics are being upgraded. \\
 \textbf{CMS} is changing the photodetectors (HPD) of barrel and endcap HCAL to the silicon photo-multipliers (SiPM). Also the beam pipes made with stainless steel are being replaced with Aluminium composed material. Also, based on damage from radiation in endcaps of HCAL, scintillating tiles would be changed. Furthermore, for HL-LHC preprations, CSC muon chambers are being upgraded with new front end (FE) elecronics.\\
 \textbf{ALICE} is making several upgrades for Inner Tracking System (ITS), Time Projection Chamber (TPS), Central Trigger Processor, Data Acquisition (DAQ) High Level Trigger (HLT), Muon Forward Tracker (MFT) and so on. \\

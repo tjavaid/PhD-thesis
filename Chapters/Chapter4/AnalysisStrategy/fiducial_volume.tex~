@@ -1,26 +1,35 @@
-Fraction of all $\Hllll$ events that get selected following the event selection procedure can change significantly for various production mechanisms of Higgs and for its distinct exotic models. % of the Higgs boson. 
+The measurements on Higgs cross sections (Inclusive and differential) are made in a fiducial region that matches the reconstruction level selection.
+This is done because fraction of all $\Hllll$ events which pass the selection criteria as described in Section \ref{sec:events_selection} can significantly differ for different Higgs production mechanisms and also for its distinct exotic  models.
+As a treatment for the impact of model dependent acceptances, these measurements are done in the a certain fiducial volume which is defined so as to closely match with the experimental acceptance from reconstruction level selections. % made at reconstruction level.
+
+
+
+%Fraction of all $\Hllll$ events that get selected following the event selection procedure can change significantly for various production mechanisms of Higgs and for its distinct exotic models. % of the Higgs boson. 
 %The acceptance difference between SM $\Hllll$ decays and other 
 %exotic models (Higgs-like spin-one models), processes with large hadronic activity ( like $\ttH$ production ) and different kinematics processes
 %(like H$\to  {\rm Z}\gamma^{*}(\gamma^{*}\gamma^{*})  \to 4 \ell$ ) can vary up to 70\%.  
-In order to minimize the effects of model dependent acceptances, measurements
-on Higgs cross sections (Inclusive and differential) in $\Hllll$ are made in a fiducial region. This fiducial phase space is defined so as to closely match with the experimental acceptance as defined from selections made at reconstruction level.
+%In order to minimize the effects of model dependent acceptances, measurements
+%on Higgs cross sections (Inclusive and differential) in $\Hllll$ are made in a fiducial region. This fiducial phase space is defined so as to closely match with the experimental acceptance as defined from selections made at reconstruction level.
 \par 
 Requirement of fiducial phase space is minimum four leptons having $\pt>7 \GeV$ and $|\eta|<2.5$ in case of electron, and $\pt>5 \GeV$ and $|\eta|<2.4$ in case of muon. Besides, the leading and sub-leaing leptons are required to have $\pt>20 \GeV$ and $\pt>10 \GeV$ respectively.
 %The fiducial phase space demands for at least four leptons having $\pt>7(5) \GeV$  for electrons (muons) with leading and sub-leading leptons
 %having $\pt>20 \GeV$ and $\pt>10 \GeV$. 
-The four-momenta of each lepton is calculated at the hard scattering level
-({\sc pythia} status code $= 3$), before any final state radiation occurs. 
+The four-momenta of each lepton is calculated at the hard scattering level and isolation is calculated by adding $\pt$ of all stable particles
+%({\sc pythia} status code $= 3$), 
+%before any final state radiation occurs. 
 %All electrons (muons) must have pseudorapidity  $|\eta|<2.5(2.4)$.
-Each lepton isolation is calculated by adding $\pt$ of all stable particles ({\sc pythia} status code $= 1$) within a cone size $\Delta R<0.3$ around the lepton. All neutrinos and FSR photons are excluded from above summation. 
-Then the lepton's relative isolation which is defined by ratio of this sum and $\pt$ of considered lepton and is required to be less than $0.35$, consistent with reconstruction level isolation 
-requirement~\cite{Chatrchyan:2013mxa}. 
-The requirement of isolation in definition of fiducial phase space is crucial to control the  difference of 
-signal selection efficiency among different models. The studies based on simulation samples  show that signal efficiency can change up to 
-45\% among different models without requiring lepton isolation at fiducial level as shown in Table \ref{tab:efficiencySMnoGenIso}, the maximum difference comes 
-from $\ttH$ and $\ggH$ production modes. This behavior is expected as $\ttH$ events has more hadronic activity around leptons as compared to $\ggH$ 
-events, so the cut at relative isolation  kills more events in $\ttH$ than $\ggH$.
+%Each lepton isolation is calculated by adding $\pt$ of all stable particles 
+%({\sc pythia} status code $= 1$) 
+within a cone size $\Delta R<0.3$ around the lepton (by subtracting contributions from neutrinos and FSR photons). All neutrinos and FSR photons are excluded from above summation. 
+Then the lepton's relative isolation, defined by ratio of this sum and $\pt$ of considered lepton, is required to be less than $0.35$ being consistent with reconstruction level isolation 
+requirement ~\cite{Chatrchyan:2013mxa}. 
+%The requirement of isolation in definition of fiducial phase space is crucial to control the  difference of 
+%signal selection efficiency among different models. 
+\par Simulation based studies show that signal efficiency can significantly change among different models without requiring lepton isolation at fiducial level. The difference is more visible in $\ttH$ and $\ggH$ production modes as can be seen in the Table ~\ref{tab:efficiencySMnoGenIso}. 
+It is understood from the fact that $\ttH$ events have more hadronic activity around leptons than those of the $\ggH$ 
+events, so the cut at relative isolation removes more events in $\ttH$ than $\ggH$. Hence, for reconstruction efficiency to be independent of fiducial phase space, it is necessary to include isolation in the definition of fiducial phase space.
  \par 
-Furthermore, fiducial phase space is defined by several other topological and kinematics selections. There must be two SFOS lepton pairs where Z$_{1}$ being the one with invariant mass closest to the SM Z boson and reconstructed with $40 \le m({\mathrm{Z}_1}) \le 120$~GeV. 
+For other requirements of fiducial volume, there must be two pairs of same falvor oposite sign (SFOS) leptons where Z$_{1}$ being the one with invariant mass closest to the SM Z boson and reconstructed with $40 \le m({\mathrm{Z}_1}) \le 120$~GeV. 
 Z$_{2}$ is reconstructed by remaining SFOS pair of leptons within inv. 
 mass range of $12 \le m({\mathrm{Z}_2}) \le 120$~GeV. 
 In case of more than one Z$_{2}$ passing the criteria, leptons pair  with highest  $\Sigma |\pt|$ is selected. To remove the overlapping between leptons, we ask for $\Delta R(\ell_{i}\ell_{j})>0.02$ for any $i\neq j$. To remove 

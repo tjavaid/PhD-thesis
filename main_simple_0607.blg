@@ -1,8 +1,8 @@
 This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
-The top-level auxiliary file: main_simple.aux
+The top-level auxiliary file: main_simple_0607.aux
 The style file: biblatex.bst
-White space in argument---line 71 of file main_simple.aux
+White space in argument---line 71 of file main_simple_0607.aux
  : \citation{atlas-conf-2019-025
  :                               }
 I'm skipping whatever remains of this command
@@ -20,7 +20,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Database file #1: main_simple-blx.bib
+Database file #1: main_simple_0607-blx.bib
 Database file #2: example_merged2.bib
 Warning--I didn't find a database entry for "Khachatryan:2015yvw"
 Warning--I didn't find a database entry for "CMS:2015hja"
@@ -37,7 +37,7 @@ Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 You've used 15 entries,
             6268 wiz_defined-function locations,
-            1279 strings with 11706 characters,
+            1279 strings with 11721 characters,
 and the built_in function-call counts, 53003 in all, are:
 = -- 3081
 > -- 1162
