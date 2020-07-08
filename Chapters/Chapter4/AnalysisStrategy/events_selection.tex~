@@ -25,9 +25,9 @@ For the double lepton triggers, the requirement on minimum $p_{T}$ for leading a
 Details on the selection requirments on electron and muons are explained in sections \ref{sec:eleID} and  \ref{sec:muonReco}, and \ref{sec:eleID} and \ref{sec:muoniso} respectively. Both electrons and muons are initially required to pass POG Loose identification criteria with subsequent requirements on imparameter and isolation. These leptons are regarded as {\bf selected leptons} and can be used for analysis.
 
 
-%\subsubsection{Jet Selection}
-%\par Reconstruction of the jets is mandatory to study the differential cross section measurements for the jet related observables.
-%Jets are reconstructed with $p_T \ge 30$~GeV within $|\eta|\le 4.7$, discussed in Section ~\ref{jets_reco}. To remove overlapping of jets overlap from leptons or selected photons, it is required to have at least  $\Delta R > 0.5$ where $\Delta R \equiv \sqrt{(\Delta \eta)^2+ (\Delta \phi)^2}$ ~\cite{Chatrchyan:2013mx} with respect to any of the selected leptons and FSR photons candidates.
+\subsubsection{Jet Selection}
+\par Reconstruction of the jets is mandatory to study the differential cross section measurements for the jet related observables.
+Jets are reconstructed with $p_T \ge 30$~GeV within $|\eta|\le 4.7$, discussed in Section ~\ref{jets_reco}. To remove overlapping of jets overlap from leptons or selected photons, it is required to have at least  $\Delta R > 0.5$ where $\Delta R \equiv \sqrt{(\Delta \eta)^2+ (\Delta \phi)^2}$ ~\cite{Chatrchyan:2013mx} with respect to any of the selected leptons and FSR photons candidates.
 
 \subsection{ZZ Candidate Selection}
 \label{sec:zzcandsel}
@@ -86,8 +86,8 @@ For fiducial cross section measurement, $Z_{1}$ is chosen with mass closest to t
 %Z boson mass is retained. 
 
 
-\subsubsection{Jet Selection}
-\par Reconstruction of the jets is mandatory to study the differential cross section measurements for the jet related observables.
-Jets are reconstructed with $p_T \ge 30$~GeV within $|\eta|\le 4.7$, discussed in Section ~\ref{jets_reco}. To remove overlapping of jets overlap from leptons or selected photons, it is required to have at least  $\Delta R > 0.5$ where $\Delta R \equiv \sqrt{(\Delta \eta)^2+ (\Delta \phi)^2}$ ~\cite{Chatrchyan:2013mx} with respect to any of the selected leptons and FSR photons candidates.
+%\subsubsection{Jet Selection}
+%\par Reconstruction of the jets is mandatory to study the differential cross section measurements for the jet related observables.
+%Jets are reconstructed with $p_T \ge 30$~GeV within $|\eta|\le 4.7$, discussed in Section ~\ref{jets_reco}. To remove overlapping of jets overlap from leptons or selected photons, it is required to have at least  $\Delta R > 0.5$ where $\Delta R \equiv \sqrt{(\Delta \eta)^2+ (\Delta \phi)^2}$ ~\cite{Chatrchyan:2013mx} with respect to any of the selected leptons and FSR photons candidates.
 %\par Reconstruction of the jets is  incumbent to explore the differential cross section measurements for the jet related observables. 
 %Jets are reconstructed with $p_T \ge 30$~GeV within $|\eta|\le 4.7$, discussed in Section ~\ref{jets_reco}. To remove overlapping of jets overlap from leptons or selected photons, it is required to have at least  $\Delta R > 0.5$ where $\Delta R \equiv \sqrt{(\Delta \eta)^2+ (\Delta \phi)^2}$ ~\cite{Chatrchyan:2013mx} with respect to any of the selected leptons and FSR photons candidates. 

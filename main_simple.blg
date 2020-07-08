@@ -20,6 +20,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated field_info (elt_size=4) to 12506 items from 5000.
 Database file #1: main_simple-blx.bib
 Database file #2: example_merged2.bib
 Warning--I didn't find a database entry for "Khachatryan:2015yvw"
@@ -32,48 +33,51 @@ Warning--I didn't find a database entry for "atlas-conf-2019-032"
 Warning--I didn't find a database entry for "CMS:2019drq"
 Warning--I didn't find a database entry for "ref_fiducial"
 Warning--I didn't find a database entry for "CMS:2019chr"
+Warning--I didn't find a database entry for "fid_diagram"
+Warning--I didn't find a database entry for "CMS:2018mmw"
+Warning--I didn't find a database entry for "CMS:2017jkd"
 Biblatex version: 3.8
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 15 entries,
+You've used 41 entries,
             6268 wiz_defined-function locations,
-            1279 strings with 11706 characters,
-and the built_in function-call counts, 53003 in all, are:
-= -- 3081
-> -- 1162
-< -- 238
-+ -- 952
-- -- 349
-* -- 3412
-:= -- 4797
+            1425 strings with 15746 characters,
+and the built_in function-call counts, 187726 in all, are:
+= -- 12209
+> -- 3621
+< -- 702
++ -- 4377
+- -- 1351
+* -- 13223
+:= -- 18861
 add.period$ -- 0
-call.type$ -- 15
-change.case$ -- 98
+call.type$ -- 41
+change.case$ -- 279
 chr.to.int$ -- 30
-cite$ -- 28
-duplicate$ -- 5876
-empty$ -- 5587
-format.name$ -- 687
-if$ -- 11339
+cite$ -- 80
+duplicate$ -- 21109
+empty$ -- 18410
+format.name$ -- 2410
+if$ -- 38630
 int.to.chr$ -- 0
-int.to.str$ -- 44
+int.to.str$ -- 100
 missing$ -- 0
-newline$ -- 314
-num.names$ -- 580
-pop$ -- 4620
+newline$ -- 1090
+num.names$ -- 1580
+pop$ -- 13615
 preamble$ -- 1
-purify$ -- 143
+purify$ -- 500
 quote$ -- 0
-skip$ -- 2092
+skip$ -- 5772
 stack$ -- 0
-substring$ -- 4325
-swap$ -- 1550
-text.length$ -- 266
+substring$ -- 19172
+swap$ -- 4961
+text.length$ -- 799
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 498
+type$ -- 1382
 warning$ -- 0
-while$ -- 618
+while$ -- 2370
 width$ -- 0
-write$ -- 300
+write$ -- 1050
 (There was 1 error message)

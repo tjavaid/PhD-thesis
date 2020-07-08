@@ -1,6 +1,936 @@
-The dominant and sub-dominant irreducible backgrounds for $\Hllll$ process are the production of ZZ via annihilation of a \qqbar pair and the gg fusion respectively. 
-Other background is reducible which is of the instrumental nature and arises from the process where partial jets are misidentified as leptons. The main processes which contributes in this 
-background are: production of jets in association with Z boson, production of the jets in association with WZ boson pair and the \TTbar pair production. This background is as Z+X.
+Background processes for this analysis can be divided into two parts:
+\begin{enumerate}
+	\item \textbf{Irreducible Background}: Mainly it is due to quark anti-quark (\qqbar) annihilation which produce a pair of Z bosons and each Z boson decays into a pair of leptons resulting four leptons in the final state. The second one is when quark anti-quark (\qqbar) annihilate to Z boson which further decays into a pair of leptons. One of the two leptons, then radiate a virtual Z boson which subsequently decays into a pair of leptons. This background has dominant contribution in the analysis. Additional source of the Irreducible background is from gluon gluon fusion process. However, in the analysis it has sub-dominant contribution. Feynman diagrams of the these background processes can be seen in the diagram \ref{Fig:}.
+	\item \textbf{Reducible Background}: This background is instrumental nature and arises from the process where partial jets are misidentified as leptons. The main processes which contributes in this
+background are: production of jets in association with Z boson, production of the jets in association with WZ boson pair and the \TTbar pair production. This background is denoted as Z+X.
+\end{enumerate}
+%The dominant and sub-dominant irreducible backgrounds for $\Hllll$ process are the production of ZZ via annihilation of a \qqbar pair and the gg fusion respectively. 
+%Other background is reducible which is of the instrumental nature and arises from the process where partial jets are misidentified as leptons. The main processes which contributes in this 
+%background are: production of jets in association with Z boson, production of the jets in association with WZ boson pair and the \TTbar pair production. This background is as Z+X.
+% \begin{table}[!hb]
+%\begin{center}
+%\caption{ Number of observed candidates, expected background and the signal events passing all selections in mass range $m_{4\ell} > 70 \GeV$ corresponding to three different years. Z+X is estimated by control regions in the data while ZZ and signal events are estimated using MC simulation. %s while Z+X is estimated by control regions in data.
+%\label{tab:EventYieldsH4l}}
+%%\begin{tabular}{|l|c|c|c|}
+%\begin{tabular}{|l|c|c|c|c|}
+%\hline \hline
+%%\textbf{Channel} & $4\Pe$ & $4\Pgm$ & $2\Pe2\Pgm$ \\
+%\textbf{Channel} & $4\Pe$ & $4\Pgm$ & $2\Pe2\Pgm$ & $4\ell$ \\
+%\hline \hline
+%\multicolumn{4}{|c|}{2016 (13 TeV)}  \\
+%\hline
+%$\Pq\Paq \to \Z\Z$      & $ 192.7^{+18.6}_{-20.1}$ & $ 360.2^{+24.9}_{-27.3}$ & $ 471.0^{+32.6}_{-35.7}$ & $1023.9^{+68.9}_{-76.0}$ \\
+%gg~$\to \Z\Z$                   & $  41.2^{+ 6.3}_{- 6.1}$ & $  69.0^{+ 9.5}_{- 9.0}$ & $ 101.7^{+14.0}_{-13.3}$ & $ 211.8^{+28.9}_{-27.5}$ \\
+%\Z\ + X               & $  21.1^{+ 8.5}_{-10.4}$ & $  34.4^{+14.5}_{-13.2}$ & $  59.9^{+27.1}_{-25.0}$ & $ 115.4^{+31.9}_{-30.1}$ \\
+%\hline
+%Sum of backgrounds      & $ 255.0^{+23.9}_{-25.1}$ & $ 463.5^{+31.9}_{-33.7}$ & $ 632.6^{+44.2}_{-46.1}$ & $1351.1^{+85.8}_{-91.2}$ \\
+%\hline
+%Signal ($\mH=125~\GeV$) & $  12.1^{+ 1.3}_{- 1.4}$ & $  23.8\pm2.1$           & $  30.3\pm2.6$           & $  66.3\pm5.6$           \\
+%\hline
+%Total expected          & $ 267.1^{+24.9}_{-26.1}$ & $ 487.4^{+33.1}_{-34.9}$ & $ 662.9^{+45.7}_{-47.5}$ & $1417.4^{+89.1}_{-94.3}$ \\
+%\hline
+%Observed                & 293 & 505 & 681 & 1479 \\
+%\hline \hline
+%\multicolumn{4}{|c|}{2017 (13 TeV)}  \\
+%\hline
+%$\Pq\Paq \to \Z\Z$ & $233.86^{+ y.y}_{- z.z}$ & $441.08^{+ y.y}_{- z.z}$ & $569.51^{+ y.y}_{- z.z}$ & $1244.45^{+ y.y}_{- z.z}$ \\
+%gg~$\to \Z\Z$ & $49.11^{+ y.y}_{- z.z}$ & $81.50^{+ y.y}_{- z.z}$ & $121.05^{+ y.y}_{- z.z}$ & $251.66^{+ y.y}_{- z.z}$ \\
+%\Z\ + X & $12.39^{+ y.y}_{- z.z}$ & $36.39^{+ y.y}_{- z.z}$ & $44.45^{+ y.y}_{- z.z}$ & $93.24^{+ y.y}_{- z.z}$ \\
+%\hline
+%Sum of backgrounds & $295.37^{+ y.y}_{- z.z}$ & $558.97^{+ y.y}_{- z.z}$ & $735.02^{+ y.y}_{- z.z}$ & $1589.35^{+ y.y}_{- z.z}$ \\
+%\hline
+%Signal ($\mH=125~\GeV$) & $13.85^{+ y.y}_{- z.z}$ & $28.64^{+ y.y}_{- z.z}$ & $35.55^{+ y.y}_{- z.z}$ & $78.04^{+ y.y}_{- z.z}$ \\
+%\hline
+%Total expected & $309.22^{+ y.y}_{- z.z}$ & $587.60^{+ y.y}_{- z.z}$ & $770.57^{+ y.y}_{- z.z}$ & $1667.39^{+ y.y}_{- z.z}$ \\
+%\hline
+%Observed & 307 & 602 & 797 & 1706 \\
+%\hline \hline
+%\multicolumn{4}{|c|}{2018 (13 TeV)}  \\
+%\hline
+%\hline
+%%        \hline
+%%        \textbf{Channel} & $4\Pe$ & $4\Pgm$ & $2\Pe2\Pgm$ & $4\ell$ \\
+%%        \hline
+%        $\Pq\Paq \to \Z\Z$ & $333^{+57}_{-53}$ & $622^{+31}_{-44}$ & $815\pm73$ & $1770^{+98}_{-101}$ \\
+%        gg~$\to \Z\Z$ & $75.1^{+14.3}_{-13.5}$ & $116.6^{+11.7}_{-12.8}$ & $176.9\pm23.0$ & $368.5^{+29.5}_{-29.6}$ \\
+%        \Z\ + X & $19.3\pm7.2$ & $50.8\pm15.2$ & $64.6\pm15.6$ & $134.7\pm22.9$ \\
+%        \hline
+%        Sum of backgrounds & $428^{+59.2}_{55.2}$ & $790^{+36.4}_{-48.3}$ & $1057\pm78.1$ & $2274^{+104.9}_{-107.7}$ \\
+%        \hline
+%        Signal ($\mH=125~\GeV$) & $19.6^{+3.3}_{-3.1}$ & $40.8^{+2.5}_{-2.9}$ & $50.7\pm5.6$ & $111.1^{+6.9}_{-7.0}$ \\
+%        \hline
+%        Total expected & $447^{+59.3}_{55.2}$ & $830^{+36.5}_{-48.4}$ & $1108\pm78.3$ & $2385^{+105.1}_{-107.9}$ \\
+%        \hline
+%        Observed & 462 & 850 & 1130 & 2442 \\
+%        \hline
+%        \hline
+%	
+%%	
+%%	
+%%	
+%%	$\Pq\Paq \to \Z\Z$ & $333.01^{+ y.y}_{- z.z}$ & $622.20^{+ y.y}_{- z.z}$ & $815.20^{+ y.y}_{- z.z}$ & $1770.41^{+ y.y}_{- z.z}$ \\
+%%        gg~$\to \Z\Z$ & $75.11^{+ y.y}_{- z.z}$ & $116.55^{+ y.y}_{- z.z}$ & $176.86^{+ y.y}_{- z.z}$ & $368.52^{+ y.y}_{- z.z}$ \\
+%%        \Z\ + X & $19.37^{+ y.y}_{- z.z}$ & $50.75^{+ y.y}_{- z.z}$ & $64.84^{+ y.y}_{- z.z}$ & $134.96^{+ y.y}_{- z.z}$ \\
+%%        \hline
+%%        Sum of backgrounds & $427.50^{+ y.y}_{- z.z}$ & $789.50^{+ y.y}_{- z.z}$ & $1056.89^{+ y.y}_{- z.z}$ & $2273.89^{+ y.y}_{- z.z}$ \\
+%%        \hline
+%%        Signal ($\mH=125~\GeV$) & $19.58^{+ y.y}_{- z.z}$ & $40.83^{+ y.y}_{- z.z}$ & $50.68^{+ y.y}_{- z.z}$ & $111.09^{+ y.y}_{- z.z}$ \\
+%%        \hline
+%%        Total expected & $447.08^{+ y.y}_{- z.z}$ & $830.33^{+ y.y}_{- z.z}$ & $1107.57^{+ y.y}_{- z.z}$ & $2384.98^{+ y.y}_{- z.z}$ \\
+%%        \hline
+%%        Observed & 462 & 850 & 1130 & 2442 \\
+%\hline \hline
+%\end{tabular}
+%\end{center}
+%\end{table}
+\par
+For fiducial cross section measurement for $\Hllll$, both of irreducible backgrounds ($\Pq\Paq \to \Z\Z$ and gg~$\to \Z\Z$) are estimated from  Monte Carlo (MC) 
+simulation as done earlier in Ref.~\cite{Chatrchyan:2013mxa}. 
+%%%%%%%%%%%%%%%%%%%
+\subsubsection{$\Pq\Paq \to \Z\Z$  Modelling}
+\label{sec:redbkgd}
+
+The $\Pq\Paq \to \Z\Z$ background is generated at NLO, while the fully differential cross section has been computed at
+NNLO~\cite{Grazzini2015407}. Since the cross sections are not yet available in the generator we use for its estimation, the NNLO/NLO
+$k$-factors for the $\Pq\Paq \to \Z\Z$ background process are applied to the {\sc powheg} sample used. The inclusive cross
+sections obtained using the same PDF and renormalization and factorization scales as the {\sc powheg} sample
+at LO, NLO, and NNLO are shown in Table~\ref{tab:qqZZXS}. The NNLO/NLO $k$-factors are applied in the analysis
+differentally as a function of $m(ZZ)$.
+
+Additional NLO electroweak corrections which depend on the initial state quark flavor and kinematics
+are also applied to the \qqZZ~ background process in the region $m(\Z \Z)>2m(\Z)$ where the
+corrections have been computed. The differential QCD and electroweak $k$-factors can be seen in
+Figure~\ref{fig:qqZZKfactor}.
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|l|c|c|}
+\hline %----------------------------------------------------------------
+QCD Order  & $\sigma_{2\ell2\ell^{\prime}} (\mathrm{fb})$  & $\sigma_{4\ell} (\mathrm{fb})$  \\
+\hline %----------------------------------------------------------------
+LO    & 218.5$^{+16\%}_{-15\%}$ & 98.4$^{+13\%}_{-13\%}$ \\
+NLO   & 290.7$^{+5\%}_{-8\%}$   & 129.5$^{+4\%}_{-6\%}$ \\
+NNLO  & 324.0$^{+2\%}_{-3\%}$   & 141.2$^{+2\%}_{-2\%}$ \\
+\hline %----------------------------------------------------------------
+    \end{tabular}
+    \caption{Cross sections for \qqZZ~ production at 13 \TeV}
+    \label{tab:qqZZXS}
+\end{table}
+
+%=======
+\begin{figure}[!htb]
+\vspace*{0.3cm}
+\begin{center}
+%\includegraphics[width=0.48\textwidth]{Figures/IrrBkg/Kfactor_qqZZ_mZZ.pdf}
+\includegraphics[width=0.48\textwidth]{../AN-18-340/Figures/IrrBkg/Kfactor_qqZZ_mZZ.pdf}
+\includegraphics[width=0.48\textwidth]{../AN-18-340/Figures/IrrBkg/K_ewk_qqZZ.pdf}
+\caption{Left: NNLO/NLO QCD $k$-factor for the \qqZZ~ background as a function of $m(ZZ)$ for the $4\ell$ and $2\ell2\ell^{\prime}$ final states. Right: NLO/NLO electroweak $k$-factor for the \qqZZ~ background as a function of $m(ZZ)$.
+\label{fig:qqZZKfactor}}
+\end{center}
+\end{figure}
+
+
+\subsubsection{\ggZZ~ Modelling}
+
+Event simulation for the $\ggZZ$ background is done at LO with the generator \MCFM~7.0~\cite{MCFM,Campbell:2011bn,Campbell:2013una}.
+Although no exact calculation exists beyond the LO for the $\ggZZ$ background,
+it has been recently shown~\cite{Bonvini:1304.3053}
+that the soft collinear approximation is able to describe the background cross section and the
+interference term at NNLO\@. Further calculations also show that the K factors are very similar at NLO for the signal
+and background~\cite{Melnikov:2015laa} and at NNLO for the signal and interference terms~\cite{Li:2015jva}. Therefore, the same K factor
+is used for the signal and background~\cite{Passarino:1312.2397v1}. The NNLO K factor for the signal is obtained as a function of $\mllll$
+using the \textsc{hnnlo}~v2 Monte Carlo program~\cite{Catani:2007vq,Grazzini:2008tf,Grazzini:2013mca} by calculating the NNLO and LO
+$\Pg\Pg\to H\to2\ell2\ell^\prime$ cross sections at the small $H$ boson decay width of $4.07$~\MeV and taking their ratios. The NNLO as
+well as the NLO K factors and the cross sections from which they are derived are illustrated in Fig.~\ref{fig:ggHZZXsecKfactor},
+along with the NNLO, NLO and LO cross sections at the SM $H$ boson decay width~\cite{Heinemeyer:2013tqa}.
+
+\begin{figure}[!htb]
+\centering
+\includegraphics[width=0.32\linewidth]{../AN-18-340/Figures/IrrBkg/cCompare_hnnlo_ggHZZ2l2l_xsec.pdf}
+\includegraphics[width=0.32\linewidth]{../AN-18-340/Figures/IrrBkg/cCompare_hnnlo_ggHZZ2l2l_narrowwidth_xsec.pdf}
+\includegraphics[width=0.32\linewidth]{../AN-18-340/Figures/IrrBkg/cCompare_hnnlo_ggHZZ2l2l_narrowwidth_kfactor.pdf}
+\caption{$\Pg\Pg\to H\to2\ell2\ell^\prime$ cross sections at NNLO, NLO and LO at each $H$ boson pole mass using the SM $H$ boson decay width  (top \cmsLeft) or at the fixed and small decay width of $4.07$~MeV (top \cmsRight). The cross sections using the fixed value are used to obtain the K factor for both the signal and the continuum background contributions as a function of $\mllll$ (bottom).
+}
+\label{fig:ggHZZXsecKfactor}
+\end{figure}
+
+%%%%%%%%%%%%%%%%%%%
+
+In addition, following the study in Ref.~\cite{Bonvini:2013}, in these measurements the expected yield for the gg~$\to \Z\Z$ background has been increased 
+by assigning the same ($m_{4\ell}$ dependent) k-factor as signal $\Hllll$ process to leading order (LO) cross section of background. In the region ($105 < m_{4\ell} < 140 \GeV$) this factor leads to an increase of expected
+ gg~$\to~ZZ$ background by factor of $\sim 2.66$. After inclusion of this k-factor, the gg~$\to ZZ$ process is still a sub-dominant background in all measurements.
+ \par  
+
+\subsubsection{Reducible Background Estimation}
+In the $H\to ZZ\to 4\ell $ analysis, Reducible background (Z+X) is estimated using data with tight-to-loose ``fake rate'' technique is used in the control regions of data by following Ref.~\cite{Chatrchyan:2013mxa}.
+
+In the $H\to ZZ\to 4\ell $ analysis, Reducible Background (Z+X) is estimated using data with tight-to-loose ``fake rate (FR)'' technique. The rates of involved background processes are estimated by measuring the probabilities for fake electrons and fake muons (denoted by $f_{e}$ and $f_{\mu}$ respectively) which do pass the {\bf loose} selection criteria (defined in Section~\ref{sec:eleReco} and~\ref{sec:muonReco}) to also pass the final selection criteria (defined in Section~\ref{sec:zzcandsel}) ~\cite{Chatrchyan:2013mxa}}.
+These probabilitiess or fake rates (FR) are applied in dedicated control samples in order to extract the expected background yield in the signal region.
+
+Two independent methods are presented to measure both the yields and shapes of the reducible background. The final result combines the outcome of the two approaches. %The methods are the same as in the 2016 analysis, although additional cross checks have been performed.
+
+
+% Z+X background yields are determined using two methods:
+%\begin{enumerate}
+%	\item Opposite Sign (OS) method
+		\paragraph{(1) Opposite Sign (OS) method} \\
+\par Fore lepton fake ratios $f_{e}$, $f_{\mu}$,  samples of $Z(\ell\ell)+e$ and $Z(\ell\ell)+\mu$ events are selected which are expected to be completely dominated by final states which include a $Z$ boson and a fake lepton. 
+		These events are required to have two SFOS leptons with $p_{T} > 20/10$~GeV  ($\pt$ of leading and sub-leading leptons) passing the tight selection criteria, thus forming the $Z$ candidate. In addition, there is exactly one lepton passing the loose selection criteria as defined above. 
+This lepton is used as the probe lepton for the fake ratio measurement. The invariant mass of this lepton and the opposite sign lepton from the reconstructed $Z$ candidate should satisfy $m_{2l} > 4$~GeV. 
+
+To reduce the
+contribution from photon (asymmetric) conversions populating low masses,
+		 FRs are evaluated using the tight requirement 
+$|M_{inv}(\ell_{1},\ell_{2}) - M_{Z}| < 7 $~GeV. %, to reduce the 
+%contribution from photon (asymmetric) conversions populating low masses. 
+The fake ratios are measured in bins of the $\pt$ loose lepton in barrel and endcap region.
+
+The electron and muon fake rates are measured within 
+$|M_{inv}(\ell_{1},\ell_{2}) - M_{Z}| < 7 $~GeV and $E_{\mathrm{T}}^\text{miss}  < $ 25~GeV are 
+shown in Figure~\ref{fig:os_fakerates}. 
+
+\begin{figure}[!htb]
+\begin{center}
+    \subfigure [] {\includegraphics [width=0.45\textwidth]{../AN-18-340/Figures/RedBkg/FR_OS_electrons.png}}
+    \subfigure [] {\includegraphics [width=0.45\textwidth]{../AN-18-340/Figures/RedBkg/FR_OS_muons.png}}
+  \caption{
+Fake rates as a function of the probe $p_T$ for  electrons (a) and muons (b) which satisfy the loose selection criteria, measured in
+a $Z(\ell\ell)+\ell$ sample in the $13$~TeV data.
+The barrel selection includes electrons (muons) up to $|\eta|$ = 1.479 (1.2). The Fake rates are shown before (dotted lines) and after (plain line) removal of WZ contribution from MC.
+}
+\label{fig:os_fakerates}
+\end{center}
+\end{figure}
+
+   
+
+\paragraph{Fake Rate Application (OS Method)}
+\label{sec:zxA}
+
+Two control samples are obtained as subsets of four lepton events
+which pass the first step of the selection ({\it First Z} step, see
+section~\ref{sec:zzcandsel}), requiring an additional pair of 
+loose leptons of same flavour 
+and opposite charge, that pass the ${\rm SIP_{3D}}$ cut. 
+The events must satisfy all kinematic cuts applied for the {\it Higgs phase space} selection
+(see~\ref{sec:zzcandsel}).
+The first control sample is obtained by
+requiring that the two loose leptons which do not make the $Z_1$ candidate 
+do not pass the final identification and
+isolation criteria.
+The other two leptons pass
+the final selection criteria by definition of the $Z_1$. 
+This sample is denoted as ``2 Prompt + 2
+Fail'' ({\it 2P+2F}) sample. It is expected to be populated with
+events that intrinsically have only two prompt leptons 
+(mostly $DY$, with a small fraction of $t \bar{t}$ and $Z \gamma$ events).
+The second control sample is obtained by requiring one of
+the four leptons not to pass the final identification and isolation
+criteria.
+The other three
+leptons should pass the final selection criteria. This control sample
+is denoted as ``3 Prompt + 1 Fail'' ({\it 3P+1F}) sample. It is
+expected to be populated with the type of events that populate the
+2P+2F region, 
+%albeit with different relative proportions,
+although with different relative proportions,
+as well as with $WZ$ events that intrinsically have three
+prompt leptons.
+
+
+The control samples obtained in this way, orthogonal by construction
+to the signal region, are enriched with fake leptons and are used to
+estimate the reducible background in the signal
+region. 
+
+The invariant mass distribution of events selected in the 2P+2F control sample
+is shown in Fig.~\ref{fig:2P2F_dataMC} for the $13$~TeV dataset. 
+
+\begin{figure}[!htb]
+\begin{center}
+    {\includegraphics [width=0.45\textwidth] {../AN-18-340/Figures/RedBkg/M4l_OS_2P2F_4mu_Inclusive.png}}
+    {\includegraphics [width=0.45\textwidth] {../AN-18-340/Figures/RedBkg/M4l_OS_2P2F_4e_Inclusive.png}} \\
+    {\includegraphics [width=0.45\textwidth] {../AN-18-340/Figures/RedBkg/M4l_OS_2P2F_2mu2e_Inclusive.png}}
+    {\includegraphics [width=0.45\textwidth] {../AN-18-340/Figures/RedBkg/M4l_OS_2P2F_2e2mu_Inclusive.png}} \\
+\caption{
+Invariant mass distribution of the events selected in the 2P+2F control sample in the
+$13$~TeV dataset, (top left)  $4\mu$ , (top right) $4e$ , (bottom left)  $2\mu2e$ and (bottom right)  $2e2\mu$ channels.
+}
+\label{fig:2P2F_dataMC}
+\end{center}
+\end{figure}
+
+\begin{figure}[!htb]
+\begin{center}
+    {\includegraphics [width=0.45\textwidth] {../AN-18-340/Figures/RedBkg/M4l_OS_3P1F_4mu_Inclusive.png}}
+    {\includegraphics [width=0.45\textwidth] {../AN-18-340/Figures/RedBkg/M4l_OS_3P1F_4e_Inclusive.png}} \\
+    {\includegraphics [width=0.45\textwidth] {../AN-18-340/Figures/RedBkg/M4l_OS_3P1F_2mu2e_Inclusive.png}}
+    {\includegraphics [width=0.45\textwidth] {../AN-18-340/Figures/RedBkg/M4l_OS_3P1F_2e2mu_Inclusive.png}} \\
+\caption{
+Invariant mass distribution of the events selected in the 3P+1F control sample in the
+$13$~TeV dataset, (top left)  $4\mu$ , (top right) $4e$ , (bottom left)  $2\mu2e$ and (bottom right)  $2e2\mu$ channels.
+}
+\label{fig:CR_3P1F}
+\end{center}
+\end{figure}
+
+The expected number of reducible background events in the 3P+1F region,
+$N^{\rm bkg}_{\rm 3P1F}$, can be computed from the number of events
+observed in the 2P+2F control region, $N_{\rm 2P2F}$, by weighting each
+event in the region with the factor $(\frac{f_{i}}{1-f_{i}}
++ \frac{f_{j}}{1-f_{j}})$, where $f_{i}$ and $f_{j}$ correspond to the
+fake ratios of the two loose leptons:
+
+\begin{equation} 
+\label{eq:Prediction3P1F}
+N^{\rm bkg}_{\rm 3P1F} = \sum (\frac{f_{i}}{1-f_{i}}
++ \frac{f_{j}}{1-f_{j}}) N_{\rm 2P2F}
+\end{equation} 
+
+Figure~\ref{fig:CR_3P1F} shows the invariant mass distributions of the
+events selected in the 3P+1F control sample, together with the expected
+reducible background estimated from Eq.~\ref{eq:Prediction3P1F},
+stacked on the distribution
+of $WZ$ and of irreducible background ($ZZ, Z\gamma* \to 4\ell$) taken from the simulation.
+
+Would the fake rates be measured in a sample that has exactly the same
+background composition as the 2P+2F sample, the difference between the
+observed number of events in the 3P+1F sample and the expected background
+predicted from the 2P+2F sample would solely amount to the (small) $WZ$ and $Z\gamma_{conv}$
+contribution. Large differences arise because the fake rates used in
+Eq.~\ref{eq:Prediction3P1F} do not properly account for the background
+composition of the 2P+2F control sample.
+
+
+In particular, the  difference seen in Fig.~\ref{fig:CR_3P1F} between the observed
+3P+1F distribution and the expectation from 2P+2F, in the
+channels with loose electrons ($4e$ and $2\mu 2e$), and concentrated at low
+masses, is due to photon conversions. This is confirmed explicitly by the
+simulation.
+% : Fig.~\ref{fig:CR_3P1F}c shows how events with a real photon populate
+% this low mass region. Indeed, as the fake rates of method A are measured
+% in a sample that is largely devoid of photon conversions, Eq.~\ref{eq:Prediction3P1F}
+% considerably underestimates their contribution to the 3P+1F sample. 
+%
+The difference between the 3P+1F observation and the prediction
+from 2P+2F to recover the missing contribution from conversions - and more generally,
+in principle, to ``correct" for the fact that the fake rates do not properly
+account for the background composition of the 2P+2F sample.
+More precisely, the expected reducible background in the signal region is given
+by the sum of two terms :
+%
+\begin{itemize}
+\item a ``2P2F component", obtained from the number of
+  events observed in the 2P+2F control region, $N_{\rm 2P2F}$, by
+  weighting each event in that region with the factor
+  $\frac{f_{i}}{1-f_{i}} \frac{f_{j}}{1-f_{j}}$, where $f_{i}$ and
+  $f_{j}$ correspond to the fake ratios of the two loose leptons.
+\item a ``3P1F component", obtained from the
+   difference between the number of observed events in the 3P+1F control
+   region, $N_{\rm 3P1F}$, and the expected contribution from the 2P+2F
+   region and ZZ processes in the signal region, $N^{\rm ZZ}_{\rm 3P1F} +
+   N^{\rm bkg}_{\rm 3P1F}$. The $N^{\rm bkg}_{\rm 3P1F}$ is given by 
+   equation \ref{eq:Prediction3P1F} and $N^{\rm ZZ}_{\rm 3P1F}$ is the
+   contribution from $ZZ$ which is taken from the simulation. 
+   The difference $N_{\rm 3P1F} -  N^{\rm bkg}_{\rm 3P1F} - N^{\rm ZZ}_{\rm 3P1F}$,
+   which may be negative,
+   is obtained for each $(p_T, \eta)$ bin of the ``F" lepton, and is weighted 
+   by $\frac{f_i} {1 - f_i}$, where $f_i$ denotes the fake rate of
+   this lepton.
+   This ``3P1F component" accounts for the contribution of reducible background
+   processes with only one fake lepton (like $WZ$ events), and for the contribution
+   of other processes (e.g. photon conversions) that are not properly estimated
+   by the 2P2F component, because of the fake rates used.
+\end{itemize}
+
+Therefore, the
+full expression for the prediction can be symbolically written as:
+%
+\begin{equation} 
+\label{eq:PredictionSR}
+N^{bkg}_{\rm SR} = \sum \frac{f_{i}}{(1-f_{i})} (N_{\rm 3P1F} - N^{\rm
+bkg}_{\rm 3P1F} - N^{\rm ZZ}_{\rm 3P1F})
++ \sum \frac{f_{i}}{(1-f_{i})} \frac{f_{j}}{(1-f_{j})}N_{\rm 2P2F} \end{equation}
+%a
+Previous equation is equivalent to the following:
+\begin{equation}
+\label{eq:PredictionSR2}
+N^{bkg}_{\rm SR}= (1-\frac{N_{3P1F}^{ZZ}}{N_{3P1F}})\sum_j^{N_{3P1F}}\frac{f_a^j}{1-f_a^j} - \sum_i^{N_{2P2F}}\frac{f_3^i}{1-f_3^i}\frac{f_4^i}{1-f_4^i}
+\end{equation}
+For channels where the $Z_2$ candidate is made from two electrons, 
+the contribution of the 3P1F component is 
+positive, and amounts to typically $30 \%$ of the total predicted background.
+
+For channels with loose muons ($4\mu$ and $2e2\mu$), the 3P+1F sample is rather well described by
+the prediction from 2P+2F, as seen in Fig.~\ref{fig:CR_3P1F}b, and the
+3P1F component is mainly driven by statistical fluctuations in the 3P+1F sample,
+which are larger than the expectation from $WZ$ production.
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%
+
+
+Table~\ref{tab:reducibleMethodA} shows the expected number of
+events in the signal regions from the reducible background processes for the 13 TeV. 
+% The first error is the statistical uncertainty, which is dominated by the
+% large statistical uncertainty of the ``3P1F" component. The second error
+% is a systematic uncertainty due to the statistical uncertainty of the
+% fake rates.
+\begin{table}[h]
+\begin{center}
+     \begin{tabular}{| l | c | c | c | c |} \hline
+Channel & 4e               & 4$\mu$          & 2e2$\mu$        & 2$\mu$2e        \\ \hline \hline
+2016    & $ 20.2 \pm 6.2 $ & $27.0 \pm 8.58$ & $25.3 \pm 8.0$  & $22.3 \pm 6.8$  \\
+2017    & $ 16.1 \pm 4.9 $ & $33.1 \pm 10.4$ & $24.3 \pm 7.8$  & $21.3 \pm 6.5$  \\
+2018    & $ 25.1 \pm 7.6 $ & $50.7 \pm 15.7$ & $35.0 \pm 11.0$ & $32.7 \pm 9.9$ \\ \hline
+        \end{tabular}
+\end{center}
+    \caption{ The contribution of reducible background
+    processes in the signal region predicted from measurements in 2016, 2017 and 2018 data
+    using the OS method. The predictions correspond to 35.9, 41.5 and 59.7~fb$^{-1}$ of data at $13$~TeV, respectively.}
+     \label{tab:reducibleMethodA}
+\end{table}
+
+
+
+
+%
+%
+%
+%
+%\begin{table}[h]
+%\begin{center}
+%     \begin{tabular}{| l | c | c | c | c |} \hline
+% baseline	& 4e 	 & 4$\mu$ & 2e2$\mu$  & 2$\mu$2e   \\ \hline \hline
+%13 TeV & $ 24.9 \pm 7.6 $ & $49.9 \pm 15.5$ & $35.2 \pm 11.0$ & $34.0 \pm 10.3$ \\ \hline
+% 	\end{tabular}
+%\end{center}
+%    \caption{ The contribution of reducible background
+%    processes in the signal region predicted from measurements in data
+%    using the Opposite-Sign Leptons method. The predictions correspond to $\usedLumiC$ of data at 13 TeV.}
+%     \label{tab:reducibleMethodA}
+%\end{table}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%		SAME SIGN (SS) METHOD
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\paragraph{(2) Same Sign (SS) method} \\
+\par This method used to predict the reducible background allows to
+have an inclusive measurement of the all the main reducible
+backgrounds at the same time.
+
+The control sample is obtained as a subset of the events that satisfy
+the first step of the selection ({\it First Z} step, see
+section~\ref{sec:zzcandsel}), requiring an additional pair of
+loose leptons of same sign (to avoid signal contamination) and same
+flavour (SS-SF: $e^{\pm}e^{\pm}, \mu^{\pm}\mu^{\pm}$) .  The SS-SF
+leptons are requested to pass the ${\rm SIP_{3D}}$ cut while no
+identification or isolation requirements are imposed.  The
+reconstructed invariant mass of the SS-SF leptons has to satisfy
+$m_{ \ell \ell} > 12$~GeV, $m_{ \ell \ell} < 120$~GeV,
+the reconstructed four-lepton
+invariant mass is required to satisfy $m_{4\ell} > 100~\GeVcc$,
+and the QCD suppression cut (see~\ref{sec:zzcandsel}) is applied.
+The inclusive number of reducible background events in the
+signal region is derived from this set of events and from the probability for the
+two additional leptons to pass the isolation and identification
+analysis cuts, obtained from the fake rate measurement presented in section~\ref{sec:fakerate}.
+
+Starting from the control sample previously described, the final
+reducible background prediction in the signal region is given by the
+following expression:
+\begin{equation}
+\label{eq:FakeRateAA}
+\begin{array}{cccc}
+N^{\rm Z+X}_{\rm expect}  = & N^{\rm DATA}  \times   \rm{(\frac {OS}{SS})^{MC}}   \times &
+ f_1 \times f_2
+\end{array}
+\end{equation}
+where:
+%
+\begin{itemize}
+\item $N^{\rm DATA}$ is the number of events in the control region,
+\item $\rm{(\frac {OS}{SS})^{MC}}$ is a correction factor between opposite sign and same sign control samples,
+\item $f_1$ and $f_2$ are the fake rates of each additional loose lepton, parameterised as a
+   function of $p_T$ and $\eta$.
+\end{itemize}
+
+% ===========================================================================================================================================================
+%  FAKE RATE DETERMINATION
+% ===========================================================================================================================================================
+
+\paragraph{Fake Rate Determination (SS Method)}
+\label{sec:fakerate}
+
+The lepton fake rates are determined in the very similar way as it was described before for the Opposite Sign method. Samples of $Z(\ell\ell)+e$ and $Z(\ell\ell)+\mu$ events are selected in the same way except that the mass window around the nominal Z mass is set to 40~GeV $< M_{inv}(\ell_{1},\ell_{2}) < $ 120~GeV, as in the signal region ("SS phase space").
+Also, despite the cut on the missing transverse energy, a contamination of real leptons from WZ events is still visible at high $p_T$. This contribution is thus subtracted from the final fake rate, using the estimation given by the Monte Carlo. The fake rates for muon are shown in Fig.~\ref{fig:fakerates} for both muons in the barrel ($|\eta|<1.2$) and in the endcaps ($|\eta|>1.2$).
+
+\begin{figure}[th]
+\begin{center}
+\subfigure [] {\resizebox{6.75cm}{!}{\includegraphics{../AN-18-340/Figures/RedBkg/FR_SS_muons.png}}}
+\caption{
+Fake rates as a function of the probe $p_T$ for muons which satisfy the loose selection criteria, measured in
+a $Z(\ell\ell)+\ell$ sample in the $13$~TeV data.
+The barrel selection includes electrons (muons) up to $|\eta|$ = 1.479 (1.2). The Fake rates are shown before (dotted lines) and after (plain line) the reoval of the WZ contribution from the simulation.
+}
+\label{fig:fakerates}
+\end{center}\end{figure}
+
+For electrons, events where a radiated photon makes an asymmetric conversion, where one low $p_T$ leg is not identified, contribute to the $Z + e$ sample that is used to measure the electron fake rate. While the requirement $|M_{inv}(\ell_{1},\ell_{2}) - M_{Z}| < 7 $~GeV ("OS phase space") largely suppresses FSR of photons radiated off the lepton legs, these radiations occur at a much larger rate in the "SS phase space".
+As a result of this enhanced
+contribution from conversions, the electron fake rates measured
+within the SR phase space  are larger than the "OS fake rates".
+
+However, the relative fraction of FSR conversions is not the same in the "SS phase space"
+and in the control sample (defined below) where the fake rates will be applied. A correction
+accounting for this difference must be applied to the fake rates measured within
+the SS phase space, in order to obtain
+average fake rates that are appropriate for the control sample.
+To determine this correction,
+several fake rate samples of $Z(ll) + e$ events are defined by applying different
+cuts on $M_{inv}(\ell_{1},\ell_{2})$ or on $M_{inv}(\ell_{1},\ell_{2}, e)$.
+In addition to the "OS fake rate sample", where $|M_{inv}(\ell_{1},\ell_{2}) - M_{Z}| < 7 $~GeV ensures
+a minimal amount of conversions from FSR photons, one defines a sample that is
+maximally enriched in FSR conversions by
+$ | M_{inv}(\ell_{1},\ell_{2}, e) - M_Z | < $~5~GeV,
+as well as samples with
+an intermediate contamination from FSR conversions (60~GeV $< M_{inv}(\ell_{1},\ell_{2}) < $ 120~GeV).
+In each sample, one determines, in several $(p_T, \eta)$ bins for the loose electron:
+\begin{itemize}
+ \item the fake rate ratio;
+ \item the average value of the expected inner missing hits ($N_{miss. hits}$ in the following), variable useful to tag conversions.
+\end{itemize}
+%
+
+%\begin{figure}[th]
+%\begin{center}
+%    \subfigure [] {\resizebox{7.75cm}{!}{\includegraphics{Figures/RedBkg/COMP_VECturnon_TG_Lep3_pT_all_EB_afterMET_LHCP414_SS.pdf}}}
+%    \subfigure [] {\resizebox{7.75cm}{!}{\includegraphics{Figures/RedBkg/COMP_VECturnon_TG_Lep3_pT_all_EE_afterMET_LHCP414_SS.pdf}}} \\
+%\caption{
+%Fake rates measured for various phase spaces: 40~GeV $< M_{inv}(\ell_{1},\ell_{2}) < $ 120~GeV, $|M_{inv}(\ell_{1},\ell_{2}) - M_{Z}| < $ 7 GeV (blue), 60~GeV $< M_{inv}(\ell_{1},\ell_{2}) < $ 120~GeV (red), $ | M_{inv}(\ell_{1},\ell_{2}, e) - M_Z | < $~5~GeV (green), for electrons in the barrel (left) and in the endcaps (right).
+%Results are produced at 13~TeV with 36.8~fb$^{-1}$ data.
+%}
+%\label{fig:FRSSvarious}
+%\end{center}
+%\end{figure}
+
+In a given $(p_T, \eta)$  bin, both the measured fake rate and the
+average $ < N_{miss. hits} > $ are expected to grow linearly with the fraction
+of conversions.
+Hence, one expects a linear dependence of the fake rate with respect to $ < N_{miss. hits} > $.
+This linear behaviour is demonstrated in Fig.~\ref{fig:FRvsNHits}, and linear fits are made
+in each $(p_T, \eta)$  bin, which relate the fake rate to $ < N_{miss. hits} > $.
+
+\begin{figure}[!htb]
+\begin{center}
+    %\subfigure [] {\resizebox{7.75cm}{!}{\includegraphics{../AN-18-340/Figures/RedBkg/FR_MissingHits_graph_eta_0_pT_0.png}}}
+	\includegraphics[width=0.45\textwidth]{../AN-18-340/Figures/RedBkg/FR_MissingHits_graph_eta_0_pT_0.png}
+	\includegraphics[width=0.45\textwidth]{../AN-18-340/Figures/RedBkg/FR_MissingHits_graph_eta_1_pT_3.png}
+%	\subfigure [] {\resizebox{0.45cm}{!}{\includegraphics{../AN-18-340/Figures/RedBkg/FR_MissingHits_graph_eta_0_pT_0.png}}}
+%    \subfigure [] {\resizebox{0.45}{!}{\includegraphics{../AN-18-340/Figures/RedBkg/FR_MissingHits_graph_eta_1_pT_3.png}}}
+\caption{
+Examples of the correlation between the fake rate and the fraction of loose electrons
+for which the track has one missing hit in the pixel detector for  $7<p_T<10$~GeV electrons in the barrel (left) and for $20<p_T<30$~GeV electrons in the endcaps (right).
+Each dot shows the measurements made in a given $Z$ + loose $e$ sample.
+Results are produced at 13~TeV with 36.8~fb$^{-1}$ data.
+}
+\label{fig:FRvsNHits}
+\end{center}
+\end{figure}
+
+Finally, one looks at the loose electrons in the control sample where the fake rate will be applied, and one measures, in each
+$(p_T, \eta)$ bin, $<N_{miss. hits}>$.
+The proper average fake rate corresponding to the control sample is then determined from the
+linear relation derived previously.
+Figure~\ref{fig:FRAAcorrected} shows examples of the resulting corrected fake rates, together with the
+fake rates measured in the SS phase space. % and the A fake rates.
+It can be seen that the correction for the actual fraction of conversions that is present in the
+control sample lowers the fake rates considerably with respect to what is measured
+in the SS phase space.
+The determination of these corrected fake rates mostly suffers from the limited statistics of the
+control sample, which translates into a large uncertainty on $<N_{miss. hits}>$, the error on each dot being the fake rate obtained from the linear relations using the error on the $<N_{miss. hits}>$.
+
+\begin{figure}[th]
+\begin{center}
+    \subfigure [] {\resizebox{7.75cm}{!}{\includegraphics{../AN-18-340/Figures/RedBkg/FR_SS_electrons.png}}}
+\caption{Average fake rates to be applied to the control sample of SS Method (plain line), compared to
+  the fake rates measured in the SS phase space (dotted line), for electrons in the barrel (blue) and in the endcaps (red).
+  Results are produced at 13~TeV with 2018 data.
+  } % and in the A fake rate sample (open squares).
+\label{fig:FRAAcorrected}
+\end{center}
+\end{figure}
+
+% ===========================================================================================================================================================
+%  FAKE RATE APPLICATION
+% ===========================================================================================================================================================
+
+%\subsubsection{Fake Rate Application}
+\paragraph{Fake Rate Application (SS Method)}
+%Figures~\ref{fig:ZjetControlRegionShapes}
+Figure~\ref{fig:ZjetControlRegionShapes13TeV} shows the invariant mass
+distribution of events in control samples with SS-SF loose leptons,
+for channels with loose electrons ($4e$ and $2\mu2e$) and channels
+with loose muons ($4\mu$ and $2e2\mu$), for the $13$~TeV dataset.
+The prediction from the Monte-Carlo simulation is also shown.
+
+A good agreement is achieved between data and MC for the channels
+with loose electrons. The agreement is not as good for loose muons
+but this has no impact on the final result as only data are used in the end.
+
+The differences in rates between OS and SS samples are used to
+ compute the correction factor in~equation~\ref{eq:FakeRateAA} for the
+ final data-driven estimation. They are given in table~\ref{tab:OSSS}.
+
+%\begin{table}[h]
+%% \scriptsize
+%\begin{center}
+%    \begin{tabular}{ | l | c | c | c |  c | }  \hline
+%   channel  &  4e  &  2$\mu$ 2e   &  4 $\mu$   &   2e 2$\mu$   \\ \hline
+%
+%   OS/SS    &  1.00 $\pm$ 0.01  &  1.00 $\pm$ 0.01   &  1.03 $\pm$ 0.02  &  1.03 $\pm$ 0.03 \\ \hline
+%        \end{tabular}
+%    \caption{ The OS / SS ratios used in the Same-Sign Method. }
+%    \label{tab:OSSS}
+%\end{center}
+%\end{table}
+
+\begin{table}[!htb]
+% \scriptsize
+\begin{center}
+    \begin{tabular}{ | l | c | c | c |  c | }  \hline
+   Channel \to \to &  4e               &  2$\mu$2e          &  4$\mu$           &  2e2$\mu$        \\ \hline \hline   
+   2016     &  1.00 $\pm$ 0.01  &  1.00 $\pm$ 0.03   &  1.03 $\pm$ 0.03  &  1.00 $\pm$ 0.01 \\  
+   2017     &  1.01 $\pm$ 0.01  &  1.04 $\pm$ 0.03   &  1.01 $\pm$ 0.03  &  1.00 $\pm$ 0.01 \\  
+   2018     &  1.01 $\pm$ 0.01  &  1.00 $\pm$ 0.01   &  1.03 $\pm$ 0.02  &  1.03 $\pm$ 0.03 \\ \hline
+    \end{tabular}
+    \caption{ The OS/SS ratios used to estimate the number of ZX events with the SS method for each final state in all three years. }
+    \label{tab:OSSS}
+\end{center}
+\end{table}
+
+
+\begin{figure}[!htb]
+\begin{center}
+\subfigure[]{\includegraphics[width=0.45\textwidth]{../AN-18-340/Figures/RedBkg/M4l_SS_4e_Inclusive.png}}
+\subfigure[]{\includegraphics[width=0.45\textwidth]{../AN-18-340/Figures/RedBkg/M4l_SS_2mu2e_Inclusive.png}}  \\
+\subfigure[]{\includegraphics[width=0.45\textwidth]{../AN-18-340/Figures/RedBkg/M4l_SS_4mu_Inclusive.png}}
+\subfigure[]{\includegraphics[width=0.45\textwidth]{../AN-18-340/Figures/RedBkg/M4l_SS_2e2mu_Inclusive.png}} \\
+\caption{DATA-MC comparison of the SS-SF samples in the Z+X background control samples.
+(a) and (b) $4e$ and $2\mu2e$, (c) and (d) $4\mu$ and $2e2\mu$ in 2018 data.  \label{fig:ZjetControlRegionShapes13TeV}}
+\end{center}
+\end{figure}
+
+%The event yields expected from Z+X in the signal region, in the mass range  $m_{4 \ell} > 70~\GeVcc$,  are calculated for each final state and for each of the 22 STXS Stage 1.1. categories defined in Section~\ref{subsec:stxs_cat}. An example for the 4$\Pe$ final state is shown in Table~\ref{tab:ZjetResultsAA_4e}.
+%The statistical error is due to the event statistics in the control region.
+%The systematic is due to error introduced with the missing hits based correction for electrons and the uncertanty in the fake rates in the muon case.
+%The background is due to the systematic introduced when estimating the background composition.
+%The total error is obtained with a quadrature sum for the statistical, background composition and correction systematics.
+%
+%
+%\begin{table}[htb!]
+%\begin{center}
+%\small
+%\begin{tabular}{ l | c | c | c | c | c }
+%\hline
+%\hline
+%Category & exp. $N^{\rm Z+X}$ in SR & (stat.) & (syst.) & Total unc.\\
+%\hline
+%\hline
+%ggH\_0J\_PTH\_0\_10           & 0.81 & $\pm 0.22$ & $\pm 0.02 $  & $\pm 0.33 $ \\
+%\hline
+%ggH\_0J\_PTH\_10\_200    & 10.8 & $\pm 0.79$ & $\pm 0.20 $  & $\pm 3.33 $ \\
+%\hline
+%ggH\_1J\_PTH\_0\_60    & 2.93 & $\pm 0.39$ & $\pm 0.059 $  & $\pm 0.97 $ \\
+%\hline
+%ggH\_1J\_PTH\_60\_120    & 2.81 & $\pm 0.38$ & $\pm 0.08 $  & $\pm 0.93 $ \\
+%\hline
+%ggH\_2J\_PTH\_0\_60    & 0.89 & $\pm 0.20$ & $\pm 0.02 $  & $\pm 0.33 $ \\
+%\hline
+%ggH\_2J\_PTH\_60\_120    & 1.25 & $\pm 0.24$ & $\pm 0.02 $  & $\pm 0.45 $ \\
+%\hline
+%ggH\_2J\_PTH\_120\_200    & 0.70 & $\pm 0.18$ & $\pm 0.02 $  & $\pm 0.28 $ \\
+%\hline
+%ggH\_PTH\_200    & 0.72 & $\pm 0.16$ & $\pm 0.03 $  & $\pm 0.27 $ \\
+%\hline
+%ggH\_VBF    & 0.65 & $\pm 0.16$ & $\pm 0.02 $  & $\pm 0.25 $ \\
+%\hline
+%VBF\_1j    & 1.15 & $\pm 0.23$ & $\pm 0.03 $  & $\pm 0.42 $ \\
+%\hline
+%VBF\_2j    & 0.34 & $\pm 0.11$ & $\pm 0.01 $  & $\pm 0.15 $ \\
+%\hline
+%VBF\_2j\_mjj\_350\_700\_2j    & 0.04 & $\pm 0.04$ & $\pm 0.00 $  & $\pm 0.04 $ \\
+%\hline
+%VBF\_2j\_mjj\_GT700\_2j    & 0.06 & $\pm 0.04$ & $\pm 0.00 $  & $\pm 0.04 $ \\
+%\hline
+%VBF\_2j\_mjj\_GT350\_3j    & 0.63 & $\pm 0.17$ & $\pm 0.02 $  & $\pm 0.26 $ \\
+%\hline
+%VBF\_GT200\_2J    & 0.06 & $\pm 0.03$ & $\pm 0.00 $  & $\pm 0.04 $ \\
+%\hline
+%VH\_Had    & 1.10 & $\pm 0.21$ & $\pm 0.03 $  & $\pm 0.39 $ \\../AN-18-340/
+%\hline
+%VBF\_rest\_VH    & 0.15 & $\pm 0.06$ & $\pm 0.01 $  & $\pm 0.08 $ \\
+%\hline
+%VH\_lep\_0\_150    & 0.69 & $\pm 0.18$ & $\pm 0.02 $  & $\pm 0.27 $ \\
+%\hline
+%VH\_Lep\_GT150    & 0.11 & $\pm 0.06$ & $\pm 0.00 $  & $\pm 0.07 $ \\
+%\hline
+%ttH\_Lep    & 0.32 & $\pm 0.11$ & $\pm 0.01 $  & $\pm 0.14 $ \\
+%\hline
+%ttH\_Had    & 0.51 & $\pm 0.13$ & $\pm 0.01 $  & $\pm 0.20 $ \\
+%\hline
+%
+%\hline
+%\hline
+%Inclusive          & 24.92 & $\pm 1.18$ & $\pm 0.42 $  & $\pm 7.58 $ \\
+%\hline
+%\hline
+%\end{tabular}
+%\end{center}
+%\caption{Number of $4\Pe$ events in the SS-SF control region for $\usedLumiC$ of 2018 data, and expected number of Z+X$\to4\Pe$ events in the signal region as predicted from the SS method. Systematical error shown listed in table is only due to fake rate variation. Background composition component of 30\% is taken into account in the total uncertainty.
+%\label{tab:ZjetResultsAA_4e}}
+%\end{table}
+%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Systmatic Uncrertainties on Reducible Background
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%\paragraph{Systematic Uncrertainties on Reducible Background} \\ \newline
+%\paragraph{Systematic Uncrertainties on Reducible Background} \\ \newline
+%\newline
+%Source of systematic uncertainty of the methods presented above
+%potentially arises from the different composition of background processes
+%($DY$, $t \bar{t}$, $WZ$, $Z\gamma$) in the region where FRs are measured and are applied.
+%OS method corrects for the resulting bias via the ``3P1F component"
+%of its prediction. SS method corrects explicitly the electron fake rates
+%for the correct fraction of photon conversions. 
+%%, but no attempt is made
+%%to correct the muon fake rates.
+%The closure tests presented here are used to assess a possible residual
+%bias in the methods.
+%
+%%\paragraph{Statistics in 4l Control Sample}
+%The limited size of the samples in the control regions where FRS are measured and where those are appleid is the source of the statistical uncertainties of the method. The dominating statistical uncertainty is driven by the number of events in the control region and is typically in the range of 1-10\%.
+%
+%%\paragraph{Sensitivity of Fake Ratios to Background Composition}
+%Compositions of reducible background processes ($DY$, $t \bar{t}$, $WZ$, $Z\gamma^{(*)}$) in the region where FRS are measured and where those are appleid are typically not the same. This is the main source of the systematic uncertainty of the fake ratio method.
+%
+%This uncertainty can be estimated by measuring the FRs for individual background processes in the $Z+1L$ region in simulation. The weighted average of these individual fake ratios is the fake ratio which is measured in this sample (in simulation). The exact composition of the background processes in the 2P+2F region where FRS are to be applied  can be determined from simulation, and one can reweigh the individual FRs according to the 2P+2F composition. The difference between the reweighed fake ratio and the average one can be used as a measure of the uncertainty on the measurement of the fake ratios.
+%% The fake ratios for individual processes, the average fake ratio and the reweighed fake ratio determined by simulation are shown in table below. 
+% The effect of this systematic uncertainty is propagated to the final estimates, and it amounts to about 32\% for $4e$, 33\% for $2e2\mu$ and 35\% for $4\mu$ final state.
+%
+%% \begin{table}[h]
+%% \scriptsize
+%%     \centering
+%%     \caption{
+%%     The fake ratios for individual background processes, the average fake ratio and the fake ratio reweighed according to the composition of backgrounds in 2P+2F region.}  
+%
+%%     \begin{tabular}[!htb]{| l | c | c | c | c | c | c |} \hline
+%% Sample                                & Light Jets              & HF Jets& From $\gamma$ conv     & average (in $Z+1\ell$) & reweighed (2P2F) & uncertainty \\ \hline \hline
+%% electron fake ratio   & $0.012^{+0.001}_{-0.001}$     & $0.115^{+0.005}_{-0.006}$  & $0.293^{+0.043}_{-0.043}$  &$0.021^{+0.001}_{-0.001}$& $0.024^{+0.004}_{-0.004}$& 15\%    \\ 
+%% muon fake ratio       & $0.057^{+0.003}_{-0.003}$     & $0.225^{+0.008}_{-0.008}$ & $0.003^{+0.455}_{-0.003}$ &$0.120^{+0.004}_{-0.004}$& $0.105^{+0.020}_{-0.017}$ & 13\% \\  \hline
+%%       \end{tabular}
+%%     \label{tab:uncertFR}
+%% \end{table}
+%
+%%\paragraph{Shape Uncertainty}
+%In order to estimate the uncertainty on the $m_{4l}$ shape, the  differences between the shapes of predicted background distributions for all three channels, and between both of the two methods are used. The envelope of differences between these shapes of distributions is used as an estimate of the shape uncertainty. The uncertainty is estimated to be roughly in the range of 5\% - 15\%. Since the difference of the shapes slowly varies with $m_{4l}$, it is taken as a constant versus $m_{4l}$  and is absorbed in the much larger uncertainty on the predicted yield of backgrounds.
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+
+
+
+
+\paragraph{Combination of the Z+X background estimtaions}
+\par Two methods for the reducible background estimation are presented with associated uncertainties in the previous sections. Table \ref{tab:reducibleSummary} shows the summary of the results of the methods.
+The shape systematics is absorbed in the statistical and systematic uncertainties on the estimated yields, and the total uncertainties are found to be of the order of ~35$-$45\%.
+Predictions of the two methods are combined assuming no correlation between the uncertainties (independent control regions, partially different sources systematics), and combined mean values are obtained by weighting the individual means according to the corresponding variances.
+%The uncertainty range on the combined estimate is the envelope that covers the uncertainty ranges quoted from the two methods.
+% Figure~\ref{fig:SR_CombinedPrediction}(right) is a visual representation of the predictions of individual methods and the combined results.
+
+
+\begin{table}[h]
+   \centering
+   \begin{tabular}{| l | c | c | c |}
+\hline
+2016            & 4e                             & $4\mu$                          & $2e2\mu$       \\
+\hline \hline
+Method OS       & 20.2 $\pm$ $6.2_{\rm tot.}$    & 27.0 $\pm$ $8.6_{\rm tot.}$     & 47.7 $\pm$ $10.5_{\rm tot.}$    \\
+Method SS       & 13.1 $\pm$ $5.5_{\rm tot.}$    & 29.6 $\pm$ $9.0_{\rm tot.}$     & 41.5 $\pm$ $10.3_{\rm tot.}$     \\
+Combined        & 16.2   & 28.2    & 44.5  \\
+\hline
+2017            & 4e         & $4\mu$                      & $2e2\mu$       \\
+\hline \hline
+Method OS       & 16.1 $\pm$ $4.9_{\rm tot.}$    & 33.1 $\pm$ $10.4_{\rm tot.}$    & 45.7 $\pm$ $10.2_{\rm tot.}$    \\
+Method SS       & 10.9 $\pm$ $4.1_{\rm tot.}$    & 33.4 $\pm$ $10.3_{\rm tot.}$    & 40.8 $\pm$ $9.7_{\rm tot.}$    \\
+Combined        & 13.0   & 33.3    & 43.2  \\
+\hline
+2018            & 4e         & $4\mu$                      & $2e2\mu$       \\
+\hline \hline
+Method OS       & 25.4 $\pm$ $7.7_{\rm tot.}$    & 50.1 $\pm$ $15.5_{\rm tot.}$    & 67.7 $\pm$ $14.8_{\rm tot.}$    \\
+Method SS       & 16.1 $\pm$ $5.9_{\rm tot.}$    & 51.9 $\pm$ $15.8_{\rm tot.}$    & 60.7 $\pm$ $14.2_{\rm tot.}$    \\
+Combined        & 19.4   & 51.3    & 64.1  \\
+%Combined Error  &  
+%Combined $\kappa_{\rm min}$     & 0.XX  & 0.XX    & 0.XX \\ 
+%Combined $\kappa_{\rm max}$     & 0.XX   & 0.XX    & 0.XX \\
+\hline
+ \end{tabular}
+    \caption{
+    Summary of the results given by the two methods for the prediction of the contribution of reducible background processes in the signal region for all three years. The weighted mean value of the results of the two methods is taken as the final estimate of this contribution, while the uncertainty of the result covers the uncertainties of both methods. The table shows symmetric individual uncertainties for the two methods, while these are treated as asymmetric in the combination and statistical analysis. Results are given for an integrated luminosity of 35.9, 41.5 and 59.7~fb$^{-1}$ in 2016, 2017 and 2018 data, respectively. 
+    }
+    \label{tab:reducibleSummary}
+\end{table}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+%\begin{table}[h]
+%   \centering
+%    \caption{
+%    The summary of the results of two methods for the prediction of the contribution of reducible background processes in the signal region. The weighted mean value of the results of the two methods is taken as the final estimate of this contribution, while the uncertainty of the result is the one that covers the uncertainties of both methods. The table shows symmetric individual uncertainties for two methods, while in the combination and statistical analysis these are treated as asymmetric. Results are given for an integrated luminosity of $\usedLumiC$.
+%    }
+%    \begin{tabular}{| l | c | c | c |} \hline
+%13 TeV                & 4e         & $4\mu$                      & $2e2\mu$       \\
+%\hline \hline
+%Method OS       & 24.6 $\pm$ $7.6_{\rm tot.}$    & 49.9 $\pm$ $15.5_{\rm tot.}$    & 69.2 $\pm$ $15.1_{\rm tot.}$    \\
+%Method SS       & 16.0 $\pm$ $5.9_{\rm tot.}$    & 51.8 $\pm$ $15.8_{\rm tot.}$    & 60.5 $\pm$ $14.1_{\rm tot.}$    \\
+%Combined        & 19.3   & 50.8    & 64.6  \\
+%%Combined Error  &
+%%Combined $\kappa_{\rm min}$     & 0.XX  & 0.XX    & 0.XX \\
+%%Combined $\kappa_{\rm max}$     & 0.XX   & 0.XX    & 0.XX \\
+%\hline
+% \end{tabular}
+%    \label{tab:reducibleSummary}
+%\end{table}
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Systmatic Uncrertainties on Reducible Background
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\paragraph{Systematic Uncrertainties on Reducible Background} \\ \newline
+\paragraph{Systematic Uncrertainties on Reducible Background} \\ \label{syst_reducible_bkg}
+\newline
+Source of systematic uncertainty of the methods presented above
+potentially arises from the different composition of background processes
+($DY$, $t \bar{t}$, $WZ$, $Z\gamma$) in the region where FRs are measured and are applied.
+OS method corrects for the resulting bias via the ``3P1F component"
+of its prediction. SS method corrects explicitly the electron fake rates
+for the correct fraction of photon conversions. 
+%, but no attempt is made
+%to correct the muon fake rates.
+The closure tests presented here are used to assess a possible residual
+bias in the methods.
+
+%\paragraph{Statistics in 4l Control Sample}
+The limited size of the samples in the control regions where FRS are measured and where those are appleid is the source of the statistical uncertainties of the method. The dominating statistical uncertainty is driven by the number of events in the control region and is typically in the range of 1-10\%. 
+
+%\paragraph{Sensitivity of Fake Ratios to Background Composition}
+Compositions of reducible background processes ($DY$, $t \bar{t}$, $WZ$, $Z\gamma^{(*)}$) in the region where FRS are measured and where those are appleid are typically not the same. This is the main source of the systematic uncertainty of the fake ratio method.
+
+This uncertainty can be estimated by measuring the FRs for individual background processes in the $Z+1L$ region in simulation. The weighted average of these individual fake ratios is the fake ratio which is measured in this sample (in simulation). The exact composition of the background processes in the 2P+2F region where FRS are to be applied  can be determined from simulation, and one can reweigh the individual FRs according to the 2P+2F composition. The difference between the reweighed fake ratio and the average one can be used as a measure of the uncertainty on the measurement of the fake ratios.
+% The fake ratios for individual processes, the average fake ratio and the reweighed fake ratio determined by simulation are shown in table below. 
+ The effect of this systematic uncertainty is propagated to the final estimates, and it amounts to about 32\% for $4e$, 33\% for $2e2\mu$ and 35\% for $4\mu$ final state.
+
+% \begin{table}[h]
+% \scriptsize
+%     \centering
+%     \caption{
+%     The fake ratios for individual background processes, the average fake ratio and the fake ratio reweighed according to the composition of backgrounds in 2P+2F region.}  
+
+%     \begin{tabular}[!htb]{| l | c | c | c | c | c | c |} \hline
+% Sample                                & Light Jets              & HF Jets& From $\gamma$ conv     & average (in $Z+1\ell$) & reweighed (2P2F) & uncertainty \\ \hline \hline
+% electron fake ratio   & $0.012^{+0.001}_{-0.001}$     & $0.115^{+0.005}_{-0.006}$  & $0.293^{+0.043}_{-0.043}$  &$0.021^{+0.001}_{-0.001}$& $0.024^{+0.004}_{-0.004}$& 15\%    \\ 
+% muon fake ratio       & $0.057^{+0.003}_{-0.003}$     & $0.225^{+0.008}_{-0.008}$ & $0.003^{+0.455}_{-0.003}$ &$0.120^{+0.004}_{-0.004}$& $0.105^{+0.020}_{-0.017}$ & 13\% \\  \hline
+%       \end{tabular}
+%     \label{tab:uncertFR}
+% \end{table}
+
+%\paragraph{Shape Uncertainty}
+In order to estimate the uncertainty on the $m_{4l}$ shape, the  differences between the shapes of predicted background distributions for all three channels, and between both of the two methods are used. The envelope of differences between these shapes of distributions is used as an estimate of the shape uncertainty. The uncertainty is estimated to be roughly in the range of 5\% - 15\%. Since the difference of the shapes slowly varies with $m_{4l}$, it is taken as a constant versus $m_{4l}$  and is absorbed in the much larger uncertainty on the predicted yield of backgrounds.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+%	\item Same Sign (SS) method
+%\end{enumerate}
+%Both methods are found to be consistent  with each other within the statistical uncertainties. 
+%First control region is attained with the requirement that two leptons do pass loose selections which does fulfill the criteria of $\Z_1$ candidate (failing ID and 
+%isolation requirements), while the other two leptons in the event passes  the criteria of $\Z_1$ candidate.  Thus, the sample is represented as "2 Prompt + 2 Fail`` (2P2F) which is populated  with the events which contain two prompt leptons (which are mostly Drell-Yan with small fraction of $\Zgam$ and $\TTbar$ events) only. 
+%Second control region is attained by requiring that three leptons pass the final requirements. It is represented as 
+%"3 Prompt + 1 Fail`` (3P1F) sample.
+%\par 
+%The reducible background's $m_{4\ell}$ shape  is attained from the OS method by performing a fit of $m_{4\ell}$ distributions of 3P1F and 2P2F  events
+%independently by empirical analytical functional constructed by Landau~\cite{landau:1944} in Ref.~\cite{Chatrchyan:2013mxa}.
+%Reducible background prediction in all three channels fitted together using this with total uncertainty indicated is shown in Figure ~\ref{fig:ZX}.
+%Prediction for the reducible background in all three channels together fitted  using this empirical shape with indicated total uncertainty is shown in 
+%Figure~\ref{fig:ZX}. 
+For differentiall measurements in $\Hllll$, shape of reducible background is attained from templates built from the control regions in the data for each differential bin of the observable considered for measurement. This procedure is similar to what was used for spin-parity studies as described in the Ref.~\cite{Chatrchyan:2013mxa}.
+More details on this procedure
+%and template shapes for each 
+of differential measurements of $\Hllll$ will be given in Section \ref{sec:ExtractionDifferential}.
+\par 
+The number of estimated signal and the background events, along with observed events in data passing all selections in mass range  $m_{4\ell} > 70 \GeV$
+%used for $\Hllll$ measurements ($m_{4\ell} > 70 \GeV$) 
+are listed in Table \ref{tab:EventYieldsH4l} for full Run 2 datasets. 
+\par 
+Reconstructed four-leptons invariant mass distribution for whole Run 2 datasets and MC samples in full and high mass range is shownn in the Figure \ref{fig:mass4l}. 
+%Predictions for the reducible background in a wide range of $m_{4\ell}$ in all three channels together, fitted using the empirical shape with indicated total uncertainty, is separately shown in Figure~\ref{fig:ZX}.
+% 
+
+%============
+\begin{figure}[!htbp]
+\begin{minipage}{0.5\linewidth}
+%\centerline{\includegraphics [width=\linewidth] {Chapters/Chapter4/AnalysisStrategy/figures/Mass4l_DataMC_7TeV_mH125GeV_fullRange.pdf}}
+\centerline{\includegraphics [width=\linewidth] {Chapters/Chapter4/AnalysisStrategy/figures/Combination.pdf}}
+\end{minipage}
+\begin{minipage}{0.5\linewidth}
+%\centerline{\includegraphics [width=\linewidth] {Chapters/Chapter4/AnalysisStrategy/figures/Mass4l_DataMC_8TeV_mH125GeV_fullRange.pdf}}
+\centerline{\includegraphics [width=\linewidth] {Chapters/Chapter4/AnalysisStrategy/figures/Combination_lowMass.pdf}}
+\end{minipage}
+	\caption{ Invariant mass distributions of invariant mass of four-leptons using  full Run 2 datasets in the full (left) and the low (right) mass range, along with predictions for Standard Model Higgs
+          ($m_H=125.0$ GeV), including $Z\rightarrow4\ell$ resonance.}
+\label{fig:mass4l}
+\end{figure}
+
  \begin{table}[!hb]
 \begin{center}
 \caption{ Number of observed candidates, expected background and the signal events passing all selections in mass range $m_{4\ell} > 70 \GeV$ corresponding to three different years. Z+X is estimated by control regions in the data while ZZ and signal events are estimated using MC simulation. %s while Z+X is estimated by control regions in data.
@@ -58,75 +988,23 @@ Observed & 307 & 602 & 797 & 1706 \\
         Observed & 462 & 850 & 1130 & 2442 \\
         \hline
         \hline
-	
-%	
-%	
-%	
-%	$\Pq\Paq \to \Z\Z$ & $333.01^{+ y.y}_{- z.z}$ & $622.20^{+ y.y}_{- z.z}$ & $815.20^{+ y.y}_{- z.z}$ & $1770.41^{+ y.y}_{- z.z}$ \\
-%        gg~$\to \Z\Z$ & $75.11^{+ y.y}_{- z.z}$ & $116.55^{+ y.y}_{- z.z}$ & $176.86^{+ y.y}_{- z.z}$ & $368.52^{+ y.y}_{- z.z}$ \\
-%        \Z\ + X & $19.37^{+ y.y}_{- z.z}$ & $50.75^{+ y.y}_{- z.z}$ & $64.84^{+ y.y}_{- z.z}$ & $134.96^{+ y.y}_{- z.z}$ \\
-%        \hline
-%        Sum of backgrounds & $427.50^{+ y.y}_{- z.z}$ & $789.50^{+ y.y}_{- z.z}$ & $1056.89^{+ y.y}_{- z.z}$ & $2273.89^{+ y.y}_{- z.z}$ \\
-%        \hline
-%        Signal ($\mH=125~\GeV$) & $19.58^{+ y.y}_{- z.z}$ & $40.83^{+ y.y}_{- z.z}$ & $50.68^{+ y.y}_{- z.z}$ & $111.09^{+ y.y}_{- z.z}$ \\
-%        \hline
-%        Total expected & $447.08^{+ y.y}_{- z.z}$ & $830.33^{+ y.y}_{- z.z}$ & $1107.57^{+ y.y}_{- z.z}$ & $2384.98^{+ y.y}_{- z.z}$ \\
-%        \hline
-%        Observed & 462 & 850 & 1130 & 2442 \\
 \hline \hline
 \end{tabular}
 \end{center}
 \end{table}
-\par
-For fiducial cross section measurement for $\Hllll$, both of irreducible backgrounds ($\Pq\Paq \to \Z\Z$ and gg~$\to \Z\Z$) are estimated from  Monte Carlo (MC) 
-simulation as done earlier in Ref.~\cite{Chatrchyan:2013mxa}. In addition, following the study in Ref.~\cite{Bonvini:2013}, in these measurements the expected yield for the gg~$\to \Z\Z$ background has been increased 
-by assigning the same ($m_{4\ell}$ dependent) k-factor as signal $\Hllll$ process to leading order (LO) cross section of background. In the region ($105 < m_{4\ell} < 140 \GeV$) this factor leads to an increase of expected
- gg~$\to~ZZ$ background by factor of $\sim 2.66$. After inclusion of this k-factor, the gg~$\to ZZ$ process is still a sub-dominant background in all measurements.
- \par  
- Reducible background (Z+X) is estimated using data. A tight-to-loose ``fake rate'' technique is used in the control regions of data by following Ref.~\cite{Chatrchyan:2013mxa}. 
- Z+X background yields are determined using two methods:
-\begin{itemize}
-	\item Opposite Sign (OS) method
-	\item Same Sign (SS) method
-\end{itemize}
-Both methods are found to be consistent  with each other within the statistical uncertainties. 
-First control region is attained with the requirement that two leptons do pass loose selections which does fulfill the criteria of $\Z_1$ candidate (failing ID and 
-isolation requirements), while the other two leptons in the event passes  the criteria of $\Z_1$ candidate.  Thus, the sample is represented as "2 Prompt + 2 Fail`` (2P2F) which is populated  with the events which contain two prompt leptons (which are mostly Drell-Yan with small fraction of $\Zgam$ and $\TTbar$ events) only. 
-Second control region is attained by requiring that three leptons pass the final requirements. It is represented as 
-"3 Prompt + 1 Fail`` (3P1F) sample.
-\par 
-The reducible background's $m_{4\ell}$ shape  is attained from the OS method by performing a fit of $m_{4\ell}$ distributions of 3P1F and 2P2F  events
-independently by empirical analytical functional constructed by Landau~\cite{landau:1944} in Ref.~\cite{Chatrchyan:2013mxa}.
-Reducible background prediction in all three channels fitted together using this with total uncertainty indicated is shown in Figure \ref{fig:ZX}.
-%Prediction for the reducible background in all three channels together fitted  using this empirical shape with indicated total uncertainty is shown in 
-%Figure~\ref{fig:ZX}. 
-For differentiall measurements in $\Hllll$, shape of reducible background is attained from templates built from the control regions in the data for each differential bin of the observable considered for measurement. This procedure is similar to what was used for spin-parity studies as described in the Ref.~\cite{Chatrchyan:2013mxa}.
-More details on this procedure
-%and template shapes for each 
-of differential measurements of $\Hllll$ will be given in Section \ref{sec:ExtractionDifferential}.
-\par 
-The number of estimated signal and the background events, along with observed events in data passing all selections in mass range  $m_{4\ell} > 70 \GeV$
-%used for $\Hllll$ measurements ($m_{4\ell} > 70 \GeV$) 
-are listed in Table \ref{tab:EventYieldsH4l} for full Run 2 datasets. 
-\par 
-Reconstructed four-leptons invariant mass distribution for whole Run 2 datasets and MC samples in full and high mass range is shownn in the Figure \ref{fig:mass4l}. 
-%Predictions for the reducible background in a wide range of $m_{4\ell}$ in all three channels together, fitted using the empirical shape with indicated total uncertainty, is separately shown in Figure~\ref{fig:ZX}.
-% 
 
-%============
-\begin{figure}[!htbp]
-\begin{minipage}{0.5\linewidth}
-%\centerline{\includegraphics [width=\linewidth] {Chapters/Chapter4/AnalysisStrategy/figures/Mass4l_DataMC_7TeV_mH125GeV_fullRange.pdf}}
-\centerline{\includegraphics [width=\linewidth] {Chapters/Chapter4/AnalysisStrategy/figures/Combination.pdf}}
-\end{minipage}
-\begin{minipage}{0.5\linewidth}
-%\centerline{\includegraphics [width=\linewidth] {Chapters/Chapter4/AnalysisStrategy/figures/Mass4l_DataMC_8TeV_mH125GeV_fullRange.pdf}}
-\centerline{\includegraphics [width=\linewidth] {Chapters/Chapter4/AnalysisStrategy/figures/Combination_lowMass.pdf}}
-\end{minipage}
-	\caption{ Invariant mass distributions of invariant mass of four-leptons using  full Run 2 datasets in the full (left) and the low (right) mass range, along with predictions for Standard Model Higgs
-          ($m_H=125.0$ GeV), including $Z\rightarrow4\ell$ resonance.}
-\label{fig:mass4l}
-\end{figure}
+
+
+
+
+
+
+
+
+
+
+
+
 
 %=============
 

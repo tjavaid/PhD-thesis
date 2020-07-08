@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.28)  7 JUL 2020 12:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.28)  8 JUL 2020 20:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1967,11 +1967,11 @@ Package biblatex Info: ... file 'biblatex.cfg' found.
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.cfg
 File: biblatex.cfg 
 ))
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 213.
-Package hyperref Info: Option `hypertexnames' set `false' on input line 213.
-Package hyperref Info: Option `colorlinks' set `true' on input line 213.
-Package hyperref Info: Option `unicode' set `true' on input line 213.
-Package hyperref Info: Option `breaklinks' set `true' on input line 213.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 214.
+Package hyperref Info: Option `hypertexnames' set `false' on input line 214.
+Package hyperref Info: Option `colorlinks' set `true' on input line 214.
+Package hyperref Info: Option `unicode' set `true' on input line 214.
+Package hyperref Info: Option `breaklinks' set `true' on input line 214.
 
 (/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.bdg
 File: UTF8.bdg 2015/04/18 4.8.4
@@ -1990,92 +1990,114 @@ Package biblatex Info: ... file 'english.lbx' found.
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2017/12/19 v3.10 biblatex localization (PK/JW/AB)
 )
-(./main_simple.aux)
+(./main_simple.aux
+
+LaTeX Warning: Label `sec:Systematics' multiply defined.
+
+
+LaTeX Warning: Label `fig:sigfits-asimov-SM-pT4l-4l:b' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:sigfits-asimov-SM-pT4l-4l:b' multiply defined.
+
+
+LaTeX Warning: Label `fig:sigfits-asimov-SM-pT4l-4l:c' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:sigfits-asimov-SM-pT4l-4l:c' multiply defined.
+
+
+LaTeX Warning: Label `fig:sigfits-asimov-SM-pT4l-4l:d' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:sigfits-asimov-SM-pT4l-4l:d' multiply defined.
+
+)
 \openout1 = `main_simple.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Try loading font information for T1+ppl on input line 216.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 217.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
@@ -2157,13 +2179,13 @@ Package caption Info: End \AtBeginDocument code.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package scrlayer Info: Setting magic \footheight to \baselineskip while
-(scrlayer)             \begin{document} on input line 216.
-Package scrbase Info: activating english \authorshipname on input line 216.
-Package scrbase Info: activating english \byname on input line 216.
-Package scrbase Info: activating english \abbrevname on input line 216.
-Package scrbase Info: activating english \constantsname on input line 216.
-Package scrbase Info: activating english \symbolsname on input line 216.
-Package scrbase Info: activating english \acknowledgementname on input line 216
+(scrlayer)             \begin{document} on input line 217.
+Package scrbase Info: activating english \authorshipname on input line 217.
+Package scrbase Info: activating english \byname on input line 217.
+Package scrbase Info: activating english \abbrevname on input line 217.
+Package scrbase Info: activating english \constantsname on input line 217.
+Package scrbase Info: activating english \symbolsname on input line 217.
+Package scrbase Info: activating english \acknowledgementname on input line 217
 .
 \AtBeginShipoutBox=\box65
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
@@ -2175,7 +2197,7 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 )
-Package hyperref Info: Link coloring ON on input line 216.
+Package hyperref Info: Link coloring ON on input line 217.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -2185,9 +2207,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count455
 )
-LaTeX Info: Redefining \ref on input line 216.
-LaTeX Info: Redefining \pageref on input line 216.
-LaTeX Info: Redefining \nameref on input line 216.
+LaTeX Info: Redefining \ref on input line 217.
+LaTeX Info: Redefining \pageref on input line 217.
+LaTeX Info: Redefining \nameref on input line 217.
 
 (./main_simple.out) (./main_simple.out)
 \@outlinefile=\write6
@@ -2195,7 +2217,7 @@ LaTeX Info: Redefining \nameref on input line 216.
 
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 216.
+LaTeX Info: Redefining \selectfont on input line 217.
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
@@ -2207,10 +2229,10 @@ Package biblatex Info: Data encoding 'utf8' specified.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main_simple.bbl' found.
  (./main_simple.bbl)
-Package biblatex Info: Reference section=0 on input line 216.
-Package biblatex Info: Reference segment=0 on input line 216.
+Package biblatex Info: Reference section=0 on input line 217.
+Package biblatex Info: Reference segment=0 on input line 217.
 \c__siunitx_mathsf_int=\count456
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 216.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 217.
 
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
@@ -2218,16 +2240,16 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 \c__siunitx_mathtt_int=\count457
 
 1: section
-LaTeX Font Info:    Try loading font information for T1+phv on input line 235.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 236.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 238.
-<Figures/Logo.jpg, id=83, 226.8475pt x 223.83624pt>
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 239.
+<Figures/Logo.jpg, id=135, 226.8475pt x 223.83624pt>
 File: Figures/Logo.jpg Graphic file (type jpg)
 <use Figures/Logo.jpg>
-Package pdftex.def Info: Figures/Logo.jpg  used on input line 261.
+Package pdftex.def Info: Figures/Logo.jpg  used on input line 262.
 (pdftex.def)             Requested size: 71.13188pt x 70.18773pt.
  [1
 
@@ -2238,35 +2260,52 @@ Package pdftex.def Info: Figures/Logo.jpg  used on input line 261.
 ] (./main_simple.toc
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 3.
-)
+
+1: section
+[3])
 \tf@toc=\write7
 \openout7 = `main_simple.toc'.
 
+ [4] (./main_simple.lof
+Overfull \hbox (5.81549pt too wide) in paragraph at lines 13--13
+ [][] [][][]\T1/ppl/m/n/12 Probability den-sity func-tions $\OML/cmm/m/it/12 f\
+OT1/cmr/m/n/12 (\OML/cmm/m/it/12 m[]\OMS/cmsy/m/n/12 j\OML/cmm/m/it/12 m[]\OT1/
+cmr/m/n/12 )$ \T1/ppl/m/n/12 for sig-nal with $\OML/cmm/m/it/12 m[]$\T1/ppl/b/n
+/12 =125 [] 
+ []
 
 1: section
-[3] [4
+[5
 
-] (./main_simple.lof)
+] [6])
 \tf@lof=\write8
 \openout8 = `main_simple.lof'.
 
+ [7] [8
 
+] (./main_simple.lot
 1: section
-[5] [6
+[9]
+Overfull \hbox (2.35594pt too wide) in paragraph at lines 12--12
+ \T1/ppl/m/n/12 events re-con-structed within the fidu-cial re-gion ($\OML/cmm/
+m/it/12 f[]$\T1/ppl/m/n/12 ) per fi-nal state 
+ []
 
-] (./main_simple.lot)
+
+Overfull \hbox (5.27576pt too wide) in paragraph at lines 15--15
+ \T1/ppl/m/n/12 lep-ton mo-men-tum scale and res-o-lu-tion un-cer-tain-ties hav
+e been prop- 
+ []
+
+)
 \tf@lot=\write9
 \openout9 = `main_simple.lot'.
 
-
-1: section
-[7] [8
-
-]
+ [10]
 1: section
 Chapter 1.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 363.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 364.
 (./Chapters/Chapter4/introduction/introduction.tex
 
 LaTeX Warning: Citation 'Khachatryan:2015yvw' on page 1 undefined on input line
@@ -2308,13 +2347,14 @@ Overfull \hbox (54.65797pt too wide) in paragraph at lines 1--10
 
 LaTeX Warning: Citation 'ref_fiducial' on page 1 undefined on input line 16.
 
-<Figures/Models_cartoon.jpg, id=209, 803.0pt x 602.25pt>
+<Figures/Models_cartoon.jpg, id=519, 803.0pt x 602.25pt>
 File: Figures/Models_cartoon.jpg Graphic file (type jpg)
 <use Figures/Models_cartoon.jpg>
 Package pdftex.def Info: Figures/Models_cartoon.jpg  used on input line 20.
 (pdftex.def)             Requested size: 238.49232pt x 178.86604pt.
 1: section
 [1
+
 
 ]) (./Chapters/Chapter4/DatasetsandSimulations/dataset.tex
 
@@ -2333,7 +2373,7 @@ LaTeX Warning: Citation 'CMS:2019chr' on page 2 undefined on input line 25.
 [2 <./Figures/Models_cartoon.jpg>]
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 304.
-<Figures/Trigger/Histo_TrigEff_ptMin_4e_mZ2_12.pdf, id=235, 569.12625pt x 384.4
+<Figures/Trigger/Histo_TrigEff_ptMin_4e_mZ2_12.pdf, id=545, 569.12625pt x 384.4
 3625pt>
 File: Figures/Trigger/Histo_TrigEff_ptMin_4e_mZ2_12.pdf Graphic file (type pdf)
 
@@ -2341,7 +2381,7 @@ File: Figures/Trigger/Histo_TrigEff_ptMin_4e_mZ2_12.pdf Graphic file (type pdf)
 Package pdftex.def Info: Figures/Trigger/Histo_TrigEff_ptMin_4e_mZ2_12.pdf  use
 d on input line 356.
 (pdftex.def)             Requested size: 195.12767pt x 131.80353pt.
-<Figures/Trigger/Histo_TrigEff_ptMin_4mu_mZ2_12.pdf, id=236, 569.12625pt x 384.
+<Figures/Trigger/Histo_TrigEff_ptMin_4mu_mZ2_12.pdf, id=546, 569.12625pt x 384.
 43625pt>
 File: Figures/Trigger/Histo_TrigEff_ptMin_4mu_mZ2_12.pdf Graphic file (type pdf
 )
@@ -2349,7 +2389,7 @@ File: Figures/Trigger/Histo_TrigEff_ptMin_4mu_mZ2_12.pdf Graphic file (type pdf
 Package pdftex.def Info: Figures/Trigger/Histo_TrigEff_ptMin_4mu_mZ2_12.pdf  us
 ed on input line 357.
 (pdftex.def)             Requested size: 195.12767pt x 131.80353pt.
-<Figures/Trigger/Histo_TrigEff_ptMin_2e2mu_mZ2_12.pdf, id=237, 569.12625pt x 38
+<Figures/Trigger/Histo_TrigEff_ptMin_2e2mu_mZ2_12.pdf, id=547, 569.12625pt x 38
 4.43625pt>
 File: Figures/Trigger/Histo_TrigEff_ptMin_2e2mu_mZ2_12.pdf Graphic file (type p
 df)
@@ -2357,7 +2397,7 @@ df)
 Package pdftex.def Info: Figures/Trigger/Histo_TrigEff_ptMin_2e2mu_mZ2_12.pdf  
 used on input line 358.
 (pdftex.def)             Requested size: 195.12767pt x 131.80353pt.
-<Figures/Trigger/Histo_TrigEff_ptMin_4l_mZ2_12.pdf, id=238, 569.12625pt x 384.4
+<Figures/Trigger/Histo_TrigEff_ptMin_4l_mZ2_12.pdf, id=548, 569.12625pt x 384.4
 3625pt>
 File: Figures/Trigger/Histo_TrigEff_ptMin_4l_mZ2_12.pdf Graphic file (type pdf)
 
@@ -2368,13 +2408,6 @@ d on input line 359.
 )
 (./Chapters/Chapter4/DatasetsandSimulations/simulation_theoretical_pridiction.t
 ex
-
-LaTeX Warning: Citation 'powheg' on page 3 undefined on input line 10.
-
-
-LaTeX Warning: Citation 'powhegvv' on page 3 undefined on input line 10.
-
-
 Overfull \hbox (8.20245pt too wide) in paragraph at lines 19--30
 []\T1/ppl/m/n/12 The \T1/ppl/m/sc/12 powheg\T1/ppl/m/n/12 , pro-vides per-tur-b
 a-tive QCD cal-cu-la-tions at next-to-leading (NLO)
@@ -2386,42 +2419,7 @@ Package hyperref Warning: Difference (2) between bookmark levels is greater
 (hyperref)                than one, level fixed on input line 31.
 
 
-LaTeX Warning: Citation 'Alioli:2008gx' on page 4 undefined on input line 33.
-
-
-LaTeX Warning: Citation 'Nason:2004rx' on page 4 undefined on input line 33.
-
-
-LaTeX Warning: Citation 'Frixione:2007vw' on page 4 undefined on input line 33.
-
-
-
 LaTeX Warning: Reference `chapter1_sec3' on page 4 undefined on input line 33.
-
-
-LaTeX Warning: Citation 'Bagnaschi:2011tu' on page 4 undefined on input line 33
-.
-
-
-LaTeX Warning: Citation 'Nason:2009ai' on page 4 undefined on input line 33.
-
-
-LaTeX Warning: Citation 'Hartanto:2015uka' on page 4 undefined on input line 33
-.
-
-
-LaTeX Warning: Citation 'Luisoni:2013kna' on page 4 undefined on input line 33.
-
-
-
-LaTeX Warning: Citation 'Luisoni:2013kna' on page 4 undefined on input line 37.
-
-
-
-LaTeX Warning: Citation 'Gao:2010qx' on page 4 undefined on input line 38.
-
-
-LaTeX Warning: Citation 'Ball:2014uwa' on page 4 undefined on input line 44.
 
 
 LaTeX Warning: Citation 'CMS:2019chr' on page 4 undefined on input line 44.
@@ -2430,12 +2428,6 @@ LaTeX Warning: Citation 'CMS:2019chr' on page 4 undefined on input line 44.
 Overfull \hbox (6.79884pt too wide) in paragraph at lines 32--45
 []\T1/ppl/m/n/12 Descriptions of the SM Higgs bo-son pro-duc-tion are ob-tained
  us-ing the \T1/ppl/m/sc/12 powheg
- []
-
-
-Overfull \hbox (58.55482pt too wide) in paragraph at lines 32--45
-\T1/ppl/m/n/12 pro-duc-tion modes (ggH, VBF, WH, ZH and ttH) as de-scribed in s
-ec-tion []  [[]],
  []
 
 [4 <./Figures/Trigger/Histo_TrigEff_ptMin_4e_mZ2_12.pdf, page is rotated 90 deg
@@ -2448,62 +2440,33 @@ LaTeX Warning: Reference `tab:Accept_Eff_fOut' on page 5 undefined on input lin
 e 45.
 
 
-LaTeX Warning: Reference `sec:Systematics' on page 5 undefined on input line 46
-.
-
-
 LaTeX Warning: Reference `sec:Results' on page 5 undefined on input line 54.
 
-<Figures/ggH_feynman2.png, id=423, 328.22626pt x 249.93375pt>
+<Figures/ggH_feynman2.png, id=756, 328.22626pt x 249.93375pt>
 File: Figures/ggH_feynman2.png Graphic file (type png)
 <use Figures/ggH_feynman2.png>
 Package pdftex.def Info: Figures/ggH_feynman2.png  used on input line 60.
 (pdftex.def)             Requested size: 195.12767pt x 148.58466pt.
-
-LaTeX Warning: Citation 'Gao:2010qx' on page 5 undefined on input line 75.
-
-
-LaTeX Warning: Citation 'Bolognesi:2012mm' on page 5 undefined on input line 75
-.
-
-
-LaTeX Warning: Citation 'Anderson:2013afp' on page 5 undefined on input line 75
-.
-
-
-LaTeX Warning: Citation 'Nason:2013ydw' on page 5 undefined on input line 116.
-
-
-LaTeX Warning: Citation 'MCFM' on page 5 undefined on input line 124.
-
-
-LaTeX Warning: Citation 'Campbell:2013una' on page 5 undefined on input line 12
-4.
-
 [5 <./Figures/ggH_feynman2.png>]
-<Figures/figures_feynman-qqZZ-t.png, id=432, 281.05pt x 295.1025pt>
+<Figures/figures_feynman-qqZZ-t.png, id=777, 281.05pt x 295.1025pt>
 File: Figures/figures_feynman-qqZZ-t.png Graphic file (type png)
 <use Figures/figures_feynman-qqZZ-t.png>
 Package pdftex.def Info: Figures/figures_feynman-qqZZ-t.png  used on input line
  141.
 (pdftex.def)             Requested size: 130.08733pt x 136.59082pt.
-<Figures/figures_feynman-qqZZ-s.png, id=434, 303.1325pt x 296.10625pt>
+<Figures/figures_feynman-qqZZ-s.png, id=779, 303.1325pt x 296.10625pt>
 File: Figures/figures_feynman-qqZZ-s.png Graphic file (type png)
 <use Figures/figures_feynman-qqZZ-s.png>
 Package pdftex.def Info: Figures/figures_feynman-qqZZ-s.png  used on input line
  145.
 (pdftex.def)             Requested size: 130.08733pt x 127.07469pt.
-<Figures/figures_feynman-ggbox.png, id=435, 283.0575pt x 282.05376pt>
+<Figures/figures_feynman-ggbox.png, id=780, 283.0575pt x 282.05376pt>
 File: Figures/figures_feynman-ggbox.png Graphic file (type png)
 <use Figures/figures_feynman-ggbox.png>
 Package pdftex.def Info: Figures/figures_feynman-ggbox.png  used on input line 
 149.
 (pdftex.def)             Requested size: 130.08733pt x 129.6301pt.
-
-
-LaTeX Warning: Citation 'GEANT' on page 6 undefined on input line 188.
-
-<Figures/PileUp/PileUp_2018.pdf, id=437, 569.12625pt x 534.99875pt>
+<Figures/PileUp/PileUp_2018.pdf, id=783, 569.12625pt x 534.99875pt>
 File: Figures/PileUp/PileUp_2018.pdf Graphic file (type pdf)
 <use Figures/PileUp/PileUp_2018.pdf>
 Package pdftex.def Info: Figures/PileUp/PileUp_2018.pdf  used on input line 209
@@ -2527,13 +2490,13 @@ Overfull \hbox (6.72893pt too wide) in paragraph at lines 8--9
 LaTeX Warning: Citation 'fid_diagram' on page 7 undefined on input line 25.
 
 [7 <./Figures/PileUp/PileUp_2018.pdf, page is rotated 90 degrees>]
-<Figures/cartoon.jpg, id=496, 803.0pt x 602.25pt>
+<Figures/cartoon.jpg, id=843, 803.0pt x 602.25pt>
 File: Figures/cartoon.jpg Graphic file (type jpg)
 <use Figures/cartoon.jpg>
 Package pdftex.def Info: Figures/cartoon.jpg  used on input line 30.
 (pdftex.def)             Requested size: 281.85036pt x 211.38797pt.
 )
-Overfull \hbox (3.94284pt too wide) in paragraph at lines 41--374
+Overfull \hbox (3.94284pt too wide) in paragraph at lines 41--375
 []\T1/ppl/m/n/12 The ef-fects of im-per-fect de-tec-tor res-o-lu-tion can in ge
 n-eral have a non-negligible
  []
@@ -2544,19 +2507,6 @@ LaTeX Warning: Citation 'CMS:2018mmw' on page 8 undefined on input line 1.
 
 
 LaTeX Warning: Citation 'CMS:2017jkd' on page 8 undefined on input line 1.
-
-
-LaTeX Warning: Citation 'Chatrchyan:2013mxa' on page 8 undefined on input line 
-1.
-
-
-LaTeX Warning: Citation 'Khachatryan:2014kca' on page 8 undefined on input line
- 1.
-
-
-Overfull \hbox (5.84207pt too wide) in paragraph at lines 1--6
-\T1/ppl/m/n/12 [[], [], [], []]. The
- []
 
 [8 <./Figures/cartoon.jpg>]
 
@@ -2586,10 +2536,6 @@ LaTeX Warning: Reference `sec:muoniso' on page 9 undefined on input line 25.
 
 LaTeX Warning: Reference `jets_reco' on page 9 undefined on input line 30.
 
-
-LaTeX Warning: Citation 'Chatrchyan:2013mx' on page 9 undefined on input line 3
-0.
-
 [9]
 
 LaTeX Warning: Reference `sec:eleID' on page 10 undefined on input line 38.
@@ -2609,83 +2555,475 @@ Overfull \hbox (6.74371pt too wide) in paragraph at lines 35--42
 
 [10]) (./Chapters/Chapter4/AnalysisStrategy/fiducial_volume.tex
 
-LaTeX Warning: Citation 'Chatrchyan:2013mxa' on page 11 undefined on input line
- 22.
-
-
 LaTeX Warning: Reference `tab:efficiencySMnoGenIso' on page 11 undefined on inp
-ut line 25.
+ut line 28.
 
-
-LaTeX Warning: Citation 'Kauer:2013cga' on page 11 undefined on input line 36.
-
-
-LaTeX Warning: Citation 'Kauer:2012hd' on page 11 undefined on input line 36.
-
+[11]
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 49.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 54.
 
-Overfull \hbox (69.32175pt too wide) in paragraph at lines 46--87
+Overfull \hbox (69.32175pt too wide) in paragraph at lines 51--92
  [] 
  []
 
-[11]
 
-LaTeX Warning: Reference `sec:Systematics' on page 12 undefined on input line 9
-3.
+Overfull \hbox (0.7156pt too wide) in paragraph at lines 37--94
+[]\T1/ppl/m/n/12 Invariant mass of se-lected four-leptons is re-quired to ful-f
+ill $\OT1/cmr/m/n/12 105[] \OML/cmm/m/it/12 < \OT1/cmr/m/n/12 m(4\OML/cmm/m/it/
+12 `\OT1/cmr/m/n/12 ) \OML/cmm/m/it/12 <
+ []
 
-) [12] [13] [14
+) (./Chapters/Chapter4/AnalysisStrategy/SignalModel.tex [12] [13]
 
-]
-1: section
-[15]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 454.
- [16]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 454.
- (./main_simple.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 454.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 454.
-Package rerunfilecheck Info: File `main_simple.out' has not changed.
-(rerunfilecheck)             Checksum: DA8295E597E1929142F5CBA720E46744;3233.
+LaTeX Warning: Reference `systematics' on page 14 undefined on input line 61.
+
+<../AN-18-340/Figures/Signal/fit_stage_ggH_0j_0_10_4e2018.png, id=894, 598.235p
+t x 574.145pt>
+File: ../AN-18-340/Figures/Signal/fit_stage_ggH_0j_0_10_4e2018.png Graphic file
+ (type png)
+<use ../AN-18-340/Figures/Signal/fit_stage_ggH_0j_0_10_4e2018.png>
+Package pdftex.def Info: ../AN-18-340/Figures/Signal/fit_stage_ggH_0j_0_10_4e20
+18.png  used on input line 66.
+(pdftex.def)             Requested size: 138.76157pt x 133.17194pt.
+<../AN-18-340/Figures/Signal/fit_stage_ggH_0j_0_10_4mu2018.png, id=895, 598.235
+pt x 574.145pt>
+File: ../AN-18-340/Figures/Signal/fit_stage_ggH_0j_0_10_4mu2018.png Graphic fil
+e (type png)
+<use ../AN-18-340/Figures/Signal/fit_stage_ggH_0j_0_10_4mu2018.png>
+Package pdftex.def Info: ../AN-18-340/Figures/Signal/fit_stage_ggH_0j_0_10_4mu2
+018.png  used on input line 67.
+(pdftex.def)             Requested size: 138.76157pt x 133.17194pt.
+<../AN-18-340/Figures/Signal/fit_stage_ggH_0j_0_10_2e2mu2018.png, id=896, 598.2
+35pt x 574.145pt>
+File: ../AN-18-340/Figures/Signal/fit_stage_ggH_0j_0_10_2e2mu2018.png Graphic f
+ile (type png)
+<use ../AN-18-340/Figures/Signal/fit_stage_ggH_0j_0_10_2e2mu2018.png>
+Package pdftex.def Info: ../AN-18-340/Figures/Signal/fit_stage_ggH_0j_0_10_2e2m
+u2018.png  used on input line 68.
+(pdftex.def)             Requested size: 138.76157pt x 133.17194pt.
+<../AN-18-340/Figures/Signal/simFit_ggH_0j_0_10_120_2e2mu_2018.png, id=897, 698
+.61pt x 473.77pt>
+File: ../AN-18-340/Figures/Signal/simFit_ggH_0j_0_10_120_2e2mu_2018.png Graphic
+ file (type png)
+<use ../AN-18-340/Figures/Signal/simFit_ggH_0j_0_10_120_2e2mu_2018.png>
+Package pdftex.def Info: ../AN-18-340/Figures/Signal/simFit_ggH_0j_0_10_120_2e2
+mu_2018.png  used on input line 79.
+(pdftex.def)             Requested size: 138.76157pt x 94.1017pt.
+<../AN-18-340/Figures/Signal/simFit_ggH_0j_0_10_125_2e2mu_2018.png, id=898, 698
+.61pt x 473.77pt>
+File: ../AN-18-340/Figures/Signal/simFit_ggH_0j_0_10_125_2e2mu_2018.png Graphic
+ file (type png)
+<use ../AN-18-340/Figures/Signal/simFit_ggH_0j_0_10_125_2e2mu_2018.png>
+Package pdftex.def Info: ../AN-18-340/Figures/Signal/simFit_ggH_0j_0_10_125_2e2
+mu_2018.png  used on input line 80.
+(pdftex.def)             Requested size: 138.76157pt x 94.1017pt.
+<../AN-18-340/Figures/Signal/simFit_ggH_0j_0_10_130_2e2mu_2018.png, id=899, 698
+.61pt x 473.77pt>
+File: ../AN-18-340/Figures/Signal/simFit_ggH_0j_0_10_130_2e2mu_2018.png Graphic
+ file (type png)
+<use ../AN-18-340/Figures/Signal/simFit_ggH_0j_0_10_130_2e2mu_2018.png>
+Package pdftex.def Info: ../AN-18-340/Figures/Signal/simFit_ggH_0j_0_10_130_2e2
+mu_2018.png  used on input line 81.
+(pdftex.def)             Requested size: 138.76157pt x 94.1017pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./Chapters/Chapter4/AnalysisStrategy/background_model.tex
+
+LaTeX Warning: Reference `Fig:' on page 14 undefined on input line 3.
+
+[14 <../AN-18-340/Figures/Signal/fit_stage_ggH_0j_0_10_4e2018.png> <../AN-18-34
+0/Figures/Signal/fit_stage_ggH_0j_0_10_4mu2018.png> <../AN-18-340/Figures/Signa
+l/fit_stage_ggH_0j_0_10_2e2mu2018.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 90.
 
 
-LaTeX Warning: There were undefined references.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@@overline' on input line 90.
 
 
-Package biblatex Warning: Please (re)run BibTeX on the file(s):
-(biblatex)                main_simple
-(biblatex)                and rerun LaTeX afterwards.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\to' on input line 90.
 
-Package logreq Info: Writing requests to 'main_simple.run.xml'.
-\openout1 = `main_simple.run.xml'.
 
- ) 
-Here is how much of TeX's memory you used:
- 37774 strings out of 492982
- 756199 string characters out of 6134896
- 981474 words of memory out of 5000000
- 40767 multiletter control sequences out of 15000+600000
- 572809 words of font info for 91 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 64i,20n,81p,10384b,2044s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
-y10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/font
-s/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/
-palatino/uplri8a.pfb>
-Output written on main_simple.pdf (24 pages, 441172 bytes).
-PDF statistics:
- 610 PDF objects out of 1000 (max. 8388607)
- 425 compressed objects within 5 object streams
- 74 named destinations out of 1000 (max. 500000)
- 213 words of extra memory for PDF output out of 10000 (max. 10000000)
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 90.
 
+
+LaTeX Warning: Citation 'Grazzini2015407' on page 15 undefined on input line 94
+.
+
+
+Overfull \hbox (8.11926pt too wide) in paragraph at lines 93--99
+\T1/ppl/m/n/12 tions are not yet avail-able in the gen-er-a-tor we use for its 
+es-ti-ma-tion, the NNLO/NLO
+ []
+
+[15 <../AN-18-340/Figures/Signal/simFit_ggH_0j_0_10_120_2e2mu_2018.png> <../AN-
+18-340/Figures/Signal/simFit_ggH_0j_0_10_125_2e2mu_2018.png> <../AN-18-340/Figu
+res/Signal/simFit_ggH_0j_0_10_130_2e2mu_2018.png>]
+<../AN-18-340/Figures/IrrBkg/Kfactor_qqZZ_mZZ.pdf, id=916, 569.12625pt x 552.06
+25pt>
+File: ../AN-18-340/Figures/IrrBkg/Kfactor_qqZZ_mZZ.pdf Graphic file (type pdf)
+<use ../AN-18-340/Figures/IrrBkg/Kfactor_qqZZ_mZZ.pdf>
+Package pdftex.def Info: ../AN-18-340/Figures/IrrBkg/Kfactor_qqZZ_mZZ.pdf  used
+ on input line 125.
+(pdftex.def)             Requested size: 208.13574pt x 201.89284pt.
+<../AN-18-340/Figures/IrrBkg/K_ewk_qqZZ.pdf, id=917, 569.12625pt x 523.9575pt>
+File: ../AN-18-340/Figures/IrrBkg/K_ewk_qqZZ.pdf Graphic file (type pdf)
+<use ../AN-18-340/Figures/IrrBkg/K_ewk_qqZZ.pdf>
+Package pdftex.def Info: ../AN-18-340/Figures/IrrBkg/K_ewk_qqZZ.pdf  used on in
+put line 126.
+(pdftex.def)             Requested size: 208.13574pt x 191.61465pt.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\to' on input line 133.
+
+! Undefined control sequence.
+l.135 ...nd is done at LO with the generator \MCFM
+                                                  ~7.0~\cite{MCFM,Campbell:2...
+
+? 
+
+LaTeX Warning: Citation 'Campbell:2011bn' on page 16 undefined on input line 13
+5.
+
+
+LaTeX Warning: Citation 'Bonvini:1304.3053' on page 16 undefined on input line 
+137.
+
+
+LaTeX Warning: Citation 'Melnikov:2015laa' on page 16 undefined on input line 1
+40.
+
+
+LaTeX Warning: Citation 'Li:2015jva' on page 16 undefined on input line 140.
+
+
+LaTeX Warning: Citation 'Passarino:1312.2397v1' on page 16 undefined on input l
+ine 141.
+
+
+LaTeX Warning: Citation 'Catani:2007vq' on page 16 undefined on input line 142.
+
+
+
+LaTeX Warning: Citation 'Grazzini:2008tf' on page 16 undefined on input line 14
+2.
+
+
+LaTeX Warning: Citation 'Grazzini:2013mca' on page 16 undefined on input line 1
+42.
+
+! Undefined control sequence.
+\MeV ->\ERROR 
+              
+l.143 ...mall $H$ boson decay width of $4.07$~\MeV
+                                                   and taking their ratios. ...
+
+? 
+
+LaTeX Warning: Citation 'Heinemeyer:2013tqa' on page 16 undefined on input line
+ 145.
+
+[16 <../AN-18-340/Figures/IrrBkg/Kfactor_qqZZ_mZZ.pdf, page is rotated 90 degre
+es> <../AN-18-340/Figures/IrrBkg/K_ewk_qqZZ.pdf, page is rotated 90 degrees>]
+<../AN-18-340/Figures/IrrBkg/cCompare_hnnlo_ggHZZ2l2l_xsec.pdf, id=1012, 569.12
+625pt x 552.0625pt>
+File: ../AN-18-340/Figures/IrrBkg/cCompare_hnnlo_ggHZZ2l2l_xsec.pdf Graphic fil
+e (type pdf)
+<use ../AN-18-340/Figures/IrrBkg/cCompare_hnnlo_ggHZZ2l2l_xsec.pdf>
+Package pdftex.def Info: ../AN-18-340/Figures/IrrBkg/cCompare_hnnlo_ggHZZ2l2l_x
+sec.pdf  used on input line 149.
+(pdftex.def)             Requested size: 138.76157pt x 134.60364pt.
+<../AN-18-340/Figures/IrrBkg/cCompare_hnnlo_ggHZZ2l2l_narrowwidth_xsec.pdf, id=
+1013, 569.12625pt x 552.0625pt>
+File: ../AN-18-340/Figures/IrrBkg/cCompare_hnnlo_ggHZZ2l2l_narrowwidth_xsec.pdf
+ Graphic file (type pdf)
+<use ../AN-18-340/Figures/IrrBkg/cCompare_hnnlo_ggHZZ2l2l_narrowwidth_xsec.pdf>
+
+Package pdftex.def Info: ../AN-18-340/Figures/IrrBkg/cCompare_hnnlo_ggHZZ2l2l_n
+arrowwidth_xsec.pdf  used on input line 150.
+(pdftex.def)             Requested size: 138.76157pt x 134.60364pt.
+<../AN-18-340/Figures/IrrBkg/cCompare_hnnlo_ggHZZ2l2l_narrowwidth_kfactor.pdf, 
+id=1014, 569.12625pt x 552.0625pt>
+File: ../AN-18-340/Figures/IrrBkg/cCompare_hnnlo_ggHZZ2l2l_narrowwidth_kfactor.
+pdf Graphic file (type pdf)
+<use ../AN-18-340/Figures/IrrBkg/cCompare_hnnlo_ggHZZ2l2l_narrowwidth_kfactor.p
+df>
+Package pdftex.def Info: ../AN-18-340/Figures/IrrBkg/cCompare_hnnlo_ggHZZ2l2l_n
+arrowwidth_kfactor.pdf  used on input line 151.
+(pdftex.def)             Requested size: 138.76157pt x 134.60364pt.
+
+! Undefined control sequence.
+<argument> ...$H$ boson decay width (top \cmsLeft 
+                                                  ) or at the fixed and smal...
+l.153 }
+       
+? 
+! Undefined control sequence.
+<argument> ... width of $4.07$~MeV (top \cmsRight 
+                                                  ). The cross sections usin...
+l.153 }
+       
+? 
+! Undefined control sequence.
+<argument> ...$H$ boson decay width (top \cmsLeft 
+                                                  ) or at the fixed and smal...
+l.153 }
+       
+? 
+! Undefined control sequence.
+<argument> ... width of $4.07$~MeV (top \cmsRight 
+                                                  ). The cross sections usin...
+l.153 }
+       
+? 
+! Undefined control sequence.
+<argument> ...$H$ boson decay width (top \cmsLeft 
+                                                  ) or at the fixed and smal...
+l.153 }
+       
+? 
+! Undefined control sequence.
+<argument> ... width of $4.07$~MeV (top \cmsRight 
+                                                  ). The cross sections usin...
+l.153 }
+       
+? 
+
+LaTeX Warning: Citation 'Bonvini:2013' on page 17 undefined on input line 159.
+
+[17 <../AN-18-340/Figures/IrrBkg/cCompare_hnnlo_ggHZZ2l2l_xsec.pdf, page is rot
+ated 90 degrees> <../AN-18-340/Figures/IrrBkg/cCompare_hnnlo_ggHZZ2l2l_narrowwi
+dth_xsec.pdf, page is rotated 90 degrees> <../AN-18-340/Figures/IrrBkg/cCompare
+_hnnlo_ggHZZ2l2l_narrowwidth_kfactor.pdf, page is rotated 90 degrees>]
+
+LaTeX Warning: Reference `sec:eleReco' on page 18 undefined on input line 167.
+
+
+LaTeX Warning: Reference `sec:muonReco' on page 18 undefined on input line 167.
+
+
+! Too many }'s.
+<recently read> }
+                 
+l.167 ...c:zzcandsel}) ~\cite{Chatrchyan:2013mxa}}
+                                                  .
+? 
+
+Overfull \hbox (4.94003pt too wide) in paragraph at lines 170--171
+[]\T1/ppl/m/n/12 Two in-de-pen-dent meth-ods are pre-sented to mea-sure both th
+e yields and shapes
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.177 \par
+           Fore lepton fake ratios $f_{e}$, $f_{\mu}$,  samples of $Z(\ell\e...
+
+? 
+<../AN-18-340/Figures/RedBkg/FR_OS_electrons.png, id=1153, 2371.86125pt x 2275.
+50125pt>
+File: ../AN-18-340/Figures/RedBkg/FR_OS_electrons.png Graphic file (type png)
+<use ../AN-18-340/Figures/RedBkg/FR_OS_electrons.png>
+Package pdftex.def Info: ../AN-18-340/Figures/RedBkg/FR_OS_electrons.png  used 
+on input line 194.
+(pdftex.def)             Requested size: 195.12767pt x 187.18257pt.
+<../AN-18-340/Figures/RedBkg/FR_OS_muons.png, id=1154, 2371.86125pt x 2275.5012
+5pt>
+File: ../AN-18-340/Figures/RedBkg/FR_OS_muons.png Graphic file (type png)
+<use ../AN-18-340/Figures/RedBkg/FR_OS_muons.png>
+Package pdftex.def Info: ../AN-18-340/Figures/RedBkg/FR_OS_muons.png  used on i
+nput line 195.
+(pdftex.def)             Requested size: 195.12767pt x 187.18257pt.
+[18] [19 <../AN-18-340/Figures/RedBkg/FR_OS_electrons.png> <../AN-18-340/Figure
+s/RedBkg/FR_OS_muons.png>]
+<../AN-18-340/Figures/RedBkg/M4l_OS_2P2F_4mu_Inclusive.png, id=1172, 2371.86125
+pt x 2275.50125pt>
+File: ../AN-18-340/Figures/RedBkg/M4l_OS_2P2F_4mu_Inclusive.png Graphic file (t
+ype png)
+<use ../AN-18-340/Figures/RedBkg/M4l_OS_2P2F_4mu_Inclusive.png>
+Package pdftex.def Info: ../AN-18-340/Figures/RedBkg/M4l_OS_2P2F_4mu_Inclusive.
+png  used on input line 251.
+(pdftex.def)             Requested size: 195.12767pt x 187.18257pt.
+<../AN-18-340/Figures/RedBkg/M4l_OS_2P2F_4e_Inclusive.png, id=1173, 2371.86125p
+t x 2275.50125pt>
+File: ../AN-18-340/Figures/RedBkg/M4l_OS_2P2F_4e_Inclusive.png Graphic file (ty
+pe png)
+<use ../AN-18-340/Figures/RedBkg/M4l_OS_2P2F_4e_Inclusive.png>
+Package pdftex.def Info: ../AN-18-340/Figures/RedBkg/M4l_OS_2P2F_4e_Inclusive.p
+ng  used on input line 252.
+(pdftex.def)             Requested size: 195.12767pt x 187.18257pt.
+<../AN-18-340/Figures/RedBkg/M4l_OS_2P2F_2mu2e_Inclusive.png, id=1174, 2371.861
+25pt x 2275.50125pt>
+File: ../AN-18-340/Figures/RedBkg/M4l_OS_2P2F_2mu2e_Inclusive.png Graphic file 
+(type png)
+<use ../AN-18-340/Figures/RedBkg/M4l_OS_2P2F_2mu2e_Inclusive.png>
+Package pdftex.def Info: ../AN-18-340/Figures/RedBkg/M4l_OS_2P2F_2mu2e_Inclusiv
+e.png  used on input line 253.
+(pdftex.def)             Requested size: 195.12767pt x 187.18257pt.
+<../AN-18-340/Figures/RedBkg/M4l_OS_2P2F_2e2mu_Inclusive.png, id=1175, 2371.861
+25pt x 2275.50125pt>
+File: ../AN-18-340/Figures/RedBkg/M4l_OS_2P2F_2e2mu_Inclusive.png Graphic file 
+(type png)
+<use ../AN-18-340/Figures/RedBkg/M4l_OS_2P2F_2e2mu_Inclusive.png>
+Package pdftex.def Info: ../AN-18-340/Figures/RedBkg/M4l_OS_2P2F_2e2mu_Inclusiv
+e.png  used on input line 254.
+(pdftex.def)             Requested size: 195.12767pt x 187.18257pt.
+<../AN-18-340/Figures/RedBkg/M4l_OS_3P1F_4mu_Inclusive.png, id=1176, 2371.86125
+pt x 2275.50125pt>
+File: ../AN-18-340/Figures/RedBkg/M4l_OS_3P1F_4mu_Inclusive.png Graphic file (t
+ype png)
+<use ../AN-18-340/Figures/RedBkg/M4l_OS_3P1F_4mu_Inclusive.png>
+Package pdftex.def Info: ../AN-18-340/Figures/RedBkg/M4l_OS_3P1F_4mu_Inclusive.
+png  used on input line 265.
+(pdftex.def)             Requested size: 195.12767pt x 187.18257pt.
+<../AN-18-340/Figures/RedBkg/M4l_OS_3P1F_4e_Inclusive.png, id=1177, 2371.86125p
+t x 2275.50125pt>
+File: ../AN-18-340/Figures/RedBkg/M4l_OS_3P1F_4e_Inclusive.png Graphic file (ty
+pe png)
+<use ../AN-18-340/Figures/RedBkg/M4l_OS_3P1F_4e_Inclusive.png>
+Package pdftex.def Info: ../AN-18-340/Figures/RedBkg/M4l_OS_3P1F_4e_Inclusive.p
+ng  used on input line 266.
+(pdftex.def)             Requested size: 195.12767pt x 187.18257pt.
+<../AN-18-340/Figures/RedBkg/M4l_OS_3P1F_2mu2e_Inclusive.png, id=1178, 2371.861
+25pt x 2275.50125pt>
+File: ../AN-18-340/Figures/RedBkg/M4l_OS_3P1F_2mu2e_Inclusive.png Graphic file 
+(type png)
+<use ../AN-18-340/Figures/RedBkg/M4l_OS_3P1F_2mu2e_Inclusive.png>
+Package pdftex.def Info: ../AN-18-340/Figures/RedBkg/M4l_OS_3P1F_2mu2e_Inclusiv
+e.png  used on input line 267.
+(pdftex.def)             Requested size: 195.12767pt x 187.18257pt.
+<../AN-18-340/Figures/RedBkg/M4l_OS_3P1F_2e2mu_Inclusive.png, id=1179, 2371.861
+25pt x 2275.50125pt>
+File: ../AN-18-340/Figures/RedBkg/M4l_OS_3P1F_2e2mu_Inclusive.png Graphic file 
+(type png)
+<use ../AN-18-340/Figures/RedBkg/M4l_OS_3P1F_2e2mu_Inclusive.png>
+Package pdftex.def Info: ../AN-18-340/Figures/RedBkg/M4l_OS_3P1F_2e2mu_Inclusiv
+e.png  used on input line 268.
+(pdftex.def)             Requested size: 195.12767pt x 187.18257pt.
+ [20 <../AN-18-340/Figures/RedBkg/M4l_OS_2P2F_4mu_Inclusive.png> <../AN-18-340/
+Figures/RedBkg/M4l_OS_2P2F_4e_Inclusive.png> <../AN-18-340/Figures/RedBkg/M4l_O
+S_2P2F_2mu2e_Inclusive.png> <../AN-18-340/Figures/RedBkg/M4l_OS_2P2F_2e2mu_Incl
+usive.png>] [21 <../AN-18-340/Figures/RedBkg/M4l_OS_3P1F_4mu_Inclusive.png> <..
+/AN-18-340/Figures/RedBkg/M4l_OS_3P1F_4e_Inclusive.png> <../AN-18-340/Figures/R
+edBkg/M4l_OS_3P1F_2mu2e_Inclusive.png> <../AN-18-340/Figures/RedBkg/M4l_OS_3P1F
+_2e2mu_Inclusive.png>] [22]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.419 \par
+           This method used to predict the reducible background allows to
+? 
+! Undefined control sequence.
+l.433 ...quired to satisfy $m_{4\ell} > 100~\GeVcc
+                                                  $,
+? 
+[23]
+Overfull \hbox (2.91118pt too wide) in paragraph at lines 440--443
+[]\T1/ppl/m/n/12 Starting from the con-trol sam-ple pre-vi-ously de-scribed, th
+e fi-nal re-ducible back-
+ []
+
+<../AN-18-340/Figures/RedBkg/FR_SS_muons.png, id=1221, 2371.86125pt x 2275.5012
+5pt>
+File: ../AN-18-340/Figures/RedBkg/FR_SS_muons.png Graphic file (type png)
+<use ../AN-18-340/Figures/RedBkg/FR_SS_muons.png>
+Package pdftex.def Info: ../AN-18-340/Figures/RedBkg/FR_SS_muons.png  used on i
+nput line 471.
+(pdftex.def)             Requested size: 2371.85548pt x 2275.49573pt.
+[24]
+Overfull \hbox (4.87816pt too wide) in paragraph at lines 518--524
+[]\T1/ppl/m/n/12 In a given $\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 p[]; ^^Q\OT1/cmr
+/m/n/12 )$ \T1/ppl/m/n/12 bin, both the mea-sured fake rate and the av-er-age $
+\OML/cmm/m/it/12 < N[] >$
+ []
+
+<../AN-18-340/Figures/RedBkg/FR_MissingHits_graph_eta_0_pT_0.png, id=1229, 2371
+.86125pt x 2308.625pt>
+File: ../AN-18-340/Figures/RedBkg/FR_MissingHits_graph_eta_0_pT_0.png Graphic f
+ile (type png)
+<use ../AN-18-340/Figures/RedBkg/FR_MissingHits_graph_eta_0_pT_0.png>
+Package pdftex.def Info: ../AN-18-340/Figures/RedBkg/FR_MissingHits_graph_eta_0
+_pT_0.png  used on input line 528.
+(pdftex.def)             Requested size: 195.12767pt x 189.90733pt.
+<../AN-18-340/Figures/RedBkg/FR_MissingHits_graph_eta_1_pT_3.png, id=1230, 2371
+.86125pt x 2308.625pt>
+File: ../AN-18-340/Figures/RedBkg/FR_MissingHits_graph_eta_1_pT_3.png Graphic f
+ile (type png)
+<use ../AN-18-340/Figures/RedBkg/FR_MissingHits_graph_eta_1_pT_3.png>
+Package pdftex.def Info: ../AN-18-340/Figures/RedBkg/FR_MissingHits_graph_eta_1
+_pT_3.png  used on input line 529.
+(pdftex.def)             Requested size: 195.12767pt x 189.90733pt.
+[25 <../AN-18-340/Figures/RedBkg/FR_SS_muons.png>]
+<../AN-18-340/Figures/RedBkg/FR_SS_electrons.png, id=1238, 2371.86125pt x 2275.
+50125pt>
+File: ../AN-18-340/Figures/RedBkg/FR_SS_electrons.png Graphic file (type png)
+<use ../AN-18-340/Figures/RedBkg/FR_SS_electrons.png>
+Package pdftex.def Info: ../AN-18-340/Figures/RedBkg/FR_SS_electrons.png  used 
+on input line 556.
+(pdftex.def)             Requested size: 2371.85548pt x 2275.49573pt.
+ [26 <../AN-18-340/Figures/RedBkg/FR_MissingHits_graph_eta_0_pT_0.png> <../AN-1
+8-340/Figures/RedBkg/FR_MissingHits_graph_eta_1_pT_3.png>]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.603    Channel \to
+                      &  4e               &  2$\mu$2e          &  4$\mu$    ...
+
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.603    Channel \to  &
+                         4e               &  2$\mu$2e          &  4$\mu$    ...
+
+? 
+<../AN-18-340/Figures/RedBkg/M4l_SS_4e_Inclusive.png, id=1249, 2371.86125pt x 2
+275.50125pt>
+File: ../AN-18-340/Figures/RedBkg/M4l_SS_4e_Inclusive.png Graphic file (type pn
+g)
+<use ../AN-18-340/Figures/RedBkg/M4l_SS_4e_Inclusive.png>
+Package pdftex.def Info: ../AN-18-340/Figures/RedBkg/M4l_SS_4e_Inclusive.png  u
+sed on input line 616.
+(pdftex.def)             Requested size: 195.12767pt x 187.18257pt.
+<../AN-18-340/Figures/RedBkg/M4l_SS_2mu2e_Inclusive.png, id=1250, 2371.86125pt 
+x 2275.50125pt>
+File: ../AN-18-340/Figures/RedBkg/M4l_SS_2mu2e_Inclusive.png Graphic file (type
+ png)
+<use ../AN-18-340/Figures/RedBkg/M4l_SS_2mu2e_Inclusive.png>
+Package pdftex.def Info: ../AN-18-340/Figures/RedBkg/M4l_SS_2mu2e_Inclusive.png
+  used on input line 617.
+(pdftex.def)             Requested size: 195.12767pt x 187.18257pt.
+<../AN-18-340/Figures/RedBkg/M4l_SS_4mu_Inclusive.png, id=1251, 2371.86125pt x 
+2275.50125pt>
+File: ../AN-18-340/Figures/RedBkg/M4l_SS_4mu_Inclusive.png Graphic file (type p
+ng)
+<use ../AN-18-340/Figures/RedBkg/M4l_SS_4mu_Inclusive.png>
+Package pdftex.def Info: ../AN-18-340/Figures/RedBkg/M4l_SS_4mu_Inclusive.png  
+used on input line 618.
+(pdftex.def)             Requested size: 195.12767pt x 187.18257pt.
+<../AN-18-340/Figures/RedBkg/M4l_SS_2e2mu_Inclusive.png, id=1252, 2371.86125pt 
+x 2275.50125pt>
+File: ../AN-18-340/Figures/RedBkg/M4l_SS_2e2mu_Inclusive.png Graphic file (type
+ png)
+<use ../AN-18-340/Figures/RedBkg/M4l_SS_2e2mu_Inclusive.png>
+Package pdftex.def Info: ../AN-18-340/Figures/RedBkg/M4l_SS_2e2mu_Inclusive.png
+  used on input line 619.
+(pdftex.def)             Requested size: 195.12767pt x 187.18257pt.
+
+Overfull \hbox (3.33176pt too wide) in paragraph at lines 754--759
+ []\T1/ppl/b/n/12 Combination of the Z+X back

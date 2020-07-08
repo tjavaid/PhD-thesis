@@ -1,5 +1,0 @@
-\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
-\babel@toc {english}{}
-\addvspace {10\p@ }
-\contentsline {table}{\numberline {1.1}{\ignorespaces Overview of all requirements utilized to define the fiducial phase space. \relax }}{12}{table.caption.33}
-\contentsline {table}{\numberline {1.2}{\ignorespaces Summary of different SM signal models. The MC samples are from full Run 2 yearly productions (2016, 2017 and 2018) assuming $m_{\rm H} = 125.0\GeV $. Luminosity averaged fiducial acceptance ($\mathcal {A}_{\rm fid}$) defined the fraction of events passing fiducial phase space selections, reconstruction efficiency ($\epsilon $) represented by the ratio of reconstructed to accepted events. Also, $f_{\rm nonfid}$ which are reconstructed events but does not pass fiducial phase space definition at generator level. Values are obtained using 13\hspace {0.25em plus 0.125em minus 0.08em}\ignorespaces TeV signal models and the uncertainties shown are only statistical uncertainties. \relax }}{13}{table.caption.34}

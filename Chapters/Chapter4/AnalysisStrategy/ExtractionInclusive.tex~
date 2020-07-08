@@ -1,7 +1,7 @@
-\subsubsection{Signal Model and Statistical Procedure} \label{sec:SignalInclusive}
-For the integrated or inclusive cross section measurement within the defined region fiducial phase space, we follow  a general procedure of differential cross sections measurement as outlined in Section~\ref{sec:SignalStatProcedure}, treating it as a special case where the number of considered bins is  one.
+%\subsubsection{Signal Model and Statistical Procedure} \label{sec:SignalInclusive}
+For the integrated or inclusive cross section measurement within the defined region fiducial phase space, a general procedure of differential cross sections measurement as outlined in Section~\ref{sec:StatProcedure} is followed, treating inclusive measurement as a special case where the number of considered bins is  one.
 \par 
-Table~\ref{tab:efficiencySM} shows the reconstruction efficiency ($\epsilon$) for fiducial events, while Table~\ref{tab:foutSM} shows the ratio ($f_{nonfid}$)
+Table \ref{tab:efficiencySM} shows the reconstruction efficiency ($\epsilon$) for fiducial events, while Table \ref{tab:foutSM} shows the ratio ($f_{nonfid}$)
 of events reconstructed from out of fiducial region and the events reconstructed within fiducial volume, per 
 final state for different Standard Model signal models. The primary source of the ``nonfiducial signal'' contributions (described with the factor $f_{nonfid}$) 
 is the imperfect correspondence of isolation at particle and reconstruction levels, as discussed at the beginning of
@@ -14,7 +14,7 @@ In a similar way, fraction of the signal events in mass range 105.0--140.0 $\GeV
 \begin{center}
 \small
 \caption{
-Reconstruction efficiency ($\epsilon$) for fiducial events per final state for different Standard Model signal models at $\sqrt{s} =  13$~TeV with 2018 data.
+Reconstruction efficiency ($\epsilon$) for fiducial events per final state for different Standard Model signal models at $\sqrt{s} =  13$~TeV with 2018 MC samples.
 \label{tab:efficiencySM}
 }
 \begin{tabular}{|l|c|c|c|c|} \hline
@@ -53,7 +53,7 @@ ttH ({\sc powheg}) & 0.429 $\pm$ 0.006 & 0.745 $\pm$ 0.005 & 0.573 $\pm$ 0.005 &
 \small
 \caption{
 Ratio of events reconstructed from out of fiducial volume and the events reconstructed within the fiducial region ($f_{nonfid}$) per
- final state in different Standard Model signal models at $\sqrt{s} =  13$~TeV with 2018 data.
+ final state in different Standard Model signal models at $\sqrt{s} =  13$~TeV with 2018 MC samples.
 \label{tab:foutSM}
 }
 \begin{tabular}{|l|c|c|c|c|} \hline
@@ -155,7 +155,7 @@ ttH ({\sc powheg}) & 0.278 $\pm$ 0.012 & 0.127 $\pm$ 0.005 & 0.193 $\pm$ 0.006 &
 \begin{center}
 \small
 \caption{
-Signal event fraction in the mass range 105.0--140.0 $\GeV$ where minimum one lepton selected is originating from Higgs decay at $\sqrt{s} =  13$~TeV with 2018 data.
+	Signal event fraction in the mass range 105.0--140.0 $\GeV$ where minimum one lepton selected is originating from Higgs decay at $\sqrt{s} =  13$~TeV with 2018 MC samples.
 \label{tab:wrongracSM}
 }
 \begin{tabular}{|l|c|c|c|c|} \hline
@@ -165,7 +165,7 @@ VBF ({\sc powheg})  & 0.002 & 0.003 & 0.003 & 0.003 \\
 WH ({\sc powheg+minlo}) & 0.036 & 0.031 & 0.042 & 0.037 \\
 ZH ({\sc powheg+minlo})  & 0.199 & 0.207 & 0.212 & 0.208 \\
 ttH ({\sc powheg}) & 0.175 & 0.156 & 0.164 & 0.163 \\
-ggH(NNLOPS) & 0.003 & 0.003 & 0.004 & 0.003 \\
+%ggH(NNLOPS) & 0.003 & 0.003 & 0.004 & 0.003 \\
 %
 %gg$\rightarrow$H ({\sc powheg+JHUgen}) 125 $\GeV$ & 0.001 & 0.001 & 0.002 & 0.002 \\
 %gg$\rightarrow$H ({\sc powheg+JHUgen})126 $\GeV$ & 0.002 & 0.003 & 0.002 & 0.002 \\

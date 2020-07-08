@@ -336,5 +336,806 @@
     \field{journaltitle}{Eur. Phys. J. C}
     \field{year}{2015}
   \endentry
+
+  \entry{powheg}{article}{}
+    \name{author}{3}{}{%
+      {{hash=FS}{%
+         family={Frixione},
+         familyi={F\bibinitperiod},
+         given={Stefano},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=NP}{%
+         family={Nason},
+         familyi={N\bibinitperiod},
+         given={Paolo},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=OC}{%
+         family={Oleari},
+         familyi={O\bibinitperiod},
+         given={Carlo},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FSNPOC1}
+    \strng{fullhash}{FSNPOC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{070}
+    \field{title}{Matching NLO QCD computations with Parton Shower simulations:
+  the POWHEG method}
+    \field{volume}{11}
+    \field{journaltitle}{JHEP}
+    \field{year}{2007}
+  \endentry
+
+  \entry{powhegvv}{article}{}
+    \name{author}{4}{}{%
+      {{hash=MT}{%
+         family={Melia},
+         familyi={M\bibinitperiod},
+         given={Tom},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=NP}{%
+         family={Nason},
+         familyi={N\bibinitperiod},
+         given={Paolo},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=RR}{%
+         family={Roentsch},
+         familyi={R\bibinitperiod},
+         given={Raoul},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=ZG}{%
+         family={Zanderighi},
+         familyi={Z\bibinitperiod},
+         given={Giulia},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MT+1}
+    \strng{fullhash}{MTNPRRZG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{078}
+    \field{title}{$ZZ$, $W^{\pm}Z$ and $W^+W^-$ production, including
+  $\gamma$/Z interference, singly resonant contributions and interference for
+  identical leptons}
+    \field{volume}{11}
+    \field{journaltitle}{JHEP}
+    \field{year}{2011}
+  \endentry
+
+  \entry{Alioli:2008gx}{article}{}
+    \name{author}{4}{}{%
+      {{hash=AS}{%
+         family={Alioli},
+         familyi={A\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=NP}{%
+         family={Nason},
+         familyi={N\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=OC}{%
+         family={Oleari},
+         familyi={O\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=RE}{%
+         family={Re},
+         familyi={R\bibinitperiod},
+         given={E.},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AS+1}
+    \strng{fullhash}{ASNPOCRE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{060}
+    \field{title}{NLO vector-boson production matched with shower in POWHEG}
+    \field{volume}{07}
+    \field{journaltitle}{JHEP}
+    \field{year}{2008}
+  \endentry
+
+  \entry{Nason:2004rx}{article}{}
+    \name{author}{1}{}{%
+      {{hash=NP}{%
+         family={Nason},
+         familyi={N\bibinitperiod},
+         given={Paolo},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{NP1}
+    \strng{fullhash}{NP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{040}
+    \field{title}{A new method for combining NLO QCD with shower Monte Carlo
+  algorithms}
+    \field{volume}{11}
+    \field{journaltitle}{JHEP}
+    \field{year}{2008}
+  \endentry
+
+  \entry{Frixione:2007vw}{article}{}
+    \name{author}{3}{}{%
+      {{hash=NS}{%
+         family={NFrixione},
+         familyi={N\bibinitperiod},
+         given={Stefano},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=NP}{%
+         family={Nason},
+         familyi={N\bibinitperiod},
+         given={Paolo},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=OC}{%
+         family={Oleari},
+         familyi={O\bibinitperiod},
+         given={Carlo},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{NSNPOC1}
+    \strng{fullhash}{NSNPOC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{070}
+    \field{title}{Matching NLO QCD computations with parton shower simulations:
+  the POWHEG method}
+    \field{volume}{11}
+    \field{journaltitle}{JHEP}
+    \field{year}{2007}
+  \endentry
+
+  \entry{Bagnaschi:2011tu}{article}{}
+    \name{author}{4}{}{%
+      {{hash=BE}{%
+         family={Bagnaschi},
+         familyi={B\bibinitperiod},
+         given={E.},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=DG}{%
+         family={Degrassi},
+         familyi={D\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=SP}{%
+         family={Slavich},
+         familyi={S\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=VA}{%
+         family={Vicini},
+         familyi={V\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BE+1}
+    \strng{fullhash}{BEDGSPVA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{88}
+    \field{title}{Higgs production via gluon fusion in the POWHEG approach in
+  the SM and in the MSSM}
+    \field{volume}{02}
+    \field{journaltitle}{JHEP}
+    \field{year}{2012}
+  \endentry
+
+  \entry{Nason:2009ai}{article}{}
+    \name{author}{2}{}{%
+      {{hash=NP}{%
+         family={Nason},
+         familyi={N\bibinitperiod},
+         given={Paolo},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=OC}{%
+         family={Oleari},
+         familyi={O\bibinitperiod},
+         given={Carlo},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{NPOC1}
+    \strng{fullhash}{NPOC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{037}
+    \field{title}{NLO Higgs boson production via vector-boson fusion matched
+  with shower in POWHEG}
+    \field{volume}{02}
+    \field{journaltitle}{JHEP}
+    \field{year}{2010}
+  \endentry
+
+  \entry{Hartanto:2015uka}{article}{}
+    \name{author}{4}{}{%
+      {{hash=HHB}{%
+         family={Hartanto},
+         familyi={H\bibinitperiod},
+         given={Heribertus\bibnamedelima B.},
+         giveni={H\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=JB}{%
+         family={Jager},
+         familyi={J\bibinitperiod},
+         given={Barbara},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=LR}{%
+         family={Laura},
+         familyi={L\bibinitperiod},
+         given={Reina},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=WD}{%
+         family={Wackeroth},
+         familyi={W\bibinitperiod},
+         given={Doreen},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HHB+1}
+    \strng{fullhash}{HHBJBLRWD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{094003}
+    \field{title}{Higgs boson production in association with top quarks in the
+  POWHEG BOX}
+    \field{volume}{D91}
+    \field{journaltitle}{Phys. Rev.}
+    \field{year}{2015}
+  \endentry
+
+  \entry{Luisoni:2013kna}{article}{}
+    \name{author}{4}{}{%
+      {{hash=LG}{%
+         family={Luisoni},
+         familyi={L\bibinitperiod},
+         given={Gionata},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=NP}{%
+         family={Nason},
+         familyi={N\bibinitperiod},
+         given={Paolo},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=OC}{%
+         family={Oleari},
+         familyi={O\bibinitperiod},
+         given={Carlo},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=TF}{%
+         family={Tramontano},
+         familyi={T\bibinitperiod},
+         given={Francesco},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LG+1}
+    \strng{fullhash}{LGNPOCTF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{083}
+    \field{title}{$HW^{\pm}$/HZ + 0 and 1 jet at NLO with the POWHEG BOX
+  interfaced to GoSam and their merging within MiNLO}
+    \field{volume}{10}
+    \field{journaltitle}{JHEP}
+    \field{year}{2013}
+  \endentry
+
+  \entry{Gao:2010qx}{article}{}
+    \true{moreauthor}
+    \name{author}{5}{}{%
+      {{hash=GY}{%
+         family={Gao},
+         familyi={G\bibinitperiod},
+         given={Yanyan},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=GAV}{%
+         family={Gritsan},
+         familyi={G\bibinitperiod},
+         given={Andrei\bibnamedelima V.},
+         giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+      {{hash=GZ}{%
+         family={Guo},
+         familyi={G\bibinitperiod},
+         given={Zijin},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=MK}{%
+         family={Melnikov},
+         familyi={M\bibinitperiod},
+         given={Kirill},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Schulze},
+         familyi={S\bibinitperiod},
+         given={Markus},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GY+1}
+    \strng{fullhash}{GYGAVGZMKSM+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{075022}
+    \field{title}{Spin determination of single-produced resonances at hadron
+  colliders}
+    \field{volume}{D81}
+    \field{journaltitle}{Phys.Rev.}
+    \field{year}{2010}
+  \endentry
+
+  \entry{Ball:2014uwa}{article}{}
+    \true{moreauthor}
+    \name{author}{1}{}{%
+      {{hash=BRD}{%
+         family={Ball},
+         familyi={B\bibinitperiod},
+         given={Richard\bibnamedelima D.},
+         giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BRD+1}
+    \strng{fullhash}{BRD+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{040}
+    \field{title}{Parton distributions for the LHC Run II}
+    \field{volume}{04}
+    \field{journaltitle}{JHEP}
+    \field{year}{2015}
+  \endentry
+
+  \entry{Bolognesi:2012mm}{article}{}
+    \true{moreauthor}
+    \name{author}{5}{}{%
+      {{hash=BS}{%
+         family={Bolognesi},
+         familyi={B\bibinitperiod},
+         given={Sara},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=GY}{%
+         family={Gao},
+         familyi={G\bibinitperiod},
+         given={Yanyan},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=GAV}{%
+         family={Gritsan},
+         familyi={G\bibinitperiod},
+         given={Andrei\bibnamedelima V.},
+         giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+      {{hash=MK}{%
+         family={Melnikov},
+         familyi={M\bibinitperiod},
+         given={Kirill},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Schulze},
+         familyi={S\bibinitperiod},
+         given={Markus},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BS+1}
+    \strng{fullhash}{BSGYGAVMKSM+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{095031}
+    \field{title}{On the spin and parity of a single-produced resonance at the
+  LHC}
+    \field{volume}{D86}
+    \field{journaltitle}{Phys.Rev.}
+    \field{year}{2012}
+  \endentry
+
+  \entry{Anderson:2013afp}{article}{}
+    \name{author}{6}{}{%
+      {{hash=AI}{%
+         family={Anderson},
+         familyi={A\bibinitperiod},
+         given={Ian},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=BS}{%
+         family={Bolognesi},
+         familyi={B\bibinitperiod},
+         given={Sara},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=CF}{%
+         family={Caola},
+         familyi={C\bibinitperiod},
+         given={Fabrizio},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=GY}{%
+         family={Gao},
+         familyi={G\bibinitperiod},
+         given={Yanyan},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=GAV}{%
+         family={Gritsan},
+         familyi={G\bibinitperiod},
+         given={Andrei\bibnamedelima V.},
+         giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+      {{hash=o}{%
+         family={other},
+         familyi={o\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AI+1}
+    \strng{fullhash}{AIBSCFGYGAVo1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{035007}
+    \field{title}{Constraining anomalous HVV interactions at proton and lepton
+  colliders}
+    \field{volume}{D89}
+    \field{journaltitle}{Phys.Rev.}
+    \field{year}{2014}
+  \endentry
+
+  \entry{Nason:2013ydw}{article}{}
+    \name{author}{2}{}{%
+      {{hash=NP}{%
+         family={Nason},
+         familyi={N\bibinitperiod},
+         given={Paolo},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=ZG}{%
+         family={Zanderighi},
+         familyi={Z\bibinitperiod},
+         given={Giulia},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{NPZG1}
+    \strng{fullhash}{NPZG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{2702}
+    \field{title}{$W^+ W^-$ , $W Z$ and $Z Z$ production in the POWHEG-BOX-V2}
+    \field{volume}{C74}
+    \field{journaltitle}{Eur. Phys. J.}
+    \field{year}{2014}
+  \endentry
+
+  \entry{MCFM}{article}{}
+    \name{author}{2}{}{%
+      {{hash=CJM}{%
+         family={Campbell},
+         familyi={C\bibinitperiod},
+         given={John\bibnamedelima M.},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=ERK}{%
+         family={Ellis},
+         familyi={E\bibinitperiod},
+         given={R.\bibnamedelima K.},
+         giveni={R\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CJMERK1}
+    \strng{fullhash}{CJMERK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{10}
+    \field{title}{MCFM for the Tevatron and the LHC}
+    \field{volume}{205}
+    \field{journaltitle}{Nucl. Phys. Proc. Suppl.}
+    \field{year}{2010}
+  \endentry
+
+  \entry{Campbell:2013una}{article}{}
+    \name{author}{3}{}{%
+      {{hash=CJM}{%
+         family={Campbell},
+         familyi={C\bibinitperiod},
+         given={John\bibnamedelima M.},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=ERK}{%
+         family={Ellis},
+         familyi={E\bibinitperiod},
+         given={R.\bibnamedelima Keith},
+         giveni={R\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=WC}{%
+         family={Williams},
+         familyi={W\bibinitperiod},
+         given={Ciaran.},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CJMERKWC1}
+    \strng{fullhash}{CJMERKWC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{060}
+    \field{title}{Bounding the Higgs width at the LHC using full analytic
+  results for $gg \rightarrow e^- e^+ \mu^- \mu^+$}
+    \field{volume}{04}
+    \field{journaltitle}{JHEP}
+    \field{year}{2014}
+  \endentry
+
+  \entry{GEANT}{article}{}
+    \true{moreauthor}
+    \name{author}{1}{}{%
+      {{hash=AJ}{%
+         family={Allison},
+         familyi={A\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AJ+1}
+    \strng{fullhash}{AJ+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{270}
+    \field{title}{Geant4 developments and applications}
+    \field{volume}{53}
+    \field{journaltitle}{IEEE Trans. Nucl. Sci.}
+    \field{year}{2006}
+  \endentry
+
+  \entry{Chatrchyan:2013mxa}{article}{}
+    \true{moreauthor}
+    \name{author}{1}{}{%
+      {{hash=CS}{%
+         family={Chatrchyan},
+         familyi={C\bibinitperiod},
+         given={Serguei},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CS+1}
+    \strng{fullhash}{CS+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{092007}
+    \field{title}{Measurement of the properties of a Higgs boson in the
+  four-lepton final state}
+    \field{volume}{89}
+    \field{journaltitle}{Phys.Rev. D}
+    \field{year}{2014}
+  \endentry
+
+  \entry{Khachatryan:2014kca}{article}{}
+    \name{author}{1}{}{%
+      {{hash=CC}{%
+         family={Collaboration},
+         familyi={C\bibinitperiod},
+         given={CMS},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CC1}
+    \strng{fullhash}{CC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{026}
+    \field{title}{Constraints on the spin-parity and anomalous HVV couplings of
+  the Higgs boson in proton collisions at 7 and 8 TeV}
+    \field{volume}{CMS-PAS-HIG-14-018}
+    \field{journaltitle}{JHEP}
+    \field{year}{2014}
+  \endentry
+
+  \entry{Chatrchyan:2013mx}{article}{}
+    \true{moreauthor}
+    \name{author}{1}{}{%
+      {{hash=CS}{%
+         family={Chatrchyan},
+         familyi={C\bibinitperiod},
+         given={Serguei},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CS+1}
+    \strng{fullhash}{CS+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{092007}
+    \field{title}{Measurement of the properties of a Higgs boson in the
+  four-lepton final state}
+    \field{volume}{D89}
+    \field{journaltitle}{Phys.Rev.}
+    \field{year}{2014}
+  \endentry
+
+  \entry{Kauer:2013cga}{article}{}
+    \name{author}{1}{}{%
+      {{hash=KN}{%
+         family={Kauer},
+         familyi={K\bibinitperiod},
+         given={Nikolas},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KN1}
+    \strng{fullhash}{KN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{1330015}
+    \field{title}{Inadequacy of zero-width approximation for a light Higgs
+  boson signal}
+    \field{volume}{A28}
+    \field{journaltitle}{Mod.Phys.Lett.}
+    \field{year}{2013}
+  \endentry
+
+  \entry{Kauer:2012hd}{article}{}
+    \name{author}{2}{}{%
+      {{hash=KN}{%
+         family={Kauer},
+         familyi={K\bibinitperiod},
+         given={Nikolas},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=PG}{%
+         family={Passarino},
+         familyi={P\bibinitperiod},
+         given={Giampiero},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KNPG1}
+    \strng{fullhash}{KNPG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{116}
+    \field{title}{Inadequacy of zero-width approximation for a light Higgs
+  boson signal}
+    \field{volume}{1208}
+    \field{journaltitle}{JHEP}
+    \field{year}{2012}
+  \endentry
+
+  \entry{Cowan:2010js}{article}{}
+    \name{author}{4}{}{%
+      {{hash=CG}{%
+         family={Cowan},
+         familyi={C\bibinitperiod},
+         given={Glen},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=CK}{%
+         family={Cranmer},
+         familyi={C\bibinitperiod},
+         given={Kyle},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=GE}{%
+         family={Gross},
+         familyi={G\bibinitperiod},
+         given={Eilam},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=VO}{%
+         family={Vitells},
+         familyi={V\bibinitperiod},
+         given={Ofer},
+         giveni={O\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CG+1}
+    \strng{fullhash}{CGCKGEVO1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{1554}
+    \field{title}{Asymptotic formulae for likelihood-based tests of new
+  physics}
+    \field{volume}{71}
+    \field{journaltitle}{Eur. Phys. J.}
+    \field{year}{2011}
+  \endentry
+
+  \entry{LHC-HCG}{article}{}
+    \name{author}{2}{}{%
+      {{hash=A}{%
+         family={ATLAS},
+         familyi={A\bibinitperiod},
+      }}%
+      {{hash=CCLHCG}{%
+         family={CMS\bibnamedelima Collaborations},
+         familyi={C\bibinitperiod\bibinitdelim C\bibinitperiod},
+         given={LHC Higgs Combination\bibnamedelima Group},
+         giveni={L\bibinitperiod\bibinitdelim H\bibinitperiod
+  C\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ACCLHCG1}
+    \strng{fullhash}{ACCLHCG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Procedure for the LHC Higgs boson search combination in
+  Summer 2011}
+    \field{volume}{2011/005}
+    \field{journaltitle}{ATL-PHYS-PUB/CMS NOTE 2011-11}
+    \field{year}{CERN, 2011}
+  \endentry
+
+  \entry{Prosper:2011zz}{article}{}
+    \name{author}{2}{}{%
+      {{hash=PHB}{%
+         family={Prosper},
+         familyi={P\bibinitperiod},
+         given={Harrison\bibnamedelima B.},
+         giveni={H\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=LL}{%
+         family={Lyons},
+         familyi={L\bibinitperiod},
+         given={Louis},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PHBLL1}
+    \strng{fullhash}{PHBLL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Proceedings, PHYSTAT 2011 Workshop on Statistical Issues
+  Related to Discovery Claims in Search Experiments and Unfolding, CERN,Geneva,
+  Switzerland 17-20 January 2011}
+  \endentry
+
+  \entry{CMS:HIG-14-016}{article}{}
+    \true{moreauthor}
+    \name{author}{1}{}{%
+      {{hash=KV}{%
+         family={Khachatryan},
+         familyi={K\bibinitperiod},
+         given={V.},
+         giveni={V\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KV+1}
+    \strng{fullhash}{KV+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{13}
+    \field{title}{Measurement of differential cross sections for Higgs boson
+  production in the diphoton decay channel in pp collisions at $\sqrt{s}
+  =8\TeV$}
+    \field{volume}{76}
+    \field{journaltitle}{Eur. Phys. J. C}
+    \field{year}{2016}
+  \endentry
 \enddatalist
 \endinput

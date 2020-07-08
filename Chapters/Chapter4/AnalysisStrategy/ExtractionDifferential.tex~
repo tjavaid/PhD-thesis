@@ -1,7 +1,106 @@
+%\subsubsection{Signal Model and Statistical Procedure} \label{sec:SignalInclusive}
+\textbf{Inclusive Fiducial Cross section}
+For the integrated or inclusive cross section measurement within the defined region fiducial phase space, a general procedure of differential cross sections measurement as outlined in Section~\ref{sec:StatProcedure} is followed, treating inclusive measurement as a special case where the number of considered bins is  one.
+\par
+Table \ref{tab:efficiencySM} shows the reconstruction efficiency ($\epsilon$) for fiducial events, while Table \ref{tab:foutSM} shows the ratio ($f_{nonfid}$)
+of events reconstructed from out of fiducial region and the events reconstructed within fiducial volume, per
+final state for different Standard Model signal models. The primary source of the ``nonfiducial signal'' contributions (described with the factor $f_{nonfid}$)
+is the imperfect correspondence of isolation at particle and reconstruction levels, as discussed at the beginning of
+Section~\ref{sec:AnalysisStrategy}.
+%The reconstruction efficiency and out of acceptance ratios without including isolation in the fiducial phase space definition
+%are shown in Tables~\ref{tab:efficiencySMnoGenIso} and~\ref{tab:foutSMnoGenIso}. 
+In a similar way, fraction of the signal events in mass range 105.0--140.0 $\GeV$  where minimum one lepton selected does not originate from the Higgs boson decay are shown in Table~\ref{tab:wrongracSM}.
+
+\begin{table}[!h!tb]
+\begin{center}
+\small
+\caption{
+Reconstruction efficiency ($\epsilon$) for fiducial events per final state for different Standard Model signal models at $\sqrt{s} =  13$~TeV with 2018 MC samples.
+\label{tab:efficiencySM}
+}
+\begin{tabular}{|l|c|c|c|c|} \hline
+Sample & $4e$ & $4\mu$ & $2e2\mu$ & $4\ell$ \\ \hline
+gg$\rightarrow$H ({\sc powheg})  & 0.404 $\pm$ 0.002 & 0.799 $\pm$ 0.002 & 0.572 $\pm$ 0.002 & 0.593 $\pm$ 0.001 \\
+VBF ({\sc powheg})  & 0.431 $\pm$ 0.003 & 0.805 $\pm$ 0.002 & 0.586 $\pm$ 0.002 & 0.608 $\pm$ 0.002 \\
+WH ({\sc powheg+minlo}) & 0.415 $\pm$ 0.004 & 0.780 $\pm$ 0.003 & 0.580 $\pm$ 0.003 & 0.593 $\pm$ 0.002 \\
+ZH ({\sc powheg+minlo})  & 0.428 $\pm$ 0.006 & 0.780 $\pm$ 0.005 & 0.581 $\pm$ 0.005 & 0.597 $\pm$ 0.003 \\
+ttH ({\sc powheg}) & 0.429 $\pm$ 0.006 & 0.745 $\pm$ 0.005 & 0.573 $\pm$ 0.005 & 0.585 $\pm$ 0.003 \\
+%ggH(NNLOPS) & 0.425 $\pm$ 0.002 & 0.776 $\pm$ 0.002 & 0.578 $\pm$ 0.001 & 0.595 $\pm$ 0.001 \\
+\hline
+\end{tabular}
+\normalsize
+\end{center}
+\end{table}
+
+\begin{table}[!h!tb]
+\begin{center}
+\small
+\caption{
+Ratio of events reconstructed from out of fiducial volume and the events reconstructed within the fiducial region ($f_{nonfid}$) per
+ final state in different Standard Model signal models at $\sqrt{s} =  13$~TeV with 2018 MC samples.
+\label{tab:foutSM}
+}
+\begin{tabular}{|l|c|c|c|c|} \hline
+Sample & $4e$ & $4\mu$ & $2e2\mu$ & $4\ell$ \\ \hline
+gg$\rightarrow$H ({\sc powheg})  & 0.060 $\pm$ 0.002 & 0.046 $\pm$ 0.001 & 0.060 $\pm$ 0.001 & 0.055 $\pm$ 0.001 \\
+VBF ({\sc powheg})  & 0.050 $\pm$ 0.002 & 0.037 $\pm$ 0.001 & 0.046 $\pm$ 0.001 & 0.043 $\pm$ 0.001 \\
+WH ({\sc powheg+minlo}) & 0.098 $\pm$ 0.004 & 0.058 $\pm$ 0.002 & 0.080 $\pm$ 0.002 & 0.075 $\pm$ 0.001 \\
+ZH ({\sc powheg+minlo})  & 0.105 $\pm$ 0.007 & 0.071 $\pm$ 0.004 & 0.091 $\pm$ 0.004 & 0.087 $\pm$ 0.002 \\
+ttH ({\sc powheg}) & 0.278 $\pm$ 0.012 & 0.127 $\pm$ 0.005 & 0.193 $\pm$ 0.006 & 0.185 $\pm$ 0.004 \\
+%ggH(NNLOPS) & 0.051 $\pm$ 0.001 & 0.046 $\pm$ 0.001 & 0.051 $\pm$ 0.001 & 0.049 $\pm$ 0.001 \\
+\hline
+\end{tabular}
+\normalsize
+\end{center}
+\end{table}
+
+
+\begin{table}[!h!tb]
+\begin{center}
+\small
+\caption{
+        Signal event fraction in the mass range 105.0--140.0 $\GeV$ where minimum one lepton selected is originating from Higgs decay at $\sqrt{s} =  13$~TeV with 2018 MC samples.
+\label{tab:wrongracSM}
+}
+\begin{tabular}{|l|c|c|c|c|} \hline
+Sample & $4e$ & $4\mu$ & $2e2\mu$ & $4\ell$ \\ \hline
+gg$\rightarrow$H ({\sc powheg})  & 0.002 & 0.002 & 0.002 & 0.002 \\
+VBF ({\sc powheg})  & 0.002 & 0.003 & 0.003 & 0.003 \\
+WH ({\sc powheg+minlo}) & 0.036 & 0.031 & 0.042 & 0.037 \\
+ZH ({\sc powheg+minlo})  & 0.199 & 0.207 & 0.212 & 0.208 \\
+ttH ({\sc powheg}) & 0.175 & 0.156 & 0.164 & 0.163 \\
+%ggH(NNLOPS) & 0.003 & 0.003 & 0.004 & 0.003 \\
+\hline
+\end{tabular}
+\normalsize
+\end{center}
+\end{table}
+%%%%%%%%%%%%%%%%%
+\begin{figure}[!htbp]
+\begin{minipage}{0.5\linewidth}
+\centerline{\includegraphics [width=\linewidth] {Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v2_mass4l_4e_recobin0.pdf}}
+\end{minipage}
+\begin{minipage}{0.5\linewidth}
+\centerline{\includegraphics [width=\linewidth] {Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v2_mass4l_4mu_recobin0.pdf}}
+\end{minipage}
+\begin{minipage}{0.5\linewidth}
+\centerline{\includegraphics [width=\linewidth] {Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v2_mass4l_2e2mu_recobin0.pdf}}
+\end{minipage}
+\begin{minipage}{0.5\linewidth}
+\centerline{\includegraphics [width=\linewidth] {Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v2_mass4l_4l_recobin0.pdf}}
+\end{minipage}
+        \caption{Inclusive four lepton mass distributions for an Asimov Dataset generated using SM cross section values and SM efficiencies where the gg$\rightarrow$H prediction is from {\sc powheg+JHUgen} and resulting fitted values of the signal and background pdfs in different final states at $\sqrt{s} =  13$~TeV with 2018 data.}
+  \label{fig:sigfits-asimov-SM-inclusive}
+\end{figure}
+~            
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\textbf{Differential Fiducial Cross section}
 \subsubsection{Kinematic Observables} \label{sec:KinematicObservables}
 
 Measurements on differential cross section which are performed as function of the kinematic properties of four-lepton system and as well as  jet multiplicity are unfolded to the particle level.
-In this dissertation, mainly the kinematic properties of four-lepton system are exploited and the results are reported for transverse momentum and
+In this dissertation, the kinematic properties of four-lepton system are exploited and the results are reported for transverse momentum and
 rapidity of Higgs or the four lepton system($\pt({\rm H})$ or $\pt(4\ell)$, $|y({\rm H})|$ or $|y(4\ell)|$), N(jets), and $\pt({\rm jet})$ which probe the production mechanism.
 %,
 %as well as for the invariant mass of the two leading leptons $m(\mathrm{Z}_{1})$, the invariant mass of the two sub-leading leptons $m(\mathrm{Z}_{2})$ and
@@ -11,7 +110,8 @@ rapidity of Higgs or the four lepton system($\pt({\rm H})$ or $\pt(4\ell)$, $|y(
 For each kinematic or differential observable, selection procedure of the binning boundaries has been optimized in order to have a similar expected measured cross-section for every bin.
 %The same set of observables are used in the differential cross section measurements for both $\Hllll$ and $\Zllll$ decays.
 
-\subsubsection{Background Model} \label{sec:BackgroundDifferential}
+%\subsubsection{Background Model} \label{sec:BackgroundDifferential}
+\subsubsection{Background fractions in bins of a Kinematic Observable} \label{sec:BackgroundDifferential}
 In order to perform the differential measurements, the background is to be subtracted at the reconstruction level for each bin
 of the considered observable.
 In general, the background mass spectrum shape is not the same in all bins of the considered observable because the background does not have a resonance
@@ -119,16 +219,19 @@ Z+X (CR)& 4l  & 0.0992521  & 0.211153  & 0.209307 & 0.305327  & 0.120303  & 0.04
 % \end{center}
 %\end{figure}
 
-\clearpage
+%\clearpage
 
-\subsubsection{Signal Model and Statistical Procedure} \label{sec:SignalDifferential}
-The fiducial differential cross section is extracted in the bins of kinematic observables at the fiducial level following the procedure outlined in Section~\ref{sec:SignalStatProcedure}. 
+\subsubsection{Applying the Statistical Procedure} \label{sec:SignalDifferential}
+The fiducial differential cross section is extracted in the bins of kinematic observables at the fiducial level following the procedure outlined in Section~\ref{sec:StatProcedure}. 
 For signal yields, mass spectrum of signal is built in each cell of the response matrix using a Double Crytal Ball (DCB) function, similar to what was done in Ref.~\cite{Chatrchyan:2013mxa}.
 In practice, the same parameters of the CB function are used in each cell and the systematic uncertainties assigned on the energy scale and resolution generally cover discrepancy of signal mass spectrum among each cell.
 \par
 Examples of the fitted signal line shapes for differential bins of $\pt({\rm H})$ from gg$\rightarrow$H ({\sc powheg+JHUgen} 125 $\GeV$ 2018 sample) in the individual
 final states are shown in Figure~\ref{fig:sigfits-pT4l-ggH-powheg15-JHUgen-125-maintext}, and examples of the efficiency matrices for $\pt({\rm H})$ for the
 $2e2\mu$ final state are shown in Fig~\ref{fig:eff-pT4l-2e2mu-maintext}. Many more examples can be seen in Appendix~\ref{signalinputs}.
+
+Figure~\ref{fig:sigfits-asimov-SM-pt4l-4l} shows the four lepton mass distributions for an Asimov dataset generated using SM cross section values and efficiencies
+from the gg$\rightarrow$H production mode from {\sc powheg+JHUgen}, and resulting fitted values of PDFs of signal and background for different bins of $\pt(\mathrm{H})$ (all final states combined).
 
 %%%%%%%%%5
 \begin{figure}[htb]
@@ -183,7 +286,7 @@ $2e2\mu$ final state are shown in Fig~\ref{fig:eff-pT4l-2e2mu-maintext}. Many mo
 %      \label{fig:sigfits-pT4l-ggH-powheg15-JHUgen-125-maintext:l}
 %    }
     \\
-    \caption{ Distributions of m(4$\ell$) in $2e2\mu$ final state for the $gg\rightarrow \mathrm{H}$ production mode from {\sc powheg+JHUGen} in different bins of $\pt(\mathrm{H})$.
+    \caption{ Example signal shapes at reconstruction level for a resonance of m(4$\ell$) in $2e2\mu$ final state for the $gg\rightarrow \mathrm{H}$ production mode from {\sc powheg+JHUGen} in different bins of $\pt(\mathrm{H})$. The black curve represents events which do not pass the fiducial volume selection. The curve has no effect on the result.
     }
   \label{fig:sigfits-pT4l-ggH-powheg15-JHUgen-125-maintext}
  \end{center}
@@ -222,13 +325,13 @@ $2e2\mu$ final state are shown in Fig~\ref{fig:eff-pT4l-2e2mu-maintext}. Many mo
     \includegraphics[width=0.48\textwidth,angle=0]{Plots/eff2d_ttH_powheg_JHUgen_125_pT4l_2e2mu.pdf}
     \label{fig:eff-pT4l-2e2mu-maintext:f}
     }
-    \caption{ Efficiency matrices for $\pt({\rm H})$ for different SM production modes in the $2e2\mu$ final state using 2018 samples. }
+    \caption{ Efficiency response matrices for $\pt({\rm H})$ for different SM production modes in the $2e2\mu$ final state using 2018 samples. }
     \label{fig:eff-pT4l-2e2mu-maintext}
   \end{center}
 \end{figure} \clearpage
 %%%%%%%
-Figure~\ref{fig:sigfits-asimov-SM-pt4l-4l} shows the four lepton mass distributions for an Asimov dataset generated using SM cross section values and efficiencies 
-from the gg$\rightarrow$H production mode from {\sc powheg+JHUgen}, and resulting fitted values of PDFs of signal and background for different bins of $\pt(\mathrm{H})$ (all final states combined).
+%Figure~\ref{fig:sigfits-asimov-SM-pt4l-4l} shows the four lepton mass distributions for an Asimov dataset generated using SM cross section values and efficiencies 
+%from the gg$\rightarrow$H production mode from {\sc powheg+JHUgen}, and resulting fitted values of PDFs of signal and background for different bins of $\pt(\mathrm{H})$ (all final states combined).
 %The same distributions and resulting fitted values of the signal and background pdfs in bins of all considered observables can be found in the Appendix~\ref{}.
 % |0|15|30|45|80|120|200|13000|
 \begin{figure}[htb]
@@ -263,9 +366,9 @@ from the gg$\rightarrow$H production mode from {\sc powheg+JHUgen}, and resultin
     } \\
 	  
 	  \caption{Four lepton mass distributions for an Asimov dataset generated using SM cross section values and SM efficiencies where the gg$\rightarrow$H prediction
-    is from {\sc powheg+JHUgen} and resulting fitted values of the signal and background pdfs in different bins of $\pt(\mathrm{H})$ (all final states combined).}
+    is from {\sc powheg+JHUgen} and resulting fitted values of PDFs of signal and background for different bins of $\pt(\mathrm{H})$ (all final states combined).}
   \label{fig:sigfits-asimov-SM-pt4l-4l}
   \end{center}
 \end{figure}
 
-\clearpage
+%\clearpage
