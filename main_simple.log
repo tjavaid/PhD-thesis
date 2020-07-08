@@ -3026,4 +3026,502 @@ Package pdftex.def Info: ../AN-18-340/Figures/RedBkg/M4l_SS_2e2mu_Inclusive.png
 (pdftex.def)             Requested size: 195.12767pt x 187.18257pt.
 
 Overfull \hbox (3.33176pt too wide) in paragraph at lines 754--759
- []\T1/ppl/b/n/12 Combination of the Z+X back
+ []\T1/ppl/b/n/12 Combination of the Z+X back-ground es-tim-taions[] \T1/ppl/m/
+n/12 Two meth-ods for the re-ducible
+ []
+
+[27 <../AN-18-340/Figures/RedBkg/FR_SS_electrons.png>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.835 ...inties on Reducible Background} \\ \label
+                                                  {syst_reducible_bkg}
+? 
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.836 \newline
+              
+? 
+[28 <../AN-18-340/Figures/RedBkg/M4l_SS_4e_Inclusive.png> <../AN-18-340/Figures
+/RedBkg/M4l_SS_2mu2e_Inclusive.png> <../AN-18-340/Figures/RedBkg/M4l_SS_4mu_Inc
+lusive.png> <../AN-18-340/Figures/RedBkg/M4l_SS_2e2mu_Inclusive.png>] [29]
+
+LaTeX Warning: Reference `sec:ExtractionDifferential' on page 30 undefined on i
+nput line 909.
+
+
+Overfull \hbox (9.4272pt too wide) in paragraph at lines 915--918
+[]\T1/ppl/m/n/12 Reconstructed four-leptons in-vari-ant mass dis-tri-bu-tion fo
+r whole Run 2 datasets
+ []
+
+<Chapters/Chapter4/AnalysisStrategy/figures/Combination.pdf, id=1283, 569.12625
+pt x 415.5525pt>
+File: Chapters/Chapter4/AnalysisStrategy/figures/Combination.pdf Graphic file (
+type pdf)
+<use Chapters/Chapter4/AnalysisStrategy/figures/Combination.pdf>
+Package pdftex.def Info: Chapters/Chapter4/AnalysisStrategy/figures/Combination
+.pdf  used on input line 923.
+(pdftex.def)             Requested size: 216.81pt x 158.30472pt.
+<Chapters/Chapter4/AnalysisStrategy/figures/Combination_lowMass.pdf, id=1284, 5
+69.12625pt x 415.5525pt>
+File: Chapters/Chapter4/AnalysisStrategy/figures/Combination_lowMass.pdf Graphi
+c file (type pdf)
+<use Chapters/Chapter4/AnalysisStrategy/figures/Combination_lowMass.pdf>
+Package pdftex.def Info: Chapters/Chapter4/AnalysisStrategy/figures/Combination
+_lowMass.pdf  used on input line 927.
+(pdftex.def)             Requested size: 216.81pt x 158.30472pt.
+
+Overfull \hbox (2.28001pt too wide) in paragraph at lines 921--930
+[]$[]$ $[]$ 
+ []
+
+
+! LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.948 \Z
+        \ + X               & $  21.1^{+ 8.5}_{-10.4}$ & $  34.4^{+14.5}_{-1...
+
+? 
+
+! LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.962 \Z
+        \ + X & $12.39^{+ y.y}_{- z.z}$ & $36.39^{+ y.y}_{- z.z}$ & $44.45^{...
+
+? 
+
+! LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.980         \Z
+                \ + X & $19.3\pm7.2$ & $50.8\pm15.2$ & $64.6\pm15.6$ & $134....
+
+? 
+) (./Chapters/Chapter4/AnalysisStrategy/StatProcedure.tex [30]
+
+LaTeX Warning: Reference `fig:eff-pT4l-4e' on page 31 undefined on input line 4
+0.
+
+
+LaTeX Warning: Reference `fig:eff-njets_reco_pt30_eta4p7-4e' on page 31 undefin
+ed on input line 46.
+
+
+LaTeX Warning: Reference `fig:eff-njets_reco_pt30_eta4p7-2e2mu' on page 31 unde
+fined on input line 46.
+
+
+LaTeX Warning: Reference `app:siginputs' on page 31 undefined on input line 46.
+
+
+[31 <./Chapters/Chapter4/AnalysisStrategy/figures/Combination.pdf, page is rota
+ted 90 degrees> <./Chapters/Chapter4/AnalysisStrategy/figures/Combination_lowMa
+ss.pdf, page is rotated 90 degrees>] [32]
+
+LaTeX Warning: Reference `tab:summarySM2016' on page 33 undefined on input line
+ 56.
+
+
+LaTeX Warning: Reference `tab:summarySM2017' on page 33 undefined on input line
+ 56.
+
+
+LaTeX Warning: Reference `tab:summarySM2018' on page 33 undefined on input line
+ 56.
+
+)
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 389.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\to' on input line 389.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\ell' on input line 389.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 389.
+
+(./Chapters/Chapter4/AnalysisStrategy/Extraction.tex [33]
+<Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v2_mass4l_4e_recobin0.pdf, id=140
+4, 569.12625pt x 440.64626pt>
+File: Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v2_mass4l_4e_recobin0.pdf Gr
+aphic file (type pdf)
+<use Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v2_mass4l_4e_recobin0.pdf>
+Package pdftex.def Info: Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v2_mass4l
+_4e_recobin0.pdf  used on input line 83.
+(pdftex.def)             Requested size: 216.81pt x 167.86418pt.
+<Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v2_mass4l_4mu_recobin0.pdf, id=14
+05, 569.12625pt x 440.64626pt>
+File: Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v2_mass4l_4mu_recobin0.pdf G
+raphic file (type pdf)
+<use Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v2_mass4l_4mu_recobin0.pdf>
+Package pdftex.def Info: Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v2_mass4l
+_4mu_recobin0.pdf  used on input line 86.
+(pdftex.def)             Requested size: 216.81pt x 167.86418pt.
+<Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v2_mass4l_2e2mu_recobin0.pdf, id=
+1406, 569.12625pt x 440.64626pt>
+File: Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v2_mass4l_2e2mu_recobin0.pdf
+ Graphic file (type pdf)
+<use Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v2_mass4l_2e2mu_recobin0.pdf>
+
+Package pdftex.def Info: Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v2_mass4l
+_2e2mu_recobin0.pdf  used on input line 89.
+(pdftex.def)             Requested size: 216.81pt x 167.86418pt.
+<Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v2_mass4l_4l_recobin0.pdf, id=140
+7, 569.12625pt x 440.64626pt>
+File: Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v2_mass4l_4l_recobin0.pdf Gr
+aphic file (type pdf)
+<use Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v2_mass4l_4l_recobin0.pdf>
+Package pdftex.def Info: Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v2_mass4l
+_4l_recobin0.pdf  used on input line 92.
+(pdftex.def)             Requested size: 216.81pt x 167.86418pt.
+
+Overfull \hbox (2.28001pt too wide) in paragraph at lines 82--94
+[]$[]$ $[]$
+ []
+
+
+Overfull \hbox (2.28001pt too wide) in paragraph at lines 82--94
+[]$ $[]$ 
+ []
+
+
+Overfull \hbox (23.12483pt too wide) in paragraph at lines 105--114
+\T1/ppl/m/n/12 ported for trans-verse mo-men-tum and ra-pid-ity of Higgs or the
+ four lep-ton system($\OML/cmm/m/it/12 p[]\OT1/cmr/m/n/12 (H)$
+ []
+
+[34] [35 <./Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v2_mass4l_4e_recobin0.
+pdf, page is rotated 90 degrees> <./Plots/asimovdata_SM_125_v2_unfoldwith_SM_12
+5_v2_mass4l_4mu_recobin0.pdf, page is rotated 90 degrees> <./Plots/asimovdata_S
+M_125_v2_unfoldwith_SM_125_v2_mass4l_2e2mu_recobin0.pdf, page is rotated 90 deg
+rees> <./Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v2_mass4l_4l_recobin0.pdf
+, page is rotated 90 degrees>] [36]
+
+LaTeX Warning: Reference `signalinputs' on page 37 undefined on input line 238.
+
+
+<Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin0_recobin0_effs_genWeight*pileupW
+eight*dataMCWeight.pdf, id=1600, 569.12625pt x 551.05875pt>
+File: Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin0_recobin0_effs_genWeight*pi
+leupWeight*dataMCWeight.pdf Graphic file (type pdf)
+<use Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin0_recobin0_effs_genWeight*pil
+eupWeight*dataMCWeight.pdf>
+Package pdftex.def Info: Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin0_recobin
+0_effs_genWeight*pileupWeight*dataMCWeight.pdf  used on input line 250.
+(pdftex.def)             Requested size: 130.08733pt x 125.95885pt.
+<Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin1_recobin1_effs_genWeight*pileupW
+eight*dataMCWeight.pdf, id=1601, 569.12625pt x 551.05875pt>
+File: Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin1_recobin1_effs_genWeight*pi
+leupWeight*dataMCWeight.pdf Graphic file (type pdf)
+<use Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin1_recobin1_effs_genWeight*pil
+eupWeight*dataMCWeight.pdf>
+Package pdftex.def Info: Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin1_recobin
+1_effs_genWeight*pileupWeight*dataMCWeight.pdf  used on input line 254.
+(pdftex.def)             Requested size: 130.08733pt x 125.95885pt.
+<Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin2_recobin2_effs_genWeight*pileupW
+eight*dataMCWeight.pdf, id=1602, 569.12625pt x 551.05875pt>
+File: Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin2_recobin2_effs_genWeight*pi
+leupWeight*dataMCWeight.pdf Graphic file (type pdf)
+<use Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin2_recobin2_effs_genWeight*pil
+eupWeight*dataMCWeight.pdf>
+Package pdftex.def Info: Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin2_recobin
+2_effs_genWeight*pileupWeight*dataMCWeight.pdf  used on input line 258.
+(pdftex.def)             Requested size: 130.08733pt x 125.95885pt.
+<Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin3_recobin3_effs_genWeight*pileupW
+eight*dataMCWeight.pdf, id=1603, 569.12625pt x 551.05875pt>
+File: Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin3_recobin3_effs_genWeight*pi
+leupWeight*dataMCWeight.pdf Graphic file (type pdf)
+<use Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin3_recobin3_effs_genWeight*pil
+eupWeight*dataMCWeight.pdf>
+Package pdftex.def Info: Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin3_recobin
+3_effs_genWeight*pileupWeight*dataMCWeight.pdf  used on input line 262.
+(pdftex.def)             Requested size: 130.08733pt x 125.95885pt.
+<Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin4_recobin4_effs_genWeight*pileupW
+eight*dataMCWeight.pdf, id=1604, 569.12625pt x 551.05875pt>
+File: Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin4_recobin4_effs_genWeight*pi
+leupWeight*dataMCWeight.pdf Graphic file (type pdf)
+<use Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin4_recobin4_effs_genWeight*pil
+eupWeight*dataMCWeight.pdf>
+Package pdftex.def Info: Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin4_recobin
+4_effs_genWeight*pileupWeight*dataMCWeight.pdf  used on input line 266.
+(pdftex.def)             Requested size: 130.08733pt x 125.95885pt.
+<Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin5_recobin5_effs_genWeight*pileupW
+eight*dataMCWeight.pdf, id=1605, 569.12625pt x 551.05875pt>
+File: Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin5_recobin5_effs_genWeight*pi
+leupWeight*dataMCWeight.pdf Graphic file (type pdf)
+<use Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin5_recobin5_effs_genWeight*pil
+eupWeight*dataMCWeight.pdf>
+Package pdftex.def Info: Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin5_recobin
+5_effs_genWeight*pileupWeight*dataMCWeight.pdf  used on input line 270.
+(pdftex.def)             Requested size: 130.08733pt x 125.95885pt.
+<Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin6_recobin6_effs_genWeight*pileupW
+eight*dataMCWeight.pdf, id=1606, 569.12625pt x 551.05875pt>
+File: Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin6_recobin6_effs_genWeight*pi
+leupWeight*dataMCWeight.pdf Graphic file (type pdf)
+<use Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin6_recobin6_effs_genWeight*pil
+eupWeight*dataMCWeight.pdf>
+Package pdftex.def Info: Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin6_recobin
+6_effs_genWeight*pileupWeight*dataMCWeight.pdf  used on input line 274.
+(pdftex.def)             Requested size: 130.08733pt x 125.95885pt.
+[37] [38 <./Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin0_recobin0_effs_genWei
+ght*pileupWeight*dataMCWeight.pdf, page is rotated 90 degrees> <./Plots/ggH_pow
+heg_JHUgen_125_2e2mu_pT4l_genbin1_recobin1_effs_genWeight*pileupWeight*dataMCWe
+ight.pdf, page is rotated 90 degrees> <./Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l
+_genbin2_recobin2_effs_genWeight*pileupWeight*dataMCWeight.pdf, page is rotated
+ 90 degrees> <./Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin3_recobin3_effs_ge
+nWeight*pileupWeight*dataMCWeight.pdf, page is rotated 90 degrees> <./Plots/ggH
+_powheg_JHUgen_125_2e2mu_pT4l_genbin4_recobin4_effs_genWeight*pileupWeight*data
+MCWeight.pdf, page is rotated 90 degrees> <./Plots/ggH_powheg_JHUgen_125_2e2mu_
+pT4l_genbin5_recobin5_effs_genWeight*pileupWeight*dataMCWeight.pdf, page is rot
+ated 90 degrees> <./Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin6_recobin6_eff
+s_genWeight*pileupWeight*dataMCWeight.pdf, page is rotated 90 degrees>]
+<Plots/eff2d_ggH_powheg_JHUgen_125_pT4l_2e2mu.pdf, id=1926, 569.12625pt x 440.6
+4626pt>
+File: Plots/eff2d_ggH_powheg_JHUgen_125_pT4l_2e2mu.pdf Graphic file (type pdf)
+<use Plots/eff2d_ggH_powheg_JHUgen_125_pT4l_2e2mu.pdf>
+Package pdftex.def Info: Plots/eff2d_ggH_powheg_JHUgen_125_pT4l_2e2mu.pdf  used
+ on input line 309.
+(pdftex.def)             Requested size: 208.13574pt x 161.14719pt.
+<Plots/eff2d_ggH_NNLOPS_JHUgen_125_pT4l_2e2mu.pdf, id=1927, 569.12625pt x 440.6
+4626pt>
+File: Plots/eff2d_ggH_NNLOPS_JHUgen_125_pT4l_2e2mu.pdf Graphic file (type pdf)
+<use Plots/eff2d_ggH_NNLOPS_JHUgen_125_pT4l_2e2mu.pdf>
+Package pdftex.def Info: Plots/eff2d_ggH_NNLOPS_JHUgen_125_pT4l_2e2mu.pdf  used
+ on input line 314.
+(pdftex.def)             Requested size: 208.13574pt x 161.14719pt.
+<Plots/eff2d_VBF_powheg_JHUgen_125_pT4l_2e2mu.pdf, id=1928, 569.12625pt x 440.6
+4626pt>
+File: Plots/eff2d_VBF_powheg_JHUgen_125_pT4l_2e2mu.pdf Graphic file (type pdf)
+<use Plots/eff2d_VBF_powheg_JHUgen_125_pT4l_2e2mu.pdf>
+Package pdftex.def Info: Plots/eff2d_VBF_powheg_JHUgen_125_pT4l_2e2mu.pdf  used
+ on input line 319.
+(pdftex.def)             Requested size: 208.13574pt x 161.14719pt.
+<Plots/eff2d_WH_powheg_JHUgen_125_pT4l_2e2mu.pdf, id=1929, 569.12625pt x 440.64
+626pt>
+File: Plots/eff2d_WH_powheg_JHUgen_125_pT4l_2e2mu.pdf Graphic file (type pdf)
+<use Plots/eff2d_WH_powheg_JHUgen_125_pT4l_2e2mu.pdf>
+Package pdftex.def Info: Plots/eff2d_WH_powheg_JHUgen_125_pT4l_2e2mu.pdf  used 
+on input line 324.
+(pdftex.def)             Requested size: 208.13574pt x 161.14719pt.
+<Plots/eff2d_ZH_powheg_JHUgen_125_pT4l_2e2mu.pdf, id=1930, 569.12625pt x 440.64
+626pt>
+File: Plots/eff2d_ZH_powheg_JHUgen_125_pT4l_2e2mu.pdf Graphic file (type pdf)
+<use Plots/eff2d_ZH_powheg_JHUgen_125_pT4l_2e2mu.pdf>
+Package pdftex.def Info: Plots/eff2d_ZH_powheg_JHUgen_125_pT4l_2e2mu.pdf  used 
+on input line 329.
+(pdftex.def)             Requested size: 208.13574pt x 161.14719pt.
+<Plots/eff2d_ttH_powheg_JHUgen_125_pT4l_2e2mu.pdf, id=1931, 569.12625pt x 440.6
+4626pt>
+File: Plots/eff2d_ttH_powheg_JHUgen_125_pT4l_2e2mu.pdf Graphic file (type pdf)
+<use Plots/eff2d_ttH_powheg_JHUgen_125_pT4l_2e2mu.pdf>
+Package pdftex.def Info: Plots/eff2d_ttH_powheg_JHUgen_125_pT4l_2e2mu.pdf  used
+ on input line 334.
+(pdftex.def)             Requested size: 208.13574pt x 161.14719pt.
+
+[39 <./Plots/eff2d_ggH_powheg_JHUgen_125_pT4l_2e2mu.pdf, page is rotated 90 deg
+rees> <./Plots/eff2d_ggH_NNLOPS_JHUgen_125_pT4l_2e2mu.pdf, page is rotated 90 d
+egrees> <./Plots/eff2d_VBF_powheg_JHUgen_125_pT4l_2e2mu.pdf, page is rotated 90
+ degrees> <./Plots/eff2d_WH_powheg_JHUgen_125_pT4l_2e2mu.pdf, page is rotated 9
+0 degrees> <./Plots/eff2d_ZH_powheg_JHUgen_125_pT4l_2e2mu.pdf, page is rotated 
+90 degrees> <./Plots/eff2d_ttH_powheg_JHUgen_125_pT4l_2e2mu.pdf, page is rotate
+d 90 degrees>]
+<Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4l_recobin0.pdf, id=2202,
+ 569.12625pt x 440.64626pt>
+File: Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4l_recobin0.pdf Grap
+hic file (type pdf)
+<use Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4l_recobin0.pdf>
+Package pdftex.def Info: Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4
+l_recobin0.pdf  used on input line 349.
+(pdftex.def)             Requested size: 173.44534pt x 134.2927pt.
+<Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4l_recobin1.pdf, id=2203,
+ 569.12625pt x 440.64626pt>
+File: Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4l_recobin1.pdf Grap
+hic file (type pdf)
+<use Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4l_recobin1.pdf>
+Package pdftex.def Info: Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4
+l_recobin1.pdf  used on input line 353.
+(pdftex.def)             Requested size: 173.44534pt x 134.2927pt.
+<Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4l_recobin2.pdf, id=2204,
+ 569.12625pt x 440.64626pt>
+File: Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4l_recobin2.pdf Grap
+hic file (type pdf)
+<use Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4l_recobin2.pdf>
+Package pdftex.def Info: Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4
+l_recobin2.pdf  used on input line 357.
+(pdftex.def)             Requested size: 173.44534pt x 134.2927pt.
+<Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4l_recobin3.pdf, id=2205,
+ 569.12625pt x 440.64626pt>
+File: Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4l_recobin3.pdf Grap
+hic file (type pdf)
+<use Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4l_recobin3.pdf>
+Package pdftex.def Info: Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4
+l_recobin3.pdf  used on input line 361.
+(pdftex.def)             Requested size: 173.44534pt x 134.2927pt.
+<Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4l_recobin4.pdf, id=2206,
+ 569.12625pt x 440.64626pt>
+File: Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4l_recobin4.pdf Grap
+hic file (type pdf)
+<use Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4l_recobin4.pdf>
+Package pdftex.def Info: Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4
+l_recobin4.pdf  used on input line 365.
+(pdftex.def)             Requested size: 173.44534pt x 134.2927pt.
+<Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4l_recobin5.pdf, id=2207,
+ 569.12625pt x 440.64626pt>
+File: Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4l_recobin5.pdf Grap
+hic file (type pdf)
+<use Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4l_recobin5.pdf>
+Package pdftex.def Info: Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4
+l_recobin5.pdf  used on input line 369.
+(pdftex.def)             Requested size: 173.44534pt x 134.2927pt.
+<Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4l_recobin6.pdf, id=2208,
+ 569.12625pt x 440.64626pt>
+File: Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4l_recobin6.pdf Grap
+hic file (type pdf)
+<use Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4l_recobin6.pdf>
+Package pdftex.def Info: Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4
+l_recobin6.pdf  used on input line 373.
+(pdftex.def)             Requested size: 173.44534pt x 134.2927pt.
+
+
+LaTeX Warning: Float too large for page by 81.16454pt on input line 379.
+
+) (./Chapters/Chapter4/Systematics/Systematics.tex [40
+
+
+]
+Overfull \hbox (16.9815pt too wide) in paragraph at lines 127--169
+ [] 
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.172 
+      
+? 
+<Plots/impacts_2e2mu.png, id=2216, 925.4575pt x 765.86125pt>
+File: Plots/impacts_2e2mu.png Graphic file (type png)
+<use Plots/impacts_2e2mu.png>
+Package pdftex.def Info: Plots/impacts_2e2mu.png  used on input line 496.
+(pdftex.def)             Requested size: 390.25536pt x 322.95668pt.
+[41]) [42] [43 <./Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4l_recob
+in0.pdf, page is rotated 90 degrees> <./Plots/asimovdata_SM_125_v2_unfoldwith_S
+M_125_v3_pT4l_4l_recobin1.pdf, page is rotated 90 degrees> <./Plots/asimovdata_
+SM_125_v2_unfoldwith_SM_125_v3_pT4l_4l_recobin2.pdf, page is rotated 90 degrees
+> <./Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4l_recobin3.pdf, page
+ is rotated 90 degrees> <./Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l
+_4l_recobin4.pdf, page is rotated 90 degrees> <./Plots/asimovdata_SM_125_v2_unf
+oldwith_SM_125_v3_pT4l_4l_recobin5.pdf, page is rotated 90 degrees> <./Plots/as
+imovdata_SM_125_v2_unfoldwith_SM_125_v3_pT4l_4l_recobin6.pdf, page is rotated 9
+0 degrees>] [44 <./Plots/impacts_2e2mu.png>]
+1: section
+[45
+
+]
+Overfull \hbox (29.06744pt too wide) in paragraph at lines 462--462
+[]\T1/ppl/m/n/12 S. Ali-oli et al. ^^P  NLO vector-boson pro-duc-tion matched w
+ith shower in POWHEG^^Q.
+ []
+
+[46]
+Overfull \hbox (13.41829pt too wide) in paragraph at lines 462--462
+[]\T1/ppl/m/n/12 Yanyan Gao et al. ^^P  Spin de-ter-mi-na-tion of single-produc
+ed res-o-nances at hadron
+ []
+
+[47]
+Overfull \hbox (0.19455pt too wide) in paragraph at lines 462--462
+[]\T1/ppl/m/n/12 Nikolas Kauer and Gi-ampiero Pas-sarino. ^^P  In-ad-e-quacy of
+ zero-width ap-prox-
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 462.
+[48]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 462.
+ (./main_simple.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 462.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 462.
+Package rerunfilecheck Info: File `main_simple.out' has not changed.
+(rerunfilecheck)             Checksum: 85648C188F1239DBE7509E9D9E16820B;6064.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+
+Package biblatex Warning: Please (re)run BibTeX on the file(s):
+(biblatex)                main_simple
+(biblatex)                and rerun LaTeX afterwards.
+
+Package logreq Info: Writing requests to 'main_simple.run.xml'.
+\openout1 = `main_simple.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 38419 strings out of 492982
+ 783592 string characters out of 6134896
+ 1020453 words of memory out of 5000000
+ 41187 multiletter control sequences out of 15000+600000
+ 580126 words of font info for 112 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 65i,21n,81p,10384b,2956s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palat
+ino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on main_simple.pdf (58 pages, 2919246 bytes).
+PDF statistics:
+ 2671 PDF objects out of 2984 (max. 8388607)
+ 1588 compressed objects within 16 object streams
+ 220 named destinations out of 1000 (max. 500000)
+ 597 words of extra memory for PDF output out of 10000 (max. 10000000)
+
