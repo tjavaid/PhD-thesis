@@ -3,6 +3,24 @@
 \label{Chapter3}
 \section{Physics Objects}
 \label{sec:objects}
+As described in section \ref{sec:hlt}, that events organized in streams of HLT decisions are enventually transferred to the storage system (Tier-0) of CMS for its permanent storage. 
+That data is in RAW format and needs to be fully reconstructed from this storage system. With potential reconstruction procedure, this RAW data can be associated to physical particles such as simple or general tracks, muons, photons, electrons and jets etc.
+These reconstructed particles then help to explore $e.g.$~ Higgs decay to four lepton channel for its properties measurement like spin, parity, cross sections, mass and etc.
+The reconstruction of the SM Higgs boson in the decay chain $\HZZllll$ requires very efficient lepton reconstruction and identification in order to be sensitive
+to a low mass Higgs. %, for which at least one of the leptons has a $p_T$ within the range 5 - 15~GeV. 
+In this kinematics region, where at least $p_T$ of one of the leptons lies within the range $5 - 15~GeV$,  there is need to attain an optimal
+reconstruction efficiency keeping misidentified lepton rate as low as possible. 
+Further, the precise measurements on Higgs are lepton kinematics dependent and thus needs high precision momentum measurement. 
+%On the same time, to allow a precise measurement of the Higgs boson mass and together
+%properties, which depend on the lepton kinematics, the analysis needs a precise momentum measurement. 
+%For both reasons, the analysis will make use of high
+%statistics sources of prompt leptons to measure efficiency, mis-identification rate, and energy scale/resolution.
+%
+%In this chapter we describe the selection of leptons and jets and the calibrations done on data control samples relevant for this analysis.
+
+\subsection{Reconstruction of Track and Vertex}
+\label{sec:track_reco}
+\input{Objects/trackReco.tex}
 
 \subsection{Electrons}
 

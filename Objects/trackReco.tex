@@ -1,0 +1,42 @@
+Reconstructing a track is procedure of exploiting hits in the detector parts used to estimate the momentum and/or position of a particle producing the hits.
+It is a challenging task and in the CMS experiment there a dedicated software known as Combinatorial Track Finder (CTF).
+It uses combinatorial Kalman filter approach for the recognition of patterns and fitting the track.\\
+CTF algorithm repeats in  multiple steps to search the track on the basis of its relatively larger $\pt$ and closeness to the interaction point \cite{Chatrchyan:2014fea}.
+%@article{Chatrchyan:2014fea,
+%    author = "Chatrchyan, Serguei and others",
+%    collaboration = "CMS",
+%    title = "{Description and performance of track and primary-vertex reconstruction with the CMS tracker}",
+%    eprint = "1405.6569",
+%    archivePrefix = "arXiv",
+%    primaryClass = "physics.ins-det",
+%    reportNumber = "CMS-TRK-11-001, CERN-PH-EP-2014-070",
+%    doi = "10.1088/1748-0221/9/10/P10009",
+%    journal = "JINST",
+%    volume = "9",
+%    number = "10",
+%    pages = "P10009",
+%    year = "2014"
+%}
+
+This step is called iterative tracking in which each iteration is done in following steps:
+\begin{itemize}
+\item \textbf{Seeding:} It is to provide with the help of 2 or 3 hits initial track candidates (seeds).  
+\item \textbf{Tracking Finding:} It is to search for the additional hits based on the seed trajectories based on the Kalman filter approach.  
+\item \textbf{Estimate of trajectory: }  It is to use the Kalman-filter and smoother to estimate the best parameters of each trajectory.
+\item \textbf{Track Selection: }  Based on the quality of the trajectories, those tracks which do not originate from some charged particle are discarded.
+\end{itemize}\\
+
+It is repeated for 6 times which are done to figure out the tracks originating from outside of the luminous region of the proton proton collisions. \\
+
+The completely reconstructed tracks give the information of the proton-proton interaction vertices.
+Reconstruction of the primary-vertex is done in three steps:
+
+\begin{itemize}
+	\item \textbf{Selection of Tracks: } It is done by setting requirements on Significance of impact parameter (SIP) from beam spot, number of hits in ITS and normalized $\chi^{2}$
+	\item \textbf{Track Clustering:} It is done using information of transverse component of the impact parameter with respect to the beam spot. The clustering algorithm is capable to reconstruct any number of proton proton interaction in the bunch crossing. This performed using deterministic annealing algorithm (DA). This algorithm clusters the tracks into groups which can be associated to a single vertex. %.  
+	\item \textbf{Fitting of the track:} It is performed over the tracks in each cluster using ``adaptive vertex filter" to get the position of the primary vertex (the best vertex parameters).
+		It needs a procedure to link a primary vertex with the hard interaction. Since in hard interaction partiles are produced at high $\pt$, the vertices can be associated with sum of $\pt^{2}$ of the reconstructed tracks. The vertex with highest sum of $\pt^{2}$ can be associated to the hard intraction from the multiplicity of primary vertices. 
+\end{itemize}\\
+
+
+

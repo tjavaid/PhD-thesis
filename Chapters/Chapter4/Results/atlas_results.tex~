@@ -110,7 +110,7 @@ $\pt$ of the leading lepton    & $\pt  > 20$~GeV  & $\pt  > 20$~GeV \\ \hline
 \includegraphics[width=0.43\textwidth]{Figures/ATLAS_rapidity4l.png}
 \includegraphics[width=0.47\textwidth]{Plots/rapidity4l_unfoldwith_SM_125.pdf}
         \caption{Left(Right): Higgs differential cross section as a function of rapidity of four lepton system  with ATLAS (CMS) using an integrated luminosity of 139 $\ifb$ (137.1 $\ifb$). Results are shown with theory prediction in each experiment as described in \ref{theory_pred}.
-\label{fig:comp_rapidity4l}}
+\label{fig:comp_y4l}}
 \end{center}
 \end{figure}
 

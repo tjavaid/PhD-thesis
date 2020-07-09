@@ -1027,6 +1027,417 @@
     \field{year}{2012}
   \endentry
 
+  \entry{Grazzini2015407}{article}{}
+    \name{author}{3}{}{%
+      {{hash=GM}{%
+         family={Grazzini},
+         familyi={G\bibinitperiod},
+         given={Massimiliano},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=KS}{%
+         family={Kallweit},
+         familyi={K\bibinitperiod},
+         given={Stefan},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=RD}{%
+         family={Rathlev},
+         familyi={R\bibinitperiod},
+         given={Dirk},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GMKSRD1}
+    \strng{fullhash}{GMKSRD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb http://dx.doi.org/10.1016/j.physletb.2015.09.055
+    \endverb
+    \verb{eprint}
+    \verb 1507.06257
+    \endverb
+    \field{issn}{0370-2693}
+    \field{pages}{407 \bibrangedash  410}
+    \field{title}{{ZZ production at the LHC: Fiducial cross sections and
+  distributions in NNLO QCD}}
+    \verb{url}
+    \verb http://www.sciencedirect.com/science/article/pii/S0370269315007303
+    \endverb
+    \field{volume}{750}
+    \field{journaltitle}{Phys. Lett. B}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ph}
+    \field{year}{2015}
+  \endentry
+
+  \entry{Campbell:2011bn}{article}{}
+    \name{author}{3}{}{%
+      {{hash=CJM}{%
+         family={Campbell},
+         familyi={C\bibinitperiod},
+         given={John\bibnamedelima M.},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=ERK}{%
+         family={Ellis},
+         familyi={E\bibinitperiod},
+         given={R.\bibnamedelima Keith},
+         giveni={R\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=WC}{%
+         family={Williams},
+         familyi={W\bibinitperiod},
+         given={Ciaran},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CJMERKWC2}
+    \strng{fullhash}{CJMERKWC2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1007/JHEP07(2011)018
+    \endverb
+    \verb{eprint}
+    \verb 1105.0020
+    \endverb
+    \field{pages}{018}
+    \field{title}{{Vector boson pair production at the LHC}}
+    \field{volume}{07}
+    \field{journaltitle}{JHEP}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ph}
+    \field{year}{2011}
+  \endentry
+
+  \entry{Bonvini:1304.3053}{article}{}
+    \name{author}{5}{}{%
+      {{hash=BM}{%
+         family={Bonvini},
+         familyi={B\bibinitperiod},
+         given={Marco},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=CF}{%
+         family={Caola},
+         familyi={C\bibinitperiod},
+         given={Fabrizio},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=FS}{%
+         family={Forte},
+         familyi={F\bibinitperiod},
+         given={Stefano},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=MK}{%
+         family={Melnikov},
+         familyi={M\bibinitperiod},
+         given={Kirill},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=RG}{%
+         family={Ridolfi},
+         familyi={R\bibinitperiod},
+         given={Giovanni},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BM+1}
+    \strng{fullhash}{BMCFFSMKRG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/PhysRevD.88.034032
+    \endverb
+    \verb{eprint}
+    \verb 1304.3053
+    \endverb
+    \field{pages}{034032}
+    \field{title}{{Signal-background interference effects in $gg \to H \to WW$
+  beyond leading order}}
+    \field{volume}{88}
+    \field{journaltitle}{Phys. Rev. D}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ph}
+    \field{year}{2013}
+  \endentry
+
+  \entry{Melnikov:2015laa}{article}{}
+    \name{author}{2}{}{%
+      {{hash=MK}{%
+         family={Melnikov},
+         familyi={M\bibinitperiod},
+         given={Kirill},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=DM}{%
+         family={Dowling},
+         familyi={D\bibinitperiod},
+         given={Matthew},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MKDM1}
+    \strng{fullhash}{MKDM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/j.physletb.2015.03.030
+    \endverb
+    \verb{eprint}
+    \verb 1503.01274
+    \endverb
+    \field{pages}{43}
+    \field{title}{{Production of two Z-bosons in gluon fusion in the heavy top
+  quark approximation}}
+    \field{volume}{744}
+    \field{journaltitle}{Phys. Lett. B}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ph}
+    \field{year}{2015}
+  \endentry
+
+  \entry{Li:2015jva}{unpublished}{}
+    \name{author}{4}{}{%
+      {{hash=LCS}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Chong\bibnamedelima Sheng},
+         giveni={C\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=LHT}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Hai\bibnamedelima Tao},
+         giveni={H\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=SDY}{%
+         family={Shao},
+         familyi={S\bibinitperiod},
+         given={Ding\bibnamedelima Yu},
+         giveni={D\bibinitperiod\bibinitdelim Y\bibinitperiod},
+      }}%
+      {{hash=WJ}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Jian},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LCS+1}
+    \strng{fullhash}{LCSLHTSDYWJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{eprint}
+    \verb 1504.02388
+    \endverb
+    \field{title}{{Soft gluon resummation in the signal-background interference
+  process of $gg(\to h^*) \to ZZ$~}}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ph}
+    \field{year}{2015}
+  \endentry
+
+  \entry{Passarino:1312.2397v1}{article}{}
+    \name{author}{1}{}{%
+      {{hash=PG}{%
+         family={Passarino},
+         familyi={P\bibinitperiod},
+         given={Giampiero},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PG1}
+    \strng{fullhash}{PG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1140/epjc/s10052-014-2866-7
+    \endverb
+    \verb{eprint}
+    \verb 1312.2397
+    \endverb
+    \field{pages}{2866}
+    \field{title}{{Higgs CAT}}
+    \field{volume}{74}
+    \field{journaltitle}{Eur. Phys. J. C}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ph}
+    \field{year}{2014}
+  \endentry
+
+  \entry{Catani:2007vq}{article}{}
+    \name{author}{2}{}{%
+      {{hash=CS}{%
+         family={Catani},
+         familyi={C\bibinitperiod},
+         given={Stefano},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=GM}{%
+         family={Grazzini},
+         familyi={G\bibinitperiod},
+         given={Massimiliano},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CSGM1}
+    \strng{fullhash}{CSGM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/PhysRevLett.98.222002
+    \endverb
+    \verb{eprint}
+    \verb hep-ph/0703012
+    \endverb
+    \field{pages}{222002}
+    \field{title}{{An NNLO subtraction formalism in hadron collisions and its
+  application to Higgs boson production at the LHC}}
+    \field{volume}{98}
+    \field{journaltitle}{Phys. Rev. Lett.}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ph}
+    \field{year}{2007}
+  \endentry
+
+  \entry{Grazzini:2008tf}{article}{}
+    \name{author}{1}{}{%
+      {{hash=GM}{%
+         family={Grazzini},
+         familyi={G\bibinitperiod},
+         given={Massimiliano},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GM1}
+    \strng{fullhash}{GM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1088/1126-6708/2008/02/043
+    \endverb
+    \verb{eprint}
+    \verb 0801.3232
+    \endverb
+    \field{pages}{043}
+    \field{title}{{NNLO predictions for the Higgs boson signal in the H ---> WW
+  ---> lnu lnu and H ---> ZZ ---> 4l decay channels}}
+    \field{volume}{02}
+    \field{journaltitle}{JHEP}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ph}
+    \field{year}{2008}
+  \endentry
+
+  \entry{Grazzini:2013mca}{article}{}
+    \name{author}{2}{}{%
+      {{hash=GM}{%
+         family={Grazzini},
+         familyi={G\bibinitperiod},
+         given={Massimiliano},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SH}{%
+         family={Sargsyan},
+         familyi={S\bibinitperiod},
+         given={Hayk},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GMSH1}
+    \strng{fullhash}{GMSH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{129}
+    \field{title}{Heavy-quark mass effects in Higgs boson production at the
+  LHC}
+    \field{volume}{1309}
+    \field{journaltitle}{JHEP}
+    \field{year}{2013}
+  \endentry
+
+  \entry{Heinemeyer:2013tqa}{report}{}
+    \name{author}{1}{}{%
+      {{hash=L}{%
+         family={{LHC Higgs Cross Section Working Group}},
+         familyi={L\bibinitperiod},
+      }}%
+    }
+    \name{editor}{1}{}{%
+      {{hash=HS}{%
+         family={Heinemeyer},
+         familyi={H\bibinitperiod},
+         given={S},
+         giveni={S},
+      }}%
+    }
+    \strng{namehash}{L1}
+    \strng{fullhash}{L1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.5170/CERN-2013-004
+    \endverb
+    \verb{eprint}
+    \verb 1307.1347
+    \endverb
+    \field{number}{CERN-2013-004}
+    \field{title}{{Handbook of LHC Higgs Cross Sections: 3. Higgs Properties}}
+    \field{type}{CERN Report}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ph}
+    \field{year}{2013}
+  \endentry
+
+  \entry{Bonvini:2013}{article}{}
+    \name{author}{5}{}{%
+      {{hash=BM}{%
+         family={Bonvini},
+         familyi={B\bibinitperiod},
+         given={Marco},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=CF}{%
+         family={Caola},
+         familyi={C\bibinitperiod},
+         given={Fabrizio},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=FS}{%
+         family={Forte},
+         familyi={F\bibinitperiod},
+         given={Stefano},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=MK}{%
+         family={Melnikov},
+         familyi={M\bibinitperiod},
+         given={Kirill},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=RG}{%
+         family={Ridolfi},
+         familyi={R\bibinitperiod},
+         given={Giovanni},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BM+1}
+    \strng{fullhash}{BMCFFSMKRG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{034032}
+    \field{title}{Signal-background interference effects for
+  gg$\rightarrow${}H$\rightarrow${}W+W- beyond leading order}
+    \field{volume}{88}
+    \field{journaltitle}{Phys.Rev. D}
+    \field{year}{2013}
+  \endentry
+
   \entry{Cowan:2010js}{article}{}
     \name{author}{4}{}{%
       {{hash=CG}{%
@@ -1136,6 +1547,137 @@
     \field{volume}{76}
     \field{journaltitle}{Eur. Phys. J. C}
     \field{year}{2016}
+  \endentry
+
+  \entry{deFlorian:2012mx}{article}{}
+    \name{author}{4}{}{%
+      {{hash=dFD}{%
+         prefix={de},
+         prefixi={d\bibinitperiod},
+         family={Florian},
+         familyi={F\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=FG}{%
+         family={Ferrera},
+         familyi={F\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=GM}{%
+         family={Grazzini},
+         familyi={G\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=TD}{%
+         family={Tommasini},
+         familyi={T\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FDd+1}
+    \strng{fullhash}{FDdFGGMTD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{132}
+    \field{title}{Higgs boson production at the LHC: transverse momentum
+  resummation effects in the H-to-2gamma, H-to-WW-to-lnu lnu and H-to-ZZ-to-4l
+  decay modes}
+    \field{volume}{1206}
+    \field{journaltitle}{JHEP}
+    \field{year}{2012}
+  \endentry
+
+  \entry{Anastasiou2016}{article}{}
+    \true{moreauthor}
+    \name{author}{1}{}{%
+      {{hash=AC}{%
+         family={Anastasiou},
+         familyi={A\bibinitperiod},
+         given={Charalampos},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AC+1}
+    \strng{fullhash}{AC+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1007/JHEP05(2016)058
+    \endverb
+    \verb{eprint}
+    \verb 1602.00695
+    \endverb
+    \field{number}{5}
+    \field{pages}{1}
+    \field{title}{{High precision determination of the gluon fusion Higgs boson
+  cross-section at the LHC}}
+    \field{volume}{2016}
+    \field{journaltitle}{JHEP}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ph}
+    \field{year}{2016}
+  \endentry
+
+  \entry{CMSH4lFiducial8TeV}{article}{}
+    \field{labeltitlesource}{title}
+    \verb{eprint}
+    \verb 1512.08377
+    \endverb
+    \field{title}{Measurement of differential and integrated fiducial cross
+  sections for Higgs boson production in the four-lepton decay channel in pp
+  collisions at sqrt(s) = 7 and 8 TeV}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ex}
+    \field{year}{2015}
+  \endentry
+
+  \entry{LHCHiggsCrossSectionWorkingGroup:2013tqa}{article}{}
+    \name{author}{5}{}{%
+      {{hash=GLHCSW}{%
+         family={Group},
+         familyi={G\bibinitperiod},
+         given={LHC Higgs Cross Section\bibnamedelima Working},
+         giveni={L\bibinitperiod\bibinitdelim H\bibinitperiod C\bibinitperiod
+  S\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=HS}{%
+         family={Heinemeyer},
+         familyi={H\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=MC}{%
+         family={Mariotti},
+         familyi={M\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=PG}{%
+         family={Passarino},
+         familyi={P\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=TER}{%
+         family={Tanaka\bibnamedelima (Eds.)},
+         familyi={T\bibinitperiod\bibinitdelim E\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GLHCSW+1}
+    \strng{fullhash}{GLHCSWHSMCPGTER1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{026}
+    \field{title}{Handbook of LHC Higgs Cross Sections: 3. Higgs Properties}
+    \field{volume}{CERN-2013-004}
+    \field{journaltitle}{JHEP}
+    \field{year}{2013}
   \endentry
 \enddatalist
 \endinput

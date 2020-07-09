@@ -2,7 +2,7 @@ This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: main_simple.aux
 The style file: biblatex.bst
-White space in argument---line 71 of file main_simple.aux
+White space in argument---line 72 of file main_simple.aux
  : \citation{atlas-conf-2019-025
  :                               }
 I'm skipping whatever remains of this command
@@ -20,7 +20,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 12506 items from 5000.
+Reallocated field_info (elt_size=4) to 14869 items from 5000.
 Database file #1: main_simple-blx.bib
 Database file #2: example_merged2.bib
 Warning--I didn't find a database entry for "Khachatryan:2015yvw"
@@ -36,48 +36,50 @@ Warning--I didn't find a database entry for "CMS:2019chr"
 Warning--I didn't find a database entry for "fid_diagram"
 Warning--I didn't find a database entry for "CMS:2018mmw"
 Warning--I didn't find a database entry for "CMS:2017jkd"
+Warning--I didn't find a database entry for "HIG-19-001"
+Warning--I didn't find a database entry for "HIG-2018-29"
 Biblatex version: 3.8
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 41 entries,
+You've used 56 entries,
             6268 wiz_defined-function locations,
-            1425 strings with 15746 characters,
-and the built_in function-call counts, 187726 in all, are:
-= -- 12209
-> -- 3621
-< -- 702
-+ -- 4377
-- -- 1351
-* -- 13223
-:= -- 18861
+            1531 strings with 18843 characters,
+and the built_in function-call counts, 269090 in all, are:
+= -- 17777
+> -- 4996
+< -- 962
++ -- 6386
+- -- 1923
+* -- 19388
+:= -- 27279
 add.period$ -- 0
-call.type$ -- 41
-change.case$ -- 279
+call.type$ -- 56
+change.case$ -- 380
 chr.to.int$ -- 30
-cite$ -- 80
-duplicate$ -- 21109
-empty$ -- 18410
-format.name$ -- 2410
-if$ -- 38630
+cite$ -- 110
+duplicate$ -- 30067
+empty$ -- 26274
+format.name$ -- 3385
+if$ -- 55062
 int.to.chr$ -- 0
-int.to.str$ -- 100
+int.to.str$ -- 134
 missing$ -- 0
-newline$ -- 1090
-num.names$ -- 1580
-pop$ -- 13615
+newline$ -- 1618
+num.names$ -- 2126
+pop$ -- 18735
 preamble$ -- 1
-purify$ -- 500
+purify$ -- 701
 quote$ -- 0
-skip$ -- 5772
+skip$ -- 7909
 stack$ -- 0
-substring$ -- 19172
-swap$ -- 4961
-text.length$ -- 799
-text.prefix$ -- 0
+substring$ -- 28697
+swap$ -- 7136
+text.length$ -- 1100
+text.prefix$ -- 1
 top$ -- 1
-type$ -- 1382
+type$ -- 1887
 warning$ -- 0
-while$ -- 2370
+while$ -- 3406
 width$ -- 0
-write$ -- 1050
+write$ -- 1563
 (There was 1 error message)

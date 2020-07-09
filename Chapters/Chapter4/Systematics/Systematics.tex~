@@ -121,7 +121,7 @@ While cross section measurement, signal cross section uncertainties arising from
         \begin{center}
                 \small
                 \caption{
-                        Summary of the experimental systematic uncertainties in the $\Hllll$ measurements of 2016, 2017 and 2018 data. %Details about the derivation of each uncertainty can be found in the text.
+                        Experimental systematic uncertainties in $\Hllll$ measurements of 2016, 2017 and 2018 data. %Details about the derivation of each uncertainty can be found in the text.
                         \label{tab:SystOverviewABC}
                 }
                 \begin{tabular}{|c|c|c|c|} 
@@ -138,11 +138,11 @@ While cross section measurement, signal cross section uncertainties arising from
                         %
                         Luminosity & 2.6 \% & 2.3 \% & 2.5 \% \\  
                         %\vspace{-0.4cm} & \\
-                        Lepton identification/reconstruction efficiencies & 2.5 -- 9 \% & 3 -- 12.5 \% & 0.7 -- 11 \% \\  
+                        Lepton selection efficiencies & 2.5 -- 9 \% & 3 -- 12.5 \% & 0.7 -- 11 \% \\  
                         %\vspace{-0.4cm} & \\
                         \hline %---------------------------------------------------------
                         \hline %---------------------------------------------------------
-                        \multicolumn{4}{|c|}{Background related uncertainties} \\
+                        \multicolumn{4}{|c|}{Uncertainties related uncertainties} \\
                         \hline %--------------------------------------------------------
                         %\vspace{-0.4cm} & \\
                         Reducible background (Z+X) & 36 -- 43 \% & 6 -- 32 \%  & 31 --37 \% \\  
@@ -152,7 +152,7 @@ While cross section measurement, signal cross section uncertainties arising from
                         %\vspace{-0.4cm} & \\
                         \hline %---------------------------------------------------------
                         \hline %---------------------------------------------------------
-                        \multicolumn{4}{|c|}{Signal related uncertainties} \\
+                        \multicolumn{4}{|c|}{Uncertainties related to signal} \\
                         \hline %---------------------------------------------------------
                         %\vspace{-0.4cm} & \\
                         Lepton energy scale & 0.04 -- 0.3 \% & 0.04 -- 0.3 \% & 0.04 -- 0.3 \% \\  
@@ -170,160 +170,160 @@ While cross section measurement, signal cross section uncertainties arising from
 \end{table}
 \\
 
-
-\begin{table}[!htb]
-	\begin{center}
-		\small
-		\caption{
-			A chart of experimental systematic uncertainties in the $\Hllll$ cross section measurements of 2016 data. %Details about the derivation of each uncertainty can be found in the text.
-			\label{tab:SystOverviewA}
-		}
-		\begin{tabular}{|lc|} 
-			\hline %---------------------------------------------------------
-			\hline %---------------------------------------------------------
-			\multicolumn{2}{|c|}{\textbf{Relative systematic uncertainties}} \\
-			\hline %---------------------------------------------------------
-			\hline %---------------------------------------------------------
-			\multicolumn{2}{|c|}{Uncertainties from common experimental sources } \\
-			\hline %---------------------------------------------------------
-			\vspace{-0.4cm} & \\
-			Luminosity & 2.6 \%  \\ 
-			\vspace{-0.4cm} & \\
-			Lepton selection efficiencies & 2.5 -- 9 \% \\ 
-			%\vspace{-0.4cm} & \\
-			\hline %---------------------------------------------------------
-			\hline %---------------------------------------------------------
-			\multicolumn{2}{|c|}{Uncertainties related to background} \\
-			\hline %--------------------------------------------------------
-			\vspace{-0.4cm} & \\
-			Reducible background (Z+X) & 36 -- 43 \% \\ 
-			% \vspace{-0.4cm} & \\
-			% Event categorization (experimental) & 2 -- 15 \% \\ 
-			% Event categorization (theoretical) & 3 -- 20 \% \\ 
-			%\vspace{-0.4cm} & \\
-			\hline %---------------------------------------------------------
-			\hline %---------------------------------------------------------
-			\multicolumn{2}{|c|}{Uncertainties related to Signal} \\
-			\hline %---------------------------------------------------------
-			\vspace{-0.4cm} & \\
-			Lepton energy scale & 0.04 -- 0.3 \% \\ 
-			\vspace{-0.4cm} & \\
-			Lepton energy resolution & 20 \% \\ 
-			% \vspace{-0.4cm} & \\
-			% Event categorization (experimental) & 2 -- 15 \% \\ 
-			% Event categorization (theoretical) & 4 -- 20 \% \\ 
-			%\vspace{-0.4cm} & \\
-			\hline %---------------------------------------------------------
-			\hline %---------------------------------------------------------
-		\end{tabular}
-		\normalsize
-	\end{center}
-\end{table}
-
-
-
-\begin{table}[!htb]
-\begin{center}
-\small
-\caption{
-	A chart of experimental systematic uncertainties in the $\Hllll$ cross section measurements of 2017 data
-%Summary of the experimental systematic uncertainties in the $\Hllll$ measurements of 2017 data. %Details about the derivation of each uncertainty can be found in the text.
-\label{tab:SystOverviewB}
-}
-\begin{tabular}{|lc|} 
-\hline %---------------------------------------------------------
-\hline %---------------------------------------------------------
-\multicolumn{2}{|c|}{\textbf{Relative systematic uncertainties}} \\
-\hline %---------------------------------------------------------
-\hline %---------------------------------------------------------
-\multicolumn{2}{|c|}{Uncertainties from common experimental sources} \\
-\hline %---------------------------------------------------------
-\vspace{-0.4cm} & \\
-Luminosity & 2.3 \%  \\ 
-\vspace{-0.4cm} & \\
-Lepton selection efficiencies & 3. -- 12.5 \% \\ 
+%
+%\begin{table}[!htb]
+%	\begin{center}
+%		\small
+%		\caption{
+%			A chart of experimental systematic uncertainties in the $\Hllll$ cross section measurements of 2016 data. %Details about the derivation of each uncertainty can be found in the text.
+%			\label{tab:SystOverviewA}
+%		}
+%		\begin{tabular}{|lc|} 
+%			\hline %---------------------------------------------------------
+%			\hline %---------------------------------------------------------
+%			\multicolumn{2}{|c|}{\textbf{Relative systematic uncertainties}} \\
+%			\hline %---------------------------------------------------------
+%			\hline %---------------------------------------------------------
+%			\multicolumn{2}{|c|}{Uncertainties from common experimental sources } \\
+%			\hline %---------------------------------------------------------
+%			\vspace{-0.4cm} & \\
+%			Luminosity & 2.6 \%  \\ 
+%			\vspace{-0.4cm} & \\
+%			Lepton selection efficiencies & 2.5 -- 9 \% \\ 
+%			%\vspace{-0.4cm} & \\
+%			\hline %---------------------------------------------------------
+%			\hline %---------------------------------------------------------
+%			\multicolumn{2}{|c|}{Uncertainties related to background} \\
+%			\hline %--------------------------------------------------------
+%			\vspace{-0.4cm} & \\
+%			Reducible background (Z+X) & 36 -- 43 \% \\ 
+%			% \vspace{-0.4cm} & \\
+%			% Event categorization (experimental) & 2 -- 15 \% \\ 
+%			% Event categorization (theoretical) & 3 -- 20 \% \\ 
+%			%\vspace{-0.4cm} & \\
+%			\hline %---------------------------------------------------------
+%			\hline %---------------------------------------------------------
+%			\multicolumn{2}{|c|}{Uncertainties related to Signal} \\
+%			\hline %---------------------------------------------------------
+%			\vspace{-0.4cm} & \\
+%			Lepton energy scale & 0.04 -- 0.3 \% \\ 
+%			\vspace{-0.4cm} & \\
+%			Lepton energy resolution & 20 \% \\ 
+%			% \vspace{-0.4cm} & \\
+%			% Event categorization (experimental) & 2 -- 15 \% \\ 
+%			% Event categorization (theoretical) & 4 -- 20 \% \\ 
+%			%\vspace{-0.4cm} & \\
+%			\hline %---------------------------------------------------------
+%			\hline %---------------------------------------------------------
+%		\end{tabular}
+%		\normalsize
+%	\end{center}
+%\end{table}
+%
+%
+%
+%\begin{table}[!htb]
+%\begin{center}
+%\small
+%\caption{
+%	A chart of experimental systematic uncertainties in the $\Hllll$ cross section measurements of 2017 data
+%%Summary of the experimental systematic uncertainties in the $\Hllll$ measurements of 2017 data. %Details about the derivation of each uncertainty can be found in the text.
+%\label{tab:SystOverviewB}
+%}
+%\begin{tabular}{|lc|} 
+%\hline %---------------------------------------------------------
+%\hline %---------------------------------------------------------
+%\multicolumn{2}{|c|}{\textbf{Relative systematic uncertainties}} \\
+%\hline %---------------------------------------------------------
+%\hline %---------------------------------------------------------
+%\multicolumn{2}{|c|}{Uncertainties from common experimental sources} \\
+%\hline %---------------------------------------------------------
 %\vspace{-0.4cm} & \\
-\hline %---------------------------------------------------------
-\hline %---------------------------------------------------------
-\multicolumn{2}{|c|}{Uncertainties related to background} \\
-\hline %--------------------------------------------------------
-\vspace{-0.4cm} & \\
-%Reducible background composition (Z+X) & 32 -- 35 \% \\ 
-Reducible background fake rate variation (Z+X) & 6 -- 32 \% \\ 
-% \vspace{-0.4cm} & \\
-% Event categorization (experimental) & 2 -- 15 \% \\ 
-% Event categorization (theoretical) & 3 -- 20 \% \\ 
+%Luminosity & 2.3 \%  \\ 
 %\vspace{-0.4cm} & \\
-\hline %---------------------------------------------------------
-\hline %---------------------------------------------------------
-\multicolumn{2}{|c|}{Uncertainties related to Signal} \\
-\hline %---------------------------------------------------------
-\vspace{-0.4cm} & \\
-Lepton energy scale & 0.04 -- 0.3 \% \\ 
-\vspace{-0.4cm} & \\
-Lepton energy resolution & 20 \% \\ 
-% \vspace{-0.4cm} & \\
-% Event categorization (experimental) & 2 -- 15 \% \\ 
-% Event categorization (theoretical) & 4 -- 20 \% \\ 
+%Lepton selection efficiencies & 3. -- 12.5 \% \\ 
+%%\vspace{-0.4cm} & \\
+%\hline %---------------------------------------------------------
+%\hline %---------------------------------------------------------
+%\multicolumn{2}{|c|}{Uncertainties related to background} \\
+%\hline %--------------------------------------------------------
 %\vspace{-0.4cm} & \\
-\hline %---------------------------------------------------------
-\hline %---------------------------------------------------------
-\end{tabular}
-\normalsize
-\end{center}
-\end{table}
-
-\begin{table}[!htb]
-	\begin{center}
-		\small
-		\caption{\fixme{TO BE UPDATED. COPY PASTE NUMBERS OF 2017 FOR NOW.}
-A chart of experimental systematic uncertainties in the $\Hllll$ cross section measurements of 2018 data
-%		Summary of the experimental systematic uncertainties in the $\Hllll$ measurements of 2018 data. %Details about the derivation of each uncertainty can be found in the text.
-			\label{tab:SystOverviewC}
-		}
-		\begin{tabular}{|lc|} 
-			\hline %---------------------------------------------------------
-			\hline %---------------------------------------------------------
-			\multicolumn{2}{|c|}{\textbf{Relative systematic uncertainties}} \\
-			\hline %---------------------------------------------------------
-			\hline %---------------------------------------------------------
-			\multicolumn{2}{|c|}{Uncertainties from common experimental sources} \\
-			\hline %---------------------------------------------------------
-			\vspace{-0.4cm} & \\
-			Luminosity & 2.3 \%  \\ 
-			\vspace{-0.4cm} & \\
-			Lepton selection efficiencies & 3. -- 12.5 \% \\ 
-			%\vspace{-0.4cm} & \\
-			\hline %---------------------------------------------------------
-			\hline %---------------------------------------------------------
-			\multicolumn{2}{|c|}{Uncertainties related to background} \\
-			\hline %--------------------------------------------------------
-			\vspace{-0.4cm} & \\
-			%Reducible background composition (Z+X) & 32 -- 35 \% \\ 
-			Reducible background fake rate variation (Z+X) & 6 -- 32 \% \\ 
-			% \vspace{-0.4cm} & \\
-			% Event categorization (experimental) & 2 -- 15 \% \\ 
-			% Event categorization (theoretical) & 3 -- 20 \% \\ 
-			%\vspace{-0.4cm} & \\
-			\hline %---------------------------------------------------------
-			\hline %---------------------------------------------------------
-			\multicolumn{2}{|c|}{Uncertainties related to Signal} \\
-			\hline %---------------------------------------------------------
-			\vspace{-0.4cm} & \\
-			Lepton energy scale & 0.04 -- 0.3 \% \\ 
-			\vspace{-0.4cm} & \\
-			Lepton energy resolution & 20 \% \\ 
-			% \vspace{-0.4cm} & \\
-			% Event categorization (experimental) & 2 -- 15 \% \\ 
-			% Event categorization (theoretical) & 4 -- 20 \% \\ 
-			%\vspace{-0.4cm} & \\
-			\hline %---------------------------------------------------------
-			\hline %---------------------------------------------------------
-		\end{tabular}
-		\normalsize
-	\end{center}
-\end{table}
-
+%%Reducible background composition (Z+X) & 32 -- 35 \% \\ 
+%Reducible background fake rate variation (Z+X) & 6 -- 32 \% \\ 
+%% \vspace{-0.4cm} & \\
+%% Event categorization (experimental) & 2 -- 15 \% \\ 
+%% Event categorization (theoretical) & 3 -- 20 \% \\ 
+%%\vspace{-0.4cm} & \\
+%\hline %---------------------------------------------------------
+%\hline %---------------------------------------------------------
+%\multicolumn{2}{|c|}{Uncertainties related to Signal} \\
+%\hline %---------------------------------------------------------
+%\vspace{-0.4cm} & \\
+%Lepton energy scale & 0.04 -- 0.3 \% \\ 
+%\vspace{-0.4cm} & \\
+%Lepton energy resolution & 20 \% \\ 
+%% \vspace{-0.4cm} & \\
+%% Event categorization (experimental) & 2 -- 15 \% \\ 
+%% Event categorization (theoretical) & 4 -- 20 \% \\ 
+%%\vspace{-0.4cm} & \\
+%\hline %---------------------------------------------------------
+%\hline %---------------------------------------------------------
+%\end{tabular}
+%\normalsize
+%\end{center}
+%\end{table}
+%
+%\begin{table}[!htb]
+%	\begin{center}
+%		\small
+%		\caption{\fixme{TO BE UPDATED. COPY PASTE NUMBERS OF 2017 FOR NOW.}
+%A chart of experimental systematic uncertainties in the $\Hllll$ cross section measurements of 2018 data
+%%		Summary of the experimental systematic uncertainties in the $\Hllll$ measurements of 2018 data. %Details about the derivation of each uncertainty can be found in the text.
+%			\label{tab:SystOverviewC}
+%		}
+%		\begin{tabular}{|lc|} 
+%			\hline %---------------------------------------------------------
+%			\hline %---------------------------------------------------------
+%			\multicolumn{2}{|c|}{\textbf{Relative systematic uncertainties}} \\
+%			\hline %---------------------------------------------------------
+%			\hline %---------------------------------------------------------
+%			\multicolumn{2}{|c|}{Uncertainties from common experimental sources} \\
+%			\hline %---------------------------------------------------------
+%			\vspace{-0.4cm} & \\
+%			Luminosity & 2.3 \%  \\ 
+%			\vspace{-0.4cm} & \\
+%			Lepton selection efficiencies & 3. -- 12.5 \% \\ 
+%			%\vspace{-0.4cm} & \\
+%			\hline %---------------------------------------------------------
+%			\hline %---------------------------------------------------------
+%			\multicolumn{2}{|c|}{Uncertainties related to background} \\
+%			\hline %--------------------------------------------------------
+%			\vspace{-0.4cm} & \\
+%			%Reducible background composition (Z+X) & 32 -- 35 \% \\ 
+%			Reducible background fake rate variation (Z+X) & 6 -- 32 \% \\ 
+%			% \vspace{-0.4cm} & \\
+%			% Event categorization (experimental) & 2 -- 15 \% \\ 
+%			% Event categorization (theoretical) & 3 -- 20 \% \\ 
+%			%\vspace{-0.4cm} & \\
+%			\hline %---------------------------------------------------------
+%			\hline %---------------------------------------------------------
+%			\multicolumn{2}{|c|}{Uncertainties related to Signal} \\
+%			\hline %---------------------------------------------------------
+%			\vspace{-0.4cm} & \\
+%			Lepton energy scale & 0.04 -- 0.3 \% \\ 
+%			\vspace{-0.4cm} & \\
+%			Lepton energy resolution & 20 \% \\ 
+%			% \vspace{-0.4cm} & \\
+%			% Event categorization (experimental) & 2 -- 15 \% \\ 
+%			% Event categorization (theoretical) & 4 -- 20 \% \\ 
+%			%\vspace{-0.4cm} & \\
+%			\hline %---------------------------------------------------------
+%			\hline %---------------------------------------------------------
+%		\end{tabular}
+%		\normalsize
+%	\end{center}
+%\end{table}
+%
 
 
 \begin{table}[!htb]

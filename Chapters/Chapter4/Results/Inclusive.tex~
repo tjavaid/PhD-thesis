@@ -1,28 +1,7 @@
 
 Resulting fits to the inclusive m$(4\ell)$ distributions (extracted in $m_{4\ell}$ range $viz$ 105~GeV to 140~GeV) for measurement of integrated $\Hllll$ fiducial cross section in different final states,
-are shown in Figure~\ref{fig:sigfits-data-SM-inclusive}. 
-Extracted inclusive cross sections as function of colliding center of mass energy has been shown in the Figure~\ref{fig:inclusive-results:a} while the extracted integrated cross section results for different final states at 13~TeV corresponding to different years of data taking are shown in Figure~\ref{fig:inclusive-results:b}. 
-Systematic on the measurement is represented by red bar, whereas black error bar represents total uncertainties, summed from the individuals in quadrature. Contributions of the sub-dominant component of the signal i.e. XH $=$ VBF $+$ VH $+$ $\ttH$ is indicated in green separately. 
-%The additional systematic uncertainty associated with the model dependence
-%is separately represented by a grey box. 
-These results are also given in Tables \ref{tab:incresults} and \ref{tab:incresultsPAS}.
-% Summary of individual measurements of inclusive $\Hllll$ fiducial cross sections at 7~TeV and 8~TeV, performed in the $m_{4\ell}$ range from 105~GeV 
-% to 140~GeV,  are presented in Table~\ref{tab:incresults} and Figure~\ref{fig:inclusive-results-summary} and Figure~\ref{fig:ratio7o8-results-summary}.
-
-The inclusive $\Hllll$ measurements are compared with SM NNLO theoretical estimations where acceptance of dominant $\ggH$ contribution is estimated using {\sc powheg} at  $\sqrt{s}$=13\TeV and {\sc HRes}~\cite{Grazzini:2013mca,deFlorian:2012mx} at  $\sqrt{s}$=7 and 8\TeV. Total gluon fusion cross section and associated uncertainty has been taken from Ref.~\cite{Anastasiou2016}. 
-Definition of fiducial volume for $\sqrt{s}$=6--9\TeV uses the lepton isolation definition from Ref.~\cite{CMSH4lFiducial8TeV}, while for $\sqrt{s}$=12--14\TeV the definition described in the text is used.
-
-%Total uncertainty on NNLL+NNLO theoretical computations is obtained from Ref.~\cite{LHCHiggsCrossSectionWorkingGroup:2013tqa} and includes
-%uncertainties due to the renormalization and factorization scales ($\sim 7.8\%$), PDFs ($\sim 7.5\%$),branching fraction (2\%) and acceptance ($2\%$). For
-%total theoretical uncertainty calculations, PDFs/$\alpha_{\rm S}$ uncertainties are considered to be corrected between VH and VBF production mechanism
-%(dominantly quark-antiquark initiated) and anti-correlated between $\ttH$ and $\ggH$ mechanism (dominantly gluon-gluon initiated). Furthermore, uncertainties
-%due to DCQ scale are assumed to be uncorrelated, while acceptance and branching fraction uncertainties are assumed to be corrected among all production mechanism.
-%In all figures, the theoretical estimations that used {\sc HRes}, {\sc powheg+JHUgen} and {\sc powheg minlo-HJ}
-% for the description of the gg$\rightarrow$H process are shown in pink, blue and yellow, respectively, while the sub-dominant component of the 
-% signal XH $=$ VBF $+$ VH $+$ $\ttH$ is indicated in green separately.
-%A small difference between the predictions based on {\sc powheg+JHUgen} and {\sc minloHJ}
-% is arising from the way the acceptance of the gg$\rightarrow$H contribution is modelled by these two generators.
-When extracting the integrated H$\rightarrow4\ell$ fiducial cross section, the parameter of interest is  total fiducial cross section and the fractions of $4e,4\mu,$ and $2e2\mu$ is floated in the fit. When extracting the fiducial cross section in the final states, three parameters of interest are the cross sections of three individual final states.
+are shown in Figure \ref{fig:sigfits-data-SM-inclusive}. 
+Extracted inclusive cross sections as function of colliding center of mass energy has been shown in the Figure~\ref{fig:inclusive-results:a} while the extracted integrated cross section results for different final states at 13~TeV corresponding to different years of data taking are shown in Figure \ref{fig:inclusive-results:b}. 
 
 \begin{figure}[!htb]
   \begin{center}
@@ -49,7 +28,7 @@ When extracting the integrated H$\rightarrow4\ell$ fiducial cross section, the p
 \end{figure}
 %%%%%%%%
 \begin{figure}[!htb]
-  \begin{center}  
+  \begin{center}
     \subfigure[$\Hllll$ (7, 8 and 13 TeV)]{
       \includegraphics[width=0.48\textwidth,angle=0]{Plots/xs_vs_sqrts.pdf}
       \label{fig:inclusive-results:a}
@@ -58,18 +37,87 @@ When extracting the integrated H$\rightarrow4\ell$ fiducial cross section, the p
       \includegraphics[width=0.48\textwidth,angle=0]{Plots/mass4l_unfoldwith_SM_125_ThreeYears.pdf}
       \label{fig:inclusive-results:b}
     }
- 
+
     \caption{The measured fiducial cross section as a function of $\sqrt{s}$ (left). The measured inclusive fiducial cross section in different final states (right). % add refs. from AN-18-340  
-                The acceptance is calculated using \POWHEG at  $\sqrt{s}$=13\TeV and {\sc HRes}~\cite{Grazzini:2013mca,deFlorian:2012mx} 
-                at  $\sqrt{s}$=7 and 8\TeV and the total gluon fusion cross section and uncertainty are taken from 
-                Ref.~\cite{Anastasiou2016}. The fiducial volume for $\sqrt{s}$=6--9\TeV uses the lepton isolation definition from 
+                The acceptance is calculated using \POWHEG at  $\sqrt{s}$=13\TeV and {\sc HRes}~\cite{Grazzini:2013mca,deFlorian:2012mx}
+                at  $\sqrt{s}$=7 and 8\TeV and the total gluon fusion cross section and uncertainty are taken from
+                Ref.~\cite{Anastasiou2016}. The fiducial volume for $\sqrt{s}$=6--9\TeV uses the lepton isolation definition from
                 Ref.~\cite{CMSH4lFiducial8TeV}, while for $\sqrt{s}$=12--14\TeV the definition described in the text is used.
 
-    } 
+    }
   \label{fig:inclusive-results}
  \end{center}
 \end{figure}
 
+
+Systematic on the measurement is represented by red bar, whereas black error bar represents total uncertainties, summed from the individuals in quadrature. Contributions of the sub-dominant component of the signal i.e. XH $=$ VBF $+$ VH $+$ $\ttH$ is indicated in green separately. 
+%The additional systematic uncertainty associated with the model dependence
+%is separately represented by a grey box. 
+These results are also given in Tables \ref{tab:incresults} and \ref{tab:incresultsPAS}.
+% Summary of individual measurements of inclusive $\Hllll$ fiducial cross sections at 7~TeV and 8~TeV, performed in the $m_{4\ell}$ range from 105~GeV 
+% to 140~GeV,  are presented in Table~\ref{tab:incresults} and Figure~\ref{fig:inclusive-results-summary} and Figure~\ref{fig:ratio7o8-results-summary}.
+
+The inclusive $\Hllll$ measurements are compared with SM NNLO theoretical estimations where acceptance of dominant $\ggH$ contribution is estimated using {\sc powheg} at  $\sqrt{s}$=13\TeV and {\sc HRes}~\cite{Grazzini:2013mca,deFlorian:2012mx} at  $\sqrt{s}$=7 and 8\TeV. Total gluon fusion cross section and associated uncertainty has been taken from Ref.~\cite{Anastasiou2016}. 
+Definition of fiducial volume for $\sqrt{s}$=6--9\TeV uses the lepton isolation definition from Ref.~\cite{CMSH4lFiducial8TeV}, while for $\sqrt{s}$=12--14\TeV the definition described in the text is used.
+
+%Total uncertainty on NNLL+NNLO theoretical computations is obtained from Ref.~\cite{LHCHiggsCrossSectionWorkingGroup:2013tqa} and includes
+%uncertainties due to the renormalization and factorization scales ($\sim 7.8\%$), PDFs ($\sim 7.5\%$),branching fraction (2\%) and acceptance ($2\%$). For
+%total theoretical uncertainty calculations, PDFs/$\alpha_{\rm S}$ uncertainties are considered to be corrected between VH and VBF production mechanism
+%(dominantly quark-antiquark initiated) and anti-correlated between $\ttH$ and $\ggH$ mechanism (dominantly gluon-gluon initiated). Furthermore, uncertainties
+%due to DCQ scale are assumed to be uncorrelated, while acceptance and branching fraction uncertainties are assumed to be corrected among all production mechanism.
+%In all figures, the theoretical estimations that used {\sc HRes}, {\sc powheg+JHUgen} and {\sc powheg minlo-HJ}
+% for the description of the gg$\rightarrow$H process are shown in pink, blue and yellow, respectively, while the sub-dominant component of the 
+% signal XH $=$ VBF $+$ VH $+$ $\ttH$ is indicated in green separately.
+%A small difference between the predictions based on {\sc powheg+JHUgen} and {\sc minloHJ}
+% is arising from the way the acceptance of the gg$\rightarrow$H contribution is modelled by these two generators.
+When extracting the integrated H$\rightarrow4\ell$ fiducial cross section, the parameter of interest is  total fiducial cross section and the fractions of $4e,4\mu,$ and $2e2\mu$ is floated in the fit. When extracting the fiducial cross section in the final states, three parameters of interest are the cross sections of three individual final states.
+
+%\begin{figure}[!htb]
+%  \begin{center}
+%    \subfigure[$4e$]{
+%      %\includegraphics[width=0.48\textwidth,angle=0]{Plots/data_unfoldwith_SM_125_v2_mass4l_4e_recobin0_unpublished.pdf}
+%      \includegraphics[width=0.48\textwidth,angle=0]{Plots/data_unfoldwith_SM_125_v3_mass4l_4e_recobin0.pdf}
+%       \label{fig:sigfits-data-SM-inclusive:a}
+%    }
+%    \subfigure[$4\mu$]{
+%      \includegraphics[width=0.48\textwidth,angle=0]{Plots/data_unfoldwith_SM_125_v3_mass4l_4mu_recobin0.pdf}
+%       \label{fig:sigfits-data-SM-inclusive:b}
+%    } \\
+%    \subfigure[$2e2\mu$]{
+%      \includegraphics[width=0.48\textwidth,angle=0]{Plots/data_unfoldwith_SM_125_v3_mass4l_2e2mu_recobin0.pdf}
+%       \label{fig:sigfits-data-SM-inclusive:c}
+%    }
+%    \subfigure[$4\ell$]{
+%      \includegraphics[width=0.48\textwidth,angle=0]{Plots/data_unfoldwith_SM_125_v3_mass4l_4l_recobin0.pdf}
+%       \label{fig:sigfits-data-SM-inclusive:d}
+%    } \\
+%    \caption{Inclusive four lepton invariant mass distributions in data and resulting fitted values of signal and the background PDFs in different final states.}
+%  \label{fig:sigfits-data-SM-inclusive}
+%  \end{center}
+%\end{figure}
+%%%%%%%%%
+%\begin{figure}[!htb]
+%  \begin{center}  
+%    \subfigure[$\Hllll$ (7, 8 and 13 TeV)]{
+%      \includegraphics[width=0.48\textwidth,angle=0]{Plots/xs_vs_sqrts.pdf}
+%      \label{fig:inclusive-results:a}
+%    }
+%    \subfigure[$\Hllll$ (13 TeV)]{
+%      \includegraphics[width=0.48\textwidth,angle=0]{Plots/mass4l_unfoldwith_SM_125_ThreeYears.pdf}
+%      \label{fig:inclusive-results:b}
+%    }
+% 
+%    \caption{The measured fiducial cross section as a function of $\sqrt{s}$ (left). The measured inclusive fiducial cross section in different final states (right). % add refs. from AN-18-340  
+%                The acceptance is calculated using \POWHEG at  $\sqrt{s}$=13\TeV and {\sc HRes}~\cite{Grazzini:2013mca,deFlorian:2012mx} 
+%                at  $\sqrt{s}$=7 and 8\TeV and the total gluon fusion cross section and uncertainty are taken from 
+%                Ref.~\cite{Anastasiou2016}. The fiducial volume for $\sqrt{s}$=6--9\TeV uses the lepton isolation definition from 
+%                Ref.~\cite{CMSH4lFiducial8TeV}, while for $\sqrt{s}$=12--14\TeV the definition described in the text is used.
+%
+%    } 
+%  \label{fig:inclusive-results}
+% \end{center}
+%\end{figure}
+%
 
 %============
 \begin{table}[!h!tb]
@@ -191,9 +239,9 @@ Measured (stat.~$\oplus$~sys.)
 \vspace{-0.4cm} &&&&\\
 \small gg$\rightarrow$H({\sc pohwheg}) + XH
 &$2.77^{+0.51}_{-0.39}$
-&$1.30^{+0.05}_{-0.05}$
-&$0.78^{+0.03}_{-0.03}$
-&$0.70^{+0.03}_{-0.03}$
+&$1.30^{+0.xx}_{-0.xx}$
+&$0.78^{+0.xx}_{-0.xx}$
+&$0.70^{+0.xx}_{-0.xx}$
 \\
 \vspace{-0.4cm} &&&&\\
 \hline %---------------------------------------------------------

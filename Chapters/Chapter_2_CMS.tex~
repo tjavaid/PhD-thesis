@@ -694,7 +694,7 @@ With the excellent time resolution, RPCs are capable to assign bunch crossing wi
 %\end{center}
 %\end{figure} 
 \subsubsection{Cathode Strip Chambers  (CSC)}
-The cathode strip chambers (CSC) are the sub-detecting part of the CMS muon system, as shown in Figure ~\ref{Fig:CMS_muon_system_layout}, covering the high pseudorapidty range upto $|0.9| < |\eta| < 2.4$ and capable to provide the track and triggering of muon in this region alongwith the RPCs. It can efficiently operate at high event rate and helps to assign the bunch crossing quite efficiently.
+The cathode strip chambers (CSC) are the sub-detecting part of the CMS muon system, as shown in Figure \ref{Fig:CMS_muon_system_layout}, covering the high pseudorapidty range upto $|0.9| < |\eta| < 2.4$ and capable to provide the track and triggering of muon in this region alongwith the RPCs. It can efficiently operate at high event rate and helps to assign the bunch crossing quite efficiently.
 A total 540 CSCs are installed in 4 CSC stations (ME1, ME2, ME3 and ME4) and each station is further distributed in 2-3 rings with 18-36 CSCs fixed on each ring.\\
 Each CSC is assembly of 6 independent layers, making 6 gaps of gas (Ar 50\%, 40\% $CO_{2}$, 10\% $CF_{4}$) with each layer have radial cathode strips  and transverse anode wires.
 Muon passing through a CSC chambers ionizes the gas molecules thus producing the electron avalanche towards the anode wires made of copper. Produced gaseous ions which move towards the strips for the detection of image charge.
@@ -946,7 +946,7 @@ ME4/2 and ME1/1
 %\label{Fig:CMS_L1_trigger_configuration}
 %\end{center}
 %\end{figure} 
-\subsubsection{High-Level Trigger System (HLT)}
+\subsubsection{High-Level Trigger System (HLT)} \label{hlt}
 HLT performs event selections in a similar way that we perform for the offline processing of events.
 Primary goal of the HLT system is to take events (coming at 100kHz) from L1 trigger and reduce it to get an output rate of 1 kHz. This is done is done in several steps.
 For a process of interest, to reconstruct or identify an object (like electron, muon or so) a certain criteria is applied over each event.
