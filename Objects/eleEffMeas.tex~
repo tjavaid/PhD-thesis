@@ -63,10 +63,21 @@ The measurement of electron selection efficiency is made as a function of the pr
    \item Variation of the signal shape from a MC shape to an analytic shape (Crystal Ball) fitted to the MC
    \item Use of analytic function (Crystal Ball) to fit the signal as alternative of MC template %Variation of the background shape from a CMS-shape to a simple exponential in fits to data
 %   \item Variation of the tag selection: tag $p_{T}>$35~GeV and passes MVA-based 8X ID
-   \item Using an NLO MC sample for the signal templates
+   \item Using an NLO MC sample for signal templates
 \end{itemize}
 
-The total uncertainty for the measurement of the scale factors is the quadratic sum of the statistical uncertainties returned from the fit and the aforementioned systematic uncertainties.
+Assessment of total uncertainty for measurement of the scale factors is taken as quadratic sum of statistical uncertainties (returned from the fit) and the aforementioned systematic uncertainties. Overall electron SFs and the associated total uncertainties can be seen in the Figure. \ref{fig:overall_elec_SF}. 
+
+
+
+\begin{figure}[!htb]
+\vspace*{0.3cm}
+\begin{center}
+\includegraphics[width=.85\textwidth]{Figures/egama_SF.png}
+\end{center}
+        \caption{Overall electron SFs (left) and associated uncertainties (right) in two dimensional display as function of $\pt$ and $\eta$ Tag and Probe workflow example using the central CMS framework.}
+\label{fig:overall_elec_SF}
+\end{figure}
 
 
 

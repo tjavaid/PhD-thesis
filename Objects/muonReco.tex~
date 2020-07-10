@@ -1,5 +1,8 @@
 %More details on muon reconstruction can be found in Ref.~\cite{AN-15-277}.
-We define {\bf loose muons} as the muons that satisfy  
+Muons can be reconstructed as global muon which exploits the information from muon track in muon system and a tracker track.
+It can also be reconstructed by matching the tracker track with its track stubs (i.e. with at least one the muon track segment created by CSC or DT hits).
+
+As per requirement of analysis, we define {\bf loose muons} as the muons that satisfy  
 $p_T > 5$, $|\eta| < 2.4$, $dxy< 0.5$ cm, $dz < 1$ cm, where $dxy$ and $dz$ are 
 defined w.r.t. the PV and using the 'muonBestTrack'. Muons have to be 
 reconstructed by either the Global Muon or Tracker Muon algorithm. Standalone 
@@ -14,7 +17,7 @@ also pass the PF muon ID (note that the naming
 convention used for these IDs differs from the muon POG naming scheme, in which
 the ``tight ID'' used here is called the ``loose ID''). Loose muons with $\pt$ 
 above 200\GeV are considered identified muons if they pass the PF ID or the Tracker
-High-$\pt$ ID, the definition of which is shown in Table~\ref{tab:highPtID}.
+High-$\pt$ ID, the definition of which is shown in Table \ref{tab:highPtID}.
 This relaxed definition is used to increase signal efficiency for the high-mass
 search. When a very heavy resonance decays to two $\cPZ$ bosons, both bosons
 will be very boosted. In the lab frame, the leptons originating from decay of

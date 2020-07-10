@@ -1,10 +1,26 @@
 %Vector Boson Fusion (VBF) and other production mechanisms of Higgs Boson normally differ as regards the jet kinematics. 
-Higgs production through fusion of vector bosons (VBF) and through other mechanisms normally differ as regards the jet kinematics.
+In a high energy experiment e.g. proton-proton collision at LHC, jets are produced by quarks and/or gluons when they go through the process of hadronization and making a cone like structure in the detector like CMS. Hence, jets are physics objects which provide the experimental evidence of quarks and the gluons. 
+%In a high energy experiment e.g. proton-proton collision at LHC, 
+%Jets are the experimental signatures of quarks and gluons produced in high-energy processes such as head-on proton-proton collisions.
+As these jets of particles propagate through the CMS detector, they leave signals in components such as the tracker and the electromagnetic and hadronic calorimeters. 
+A typical diagram of the a jet can be seen in the Figure. \ref{fig:jet_cone} and in Ref. \cite{jets} % http://cms.web.cern.ch/news/jets-cms-and-determination-their-energy-scale
+Information from these signatures is exploited through some jet algorithms to fully reconstruct a ``jet''.
+
+\begin{figure}[!htb]
+\vspace*{0.3cm}
+\begin{center}
+\includegraphics[width=0.80\textwidth]{Figures/jet_cone.png}
+\end{center}
+        \caption{A schematic diagram of proton-proton collison and signature for a jet cone.}
+\label{fig:jet_cone}
+\end{figure}
+
+The processes of Higgs production through fusion of vector bosons (VBF) and through other mechanisms normally differ as regards the jet kinematics.
 %In this analysis, jets are thus used for the event categorization, which will be introduced in Section~\ref{sec:categorization}.
 
-\subsubsection{Jet Identification}
+\subsection{Jet Identification}
 
-Jets are reconstructed through anti-$k_T$ clustering algorithm out of particle-flow candidates, with distance parameter $R = 0.4$, 
+For the analysis upon which the dissertation is built, jets are reconstructed through anti-$k_T$ clustering algorithm out of particle-flow candidates, with distance parameter $R = 0.4$, 
 after rejecting the charged hadrons that are associated with a pileup primary  vertex.
 
 To reduce instrumental background, the tight working point jet ID suggested by the JetMET Physics Object Group is applied~\cite{JetID2018}. 
@@ -13,19 +29,49 @@ In this analysis, the jets from within $|\eta| < 4.7$ area are required to have 
 In addition, jets are cleaned from any of the tight leptons (passing the SIP and isolation cut computed after FSR correction) 
 and FSR photons by a separation criterion: $\Delta R(\text{jet,lepton/photon}) > 0.4$.
 
-\subsubsection{Jet Energy Corrections}
-
-The capability of current calorimeter to measure the energy of jets correctly is not linear.
-Hence the measured energy cannot be regarded as particle's true energy and we need to estimate corrections to Jet Energy.
-In the analysis, standard jet energy corrections are implemented to the reconstructed jets,
+\subsection{Jet Energy Corrections}
+Energy of the jets as measured from calorimeters is not exactly what is true energy at hadron level. There are many experimental reasons, e.g non-linear response of calorimeters, addition of energies from the pileup events, possible mixing from non-instrumented regions or noise in the detector, due to which the true energy may not be associated to the jets and hence, one needs to estimate the corrections to energy of a jet. These corrections are to be applied both in data and the simulations to match with the true hadron level energy.
+%The capability of current calorimeter to measure the energy of jets correctly is not linear.
+%Hence the measured energy cannot be regarded as particle's true energy and we need to estimate corrections to Jet Energy.
+\par In the analysis, standard jet energy corrections are implemented to the reconstructed jets,
 which consist of L1 Pileup, L2 Relative Jet Correction,
 L3 Absolute Jet Correction for both Monte Carlo samples and data,
 and also residual calibration for data~\cite{JECMC2018}. Jet Energy resolution corrections are also applied to MC.
 %\textbf{At the moment only preliminary version of JEC for MC is available. As recommended no JEC is applied to data.}
 
 
-\subsubsection{B-tagging}
+\subsection{B-tagging}
+B-hadrons or b-jets have longer long life time $viz.$ about $1.5 ps$~ (those of c-hadrons have $1 ps$ or even less), and travel longer in the detector before they decay and subsequently leave the tracks of large impact parameter  depending upon the momentum.
+These tracks are called displaced tracks and can help to reconstruct the secondary vertex (SV). 
+A typical diagram of a heavy-flavour jet with a SV from the decay of b or c hadron resulting in charged-particle tracks is shown in the Figure. \ref{fig:bjet} and in Ref. \cite{bjet}.
 
+%@article{Sirunyan:2017ezt,
+%    author = "Sirunyan, A.M. and others",
+%    collaboration = "CMS",
+%    title = "{Identification of heavy-flavour jets with the CMS detector in pp collisions at 13 TeV}",
+%    eprint = "1712.07158",
+%    archivePrefix = "arXiv",
+%    primaryClass = "physics.ins-det",
+%    reportNumber = "CMS-BTV-16-002, CERN-EP-2017-326",
+%    doi = "10.1088/1748-0221/13/05/P05011",
+%    journal = "JINST",
+%    volume = "13",
+%    number = "05",
+%    pages = "P05011",
+%    year = "2018"
+%}
+
+\begin{figure}[!htb]
+\vspace*{0.3cm}
+\begin{center}
+\includegraphics[width=0.80\textwidth]{Figures/bjet.png}
+\end{center}
+        \caption{A schematic diagram of a heavy flavor jet with a secondary vertex.}
+\label{fig:bjet}
+\end{figure}
+
+
+\\
 In order to distinguish whether a jet is b-jet or not \emph{DeepCSV} algorithm is used as our b-tagging algorithm. It combines the same information as the previous tagger \emph{CSVv2} i.e. SIP, jet kinematics and  secondary vertex but uses information of more tracks. Also, the b-tag output discriminator is computed with a Deep Neural Network. 
 In the analysis, a jet is considered as a b-tagged if it meets requirement of \emph{medium} working point, i.e. if its \verb |pfDeepCSVJetTags:probb + pfDeepCSVJetTags:probbb| discriminator is greater than 0.4184~\cite{BTAG2018}.
 
@@ -33,13 +79,22 @@ Scale factors of data to simulation efficiencies for b-tagging are provided for 
 They are applied to simulated jets by downgrading (upgrading) the b-tagging status of a fraction of the b-tagged (untagged) jets that have a scale factor smaller (larger) than one. % \textbf{They are not yet available but will be applied as soon as they arrive.}
 
 
-\subsubsection{Validation on data}
-Similarly to what was done with electrons and muons, some validation studies are performed to probe agreement of data with simulated samples for jets. 
+\subsection{Validation on data}
+Some validation studies are performed to probe agreement of data with simulated samples for jets. It is similar to what was done with electrons and muons.
 Events containing $\Zee$ or $Z\rightarrow\cP\mu^{+}\cP\mu^{-}$ were selecting, following the same trigger and lepton selection criteria of the main analysis, but increasing the $p_T$ threshold on leptons to 30~GeV and asking the dilepton invariant mass window of 70-110~GeV.
 Basic properties of additional jets in an event, requiring $p_T>30$~GeV and $\eta<4.7$, were then compared. 
 Figure~\ref{fig:jets} shows comparison of data with the MC in bins of pseudo-rapidity of the leading jet. Simulated samples of Drell-Yan and $\ensuremath{\cPqt\bar{\cPqt}}$ are used. Uncertainties from the jet energy corrections are also displayed on ratio plots of data to MC.
 
-As it is shown, Jet Energy Resolution corrections are creating the ``horns" one can see in the MC for $\eta$ of about 2.8. Although not satisfactory, the disagreement of data from MC we see in this region is covered by the very large uncertainty. After discussion with jet experts in the JetMET POG, it has been decided that this is the configuration we should use for this preliminary result. We also verified that it was not inducing significant migration of events in the signal MC between the categories.
+%As it is shown, Jet Energy Resolution corrections are creating the ``horns" one can see in the MC for $\eta$ of about 2.8. Although not satisfactory, the disagreement of data from MC we see in this region is covered by the very large uncertainty. 
+%After discussion with jet experts in the JetMET POG, it has been decided that this is the configuration we should use for this preliminary result. We also verified that it was not inducing significant migration of events in the signal MC between the categories.
+
+
+
+
+
+
+
+
 % (FIXME: Currently, only 2017 uncertainties are available). 
 %the number of jets
 %Jet Energy Scale corrections are applied to both DATA and MC, following the recommendation from JetMET POG but not Jet Energy Resolution corrections. Residual Corrections to DATA have just been released and are therefore not yet included in these plots. We do expect it will improve the data/MC agreement together with increased systematic uncertainties to cover the disagreement in the forward region.
@@ -61,7 +116,7 @@ The disagreement of data with MC for the MET distribution prevents us at this st
 \includegraphics[width=0.69\linewidth]{Figures/Jets/leadingJet_Eta.pdf} 
 %\includegraphics[width=0.49\linewidth]{Figures/Jets/JetEta_leadingJet_ele.png} \\ 
 %\includegraphics[width=0.49\linewidth]{Figures/Jets/Histo_etaj1_2mu_dataeff.pdf}
-\caption{Comparison between data and MC for the leading jet $\eta$ in Z$\rightarrow \ell\ell$ +jets events.
+\caption{Comparison of data with MC for leading jet $\eta$ in Z$\rightarrow \ell\ell$ +jets.
 %for number of jets with $p_T>30$~GeV (top) and 
 % (left) and Z$\rightarrow\mu\mu$ + jets events (right). 
 MC is normalized to data. Jet ID and Jet PUID are applied. MC samples include DY and ttbar. Data/MC ratio plots are shown in the bottom of each plots, together with the uncertainties (shaded histograms) from Jet Energy Corrections.

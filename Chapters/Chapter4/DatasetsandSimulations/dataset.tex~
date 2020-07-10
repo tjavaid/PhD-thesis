@@ -3,7 +3,7 @@
 %\subsection{Data}
 
 %\subsubsection{Triggers and Datasets}
-%\label{sec:trigpaths}
+\label{sec:trigpaths}
 %
 The analysis uses full Run 2 (2016, 2017 and 2018) CMS data corresponding to $\usedLumiABC$ intergrated luminosity.  
 %The HLT paths used for different periods of collision data are listed in Table~\ref{tab:triggerPathsA},~\ref{tab:triggerPathsB}, and ~\ref{tab:triggerPathsC}. 

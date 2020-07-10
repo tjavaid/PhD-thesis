@@ -1,7 +1,24 @@
 Reconstructing a track is procedure of exploiting hits in the detector parts used to estimate the momentum and/or position of a particle producing the hits.
 It is a challenging task and in the CMS experiment there a dedicated software known as Combinatorial Track Finder (CTF).
 It uses combinatorial Kalman filter approach for the recognition of patterns and fitting the track.\\
-CTF algorithm repeats in  multiple steps to search the track on the basis of its relatively larger $\pt$ and closeness to the interaction point. This step is called iterative tracking in which each iteration is done in following steps:
+CTF algorithm repeats in  multiple steps to search the track on the basis of its relatively larger $\pt$ and closeness to the interaction point \cite{Chatrchyan:2014fea}.
+%@article{Chatrchyan:2014fea,
+%    author = "Chatrchyan, Serguei and others",
+%    collaboration = "CMS",
+%    title = "{Description and performance of track and primary-vertex reconstruction with the CMS tracker}",
+%    eprint = "1405.6569",
+%    archivePrefix = "arXiv",
+%    primaryClass = "physics.ins-det",
+%    reportNumber = "CMS-TRK-11-001, CERN-PH-EP-2014-070",
+%    doi = "10.1088/1748-0221/9/10/P10009",
+%    journal = "JINST",
+%    volume = "9",
+%    number = "10",
+%    pages = "P10009",
+%    year = "2014"
+%}
+
+This step is called iterative tracking in which each iteration is done in following steps:
 \begin{itemize}
 \item \textbf{Seeding:} It is to provide with the help of 2 or 3 hits initial track candidates (seeds).  
 \item \textbf{Tracking Finding:} It is to search for the additional hits based on the seed trajectories based on the Kalman filter approach.  
@@ -15,11 +32,42 @@ The completely reconstructed tracks give the information of the proton-proton in
 Reconstruction of the primary-vertex is done in three steps:
 
 \begin{itemize}
-	\item \textbf{Selection of Tracks: } It is done by setting requirements on Significance of impact parameter (SIP) from beam spot, number of hits in ITS and normalized $\chi^{2}$
+	\item \textbf{Selection of Tracks: } It is done by setting requirements on significance of impact parameter (SIP) from beam spot, number of hits in ITS and normalized $\chi^{2}$.
 	\item \textbf{Track Clustering:} It is done using information of transverse component of the impact parameter with respect to the beam spot. The clustering algorithm is capable to reconstruct any number of proton proton interaction in the bunch crossing. This performed using deterministic annealing algorithm (DA). This algorithm clusters the tracks into groups which can be associated to a single vertex. %.  
-	\item \textbf{Fitting of the track:} It is performed over the tracks in each cluster using ``adaptive vertex filter" to get the position of the primary vertex (the best vertex parameters).
-		It needs a procedure to link a primary vertex with the hard interaction. Since in hard interaction partiles are produced at high $\pt$, the vertices can be associated with sum of $\pt^{2}$ of the reconstructed tracks. The vertex with highest sum of $\pt^{2}$ can be associated to the hard intraction from the multiplicity of primary vertices. 
+	\item \textbf{Fitting of the track:} It is performed over the tracks in each cluster using ``adaptive vertex fitter" to get the position of the primary vertex (the best vertex parameters).
+		It needs a procedure to link a primary vertex with the hard interaction. Since in hard interaction particles are produced at high $\pt$, for example in $Z \to \mumu$ process, the vertices can be associated with sum of $\pt^{2}$ of the reconstructed tracks. The vertex with highest $\Sigma\pt^{2}$ can be associated to the hard intraction from the multiplicity of primary vertices. Rest of the interactions, other than hard interaction, are called pileup. 
 \end{itemize}\\
 
+%\begin{figure}[!htb]
+%\vspace*{0.3cm}
+%\begin{center}
+%%\includegraphics[width=0.48\textwidth]{Figures/IrrBkg/Kfactor_qqZZ_mZZ.pdf}
+%\includegraphics[width=0.48\textwidth]{Figures/eff_track_eta.png}
+%\includegraphics[width=0.48\textwidth]{Figures/eff_track_nvertices.png}
+%	\caption{Left(Right): The tracking efficiency as a function of pseudo-rapidity (number of primary vertices) for the standalone muon for the ``all tracks'' collection. Data (black dots) and Madgraph DY (light blue rectangles). The uncertainties shown are statistical.
+%	\label{fig:eff_tracking}}
+%\end{center}
+%\end{figure}
 
 
+\begin{figure}[!htb]
+\vspace*{0.3cm}
+\begin{center}
+%\includegraphics[width=0.48\textwidth]{Figures/IrrBkg/Kfactor_qqZZ_mZZ.pdf}
+\subfigure[]{\includegraphics[width=0.48\textwidth]{Figures/eff_track_pt.png}\label{fig:eff_track_pt:a}
+	}
+\subfigure[]{	\includegraphics[width=0.48\textwidth]{Figures/eff_track_eta.png} \label{fig:eff_track_eta:b}
+	}
+
+\subfigure[]{	\includegraphics[width=0.48\textwidth]{Figures/eff_track_nvertices.png} \label{fig:eff_track_nvertices:c}
+	}
+	\caption{The tracking efficiency as a function of $\pt$~ pseudo-rapidity and number of primary vertices for the standalone muon for the ``all tracks'' collection are shown in the sub-figure top left, top right and bottom respectively. Data (black dots) and Madgraph Drell Yan i.e. $Z \to \mumu$ (light blue rectangles). The uncertainties shown are statistical.
+        \label{fig:eff_tracking}}
+\end{center}
+\end{figure}
+
+
+The efficiency to reconstruct a lepton track is called the tracking efficiency. To reconstruct a muon track in the inner detector is measured using as probes tracks reconstructed in the muon system alone.
+Measured muon tracking efficiency is shown in the Figure. \ref{fig:eff_tracking}. It is evident from Figures. \ref{fig:eff_track_pt:a} and \ref{fig:eff_track_eta:b} that tracking efficiency is nearly 100\% in terms of $\pt$ and $\eta$; however, with increase in number of primary vertices (pileup) it decreases a bit as shown in the Figure. \ref{fig:eff_track_nvertices:c}.
+
+These efficiencies are measured using ``Tag and Probe '' method for which details are described in next Section \ref{tnp_procedure}. This procedure is also applied when measuring the selection efficiencies of electrons and muons.

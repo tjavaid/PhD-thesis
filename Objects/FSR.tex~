@@ -1,15 +1,16 @@
-The FSR recovery algorithm was considerably simplified with respect to what was done in Run I, while maintaining similar performance. 
-The selection of FSR photons is now only done per-lepton and no longer depends on any Z mass criterion, thus much simplifying the subsequent ZZ candidate building and selection. As regards the association of photons with leptons, the rectangular cuts on $\Delta R(\gamma,l)$ and $E_{T,\gamma}$  have been replaced by a cut on $\Delta R(\gamma,l)/E_{T,\gamma}^{2}$.
-
-Initially, photons are collected using particle-flow alogorithm. Further selection and their association with a lepton is done as follows:
+%The FSR recovery algorithm was considerably simplified with respect to what was done in Run I, while maintaining similar performance. 
+%The selection of FSR photons is now only done per-lepton and no longer depends on any Z mass criterion, thus much simplifying the subsequent ZZ candidate building and selection. As regards the association of photons with leptons, the rectangular cuts on $\Delta R(\gamma,l)$ and $E_{T,\gamma}$  have been replaced by a cut on $\Delta R(\gamma,l)/E_{T,\gamma}^{2}$.
+The procedure of FSR recovery is described as under:\\
+For FSR recovery, photons are initially collected using PF alogorithm. %Further selection and their association with a lepton is done as follows:
 %Starting from the collection of 'PF photons' provided by the particle-flow algorithm, the selection of photons and their association to a lepton proceeds as follows:
 \begin{enumerate}
-	\item PF photons are preselected by requiring $p_{T,\gamma} > 2~\GeV$, $|\eta^{\gamma}| < 2.4$, and a relative Particle-flow isolation smaller than $1.8$ (computed within a cone of radius $R=0.3$). On charged hadrons and neutral hadrons or photons $0.2~\GeV$ and $0.5~\GeV$ thresholds are applied with a size of veto cone $0.0001$ and $0.01$ respectively, also considering contribution from pileup vertices (with the same radius and threshold as per charged isolation) .
+	\item Photons are initially collected using PF alogorithm which are called PF photons.
+	\item These photons are preselected by requiring $p_{T,\gamma} > 2~\GeV$, $|\eta^{\gamma}| < 2.4$, and a relative Particle-flow isolation smaller than $1.8$ (computed within a cone of radius $R=0.3$). %On charged hadrons and neutral hadrons or photons $0.2~\GeV$ and $0.5~\GeV$ thresholds are applied with a size of veto cone $0.0001$ and $0.01$ respectively, also considering contribution from pileup vertices (with the same radius and threshold as per charged isolation) .
 	\item Supercluster (SC) veto: All photons matching (direct association with PF candidates) with some electron that passes ID and SIP requirements are removed. 
 \item Association of photons is made with lepton which is closest and passes ID and SIP requirements. %are associated to the closest lepton in the event among all those pass both the loose ID and SIP cuts.
-\item Photons not satisfying the requirements $\Delta R(\gamma,l)/E_{T,\gamma}^2 < 0.012$, and $\Delta R(\gamma,l)<0.5$ are discarded.
-\item In case if a photon gets associated with same lepton, the one with less $\Delta R(\gamma,l)/E_{T,\gamma}^2$ is opted.
-\item For each selected FSR photon, we exclude that photon from sum of isolation of all leptons in an event which pass both loose ID and SIP requirements. This concerns the photons which are in isolation cone and outside veto of isolation of said leptons ($\Delta R < 0.4$ and $\Delta R > 0.01$ for muons and $\Delta R < 0.4$ and ($\eta^{\text{SC}} < 1.479$ or $\Delta R > 0.08$) for electrons).
+\item Photons should fulfill the requirements of  $\Delta R(\gamma,l)/E_{T,\gamma}^2 < 0.012$, and $\Delta R(\gamma,l)<0.5$.% are discarded.
+\item For a lepton, a photon with least $\Delta R(\gamma,l)/E_{T,\gamma}^2$ is considered.
+\item FSR photons are excluded from sum of isolation of all leptons in an event which pass both loose ID and SIP requirements. %This concerns the photons which are in isolation cone and outside veto of isolation of said leptons ($\Delta R < 0.4$ and $\Delta R > 0.01$ for muons and $\Delta R < 0.4$ and ($\eta^{\text{SC}} < 1.479$ or $\Delta R > 0.08$) for electrons).
 \end{enumerate}
 
 More details on the optimization of the FSR photon selection can be found in Ref.~\cite{AN-15-277, AN-16-217}.

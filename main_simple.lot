@@ -1,7 +1,7 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {english}{}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {1.1}{\ignorespaces Overview of variables used at inputs to identification classifier. The Variables not used in the run I MVA are specified with $(\mathord {\cdot })$.\relax }}{5}{table.caption.11}
-\contentsline {table}{\numberline {1.2}{\ignorespaces Minimum value of BDT score for electron to pass identification, together with the corresponding signal and the background efficiencies.\relax }}{7}{table.caption.14}
-\contentsline {table}{\numberline {1.3}{\ignorespaces The requirements for a muon to pass the Tracker High-$\ensuremath {p_T}$ ID. Note that these are equivalent to the Muon POG High-$\ensuremath {p_T}$ ID with the global track requirements removed. \relax }}{11}{table.caption.31}
-\contentsline {table}{\numberline {1.4}{\ignorespaces Chart of selection of physics objects for the $\ensuremath {\mathrm {H}\to \mathrm {ZZ}\to 4\ell }$ analysis used on the 2018 data.\relax }}{23}{table.caption.73}
+\contentsline {table}{\numberline {1.1}{\ignorespaces Generations, charge and interaction types of quarks and leptons.\relax }}{2}{table.caption.8}
+\contentsline {table}{\numberline {1.2}{\ignorespaces Gauge bosons and their masses, coupling constants and interaction ranges for the three forces of the SM\relax }}{3}{table.caption.10}
+\contentsline {table}{\numberline {1.3}{\ignorespaces Higgs boson production cross sections in pb for different Higgs masses and center-of-mass energies by ggH and VBF productions mechanism at LHC.\relax }}{14}{table.caption.48}
+\contentsline {table}{\numberline {1.4}{\ignorespaces Higgs boson production cross section in pb for different Higgs masses and center-of-mass energies by associative productions mechanism at LHC.\relax }}{15}{table.caption.51}

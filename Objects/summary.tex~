@@ -4,9 +4,10 @@ A lepton is declared {\bf loose} if it passes the reconstruction, kinematics and
 
 \renewcommand{\arraystretch}{2}
 \begin{table}[H]
-	\small
+	%\small
+	\scriptsize
 	\centering
-	\caption{Chart of selection of physics objects for the $\HZZfl$ analysis used on the 2018 data.}
+	\caption{Chart of selection of physics objects for the $\HZZllll$ analysis used on the 2018 data.}
 	\label{tab:objsummary}
 	\begin{tabular}{|c|c|}
 		\hline \hline

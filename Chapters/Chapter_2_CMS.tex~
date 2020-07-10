@@ -378,7 +378,7 @@ Contribution of each term to the energy resolution is shown in the Figure. ~\ref
 
 %term xtracted by fitting the measured points to the function, N being noise term and S is stochastic term. 
 %%A measurement of energy resolution has been made by using electron of energies from 20 to 250~GeV in test beam~\cite{Reference35}. The measurement was made by considering arrays of $3\times 3$ or $5 \times 5$. No correlated significant noise was observed in these arrays. The measurements summary is shown in 
-A recent study on relative energy resolution of ECAL using 2017 data and MC has been performed using Z events decaying to a pair of electrons. The resolution plots for bremsstrahlung electrons ($R_{9}$>0.94 and $R_{9}$<0.94) is separately shown for data and MC in the Figure \ref{Fig:CMS_ECAL_energy_resolution} ~\cite{Zghiche_2019}.  % https://iopscience.iop.org/article/10.1088/1742-6596/1162/1/012001/pdf 
+A recent study on relative energy resolution of ECAL using 2017 data and MC has been performed using Z events decaying to a pair of electrons. The resolution plots for bremsstrahlung electrons ($R_{9}$>0.94 and $R_{9}$<0.94)\footnote{$R_{9}$ is ratio of the energy contained in a 3 \times 3 crystal matrix and the supercluster energy} is separately shown for data and MC in the Figure \ref{Fig:CMS_ECAL_energy_resolution} ~\cite{Zghiche_2019}.  % https://iopscience.iop.org/article/10.1088/1742-6596/1162/1/012001/pdf 
 For $\Hllll$ analyses, excellent energy resolution for leptons is important for precise measurements for which ECAL of CMS plays an important role as it did for Higgs discovery.
 \begin{figure}
 \begin{center}
@@ -946,7 +946,7 @@ ME4/2 and ME1/1
 %\label{Fig:CMS_L1_trigger_configuration}
 %\end{center}
 %\end{figure} 
-\subsubsection{High-Level Trigger System (HLT)} \label{hlt}
+\subsubsection{High-Level Trigger System (HLT)} \label{sec:hlt}
 HLT performs event selections in a similar way that we perform for the offline processing of events.
 Primary goal of the HLT system is to take events (coming at 100kHz) from L1 trigger and reduce it to get an output rate of 1 kHz. This is done is done in several steps.
 For a process of interest, to reconstruct or identify an object (like electron, muon or so) a certain criteria is applied over each event.
