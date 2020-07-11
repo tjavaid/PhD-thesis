@@ -2,12 +2,19 @@ The requirements on all objects used in the analysis (with 2018 data) are summed
 
 A lepton is declared {\bf loose} if it passes the reconstruction, kinematics and dxy/dz cuts and declared {\bf tight} if it passes in addition the identification, isolation and SIP3D cut. 
 
+For 2016 and 2017 overall selections are same except a few as given below:   
+
+\begin{itemize}    \label{differences}
+	\item For 2018 and also for 2017, BDT includes ID and as well as Isolation requirements; however, for 2016 BDT includes only ID and cut based Isolation is explicitly applied on the top of BDT.
+	\item In 2017 and 2018, \emph{DeepCSV} is used as B-tagging algorithm. For 2016, \emph{CSVv2} was used as B-tagging algorithm (with chosen working point as \\ \verb=pfCombinedInclusiveSecondaryVertexV2BJetTags= discriminator should be greater than 0.8484) %\footnote{In 2016, jet pileup ID is not applied (to be included in upcoming manuscript on the same subject.)
+%} 
+
 \renewcommand{\arraystretch}{2}
 \begin{table}[H]
 	%\small
 	\scriptsize
 	\centering
-	\caption{Chart of selection of physics objects for the $\HZZllll$ analysis used on the 2018 data.}
+	\caption{Chart of selection of physics objects for the $\HZZllll$ analysis used on the 2018 data (few differences w.r.t 2016 and 2017, as described in Section. \ref{sec:objsum} and rest of selections remain same in all years.)} 
 	\label{tab:objsummary}
 	\begin{tabular}{|c|c|}
 		\hline \hline
@@ -24,7 +31,7 @@ A lepton is declared {\bf loose} if it passes the reconstruction, kinematics and
 		\multicolumn{2}{|c|}{\textbf{Muons}}  \\ \hline
                 \multicolumn{2}{|c|}{Global or Tracker Muon} \\
                 \multicolumn{2}{|c|}{Discard Standalone Muon tracks if reconstructed in muon system only} \\
-                \multicolumn{2}{|c|}{Discard muons with muonBestTrackType==2 even if they are globa or tracker muons} \\
+                \multicolumn{2}{|c|}{Discard muons with muonBestTrackType==2 even if they are global or tracker muons} \\
 		\multicolumn{2}{|c|}{$\mathrm{p_T^{\mu}} > 5 \GeV$ \hspace{0.5cm} and \hspace{0.5cm} $\abs{\eta^{\mu}} < 2.4$}                                                                                                                                       \\
 		\multicolumn{2}{|c|}{$\mathrm{d_{xy}} < 0.5 \, \mathrm{cm}$ \hspace{0.5cm} and \hspace{0.5cm} $\mathrm{d_{z}} < 1 \, \mathrm{cm}$}                                                                                                                           \\
 		\multicolumn{2}{|c|}{$| {\rm SIP_{3D}} | < 4$  }                                                                                                                                                                                   \\
@@ -38,8 +45,8 @@ A lepton is declared {\bf loose} if it passes the reconstruction, kinematics and
 		\multicolumn{2}{|c|}{$\mathrm{p_T^{\mathrm{jet}}} > 30 \GeV$ \hspace{0.5cm} and \hspace{0.5cm} $\abs{\eta^{\mathrm{jet}}} < 4.7$}                                                                                                                    \\
 		\multicolumn{2}{|c|}{$\Delta R(\ell/\gamma, \mathrm{jet}) > 0.4$} \\
                 \multicolumn{2}{|c|}{Cut-based jet ID (tight WP) } \\
-                \multicolumn{2}{|c|}{Jet pileup ID (tight WP)} \\
-                \multicolumn{2}{|c|}{Deep CSV algorithm for b-tagging (medium WP)} \\
+		\multicolumn{2}{|c|}{Jet pileup ID (tight WP)} \\ %~\footnote{In 2016, jet pileup ID is not applied (to be included in upcoming manuscript on the same subject.)} } \\
+		\multicolumn{2}{|c|}{Deep CSV algorithm for b-tagging (medium WP)} \\ %~\footnote{For 2016, \emph{CSVv2} was used as B-tagging algorithm} } \\
                 \hline \hline
 		%Cut-based jet ID (loose WP)                                                               & Cut-based jet ID (tight WP)                                                                                           \\
                 %		\multicolumn{1}{|l|}{}                                                                     & Jet pileup ID (tight WP)                                                                                              \\

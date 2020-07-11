@@ -53,7 +53,13 @@ The results are shown in the Fig.~\ref{fig:MuonIDEff_2}.
 \end{figure}
 
 \paragraph*{Efficiency measurement of muon isolation requirements}
-Isolation efficiency is measured using events from the $\Z$ decay for any \pt. The events are selected with either of \verb=HLT_IsoMu27_v*= or \verb=HLT_Mu50_v*= triggers. The isolation of the muons are calculated after recovery of the FSR photons and subtracting their contribution to the isolation cone of the muons. There are details described of this method which can be found in Ref.~\cite{AN-16-217}.
+Isolation efficiency is measured using events from the $\Z$ decay for any \pt. The events are selected with either of \verb=HLT_IsoMu27_v*= or \verb=HLT_Mu50_v*= triggers (for 2017 \verb=HLT_IsoMu27_v*= is used and for 2016 measurements, $OR$  condition is required among \verb=HLT_IsoMu20_v*=, \verb=HLT_IsoTkMu20_v*=, \verb=HLT_IsoMu22_v*=, \verb=HLT_IsoTkMu22_v*=, \verb=HLT_IsoMu24_v*=, \verb=HLT_IsoTkMu24_v*=) 
+%\begin{itemize}
+%	\item \textbf{2016:}  \verb=HLT_IsoMu20_v*= OR \verb=HLT_IsoTkMu20_v*= \verb=HLT_IsoMu22_v*= OR \verb=HLT_IsoTkMu22_v*= OR \verb=HLT_IsoMu24_v*= OR \verb=HLT_IsoTkMu24_v*=
+%	\item \textbf{2017:} \verb=HLT_IsoMu27_v*= 
+%\end{itemize}
+%}.
+The isolation of the muons are calculated after recovery of the FSR photons and subtracting their contribution to the isolation cone of the muons. There are details described of this method which can be found in Ref.~\cite{AN-16-217}.
 
 The results are shown in Fig.~\ref{fig:MuonIDEff_3}.
 \begin{figure}[htbp]
@@ -66,7 +72,7 @@ The results are shown in Fig.~\ref{fig:MuonIDEff_3}.
 \end{figure}
 
 \paragraph*{Tracking}
-Tracking efficiency (i.e. efficiency to associate a track to some muon in inner detector) is almost 100\% and hence muon Physics Object Group no more recommends tracking scale factors in the analyses. % measured using as probes tracks 
+Tracking efficiency (i.e. efficiency to associate a track to some muon in inner detector) is almost 100\% as shown in the Figure. \ref{fig:eff_tracking} and hence muon Physics Object Group no more recommends tracking scale factors in the analyses. % measured using as probes tracks 
 %The efficiency to reconstruct a muon track in the inner detector is measured using as probes tracks
 %reconstructed in the muon system alone. The method for measuring the tracking efficiency is the same as 
 % in Ref.~\cite{CMS_AN_2015-215}, and the results on 2018 data are briefly discussed here. The efficiency and 

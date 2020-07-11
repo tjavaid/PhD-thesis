@@ -24,7 +24,7 @@ For the analysis upon which the dissertation is built, jets are reconstructed th
 after rejecting the charged hadrons that are associated with a pileup primary  vertex.
 
 To reduce instrumental background, the tight working point jet ID suggested by the JetMET Physics Object Group is applied~\cite{JetID2018}. 
-In addition, jets from Pile-Up are rejected using the PileUp jet ID criteria suggested by the JetMET POG~\cite{JetPUID2017}. 
+In addition, jets from Pile-Up are rejected using the PileUp jet ID criteria suggested by the JetMET POG~\cite{JetPUID2017} \footnote{In 2016, jet pileup ID is not applied (to be included in upcoming manuscript on the same subjec)}. 
 In this analysis, the jets from within $|\eta| < 4.7$ area are required to have a transverse momentum greater that 30 GeV. 
 In addition, jets are cleaned from any of the tight leptons (passing the SIP and isolation cut computed after FSR correction) 
 and FSR photons by a separation criterion: $\Delta R(\text{jet,lepton/photon}) > 0.4$.
@@ -41,7 +41,7 @@ and also residual calibration for data~\cite{JECMC2018}. Jet Energy resolution c
 
 
 \subsection{B-tagging}
-B-hadrons or b-jets have longer long life time $viz.$ about $1.5 ps$~ (those of c-hadrons have $1 ps$ or even less), and travel longer in the detector before they decay and subsequently leave the tracks of large impact parameter  depending upon the momentum.
+B-hadrons or b-jets have long life time $viz.$ about $1.5 ps$~ (those of c-hadrons have $1 ps$ or even less), and travel longer in the detector before they decay and subsequently leave the tracks of large impact parameter  depending upon the momentum.
 These tracks are called displaced tracks and can help to reconstruct the secondary vertex (SV). 
 A typical diagram of a heavy-flavour jet with a SV from the decay of b or c hadron resulting in charged-particle tracks is shown in the Figure. \ref{fig:bjet} and in Ref. \cite{bjet}.
 
