@@ -202,7 +202,7 @@ Bandwidth of the readout electronics was increased approximately by a factor of 
 (320 Mbit/s). In addition, DC-DC power converters were installed to allow reusing the existing fibers
 and cables. Hence, the upgraded pixel detector has a higher rate capability and number of channels,
 providing increased tracking efficiency, reduced fake rate, and improved impact parameter resolution.
-In the figure ~\ref{Fig:hit_efficiency_upgrade}, clear improvments in the dynamic efficiency of 2017 (with pixel upgrades) with respect to the 2016 (without pixel upgrades) can be seen Ref. ~\cite{Sonneveld:2018ntf}.
+In the figure ~\ref{Fig:hit_efficiency_upgrade}, clear improvments in the dynamic efficiency of 2017 (with pixel upgrades) with respect to the 2016 (without pixel upgrades) can be seen in Ref. ~\cite{Sonneveld:2018ntf}.
 
 \begin{figure}
 \begin{center}
@@ -284,7 +284,7 @@ Beyond z=118 cm, there are tracker endcaps (TEC+, TEC-, 9 discs) which cover 124
 %%\end{center}
 %%\end{figure}
 
-\subsection{Electromagnetic Calorimeter (ECAL) }
+\subsection{Electromagnetic Calorimeter (ECAL) } \label{cms:ecal}
 ECAL is the cylindrical shaped homogeneous calorimeter built with 75848 crystals of lead tungstate (PbWO${}_4$) placed inside the CMS solenoid magnet. Its barrel ergion (EB) contains 61200 PbWO${}_4$ crystals and provides pseudorapidity coverage of $|\eta| < 1.479$. Endcap region of the ECAL
 (EE) is built with 7324 crystals on either side in endcap regions and provides pseudorapidity coverage up to $\eta < 3$. 
 The region of $1.4442 < |\eta| <1.56$ is regarded as crack region between barrel and endcaps as can been seen in Figure \ref{Fig:CMS_ECAL_rapidity_cov} taken from ~\cite{Reference34}. This region is excluded for  physics analysis.\\
@@ -378,7 +378,7 @@ Contribution of each term to the energy resolution is shown in the Figure. ~\ref
 
 %term xtracted by fitting the measured points to the function, N being noise term and S is stochastic term. 
 %%A measurement of energy resolution has been made by using electron of energies from 20 to 250~GeV in test beam~\cite{Reference35}. The measurement was made by considering arrays of $3\times 3$ or $5 \times 5$. No correlated significant noise was observed in these arrays. The measurements summary is shown in 
-A recent study on relative energy resolution of ECAL using 2017 data and MC has been performed using Z events decaying to a pair of electrons. The resolution plots for bremsstrahlung electrons ($R_{9}$>0.94 and $R_{9}$<0.94)\footnote{$R_{9}$ is ratio of the energy contained in a 3 \times 3 crystal matrix and the supercluster energy} is separately shown for data and MC in the Figure \ref{Fig:CMS_ECAL_energy_resolution} ~\cite{Zghiche_2019}.  % https://iopscience.iop.org/article/10.1088/1742-6596/1162/1/012001/pdf 
+A recent study on relative energy resolution of ECAL using 2017 data and MC has been performed using Z events decaying to a pair of electrons. The resolution plots for bremsstrahlung electrons ($R_{9}$>0.94 and $R_{9}$<0.94)\footnote{$R_{9}$ is ratio of the energy contained in a $3 \times 3$ ~crystal matrix and the supercluster energy} is separately shown for data and MC in the Figure \ref{Fig:CMS_ECAL_energy_resolution} ~\cite{Zghiche_2019}.  % https://iopscience.iop.org/article/10.1088/1742-6596/1162/1/012001/pdf 
 For $\Hllll$ analyses, excellent energy resolution for leptons is important for precise measurements for which ECAL of CMS plays an important role as it did for Higgs discovery.
 \begin{figure}
 \begin{center}
@@ -588,9 +588,9 @@ DT system is annexed to the muon system in 4 stations, MB1, MB2, MB3 and MB4, in
 250 DT chambers (composed of 12 Aluminium layers each) are fixed on 5 wheels along z-axis. 
 12 planes in a DT chamber (of average size 2m$\times$2.5m), except the ones from MB4, are build with 3 independent units which are called super-layer (SL).
 A set of two SLs measures coordinates in the bending plane ($\phi$), the third SL helps to provide track coordinate along the beam (z).
-SL is further composed of DTs in 4 layers \cite{Ref->, cms_muon_tdr}.  % http://cds.cern.ch/record/927394/files/CR2006_006.pdf
+SL is further composed of DTs in 4 layers \cite{Paolucci:927394}.  % http://cds.cern.ch/record/927394/files/CR2006_006.pdf
 Each DT cell has an anode wire made of steel (of radius 25 \micro m) togther with walls of the cell as cathodes which produce the (drift) electric field. 
-A DT cell is filled with mixture of CO${}_{2}$ (15\%) Ar (85\%) gases which are benifitted from their low cost and provision of better drift velocity of saturation and the quenching under the influence of high operating voltage of 1.8kV. A schematic diagram of a drift cell and one of wheel bearing DT chambers is shown in the Figure . \ref{Fig:DT_system} and in Ref. \cite{comm, article_dt} . %https://arxiv.org/pdf/1912.06178.pdf
+A DT cell is filled with mixture of CO${}_{2}$ (15\%) Ar (85\%) gases which are benifitted from their low cost and provision of better drift velocity of saturation and the quenching under the influence of high operating voltage of 1.8kV. A schematic diagram of a drift cell and one of wheel bearing DT chambers is shown in the Figure . \ref{Fig:DT_system} and in Ref. \cite{article_dt}. %https://arxiv.org/pdf/1912.06178.pdf
 %@article{article_dt,
 %author = {Jansen, Hendrik and Hebbeker, Thomas},
 %year = {2020},
@@ -645,7 +645,7 @@ RPCs, the parallel plate gaseous detectors, are important part of CMS muon syste
 %of RPCs is excellent which is their main motivation. Additionally, spatial resolution of RPCs is also good. 
 %These  very fast responsive detector providing another muon trigger along with CSCs and DTs. 
 RPCs are capable to provide 
-a time resolution of about a nano-second. A schematic diagram of a RPC chamber taken from \cite{article} 
+a time resolution of about a nano-second. A schematic diagram of a RPC chamber taken from \cite{article_rpc} 
 %@article{article,
 %author = {Bunkowski, Karol and Krolikowski, Jan},
 %year = {2009},
@@ -694,7 +694,7 @@ With the excellent time resolution, RPCs are capable to assign bunch crossing wi
 %\end{center}
 %\end{figure} 
 \subsubsection{Cathode Strip Chambers  (CSC)}
-The cathode strip chambers (CSC) are the sub-detecting part of the CMS muon system, as shown in Figure \ref{Fig:CMS_muon_system_layout}, covering the high pseudorapidty range upto $|0.9| < |\eta| < 2.4$ and capable to provide the track and triggering of muon in this region alongwith the RPCs. It can efficiently operate at high event rate and helps to assign the bunch crossing quite efficiently.
+The cathode strip chambers (CSC) are the sub-detecting part of the CMS muon system, as shown in Figure \ref{Fig:cms_muon_system_layout}, covering the high pseudorapidty range upto $|0.9| < |\eta| < 2.4$ and capable to provide the track and triggering of muon in this region alongwith the RPCs. It can efficiently operate at high event rate and helps to assign the bunch crossing quite efficiently.
 A total 540 CSCs are installed in 4 CSC stations (ME1, ME2, ME3 and ME4) and each station is further distributed in 2-3 rings with 18-36 CSCs fixed on each ring.\\
 Each CSC is assembly of 6 independent layers, making 6 gaps of gas (Ar 50\%, 40\% $CO_{2}$, 10\% $CF_{4}$) with each layer have radial cathode strips  and transverse anode wires.
 Muon passing through a CSC chambers ionizes the gas molecules thus producing the electron avalanche towards the anode wires made of copper. Produced gaseous ions which move towards the strips for the detection of image charge.
@@ -749,7 +749,7 @@ Other main improvement for the muon sytem for future programs is installation of
 In this program, first two muon stations will be supported with GE1/1 and GE2/1 (covering $1.5 < |\eta| <2.4$) which have layers for high precision measurement.
 Additionally, ME0 station will be installed to extend coverage of  muon system upto $|\eta| < 3$.
 GE1/1 among these, will be installed during LS2 and would take part in Run 3 operations; however, GE1/2 and ME0 would be installed after Run 3 operations during long shutdown 3 (LS3) after 2022 when RPC will also upgraded as ``Improved RPC (iRPC)" with new geometry, materials and frontend electronics. 
-Updated schematic diagram of CMS muon system with addition of GEM chambers can be seen in the Figure. ~\ref{updated_cms} (also in Ref. \cite{Radogna:2016esa, Costantini:2711362}) where the actual position of these chambers in muon system can be understood.
+Updated schematic diagram of CMS muon system with addition of GEM chambers can be seen in the Figure. ~\ref{Fig:updated_cms} (also in Ref. \cite{Radogna:2016esa, Costantini:2711362}) where the actual position of these chambers in muon system can be understood.
 
 %@article{Costantini:2711362,
 %      author        = "Costantini, Silvia",

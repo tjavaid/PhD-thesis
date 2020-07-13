@@ -13,11 +13,13 @@ ATLAS:H4l_Hgg_8TeV,ATLAS:H4l_Hgg_8TeV_13TeV, CMS:Hgg_8TeV, CMS:2019drq}. However
 %channels, combination of both channels ~\cite{atlas-conf-2019-032}, ~\cite{ATLAS:H4l_Hgg_8TeV,ATLAS:H4l_Hgg_8TeV_13TeV} and by CMS experiment in $H \rightarrow \gamma \gamma$ decay channel~\cite{CMS:Hgg_8TeV}. 
 \par The cross section measurements (integrated and differential) are performed using collisions data of CMS (LHC) corresponding to 137.1 $fb^{-1}$ integrated luminosity at $\sqrt{s}=13$~TeV. The studied differential observables are sensitive to production mechanism of Higgs. Further details follow in next sections.% 
 %It is important to minimize results' dependence on underlying models of Higgs production  mechanism and its properties. 
-To minimize the model dependence, results are extracted in the fiducial volume that closely matches with the detector geometry as shown in Figure ~\ref{fig:Models_cartoon} \cite{ref_fiducial}. Conribution of other model dependence is extracted by repeating the measurements for SM and other exotic models. The differences are reported as systematic uncertainty. All measurements includes the corrections for the finite detection efficiency and resolution effects, and are extracted assuming $m_H =  125.09$~GeV, as measured from $H \rightarrow 2\gamma$ and $H \rightarrow 4\ell$ decay modes at CMS experiment of LHC ~\cite{Reference39}. 
+To minimize the model dependence, results are extracted in the fiducial volume that closely matches with the detector geometry as shown in Figure ~\ref{fig:Models_cartoon}. Conribution of other model dependence is extracted by repeating the measurements for SM and other exotic models. The differences are reported as systematic uncertainty. All measurements includes the corrections for the finite detection efficiency and resolution effects, and are extracted assuming $m_H =  125.09$~GeV, as measured from $H \rightarrow 2\gamma$ and $H \rightarrow 4\ell$ decay modes at CMS experiment of LHC ~\cite{Reference39}. 
 %==================
 \begin{figure}[!h!tb]
  \begin{center}
-    \includegraphics[width=0.65\textwidth,angle=0]{Figures/Models_cartoon.jpg}
+    %\includegraphics[width=0.55\textwidth,angle=0]{Figures/Models_cartoon.jpg}
+    %\includegraphics[width=0.55\textwidth,angle=0]{Figures/fiducial1.png}
+    \includegraphics[width=0.55\textwidth,angle=0]{Figures/fiducial1.pdf}
     \caption{Fiducial phase definition among different models.}
  \label{fig:Models_cartoon}
  \end{center}

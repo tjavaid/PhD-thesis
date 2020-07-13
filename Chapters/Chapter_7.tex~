@@ -32,7 +32,7 @@ The presented measurements of Higgs differential cross sections  are related to 
 
  \begin{figure}
 \begin{center}
-\includegraphics[width=0.5\linewidth]{Figures/event_signature.png}
+\includegraphics[width=0.4\linewidth]{Figures/event_signature.png}
 \caption{Higgs event signature}
 \label{Fig:event_signature}
 \end{center}

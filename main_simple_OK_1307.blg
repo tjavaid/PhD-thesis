@@ -1,0 +1,152 @@
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: main_simple_OK_1307.aux
+The style file: biblatex.bst
+A level-1 auxiliary file: Chapters/introduction.aux
+White space in argument---line 82 of file main_simple_OK_1307.aux
+ : \citation{ATLAS-CONF-2019-025
+ :                               }
+I'm skipping whatever remains of this command
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: main_simple_OK_1307-blx.bib
+Database file #2: example_new.bib
+You're missing a field name---line 17 of file example_new.bib
+ : 
+ : %      title         = "{Measurements of the Higgs boson inclusive, differential
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 31 of file example_new.bib
+ : 
+ : %      title         = "{Combined measurement of the total and differential cross
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 46 of file example_new.bib
+ : 
+ : %    collaboration = "CMS",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 54 of file example_new.bib
+ : 
+ : %    collaboration = "CMS",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 62 of file example_new.bib
+ : 
+ : %    author = "Sirunyan, Albert M and others",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 77 of file example_new.bib
+ : 
+ : %    author = "Khachatryan, Vardan and others",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 92 of file example_new.bib
+ : 
+ : %    collaboration = "CMS",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 100 of file example_new.bib
+ : 
+ : %    collaboration = "CMS",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 108 of file example_new.bib
+ : 
+ : %    collaboration = "CMS",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 116 of file example_new.bib
+ : 
+ : %    collaboration = "CMS",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 124 of file example_new.bib
+ : 
+ : %    author = "Sonneveld, Jory",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 139 of file example_new.bib
+ : 
+ : %        doi = {10.1088/1742-6596/1162/1/012001},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 153 of file example_new.bib
+ : 
+ : %    author = "Didier Contardo and Jeff Spalding",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "Reference7"
+Warning--I didn't find a database entry for "Reference8"
+Warning--I didn't find a database entry for "Reference9"
+Warning--I didn't find a database entry for "Reference10"
+Warning--I didn't find a database entry for "Reference11"
+Warning--I didn't find a database entry for "Reference12"
+Warning--I didn't find a database entry for "Reference20"
+Warning--I didn't find a database entry for "Reference21"
+Warning--I didn't find a database entry for "Reference22"
+Warning--I didn't find a database entry for "ATLAS:Hgg_8TeV"
+Warning--I didn't find a database entry for "ATLAS:Hgg_8TeV_13TeV"
+Warning--I didn't find a database entry for "ATLAS:H4l_8TeV"
+Warning--I didn't find a database entry for "ATLAS:H4l_8TeV_13TeV"
+Warning--I didn't find a database entry for "ATLAS:H4l_Hgg_8TeV"
+Warning--I didn't find a database entry for "ATLAS:H4l_Hgg_8TeV_13TeV"
+Warning--I didn't find a database entry for "CMS:Hgg_8TeV"
+Warning--I didn't find a database entry for "CMS:2019drq"
+Biblatex version: 3.8
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+You've used 8 entries,
+            6268 wiz_defined-function locations,
+            1233 strings with 9547 characters,
+and the built_in function-call counts, 11082 in all, are:
+= -- 338
+> -- 67
+< -- 75
++ -- 54
+- -- 24
+* -- 212
+:= -- 455
+add.period$ -- 0
+call.type$ -- 8
+change.case$ -- 15
+chr.to.int$ -- 31
+cite$ -- 14
+duplicate$ -- 1388
+empty$ -- 1754
+format.name$ -- 2
+if$ -- 2689
+int.to.chr$ -- 0
+int.to.str$ -- 9
+missing$ -- 0
+newline$ -- 57
+num.names$ -- 16
+pop$ -- 2365
+preamble$ -- 1
+purify$ -- 15
+quote$ -- 0
+skip$ -- 547
+stack$ -- 0
+substring$ -- 182
+swap$ -- 322
+text.length$ -- 77
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 258
+warning$ -- 0
+while$ -- 56
+width$ -- 0
+write$ -- 50
+(There were 14 error messages)

@@ -2,10 +2,10 @@ ATLAS and CMS are two important general purpose experiments of the LHC.
 They are built with same goals with slightly different technology to obtain physics results.
 One experiment validates the results of the other experiments; one example is the announcement of Higgs discovery by both of experiments in the year 2012.
 Later, the properties of Higgs have also been  studied using the data recorded with these individual experiments for run periods of LHC.
-There is a legacy of measurements from both of experiments as mentioned in Section \ref{Introduction}.\\
+There is a legacy of measurements from both of experiments as mentioned in Section \ref{sec:Introduction}.\\
 
 Regarding Higgs cross section measurement in $H \rightarrow 4\ell$ decay channel, both experiments have published their results with full Run 2 data.
-Hence, it is important to show comparison of two recent independent measurements on the same subject from two different experiments \cite{HIG-19-001,HIG-2018-29}. 
+Hence, it is important to show comparison of two recent independent measurements on the same subject from two different experiments \cite{CMS:2019chr, ATLAS:2020wny}. 
 %ATLAS Collaboration have also published fiducial and differential cross section measurements of Higgs boson production  in the four-lepton decay 
 %channel~\cite{ATLAS:H4l_8TeV}. These measurements are performed using collision data corresponding to integrated luminosity of 20.3~\ifb at $\sqrt{s} = 8$~TeV. 
 Comparison is shown as under %Both measurements, ATLAS and CMS, are similar except few smaller differences mentioned below 
@@ -110,7 +110,7 @@ $\pt$ of the leading lepton    & $\pt  > 20$~GeV  & $\pt  > 20$~GeV \\ \hline
 \includegraphics[width=0.43\textwidth]{Figures/ATLAS_rapidity4l.png}
 \includegraphics[width=0.47\textwidth]{Plots/rapidity4l_unfoldwith_SM_125.pdf}
         \caption{Left(Right): Higgs differential cross section as a function of rapidity of four lepton system  with ATLAS (CMS) using an integrated luminosity of 139 $\ifb$ (137.1 $\ifb$). Results are shown with theory prediction in each experiment as described in \ref{theory_pred}.
-\label{fig:comp_y4l}}
+\label{fig:comp_rapidity4l}}
 \end{center}
 \end{figure}
 

@@ -704,9 +704,9 @@ LHC is the largest colliding experiment of its kind ever built also motivated to
 More details on LHC experiment will be discussed in next chapter.
 
 In this section, however, some phenomenological part of proton-proton collision in high energy experiments, like LHC, are briefly discussed.
-Reuslts of scattering experiments e.g. production cross section or a certain process, are compared with prediion of perturbative QCD.
+Reuslts of scattering experiments e.g. production cross section of a certain process, are compared with prediction of perturbative QCD.
 %Experimental results on hard processes are typically compared to predictions of perturbative Quantum Chromodynamics (QCD).
-It is possible throug hard scattering experiments to probe at very small scale even shorter than a proton radius. Hence it helps to know the interactions of quarks and gluons (collectively called as partons) processes probe distance scale. A typical diagram of the hard scattering process in proton proton collisions is shown in the Figure. \ref{Fig:scattering} and also in Ref. \cite{scattering}.  %https://arxiv.org/pdf/1202.0583.pdf
+It is possible through hard scattering experiments to probe at very small scale even shorter than a proton radius. Hence it helps to know the interactions of quarks and gluons (collectively called as partons) processes probe distance scale. A typical diagram of the hard scattering process in proton proton collisions is shown in the Figure. \ref{Fig:scattering} and also in Ref. \cite{scattering}.  %https://arxiv.org/pdf/1202.0583.pdf
 \
 \begin{figure}
 \begin{center}
@@ -719,10 +719,10 @@ Protons are composite particles made up of three valence quarks (uud) which are 
 %When two protons (moving at very high momentum in opposite directions) collide, 
 There are several ways through which they can interact within a proton. Quarks can mutually iteract with other quarks or throught annihilation process they can produce gluons which can further go for pair-production of quark anti-quark pair. As a results, apart from the valence quarks, there is a sea of virtual quarks and gluons in side a proton (collectively called partons).
 In a collision experiment, it may happen that there is large momentum transfer from the colliding partons. This is called hard scattering and as a results many resonances can be produces e.g. Higgs. Probability of a certain process to occur is known as cross section of that process. 
-The production cross sections of different process at LHC in the proton-proton collsions are shown in the Figure. \ref{production} in next chapter.\\
+The production cross sections of different process at LHC in the proton-proton collsions are shown in the Figure. \ref{Fig:lhc_all} in next chapter.\\
 Partons which do not take part in hard interaction, usually go straight and may involve in certain low momentum transfer processes. These activities of low momentum transfer are call uncerlying events. In case if more than one interactions happen in a certain proton proton collision, it is referred as multi-parton interactions (MPI).\\
 In an accelerated environment, charged partons may radiate photons or gluons through a process known as ``Bremsstrahlung''. If this radiation is associate with the incoming partons, it is called initial state radion (ISR) and if is coming from outgoing parton from the interaction point, it is called final state radiation (FSR).
-The quarks and/or gluons when they go through the process of hadronization (bind together to form color siglet) make a bunch of hadrons usually in the form of a cone which are called ``jets'' and are described in Section. \ref{jets}. % provide the link\\
+The quarks and/or gluons when they go through the process of hadronization (bind together to form color siglet) make a bunch of hadrons usually in the form of a cone which are called ``jets'' and are described in Section. \ref{sec:jets}. % provide the link\\
 \par In hard scattering  experiments, probablity of a certain process to occur is know as cross section and can be calculated using the Factorization theorem.
 This theorem helps to disintegrate the cross section into hard and soft processes using the scale which is know as factorization scale ($\mu_{F}$).\\
 Suppose in collision of two protons, A and B, the partons $a$ and $b$ undergo hard scattering which produce a certain final state S. The total cross section can be given by the relation:
@@ -863,8 +863,7 @@ Higgs, being an electroweak particle, can decay in variety of channels depending
 %Higgs boson, interaction strength etc, most of these factors are controlled by SM except the Higgs boson mass itself. 
 %rephrase, night 19.06.2020
 The life time of SM 126 GeV Higgs is $1.6\times10^{-22}$~s and it can decay to all SM particles having masses (most probably to heaviest onshell particle). 
-Higgs boson decay branching ratio to a variety of particles are illustrated in Figure~\ref{Fig:Higgs_BR}~\cite{Referenceb}.
-\par $H\rightarrow b\bar{b}$ (at $m_H \approx 125$~GeV) is the most dominant decay mode of Higgs. But the QCD background in this channel is of
+Higgs boson decay branching ratio to a variety of particles are illustrated in Figure~\ref{Fig:Higgs_BR}~\cite{Referenceb}. $H\rightarrow b\bar{b}$ (at $m_H \approx 125$~GeV) is the most dominant decay mode of Higgs. But the QCD background in this channel is of
 many order higher than signal which makes it less sensitive channel. 
 However, CMS and ATLAS collaborations and other collaborations ~\cite{Reference13}, ~\cite{Reference14} and ~\cite{Reference15}(CDF and D0) have exploited this channel, in association with a vector boson which decays to leptons, in boosted regime. B quarks are also difficult to reconstruct in a detector. When they decay in the detector, they fragment into jets of many hadrons. These jets are difficult to  
 reconstruct perfectly. Because of this, it is necessary to exploit other channels in this region. $H \rightarrow \gamma\gamma$ is one most favorable decay channel due 

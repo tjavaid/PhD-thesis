@@ -1,6 +1,6 @@
 Background processes for this analysis can be divided into two parts:
 \begin{enumerate}
-	\item \textbf{Irreducible Background}: Mainly it is due to quark anti-quark (\qqbar) annihilation which produce a pair of Z bosons and each Z boson decays into a pair of leptons resulting four leptons in the final state. The second one is when quark anti-quark (\qqbar) annihilate to Z boson which further decays into a pair of leptons. One of the two leptons, then radiate a virtual Z boson which subsequently decays into a pair of leptons. This background has dominant contribution in the analysis. Additional source of the Irreducible background is from gluon gluon fusion process. However, in the analysis it has sub-dominant contribution. Feynman diagrams of the these background processes can be seen in the diagram \ref{Fig:}.
+	\item \textbf{Irreducible Background}: Mainly it is due to quark anti-quark (\qqbar) annihilation which produce a pair of Z bosons and each Z boson decays into a pair of leptons resulting four leptons in the final state. The second one is when quark anti-quark (\qqbar) annihilate to Z boson which further decays into a pair of leptons. One of the two leptons, then radiate a virtual Z boson which subsequently decays into a pair of leptons. This background has dominant contribution in the analysis. Additional source of the Irreducible background is from gluon gluon fusion process. However, in the analysis it has sub-dominant contribution. Feynman diagrams of the these background processes can be seen in the diagram \ref{fig:ZZ_feynman}.
 	\item \textbf{Reducible Background}: This background is instrumental nature and arises from the process where partial jets are misidentified as leptons. The main processes which contributes in this
 background are: production of jets in association with Z boson, production of the jets in association with WZ boson pair and the \TTbar pair production. This background is denoted as Z+X.
 \end{enumerate}
@@ -963,7 +963,7 @@ gg~$\to \Z\Z$ & $49.11^{+ 8.7}_{- 8.8}$ & $81.50^{+ 11.1}_{- 10.7}$ & $121.05^{+
 \hline
 Sum of backgrounds & $300^{+ 39}_{- 43}$ & $556^{+ 43}_{- 47}$ & $738^{+ 62}_{- 65}$ & $1594^{+ 125}_{- 134}$ \\
 \hline
-Signal ($\mH=125~\GeV$) & $13.85^{+ 1.9}_{- 2.1}$ & $28.64^{+ 2.5}_{- 2.4}$ & $35.55^{+ 3.3}_{- z.z}$ & $78.1^{+ 6.9}_{- 7.0}$ \\
+Signal ($\mH=125~\GeV$) & $13.85^{+ 1.9}_{- 2.1}$ & $28.64^{+ 2.5}_{- 2.4}$ & $35.55^{+ 3.3}_{- 3.3}$ & $78.1^{+ 6.9}_{- 7.0}$ \\
 \hline
 Total expected & $314^{+ 41}_{- 45}$ & $585^{+ 45}_{- 49}$ & $773^{+ 64}_{- 67}$ & $1672^{+ 130}_{-139}$ \\
 \hline

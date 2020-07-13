@@ -21,7 +21,7 @@ For the efficiency measurements a template fit is used. The $m_{ee}$ signal shap
 %\paragraph{Electron selection efficiency measurements}\mbox{}\\
 %\label{par:Efficiency_measurements}
 
-The measurement of electron selection efficiency is made as a function of the probe electron $p_{T}$ and its SC $\eta$. For electrons falling in the ECAL gaps, it is measured separately. Figure \ref{fig:ele_sel_pt_turn_on} and \ref{fig:ele_ele_eta_turn_on} shows the $p_{T}$ and $\eta$ turn-on curves measured in data.
+The measurement of electron selection efficiency is made as a function of the probe electron $p_{T}$ and its SC $\eta$. For electrons falling in the ECAL gaps, it is measured separately. Figure \ref{fig:ele_sel_pt_turn_on} and \ref{fig:ele_sel_eta_turn_on} shows the $p_{T}$ and $\eta$ turn-on curves measured in data.
 % and the final 2D scale factor is shown in Fig.~\ref{fig:ele_sel_scale_factors} together with the systematic uncertainties. %These scale factors are very similar to the ICHEP figures, but more homogenous across $\eta$ and $p_{T}$ because of the higher statistics and the usage of more stable fitting routines in the new T\&P tool.
 
 
@@ -73,9 +73,9 @@ Assessment of total uncertainty for measurement of the scale factors is taken as
 \begin{figure}[!htb]
 \vspace*{0.3cm}
 \begin{center}
-\includegraphics[width=.85\textwidth]{Figures/egama_SF.png}
+\includegraphics[width=1.0\textwidth]{Figures/egama_SF.png}
 \end{center}
-        \caption{Overall electron SFs (left) and associated uncertainties (right) in two dimensional display as function of $\pt$ and $\eta$ Tag and Probe workflow example using the central CMS framework.}
+        \caption{Overall electron SFs (left) and associated uncertainties (right) in two dimensional display as function of $\pt$ and supercluster $\eta$.}
 \label{fig:overall_elec_SF}
 \end{figure}
 

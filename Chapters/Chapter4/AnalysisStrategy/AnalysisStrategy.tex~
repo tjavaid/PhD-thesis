@@ -22,12 +22,14 @@ This makes it necessary to consider such ``wrong combination'' events as a backg
 \par
 %Further signal-induced background can be formed due to imperfect correspondence between quantities at particle level and corresponding quantities at the reconstruction level. 
 Also, signal events which pass the fiducial level selections but fail the reconstruction are accounted  in the fiducial efficiency
-($\epsilon$) and the events which pass the reconstruction but fail the fiducial selections are referred to as ``nonfiducial signal'' events ($f_{nonfid}$) and are treated as a background as illustrated in Figure \ref{fig:cartoon} \cite{fid_diagram}.
+($\epsilon$) and the events which pass the reconstruction but fail the fiducial selections are referred to as ``nonfiducial signal'' events ($f_{nonfid}$) and are treated as a background as illustrated in Figure \ref{fig:cartoon}. % \cite{fid_diagram}.
 
 %==================
 \begin{figure}[!h!tb]
  \begin{center}
-    \includegraphics[width=0.65\textwidth,angle=0]{Figures/cartoon.jpg}
+    %\includegraphics[width=0.65\textwidth,angle=0]{Figures/cartoon.jpg}
+    \includegraphics[width=0.65\textwidth,angle=0]{Figures/fiducial2.pdf}
+    \includegraphics[width=0.65\textwidth,angle=0]{Figures/fiducial2.png}
     \caption{Fiducial efficiency($\epsilon$) and nonfiducial($f_{nonfid}$) signal definition.}
  \label{fig:cartoon}
  \end{center}
@@ -38,7 +40,7 @@ Also, signal events which pass the fiducial level selections but fail the recons
 \par
 There is significant effect of imperfect resolution of the detector on the differential measurements particularly in case of jet related observables for which detector resolution is poor. A procedure, called unfolding, is applied for the correction of the reconstruction efficiencies and the effects are applied to the measurements. %This is known as unfolding. 
 
-The effects of imperfect detector resolution can in general have a non-negligible effect on shape of the distribution of measured observables. 
+The effects of imperfect detector resolution can in general have a non-negligible effect on shape of the distributions of measured observables. 
 For this reason, for differential cross section measurements of Higgs, a procedure to correct the detection efficiencies and resolution effects is 
 applied. \\
 The details of the procedure would be described in next Sections.
