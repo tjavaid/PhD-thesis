@@ -34,48 +34,6 @@
     \field{year}{1995}
   \endentry
 
-  \entry{Reference20}{article}{}
-    \name{author}{1}{}{%
-      {{hash=CA}{%
-         family={Collaboration},
-         familyi={C\bibinitperiod},
-         given={ATLAS},
-         giveni={A\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{CA1}
-    \strng{fullhash}{CA1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{pages}{1\bibrangedash 29}
-    \field{title}{Observation of a new particle in the search for the Standard
-  Model Higgs boson with the ATLAS detector at the LHC}
-    \field{volume}{716}
-    \field{journaltitle}{Physics Letters B}
-    \field{year}{2012}
-  \endentry
-
-  \entry{Reference21}{article}{}
-    \name{author}{1}{}{%
-      {{hash=CC}{%
-         family={Collaboration},
-         familyi={C\bibinitperiod},
-         given={CMS},
-         giveni={C\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{CC1}
-    \strng{fullhash}{CC1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{pages}{30\bibrangedash 61}
-    \field{title}{Observation of a new boson at a mass of 125 GeV with the CMS
-  experiment at the LHC}
-    \field{volume}{716}
-    \field{journaltitle}{Physics Letters B}
-    \field{year}{2012}
-  \endentry
-
   \entry{Referencea}{article}{}
     \name{author}{1}{}{%
       {{hash=FE}{%
@@ -190,24 +148,46 @@
     \field{year}{1983}
   \endentry
 
-  \entry{Reference6}{article}{}
+  \entry{Reference20}{article}{}
     \name{author}{1}{}{%
-      {{hash=GS}{%
-         family={Glashow},
-         familyi={G\bibinitperiod},
-         given={S.},
-         giveni={S\bibinitperiod},
+      {{hash=CA}{%
+         family={Collaboration},
+         familyi={C\bibinitperiod},
+         given={ATLAS},
+         giveni={A\bibinitperiod},
       }}%
     }
-    \strng{namehash}{GS1}
-    \strng{fullhash}{GS1}
+    \strng{namehash}{CA1}
+    \strng{fullhash}{CA1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{pages}{579\bibrangedash 588}
-    \field{title}{Partial Symmetries of Weak Interactions}
-    \field{volume}{22}
-    \field{journaltitle}{Nucl. Phys.}
-    \field{year}{1961}
+    \field{pages}{1\bibrangedash 29}
+    \field{title}{Observation of a new particle in the search for the Standard
+  Model Higgs boson with the ATLAS detector at the LHC}
+    \field{volume}{716}
+    \field{journaltitle}{Physics Letters B}
+    \field{year}{2012}
+  \endentry
+
+  \entry{Reference21}{article}{}
+    \name{author}{1}{}{%
+      {{hash=CC}{%
+         family={Collaboration},
+         familyi={C\bibinitperiod},
+         given={CMS},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CC1}
+    \strng{fullhash}{CC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{30\bibrangedash 61}
+    \field{title}{Observation of a new boson at a mass of 125 GeV with the CMS
+  experiment at the LHC}
+    \field{volume}{716}
+    \field{journaltitle}{Physics Letters B}
+    \field{year}{2012}
   \endentry
 
   \entry{Reference7}{article}{}
@@ -430,246 +410,6 @@
   Production with up to 10.0~{$fb^{-1}$}~of Data}
     \field{volume}{CMS-PAS-HIG-11-012}
     \field{journaltitle}{FERMILAB-CONF-12-065-E,}
-    \field{year}{2012}
-  \endentry
-
-  \entry{Reference16}{article}{}
-    \name{author}{1}{}{%
-      {{hash=CGN}{%
-         family={Collaboration},
-         familyi={C\bibinitperiod},
-         given={Gargamelle\bibnamedelima Neutrino},
-         giveni={G\bibinitperiod\bibinitdelim N\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{CGN1}
-    \strng{fullhash}{CGN1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{pages}{1\bibrangedash 22}
-    \field{title}{Observation of neutrino-like interactions without muon or
-  electron in the Gargamelle neutrino experiment}
-    \field{volume}{73}
-    \field{journaltitle}{Nuclear Physics B}
-    \field{year}{1974}
-  \endentry
-
-  \entry{Reference17}{article}{}
-    \name{author}{1}{}{%
-      {{hash=TLEWGDLOCA}{%
-         family={The LEP Electroweak Working\bibnamedelima Group},
-         familyi={T\bibinitperiod\bibinitdelim L\bibinitperiod E\bibinitperiod
-  W\bibinitperiod\bibinitdelim G\bibinitperiod},
-         suffix={ALEPH},
-         suffixi={A\bibinitperiod},
-         given={DELPHI L3 OPAL\bibnamedelima Collaboration},
-         giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod
-  O\bibinitperiod\bibinitdelim C\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{TLEWGADLOC1}
-    \strng{fullhash}{TLEWGADLOC1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{pages}{119\bibrangedash 244}
-    \field{title}{Electroweak Measurements in Electron-Positron Collisions at
-  W-Boson-Pair Energies at LEP}
-    \field{volume}{532}
-    \field{journaltitle}{Physics Reports}
-    \field{year}{2013}
-  \endentry
-
-  \entry{Reference18}{article}{}
-    \name{author}{2}{}{%
-      {{hash=TLSEW}{%
-         family={The\bibnamedelima LEP},
-         familyi={T\bibinitperiod\bibinitdelim L\bibinitperiod},
-         given={SLD Electroweak\bibnamedelima Working},
-         giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim
-  W\bibinitperiod},
-      }}%
-      {{hash=HFGDLOSCA}{%
-         family={Heavy Flavour\bibnamedelima Groups},
-         familyi={H\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim
-  G\bibinitperiod},
-         suffix={ALEPH},
-         suffixi={A\bibinitperiod},
-         given={DELPHI L3 OPAL SLD\bibnamedelima Collaboration},
-         giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod O\bibinitperiod
-  S\bibinitperiod\bibinitdelim C\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{TLSEWHFGADLOSC1}
-    \strng{fullhash}{TLSEWHFGADLOSC1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{pages}{257\bibrangedash 454}
-    \field{title}{Electroweak Measurements in Electron-Positron Collisions at
-  W-Boson-Pair Energies at LEP}
-    \field{volume}{427}
-    \field{journaltitle}{Physics Reports}
-    \field{year}{2006}
-  \endentry
-
-  \entry{Reference19}{article}{}
-    \name{author}{2}{}{%
-      {{hash=EL}{%
-         family={Evans},
-         familyi={E\bibinitperiod},
-         given={L.},
-         giveni={L\bibinitperiod},
-      }}%
-      {{hash=BP}{%
-         family={Bryant},
-         familyi={B\bibinitperiod},
-         given={P.},
-         giveni={P\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{ELBP1}
-    \strng{fullhash}{ELBP1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{pages}{S08001}
-    \field{title}{LHC Machine}
-    \field{volume}{3}
-    \field{journaltitle}{Journal of Instrumentation}
-    \field{year}{2008}
-  \endentry
-
-  \entry{Reference22}{article}{}
-    \name{author}{1}{}{%
-      {{hash=CA}{%
-         family={Collaboration},
-         familyi={C\bibinitperiod},
-         given={ATLAS},
-         giveni={A\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{CA1}
-    \strng{fullhash}{CA1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{pages}{120\bibrangedash 144}
-    \field{title}{Evidence for the spin-0 nature of the Higgs boson using ATLAS
-  data}
-    \field{volume}{726}
-    \field{journaltitle}{Phys. Lett. B}
-    \field{year}{2013}
-  \endentry
-
-  \entry{Reference23}{article}{}
-    \name{author}{1}{}{%
-      {{hash=CC}{%
-         family={Collaboration},
-         familyi={C\bibinitperiod},
-         given={CMS},
-         giveni={C\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{CC1}
-    \strng{fullhash}{CC1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{title}{Study of the Mass and Spin-Parity of the Higgs Boson
-  Candidate via Its Decays to Z Boson Pair}
-    \field{volume}{110(081803)}
-    \field{journaltitle}{Phys. Rev. Lett.}
-    \field{year}{2013}
-  \endentry
-
-  \entry{Reference24}{article}{}
-    \name{author}{1}{}{%
-      {{hash=CA}{%
-         family={Collaboration},
-         familyi={C\bibinitperiod},
-         given={ATLAS},
-         giveni={A\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{CA1}
-    \strng{fullhash}{CA1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{pages}{88\bibrangedash 119}
-    \field{title}{Measurements of Higgs boson production and couplings in
-  diboson final states with the ATLAS detector at the LHC}
-    \field{volume}{726}
-    \field{journaltitle}{Phys. Lett. B}
-    \field{year}{2013}
-  \endentry
-
-  \entry{Reference25}{article}{}
-    \name{author}{1}{}{%
-      {{hash=CC}{%
-         family={Collaboration},
-         familyi={C\bibinitperiod},
-         given={CMS},
-         giveni={C\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{CC1}
-    \strng{fullhash}{CC1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{pages}{092007}
-    \field{title}{Measurement of the properties of a Higgs boson in the
-  four-lepton final state}
-    \field{volume}{89}
-    \field{journaltitle}{Phys. Rev. D}
-    \field{year}{2014}
-  \endentry
-
-  \entry{Reference26}{article}{}
-    \name{author}{2}{}{%
-      {{hash=HA}{%
-         family={Hill},
-         familyi={H\bibinitperiod},
-         given={A.},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=vdBJ}{%
-         prefix={van\bibnamedelima der},
-         prefixi={v\bibinitperiod\bibinitdelim d\bibinitperiod},
-         family={Bi},
-         familyi={B\bibinitperiod},
-         given={J.},
-         giveni={J\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{HABJvd1}
-    \strng{fullhash}{HABJvd1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{pages}{3463\bibrangedash 3473}
-    \field{title}{Strongly interacting singlet-doublet Higgs model}
-    \field{volume}{36}
-    \field{journaltitle}{Phys. Rev. D}
-    \field{year}{1987}
-  \endentry
-
-  \entry{Reference27}{article}{}
-    \name{author}{1}{}{%
-      {{hash=GBLLMRMSeaPF}{%
-         family={G.\bibnamedelima Branco},
-         familyi={G\bibinitperiod\bibinitdelim B\bibinitperiod},
-         suffix={P.\bibnamedelima Ferreira},
-         suffixi={P\bibinitperiod\bibinitdelim F\bibinitperiod},
-         given={L.\bibnamedelima Lavoura M. Rebelo M. Sher et\bibnamedelima
-  al},
-         giveni={L\bibinitperiod\bibinitdelim L\bibinitperiod M\bibinitperiod
-  R\bibinitperiod M\bibinitperiod S\bibinitperiod e\bibinitperiod\bibinitdelim
-  a\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{GBPFLLMRMSea1}
-    \strng{fullhash}{GBPFLLMRMSea1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{pages}{1\bibrangedash 102}
-    \field{title}{Theory and phenomenology of two-Higgs-doublet models}
-    \field{volume}{516}
-    \field{journaltitle}{Phys. Rep.}
     \field{year}{2012}
   \endentry
 \enddatalist

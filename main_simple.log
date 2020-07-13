@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.28)  12 JUL 2020 11:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.28)  13 JUL 2020 05:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2275,7 +2275,7 @@ File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 242.
-<Figures/Logo.jpg, id=107, 226.8475pt x 223.83624pt>
+<Figures/Logo.jpg, id=59, 226.8475pt x 223.83624pt>
 File: Figures/Logo.jpg Graphic file (type jpg)
 <use Figures/Logo.jpg>
 Package pdftex.def Info: Figures/Logo.jpg  used on input line 265.
@@ -2305,19 +2305,7 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
 1: section
 [5] [6
 
-] (./main_simple.lot
-Overfull \hbox (11.63643pt too wide) in paragraph at lines 6--6
- [][] [][][]\T1/ppl/m/n/12 Higgs bo-son pro-duc-tion cross sec-tions in pb for 
-dif-fer-ent Higgs masses 
- []
-
-
-Overfull \hbox (6.54845pt too wide) in paragraph at lines 7--7
- [][] [][][]\T1/ppl/m/n/12 Higgs bo-son pro-duc-tion cross sec-tion in pb for d
-if-fer-ent Higgs masses 
- []
-
-)
+] (./main_simple.lot)
 \tf@lot=\write9
 \openout9 = `main_simple.lot'.
 
@@ -2356,125 +2344,143 @@ l.38 Later on, discoveries of $\tao
 
 ? 
 [2]
-Overfull \hbox (2.31712pt too wide) in paragraph at lines 70--70
+Overfull \hbox (2.31712pt too wide) in paragraph at lines 56--56
 []\T1/ppl/b/n/17.28 Fundamental Par-ti-cles and un-der-ly-ing In-ter-ac-tions 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--84
+Underfull \hbox (badness 10000) in paragraph at lines 64--70
 
  []
 
 [3]
 
-LaTeX Warning: Citation 'masses' on page 4 undefined on input line 99.
+LaTeX Warning: Citation 'masses' on page 4 undefined on input line 85.
 
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 99.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 85.
 
-LaTeX Warning: Citation 'masses' on page 4 undefined on input line 99.
+LaTeX Warning: Citation 'masses' on page 4 undefined on input line 85.
 
 
-Overfull \hbox (55.06999pt too wide) in paragraph at lines 101--124
+Overfull \hbox (55.06999pt too wide) in paragraph at lines 87--110
  [] 
  []
 
 [4]
-<SM.pdf, id=274, 257.8724pt x 218.54247pt>
+<SM.pdf, id=190, 257.8724pt x 218.54247pt>
 File: SM.pdf Graphic file (type pdf)
 <use SM.pdf>
-Package pdftex.def Info: SM.pdf  used on input line 187.
+Package pdftex.def Info: SM.pdf  used on input line 173.
 (pdftex.def)             Requested size: 433.62001pt x 367.52232pt.
- [5 <./SM.pdf>] [6] [7] [8]
-<Figures/chapter1_Figure/higgs_potential.png, id=423, 1054.94125pt x 681.54625p
+ [5 <./SM.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 233--234
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 243--244
+
+ []
+
+[6]
+
+! LaTeX Error: \mathbf allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.298 \mathbf
+             {T} being the generators of \sutwo which are related to the Pau...
+
+? 
+[7] [8]
+<Figures/chapter1_Figure/higgs_potential.png, id=350, 1054.94125pt x 681.54625p
 t>
 File: Figures/chapter1_Figure/higgs_potential.png Graphic file (type png)
 <use Figures/chapter1_Figure/higgs_potential.png>
 Package pdftex.def Info: Figures/chapter1_Figure/higgs_potential.png  used on i
-nput line 327.
+nput line 434.
 (pdftex.def)             Requested size: 260.17465pt x 168.07744pt.
- [9 <./Figures/chapter1_Figure/higgs_potential.png>] [10] [11] [12]
-<Figures/chapter1_Figure/HiggsProduction.jpg, id=482, 584.1825pt x 356.33125pt>
+ [9 <./Figures/chapter1_Figure/higgs_potential.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 487--489
 
-File: Figures/chapter1_Figure/HiggsProduction.jpg Graphic file (type jpg)
-<use Figures/chapter1_Figure/HiggsProduction.jpg>
-Package pdftex.def Info: Figures/chapter1_Figure/HiggsProduction.jpg  used on i
-nput line 496.
-(pdftex.def)             Requested size: 303.53267pt x 185.15195pt.
-<Figures/chapter1_Figure/Higgs_XS_7TeV.pdf, id=483, 569.12625pt x 408.52625pt>
-File: Figures/chapter1_Figure/Higgs_XS_7TeV.pdf Graphic file (type pdf)
-<use Figures/chapter1_Figure/Higgs_XS_7TeV.pdf>
-Package pdftex.def Info: Figures/chapter1_Figure/Higgs_XS_7TeV.pdf  used on inp
-ut line 504.
-(pdftex.def)             Requested size: 260.17465pt x 186.76491pt.
-<Figures/chapter1_Figure/Higgs_XS_8TeV.pdf, id=484, 569.12625pt x 408.52625pt>
-File: Figures/chapter1_Figure/Higgs_XS_8TeV.pdf Graphic file (type pdf)
-<use Figures/chapter1_Figure/Higgs_XS_8TeV.pdf>
-Package pdftex.def Info: Figures/chapter1_Figure/Higgs_XS_8TeV.pdf  used on inp
-ut line 505.
-(pdftex.def)             Requested size: 260.17465pt x 186.76491pt.
-<Figures/chapter1_Figure/plot_13tev_BSM_aa.pdf, id=485, 569.12625pt x 410.53375
+ []
+
+! Missing delimiter (. inserted).
+<to be read again> 
+                   {
+l.508 ...pm} =(\left\frac{W^{1}\mp~iW^2}{\sqrt{2}}
+                                                  )\right    %\mathscr{L}_{H...
+
+? 
+! Missing delimiter (. inserted).
+<to be read again> 
+                   \gdef 
+l.509 	\label
+             {w_terms}
+? 
+[10]
+Overfull \hbox (11.43182pt too wide) in paragraph at lines 564--566
+[]\T1/ppl/m/n/12 With spon-ta-neous sym-me-try break-ing (SSB), gauge bosons (W
+,Z) ac-quire masses
+ []
+
+[11]
+Overfull \hbox (5.66891pt too wide) in paragraph at lines 702--702
+[]\T1/ppl/b/n/17.28 Phenomenology of proton-proton col-li-sions at LHC 
+ []
+
+
+LaTeX Warning: Citation 'scattering' on page 12 undefined on input line 709.
+
+<Figures/chapter1_Figure/scattering.png, id=393, 1172.38pt x 838.13126pt>
+File: Figures/chapter1_Figure/scattering.png Graphic file (type png)
+<use Figures/chapter1_Figure/scattering.png>
+Package pdftex.def Info: Figures/chapter1_Figure/scattering.png  used on input 
+line 713.
+(pdftex.def)             Requested size: 303.53267pt x 216.98819pt.
+
+LaTeX Warning: Reference `production' on page 12 undefined on input line 722.
+
+
+LaTeX Warning: Reference `jets' on page 12 undefined on input line 725.
+
+[12] [13 <./Figures/chapter1_Figure/scattering.png>]
+<Figures/chapter1_Figure/higgs_production.png, id=409, 800.9925pt x 678.535pt>
+File: Figures/chapter1_Figure/higgs_production.png Graphic file (type png)
+<use Figures/chapter1_Figure/higgs_production.png>
+Package pdftex.def Info: Figures/chapter1_Figure/higgs_production.png  used on 
+input line 768.
+(pdftex.def)             Requested size: 281.85036pt x 238.7643pt.
+<Figures/chapter1_Figure/Escan_h125.pdf, id=410, 569.12625pt x 547.04375pt>
+File: Figures/chapter1_Figure/Escan_h125.pdf Graphic file (type pdf)
+<use Figures/chapter1_Figure/Escan_h125.pdf>
+Package pdftex.def Info: Figures/chapter1_Figure/Escan_h125.pdf  used on input 
+line 777.
+(pdftex.def)             Requested size: 190.79385pt x 183.38808pt.
+<Figures/chapter1_Figure/plot_13tev_BSM_aa.pdf, id=411, 569.12625pt x 410.53375
 pt>
 File: Figures/chapter1_Figure/plot_13tev_BSM_aa.pdf Graphic file (type pdf)
 <use Figures/chapter1_Figure/plot_13tev_BSM_aa.pdf>
 Package pdftex.def Info: Figures/chapter1_Figure/plot_13tev_BSM_aa.pdf  used on
- input line 506.
-(pdftex.def)             Requested size: 260.17465pt x 187.68266pt.
-<Figures/chapter1_Figure/Escan_h125.pdf, id=486, 569.12625pt x 547.04375pt>
-File: Figures/chapter1_Figure/Escan_h125.pdf Graphic file (type pdf)
-<use Figures/chapter1_Figure/Escan_h125.pdf>
-Package pdftex.def Info: Figures/chapter1_Figure/Escan_h125.pdf  used on input 
-line 513.
-(pdftex.def)             Requested size: 260.17465pt x 250.09059pt.
- [13] [14 <./Figures/chapter1_Figure/HiggsProduction.jpg>]
-[15 <./Figures/chapter1_Figure/Higgs_XS_7TeV.pdf> <./Figures/chapter1_Figure/Hi
-ggs_XS_8TeV.pdf, page is rotated 90 degrees> <./Figures/chapter1_Figure/plot_13
-tev_BSM_aa.pdf, page is rotated 90 degrees>] [16 <./Figures/chapter1_Figure/Esc
-an_h125.pdf, page is rotated 90 degrees>]
-Overfull \hbox (25.04439pt too wide) in paragraph at lines 565--574
-[][]
- []
-
-[17]
-<Figures/chapter1_Figure/Higgs_BR_LM.pdf, id=672, 569.12625pt x 546.04pt>
+ input line 778.
+(pdftex.def)             Requested size: 234.15189pt x 168.9025pt.
+ [14 <./Figures/chapter1_Figure/higgs_production.png>] [15 <./Figures/chapter1_
+Figure/Escan_h125.pdf, page is rotated 90 degrees> <./Figures/chapter1_Figure/p
+lot_13tev_BSM_aa.pdf, page is rotated 90 degrees>]
+<Figures/chapter1_Figure/Higgs_BR_LM.pdf, id=519, 569.12625pt x 546.04pt>
 File: Figures/chapter1_Figure/Higgs_BR_LM.pdf Graphic file (type pdf)
 <use Figures/chapter1_Figure/Higgs_BR_LM.pdf>
 Package pdftex.def Info: Figures/chapter1_Figure/Higgs_BR_LM.pdf  used on input
- line 602.
+ line 885.
 (pdftex.def)             Requested size: 260.17465pt x 249.63171pt.
-<Figures/chapter1_Figure/XSBR_7TeV_SM_LM.pdf, id=673, 569.12625pt x 548.0475pt>
+) [16] [17 <./Figures/chapter1_Figure/Higgs_BR_LM.pdf>]
+[18
 
-File: Figures/chapter1_Figure/XSBR_7TeV_SM_LM.pdf Graphic file (type pdf)
-<use Figures/chapter1_Figure/XSBR_7TeV_SM_LM.pdf>
-Package pdftex.def Info: Figures/chapter1_Figure/XSBR_7TeV_SM_LM.pdf  used on i
-nput line 610.
-(pdftex.def)             Requested size: 216.81pt x 208.77869pt.
-<Figures/chapter1_Figure/XSBR_8TeV_SM_LM.pdf, id=674, 569.12625pt x 549.05125pt
->
-File: Figures/chapter1_Figure/XSBR_8TeV_SM_LM.pdf Graphic file (type pdf)
-<use Figures/chapter1_Figure/XSBR_8TeV_SM_LM.pdf>
-Package pdftex.def Info: Figures/chapter1_Figure/XSBR_8TeV_SM_LM.pdf  used on i
-nput line 613.
-(pdftex.def)             Requested size: 216.81pt x 209.16107pt.
 
-Overfull \hbox (2.28001pt too wide) in paragraph at lines 609--615
-[]$[]$ $[]$ 
- []
-
-[18] [19 <./Figures/chapter1_Figure/Higgs_BR_LM.pdf> <./Figures/chapter1_Figure
-/XSBR_7TeV_SM_LM.pdf> <./Figures/chapter1_Figure/XSBR_8TeV_SM_LM.pdf>] [20]
-Overfull \hbox (1.03943pt too wide) in paragraph at lines 669--672
-[]\T1/ppl/m/n/12 Latest ob-ser-va-tion from cos-mo-log-i-cal ex-per-i-ments sho
-ws that uni-verse is com-
- []
-
-[21]
-Overfull \hbox (0.11536pt too wide) in paragraph at lines 681--683
-[]\T1/ppl/m/n/12 Couplings of Higgs bo-son with fermions are pre-dicted by SM t
-hrough Yukawa
- []
-
-) [22]
+]
 Overfull \hbox (0.3576pt too wide) in paragraph at lines 467--467
 \T1/ppl/m/n/12 around 95 GeV/$\OML/cmm/m/it/12 c[]$ \T1/ppl/m/n/12 at the CERN 
 SPS col-lider^^Q. In: \T1/ppl/m/it/12 Physics Let-ters B \T1/ppl/m/n/12 B126 (1
@@ -2482,10 +2488,7 @@ SPS col-lider^^Q. In: \T1/ppl/m/it/12 Physics Let-ters B \T1/ppl/m/n/12 B126 (1
  []
 
 1: section
-[23
-
-
-]
+[19]
 Overfull \hbox (0.46481pt too wide) in paragraph at lines 467--467
 []\T1/ppl/m/n/12 P. W. Higgs. ^^P  Spon-ta-neous Sym-me-try Break-down with-out
  Mass-less Bosons^^Q.
@@ -2497,33 +2500,14 @@ Overfull \hbox (0.13463pt too wide) in paragraph at lines 467--467
   Hand-book of LHC
  []
 
-
-Overfull \hbox (14.5904pt too wide) in paragraph at lines 467--467
-[]\T1/ppl/m/n/12 DELPHI L3 OPAL Col-lab-o-ra-tion The LEP Elec-troweak Work-ing
- Group ALEPH.
- []
-
-
-Overfull \hbox (5.64197pt too wide) in paragraph at lines 467--467
-\T1/ppl/m/n/12 tion Heavy Flavour Groups ALEPH. ^^P  Elec-troweak Mea-sure-ment
-s in Electron-
- []
-
-
-Overfull \hbox (2.06572pt too wide) in paragraph at lines 467--467
-[]\T1/ppl/m/n/12 L. Evans and P. Bryant. ^^P  LHC Ma-chine^^Q. In: \T1/ppl/m/it
-/12 Jour-nal of In-stru-men-ta-tion \T1/ppl/m/n/12 3 (2008),
- []
-
-[24]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 467.
- [25]
+[20]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 467.
  (./main_simple.aux (./Chapters/Chapter_1.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 467.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 467.
 Package rerunfilecheck Info: File `main_simple.out' has not changed.
-(rerunfilecheck)             Checksum: 9D6BE6843F4EDB24F36E77635A2DEEE7;4769.
+(rerunfilecheck)             Checksum: 42AA52B6E1A28AF72DE4D11E21820FF5;2413.
 
 
 LaTeX Warning: There were undefined references.
@@ -2538,36 +2522,39 @@ Package logreq Info: Writing requests to 'main_simple.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38605 strings out of 492982
- 768966 string characters out of 6134896
- 1150477 words of memory out of 5000000
- 41521 multiletter control sequences out of 15000+600000
+ 38545 strings out of 492982
+ 766738 string characters out of 6134896
+ 1148477 words of memory out of 5000000
+ 41489 multiletter control sequences out of 15000+600000
  578940 words of font info for 109 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 63i,20n,84p,10384b,3110s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,20n,79p,10384b,2839s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/rsfs/rsfs10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/
-helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/upl
-b8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main_simple.pdf (33 pages, 916023 bytes).
+f-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmbx6.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/rsfs
+/rsfs10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/urw/palatino/uplri8a.pfb>
+Output written on main_simple.pdf (28 pages, 1037733 bytes).
 PDF statistics:
- 862 PDF objects out of 1000 (max. 8388607)
- 666 compressed objects within 7 object streams
- 128 named destinations out of 1000 (max. 500000)
- 256 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 648 PDF objects out of 1000 (max. 8388607)
+ 492 compressed objects within 5 object streams
+ 103 named destinations out of 1000 (max. 500000)
+ 145 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -8,20 +8,8 @@
 \contentsline {section}{\numberline {1.2}Fundamental Particles and underlying Interactions}{3}{section.7}
 \contentsline {subsection}{\numberline {1.2.1}Fundamental Particles}{3}{subsection.8}
 \contentsline {subsection}{\numberline {1.2.2}Fundamental Interactions}{6}{subsection.13}
-\contentsline {section}{\numberline {1.3}The Brout-Englert-Higgs Mechanism (BEH)}{8}{section.17}
-\contentsline {subsection}{\numberline {1.3.1}Masses and Couplings of Vector Bosons}{11}{subsection.28}
-\contentsline {subsection}{\numberline {1.3.2}Fermions Masses and Couplings}{11}{subsection.34}
-\contentsline {section}{\numberline {1.4}Higgs boson Production and its Decay }{13}{section.42}
-\contentsline {subsection}{\numberline {1.4.1}Higgs boson Production}{13}{subsection.43}
-\contentsline {subsubsection}{Gluon-gluon Fusion }{13}{section*.47}
-\contentsline {subsubsection}{Vector Boson Fusion (VBF)}{14}{section*.48}
-\contentsline {subsubsection}{Production of Higgs in association with W and Z bosons}{14}{section*.50}
-\contentsline {subsubsection}{Top Fusion}{17}{section*.51}
-\contentsline {subsection}{\numberline {1.4.2}Higgs Decay}{17}{subsection.53}
-\contentsline {section}{\numberline {1.5}Experimental Observations}{18}{section.56}
-\contentsline {section}{\numberline {1.6}Beyond Standard Model}{20}{section.57}
-\contentsline {subsection}{\numberline {1.6.1}Hierarchy Problem}{21}{subsection.58}
-\contentsline {subsection}{\numberline {1.6.2}Dark Matter and Dark Energy}{21}{subsection.61}
-\contentsline {subsection}{\numberline {1.6.3}Matter Antimatter Asymmetry}{21}{subsection.62}
-\contentsline {subsection}{\numberline {1.6.4}Grand Unification and Beyond}{22}{subsection.63}
-\contentsline {section}{\numberline {1.7}Higgs Boson as a Probe to BSM}{22}{section.64}
+\contentsline {subsubsection}{Electroweak unification}{6}{section*.14}
+\contentsline {section}{\numberline {1.3}The Brout-Englert-Higgs Mechanism (BEH)}{8}{section.25}
+\contentsline {section}{\numberline {1.4}Phenomenology of proton-proton collisions at LHC}{12}{section.48}
+\contentsline {section}{\numberline {1.5}Higgs boson Production at LHC}{14}{section.51}
+\contentsline {section}{\numberline {1.6}Higgs Decay}{16}{section.54}
