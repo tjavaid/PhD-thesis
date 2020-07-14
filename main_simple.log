@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.28)  14 JUL 2020 17:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.28)  14 JUL 2020 20:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1284,7 +1284,7 @@ LaTeX Info: Redefining \pageref on input line 6443.
 )
 Package scrhack Info: hyperref hack deactivated because of
 (scrhack)             detection of hyperref version, that doesn't
-(scrhack)             need that hack, on input line 142.
+(scrhack)             need that hack, on input line 139.
 Package hyperref Info: Driver (autodetected): hpdftex.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
@@ -2017,11 +2017,11 @@ Package biblatex Info: ... file 'biblatex.cfg' found.
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.cfg
 File: biblatex.cfg 
 ))
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 217.
-Package hyperref Info: Option `hypertexnames' set `false' on input line 217.
-Package hyperref Info: Option `colorlinks' set `true' on input line 217.
-Package hyperref Info: Option `unicode' set `true' on input line 217.
-Package hyperref Info: Option `breaklinks' set `true' on input line 217.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 214.
+Package hyperref Info: Option `hypertexnames' set `false' on input line 214.
+Package hyperref Info: Option `colorlinks' set `true' on input line 214.
+Package hyperref Info: Option `unicode' set `true' on input line 214.
+Package hyperref Info: Option `breaklinks' set `true' on input line 214.
 
 (/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.bdg
 File: UTF8.bdg 2015/04/18 4.8.4
@@ -2068,92 +2068,93 @@ LaTeX Warning: Label `fig:sigfits-asimov-SM-pT4l-4l:d' multiply defined.
 
 LaTeX Warning: Label `sub@fig:sigfits-asimov-SM-pT4l-4l:d' multiply defined.
 
-(./Chapters/Chapter_7.aux))
+(./Chapters/Chapter_7.aux) (./publication_list_tahir_javaid_test.aux)
+(./conferences_tahir_javaid.aux))
 \openout1 = `main_simple.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 220.
-LaTeX Font Info:    ... okay on input line 220.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 220.
-LaTeX Font Info:    ... okay on input line 220.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 220.
-LaTeX Font Info:    ... okay on input line 220.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 220.
-LaTeX Font Info:    ... okay on input line 220.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 220.
-LaTeX Font Info:    ... okay on input line 220.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 220.
-LaTeX Font Info:    ... okay on input line 220.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 220.
-LaTeX Font Info:    ... okay on input line 220.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 220.
-LaTeX Font Info:    ... okay on input line 220.
-LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 220.
-LaTeX Font Info:    ... okay on input line 220.
-LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 220.
-LaTeX Font Info:    ... okay on input line 220.
-LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 220.
-LaTeX Font Info:    ... okay on input line 220.
-LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 220.
-LaTeX Font Info:    ... okay on input line 220.
-LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 220.
-LaTeX Font Info:    ... okay on input line 220.
-LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 220.
-LaTeX Font Info:    ... okay on input line 220.
-LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 220.
-LaTeX Font Info:    ... okay on input line 220.
-LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 220.
-LaTeX Font Info:    ... okay on input line 220.
-LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 220.
-LaTeX Font Info:    ... okay on input line 220.
-LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 220.
-LaTeX Font Info:    ... okay on input line 220.
-LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 220.
-LaTeX Font Info:    ... okay on input line 220.
-LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 220.
-LaTeX Font Info:    ... okay on input line 220.
-LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 220.
-LaTeX Font Info:    ... okay on input line 220.
-LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 220.
-LaTeX Font Info:    ... okay on input line 220.
-LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 220.
-LaTeX Font Info:    ... okay on input line 220.
-LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 220.
-LaTeX Font Info:    ... okay on input line 220.
-LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 220.
-LaTeX Font Info:    ... okay on input line 220.
-LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 220.
-LaTeX Font Info:    ... okay on input line 220.
-LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 220.
-LaTeX Font Info:    ... okay on input line 220.
-LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 220.
-LaTeX Font Info:    ... okay on input line 220.
-LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 220.
-LaTeX Font Info:    ... okay on input line 220.
-LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 220.
-LaTeX Font Info:    ... okay on input line 220.
-LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 220.
-LaTeX Font Info:    ... okay on input line 220.
-LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 220.
-LaTeX Font Info:    ... okay on input line 220.
-LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 220.
-LaTeX Font Info:    ... okay on input line 220.
-LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 220.
-LaTeX Font Info:    ... okay on input line 220.
-LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 220.
-LaTeX Font Info:    ... okay on input line 220.
-LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 220.
-LaTeX Font Info:    ... okay on input line 220.
-LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 220.
-LaTeX Font Info:    ... okay on input line 220.
-LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 220.
-LaTeX Font Info:    ... okay on input line 220.
-LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 220.
-LaTeX Font Info:    ... okay on input line 220.
-LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 220.
-LaTeX Font Info:    ... okay on input line 220.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 220.
-LaTeX Font Info:    ... okay on input line 220.
-LaTeX Font Info:    Try loading font information for T1+ppl on input line 220.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 217.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
@@ -2236,13 +2237,13 @@ Package caption Info: End \AtBeginDocument code.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package scrlayer Info: Setting magic \footheight to \baselineskip while
-(scrlayer)             \begin{document} on input line 220.
-Package scrbase Info: activating english \authorshipname on input line 220.
-Package scrbase Info: activating english \byname on input line 220.
-Package scrbase Info: activating english \abbrevname on input line 220.
-Package scrbase Info: activating english \constantsname on input line 220.
-Package scrbase Info: activating english \symbolsname on input line 220.
-Package scrbase Info: activating english \acknowledgementname on input line 220
+(scrlayer)             \begin{document} on input line 217.
+Package scrbase Info: activating english \authorshipname on input line 217.
+Package scrbase Info: activating english \byname on input line 217.
+Package scrbase Info: activating english \abbrevname on input line 217.
+Package scrbase Info: activating english \constantsname on input line 217.
+Package scrbase Info: activating english \symbolsname on input line 217.
+Package scrbase Info: activating english \acknowledgementname on input line 217
 .
 \AtBeginShipoutBox=\box67
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
@@ -2254,7 +2255,7 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 )
-Package hyperref Info: Link coloring ON on input line 220.
+Package hyperref Info: Link coloring ON on input line 217.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -2264,9 +2265,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count458
 )
-LaTeX Info: Redefining \ref on input line 220.
-LaTeX Info: Redefining \pageref on input line 220.
-LaTeX Info: Redefining \nameref on input line 220.
+LaTeX Info: Redefining \ref on input line 217.
+LaTeX Info: Redefining \pageref on input line 217.
+LaTeX Info: Redefining \nameref on input line 217.
 
 (./main_simple.out) (./main_simple.out)
 \@outlinefile=\write6
@@ -2274,7 +2275,7 @@ LaTeX Info: Redefining \nameref on input line 220.
 
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 220.
+LaTeX Info: Redefining \selectfont on input line 217.
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
@@ -2286,10 +2287,10 @@ Package biblatex Info: Data encoding 'utf8' specified.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main_simple.bbl' found.
  (./main_simple.bbl)
-Package biblatex Info: Reference section=0 on input line 220.
-Package biblatex Info: Reference segment=0 on input line 220.
+Package biblatex Info: Reference section=0 on input line 217.
+Package biblatex Info: Reference segment=0 on input line 217.
 \c__siunitx_mathsf_int=\count459
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 220.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 217.
 
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
@@ -2297,16 +2298,16 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 \c__siunitx_mathtt_int=\count460
 
 1: section
-LaTeX Font Info:    Try loading font information for T1+phv on input line 239.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 236.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 242.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 239.
 <Figures/Logo.jpg, id=409, 226.8475pt x 223.83624pt>
 File: Figures/Logo.jpg Graphic file (type jpg)
 <use Figures/Logo.jpg>
-Package pdftex.def Info: Figures/Logo.jpg  used on input line 265.
+Package pdftex.def Info: Figures/Logo.jpg  used on input line 262.
 (pdftex.def)             Requested size: 71.13188pt x 70.18773pt.
  [1
 
@@ -4055,7 +4056,7 @@ File: Figures/fiducial2.pdf Graphic file (type pdf)
 Package pdftex.def Info: Figures/fiducial2.pdf  used on input line 31.
 (pdftex.def)             Requested size: 368.57965pt x 276.43112pt.
 )
-Overfull \hbox (9.31754pt too wide) in paragraph at lines 43--380
+Overfull \hbox (9.31754pt too wide) in paragraph at lines 43--379
 []\T1/ppl/m/n/12 The ef-fects of im-per-fect de-tec-tor res-o-lu-tion can in ge
 n-eral have a non-negligible
  []
@@ -4617,19 +4618,19 @@ in the parametriza-
 )
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 394.
+(hyperref)                removing `math shift' on input line 393.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\to' on input line 394.
+(hyperref)                removing `\to' on input line 393.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\ell' on input line 394.
+(hyperref)                removing `\ell' on input line 393.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 394.
+(hyperref)                removing `math shift' on input line 393.
 
 (./Chapters/Chapter4/AnalysisStrategy/Extraction.tex [117]
 <Plots/asimovdata_SM_125_v2_unfoldwith_SM_125_v2_mass4l_4e_recobin0.pdf, id=487
@@ -5316,112 +5317,180 @@ Overfull \hbox (3.65448pt too wide) in paragraph at lines 51--73
 s, cur-rent data would
  []
 
-) [145] [146
+) [145]
+\openout2 = `publication_list_tahir_javaid_test.aux'.
+
+ (./publication_list_tahir_javaid_test.tex
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
+
+ []
+
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 22.
+) [146
 
 
 ]
+\openout2 = `conferences_tahir_javaid.aux'.
+
+ (./conferences_tahir_javaid.tex
+Package color Info: Redefining color electricultramarine on input line 1.
+Package color Info: Redefining color ballblue on input line 2.
+
+
+! LaTeX Error: Command \MarginText already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...1]{\marginpar{\raggedleft\itshape\small#1}}
+                                                  
+? 
+
+! LaTeX Error: Command \NewPublication already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...tnotesize\color{ballblue}#4}\vspace{0.5em}}
+                                                  
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
+
+ []
+
+[147
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
+
+ []
+
+
+Overfull \hbox (4.64311pt too wide) in paragraph at lines 58--59
+\T1/ppl/m/n/10 [[]2[]] \T1/ppl/m/n/14.4 2019 CERN-Fermilab HCP Sum-mer School [
+]\T1/ppl/m/n/10 28 Au-gust 2019 to 6 Septem-
+ []
+
+) [148
+
+]
 1: section
-[147]
-Overfull \hbox (11.72124pt too wide) in paragraph at lines 467--467
+[149
+
+
+]
+Overfull \hbox (11.72124pt too wide) in paragraph at lines 469--469
 []\T1/ppl/m/n/12 TEVNPH (Teva-tron New Phe-nom-ina and D0 Col-lab-o-ra-tions Hi
 ggs Work-
  []
 
-[148]
-Overfull \hbox (1.0449pt too wide) in paragraph at lines 467--467
+[150]
+Overfull \hbox (1.0449pt too wide) in paragraph at lines 469--469
 []\T1/ppl/m/n/12 CMS Col-lab-o-ra-tion. ^^P  The CMS mag-net project:techincal 
 de-sign re-port^^Q.
  []
 
 
-Overfull \hbox (4.39198pt too wide) in paragraph at lines 467--467
+Overfull \hbox (4.39198pt too wide) in paragraph at lines 469--469
 \T1/ppl/m/n/12 bo-son in the four-lepton fi-nal state at $[]$=13 TeV^^Q. In: \T
 1/ppl/m/it/12 CMS AN \T1/ppl/m/n/12 2016/442
  []
 
-[149]
-Overfull \hbox (55.2963pt too wide) in paragraph at lines 467--467
+[151]
+Overfull \hbox (55.2963pt too wide) in paragraph at lines 469--469
 \T1/pcr/m/n/12 twiki . cern . ch / twiki / bin / viewauth / CMS / BtagRecommend
 ation102X$[][]\T1/ppl/m/n/12 . 
  []
 
-[150]
-Overfull \hbox (3.33627pt too wide) in paragraph at lines 467--467
+[152]
+Overfull \hbox (3.33627pt too wide) in paragraph at lines 469--469
 \T1/ppl/m/n/12 com-pu-ta-tions with Par-ton Shower sim-u-la-tions: the POWHEG m
 ethod^^Q.
  []
 
-[151]
-Overfull \hbox (8.9414pt too wide) in paragraph at lines 467--467
+[153]
+Overfull \hbox (8.9414pt too wide) in paragraph at lines 469--469
 []\T1/ppl/m/n/12 Paolo Na-son and Carlo Oleari. ^^P  NLO Higgs bo-son pro-duc-t
 ion via vector-
  []
 
 
-Overfull \hbox (19.25444pt too wide) in paragraph at lines 467--467
+Overfull \hbox (19.25444pt too wide) in paragraph at lines 469--469
 \T1/ppl/m/n/12 with top quarks in the POWHEG BOX^^Q. In: \T1/ppl/m/it/12 Phys. 
 Rev. \T1/ppl/m/n/12 D91 (2015), p. 094003. 
  []
 
 
-Overfull \hbox (10.49644pt too wide) in paragraph at lines 467--467
+Overfull \hbox (10.49644pt too wide) in paragraph at lines 469--469
 []\T1/ppl/m/n/12 Gionata Luisoni et al. ^^P  $\OML/cmm/m/it/12 HW[]$\T1/ppl/m/n
 /12 /HZ + 0 and 1 jet at NLO with the POWHEG
  []
 
 
-Overfull \hbox (1.31834pt too wide) in paragraph at lines 467--467
+Overfull \hbox (1.31834pt too wide) in paragraph at lines 469--469
 []\T1/ppl/m/n/12 J. Al-li-son et al. ^^P  Geant4 de-vel-op-ments and ap-pli-ca-
 tions^^Q. In: \T1/ppl/m/it/12 IEEE Trans.
  []
 
-[152]
-Overfull \hbox (5.77129pt too wide) in paragraph at lines 467--467
+[154]
+Overfull \hbox (5.77129pt too wide) in paragraph at lines 469--469
 \T1/ppl/m/n/12 arXiv: [][]$\T1/pcr/m/n/12 1507 . 06257$ [hep-ph][][]\T1/ppl/m/n
 /12 . \T1/ppl/m/sc/12 url\T1/ppl/m/n/12 : [][]$\T1/pcr/m/n/12 http : / / www . 
 sciencedirect .
  []
 
 
-Overfull \hbox (7.23526pt too wide) in paragraph at lines 467--467
+Overfull \hbox (7.23526pt too wide) in paragraph at lines 469--469
 \T1/ppl/m/sc/12 doi\T1/ppl/m/n/12 : [][]$\T1/pcr/m/n/12 10 . 1103 / PhysRevD . 
 88 . 034032$[][]\T1/ppl/m/n/12 . arXiv: [][]$\T1/pcr/m/n/12 1304 . 3053$ [hep-p
 h][][]\T1/ppl/m/n/12 . 
  []
 
 
-Overfull \hbox (6.86499pt too wide) in paragraph at lines 467--467
+Overfull \hbox (6.86499pt too wide) in paragraph at lines 469--469
 []\T1/ppl/m/n/12 Chong Sheng Li et al. ^^P  Soft gluon re-sum-ma-tion in the si
 gnal-background
  []
 
 
-Overfull \hbox (18.4599pt too wide) in paragraph at lines 467--467
+Overfull \hbox (18.4599pt too wide) in paragraph at lines 469--469
 \T1/pcr/m/n/12 1103 / PhysRevLett . 98 . 222002$[][]\T1/ppl/m/n/12 . arXiv: [][
 ]$\T1/pcr/m/n/12 hep -[] ph / 0703012$ [hep-ph][][]\T1/ppl/m/n/12 . 
  []
 
-[153]
-Overfull \hbox (43.90912pt too wide) in paragraph at lines 467--467
+[155]
+Overfull \hbox (43.90912pt too wide) in paragraph at lines 469--469
 []\T1/ppl/m/n/12 Marco Bon-vini et al. ^^P  Signal-background in-ter-fer-ence e
 f-fects for gg$\OMS/cmsy/m/n/12 !$\T1/ppl/m/n/12 H$\OMS/cmsy/m/n/12 !$\T1/ppl/m
 /n/12 W+W-
  []
 
 
-Overfull \hbox (2.4254pt too wide) in paragraph at lines 467--467
+Overfull \hbox (2.4254pt too wide) in paragraph at lines 469--469
 []\T1/ppl/m/n/12 ATLAS and LHC Higgs Com-bi-na-tion Group CMS Col-lab-o-ra-tion
 s. ^^P  Pro-
  []
 
 
-Overfull \hbox (0.25345pt too wide) in paragraph at lines 467--467
+Overfull \hbox (0.25345pt too wide) in paragraph at lines 469--469
 \T1/ppl/m/n/12 Ex-per-i-ments and Un-fold-ing, CERN,Geneva, Switzer-land 17-20 
 Jan-uary
  []
 
-[154]
-Overfull \hbox (8.41486pt too wide) in paragraph at lines 467--467
+[156]
+Overfull \hbox (8.41486pt too wide) in paragraph at lines 469--469
 \T1/ppl/m/n/12 sions at sqrt(s) = 7 and 8 TeV^^Q. In: (2015). arXiv: [][]$\T1/p
 cr/m/n/12 1512 . 08377$ [hep-ex][][]\T1/ppl/m/n/12 . 
  []
@@ -5433,18 +5502,19 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.467 \end{document}
+l.469 \end{document}
                     
 ? 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 467.
-[155]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 467.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 469.
+[157]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 469.
  (./main_simple.aux (./Chapters/abstract.aux) (./Chapters/introduction.aux) (./
 Chapters/Chapter_1.aux) (./Chapters/Chapter_2.aux)
 (./Chapters/Chapter_2_CMS.aux) (./Chapters/Chapter_3.aux)
-(./Chapters/Chapter_7.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 467.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 467.
+(./Chapters/Chapter_7.aux) (./publication_list_tahir_javaid_test.aux)
+(./conferences_tahir_javaid.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 469.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 469.
 Package rerunfilecheck Info: File `main_simple.out' has not changed.
 (rerunfilecheck)             Checksum: 0DD8A3438C8AC5CC1F453D20C76BA825;19685.
 
@@ -5468,13 +5538,13 @@ Package logreq Info: Writing requests to 'main_simple.run.xml'.
 ### semi simple group (level 1) entered at line 7 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 40708 strings out of 492982
- 836569 string characters out of 6134896
- 1209477 words of memory out of 5000000
- 42806 multiletter control sequences out of 15000+600000
- 589431 words of font info for 130 fonts, out of 8000000 for 9000
+ 40742 strings out of 492982
+ 837493 string characters out of 6134896
+ 1210477 words of memory out of 5000000
+ 42822 multiletter control sequences out of 15000+600000
+ 593330 words of font info for 135 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 63i,21n,83p,10384b,3264s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,21n,83p,10384b,3321s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texl
@@ -5505,10 +5575,10 @@ share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times
 /utmri8a.pfb>
-Output written on main_simple.pdf (177 pages, 15778469 bytes).
+Output written on main_simple.pdf (179 pages, 15785371 bytes).
 PDF statistics:
- 7101 PDF objects out of 7423 (max. 8388607)
- 4404 compressed objects within 45 object streams
- 633 named destinations out of 1000 (max. 500000)
+ 7125 PDF objects out of 7423 (max. 8388607)
+ 4426 compressed objects within 45 object streams
+ 635 named destinations out of 1000 (max. 500000)
  1631 words of extra memory for PDF output out of 10000 (max. 10000000)
 

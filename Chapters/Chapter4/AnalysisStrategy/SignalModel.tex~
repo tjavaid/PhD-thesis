@@ -58,7 +58,7 @@ The fitting strategy used to deal with this situation is to use the linear appro
 \label{eq:linear}
 \end{equation}
 %
-Simultaneous fits are performed using 5 mass samples to extract the $parms_{CB0}$, $params_{CB1}$ and $params_{CB2}$. The initial value for the $parms_{CB0}$ is obtained by fitting 125 GeV mass sample alone, and refitted in the simultaneous fits. Uncertainties on these parameters are included as systematic uncertainties on the measurements as described in the Section \ref{Systematics}.\\
+Simultaneous fits are performed using 5 mass samples to extract the $parms_{CB0}$, $params_{CB1}$ and $params_{CB2}$. The initial value for the $parms_{CB0}$ is obtained by fitting 125 GeV mass sample alone, and refitted in the simultaneous fits. Uncertainties on these parameters are included as systematic uncertainties on the measurements as described in the Section \ref{sec:Systematics}.\\
 Some examples of the fits are shown in Fig.~\ref{fig:sigShapeFits13TeV125} for the ggH production mode. The simultaneous fit at different mass points are shown in Fig.~\ref{fig:simFitggH}.
 \begin{figure}[!h]
 \centering
