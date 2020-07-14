@@ -15,7 +15,7 @@ The parameter of interest ($\sigma{}_{fid}$) is directly extracted from the fit.
 
 %The procedure applied for $\Hllll$ fiducial (integrated and differential) cross section measurements will be given in  Sections \ref{sec:SignalInclusive} and \ref{sec:SignalDifferential}. 
 
-\par The estimated number events for a studied differential observable in a final state $f$ and in the defined bin $i$ are described in terms of $m_{4\ell}$ given by:
+\par The estimated number of events for a studied differential observable in a final state $f$ and in the defined bin $i$ are described in terms of $m_{4\ell}$ given by:
 \begin{eqnarray}
 \label{eqn:m4l}
 \begin{aligned}
@@ -56,7 +56,7 @@ Fraction of these events are also treated as background and will be referred
 It has been demonstrated with MC samples that these events can be described using same shape as resonant
 component. 
 %The values of such fraction are extracted from simulation repeatedly for SM. This fraction varies among different production modes of Higgs e.g. it is  4\%  for the $\ggH$ and 3\% for $ttH$ production mode. The values for each model are listed in the Tables \ref{tab:summarySM2016},  \ref{tab:summarySM2017} and  \ref{tab:summarySM2018} for 2016, 2017 and 2018 respectively. 
-The values of such fraction are extracted from simulation repeatedly for SM. This fraction varies among different production modes of Higgs e.g. it is  4\%  for the $\ggH$ and 3\% for $ttH$ production mode. The values for each model are listed in the Tables \ref{tab:foutSM} 2018. 
+The values of such fraction are extracted from simulation repeatedly for SM. This fraction varies among different production modes of Higgs e.g. it is  4\%  for the $\ggH$ and 3\% for $ttH$ production mode. The values for each model are listed in the Tables \ref{tab:foutSM} for 2018 samples. 
 
 %\begin{eqnarray}
 %%f^{i}_{\mathrm{nonfid}} = \frac{N(\mathrm{i_{reco}} ~\&\&~ \mathrm{not~fid.})}{N(\mathrm{i_{reco}} ~\&\&~ \mathrm{fid.})}.

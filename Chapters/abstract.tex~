@@ -1,6 +1,6 @@
 \begin{abstract}
 \addchaptertocentry{\abstractname} % Add the abstract to the table of contents
-	The measurement of properties of Higgs boson is presented in its four-lepton decay channel. The fiducial cross sections (integrated and differential) of the Higgs boson production  via $ H \to 4\ell$ decays ($\ell = \Pe$, $\mu$) are measured using the data collected with CMS detector in pp collisions at $\sqrt{s} = 13\TeV$ . The measurements use Higgs mass $m_H = 125.09\GeV$ and correspond to integrated luminosity of 137.1~\ifb at 13\TeV (Full Run 2 data). 
+	The measurement of properties of Higgs boson is presented in its four-lepton decay channel. The fiducial cross sections (integrated and differential) of the Higgs boson production  via $ H \to 4\ell$ decays ($\ell = \Pe$, $\mu$) are measured using the data collected with CMS detector in pp collisions at $\sqrt{s} = 13\TeV$ . The measurements use Higgs mass $m_H = 125.09\GeV$ and correspond to an integrated luminosity of 137.1~\ifb at 13\TeV (Full Run 2 data). 
 	These measurements provide a direct test of perturbative QCD  calculations in the Higgs sector of Standard Model at the TeV energy scale. 
 %	These measurements provide a direct test of perturbative QCD  calculations in the Higgs sector of Standard Model at the TeV energy scale. Any deviation of these measurements from Standard Model expectations would  provide a direct hint to Beyond Standard Model contributions.
 %\par

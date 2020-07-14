@@ -1,6 +1,6 @@
 %\section{Systematic uncertainties}
 %\textbf{FIX ME: TO BE UPDATED when the new number will be there}
-\subsection{Experimental uncertainties souces}
+\subsection{Experimental uncertainties sources}
 Main experimental uncertainties affecting signal and background are uncertainty on integrated luminosity
 (from 2.3\% to 2.6\%, depending on the year of data taking) and the uncertainty on efficiencies of lepton reconstruction and identification (ranging from 2.5\% ($4\mu$)--16.1\% ($4e$)). 
 Uncertainties on estimation of reducible backround, %as discussed in %described in Section~\ref{sec:redbkgd},
@@ -9,7 +9,7 @@ described in Section \ref{syst_reducible_bkg},
 originating from the background composition and misidentification rate uncertainty vary for different final states.
 %and category. 
 %vary between 6\% to 32\% from the variation of the fake rates. 
-Mismatch in composition of backgrounds between different samples where the fake rate is derived and where it is applied accounts between 24\%($4\mu$) and 43\%(($4e$)).
+Mismatch in composition of backgrounds between different samples where the fake rate is derived and where it is applied accounts between 24\%($4\mu$) and 43\%($4e$).
 %($4\mu$)  to 32\% ($4e$).  
 
 Lepton energy scale uncertainty is assessed by propagating down to the four-leptons invariant mass the uncertainty associated the lepton momentum corrections on each indiviudal lepton. 
@@ -100,7 +100,7 @@ Estimation of the theoretical uncertainties affecting signal and the background 
 %The uncertainty from the renormalization and factorization scale is determined by varying these scales between 
 %0.5 and 2 times their nominal value while keeping their ratio between 0.5 and 2. 
 In the case of ggF production mode, the QCD scale uncertainty is broke down to 9 different sources. %The renormalization and factorization scale affect the overal cross section, the migration of the stage1.1 bins in differnt Higgs pT and number of jets, top loop effects are treated as indepandant uncertainties, and correclated among different stage 1.1 bins. The numbers are shown in Fig~\ref{fig:ggH_sys}. 
-Other theoretical uncertainty source is PDF set choice which is determined RMS of the variation when different replias of default NNPDF set is used.
+Other theoretical uncertainty source is PDF set choice which is determined RMS of the variation when different replicas of default NNPDF set is used.
 %by taking the root mean square of the variation when using different replicas of the default NNPDF set. 
 %PDF uncertainty arises from $\alphaS$ uncertainty is also taken into account 
 %On the background, an additional uncertainty of 10\% on the K factor used for the $\ggZZ$ prediction is applied as described in Section~\ref{sec:irrbkgd}.

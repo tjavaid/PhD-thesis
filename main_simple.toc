@@ -46,64 +46,64 @@
 \contentsline {subsection}{\numberline {5.1.1}Tag and Probe Analysis}{56}{subsection.133}
 \contentsline {section}{\numberline {5.2}Electrons and Photons}{57}{section.136}
 \contentsline {subsection}{\numberline {5.2.1}Electron and Photon Reconstruction}{57}{subsection.137}
-\contentsline {subsection}{\numberline {5.2.2}Electron Identification and Isolation}{59}{subsection.140}
-\contentsline {subsection}{\numberline {5.2.3}Electron Impact Parameter Selection}{63}{subsection.145}
-\contentsline {subsection}{\numberline {5.2.4}Electron Energy Calibrations}{63}{subsection.146}
-\contentsline {subsection}{\numberline {5.2.5}Electron Efficiency Measurements}{64}{subsection.152}
-\contentsline {section}{\numberline {5.3}Muons}{68}{section.160}
-\contentsline {subsection}{\numberline {5.3.1}Muon Reconstruction and Identification}{68}{subsection.161}
-\contentsline {subsection}{\numberline {5.3.2}Muon Isolation Requirement}{68}{subsection.163}
-\contentsline {subsection}{\numberline {5.3.3}Muon Impact Parameter Selection}{69}{subsection.165}
-\contentsline {subsection}{\numberline {5.3.4}Muon Energy Calibrations}{69}{subsection.166}
-\contentsline {subsection}{\numberline {5.3.5}Efficiency Measurements of muons}{70}{subsection.172}
-\contentsline {section}{\numberline {5.4}Photons for FSR recovery}{76}{section.190}
-\contentsline {section}{\numberline {5.5}Jets}{76}{section.198}
-\contentsline {subsection}{\numberline {5.5.1}Jet Identification}{77}{subsection.200}
-\contentsline {subsection}{\numberline {5.5.2}Jet Energy Corrections}{78}{subsection.202}
-\contentsline {subsection}{\numberline {5.5.3}B-tagging}{78}{subsection.203}
-\contentsline {subsection}{\numberline {5.5.4}Validation on data}{79}{subsection.205}
-\contentsline {section}{\numberline {5.6}Object Summary}{81}{section.207}
-\contentsline {chapter}{\numberline {6}Probing four lepton final-state for Higgs Cross section measurement}{83}{chapter.209}
-\contentsline {section}{\numberline {6.1}Introduction}{83}{section.210}
-\contentsline {section}{\numberline {6.2}Datasets and Triggers}{84}{section.212}
-\contentsline {subsection}{\numberline {6.2.1}Trigger Efficiency}{85}{subsection.213}
-\contentsline {section}{\numberline {6.3}Simulation Samples}{86}{section.215}
-\contentsline {subsubsection}{Signal Samples}{87}{section*.216}
-\contentsline {subsubsection}{Background Samples}{88}{section*.218}
-\contentsline {subsubsection}{Pileup Reweighting}{89}{section*.223}
-\contentsline {section}{\numberline {6.4}Analysis Strategy}{90}{section.225}
-\contentsline {subsection}{\numberline {6.4.1}Event Selection }{91}{subsection.227}
-\contentsline {subsubsection}{Vertex Selection}{91}{section*.228}
-\contentsline {subsubsection}{$\ensuremath {p_T}$ threshold requirements on the Triggers}{92}{section*.229}
-\contentsline {subsubsection}{Lepton Selection}{92}{section*.230}
-\contentsline {subsubsection}{Jet Selection}{92}{section*.231}
-\contentsline {subsection}{\numberline {6.4.2}ZZ Candidate Selection}{92}{subsection.232}
-\contentsline {subsection}{\numberline {6.4.3}Choice of best ZZ Candidate}{93}{subsection.236}
-\contentsline {subsection}{\numberline {6.4.4}Definition of the Fiducial Volume}{94}{subsection.237}
-\contentsline {subsection}{\numberline {6.4.5}Signal Modeling}{95}{subsection.240}
-\contentsline {subsection}{\numberline {6.4.6}Background Modeling}{97}{subsection.245}
-\contentsline {subsubsection}{$\ensuremath {\mathrm {q}}\ensuremath {\mathrm {\overline {q}}}\to \mathrm {Z}\mathrm {Z}$ Modelling}{99}{section*.248}
-\contentsline {subsubsection}{\ensuremath {\mathrm {g}\mathrm {g}\to \mathrm {Z}\mathrm {Z}}\hspace {0.25em plus 0.125em minus 0.08em}\ignorespaces Modelling}{99}{section*.251}
-\contentsline {subsubsection}{Reducible Background Estimation}{101}{section*.253}
-\contentsline {paragraph}{(1) Opposite Sign (OS) method}{101}{section*.254}
-\contentsline {paragraph}{Fake Rate Application (OS Method)}{102}{section*.258}
-\contentsline {paragraph}{(2) Same Sign (SS) method}{107}{section*.265}
-\contentsline {paragraph}{Fake Rate Determination (SS Method)}{107}{section*.267}
-\contentsline {paragraph}{Fake Rate Application (SS Method)}{110}{section*.273}
-\contentsline {paragraph}{Combination of the Z+X background estimtaions}{111}{section*.280}
-\contentsline {paragraph}{Systematic Uncrertainties on Reducible Background}{111}{section*.282}
-\contentsline {subsection}{\numberline {6.4.7}Statistical Procedure}{115}{subsection.285}
-\contentsline {subsection}{\numberline {6.4.8}Extraction of $\mathrm {H}\to 4\ell $ Fiducial Cross Section}{118}{subsection.287}
-\contentsline {subsubsection}{Inclusive or Integrated Fiducial Cross section}{118}{section*.288}
-\contentsline {subsubsection}{Differential Fiducial Cross section}{120}{section*.293}
-\contentsline {section}{\numberline {6.5}Systematic Uncertainties}{124}{section.318}
-\contentsline {subsection}{\numberline {6.5.1}Experimental uncertainties souces}{124}{subsection.319}
-\contentsline {subsection}{\numberline {6.5.2}Theoretical uncertainties}{125}{subsection.321}
-\contentsline {subsection}{\numberline {6.5.3}Systematic uncertainties treatment when combining yearly measurements on data}{125}{subsection.325}
-\contentsline {section}{\numberline {6.6}Results}{126}{section.326}
-\contentsline {subsection}{\numberline {6.6.1}Measurement of Integrated Fiducial Cross Section}{126}{subsection.327}
-\contentsline {subsection}{\numberline {6.6.2}Measurement of Differential Fiducial Cross Sections}{127}{subsection.338}
-\contentsline {subsection}{\numberline {6.6.3}Comparison With ATLAS Results}{128}{subsection.349}
-\contentsline {chapter}{\numberline {7}Summary and Outlook}{143}{chapter.357}
-\contentsline {section}{\numberline {7.1}Summary of the dissertation}{143}{section.358}
-\contentsline {section}{\numberline {7.2}Outlook}{144}{section.359}
+\contentsline {subsection}{\numberline {5.2.2}Electron Identification and Isolation}{59}{subsection.141}
+\contentsline {subsection}{\numberline {5.2.3}Electron Impact Parameter Selection}{63}{subsection.146}
+\contentsline {subsection}{\numberline {5.2.4}Electron Energy Calibrations}{63}{subsection.147}
+\contentsline {subsection}{\numberline {5.2.5}Electron Efficiency Measurements}{64}{subsection.153}
+\contentsline {section}{\numberline {5.3}Muons}{68}{section.161}
+\contentsline {subsection}{\numberline {5.3.1}Muon Reconstruction and Identification}{68}{subsection.162}
+\contentsline {subsection}{\numberline {5.3.2}Muon Isolation Requirement}{68}{subsection.164}
+\contentsline {subsection}{\numberline {5.3.3}Muon Impact Parameter Selection}{69}{subsection.166}
+\contentsline {subsection}{\numberline {5.3.4}Muon Energy Calibrations}{69}{subsection.167}
+\contentsline {subsection}{\numberline {5.3.5}Efficiency Measurements of muons}{70}{subsection.173}
+\contentsline {section}{\numberline {5.4}Photons for FSR recovery}{76}{section.191}
+\contentsline {section}{\numberline {5.5}Jets}{76}{section.199}
+\contentsline {subsection}{\numberline {5.5.1}Jet Identification}{77}{subsection.201}
+\contentsline {subsection}{\numberline {5.5.2}Jet Energy Corrections}{78}{subsection.203}
+\contentsline {subsection}{\numberline {5.5.3}B-tagging}{78}{subsection.204}
+\contentsline {subsection}{\numberline {5.5.4}Validation on data}{79}{subsection.206}
+\contentsline {section}{\numberline {5.6}Object Summary}{81}{section.208}
+\contentsline {chapter}{\numberline {6}Probing four lepton final-state for Higgs Cross section measurement}{83}{chapter.210}
+\contentsline {section}{\numberline {6.1}Introduction}{83}{section.211}
+\contentsline {section}{\numberline {6.2}Datasets and Triggers}{84}{section.213}
+\contentsline {subsection}{\numberline {6.2.1}Trigger Efficiency}{85}{subsection.214}
+\contentsline {section}{\numberline {6.3}Simulation Samples}{85}{section.216}
+\contentsline {subsubsection}{Signal Samples}{87}{section*.217}
+\contentsline {subsubsection}{Background Samples}{88}{section*.219}
+\contentsline {subsubsection}{Pileup Reweighting}{89}{section*.224}
+\contentsline {section}{\numberline {6.4}Analysis Strategy}{90}{section.226}
+\contentsline {subsection}{\numberline {6.4.1}Event Selection }{91}{subsection.228}
+\contentsline {subsubsection}{Vertex Selection}{91}{section*.229}
+\contentsline {subsubsection}{$\ensuremath {p_T}$ threshold requirements on the Triggers}{92}{section*.230}
+\contentsline {subsubsection}{Lepton Selection}{92}{section*.231}
+\contentsline {subsubsection}{Jet Selection}{92}{section*.232}
+\contentsline {subsection}{\numberline {6.4.2}ZZ Candidate Selection}{92}{subsection.233}
+\contentsline {subsection}{\numberline {6.4.3}Choice of best ZZ Candidate}{93}{subsection.238}
+\contentsline {subsection}{\numberline {6.4.4}Definition of the Fiducial Volume}{94}{subsection.239}
+\contentsline {subsection}{\numberline {6.4.5}Signal Modeling}{96}{subsection.242}
+\contentsline {subsection}{\numberline {6.4.6}Background Modeling}{97}{subsection.247}
+\contentsline {subsubsection}{$\ensuremath {\mathrm {q}}\ensuremath {\mathrm {\overline {q}}}\to \mathrm {Z}\mathrm {Z}$ Modelling}{99}{section*.250}
+\contentsline {subsubsection}{\ensuremath {\mathrm {g}\mathrm {g}\to \mathrm {Z}\mathrm {Z}}\hspace {0.25em plus 0.125em minus 0.08em}\ignorespaces Modelling}{99}{section*.253}
+\contentsline {subsubsection}{Reducible Background Estimation}{101}{section*.255}
+\contentsline {paragraph}{(1) Opposite Sign (OS) method}{101}{section*.256}
+\contentsline {paragraph}{Fake Rate Application (OS Method)}{102}{section*.260}
+\contentsline {paragraph}{(2) Same Sign (SS) method}{106}{section*.267}
+\contentsline {paragraph}{Fake Rate Determination (SS Method)}{108}{section*.269}
+\contentsline {paragraph}{Fake Rate Application (SS Method)}{110}{section*.275}
+\contentsline {paragraph}{Combination of the Z+X background estimtaions}{111}{section*.282}
+\contentsline {paragraph}{Systematic Uncrertainties on Reducible Background}{112}{section*.284}
+\contentsline {subsection}{\numberline {6.4.7}Statistical Procedure}{114}{subsection.287}
+\contentsline {subsection}{\numberline {6.4.8}Extraction of $\mathrm {H}\to 4\ell $ Fiducial Cross Section}{118}{subsection.289}
+\contentsline {subsubsection}{Inclusive or Integrated Fiducial Cross section}{118}{section*.290}
+\contentsline {subsubsection}{Differential Fiducial Cross section}{120}{section*.295}
+\contentsline {section}{\numberline {6.5}Systematic Uncertainties}{124}{section.320}
+\contentsline {subsection}{\numberline {6.5.1}Experimental uncertainties sources}{124}{subsection.321}
+\contentsline {subsection}{\numberline {6.5.2}Theoretical uncertainties}{125}{subsection.323}
+\contentsline {subsection}{\numberline {6.5.3}Systematic uncertainties treatment when combining yearly measurements on data}{125}{subsection.327}
+\contentsline {section}{\numberline {6.6}Results}{126}{section.328}
+\contentsline {subsection}{\numberline {6.6.1}Measurement of Integrated Fiducial Cross Section}{126}{subsection.329}
+\contentsline {subsection}{\numberline {6.6.2}Measurement of Differential Fiducial Cross Sections}{127}{subsection.340}
+\contentsline {subsection}{\numberline {6.6.3}Comparison With ATLAS Results}{128}{subsection.351}
+\contentsline {chapter}{\numberline {7}Summary and Outlook}{143}{chapter.359}
+\contentsline {section}{\numberline {7.1}Summary of the dissertation}{143}{section.360}
+\contentsline {section}{\numberline {7.2}Outlook}{144}{section.361}

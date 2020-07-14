@@ -906,7 +906,8 @@ In order to estimate the uncertainty on the $m_{4l}$ shape, the  differences bet
 For differentiall measurements in $\Hllll$, shape of reducible background is attained from templates built from the control regions in the data for each differential bin of the observable considered for measurement. This procedure is similar to what was used for spin-parity studies as described in the Ref.~\cite{Chatrchyan:2013mxa}.
 More details on this procedure
 %and template shapes for each 
-of differential measurements of $\Hllll$ will be given in Section \ref{sec:ExtractionDifferential}.
+%of differential measurements of $\Hllll$ will be given in Section \ref{sec:ExtractionDifferential}.
+of differential measurements of $\Hllll$ will be given in Section \ref{sec:Extraction}.
 \par 
 The number of estimated signal and the background events, along with observed events in data passing all selections in mass range  $m_{4\ell} > 70 \GeV$
 %used for $\Hllll$ measurements ($m_{4\ell} > 70 \GeV$) 

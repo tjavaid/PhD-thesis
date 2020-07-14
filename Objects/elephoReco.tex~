@@ -6,7 +6,7 @@ Both of electron and photon are important ingredients of the analysis upon which
 \begin{center}
 %\includegraphics[width=0.4\textwidth]{Figures/Electrons/ErecoPt}
 %\includegraphics[page=2, width=0.4\textwidth]{Figures/Electrons/ErecoEta}\\
-\includegraphics[width=0.8\textwidth]{Figures/ele_photo.png}
+\includegraphics[width=0.9\textwidth]{Figures/ele_photo.png}
 %\includegraphics[width=0.4\textwidth]{Figures/Electrons/ErecoEta_lowPt}
 \end{center}
 	\caption{Pattern of positron (photon) to the detector shown left (right).}

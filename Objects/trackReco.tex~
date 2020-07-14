@@ -67,7 +67,7 @@ Reconstruction of the primary-vertex is done in three steps:
 \end{figure}
 
 
-The efficiency to reconstruct a lepton track is called the tracking efficiency. To reconstruct a muon track in the inner detector is measured using as probes tracks reconstructed in the muon system alone.
+The efficiency to reconstruct a lepton track is called the tracking efficiency. For instance, to reconstruct a muon track in the inner detector is measured using as probes tracks reconstructed in the muon system alone.
 Measured muon tracking efficiency is shown in the Figure. \ref{fig:eff_tracking}. It is evident from Figures. \ref{fig:eff_track_pt:a} and \ref{fig:eff_track_eta:b} that tracking efficiency is nearly 100\% in terms of $\pt$ and $\eta$; however, with increase in number of primary vertices (pileup) it decreases a bit as shown in the Figure. \ref{fig:eff_track_nvertices:c}.
 
 These efficiencies are measured using ``Tag and Probe '' method for which details are described in next Section \ref{tnp_procedure}. This procedure is also applied when measuring the selection efficiencies of electrons and muons.

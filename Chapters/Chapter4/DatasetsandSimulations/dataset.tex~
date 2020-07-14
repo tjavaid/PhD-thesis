@@ -306,12 +306,12 @@ The HLT paths used for full Run 2 collision data is listed in ~\cite{CMS:2019chr
 Efficiency in data of combination of triggers used for the anlysis 
 %with respect to offline reconstruction and selection 
 is measured by considering 4$\ell$ events triggered by single lepton triggers. 
-Among the reconstructed four leptons, is geometrically associated with an object that passes at least one single electron or muon triggers.
+Among the reconstructed four leptons, one lepton is geometrically associated with an object that passes at least one single electron or muon triggers (subsequently regarded as the ``tag'').
 Rest of three leptons are regarded as ``probes".
 In a 4$\ell$ event, the possible tag-probe pairs are 4 and are counted in denominator while computing efficiency.
 For each of three leptons which are probes, all matching trigger filter objects are collected. Then the matched trigger filter
 objects of the three probe leptons are combined in attempt to reconstruct any of the triggers used in the anlysis. If any of the analysis triggers
-can be formed using the probe leptons, probes are call passing probes which are countedas numerator for the efficiency measurement.
+can be formed using the probe leptons, probes are call passing probes which are countedas numerator for the efficiency measurement. The details on the procedure can be seen in Section \ref{tnp_procedure}.
 
 %This method does not have a perfect closure in MC events due to the fact that the presence of a fourth lepton increases the trigger efficiency,
 %and this effect is not accounted for. Also, in the  $2e2\mu$ final state, the three probe leptons cannot be combined to form all possible triggers which 

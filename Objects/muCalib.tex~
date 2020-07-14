@@ -12,8 +12,8 @@ From Fig.~\ref{fig:mu_energy_scale} shows a very good comparison of data with si
 		\subfigure [] {\resizebox{7cm}{!}{\includegraphics{Figures/Muons/ZMass_mu_MEME.pdf}}} \\
 	\end{center}
 	\caption{
-		(a): muon energy scale measured in the $Z\rightarrow \mu \mu$ control region for all muons, for both muons in the barrel (b), for one muon in the barrel, one in the endcaps (c) and for both muons in the endcaps (d).
-		The results of the Crystall-ball fit are reported in the figures.
+		(a): muon energy scale measured in the $Z\rightarrow \mu \mu$ control region for all muons, for both of muons frome barrel region (b), for one muon from barrel, one from endcaps (c) and for both muons in the endcaps (d).
+		The results in the figures are extrated from fits using the Crystall-ball function.
 		%\textbf{FIXME: mu-scale and smearing corrections NOT yet available and thus NOT yet applied} 
 	}
 	\label{fig:mu_energy_scale}
