@@ -52,7 +52,7 @@ The $f_{\rm nonfid}^{i}$ fraction represents the ratio of nonfiducial signal to 
 in a defined bin $i$ at reconstruction level. It is the ratio of reconstructed events which are from outside the fiducial volume and reconstructed events which are from within the fiducial volume. Such events arise from imperfect detector resolution which causes the differences for quantities calculated at generated and reconstructed levels.
 %such as lepton isolation and other quantities used for the event selection. 
 Fraction of these events are also treated as background and will be referred
-"non-fiducial signal`` in the disseration. 
+"non-fiducial signal`` in the dissertation. 
 It has been demonstrated with MC samples that these events can be described using same shape as resonant
 component. 
 %The values of such fraction are extracted from simulation repeatedly for SM. This fraction varies among different production modes of Higgs e.g. it is  4\%  for the $\ggH$ and 3\% for $ttH$ production mode. The values for each model are listed in the Tables \ref{tab:summarySM2016},  \ref{tab:summarySM2017} and  \ref{tab:summarySM2018} for 2016, 2017 and 2018 respectively. 

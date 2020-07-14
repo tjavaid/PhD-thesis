@@ -213,6 +213,107 @@ HLT path                                                                        
 \end{table}
 
 
+\begin{table}[h]
+\scriptsize
+    \centering
+    \begin{tabular}{|l|l|l|}
+\hline %----------------------------------------------------------------------------------------
+\hline %---------------------------------------------------------------------------------------- 
+Run-range & Dataset & Integrated luminosity \\
+\hline %----------------------------------------------------------------------------------------
+\hline %---------------------------------------------------------------------------------------- 
+\multirow{5}{*}{273150-275376} & /DoubleMuon/Run2016B-23Sep2016-v3/MINIAOD &  \multirow{5}{*}{$5.892\ \text{fb}^{-1}$} \\
+& /DoubleEG/Run2016B-23Sep2016-v3/MINIAOD &  \\
+& /MuonEG/Run2016B-23Sep2016-v3/MINIAOD &  \\
+& /SingleElectron/Run2016B-23Sep2016-v3/MINIAOD &  \\
+& /SingleMuon/Run2016B-23Sep2016-v3/MINIAOD &  \\
+\hline
+\multirow{5}{*}{275656-276283} & /DoubleMuon/Run2016C-23Sep2016-v1/MINIAOD &  \multirow{5}{*}{$2.646\ \text{fb}^{-1}$}  \\
+& /DoubleEG/Run2016C-23Sep2016-v1/MINIAOD &  \\
+& /MuonEG/Run2016C-23Sep2016-v1/MINIAOD &  \\
+& /SingleElectron/Run2016C-23Sep2016-v1/MINIAOD &  \\
+& /SingleMuon/Run2016C-23Sep2016-v1/MINIAOD &  \\
+\hline
+\multirow{5}{*}{276315-276811} & /DoubleMuon/Run2016D-23Sep2016-v1/MINIAOD &  \multirow{5}{*}{$4.353\ \text{fb}^{-1}$} \\
+& /DoubleEG/Run2016D-23Sep2016-v1/MINIAOD &  \\
+& /MuonEG/Run2016D-23Sep2016-v1/MINIAOD &  \\
+& /SingleElectron/Run2016D-23Sep2016-v1/MINIAOD &  \\
+& /SingleMuon/Run2016D-23Sep2016-v1/MINIAOD &  \\
+\hline
+\multirow{5}{*}{276831-277420} & /DoubleMuon/Run2016E-23Sep2016-v1/MINIAOD &  \multirow{5}{*}{$4.117\ \text{fb}^{-1}$} \\
+& /DoubleEG/Run2016E-23Sep2016-v1/MINIAOD &  \\
+& /MuonEG/Run2016E-23Sep2016-v1/MINIAOD &  \\
+& /SingleElectron/Run2016E-23Sep2016-v1/MINIAOD &  \\
+& /SingleMuon/Run2016E-23Sep2016-v1/MINIAOD &  \\
+\hline
+\multirow{5}{*}{277932-278808} & /DoubleMuon/Run2016F-23Sep2016-v1/MINIAOD &  \multirow{5}{*}{$3.186\ \text{fb}^{-1}$} \\
+& /DoubleEG/Run2016F-23Sep2016-v1/MINIAOD &  \\
+& /MuonEG/Run2016F-23Sep2016-v1/MINIAOD &  \\
+& /SingleElectron/Run2016F-23Sep2016-v1/MINIAOD &  \\
+& /SingleMuon/Run2016F-23Sep2016-v1/MINIAOD &  \\
+\hline
+\multirow{5}{*}{278820-280385} & /DoubleMuon/Run2016G-23Sep2016-v1/MINIAOD &  \multirow{5}{*}{$7.721\ \text{fb}^{-1}$} \\
+& /DoubleEG/Run2016G-23Sep2016-v1/MINIAOD &  \\
+& /MuonEG/Run2016G-23Sep2016-v1/MINIAOD &  \\
+& /SingleElectron/Run2016G-23Sep2016-v1/MINIAOD &  \\
+& /SingleMuon/Run2016G-23Sep2016-v1/MINIAOD &  \\
+\hline
+\multirow{15}{*}{281207-284068} & /DoubleMuon/Run2016H-PromptReco-v1/MINIAOD &  \multirow{15}{*}{$8.857\ \text{fb}^{-1}$} \\
+& /DoubleEG/Run2016H-PromptReco-v1/MINIAOD &  \\
+& /MuonEG/Run2016H-PromptReco-v1/MINIAOD &  \\
+& /SingleElectron/Run2016H-PromptReco-v1/MINIAOD &  \\
+& /SingleMuon/Run2016H-PromptReco-v1/MINIAOD &  \\
+& /DoubleMuon/Run2016H-PromptReco-v2/MINIAOD &  \\
+& /DoubleEG/Run2016H-PromptReco-v2/MINIAOD &  \\
+& /MuonEG/Run2016H-PromptReco-v2/MINIAOD &  \\
+& /SingleElectron/Run2016H-PromptReco-v2/MINIAOD &  \\
+& /SingleMuon/Run2016H-PromptReco-v2/MINIAOD &  \\
+& /DoubleMuon/Run2016H-PromptReco-v3/MINIAOD &  \\
+& /DoubleEG/Run2016H-PromptReco-v3/MINIAOD &  \\
+& /MuonEG/Run2016H-PromptReco-v3/MINIAOD &  \\
+& /SingleElectron/Run2016H-PromptReco-v3/MINIAOD &  \\
+& /SingleMuon/Run2016H-PromptReco-v3/MINIAOD &  \\
+\hline %----------------------------------------------------------------------------------------
+\hline %----------------------------------------------------------------------------------------
+     \end{tabular}
+\small
+    \caption{ Datasets used in the analysis. }
+    \label{tab:datasets_data}
+\end{table}
+
+
+\begin{table}[h]
+\scriptsize
+    \centering
+    \begin{tabular}{|l|l|c|l|}
+\hline %--------------------------------------------------------------------------------------------------------------------------
+HLT path                                                       & L1 seed                          & prescale  & primary dataset \\
+\hline %--------------------------------------------------------------------------------------------------------------------------
+\verb| HLT_Ele17_Ele12_CaloIdL_TrackIdL_IsoVL_DZ       | & \verb| L1_DoubleEG_15_10    |  & 1 & DoubleEG \\
+\verb| HLT_Ele23_Ele12_CaloIdL_TrackIdL_IsoVL_DZ       | & \verb| L1_DoubleEG_22_10    |  & 1 & DoubleEG \\
+\verb| HLT_DoubleEle33_CaloIdL_GsfTrkIdVL              | & \verb| (Multiple)           |  & 1 & DoubleEG \\
+\verb| HLT_Ele16_Ele12_Ele8_CaloIdL_TrackIdL           | & \verb| L1_TripleEG_14_10_8  |  & 1 & DoubleEG \\
+\verb| HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL                | & \verb| L1_DoubleMu_11_4     |  & 1 & DoubleMuon \\
+\verb| HLT_Mu17_TrkIsoVVL_TkMu8_TrkIsoVVL              | & \verb| L1_DoubleMu_11_4     |  & 1 & DoubleMuon \\
+\verb| HLT_TripleMu_12_10_5                            | & \verb| L1_TripleMu_5_5_3    |  & 1 & DoubleMuon \\
+\verb| HLT_Mu8_TrkIsoVVL_Ele17_CaloIdL_TrackIdL_IsoVL  | & \verb| L1_Mu5_EG15          |  & 1 & MuonEG \\
+\verb| HLT_Mu8_TrkIsoVVL_Ele23_CaloIdL_TrackIdL_IsoVL  | & \verb| L1_Mu5_EG20          |  & 1 & MuonEG \\
+\verb| HLT_Mu17_TrkIsoVVL_Ele12_CaloIdL_TrackIdL_IsoVL | & \verb| L1_Mu12_EG10         |  & 1 & MuonEG \\
+\verb| HLT_Mu23_TrkIsoVVL_Ele12_CaloIdL_TrackIdL_IsoVL | & \verb| L1_Mu20_EG10         |  & 1 & MuonEG \\
+\verb| HLT_Mu23_TrkIsoVVL_Ele8_CaloIdL_TrackIdL_IsoVL  | & \verb| L1_SingleMu*         |  & 1 & MuonEG \\
+\verb| HLT_Mu8_DiEle12_CaloIdL_TrackIdL                | & \verb| L1_Mu6_DoubleEG10    |  & 1 & MuonEG \\
+\verb| HLT_DiMu9_Ele9_CaloIdL_TrackIdL                 | & \verb| L1_DoubleMu7_EG7     |  & 1 & MuonEG \\
+\verb| HLT_Ele25_eta2p1_WPTight                        | & \verb| L1_SingleEG*         |  & 1 & SingleElectron \\
+\verb| HLT_Ele27_WPTight                               | & \verb| L1_SingleEG*         |  & 1 & SingleElectron \\
+\verb| HLT_Ele27_eta2p1_WPLoose_Gsf                    | & \verb| L1_SingleEG*         |  & 1 & SingleElectron \\
+\verb| HLT_IsoMu20 OR HLT_IsoTkMu20                    | & \verb| L1_SingleMu*         |  & 1 & SingleMuon \\
+\verb| HLT_IsoMu22 OR HLT_IsoTkMu22                    | & \verb| L1_SingleMu*         |  & 1 & SingleMuon \\
+\hline %--------------------------------------------------------------------------------------------------------------------------
+    \end{tabular}
+\small
+    \caption{Trigger paths used in 2016 collision data.}
+    \label{tab:triggerPaths}
+\end{table}
 
 	
 	

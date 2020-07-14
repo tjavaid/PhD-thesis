@@ -116,7 +116,7 @@ For each kinematic or differential observable, selection procedure of the binnin
 %\subsubsection{Background fractions in bins of a Kinematic Observable} \label{sec:BackgroundDifferential}
 %\textbf{Background fractions in bins of a Kinematic Observable} \\ %\label{sec:BackgroundDifferential}
 For the differential cross section measurements, the background is to be subtracted at the reconstruction level for each bin
-of the observable. The mass spectrum for the background in not same all differential bins because it does not have a resonance structure. 
+of the observable. The mass spectrum for the background is not same for all differential bins because it does not have a resonance structure. 
 %In order to perform the differential measurements, the background is to be subtracted at the reconstruction level for each bin
 %of the considered observable.
 %In general, the background mass spectrum shape is not the same in all bins of the considered observable because the background does not have a resonance
@@ -244,7 +244,6 @@ from the gg$\rightarrow$H production mode from {\sc powheg+JHUgen}, and resultin
 \begin{figure}[htb]
   \begin{center}
     \subfigure[$0.0 < \pt(\mathrm{H}) < 15.0 $]{
-      %\includegraphics[width=0.3\textwidth,angle=0]{Plots/ggH_powheg15_JHUgen_125_4e_pT4l_genbin0_recobin0_effs_eventMCWeight.pdf}
       \includegraphics[width=0.3\textwidth,angle=0]{Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin0_recobin0_effs_genWeight*pileupWeight*dataMCWeight.pdf}
       \label{fig:sigfits-pT4l-ggH-powheg15-JHUgen-125-maintext:a}
     }
@@ -272,26 +271,6 @@ from the gg$\rightarrow$H production mode from {\sc powheg+JHUgen}, and resultin
       \includegraphics[width=0.3\textwidth,angle=0]{Plots/ggH_powheg_JHUgen_125_2e2mu_pT4l_genbin6_recobin6_effs_genWeight*pileupWeight*dataMCWeight.pdf}
       \label{fig:sigfits-pT4l-ggH-powheg15-JHUgen-125-maintext:g}
     }
-%    \subfigure[$30.0 < \pt(\mathrm{H}) < 60.0$]{
-%      \includegraphics[width=0.3\textwidth,angle=0]{Plots/ggH_powheg15_JHUgen_125_4mu_pT4l_genbin2_recobin2_effs_eventMCWeight.pdf}
-%      \label{fig:sigfits-pT4l-ggH-powheg15-JHUgen-125-maintext:h}
-%    }
-%    \subfigure[$30.0  < \pt(\mathrm{H}) < 60.0$]{
-%      \includegraphics[width=0.3\textwidth,angle=0]{Plots/ggH_powheg15_JHUgen_125_2e2mu_pT4l_genbin2_recobin2_effs_eventMCWeight.pdf}
-%      \label{fig:sigfits-pT4l-ggH-powheg15-JHUgen-125-maintext:i}
-%    } \\
-%    \subfigure[$60.0  < \pt(\mathrm{H}) < 200.0 $]{
-%      \includegraphics[width=0.3\textwidth,angle=0]{Plots/ggH_powheg15_JHUgen_125_4e_pT4l_genbin3_recobin3_effs_eventMCWeight.pdf}
-%      \label{fig:sigfits-pT4l-ggH-powheg15-JHUgen-125-maintext:j}
-%    }
-%    \subfigure[$60.0  < \pt(\mathrm{H}) < 200.0 $]{
-%      \includegraphics[width=0.3\textwidth,angle=0]{Plots/ggH_powheg15_JHUgen_125_4mu_pT4l_genbin3_recobin3_effs_eventMCWeight.pdf}
-%      \label{fig:sigfits-pT4l-ggH-powheg15-JHUgen-125-maintext:k}
-%    }
-%    \subfigure[$60.0  < \pt(\mathrm{H}) < 200.0$]{
-%      \includegraphics[width=0.3\textwidth,angle=0]{Plots/ggH_powheg15_JHUgen_125_2e2mu_pT4l_genbin3_recobin3_effs_eventMCWeight.pdf}
-%      \label{fig:sigfits-pT4l-ggH-powheg15-JHUgen-125-maintext:l}
-%    }
     \\
     \caption{ Example signal shapes at reconstruction level for a resonance of m(4$\ell$) in $2e2\mu$ final state for the $gg\rightarrow \mathrm{H}$ production mode from {\sc powheg+JHUGen} in different bins of $\pt(\mathrm{H})$. The black curve represents events which do not pass the fiducial volume selection. The curve has no effect on the result.
     }
@@ -304,22 +283,22 @@ from the gg$\rightarrow$H production mode from {\sc powheg+JHUgen}, and resultin
   \begin{center}
     \subfigure[$gg\rightarrow$H ({\sc powheg+JHUgen})]{
     %\includegraphics[width=0.48\textwidth,angle=0]{Plots/eff2d_ggH_powheg15_JHUgen_125_pT4l_2e2mu.pdf}
-    \includegraphics[width=0.48\textwidth,angle=0]{Plots/eff2d_ggH_powheg_JHUgen_125_pT4l_2e2mu.pdf}
+    \includegraphics[width=0.46\textwidth,angle=0]{Plots/eff2d_ggH_powheg_JHUgen_125_pT4l_2e2mu.pdf}
     \label{fig:eff-pT4l-2e2mu-maintext:a}
     }
     \subfigure[$gg\rightarrow$H ({\sc minloHJJ})]{
     %\includegraphics[width=0.48\textwidth,angle=0]{Plots/eff2d_ggH_minloHJJ_125_pT4l_2e2mu.pdf}
-    \includegraphics[width=0.48\textwidth,angle=0]{Plots/eff2d_ggH_NNLOPS_JHUgen_125_pT4l_2e2mu.pdf}
+    \includegraphics[width=0.46\textwidth,angle=0]{Plots/eff2d_ggH_NNLOPS_JHUgen_125_pT4l_2e2mu.pdf}
     \label{fig:eff-pT4l-2e2mu-maintext:b}
     } \\
     \subfigure[VBF ({\sc powheg})]{
     %\includegraphics[width=0.48\textwidth,angle=0]{Plots/eff2d_VBF_powheg_125_pT4l_2e2mu.pdf}
-    \includegraphics[width=0.48\textwidth,angle=0]{Plots/eff2d_VBF_powheg_JHUgen_125_pT4l_2e2mu.pdf}
+    \includegraphics[width=0.46\textwidth,angle=0]{Plots/eff2d_VBF_powheg_JHUgen_125_pT4l_2e2mu.pdf}
     \label{fig:eff-pT4l-2e2mu-maintext:c}
     }
     \subfigure[WH ({\sc pythia})]{
     %\includegraphics[width=0.48\textwidth,angle=0]{Plots/eff2d_WH_pythia_125_pT4l_2e2mu.pdf}
-    \includegraphics[width=0.48\textwidth,angle=0]{Plots/eff2d_WH_powheg_JHUgen_125_pT4l_2e2mu.pdf}
+    \includegraphics[width=0.46\textwidth,angle=0]{Plots/eff2d_WH_powheg_JHUgen_125_pT4l_2e2mu.pdf}
     \label{fig:eff-pT4l-2e2mu-maintext:d}
     } \\
     \subfigure[ZH ({\sc pythia})]{

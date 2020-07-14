@@ -1,30 +1,75 @@
-\section{Results with alternative asimov datasets}
+\section{Results with additional differential observables with full Run 2 asimov datasets}
 
 \begin{figure}[!h!tb]
   \begin{center}
 
-    \subfigure[$\pt(\mathrm{H})$]{
-      \includegraphics[width=0.48\textwidth,angle=0]{Plots/pT4l_unfoldwith_SM_125_logscale_ZHasimov.pdf}
+	  \subfigure[$\Phi$]{
+      \includegraphics[width=0.45\textwidth,angle=0]{Plots/Phi_unfoldwith_SM_125_logscale_asimov.pdf}
       \label{fig:differential-results-ZHasimov:a}
     }
-    \subfigure[$\mathrm{m}(\mathrm{Z}_{2})$]{
-      \includegraphics[width=0.48\textwidth,angle=0]{Plots/massZ2_unfoldwith_SM_125_logscale_ZHasimov.pdf}
+	 \subfigure[$\Phi_{1}$]{
+      \includegraphics[width=0.45\textwidth,angle=0]{Plots/Phi1_unfoldwith_SM_125_logscale_asimov.pdf}
       \label{fig:differential-results-ZHasimov:b}
     } \\
-    \subfigure[$|y(\mathrm{H})|$]{
-      \includegraphics[width=0.48\textwidth,angle=0]{Plots/rapidity4l_unfoldwith_SM_125_ZHasimov.pdf}
-      \label{fig:differential-results-ZHasimov:b}
-    }
-    \subfigure[$|\cos \theta^{*}|$]{
-      \includegraphics[width=0.48\textwidth,angle=0]{Plots/cosThetaStar_unfoldwith_SM_125_ZHasimov.pdf}
+	  \subfigure[$\mathrm{m}(\mathrm{Z}_{2})$]{
+      \includegraphics[width=0.45\textwidth,angle=0]{Plots/massZ2_unfoldwith_SM_125_logscale_asimov.pdf}
       \label{fig:differential-results-ZHasimov:c}
-    } \\
-    \subfigure[N(jets)]{
-      \includegraphics[width=0.48\textwidth,angle=0]{Plots/njets_reco_pt30_eta4p7_unfoldwith_SM_125_logscale_ZHasimov.pdf}
+    } 
+	\subfigure[$\mathrm{m}(\mathrm{Z}_{1})$]{
+      \includegraphics[width=0.45\textwidth,angle=0]{Plots/massZ1_unfoldwith_SM_125_logscale_asimov.pdf}
       \label{fig:differential-results-ZHasimov:d}
-    }
-    \caption{Results of the differential cross section measurement for different observables when the asimov dataset is generated assuming pure ZH production with cross section equal to the total SM cross section. The prediction for this pure ZH model is shown in red. The central value of the measurement is obtained using SM efficiencies with the gg$\rightarrow$H prediction from {\sc powheg+JHUgen} with m(H)= 125 $\GeV$, and the error bar represents the combined statistical and systematic uncertainty. The grey box represents the additional uncertainty incurred when using different models to unfold the observed data distribution back to particle level.
+    }\\
+    \subfigure[$|\cos \theta^{*}|$]{
+      \includegraphics[width=0.45\textwidth,angle=0]{Plots/cosThetaStar_unfoldwith_SM_125_logscale_asimov.pdf}
+      \label{fig:differential-results-ZHasimov:e}
+    } 
+%    \subfigure[N(jets)]{
+%      \includegraphics[width=0.48\textwidth,angle=0]{Plots/njets_reco_pt30_eta4p7_unfoldwith_SM_125_logscale_ZHasimov.pdf}
+%      \label{fig:differential-results-ZHasimov:d}
+%    }
+    \caption{Differential fiducial cross section results using full Run 2 toy data for $\Phi$, $\Phi_{1}$, $\mathrm{m}(\mathrm{Z}_{1})$, $\mathrm{m}(\mathrm{Z}_{2})$ and $|\cos \theta^{*}|$ in $\Hllll$ and comparison with the theoretical predictions. 
+%        Systematic uncertainty is indicated by red bars and black bars show total statistical and the systematic uncertainties, combined in quadrature. The blue and brown colors show the theoretical predictions. 
+ %         The acceptances and the theoretical uncertainties in differential bins are computed using {\sc powheg}. Sub-dominant production contributions XH $=$ VBF $+$ VH $+$ $\ttH$ are shown in green separately. The systematic uncertainties correspond to the generators accuracy are also taken in to account for differential predictions. The fraction of $4\mu$, $4e$ and $2e2\mu$ in each differential bin is allowed to float in fit.
   }
-  \label{fig:differential-results-restrictive_md}
+  \label{fig:differential-results-restrictive_md1}
  \end{center}
-\end{figure}
+\end{figure} \clearpage
+
+
+
+\begin{figure}[!h!tb]
+  \begin{center}
+          \subfigure[$|\cos \theta_{1}|$]{
+      \includegraphics[width=0.45\textwidth,angle=0]{Plots/cosTheta1_unfoldwith_SM_125_logscale_asimov.pdf}
+      \label{fig:differential-results-ZHasimov1:a}
+    }
+         \subfigure[$|\cos \theta_{2}|$]{
+      \includegraphics[width=0.45\textwidth,angle=0]{Plots/cosTheta2_unfoldwith_SM_125_logscale_asimov.pdf}
+      \label{fig:differential-results-ZHasimov1:b}
+    } \\
+          \subfigure[N(jets) with $|\eta|<4.7$]{
+      \includegraphics[width=0.45\textwidth,angle=0]{Plots/njets_pt30_eta4p7_unfoldwith_SM_125_logscale_asimov.pdf}
+      \label{fig:differential-results-ZHasimov1:c}
+    }
+        \subfigure[\pt of leading jet with $|\eta|<4.7$]{
+      \includegraphics[width=0.45\textwidth,angle=0]{Plots/pt_leadingjet_pt30_eta4p7_unfoldwith_SM_125_logscale_asimov.pdf}
+      \label{fig:differential-results-ZHasimov1:d}
+    }\\
+%    \subfigure[$|\cos \theta^{*}|$]{
+%      \includegraphics[width=0.48\textwidth,angle=0]{Plots/cosThetaStar_unfoldwith_SM_125_logscale_asimov.pdf}
+%      \label{fig:differential-results-ZHasimov:c}
+%    }
+%    \subfigure[N(jets)]{
+%      \includegraphics[width=0.48\textwidth,angle=0]{Plots/njets_reco_pt30_eta4p7_unfoldwith_SM_125_logscale_ZHasimov.pdf}
+%      \label{fig:differential-results-ZHasimov:d}
+%    }
+    \caption{
+	    Differential fiducial cross section results using full Run 2 toy data for $|\cos \theta_{1}|$, $|\cos \theta_{2}|$, number of jets (within $|\eta|<4.7$) and $\pt$ of leading jet (within $|\eta|<4.7$) in $\Hllll$ and comparison with the theoretical predictions.                          
+        Systematic uncertainty is indicated by red bars and black bars show total statistical and the systematic uncertainties, combined in quadraa
+ture. The blue and brown colors show the theoretical predictions. 
+          The acceptances and the theoretical uncertainties in differential bins are computed using {\sc powheg}. Sub-dominant production contribuu
+tions XH $=$ VBF $+$ VH $+$ $\ttH$ are shown in green separately. The systematic uncertainties correspond to the generators accuracy are also takee
+n in to account for differential predictions. The fraction of $4\mu$, $4e$ and $2e2\mu$ in each differential bin is allowed to float in fit.}
+  \label{fig:differential-results-restrictive_md1}
+ \end{center}
+\end{figure} \clearpage

@@ -13,20 +13,22 @@ A level-1 auxiliary file: Chapters/Chapter_2.aux
 A level-1 auxiliary file: Chapters/Chapter_2_CMS.aux
 A level-1 auxiliary file: Chapters/Chapter_3.aux
 Case mismatch error between cite keys atlas-conf-2019-029 and ATLAS-CONF-2019-029
----line 318 of file main_simple.aux
+---line 321 of file main_simple.aux
  : \citation{atlas-conf-2019-029
  :                              }
 I'm skipping whatever remains of this command
-White space in argument---line 327 of file main_simple.aux
+White space in argument---line 330 of file main_simple.aux
  : \citation{atlas-conf-2019-025
  :                               }
 I'm skipping whatever remains of this command
 Case mismatch error between cite keys atlas-conf-2019-032 and ATLAS-CONF-2019-032
----line 336 of file main_simple.aux
+---line 339 of file main_simple.aux
  : \citation{atlas-conf-2019-032
  :                              }
 I'm skipping whatever remains of this command
 A level-1 auxiliary file: Chapters/Chapter_7.aux
+A level-1 auxiliary file: publication_list_tahir_javaid_test.aux
+A level-1 auxiliary file: conferences_tahir_javaid.aux
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
@@ -41,7 +43,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 22236 items from 5000.
+Reallocated field_info (elt_size=4) to 22375 items from 5000.
 Database file #1: main_simple-blx.bib
 Database file #2: example_merged2.bib
 Warning--I didn't find a database entry for "Khachatryan:2015yvw"
@@ -54,6 +56,7 @@ Warning--I didn't find a database entry for "ATLAS:2018uso"
 Warning--I didn't find a database entry for "ATLAS-CONF-2019-032"
 Warning--I didn't find a database entry for "ATLAS:2017myr"
 Warning--I didn't find a database entry for "CMS:2019chr"
+Warning--I didn't find a database entry for "Sirunyan:2020xwk"
 Warning--I didn't find a database entry for "masses"
 Warning--I didn't find a database entry for "scattering_pp"
 Warning--I didn't find a database entry for "Klein:2017nke"
@@ -278,7 +281,7 @@ Too many commas in name 1 of "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R.
 while executing---line 2749 of file biblatex.bst
 You've used 93 entries,
             6268 wiz_defined-function locations,
-            1761 strings with 24201 characters,
+            1765 strings with 24299 characters,
 and the built_in function-call counts, 406635 in all, are:
 = -- 26103
 > -- 7591

@@ -987,7 +987,7 @@ Schematic diagram of WLCG Tier system is shown in the Figure \ref{Fig:LHC_comput
 \subsection{3-Tier Architecture}
 Computing models at WLCG are mainly based on 3 tier levels.
 Tier-0 facility is situated at CERN. It receives prompt data (RAW data) produced from LHC collisions as a primary backup and does the reconstruction of the events and store in the form of prompt-RECO data.
-It then exports the RAW data to to large computing centers at Tier-1 where the events are set to be reconstructed again with refined calibrations and at each Tier-1 site, a detailed reconstruction of RAW data is performed to get AOD(Analysis Object Data) version of data which most compact form of data. It also serves to distribute the AOD data to Tier-2 sites where the data can be used for end-user analysis specific reprocessing and simulations for all experiments.
+It then exports the RAW data to to large computing centers at Tier-1 where the events are set to be reconstructed again with refined calibrations and at each Tier-1 site, a detailed reconstruction of RAW data is performed to get AOD(Analysis Object Data) version of data which is the most compact form of data. It also serves to distribute the AOD data to Tier-2 sites where the data can be used for end-user analysis specific reprocessing and simulations for all experiments.
 
 
 %
