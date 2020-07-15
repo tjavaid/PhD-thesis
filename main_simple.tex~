@@ -136,7 +136,7 @@ headsepline, % Uncomment to get a line under the header
 %\usepackage[toc,page]{appendix}
 \usepackage[figuresright]{rotating}
 \usepackage{hyperref}
-\usepackage[UTF8]{ctex}
+%\usepackage[UTF8]{ctex}
 \usepackage{CJK}
 \usepackage{lineno}\linenumbers
 \usepackage{adjustbox} % test
@@ -436,7 +436,7 @@ headsepline, % Uncomment to get a line under the header
 %
 %% start
 \begin{appendices}
-%\chapter{Appendix}
+\chapter{Appendix}
  \input{Appendix/Samples}  \label{app:samples}
 %\clearpage
 %\input{Appendix/Backgrounds}  \label{app:bkginputs}

@@ -347,6 +347,26 @@
     \field{year}{2015}
   \endentry
 
+  \entry{atlas-conf-2019-025}{report}{}
+    \field{labeltitlesource}{title}
+    \field{number}{ATLAS-CONF-2019-025}
+    \field{title}{{Measurements of the Higgs boson inclusive, differential and
+  production cross sections in the 4$\ell$ decay channel at $\sqrt{s}$ = 13 TeV
+  with the ATLAS detector}}
+    \verb{url}
+    \verb http://cds.cern.ch/record/2682107
+    \endverb
+    \list{location}{1}{%
+      {Geneva}%
+    }
+    \list{institution}{1}{%
+      {CERN}%
+    }
+    \field{type}{techreport}
+    \field{year}{2019}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
   \entry{ATLAS:2018uso}{article}{}
     \field{labeltitlesource}{title}
     \field{title}{{Measurements of Higgs boson properties in the diphoton decay
@@ -417,6 +437,36 @@
   $\sqrt{s}=13~\mathrm{TeV}$}}
     \field{month}{03}
     \field{year}{2019}
+  \endentry
+
+  \entry{Sirunyan:2020xwk}{article}{}
+    \true{moreauthor}
+    \name{author}{1}{}{%
+      {{hash=SAM}{%
+         family={Sirunyan},
+         familyi={S\bibinitperiod},
+         given={Albert\bibnamedelima M},
+         giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SAM+1}
+    \strng{fullhash}{SAM+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/j.physletb.2020.135425
+    \endverb
+    \verb{eprint}
+    \verb 2002.06398
+    \endverb
+    \field{pages}{135425}
+    \field{title}{{A measurement of the Higgs boson mass in the diphoton decay
+  channel}}
+    \field{volume}{805}
+    \field{journaltitle}{Phys. Lett. B}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ex}
+    \field{year}{2020}
   \endentry
 
   \entry{Reference1}{article}{}
@@ -515,8 +565,8 @@
          giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod},
       }}%
     }
-    \strng{namehash}{aGAe4}
-    \strng{fullhash}{aGAe4}
+    \strng{namehash}{aGAe3}
+    \strng{fullhash}{aGAe3}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{pages}{398\bibrangedash 410}
@@ -728,8 +778,8 @@
          giveni={A\bibinitperiod},
       }}%
     }
-    \strng{namehash}{cA2}
-    \strng{fullhash}{cA2}
+    \strng{namehash}{cA1}
+    \strng{fullhash}{cA1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{title}{technical proposal for a general-purpose pp experiment at the
@@ -771,8 +821,8 @@
          giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod},
       }}%
     }
-    \strng{namehash}{aGAe3}
-    \strng{fullhash}{aGAe3}
+    \strng{namehash}{aGAe2}
+    \strng{fullhash}{aGAe2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{title}{CMS, the magnet project: Technical design report}
@@ -1203,6 +1253,37 @@
     \field{year}{2010}
   \endentry
 
+  \entry{Chatrchyan:2014fea}{article}{}
+    \true{moreauthor}
+    \name{author}{1}{}{%
+      {{hash=CS}{%
+         family={Chatrchyan},
+         familyi={C\bibinitperiod},
+         given={Serguei},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CS+1}
+    \strng{fullhash}{CS+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1088/1748-0221/9/10/P10009
+    \endverb
+    \verb{eprint}
+    \verb 1405.6569
+    \endverb
+    \field{number}{10}
+    \field{pages}{P10009}
+    \field{title}{{Description and performance of track and primary-vertex
+  reconstruction with the CMS tracker}}
+    \field{volume}{9}
+    \field{journaltitle}{JINST}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{physics.ins-det}
+    \field{year}{2014}
+  \endentry
+
   \entry{pog_tnp}{article}{}
     \field{labeltitlesource}{title}
     \field{title}{{Tag and Probe}}
@@ -1498,150 +1579,6 @@
   the Higgs boson in proton collisions at 7 and 8 TeV}
     \field{volume}{D92}
     \field{journaltitle}{Phys. Rev.}
-    \field{year}{2015}
-  \endentry
-
-  \entry{ATLAS:Hgg_8TeV}{article}{}
-    \name{author}{1}{}{%
-      {{hash=eaGA}{%
-         prefix={et},
-         prefixi={e\bibinitperiod},
-         family={al.},
-         familyi={a\bibinitperiod},
-         given={G.\bibnamedelima Aad},
-         giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{aGAe2}
-    \strng{fullhash}{aGAe2}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{number}{9}
-    \field{pages}{1\bibrangedash 61}
-    \field{title}{Measurements of fiducial and differential cross sections for
-  Higgs boson production in the diphoton decay channel at $\sqrt{s} = 8$~TeV
-  with ATLAS}
-    \field{volume}{2014}
-    \field{journaltitle}{JHEP}
-    \field{year}{2014}
-  \endentry
-
-  \entry{ATLAS:Hgg_8TeV_13TeV}{article}{}
-    \name{author}{1}{}{%
-      {{hash=eaGA}{%
-         prefix={et},
-         prefixi={e\bibinitperiod},
-         family={al.},
-         familyi={a\bibinitperiod},
-         given={G.\bibnamedelima Aad},
-         giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{aGAe2}
-    \strng{fullhash}{aGAe2}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{number}{9}
-    \field{pages}{1\bibrangedash 61}
-    \field{title}{Measurement of the Higgs boson production cross section at 7,
-  8 and 13 TeV center-of-mass energies in the channel $H \rightarrow \gamma
-  \gamma$ with the ATLAS detector}
-    \field{volume}{2014}
-    \field{journaltitle}{JHEP}
-    \field{year}{2014}
-  \endentry
-
-  \entry{ATLAS:H4l_8TeV}{article}{}
-    \name{author}{1}{}{%
-      {{hash=eaGA}{%
-         prefix={et},
-         prefixi={e\bibinitperiod},
-         family={al.},
-         familyi={a\bibinitperiod},
-         given={G.\bibnamedelima Aad},
-         giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{aGAe2}
-    \strng{fullhash}{aGAe2}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{pages}{234\bibrangedash 253}
-    \field{title}{Fiducial and differential cross sections of Higgs boson
-  production measured in the four-lepton decay channel in pp collisions at
-  $\sqrt{s} = 8$~TeV with the ATLAS detector}
-    \field{volume}{738}
-    \field{journaltitle}{Physics Letters B}
-    \field{year}{2014}
-  \endentry
-
-  \entry{ATLAS:H4l_8TeV_13TeV}{article}{}
-    \name{author}{1}{}{%
-      {{hash=cA}{%
-         family={collaboration},
-         familyi={c\bibinitperiod},
-         given={ATLAS},
-         giveni={A\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{cA1}
-    \strng{fullhash}{cA1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{title}{Measurements of the Higgs boson production cross section at
-  7, 8 and 13 TeV centre-of-mass energies and search for new physics at 13 TeV
-  in the $H \rightarrow ZZ^{*} \rightarrow
-  \ell^{+}\ell^{-}\ell^{\prime+}\ell^{\prime-}$ final state with the ATLAS
-  detector}
-    \field{journaltitle}{ATLAS-CONF-2015-059}
-    \field{year}{2015}
-  \endentry
-
-  \entry{ATLAS:H4l_Hgg_8TeV}{article}{}
-    \name{author}{1}{}{%
-      {{hash=eaGA}{%
-         prefix={et},
-         prefixi={e\bibinitperiod},
-         family={al.},
-         familyi={a\bibinitperiod},
-         given={G.\bibnamedelima Aad},
-         giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{aGAe2}
-    \strng{fullhash}{aGAe2}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{pages}{091801}
-    \field{title}{Measurements of the Total and Differential Higgs Boson
-  Production Cross Sections Combining the $H \rightarrow \gamma \gamma$ and $H
-  \rightarrow ZZ^{*} \rightarrow 4\ell$ Decay Channels at $\sqrt{s} = 8$~TeV
-  with the ATLAS Detector}
-    \field{volume}{115}
-    \field{journaltitle}{Phys. Rev. Lett.}
-    \field{year}{2014}
-  \endentry
-
-  \entry{ATLAS:H4l_Hgg_8TeV_13TeV}{article}{}
-    \name{author}{1}{}{%
-      {{hash=cA}{%
-         family={collaboration},
-         familyi={c\bibinitperiod},
-         given={ATLAS},
-         giveni={A\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{cA1}
-    \strng{fullhash}{cA1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{pages}{1\bibrangedash 61}
-    \field{title}{Measurements of the total cross sections for Higgs boson
-  production combining the $H \rightarrow \gamma \gamma$ and $H \rightarrow
-  ZZ^{*} \rightarrow 4\ell$ decay channels at 7, 8 and 13 TeV center-of-mass
-  energies with the ATLAS detector}
-    \field{volume}{ATLAS-CONF-2015-069}
-    \field{journaltitle}{ATLAS Note}
     \field{year}{2015}
   \endentry
 

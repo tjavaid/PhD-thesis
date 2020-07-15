@@ -1,0 +1,117 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {english}{}
+\contentsline {chapter}{摘要}{iii}{chapter*.1}
+\contentsline {chapter}{Abstract}{v}{section*.2}
+\contentsline {chapter}{List of Figures}{xi}{chapter*.4}
+\contentsline {chapter}{List of Tables}{xxi}{chapter*.5}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.6}
+\contentsline {chapter}{\numberline {2}Theoretical Background}{3}{chapter.7}
+\contentsline {section}{\numberline {2.1}The Standard Model}{3}{section.8}
+\contentsline {subsection}{\numberline {2.1.1}From the History}{3}{subsection.9}
+\contentsline {section}{\numberline {2.2}Fundamental Particles and underlying Interactions}{4}{section.10}
+\contentsline {subsection}{\numberline {2.2.1}Fundamental Particles}{4}{subsection.11}
+\contentsline {subsection}{\numberline {2.2.2}Fundamental Interactions}{5}{subsection.16}
+\contentsline {subsubsection}{Electroweak unification}{8}{section*.17}
+\contentsline {section}{\numberline {2.3}The Brout-Englert-Higgs Mechanism (BEH)}{9}{section.28}
+\contentsline {section}{\numberline {2.4}Phenomenology of proton-proton collisions at LHC}{12}{section.51}
+\contentsline {section}{\numberline {2.5}Higgs boson Production at LHC}{14}{section.54}
+\contentsline {section}{\numberline {2.6}Higgs Decay}{16}{section.57}
+\contentsline {chapter}{\numberline {3}The Large Hadron Collider (LHC) }{19}{chapter.59}
+\contentsline {section}{\numberline {3.1}LHC beam operations}{19}{section.62}
+\contentsline {subsection}{\numberline {3.1.1}Machine Layout and Performance}{21}{subsection.64}
+\contentsline {subsubsection}{Nominal Luminosity in terms of Beam Parameters}{22}{section*.67}
+\contentsline {section}{\numberline {3.2}Data Taking from 2015 to 2018 (Full Run 2) }{22}{section.72}
+\contentsline {section}{\numberline {3.3}LHC upgradation during Long shutdown 2 (LS2) }{24}{section.78}
+\contentsline {chapter}{\numberline {4}The Compat Muon Solenoid (CMS) detector}{27}{chapter.79}
+\contentsline {section}{\numberline {4.1}The Compact Muon Solenoid (CMS) detector}{27}{section.80}
+\contentsline {subsection}{\numberline {4.1.1}General aspects and the geometry}{27}{subsection.81}
+\contentsline {subsubsection}{The CMS magnet}{28}{section*.83}
+\contentsline {subsection}{\numberline {4.1.2}CMS Coordinate system}{29}{subsection.86}
+\contentsline {subsection}{\numberline {4.1.3}Inner Tracking System (ITS) }{30}{subsection.90}
+\contentsline {subsubsection}{The Pixel Detector}{31}{section*.92}
+\contentsline {subsubsection}{The Silicon Strip}{33}{section*.95}
+\contentsline {subsection}{\numberline {4.1.4}Electromagnetic Calorimeter (ECAL) }{33}{subsection.96}
+\contentsline {subsection}{\numberline {4.1.5}Hadron Calorimeter (HCAL)}{35}{subsection.103}
+\contentsline {subsection}{\numberline {4.1.6}CMS Muon System }{37}{subsection.107}
+\contentsline {subsubsection}{Drift Tubes (DT)}{38}{section*.109}
+\contentsline {subsubsection}{Resistive Plate Chambers (RPC)}{40}{section*.113}
+\contentsline {subsubsection}{Cathode Strip Chambers (CSC)}{40}{section*.115}
+\contentsline {subsubsection}{Improvements in CMS muon system during Run1 - Run2 and during ongoing long shutdowon 2}{41}{section*.119}
+\contentsline {section}{\numberline {4.2}CMS Trigger System }{43}{section.121}
+\contentsline {subsection}{\numberline {4.2.1}The L1 Trigger of CMS}{43}{subsection.122}
+\contentsline {subsubsection}{High-Level Trigger System (HLT)}{44}{section*.124}
+\contentsline {section}{\numberline {4.3}Worldwide LHC Computing Grid}{45}{section.125}
+\contentsline {subsection}{\numberline {4.3.1}3-Tier Architecture}{45}{subsection.127}
+\contentsline {chapter}{\numberline {5}Physics Objects}{47}{chapter.128}
+\contentsline {section}{\numberline {5.1}Reconstruction of Track and Vertex}{47}{section.129}
+\contentsline {subsection}{\numberline {5.1.1}Tag and Probe Analysis}{48}{subsection.134}
+\contentsline {section}{\numberline {5.2}Electrons and Photons}{50}{section.137}
+\contentsline {subsection}{\numberline {5.2.1}Electron and Photon Reconstruction}{50}{subsection.138}
+\contentsline {subsection}{\numberline {5.2.2}Electron Identification and Isolation}{52}{subsection.142}
+\contentsline {subsection}{\numberline {5.2.3}Electron Impact Parameter Selection}{55}{subsection.147}
+\contentsline {subsection}{\numberline {5.2.4}Electron Energy Calibrations}{56}{subsection.148}
+\contentsline {subsection}{\numberline {5.2.5}Electron Efficiency Measurements}{56}{subsection.154}
+\contentsline {section}{\numberline {5.3}Muons}{60}{section.162}
+\contentsline {subsection}{\numberline {5.3.1}Muon Reconstruction and Identification}{60}{subsection.163}
+\contentsline {subsection}{\numberline {5.3.2}Muon Isolation Requirement}{61}{subsection.165}
+\contentsline {subsection}{\numberline {5.3.3}Muon Impact Parameter Selection}{61}{subsection.167}
+\contentsline {subsection}{\numberline {5.3.4}Muon Energy Calibrations}{61}{subsection.168}
+\contentsline {subsection}{\numberline {5.3.5}Efficiency Measurements of muons}{61}{subsection.174}
+\contentsline {section}{\numberline {5.4}Photons for FSR recovery}{66}{section.192}
+\contentsline {section}{\numberline {5.5}Jets}{66}{section.200}
+\contentsline {subsection}{\numberline {5.5.1}Jet Identification}{67}{subsection.202}
+\contentsline {subsection}{\numberline {5.5.2}Jet Energy Corrections}{67}{subsection.204}
+\contentsline {subsection}{\numberline {5.5.3}B-tagging}{68}{subsection.205}
+\contentsline {subsection}{\numberline {5.5.4}Validation on data}{68}{subsection.207}
+\contentsline {section}{\numberline {5.6}Object Summary}{70}{section.209}
+\contentsline {chapter}{\numberline {6}Probing four lepton final-state for Higgs Cross section measurement}{73}{chapter.211}
+\contentsline {section}{\numberline {6.1}Introduction}{73}{section.212}
+\contentsline {section}{\numberline {6.2}Datasets and Triggers}{74}{section.214}
+\contentsline {subsection}{\numberline {6.2.1}Trigger Efficiency}{75}{subsection.215}
+\contentsline {section}{\numberline {6.3}Simulation Samples}{76}{section.217}
+\contentsline {subsubsection}{Signal Samples}{76}{section*.218}
+\contentsline {subsubsection}{Background Samples}{77}{section*.220}
+\contentsline {subsubsection}{Pileup Reweighting}{78}{section*.225}
+\contentsline {section}{\numberline {6.4}Analysis Strategy}{79}{section.227}
+\contentsline {subsection}{\numberline {6.4.1}Event Selection }{79}{subsection.229}
+\contentsline {subsubsection}{Vertex Selection}{80}{section*.230}
+\contentsline {subsubsection}{$\ensuremath {p_T}$ threshold requirements on the Triggers}{80}{section*.231}
+\contentsline {subsubsection}{Lepton Selection}{81}{section*.232}
+\contentsline {subsubsection}{Jet Selection}{81}{section*.233}
+\contentsline {subsection}{\numberline {6.4.2}ZZ Candidate Selection}{81}{subsection.234}
+\contentsline {subsection}{\numberline {6.4.3}Choice of best ZZ Candidate}{82}{subsection.239}
+\contentsline {subsection}{\numberline {6.4.4}Definition of the Fiducial Volume}{82}{subsection.240}
+\contentsline {subsection}{\numberline {6.4.5}Signal Modeling}{84}{subsection.243}
+\contentsline {subsection}{\numberline {6.4.6}Background Modeling}{85}{subsection.248}
+\contentsline {subsubsection}{$\ensuremath {\mathrm {q}}\ensuremath {\mathrm {\overline {q}}}\to \mathrm {Z}\mathrm {Z}$ Modelling}{86}{section*.251}
+\contentsline {subsubsection}{\ensuremath {\mathrm {g}\mathrm {g}\to \mathrm {Z}\mathrm {Z}}~ Modelling}{87}{section*.254}
+\contentsline {subsubsection}{Reducible Background Estimation}{88}{section*.256}
+\contentsline {paragraph}{(1) Opposite Sign (OS) method}{89}{section*.257}
+\contentsline {paragraph}{Fake Rate Application (OS Method)}{89}{section*.261}
+\contentsline {paragraph}{(2) Same Sign (SS) method}{93}{section*.268}
+\contentsline {paragraph}{Fake Rate Determination (SS Method)}{94}{section*.270}
+\contentsline {paragraph}{Fake Rate Application (SS Method)}{96}{section*.276}
+\contentsline {paragraph}{Combination of the Z+X background estimtaions}{96}{section*.283}
+\contentsline {paragraph}{Systematic Uncrertainties on Reducible Background}{97}{section*.285}
+\contentsline {subsection}{\numberline {6.4.7}Statistical Procedure}{100}{subsection.288}
+\contentsline {subsection}{\numberline {6.4.8}Extraction of $\mathrm {H}\to 4\ell $ Fiducial Cross Section}{103}{subsection.290}
+\contentsline {subsubsection}{Inclusive or Integrated Fiducial Cross section}{103}{section*.291}
+\contentsline {subsubsection}{Differential Fiducial Cross section}{105}{section*.296}
+\contentsline {section}{\numberline {6.5}Systematic Uncertainties}{109}{section.320}
+\contentsline {subsection}{\numberline {6.5.1}Experimental uncertainties sources}{109}{subsection.321}
+\contentsline {subsection}{\numberline {6.5.2}Theoretical uncertainties}{109}{subsection.323}
+\contentsline {subsection}{\numberline {6.5.3}Systematic uncertainties treatment when combining yearly measurements on data}{110}{subsection.327}
+\contentsline {section}{\numberline {6.6}Results}{111}{section.328}
+\contentsline {subsection}{\numberline {6.6.1}Measurement of Integrated Fiducial Cross Section}{111}{subsection.329}
+\contentsline {subsection}{\numberline {6.6.2}Measurement of Differential Fiducial Cross Sections}{112}{subsection.340}
+\contentsline {subsection}{\numberline {6.6.3}Comparison With ATLAS Results}{113}{subsection.351}
+\contentsline {chapter}{\numberline {7}Summary and Outlook}{125}{chapter.359}
+\contentsline {section}{\numberline {7.1}Summary of the dissertation}{125}{section.360}
+\contentsline {section}{\numberline {7.2}Outlook}{126}{section.361}
+\contentsline {chapter}{\numberline {8}Appendix}{131}{chapter.363}
+\contentsline {section}{\numberline {8.1}Samples of Higgs boson production (2016, 2017, 2018)}{131}{section.364}
+\contentsline {section}{\numberline {8.2}Signal Shapes and Efficiencies}{136}{section.371}
+\contentsline {subsection}{\numberline {8.2.1}Differential bins - Higgs boson transverse momentum}{136}{subsection.372}
+\contentsline {subsection}{\numberline {8.2.2}Differential bins - rapidity of the Higgs boson}{154}{subsection.503}
+\contentsline {subsection}{\numberline {8.2.3}Signal fits in differential bins - number of jets}{157}{subsection.522}
+\contentsline {section}{\numberline {8.3}Results with additional differential observables with full Run 2 asimov datasets}{160}{section.541}

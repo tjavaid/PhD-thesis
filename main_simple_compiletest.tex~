@@ -136,7 +136,7 @@ headsepline, % Uncomment to get a line under the header
 %\usepackage[toc,page]{appendix}
 \usepackage[figuresright]{rotating}
 \usepackage{hyperref}
-\usepackage[UTF8]{ctex}
+%\usepackage[UTF8]{ctex}
 \usepackage{CJK}
 \usepackage{lineno}\linenumbers
 \usepackage{adjustbox} % test
@@ -308,7 +308,7 @@ headsepline, % Uncomment to get a line under the header
 %	ABSTRACT PAGE
 %----------------------------------------------------------------------------------------
 
-%\include{Chapters/chinese_abstract}
+\include{Chapters/chinese_abstract}
 \include{Chapters/abstract}
 %\include{publication_list_tahir_javaid_thesis}
 
@@ -364,8 +364,8 @@ headsepline, % Uncomment to get a line under the header
 \include{Chapters/Chapter_2}  % initial draft ready 06.03.2020, revised after rep.
 \include{Chapters/Chapter_2_CMS}  % initial draft ready 06.03.2020, revised after rep.
 \include{Chapters/Chapter_3}  % initial draft ready 10.07.2020
-%
 %%
+%%%
 \chapter{Probing four lepton final-state for Higgs Cross section measurement}\label{Chapter4}
 \chaptermark{Fiducial Cross Sections for $pp\rightarrow H \rightarrow  4\ell$}
   \section{Introduction}\label{sec:Introduction}
@@ -411,11 +411,11 @@ headsepline, % Uncomment to get a line under the header
       \input{Chapters/Chapter4/Results/Differential}
      \subsection{Comparison With ATLAS Results}\label{sec:atlas_results}  % updated
       \input{Chapters/Chapter4/Results/atlas_results}
-%%    \section{Summary}\label{sec:Summary}\label{sec:Conclusion}
-%%%        \input{Chapters/Chapter4/Conclusions.tex} 
-%%\include{Chapters/Chapter_5}
-%%\include{Chapters/Chapter_6}
-%% conclusion
+%%%    \section{Summary}\label{sec:Summary}\label{sec:Conclusion}
+%%%%        \input{Chapters/Chapter4/Conclusions.tex} 
+%%%\include{Chapters/Chapter_5}
+%%%\include{Chapters/Chapter_6}
+%%% conclusion
 \include{Chapters/Chapter_7} % include as conclusion and outlook 06072020, OK
 \include{publication_list_tahir_javaid_test}
 \include{conferences_tahir_javaid}
@@ -437,22 +437,22 @@ headsepline, % Uncomment to get a line under the header
 %% \include{Appendix/Samples} \label{app:samples}
 %%\include{Appendices/AppendixC}
 %
-%% start
-%\begin{appendices}
-%\chapter{Appendix}
-% \input{Appendix/Samples}  \label{app:samples}
-%\clearpage
+% start
+\begin{appendices}
+\chapter{Appendix}
+ \input{Appendix/Samples}  \label{app:samples}
+\clearpage
 %\input{Appendix/Backgrounds}  \label{app:bkginputs}
-%%\clearpage
-%\input{Appendix/SignalInputs} \label{app:siginputs}   % need to copy effic. plot of other obs. than pt4l, and then fix the range of pages,
 %\clearpage
+\input{Appendix/SignalInputs} \label{app:siginputs}   % need to copy effic. plot of other obs. than pt4l, and then fix the range of pages,
+\clearpage
 %\input{Appendix/JetSystematics} \label{app:JetSystematics}
 %\clearpage
 %\input{Appendix/FixFrac} \label{app:fixfrac}
 %\clearpage
 %\input{Appendix/RestrictiveModelDep} \label{app:restrictive_md}
 %\clearpage
-%\input{Appendix/AlternateAsimov} \label{app:alternateasimov}
+\input{Appendix/AlternateAsimov} \label{app:alternateasimov}
 %\clearpage
 %\input{Appendix/InclusiveZ4lRatio} \label{app:InclusiveZ4lRatio}
 %\clearpage

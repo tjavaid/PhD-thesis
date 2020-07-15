@@ -1,4 +1,5 @@
-\section{Samples of exotic Higgs-like boson production and spin-parity}
+%\section{Samples of exotic Higgs-like boson production and spin-parity}
+\section{Samples of Higgs boson production (2016, 2017, 2018)}
 % \begin{table}[!h!tb]
 % \begin{center}
 % \small
@@ -277,7 +278,7 @@ Run-range & Dataset & Integrated luminosity \\
 \hline %----------------------------------------------------------------------------------------
      \end{tabular}
 \small
-    \caption{ Datasets used in the analysis. }
+    \caption{ Datasets used in the 2016 analysis. }
     \label{tab:datasets_data}
 \end{table}
 
