@@ -3,7 +3,8 @@
 \newcommand{\MarginText}[1]{\marginpar{\raggedleft\itshape\small#1}}
 \newcommand{\NewPublication}[4]{\noindent\hangindent=0em\hangafter=0 \MarginText{\color{black} #1}{\footnotesize [{\color{blue}#2}]} #3 {\footnotesize\color{ballblue}#4}\vspace{0.5em}}
 
-\large\textbf{\color{electricultramarine} Publication list of Tahir Javaid with direct contributions}\\
+%\large\textbf{\color{electricultramarine} List of publications with direct contributions}\\
+\huge\textbf{\color{electricultramarine} List of publications with direct contributions}\\
 
 \NewPublication{}{5}{Higgs cross section measurements in the four lepton final state at CMS.}{\newline Tahir Javaid on the behalf of the CMS Collaboration of LHC, CERN.\newline %
 In proceedings of XXVI Cracow Epiphany Conference on LHC Physics: Standard Model and Beyond, 7-10 Jan 2020, Cracow (Poland).\newline

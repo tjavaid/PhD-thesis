@@ -2,30 +2,13 @@ This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: main_simple.aux
 The style file: biblatex.bst
+A level-1 auxiliary file: Chapters/chinese_abstract_extended_5000-c.aux
 A level-1 auxiliary file: Chapters/abstract.aux
 A level-1 auxiliary file: Chapters/introduction.aux
-White space in argument---line 80 of file main_simple.aux
- : \citation{ATLAS-CONF-2019-025
- :                               }
-I'm skipping whatever remains of this command
 A level-1 auxiliary file: Chapters/Chapter_1.aux
 A level-1 auxiliary file: Chapters/Chapter_2.aux
 A level-1 auxiliary file: Chapters/Chapter_2_CMS.aux
 A level-1 auxiliary file: Chapters/Chapter_3.aux
-Case mismatch error between cite keys atlas-conf-2019-029 and ATLAS-CONF-2019-029
----line 321 of file main_simple.aux
- : \citation{atlas-conf-2019-029
- :                              }
-I'm skipping whatever remains of this command
-White space in argument---line 330 of file main_simple.aux
- : \citation{atlas-conf-2019-025
- :                               }
-I'm skipping whatever remains of this command
-Case mismatch error between cite keys atlas-conf-2019-032 and ATLAS-CONF-2019-032
----line 339 of file main_simple.aux
- : \citation{atlas-conf-2019-032
- :                              }
-I'm skipping whatever remains of this command
 A level-1 auxiliary file: Chapters/Chapter_7.aux
 A level-1 auxiliary file: publication_list_tahir_javaid_test.aux
 A level-1 auxiliary file: conferences_tahir_javaid.aux
@@ -43,7 +26,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 22375 items from 5000.
+Reallocated field_info (elt_size=4) to 21541 items from 5000.
 Database file #1: main_simple-blx.bib
 Database file #2: example_merged2.bib
 Warning--I didn't find a database entry for "Khachatryan:2015yvw"
@@ -52,6 +35,7 @@ Warning--I didn't find a database entry for "CMS:2016rqf"
 Warning--I didn't find a database entry for "Sirunyan:2017exp"
 Warning--I didn't find a database entry for "CMS:2018hhg"
 Warning--I didn't find a database entry for "ATLAS-CONF-2019-029"
+Warning--I didn't find a database entry for "atlas-conf-2019-025"
 Warning--I didn't find a database entry for "ATLAS:2018uso"
 Warning--I didn't find a database entry for "ATLAS-CONF-2019-032"
 Warning--I didn't find a database entry for "ATLAS:2017myr"
@@ -74,7 +58,6 @@ Warning--I didn't find a database entry for "Chatrchyan:2014fea"
 Warning--I didn't find a database entry for "pog_tnp"
 Warning--I didn't find a database entry for "jets_at_cms"
 Warning--I didn't find a database entry for "Sirunyan:2017ezt"
-Warning--I didn't find a database entry for "CMS:2019drq"
 Warning--I didn't find a database entry for "CMS:2018mmw"
 Warning--I didn't find a database entry for "CMS:2017jkd"
 Warning--I didn't find a database entry for "ATLAS:2020wny"
@@ -279,45 +262,45 @@ Too many commas in name 1 of "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R.
 while executing---line 2749 of file biblatex.bst
 Too many commas in name 1 of "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" for entry Reference28
 while executing---line 2749 of file biblatex.bst
-You've used 93 entries,
+You've used 87 entries,
             6268 wiz_defined-function locations,
-            1765 strings with 24299 characters,
-and the built_in function-call counts, 406635 in all, are:
-= -- 26103
-> -- 7591
-< -- 1538
-+ -- 8663
-- -- 2757
-* -- 28661
-:= -- 39179
+            1737 strings with 22805 characters,
+and the built_in function-call counts, 383565 in all, are:
+= -- 24708
+> -- 7099
+< -- 1442
++ -- 8235
+- -- 2619
+* -- 27164
+:= -- 37117
 add.period$ -- 0
-call.type$ -- 93
-change.case$ -- 619
+call.type$ -- 87
+change.case$ -- 577
 chr.to.int$ -- 30
-cite$ -- 184
-duplicate$ -- 44695
-empty$ -- 41277
-format.name$ -- 4997
-if$ -- 84694
+cite$ -- 172
+duplicate$ -- 42102
+empty$ -- 38856
+format.name$ -- 4693
+if$ -- 79770
 int.to.chr$ -- 0
-int.to.str$ -- 231
+int.to.str$ -- 207
 missing$ -- 0
-newline$ -- 2347
-num.names$ -- 3426
-pop$ -- 30852
+newline$ -- 2219
+num.names$ -- 3162
+pop$ -- 28880
 preamble$ -- 1
-purify$ -- 1054
+purify$ -- 994
 quote$ -- 0
-skip$ -- 12853
+skip$ -- 11963
 stack$ -- 0
-substring$ -- 42008
-swap$ -- 10936
-text.length$ -- 1715
+substring$ -- 40045
+swap$ -- 10270
+text.length$ -- 1613
 text.prefix$ -- 2
 top$ -- 1
-type$ -- 3130
+type$ -- 2926
 warning$ -- 0
-while$ -- 4743
+while$ -- 4478
 width$ -- 0
-write$ -- 2255
-(There were 103 error messages)
+write$ -- 2133
+(There were 99 error messages)

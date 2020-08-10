@@ -3,7 +3,8 @@
 \newcommand{\MarginText}[1]{\marginpar{\raggedleft\itshape\small#1}}
 \newcommand{\NewPublication}[4]{\noindent\hangindent=0em\hangafter=0 \MarginText{\color{black} #1}{\footnotesize [{\color{blue}#2}]} #3 {\footnotesize\color{ballblue}#4}\vspace{0.5em}}
 
-\large\textbf{\color{electricultramarine} List of participation or presentation in conferences, schools, poster sessions}\\
+%\large\textbf{\color{electricultramarine} List of attended conferences / workshops}\\
+\huge\textbf{\color{electricultramarine} List of attended conferences / workshops}\\
 
 %\spacedlowsmallcaps{Scholar activities: Talks and poster presentations in conferences}\vspace{1em}
 
@@ -39,7 +40,7 @@ The 3rd China LHC Physics Workshop (CLHCP 2017), 22-24 December 2017, Nanjing Un
 
 \clearpage
 %\spacedlowsmallcaps{Scholar activities: Invited talk in Seminar}\vspace{1em}
-\large\textbf{\color{electricultramarine} Invited talk in Seminar}\\
+\huge\textbf{\color{electricultramarine} Invited talk in Seminar}\\
 
 \NewPublication{}{1}{CERN computing environment and Higgs measurements at CERN.}{%
 Conducted a seminar at Department of Physics, University of the Punjab, Lahore-Pakistan.
@@ -51,7 +52,7 @@ December 18, 2019.\\
 %   Schools
 %----------------------------------------------------------------------------------------
 %\spacedlowsmallcaps{Scholar activities: Participation in schools on High Energy Physics}\vspace{1em}
-\large\textbf{\color{electricultramarine} Participation in schools on High Energy Physics}\\
+\huge\textbf{\color{electricultramarine} Participation in schools on High Energy Physics}\\
 
 \NewPublication{}{2}{2019 CERN-Fermilab HCP Summer School}{%
 28 August 2019 to 6 September 2019, CERN Geneva, Switzerland.

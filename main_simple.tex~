@@ -304,8 +304,8 @@ headsepline, % Uncomment to get a line under the header
 %----------------------------------------------------------------------------------------
 %	ABSTRACT PAGE
 %----------------------------------------------------------------------------------------
-
-%\include{Chapters/chinese_abstract}
+\include{Frontinfo.tex}
+\include{Chapters/chinese_abstract}
 \include{Chapters/abstract}
 %\include{publication_list_tahir_javaid_thesis}
 

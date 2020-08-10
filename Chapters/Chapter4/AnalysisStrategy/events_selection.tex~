@@ -34,7 +34,7 @@ Jets are reconstructed with $p_T \ge 30$~GeV within $|\eta|\le 4.7$, discussed i
 
 Four-lepton candidates are built from the selected leptons, %four-lepton candidates are built %from what we call {\bf selected leptons}, 
 %which are the tight leptons (defined in sections \ref{sec:eleID} and  \ref{sec:muonReco}) that 
-that pass the ${\rm SIP_{3D}} < 4$ vertex constraint
+that pass the ${\rm SIP_{3D}} < 4$~\footnote{${\rm SIP_{3D}}$ is significance of impact parameter obtained by dividing the impact parameter with associated uncertainty} vertex constraint
 and the isolation cuts (defined in sections \ref{sec:eleID} and \ref{sec:muoniso}),
 where FSR photons are subtracted as briefed in Section \ref{sec:FSRphotons}.
 Cross cleaning of the leptons is made
