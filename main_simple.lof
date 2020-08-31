@@ -1,6 +1,6 @@
+\addvspace {10\p@ }
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {english}{}
-\addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces The elementary particles given in three generations of matter, the gauge bosons and the Higgs boson.\relax }}{6}{figure.caption.22}
@@ -66,11 +66,11 @@
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{62}{figure.caption.177}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{62}{figure.caption.177}
 \contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{62}{figure.caption.177}
-\contentsline {figure}{\numberline {5.13}{\ignorespaces Reconstruction and identification efficiencies of muons at low \ensuremath {p_T}, measured with the $T\&P$ method on events, in bins of \ensuremath {p_T}in barrel (left) and endcaps (center), and in terms of $\eta $ for $\ensuremath {p_T}> 7\GeV $ (right). In upper panel of each diagram, the larger uncertainty bars include also the systematical uncertainties, while the smaller ones are purely statistical. In the lower panel showing the ratio of two efficiencies, black uncertainty bars are for statistical uncertainty, the orange rectangles for the systematical uncertainty and the violet rectangles include both uncertainties.\relax }}{63}{figure.caption.184}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Reconstruction and identification efficiencies of muons at low \ensuremath {p_T}, measured with the $TnP$ method on events, in bins of~\ensuremath {p_T}~ in barrel (left) and endcaps (center), and in terms of $\eta $ for $\ensuremath {p_T}> 7\GeV $ (right). In upper panel of each diagram, the larger uncertainty bars include also the systematical uncertainties, while the smaller ones are purely statistical. In the lower panel showing the ratio of two efficiencies, black uncertainty bars are for statistical uncertainty, the orange rectangles for the systematical uncertainty and the violet rectangles include both uncertainties.\relax }}{63}{figure.caption.184}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{63}{figure.caption.184}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{63}{figure.caption.184}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{63}{figure.caption.184}
-\contentsline {figure}{\numberline {5.14}{\ignorespaces Efficiency of the muon impact parameter requirements, measured with the $T\&P$ method on $\mathrm {Z}$ events, in bins of \ensuremath {p_T}in barrel (left) and endcaps (center), and in terms of $\eta $ for all $\ensuremath {p_T}$ (right). In upper panel, the larger uncertainty bars include also the systematical uncertainties, while the smaller ones are purely statistical. In the lower panel showing the ratio of two efficiencies, black error bars are for statistical uncertainty, the orange rectangles for the systematical uncertainty and the violet rectangles include both uncertainties.\relax }}{64}{figure.caption.189}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Efficiency of the muon impact parameter requirements, measured with the $TnP$ method on $\mathrm {Z}$ events, in bins of \ensuremath {p_T}in barrel (left) and endcaps (center), and in terms of $\eta $ for all $\ensuremath {p_T}$ (right). In upper panel, the larger uncertainty bars include also the systematical uncertainties, while the smaller ones are purely statistical. In the lower panel showing the ratio of two efficiencies, black error bars are for statistical uncertainty, the orange rectangles for the systematical uncertainty and the violet rectangles include both uncertainties.\relax }}{64}{figure.caption.189}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{64}{figure.caption.189}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{64}{figure.caption.189}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{64}{figure.caption.189}
@@ -160,181 +160,182 @@
 \contentsline {figure}{\numberline {6.33}{\ignorespaces Left(Right): Higgs differential cross section as a function of transverse momentum of the leading jet with ATLAS (CMS) using an integrated luminosity of 139 $\ensuremath {\mathrm {fb^{-1}}}$ (137.1 $\ensuremath {\mathrm {fb^{-1}}}$). Results are shown with theory prediction in each experiment as described in \ref {theory_pred}. \relax }}{124}{figure.caption.366}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {7.1}{\ignorespaces Higgs event signature\relax }}{126}{figure.caption.370}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Expected Higgs inclusive cross section at 300 ~\ensuremath {\mathrm {fb^{-1}}}~\relax }}{127}{figure.caption.371}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Example signal shapes at reconstruction level for a resonance of m(4$\ell $) in $4e$ final state for the $gg\rightarrow \mathrm {H}$ production mode from {\sc powheg+JHUGen} in different bins of $\ensuremath {p_T}(\mathrm {H})$. The black curve represents events which do not pass the fiducial volume selection. The curve has no effect on the result. \relax }}{137}{figure.caption.381}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$0.0 < \ensuremath {p_T}(\mathrm {H}) < 15.0 $}}}{137}{figure.caption.381}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$15.0 < \ensuremath {p_T}(\mathrm {H}) < 30.0$}}}{137}{figure.caption.381}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$30.0 < \ensuremath {p_T}(\mathrm {H}) < 45.0$}}}{137}{figure.caption.381}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$45.0 < \ensuremath {p_T}(\mathrm {H}) < 80.0$}}}{137}{figure.caption.381}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$80.0 < \ensuremath {p_T}(\mathrm {H}) < 120.0$}}}{137}{figure.caption.381}
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$120.0 < \ensuremath {p_T}(\mathrm {H}) < 200.0$}}}{137}{figure.caption.381}
-\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$200.0 < \ensuremath {p_T}(\mathrm {H}) < 13000.0$}}}{137}{figure.caption.381}
-\contentsline {figure}{\numberline {8.2}{\ignorespaces Example signal shapes at reconstruction level for a resonance of m(4$\ell $) in $4\mu $ final state for the $gg\rightarrow \mathrm {H}$ production mode from {\sc powheg+JHUGen} in different bins of $\ensuremath {p_T}(\mathrm {H})$. The black curve represents events which do not pass the fiducial volume selection. The curve has no effect on the result. \relax }}{138}{figure.caption.389}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$0.0 < \ensuremath {p_T}(\mathrm {H}) < 15.0 $}}}{138}{figure.caption.389}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$15.0 < \ensuremath {p_T}(\mathrm {H}) < 30.0$}}}{138}{figure.caption.389}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$30.0 < \ensuremath {p_T}(\mathrm {H}) < 45.0$}}}{138}{figure.caption.389}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$45.0 < \ensuremath {p_T}(\mathrm {H}) < 80.0$}}}{138}{figure.caption.389}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$80.0 < \ensuremath {p_T}(\mathrm {H}) < 120.0$}}}{138}{figure.caption.389}
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$120.0 < \ensuremath {p_T}(\mathrm {H}) < 200.0$}}}{138}{figure.caption.389}
-\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$200.0 < \ensuremath {p_T}(\mathrm {H}) < 13000.0$}}}{138}{figure.caption.389}
-\contentsline {figure}{\numberline {8.3}{\ignorespaces Example signal shapes at reconstruction level for a resonance of m(4$\ell $) in $2e2\mu $ final state for the $VBF$ production mode from {\sc powheg+JHUGen} in different bins of $\ensuremath {p_T}(\mathrm {H})$. The black curve represents events which do not pass the fiducial volume selection. The curve has no effect on the result. \relax }}{139}{figure.caption.397}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$0.0 < \ensuremath {p_T}(\mathrm {H}) < 15.0 $}}}{139}{figure.caption.397}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$15.0 < \ensuremath {p_T}(\mathrm {H}) < 30.0$}}}{139}{figure.caption.397}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$30.0 < \ensuremath {p_T}(\mathrm {H}) < 45.0$}}}{139}{figure.caption.397}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$45.0 < \ensuremath {p_T}(\mathrm {H}) < 80.0$}}}{139}{figure.caption.397}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$80.0 < \ensuremath {p_T}(\mathrm {H}) < 120.0$}}}{139}{figure.caption.397}
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$120.0 < \ensuremath {p_T}(\mathrm {H}) < 200.0$}}}{139}{figure.caption.397}
-\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$200.0 < \ensuremath {p_T}(\mathrm {H}) < 13000.0$}}}{139}{figure.caption.397}
-\contentsline {figure}{\numberline {8.4}{\ignorespaces Example signal shapes at reconstruction level for a resonance of m(4$\ell $) in $4e$ final state for the $VBF$ production mode from {\sc powheg+JHUGen} in different bins of $\ensuremath {p_T}(\mathrm {H})$. The black curve represents events which do not pass the fiducial volume selection. The curve has no effect on the result. \relax }}{140}{figure.caption.405}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$0.0 < \ensuremath {p_T}(\mathrm {H}) < 15.0 $}}}{140}{figure.caption.405}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$15.0 < \ensuremath {p_T}(\mathrm {H}) < 30.0$}}}{140}{figure.caption.405}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$30.0 < \ensuremath {p_T}(\mathrm {H}) < 45.0$}}}{140}{figure.caption.405}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$45.0 < \ensuremath {p_T}(\mathrm {H}) < 80.0$}}}{140}{figure.caption.405}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$80.0 < \ensuremath {p_T}(\mathrm {H}) < 120.0$}}}{140}{figure.caption.405}
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$120.0 < \ensuremath {p_T}(\mathrm {H}) < 200.0$}}}{140}{figure.caption.405}
-\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$200.0 < \ensuremath {p_T}(\mathrm {H}) < 13000.0$}}}{140}{figure.caption.405}
-\contentsline {figure}{\numberline {8.5}{\ignorespaces Example signal shapes at reconstruction level for a resonance of m(4$\ell $) in $4\mu $ final state for the $VBF$ production mode from {\sc powheg+JHUGen} in different bins of $\ensuremath {p_T}(\mathrm {H})$. The black curve represents events which do not pass the fiducial volume selection. The curve has no effect on the result. \relax }}{141}{figure.caption.413}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$0.0 < \ensuremath {p_T}(\mathrm {H}) < 15.0 $}}}{141}{figure.caption.413}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$15.0 < \ensuremath {p_T}(\mathrm {H}) < 30.0$}}}{141}{figure.caption.413}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$30.0 < \ensuremath {p_T}(\mathrm {H}) < 45.0$}}}{141}{figure.caption.413}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$45.0 < \ensuremath {p_T}(\mathrm {H}) < 80.0$}}}{141}{figure.caption.413}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$80.0 < \ensuremath {p_T}(\mathrm {H}) < 120.0$}}}{141}{figure.caption.413}
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$120.0 < \ensuremath {p_T}(\mathrm {H}) < 200.0$}}}{141}{figure.caption.413}
-\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$200.0 < \ensuremath {p_T}(\mathrm {H}) < 13000.0$}}}{141}{figure.caption.413}
-\contentsline {figure}{\numberline {8.6}{\ignorespaces Example signal shapes at reconstruction level for a resonance of m(4$\ell $) in $2e2\mu $ final state for the $WH$ production mode from {\sc powheg+JHUGen} in different bins of $\ensuremath {p_T}(\mathrm {H})$. The black curve represents events which do not pass the fiducial volume selection. The curve has no effect on the result. \relax }}{142}{figure.caption.421}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$0.0 < \ensuremath {p_T}(\mathrm {H}) < 15.0 $}}}{142}{figure.caption.421}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$15.0 < \ensuremath {p_T}(\mathrm {H}) < 30.0$}}}{142}{figure.caption.421}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$30.0 < \ensuremath {p_T}(\mathrm {H}) < 45.0$}}}{142}{figure.caption.421}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$45.0 < \ensuremath {p_T}(\mathrm {H}) < 80.0$}}}{142}{figure.caption.421}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$80.0 < \ensuremath {p_T}(\mathrm {H}) < 120.0$}}}{142}{figure.caption.421}
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$120.0 < \ensuremath {p_T}(\mathrm {H}) < 200.0$}}}{142}{figure.caption.421}
-\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$200.0 < \ensuremath {p_T}(\mathrm {H}) < 13000.0$}}}{142}{figure.caption.421}
-\contentsline {figure}{\numberline {8.7}{\ignorespaces Example signal shapes at reconstruction level for a resonance of m(4$\ell $) in $4e$ final state for the $WH$ production mode from {\sc powheg+JHUGen} in different bins of $\ensuremath {p_T}(\mathrm {H})$. The black curve represents events which do not pass the fiducial volume selection. The curve has no effect on the result. \relax }}{143}{figure.caption.429}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$0.0 < \ensuremath {p_T}(\mathrm {H}) < 15.0 $}}}{143}{figure.caption.429}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$15.0 < \ensuremath {p_T}(\mathrm {H}) < 30.0$}}}{143}{figure.caption.429}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$30.0 < \ensuremath {p_T}(\mathrm {H}) < 45.0$}}}{143}{figure.caption.429}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$45.0 < \ensuremath {p_T}(\mathrm {H}) < 80.0$}}}{143}{figure.caption.429}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$80.0 < \ensuremath {p_T}(\mathrm {H}) < 120.0$}}}{143}{figure.caption.429}
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$120.0 < \ensuremath {p_T}(\mathrm {H}) < 200.0$}}}{143}{figure.caption.429}
-\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$200.0 < \ensuremath {p_T}(\mathrm {H}) < 13000.0$}}}{143}{figure.caption.429}
-\contentsline {figure}{\numberline {8.8}{\ignorespaces Example signal shapes at reconstruction level for a resonance of m(4$\ell $) in $4\mu $ final state for the $gg\rightarrow \mathrm {H}$ production mode from {\sc powheg+JHUGen} in different bins of $\ensuremath {p_T}(\mathrm {H})$. The black curve represents events which do not pass the fiducial volume selection. The curve has no effect on the result. \relax }}{144}{figure.caption.437}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$0.0 < \ensuremath {p_T}(\mathrm {H}) < 15.0 $}}}{144}{figure.caption.437}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$15.0 < \ensuremath {p_T}(\mathrm {H}) < 30.0$}}}{144}{figure.caption.437}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$30.0 < \ensuremath {p_T}(\mathrm {H}) < 45.0$}}}{144}{figure.caption.437}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$45.0 < \ensuremath {p_T}(\mathrm {H}) < 80.0$}}}{144}{figure.caption.437}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$80.0 < \ensuremath {p_T}(\mathrm {H}) < 120.0$}}}{144}{figure.caption.437}
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$120.0 < \ensuremath {p_T}(\mathrm {H}) < 200.0$}}}{144}{figure.caption.437}
-\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$200.0 < \ensuremath {p_T}(\mathrm {H}) < 13000.0$}}}{144}{figure.caption.437}
-\contentsline {figure}{\numberline {8.9}{\ignorespaces Example signal shapes at reconstruction level for a resonance of m(4$\ell $) in $2e2\mu $ final state for the $ZH$ production mode from {\sc powheg+JHUGen} in different bins of $\ensuremath {p_T}(\mathrm {H})$. The black curve represents events which do not pass the fiducial volume selection. The curve has no effect on the result. \relax }}{145}{figure.caption.445}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$0.0 < \ensuremath {p_T}(\mathrm {H}) < 15.0 $}}}{145}{figure.caption.445}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$15.0 < \ensuremath {p_T}(\mathrm {H}) < 30.0$}}}{145}{figure.caption.445}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$30.0 < \ensuremath {p_T}(\mathrm {H}) < 45.0$}}}{145}{figure.caption.445}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$45.0 < \ensuremath {p_T}(\mathrm {H}) < 80.0$}}}{145}{figure.caption.445}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$80.0 < \ensuremath {p_T}(\mathrm {H}) < 120.0$}}}{145}{figure.caption.445}
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$120.0 < \ensuremath {p_T}(\mathrm {H}) < 200.0$}}}{145}{figure.caption.445}
-\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$200.0 < \ensuremath {p_T}(\mathrm {H}) < 13000.0$}}}{145}{figure.caption.445}
-\contentsline {figure}{\numberline {8.10}{\ignorespaces Example signal shapes at reconstruction level for a resonance of m(4$\ell $) in $4e$ final state for the $ZH$ production mode from {\sc powheg+JHUGen} in different bins of $\ensuremath {p_T}(\mathrm {H})$. The black curve represents events which do not pass the fiducial volume selection. The curve has no effect on the result. \relax }}{146}{figure.caption.453}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$0.0 < \ensuremath {p_T}(\mathrm {H}) < 15.0 $}}}{146}{figure.caption.453}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$15.0 < \ensuremath {p_T}(\mathrm {H}) < 30.0$}}}{146}{figure.caption.453}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$30.0 < \ensuremath {p_T}(\mathrm {H}) < 45.0$}}}{146}{figure.caption.453}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$45.0 < \ensuremath {p_T}(\mathrm {H}) < 80.0$}}}{146}{figure.caption.453}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$80.0 < \ensuremath {p_T}(\mathrm {H}) < 120.0$}}}{146}{figure.caption.453}
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$120.0 < \ensuremath {p_T}(\mathrm {H}) < 200.0$}}}{146}{figure.caption.453}
-\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$200.0 < \ensuremath {p_T}(\mathrm {H}) < 13000.0$}}}{146}{figure.caption.453}
-\contentsline {figure}{\numberline {8.11}{\ignorespaces Example signal shapes at reconstruction level for a resonance of m(4$\ell $) in $4\mu $ final state for the $ZH$ production mode from {\sc powheg+JHUGen} in different bins of $\ensuremath {p_T}(\mathrm {H})$. The black curve represents events which do not pass the fiducial volume selection. The curve has no effect on the result. \relax }}{147}{figure.caption.461}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$0.0 < \ensuremath {p_T}(\mathrm {H}) < 15.0 $}}}{147}{figure.caption.461}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$15.0 < \ensuremath {p_T}(\mathrm {H}) < 30.0$}}}{147}{figure.caption.461}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$30.0 < \ensuremath {p_T}(\mathrm {H}) < 45.0$}}}{147}{figure.caption.461}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$45.0 < \ensuremath {p_T}(\mathrm {H}) < 80.0$}}}{147}{figure.caption.461}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$80.0 < \ensuremath {p_T}(\mathrm {H}) < 120.0$}}}{147}{figure.caption.461}
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$120.0 < \ensuremath {p_T}(\mathrm {H}) < 200.0$}}}{147}{figure.caption.461}
-\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$200.0 < \ensuremath {p_T}(\mathrm {H}) < 13000.0$}}}{147}{figure.caption.461}
-\contentsline {figure}{\numberline {8.12}{\ignorespaces Example signal shapes at reconstruction level for a resonance of m(4$\ell $) in $2e2\mu $ final state for the $ttH$ production mode from {\sc powheg+JHUGen} in different bins of $\ensuremath {p_T}(\mathrm {H})$. The black curve represents events which do not pass the fiducial volume selection. The curve has no effect on the result. \relax }}{148}{figure.caption.469}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$0.0 < \ensuremath {p_T}(\mathrm {H}) < 15.0 $}}}{148}{figure.caption.469}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$15.0 < \ensuremath {p_T}(\mathrm {H}) < 30.0$}}}{148}{figure.caption.469}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$30.0 < \ensuremath {p_T}(\mathrm {H}) < 45.0$}}}{148}{figure.caption.469}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$45.0 < \ensuremath {p_T}(\mathrm {H}) < 80.0$}}}{148}{figure.caption.469}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$80.0 < \ensuremath {p_T}(\mathrm {H}) < 120.0$}}}{148}{figure.caption.469}
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$120.0 < \ensuremath {p_T}(\mathrm {H}) < 200.0$}}}{148}{figure.caption.469}
-\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$200.0 < \ensuremath {p_T}(\mathrm {H}) < 13000.0$}}}{148}{figure.caption.469}
-\contentsline {figure}{\numberline {8.13}{\ignorespaces Example signal shapes at reconstruction level for a resonance of m(4$\ell $) in $4e$ final state for the $ttH$ production mode from {\sc powheg+JHUGen} in different bins of $\ensuremath {p_T}(\mathrm {H})$. The black curve represents events which do not pass the fiducial volume selection. The curve has no effect on the result. \relax }}{149}{figure.caption.477}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$0.0 < \ensuremath {p_T}(\mathrm {H}) < 15.0 $}}}{149}{figure.caption.477}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$15.0 < \ensuremath {p_T}(\mathrm {H}) < 30.0$}}}{149}{figure.caption.477}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$30.0 < \ensuremath {p_T}(\mathrm {H}) < 45.0$}}}{149}{figure.caption.477}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$45.0 < \ensuremath {p_T}(\mathrm {H}) < 80.0$}}}{149}{figure.caption.477}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$80.0 < \ensuremath {p_T}(\mathrm {H}) < 120.0$}}}{149}{figure.caption.477}
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$120.0 < \ensuremath {p_T}(\mathrm {H}) < 200.0$}}}{149}{figure.caption.477}
-\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$200.0 < \ensuremath {p_T}(\mathrm {H}) < 13000.0$}}}{149}{figure.caption.477}
-\contentsline {figure}{\numberline {8.14}{\ignorespaces Example signal shapes at reconstruction level for a resonance of m(4$\ell $) in $4\mu $ final state for the $ttH$ production mode from {\sc powheg+JHUGen} in different bins of $\ensuremath {p_T}(\mathrm {H})$. The black curve represents events which do not pass the fiducial volume selection. The curve has no effect on the result. \relax }}{150}{figure.caption.485}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$0.0 < \ensuremath {p_T}(\mathrm {H}) < 15.0 $}}}{150}{figure.caption.485}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$15.0 < \ensuremath {p_T}(\mathrm {H}) < 30.0$}}}{150}{figure.caption.485}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$30.0 < \ensuremath {p_T}(\mathrm {H}) < 45.0$}}}{150}{figure.caption.485}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$45.0 < \ensuremath {p_T}(\mathrm {H}) < 80.0$}}}{150}{figure.caption.485}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$80.0 < \ensuremath {p_T}(\mathrm {H}) < 120.0$}}}{150}{figure.caption.485}
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$120.0 < \ensuremath {p_T}(\mathrm {H}) < 200.0$}}}{150}{figure.caption.485}
-\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$200.0 < \ensuremath {p_T}(\mathrm {H}) < 13000.0$}}}{150}{figure.caption.485}
-\contentsline {figure}{\numberline {8.15}{\ignorespaces Efficiency matrices for $\ensuremath {p_T}({\rm H})$ for different SM production modes in the $4e$ final state. \relax }}{151}{figure.caption.493}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$gg\rightarrow $H ({\sc powheg+JHUgen})}}}{151}{figure.caption.493}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {VBF ({\sc powheg})}}}{151}{figure.caption.493}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {WH ({\sc pythia})}}}{151}{figure.caption.493}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {ZH ({\sc pythia})}}}{151}{figure.caption.493}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {ttH ({\sc pythia})}}}{151}{figure.caption.493}
-\contentsline {figure}{\numberline {8.16}{\ignorespaces Efficiency matrices for $\ensuremath {p_T}({\rm H})$ for different SM production modes in the $4\mu $ final state. \relax }}{152}{figure.caption.499}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$gg\rightarrow $H ({\sc powheg+JHUgen})}}}{152}{figure.caption.499}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {VBF ({\sc powheg})}}}{152}{figure.caption.499}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {WH ({\sc pythia})}}}{152}{figure.caption.499}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {ZH ({\sc pythia})}}}{152}{figure.caption.499}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {ttH ({\sc pythia})}}}{152}{figure.caption.499}
-\contentsline {figure}{\numberline {8.17}{\ignorespaces Efficiency matrices for $\ensuremath {p_T}({\rm H})$ for different SM production modes in the $2e2\mu $ final state. \relax }}{153}{figure.caption.505}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$gg\rightarrow $H ({\sc powheg+JHUgen})}}}{153}{figure.caption.505}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {VBF ({\sc powheg})}}}{153}{figure.caption.505}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {WH ({\sc pythia})}}}{153}{figure.caption.505}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {ZH ({\sc pythia})}}}{153}{figure.caption.505}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {ttH ({\sc pythia})}}}{153}{figure.caption.505}
-\contentsline {figure}{\numberline {8.18}{\ignorespaces Efficiency matrices for $|y({\rm H})|$ for different SM production modes in the $4e$ final state. \relax }}{154}{figure.caption.512}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$gg\rightarrow $H ({\sc powheg+JHUgen})}}}{154}{figure.caption.512}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {VBF ({\sc powheg})}}}{154}{figure.caption.512}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {WH ({\sc pythia})}}}{154}{figure.caption.512}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {ZH ({\sc pythia})}}}{154}{figure.caption.512}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {ttH ({\sc pythia})}}}{154}{figure.caption.512}
-\contentsline {figure}{\numberline {8.19}{\ignorespaces Efficiency matrices for $|y({\rm H})|$ for different SM production modes in the $4\mu $ final state. \relax }}{155}{figure.caption.518}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$gg\rightarrow $H ({\sc powheg+JHUgen})}}}{155}{figure.caption.518}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {VBF ({\sc powheg})}}}{155}{figure.caption.518}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {WH ({\sc pythia})}}}{155}{figure.caption.518}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {ZH ({\sc pythia})}}}{155}{figure.caption.518}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {ttH ({\sc pythia})}}}{155}{figure.caption.518}
-\contentsline {figure}{\numberline {8.20}{\ignorespaces Efficiency matrices for $|y({\rm H})|$ for different SM production modes in the $2e2\mu $ final state. \relax }}{156}{figure.caption.524}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$gg\rightarrow $H ({\sc powheg+JHUgen})}}}{156}{figure.caption.524}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {VBF ({\sc powheg})}}}{156}{figure.caption.524}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {WH ({\sc pythia})}}}{156}{figure.caption.524}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {ZH ({\sc pythia})}}}{156}{figure.caption.524}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {ttH ({\sc pythia})}}}{156}{figure.caption.524}
-\contentsline {figure}{\numberline {8.21}{\ignorespaces Efficiency matrices for N(jets) for different SM production modes in the $4e$ final state. \relax }}{157}{figure.caption.531}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$gg\rightarrow $H ({\sc powheg+JHUgen})}}}{157}{figure.caption.531}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {VBF ({\sc powheg})}}}{157}{figure.caption.531}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {WH ({\sc pythia})}}}{157}{figure.caption.531}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {ZH ({\sc pythia})}}}{157}{figure.caption.531}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {ttH ({\sc pythia})}}}{157}{figure.caption.531}
-\contentsline {figure}{\numberline {8.22}{\ignorespaces Efficiency matrices for N(jets) for different SM production modes in the $4\mu $ final state. \relax }}{158}{figure.caption.537}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$gg\rightarrow $H ({\sc powheg+JHUgen})}}}{158}{figure.caption.537}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {VBF ({\sc powheg})}}}{158}{figure.caption.537}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {WH ({\sc pythia})}}}{158}{figure.caption.537}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {ZH ({\sc pythia})}}}{158}{figure.caption.537}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {ttH ({\sc pythia})}}}{158}{figure.caption.537}
-\contentsline {figure}{\numberline {8.23}{\ignorespaces Efficiency matrices for N(jets)for different SM production modes in the $2e2\mu $ final state. \relax }}{159}{figure.caption.543}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$gg\rightarrow $H ({\sc powheg+JHUgen})}}}{159}{figure.caption.543}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {VBF ({\sc powheg})}}}{159}{figure.caption.543}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {WH ({\sc pythia})}}}{159}{figure.caption.543}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {ZH ({\sc pythia})}}}{159}{figure.caption.543}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {ttH ({\sc pythia})}}}{159}{figure.caption.543}
-\contentsline {figure}{\numberline {8.24}{\ignorespaces Differential fiducial cross section results using full Run 2 toy data for $\Phi $, $\Phi _{1}$, $\mathrm {m}(\mathrm {Z}_{1})$, $\mathrm {m}(\mathrm {Z}_{2})$ and $|\qopname \relax o{cos}\theta ^{*}|$ in $\ensuremath {\mathrm {H}\to 4\ell }$ and comparison with the theoretical predictions. \relax }}{161}{figure.caption.550}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$\Phi $}}}{161}{figure.caption.550}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\Phi _{1}$}}}{161}{figure.caption.550}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$\mathrm {m}(\mathrm {Z}_{2})$}}}{161}{figure.caption.550}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$\mathrm {m}(\mathrm {Z}_{1})$}}}{161}{figure.caption.550}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$|\qopname \relax o{cos}\theta ^{*}|$}}}{161}{figure.caption.550}
-\contentsline {figure}{\numberline {8.25}{\ignorespaces Differential fiducial cross section results using full Run 2 toy data for $|\qopname \relax o{cos}\theta _{1}|$, $|\qopname \relax o{cos}\theta _{2}|$, number of jets (within $|\eta |<4.7$) and $\ensuremath {p_T}$ of leading jet (within $|\eta |<4.7$) in $\ensuremath {\mathrm {H}\to 4\ell }$ and comparison with the theoretical predictions. Systematic uncertainty is indicated by red bars and black bars show total statistical and the systematic uncertainties, combined in quadraa ture. The blue and brown colors show the theoretical predictions. The acceptances and the theoretical uncertainties in differential bins are computed using {\sc powheg}. Sub-dominant production contribuu tions XH $=$ VBF $+$ VH $+$ $\ensuremath {t\bar {t}{\rm H}}$ are shown in green separately. The systematic uncertainties correspond to the generators accuracy are also takee n in to account for differential predictions. The fraction of $4\mu $, $4e$ and $2e2\mu $ in each differential bin is allowed to float in fit.\relax }}{162}{figure.caption.556}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$|\qopname \relax o{cos}\theta _{1}|$}}}{162}{figure.caption.556}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$|\qopname \relax o{cos}\theta _{2}|$}}}{162}{figure.caption.556}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {N(jets) with $|\eta |<4.7$}}}{162}{figure.caption.556}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {\ensuremath {p_T}of leading jet with $|\eta |<4.7$}}}{162}{figure.caption.556}
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Example signal shapes at reconstruction level for a resonance of m(4$\ell $) in $4e$ final state for the $gg\rightarrow \mathrm {H}$ production mode from {\sc powheg+JHUGen} in different bins of $\ensuremath {p_T}(\mathrm {H})$. The black curve represents events which do not pass the fiducial volume selection. The curve has no effect on the result. \relax }}{135}{figure.caption.382}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$0.0 < \ensuremath {p_T}(\mathrm {H}) < 15.0 $}}}{135}{figure.caption.382}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$15.0 < \ensuremath {p_T}(\mathrm {H}) < 30.0$}}}{135}{figure.caption.382}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$30.0 < \ensuremath {p_T}(\mathrm {H}) < 45.0$}}}{135}{figure.caption.382}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$45.0 < \ensuremath {p_T}(\mathrm {H}) < 80.0$}}}{135}{figure.caption.382}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$80.0 < \ensuremath {p_T}(\mathrm {H}) < 120.0$}}}{135}{figure.caption.382}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$120.0 < \ensuremath {p_T}(\mathrm {H}) < 200.0$}}}{135}{figure.caption.382}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$200.0 < \ensuremath {p_T}(\mathrm {H}) < 13000.0$}}}{135}{figure.caption.382}
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Example signal shapes at reconstruction level for a resonance of m(4$\ell $) in $4\mu $ final state for the $gg\rightarrow \mathrm {H}$ production mode from {\sc powheg+JHUGen} in different bins of $\ensuremath {p_T}(\mathrm {H})$. The black curve represents events which do not pass the fiducial volume selection. The curve has no effect on the result. \relax }}{136}{figure.caption.390}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$0.0 < \ensuremath {p_T}(\mathrm {H}) < 15.0 $}}}{136}{figure.caption.390}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$15.0 < \ensuremath {p_T}(\mathrm {H}) < 30.0$}}}{136}{figure.caption.390}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$30.0 < \ensuremath {p_T}(\mathrm {H}) < 45.0$}}}{136}{figure.caption.390}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$45.0 < \ensuremath {p_T}(\mathrm {H}) < 80.0$}}}{136}{figure.caption.390}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$80.0 < \ensuremath {p_T}(\mathrm {H}) < 120.0$}}}{136}{figure.caption.390}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$120.0 < \ensuremath {p_T}(\mathrm {H}) < 200.0$}}}{136}{figure.caption.390}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$200.0 < \ensuremath {p_T}(\mathrm {H}) < 13000.0$}}}{136}{figure.caption.390}
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Example signal shapes at reconstruction level for a resonance of m(4$\ell $) in $2e2\mu $ final state for the $VBF$ production mode from {\sc powheg+JHUGen} in different bins of $\ensuremath {p_T}(\mathrm {H})$. The black curve represents events which do not pass the fiducial volume selection. The curve has no effect on the result. \relax }}{137}{figure.caption.398}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$0.0 < \ensuremath {p_T}(\mathrm {H}) < 15.0 $}}}{137}{figure.caption.398}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$15.0 < \ensuremath {p_T}(\mathrm {H}) < 30.0$}}}{137}{figure.caption.398}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$30.0 < \ensuremath {p_T}(\mathrm {H}) < 45.0$}}}{137}{figure.caption.398}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$45.0 < \ensuremath {p_T}(\mathrm {H}) < 80.0$}}}{137}{figure.caption.398}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$80.0 < \ensuremath {p_T}(\mathrm {H}) < 120.0$}}}{137}{figure.caption.398}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$120.0 < \ensuremath {p_T}(\mathrm {H}) < 200.0$}}}{137}{figure.caption.398}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$200.0 < \ensuremath {p_T}(\mathrm {H}) < 13000.0$}}}{137}{figure.caption.398}
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Example signal shapes at reconstruction level for a resonance of m(4$\ell $) in $4e$ final state for the $VBF$ production mode from {\sc powheg+JHUGen} in different bins of $\ensuremath {p_T}(\mathrm {H})$. The black curve represents events which do not pass the fiducial volume selection. The curve has no effect on the result. \relax }}{138}{figure.caption.406}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$0.0 < \ensuremath {p_T}(\mathrm {H}) < 15.0 $}}}{138}{figure.caption.406}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$15.0 < \ensuremath {p_T}(\mathrm {H}) < 30.0$}}}{138}{figure.caption.406}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$30.0 < \ensuremath {p_T}(\mathrm {H}) < 45.0$}}}{138}{figure.caption.406}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$45.0 < \ensuremath {p_T}(\mathrm {H}) < 80.0$}}}{138}{figure.caption.406}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$80.0 < \ensuremath {p_T}(\mathrm {H}) < 120.0$}}}{138}{figure.caption.406}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$120.0 < \ensuremath {p_T}(\mathrm {H}) < 200.0$}}}{138}{figure.caption.406}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$200.0 < \ensuremath {p_T}(\mathrm {H}) < 13000.0$}}}{138}{figure.caption.406}
+\contentsline {figure}{\numberline {8.5}{\ignorespaces Example signal shapes at reconstruction level for a resonance of m(4$\ell $) in $4\mu $ final state for the $VBF$ production mode from {\sc powheg+JHUGen} in different bins of $\ensuremath {p_T}(\mathrm {H})$. The black curve represents events which do not pass the fiducial volume selection. The curve has no effect on the result. \relax }}{139}{figure.caption.414}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$0.0 < \ensuremath {p_T}(\mathrm {H}) < 15.0 $}}}{139}{figure.caption.414}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$15.0 < \ensuremath {p_T}(\mathrm {H}) < 30.0$}}}{139}{figure.caption.414}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$30.0 < \ensuremath {p_T}(\mathrm {H}) < 45.0$}}}{139}{figure.caption.414}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$45.0 < \ensuremath {p_T}(\mathrm {H}) < 80.0$}}}{139}{figure.caption.414}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$80.0 < \ensuremath {p_T}(\mathrm {H}) < 120.0$}}}{139}{figure.caption.414}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$120.0 < \ensuremath {p_T}(\mathrm {H}) < 200.0$}}}{139}{figure.caption.414}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$200.0 < \ensuremath {p_T}(\mathrm {H}) < 13000.0$}}}{139}{figure.caption.414}
+\contentsline {figure}{\numberline {8.6}{\ignorespaces Example signal shapes at reconstruction level for a resonance of m(4$\ell $) in $2e2\mu $ final state for the $WH$ production mode from {\sc powheg+JHUGen} in different bins of $\ensuremath {p_T}(\mathrm {H})$. The black curve represents events which do not pass the fiducial volume selection. The curve has no effect on the result. \relax }}{140}{figure.caption.422}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$0.0 < \ensuremath {p_T}(\mathrm {H}) < 15.0 $}}}{140}{figure.caption.422}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$15.0 < \ensuremath {p_T}(\mathrm {H}) < 30.0$}}}{140}{figure.caption.422}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$30.0 < \ensuremath {p_T}(\mathrm {H}) < 45.0$}}}{140}{figure.caption.422}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$45.0 < \ensuremath {p_T}(\mathrm {H}) < 80.0$}}}{140}{figure.caption.422}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$80.0 < \ensuremath {p_T}(\mathrm {H}) < 120.0$}}}{140}{figure.caption.422}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$120.0 < \ensuremath {p_T}(\mathrm {H}) < 200.0$}}}{140}{figure.caption.422}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$200.0 < \ensuremath {p_T}(\mathrm {H}) < 13000.0$}}}{140}{figure.caption.422}
+\contentsline {figure}{\numberline {8.7}{\ignorespaces Example signal shapes at reconstruction level for a resonance of m(4$\ell $) in $4e$ final state for the $WH$ production mode from {\sc powheg+JHUGen} in different bins of $\ensuremath {p_T}(\mathrm {H})$. The black curve represents events which do not pass the fiducial volume selection. The curve has no effect on the result. \relax }}{141}{figure.caption.430}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$0.0 < \ensuremath {p_T}(\mathrm {H}) < 15.0 $}}}{141}{figure.caption.430}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$15.0 < \ensuremath {p_T}(\mathrm {H}) < 30.0$}}}{141}{figure.caption.430}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$30.0 < \ensuremath {p_T}(\mathrm {H}) < 45.0$}}}{141}{figure.caption.430}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$45.0 < \ensuremath {p_T}(\mathrm {H}) < 80.0$}}}{141}{figure.caption.430}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$80.0 < \ensuremath {p_T}(\mathrm {H}) < 120.0$}}}{141}{figure.caption.430}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$120.0 < \ensuremath {p_T}(\mathrm {H}) < 200.0$}}}{141}{figure.caption.430}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$200.0 < \ensuremath {p_T}(\mathrm {H}) < 13000.0$}}}{141}{figure.caption.430}
+\contentsline {figure}{\numberline {8.8}{\ignorespaces Example signal shapes at reconstruction level for a resonance of m(4$\ell $) in $4\mu $ final state for the $gg\rightarrow \mathrm {H}$ production mode from {\sc powheg+JHUGen} in different bins of $\ensuremath {p_T}(\mathrm {H})$. The black curve represents events which do not pass the fiducial volume selection. The curve has no effect on the result. \relax }}{142}{figure.caption.438}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$0.0 < \ensuremath {p_T}(\mathrm {H}) < 15.0 $}}}{142}{figure.caption.438}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$15.0 < \ensuremath {p_T}(\mathrm {H}) < 30.0$}}}{142}{figure.caption.438}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$30.0 < \ensuremath {p_T}(\mathrm {H}) < 45.0$}}}{142}{figure.caption.438}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$45.0 < \ensuremath {p_T}(\mathrm {H}) < 80.0$}}}{142}{figure.caption.438}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$80.0 < \ensuremath {p_T}(\mathrm {H}) < 120.0$}}}{142}{figure.caption.438}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$120.0 < \ensuremath {p_T}(\mathrm {H}) < 200.0$}}}{142}{figure.caption.438}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$200.0 < \ensuremath {p_T}(\mathrm {H}) < 13000.0$}}}{142}{figure.caption.438}
+\contentsline {figure}{\numberline {8.9}{\ignorespaces Example signal shapes at reconstruction level for a resonance of m(4$\ell $) in $2e2\mu $ final state for the $ZH$ production mode from {\sc powheg+JHUGen} in different bins of $\ensuremath {p_T}(\mathrm {H})$. The black curve represents events which do not pass the fiducial volume selection. The curve has no effect on the result. \relax }}{143}{figure.caption.446}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$0.0 < \ensuremath {p_T}(\mathrm {H}) < 15.0 $}}}{143}{figure.caption.446}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$15.0 < \ensuremath {p_T}(\mathrm {H}) < 30.0$}}}{143}{figure.caption.446}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$30.0 < \ensuremath {p_T}(\mathrm {H}) < 45.0$}}}{143}{figure.caption.446}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$45.0 < \ensuremath {p_T}(\mathrm {H}) < 80.0$}}}{143}{figure.caption.446}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$80.0 < \ensuremath {p_T}(\mathrm {H}) < 120.0$}}}{143}{figure.caption.446}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$120.0 < \ensuremath {p_T}(\mathrm {H}) < 200.0$}}}{143}{figure.caption.446}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$200.0 < \ensuremath {p_T}(\mathrm {H}) < 13000.0$}}}{143}{figure.caption.446}
+\contentsline {figure}{\numberline {8.10}{\ignorespaces Example signal shapes at reconstruction level for a resonance of m(4$\ell $) in $4e$ final state for the $ZH$ production mode from {\sc powheg+JHUGen} in different bins of $\ensuremath {p_T}(\mathrm {H})$. The black curve represents events which do not pass the fiducial volume selection. The curve has no effect on the result. \relax }}{144}{figure.caption.454}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$0.0 < \ensuremath {p_T}(\mathrm {H}) < 15.0 $}}}{144}{figure.caption.454}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$15.0 < \ensuremath {p_T}(\mathrm {H}) < 30.0$}}}{144}{figure.caption.454}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$30.0 < \ensuremath {p_T}(\mathrm {H}) < 45.0$}}}{144}{figure.caption.454}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$45.0 < \ensuremath {p_T}(\mathrm {H}) < 80.0$}}}{144}{figure.caption.454}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$80.0 < \ensuremath {p_T}(\mathrm {H}) < 120.0$}}}{144}{figure.caption.454}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$120.0 < \ensuremath {p_T}(\mathrm {H}) < 200.0$}}}{144}{figure.caption.454}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$200.0 < \ensuremath {p_T}(\mathrm {H}) < 13000.0$}}}{144}{figure.caption.454}
+\contentsline {figure}{\numberline {8.11}{\ignorespaces Example signal shapes at reconstruction level for a resonance of m(4$\ell $) in $4\mu $ final state for the $ZH$ production mode from {\sc powheg+JHUGen} in different bins of $\ensuremath {p_T}(\mathrm {H})$. The black curve represents events which do not pass the fiducial volume selection. The curve has no effect on the result. \relax }}{145}{figure.caption.462}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$0.0 < \ensuremath {p_T}(\mathrm {H}) < 15.0 $}}}{145}{figure.caption.462}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$15.0 < \ensuremath {p_T}(\mathrm {H}) < 30.0$}}}{145}{figure.caption.462}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$30.0 < \ensuremath {p_T}(\mathrm {H}) < 45.0$}}}{145}{figure.caption.462}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$45.0 < \ensuremath {p_T}(\mathrm {H}) < 80.0$}}}{145}{figure.caption.462}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$80.0 < \ensuremath {p_T}(\mathrm {H}) < 120.0$}}}{145}{figure.caption.462}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$120.0 < \ensuremath {p_T}(\mathrm {H}) < 200.0$}}}{145}{figure.caption.462}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$200.0 < \ensuremath {p_T}(\mathrm {H}) < 13000.0$}}}{145}{figure.caption.462}
+\contentsline {figure}{\numberline {8.12}{\ignorespaces Example signal shapes at reconstruction level for a resonance of m(4$\ell $) in $2e2\mu $ final state for the $ttH$ production mode from {\sc powheg+JHUGen} in different bins of $\ensuremath {p_T}(\mathrm {H})$. The black curve represents events which do not pass the fiducial volume selection. The curve has no effect on the result. \relax }}{146}{figure.caption.470}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$0.0 < \ensuremath {p_T}(\mathrm {H}) < 15.0 $}}}{146}{figure.caption.470}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$15.0 < \ensuremath {p_T}(\mathrm {H}) < 30.0$}}}{146}{figure.caption.470}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$30.0 < \ensuremath {p_T}(\mathrm {H}) < 45.0$}}}{146}{figure.caption.470}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$45.0 < \ensuremath {p_T}(\mathrm {H}) < 80.0$}}}{146}{figure.caption.470}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$80.0 < \ensuremath {p_T}(\mathrm {H}) < 120.0$}}}{146}{figure.caption.470}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$120.0 < \ensuremath {p_T}(\mathrm {H}) < 200.0$}}}{146}{figure.caption.470}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$200.0 < \ensuremath {p_T}(\mathrm {H}) < 13000.0$}}}{146}{figure.caption.470}
+\contentsline {figure}{\numberline {8.13}{\ignorespaces Example signal shapes at reconstruction level for a resonance of m(4$\ell $) in $4e$ final state for the $ttH$ production mode from {\sc powheg+JHUGen} in different bins of $\ensuremath {p_T}(\mathrm {H})$. The black curve represents events which do not pass the fiducial volume selection. The curve has no effect on the result. \relax }}{147}{figure.caption.478}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$0.0 < \ensuremath {p_T}(\mathrm {H}) < 15.0 $}}}{147}{figure.caption.478}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$15.0 < \ensuremath {p_T}(\mathrm {H}) < 30.0$}}}{147}{figure.caption.478}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$30.0 < \ensuremath {p_T}(\mathrm {H}) < 45.0$}}}{147}{figure.caption.478}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$45.0 < \ensuremath {p_T}(\mathrm {H}) < 80.0$}}}{147}{figure.caption.478}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$80.0 < \ensuremath {p_T}(\mathrm {H}) < 120.0$}}}{147}{figure.caption.478}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$120.0 < \ensuremath {p_T}(\mathrm {H}) < 200.0$}}}{147}{figure.caption.478}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$200.0 < \ensuremath {p_T}(\mathrm {H}) < 13000.0$}}}{147}{figure.caption.478}
+\contentsline {figure}{\numberline {8.14}{\ignorespaces Example signal shapes at reconstruction level for a resonance of m(4$\ell $) in $4\mu $ final state for the $ttH$ production mode from {\sc powheg+JHUGen} in different bins of $\ensuremath {p_T}(\mathrm {H})$. The black curve represents events which do not pass the fiducial volume selection. The curve has no effect on the result. \relax }}{148}{figure.caption.486}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$0.0 < \ensuremath {p_T}(\mathrm {H}) < 15.0 $}}}{148}{figure.caption.486}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$15.0 < \ensuremath {p_T}(\mathrm {H}) < 30.0$}}}{148}{figure.caption.486}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$30.0 < \ensuremath {p_T}(\mathrm {H}) < 45.0$}}}{148}{figure.caption.486}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$45.0 < \ensuremath {p_T}(\mathrm {H}) < 80.0$}}}{148}{figure.caption.486}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$80.0 < \ensuremath {p_T}(\mathrm {H}) < 120.0$}}}{148}{figure.caption.486}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$120.0 < \ensuremath {p_T}(\mathrm {H}) < 200.0$}}}{148}{figure.caption.486}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$200.0 < \ensuremath {p_T}(\mathrm {H}) < 13000.0$}}}{148}{figure.caption.486}
+\contentsline {figure}{\numberline {8.15}{\ignorespaces Efficiency matrices for $\ensuremath {p_T}({\rm H})$ for different SM production modes in the $4e$ final state. \relax }}{149}{figure.caption.494}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$gg\rightarrow $H ({\sc powheg+JHUgen})}}}{149}{figure.caption.494}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {VBF ({\sc powheg})}}}{149}{figure.caption.494}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {WH ({\sc pythia})}}}{149}{figure.caption.494}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {ZH ({\sc pythia})}}}{149}{figure.caption.494}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {ttH ({\sc pythia})}}}{149}{figure.caption.494}
+\contentsline {figure}{\numberline {8.16}{\ignorespaces Efficiency matrices for $\ensuremath {p_T}({\rm H})$ for different SM production modes in the $4\mu $ final state. \relax }}{150}{figure.caption.500}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$gg\rightarrow $H ({\sc powheg+JHUgen})}}}{150}{figure.caption.500}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {VBF ({\sc powheg})}}}{150}{figure.caption.500}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {WH ({\sc pythia})}}}{150}{figure.caption.500}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {ZH ({\sc pythia})}}}{150}{figure.caption.500}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {ttH ({\sc pythia})}}}{150}{figure.caption.500}
+\contentsline {figure}{\numberline {8.17}{\ignorespaces Efficiency matrices for $\ensuremath {p_T}({\rm H})$ for different SM production modes in the $2e2\mu $ final state. \relax }}{151}{figure.caption.506}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$gg\rightarrow $H ({\sc powheg+JHUgen})}}}{151}{figure.caption.506}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {VBF ({\sc powheg})}}}{151}{figure.caption.506}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {WH ({\sc pythia})}}}{151}{figure.caption.506}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {ZH ({\sc pythia})}}}{151}{figure.caption.506}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {ttH ({\sc pythia})}}}{151}{figure.caption.506}
+\contentsline {figure}{\numberline {8.18}{\ignorespaces Efficiency matrices for $|y({\rm H})|$ for different SM production modes in the $4e$ final state. \relax }}{152}{figure.caption.513}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$gg\rightarrow $H ({\sc powheg+JHUgen})}}}{152}{figure.caption.513}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {VBF ({\sc powheg})}}}{152}{figure.caption.513}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {WH ({\sc pythia})}}}{152}{figure.caption.513}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {ZH ({\sc pythia})}}}{152}{figure.caption.513}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {ttH ({\sc pythia})}}}{152}{figure.caption.513}
+\contentsline {figure}{\numberline {8.19}{\ignorespaces Efficiency matrices for $|y({\rm H})|$ for different SM production modes in the $4\mu $ final state. \relax }}{153}{figure.caption.519}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$gg\rightarrow $H ({\sc powheg+JHUgen})}}}{153}{figure.caption.519}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {VBF ({\sc powheg})}}}{153}{figure.caption.519}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {WH ({\sc pythia})}}}{153}{figure.caption.519}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {ZH ({\sc pythia})}}}{153}{figure.caption.519}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {ttH ({\sc pythia})}}}{153}{figure.caption.519}
+\contentsline {figure}{\numberline {8.20}{\ignorespaces Efficiency matrices for $|y({\rm H})|$ for different SM production modes in the $2e2\mu $ final state. \relax }}{154}{figure.caption.525}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$gg\rightarrow $H ({\sc powheg+JHUgen})}}}{154}{figure.caption.525}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {VBF ({\sc powheg})}}}{154}{figure.caption.525}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {WH ({\sc pythia})}}}{154}{figure.caption.525}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {ZH ({\sc pythia})}}}{154}{figure.caption.525}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {ttH ({\sc pythia})}}}{154}{figure.caption.525}
+\contentsline {figure}{\numberline {8.21}{\ignorespaces Efficiency matrices for N(jets) for different SM production modes in the $4e$ final state. \relax }}{155}{figure.caption.532}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$gg\rightarrow $H ({\sc powheg+JHUgen})}}}{155}{figure.caption.532}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {VBF ({\sc powheg})}}}{155}{figure.caption.532}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {WH ({\sc pythia})}}}{155}{figure.caption.532}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {ZH ({\sc pythia})}}}{155}{figure.caption.532}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {ttH ({\sc pythia})}}}{155}{figure.caption.532}
+\contentsline {figure}{\numberline {8.22}{\ignorespaces Efficiency matrices for N(jets) for different SM production modes in the $4\mu $ final state. \relax }}{156}{figure.caption.538}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$gg\rightarrow $H ({\sc powheg+JHUgen})}}}{156}{figure.caption.538}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {VBF ({\sc powheg})}}}{156}{figure.caption.538}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {WH ({\sc pythia})}}}{156}{figure.caption.538}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {ZH ({\sc pythia})}}}{156}{figure.caption.538}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {ttH ({\sc pythia})}}}{156}{figure.caption.538}
+\contentsline {figure}{\numberline {8.23}{\ignorespaces Efficiency matrices for N(jets)for different SM production modes in the $2e2\mu $ final state. \relax }}{157}{figure.caption.544}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$gg\rightarrow $H ({\sc powheg+JHUgen})}}}{157}{figure.caption.544}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {VBF ({\sc powheg})}}}{157}{figure.caption.544}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {WH ({\sc pythia})}}}{157}{figure.caption.544}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {ZH ({\sc pythia})}}}{157}{figure.caption.544}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {ttH ({\sc pythia})}}}{157}{figure.caption.544}
+\contentsline {figure}{\numberline {8.24}{\ignorespaces Differential fiducial cross section results using full Run 2 toy data for $\Phi $, $\Phi _{1}$, $\mathrm {m}(\mathrm {Z}_{1})$, $\mathrm {m}(\mathrm {Z}_{2})$ and $|\qopname \relax o{cos}\theta ^{*}|$ in $\ensuremath {\mathrm {H}\to 4\ell }$ and comparison with the theoretical predictions. \relax }}{159}{figure.caption.551}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$\Phi $}}}{159}{figure.caption.551}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\Phi _{1}$}}}{159}{figure.caption.551}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$\mathrm {m}(\mathrm {Z}_{2})$}}}{159}{figure.caption.551}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$\mathrm {m}(\mathrm {Z}_{1})$}}}{159}{figure.caption.551}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$|\qopname \relax o{cos}\theta ^{*}|$}}}{159}{figure.caption.551}
+\contentsline {figure}{\numberline {8.25}{\ignorespaces Differential fiducial cross section results using full Run 2 toy data for $|\qopname \relax o{cos}\theta _{1}|$, $|\qopname \relax o{cos}\theta _{2}|$, number of jets (within $|\eta |<4.7$) and $\ensuremath {p_T}$ of leading jet (within $|\eta |<4.7$) in $\ensuremath {\mathrm {H}\to 4\ell }$ and comparison with the theoretical predictions. \relax }}{160}{figure.caption.557}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$|\qopname \relax o{cos}\theta _{1}|$}}}{160}{figure.caption.557}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$|\qopname \relax o{cos}\theta _{2}|$}}}{160}{figure.caption.557}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {N(jets) with $|\eta |<4.7$}}}{160}{figure.caption.557}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {\ensuremath {p_T}of leading jet with $|\eta |<4.7$}}}{160}{figure.caption.557}

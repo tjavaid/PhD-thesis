@@ -14,7 +14,7 @@ For fiducial cross section measurements, we perform a maximum likelihood fit of 
 %channel~\cite{CMS:HIG-14-016}.
 %
 %
-However, in this section we describe the PDF used to describe the signal shapes
+However, in this section we describe the Probability Density Function (PDF) used to describe the signal shapes
 for different masses of Higgs.
 The resolution function model depends only on the leptons quality, while the exact
 shape depends on the lepton kinematics, and so depend also on the Higgs mass. 

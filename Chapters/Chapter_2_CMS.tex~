@@ -12,7 +12,7 @@ LHC has set new frontiers for researches in particle physics experiments. State 
 It gives healthy inner tacker reconstruction efficiency and resolution of charged particle momentum. It has efficient trigger system and better discrimination of  $\tau$'s and b-jets. Further, it is benefitted from good dielectron, diphoton and dijet mass and energy resolutions, and as well as missing-transverse-energy (MET) resolutions. 
 This makes it capable to study large areas from SM Physics (including Higgs Physics) to search for extra dimensions and the dark matter covering physics in energy range from a few 100~GeV to TeV scale~\cite{Reference34}.
 \subsection{General aspects and the geometry}
-Being one of the two general purpose detectors installed at LHC ring, CMS is is constructed in cylinderical shape having length about 28 m and outer ratdius of around 7 m. Its overall height is about 15 m with overall weight of about 14,000 tonnes. Overall deisgn of the CMS detector can be seen in the Figure ~\ref{Fig:CMS_detector_design}. 
+Being one of the two general purpose detectors installed at LHC ring, CMS is is constructed in cylinderical shape having length about 28 m and outer ratdius of around 7 m. Its overall height is about 15 m with overall weight of about 14,000 tonnes. Overall deisgn of the CMS detector can be seen in Ref. ~\cite{Sakuma:2665537}~ and in the Figure ~\ref{Fig:CMS_detector_design}. 
 Learning from the earlier experiment at CERN, CMS engineered to be built in different slices at surface instead of doing everything underground.  And fifteen separate slices were then lowered to underground to be fixed at the LHC tunnel.\par
 Moving radially outwards from interaction point of beams, there are inner tracker system (ITS), electromagnetic calorimeter (ECAL) and hadronic calorimeter(HCAL) sub-detectors of CMS which are fitted inside the large solenoid magnet. Inner tracker of CMS have large track multiplicity as being closest to beam pipe where collisions happens.
 ECAL is build with crystals of lead tungstate which covers pseudorapidity up to $|\eta| < 3.0$. After ECAL, hadronic calorimeter is installed which is made of brass. Outermost layer of the CMS detector is the Muon System. Details of sub-detectors, trigger system and data acquisition systems will be described in next Sections.
@@ -25,7 +25,7 @@ ECAL is build with crystals of lead tungstate which covers pseudorapidity up to 
 % \item Healthy inner tacker reconstruction efficiency and resolution of charged particle momentum. Efficient trigger system and better discrimination of  $\tau$'s and b-jets.  
 % \item Good dielectron and diphoton mass and energy resolutions. 
 % \item Good dijet-mass and missing-transverse-energy (MET) resolutions . 
-\end{itemize}
+%\end{itemize}
 \begin{figure}
 \begin{center}
 \includegraphics[width=0.8\linewidth]{Figures/chapter2_Figure/CMS_detector_design.png}
@@ -185,7 +185,7 @@ bandwidth. Subsequently, a new pixel detector was installed in March 2017 Ref. \
 %    year = "2017"
 %}
 layer and one additional forward disk. In the new pixel detector, the innermost layer is closer to the
-interaction point and the outermost one is further away from it as it is shown in Fig.  \ref{Fig:CMS_pixel_upgrade} %(Figure 1)
+interaction point and the outermost one is further away from it as it is shown in Figure  \ref{Fig:CMS_pixel_upgrade}. %(Figure 1)
 
 \begin{figure}
 \begin{center}
@@ -400,7 +400,7 @@ Being hermetic, HCAL also helps to measure missing transverse energy (MET) which
 %calorimeter (HCAL) provides the measurement of energies and positions of hadronic jets (for example neutrons, protons, kaons and 
 %pions )\cite{cms:HCALTDR}. HCAL being hermetic is also 
 %helpful to calculate MET that can be assigned to neutrinos or other invisible particles. 
-HCAL assembles with CMS system between the solenoid magnet and ECAL as can be seen in the Fig. ~\ref{Fig:CMS_detector_design} at radial distance from 1.77 m to 2.95 m.
+HCAL assembles with CMS system between the solenoid magnet and ECAL as can be seen in the Figure ~\ref{Fig:CMS_detector_design} at radial distance from 1.77 m to 2.95 m.
 Benefitting from pretty short interaction length, at most brass is chosen as absorber throughout the HCAL. Brass is a non-magnetic low cost material.
 HCAL provides pseudorapidity coverage upto $|\eta| < $ 3.0 beyond which, 11.2 m away from the interaction point, froward Hadron Calorimeter (HF) is employed on both sides of the detector providing additional coverage upto $|\eta| < $ 5.2. HF helps to detect particles from proton-proton collisions emerging at very small angles with respect the beam axis. \par
 Schematic diagram of HCAL is shown in the Figure ~\ref{Fig:CMS_HCAL_layout} ~\cite{Reference34}.
@@ -526,7 +526,9 @@ There were subsequent upgrades in HCAL as in 2017, PMTs were replaced with new m
 %% \end{center}
 %% \end{table}
 \subsection{CMS Muon System }
-Identification of muons originating from the collision point is a great challenge. Having long lifetime (i.e. 2.19 \times $10^{-6}$ , which is even higher in relativitic regime), they tend to cross the whole detector without decaying. Also, having higher mass (about 200 times the mass of electrons) it tends to lose very little energy via bremsstrahlung. So, they leave track however they deposit very little amount of energy in the calorimeters. Hence a dedicated muon system was proposed and installed as outermost sub-detector of CMS ~\cite{cms:muonsystem_TDR}. The schematic diagram of CMS muon sytem (as stood by Run 2 operation of LHC) is shown in the Figure \ref{Fig:cms_muon_system_layout}. It is benefitted from three different strategies for detection and measurements on  muons. 
+Identification of muons originating from the collision point is a great challenge. Having long lifetime (i.e. 2.19 \times $10^{-6}$ , which is even higher in relativitic regime), they tend to cross the whole detector without decaying. 
+Also, having higher mass (about 200 times the mass of electrons) it tends to lose very little energy via bremsstrahlung. 
+So, they leave track however they deposit very little amount of energy in the calorimeters. Hence a dedicated muon system was proposed and installed as outermost sub-detector of CMS ~\cite{cms:muonsystem_TDR}. The schematic diagram of CMS muon sytem (as stood by Run 2 operation of LHC) is shown in the Figure \ref{Fig:cms_muon_system_layout}. It is benefitted from three different strategies for detection and measurements on  muons. 
 
 \begin{itemize}
 	\item Drift Tubes (DT), only in barrel region
@@ -590,7 +592,7 @@ DT system is annexed to the muon system in 4 stations, MB1, MB2, MB3 and MB4, in
 A set of two SLs measures coordinates in the bending plane ($\phi$), the third SL helps to provide track coordinate along the beam (z).
 SL is further composed of DTs in 4 layers \cite{Paolucci:927394}.  % http://cds.cern.ch/record/927394/files/CR2006_006.pdf
 Each DT cell has an anode wire made of steel (of radius 25 \micro m) togther with walls of the cell as cathodes which produce the (drift) electric field. 
-A DT cell is filled with mixture of CO${}_{2}$ (15\%) Ar (85\%) gases which are benifitted from their low cost and provision of better drift velocity of saturation and the quenching under the influence of high operating voltage of 1.8kV. A schematic diagram of a drift cell and one of wheel bearing DT chambers is shown in the Figure . \ref{Fig:DT_system} and in Ref. \cite{article_dt}. %https://arxiv.org/pdf/1912.06178.pdf
+A DT cell is filled with mixture of CO${}_{2}$ (15\%) Ar (85\%) gases which are benifitted from their low cost and provision of better drift velocity of saturation and the quenching under the influence of high operating voltage of 1.8kV. A schematic diagram of a drift cell and one of wheel bearing DT chambers is shown in the Figure. \ref{Fig:DT_system} and in Ref. \cite{article_dt}. %https://arxiv.org/pdf/1912.06178.pdf
 %@article{article_dt,
 %author = {Jansen, Hendrik and Hebbeker, Thomas},
 %year = {2020},

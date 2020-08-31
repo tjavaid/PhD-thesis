@@ -71,7 +71,7 @@ Z boson candidate is also required to include FSR photons (if any).
 %     The present smart cut allows to choose the best ZZ candidate after all kinematic cuts.)
   \item {\bf four-lepton invariant mass}: $\mllll > 70~ GeV $
   \end{itemize}
-\item {\bf Signal region} is built from the events containing one selected ZZ candidate at leaset.% should form the {\bf signal region}.
+\item {\bf Signal region} is built from the events containing one selected ZZ candidate at least.% should form the {\bf signal region}.
 \end{enumerate}
 
 

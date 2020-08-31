@@ -1,7 +1,7 @@
 %With respect to previous analyses, an important improvement brought in this analysis is  usage of a new multivariate discriminant for electron selection in all data taking periods.
 
 Electron identification and isolation is performed new Gradient Boosted Decision Tree (GBDT), a multivariate classifier algorithm. 
-It exploits inputs from electromagnetic cluster, cluster-track matching, variables which  exclusively depend on tracking measurements and as well as particle flow isolation sums. The list of observables used can be seen in the Table \ref{tab:ele_ID_input_variables}.
+It exploits the informations from electromagnetic cluster, cluster-track matching, the variables which  exclusively depend on tracking measurements and as well as particle flow isolation sums. The list of observables used can be seen in the Table \ref{tab:ele_ID_input_variables}.
 %The BDT has been retrained using CMSSW\_8\_0\_X samples.
 
  \begin{table}[h!]

@@ -26,41 +26,17 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 21541 items from 5000.
+Reallocated field_info (elt_size=4) to 21958 items from 5000.
 Database file #1: main_simple-blx.bib
 Database file #2: example_merged2.bib
-Warning--I didn't find a database entry for "Khachatryan:2015yvw"
-Warning--I didn't find a database entry for "CMS:2015hja"
-Warning--I didn't find a database entry for "CMS:2016rqf"
-Warning--I didn't find a database entry for "Sirunyan:2017exp"
-Warning--I didn't find a database entry for "CMS:2018hhg"
-Warning--I didn't find a database entry for "ATLAS-CONF-2019-029"
-Warning--I didn't find a database entry for "atlas-conf-2019-025"
-Warning--I didn't find a database entry for "ATLAS:2018uso"
-Warning--I didn't find a database entry for "ATLAS-CONF-2019-032"
-Warning--I didn't find a database entry for "ATLAS:2017myr"
-Warning--I didn't find a database entry for "CMS:2019chr"
-Warning--I didn't find a database entry for "Sirunyan:2020xwk"
-Warning--I didn't find a database entry for "masses"
-Warning--I didn't find a database entry for "scattering_pp"
-Warning--I didn't find a database entry for "Klein:2017nke"
-Warning--I didn't find a database entry for "Sonneveld:2018ntf"
-Warning--I didn't find a database entry for "Zghiche_2019"
-Warning--I didn't find a database entry for "pixel_hcal_upgrade"
-Warning--I didn't find a database entry for "Paolucci:927394"
-Warning--I didn't find a database entry for "article_dt"
-Warning--I didn't find a database entry for "article_rpc"
-Warning--I didn't find a database entry for "Sirunyan:2018fpa"
-Warning--I didn't find a database entry for "Radogna:2016esa"
-Warning--I didn't find a database entry for "Costantini:2711362"
-Warning--I didn't find a database entry for "Fisk:2010jd"
-Warning--I didn't find a database entry for "Chatrchyan:2014fea"
-Warning--I didn't find a database entry for "pog_tnp"
-Warning--I didn't find a database entry for "jets_at_cms"
-Warning--I didn't find a database entry for "Sirunyan:2017ezt"
-Warning--I didn't find a database entry for "CMS:2018mmw"
-Warning--I didn't find a database entry for "CMS:2017jkd"
-Warning--I didn't find a database entry for "ATLAS:2020wny"
+Repeated entry---line 3424 of file example_merged2.bib
+ : @article{Khachatryan:2015yvw
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3515 of file example_merged2.bib
+ : @article{CMS:2019chr
+ :                     ,
+I'm skipping whatever remains of this entry
 Biblatex version: 3.8
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Name 1 in "G. S. Guralnik, C. R. Hagen, and T. W. B. Kibble" has a comma at the end for entry Reference9
@@ -262,45 +238,45 @@ Too many commas in name 1 of "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R.
 while executing---line 2749 of file biblatex.bst
 Too many commas in name 1 of "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" for entry Reference28
 while executing---line 2749 of file biblatex.bst
-You've used 87 entries,
+You've used 122 entries,
             6268 wiz_defined-function locations,
-            1737 strings with 22805 characters,
-and the built_in function-call counts, 383565 in all, are:
-= -- 24708
-> -- 7099
-< -- 1442
-+ -- 8235
-- -- 2619
-* -- 27164
-:= -- 37117
+            1872 strings with 28365 characters,
+and the built_in function-call counts, 489988 in all, are:
+= -- 30259
+> -- 8917
+< -- 1995
++ -- 9910
+- -- 3347
+* -- 33829
+:= -- 45128
 add.period$ -- 0
-call.type$ -- 87
-change.case$ -- 577
-chr.to.int$ -- 30
-cite$ -- 172
-duplicate$ -- 42102
-empty$ -- 38856
-format.name$ -- 4693
-if$ -- 79770
+call.type$ -- 122
+change.case$ -- 824
+chr.to.int$ -- 91
+cite$ -- 242
+duplicate$ -- 54728
+empty$ -- 51290
+format.name$ -- 5738
+if$ -- 102819
 int.to.chr$ -- 0
-int.to.str$ -- 207
+int.to.str$ -- 281
 missing$ -- 0
-newline$ -- 2219
-num.names$ -- 3162
-pop$ -- 28880
+newline$ -- 2941
+num.names$ -- 4031
+pop$ -- 40236
 preamble$ -- 1
-purify$ -- 994
+purify$ -- 1321
 quote$ -- 0
-skip$ -- 11963
+skip$ -- 15818
 stack$ -- 0
-substring$ -- 40045
-swap$ -- 10270
-text.length$ -- 1613
-text.prefix$ -- 2
+substring$ -- 47687
+swap$ -- 13864
+text.length$ -- 2123
+text.prefix$ -- 6
 top$ -- 1
-type$ -- 2926
+type$ -- 4112
 warning$ -- 0
-while$ -- 4478
+while$ -- 5507
 width$ -- 0
-write$ -- 2133
-(There were 99 error messages)
+write$ -- 2820
+(There were 101 error messages)

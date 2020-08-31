@@ -1,9 +1,9 @@
+\addvspace {10\p@ }
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {english}{}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {table}{\numberline {2.1}{\ignorespaces Summary of different Standard Model particles, and values of parameters related to them. Masses of the particles are taken from \cite {masses} ~(In SM neutrino masses are taken as zero.). \relax }}{7}{table.caption.21}
+\contentsline {table}{\numberline {2.1}{\ignorespaces Summary of different Standard Model particles, and values of parameters related to them. \relax }}{7}{table.caption.21}
 \contentsline {table}{\numberline {2.2}{\ignorespaces Gauge bosons and their masses, coupling constants and interaction ranges for the three forces of the SM\relax }}{7}{table.caption.23}
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {3.1}{\ignorespaces Parameters' values for LHC operations.\relax }}{23}{table.caption.78}
@@ -18,10 +18,10 @@
 \contentsline {table}{\numberline {6.2}{\ignorespaces Summary of different SM signal models. The MC samples are from full Run 2 yearly productions (2016, 2017 and 2018) assuming $m_{\rm H} = 125.09\GeV $. Luminosity averaged fiducial acceptance ($\mathcal {A}_{\rm fid}$) defined the fraction of events passing fiducial phase space selections, reconstruction efficiency ($\epsilon $) represented by the ratio of reconstructed to accepted events. Also, $f_{\rm nonfid}$ which are reconstructed events but does not pass fiducial phase space definition at generator level. Values are obtained using 13~TeV signal models and the uncertainties shown are only statistical uncertainties. \relax }}{84}{table.caption.250}
 \contentsline {table}{\numberline {6.3}{\ignorespaces Cross sections for \ensuremath {\ensuremath {\mathrm {q}}\bar {\ensuremath {\mathrm {q}}}\to \mathrm {Z}\mathrm {Z}}~ production at 13 \TeV \relax }}{87}{table.caption.260}
 \contentsline {table}{\numberline {6.4}{\ignorespaces The contribution of reducible background processes in the signal region predicted from measurements in 2016, 2017 and 2018 data using the OS method. The predictions correspond to 35.9, 41.5 and 59.7~fb$^{-1}$ of data at $13$~TeV, respectively.\relax }}{93}{table.caption.275}
-\contentsline {table}{\numberline {6.5}{\ignorespaces The OS/SS ratios used to estimate the number of ZX events with the SS method for each final state in all three years. \relax }}{96}{table.caption.285}
+\contentsline {table}{\numberline {6.5}{\ignorespaces The OS/SS ratios used to estimate the number of ZX events with the SS method for each final state in all three years. \relax }}{97}{table.caption.285}
 \contentsline {table}{\numberline {6.6}{\ignorespaces Summary of the results given by the two methods for the prediction of the contribution of reducible background processes in the signal region for all three years. The weighted mean value of the results of the two methods is taken as the final estimate of this contribution, while the uncertainty of the result covers the uncertainties of both methods. The table shows symmetric individual uncertainties for the two methods, while these are treated as asymmetric in the combination and statistical analysis. Results are given for an integrated luminosity of 35.9, 41.5 and 59.7~fb$^{-1}$ in 2016, 2017 and 2018 data, respectively. \relax }}{99}{table.caption.292}
 \contentsline {table}{\numberline {6.7}{\ignorespaces Number of observed candidates, expected background and the signal events passing all selections in mass range $m_{4\ell } > 70 \GeV $ corresponding to three different years. Z+X is estimated by control regions in the data while ZZ and signal events are estimated using MC simulation. \relax }}{101}{table.caption.295}
-\contentsline {table}{\numberline {6.8}{\ignorespaces Reconstruction efficiency ($\epsilon $) for fiducial events per final state for different Standard Model signal models at $\sqrt {s} = 13$~TeV with 2018 MC samples. \relax }}{103}{table.caption.300}
+\contentsline {table}{\numberline {6.8}{\ignorespaces Reconstruction efficiency ($\epsilon $) for fiducial events per final state for different Standard Model signal models at $\sqrt {s} = 13$~TeV with 2018 MC samples. \relax }}{105}{table.caption.300}
 \contentsline {table}{\numberline {6.9}{\ignorespaces Ratio of events reconstructed from out of fiducial volume and the events reconstructed within the fiducial region ($f_{nonfid}$) per final state in different Standard Model signal models at $\sqrt {s} = 13$~TeV with 2018 MC samples. \relax }}{105}{table.caption.301}
 \contentsline {table}{\numberline {6.10}{\ignorespaces Signal event fraction in the mass range 105.0--140.0 $\GeV $ where minimum one lepton selected is originating from Higgs decay at $\sqrt {s} = 13$~TeV with 2018 MC samples. \relax }}{105}{table.caption.302}
 \contentsline {table}{\numberline {6.11}{\ignorespaces Estimated fraction of background events in each bin of $\ensuremath {p_T}(4\ell )$, for each final state using 2018 samples. \relax }}{106}{table.caption.305}
@@ -33,9 +33,9 @@
 \contentsline {table}{\numberline {6.17}{\ignorespaces Comparison of fiducial phase space selection from CMS and ATLAS experiments\relax }}{115}{table.caption.360}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {8.1}{\ignorespaces Datasets used in the 2018 analysis. \relax }}{131}{table.caption.373}
-\contentsline {table}{\numberline {8.2}{\ignorespaces Trigger paths used in 2018 collision data. \relax }}{131}{table.caption.374}
-\contentsline {table}{\numberline {8.3}{\ignorespaces Datasets used in the 2017 analysis. \relax }}{133}{table.caption.375}
-\contentsline {table}{\numberline {8.4}{\ignorespaces Trigger paths used in 2017 collision data. \relax }}{134}{table.caption.376}
-\contentsline {table}{\numberline {8.5}{\ignorespaces Datasets used in the 2016 analysis. \relax }}{135}{table.caption.377}
-\contentsline {table}{\numberline {8.6}{\ignorespaces Trigger paths used in 2016 collision data.\relax }}{136}{table.caption.378}
+\contentsline {table}{\numberline {8.1}{\ignorespaces Datasets used in the 2018 analysis. \relax }}{129}{table.caption.374}
+\contentsline {table}{\numberline {8.2}{\ignorespaces Trigger paths used in 2018 collision data. \relax }}{129}{table.caption.375}
+\contentsline {table}{\numberline {8.3}{\ignorespaces Datasets used in the 2017 analysis. \relax }}{131}{table.caption.376}
+\contentsline {table}{\numberline {8.4}{\ignorespaces Trigger paths used in 2017 collision data. \relax }}{132}{table.caption.377}
+\contentsline {table}{\numberline {8.5}{\ignorespaces Datasets used in the 2016 analysis. \relax }}{133}{table.caption.378}
+\contentsline {table}{\numberline {8.6}{\ignorespaces Trigger paths used in 2016 collision data.\relax }}{134}{table.caption.379}

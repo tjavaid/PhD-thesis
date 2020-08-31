@@ -3,7 +3,7 @@ Simulations of the interesting events help us build a reallistic model of experi
 In high energy physics experiments, different MC event generators are used to simulate different process.
 For this analysis, in particular, descriptions of the production of SM Higgs through 
 %its five main production modes $(ggH, VBF, WH, ZH and ttH)$
-process of gluon-gluon fusion (Fig. \ref{fig:ggZZ_box}) 
+process of gluon-gluon fusion (Figure \ref{fig:ggZZ_box}) 
 are acquired using 
 %{\sc HRes}~\cite{deFlorian:2012mx, Grazzini:2013mca}, 
 %{\sc powheg minlo-HJ}~\cite{Hamilton:2012np} and 
@@ -116,7 +116,7 @@ represent such exotic resonances decays to four-leptons containing all the spin 
 %\end{table}
 \subsubsection{Background Samples}
 For the estimations of the backgrounds, {\sc powheg V2} interfaced with {\sc pythia8} was used to generate the dominant process $\Pq\Paq \to \Z \Z \to 4\ell$  at the NLO accuracy level containing
-s-, t- and u-channel diagrams ~\cite{Nason:2013ydw}. Generators were used with same configurations as used for the Higgs signal . Feynman diagrams of the involved background processes are shown in the Figure \ref{fig:ZZ_feynman}.
+s-, t- and u-channel diagrams ~\cite{Nason:2013ydw}. Generators were used with same configurations as used for the Higgs signal. Feynman diagrams of the involved background processes are shown in the Figure \ref{fig:ZZ_feynman}.
 %with the same configurations as for the Higgs signal. 
 The dynamical renormalization and factorization scales have been chosed equal to $m_{\Z\Z}$ since the simulation covers a wide range of invariant masses of ZZ.
 %As this simulation covers a large
@@ -204,7 +204,7 @@ Multiple proton-proton interactions are incorporated in the simulations by rewei
 \subsubsection{Pileup Reweighting}
 
 For each year, corresponding simulation samples are reweighted to meet pileup distribution in the data. An example of the reweighting procedure for 2018 data is
-shown in Fig. \ref{fig:puWeight2018}.
+shown in Figure \ref{fig:puWeight2018}.
 %=======
 \begin{figure}[!htb]
        \vspace*{0.3cm}

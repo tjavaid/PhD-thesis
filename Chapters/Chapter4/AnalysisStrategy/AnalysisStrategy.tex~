@@ -28,8 +28,8 @@ Also, signal events which pass the fiducial level selections but fail the recons
 \begin{figure}[!h!tb]
  \begin{center}
     %\includegraphics[width=0.65\textwidth,angle=0]{Figures/cartoon.jpg}
-    \includegraphics[width=0.65\textwidth,angle=0]{Figures/fiducial2.pdf}
-    \includegraphics[width=0.65\textwidth,angle=0]{Figures/fiducial2.png}
+    \includegraphics[width=0.85\textwidth,angle=0]{Figures/fiducial2.pdf}
+%    \includegraphics[width=0.65\textwidth,angle=0]{Figures/fiducial2.png}
     \caption{Fiducial efficiency($\epsilon$) and nonfiducial($f_{nonfid}$) signal definition.}
  \label{fig:cartoon}
  \end{center}

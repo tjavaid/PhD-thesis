@@ -73,7 +73,7 @@ $\pt$ of the leading lepton    & $\pt  > 20$~GeV  & $\pt  > 20$~GeV \\ \hline
 \end{center}
 \end{figure}
 
-	The inclusive or integrated cross section as measured from ATLAS is given as $\sigma_{fid}=3.28\pm 0.32 fb$ and with CMS is given as $\sigma_{fid}=2.73^{+0.30}_{-0.29}=2.73^{+0.23}_{-0.22}({\rm stat.})^{+0.24}_{-0.19}({\rm syst.})~{\rm fb}$. 
+	The inclusive or integrated cross section as measured from ATLAS and CMS is given as $\sigma_{fid}=3.28\pm 0.32~ fb$ and $\sigma_{fid}=2.73^{+0.30}_{-0.29}=2.73^{+0.23}_{-0.22}({\rm stat.})^{+0.24}_{-0.19}({\rm syst.})~{\rm fb}$. 
 	Inclusive cross section in different final state can be seen the Figure \ref{fig:inclusive_fid}.
 
 	\begin{figure}[!htb]

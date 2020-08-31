@@ -1,0 +1,172 @@
+%---------------------------------------------------------------------------%
+%-                                                                         -%
+%-                           LaTeX Template                                -%
+%-                                                                         -%
+%---------------------------------------------------------------------------%
+%- Copyright (C) Huangrui Mo <huangrui.mo@gmail.com> 
+%- This is free software: you can redistribute it and/or modify it
+%- under the terms of the GNU General Public License as published by
+%- the Free Software Foundation, either version 3 of the License, or
+%- (at your option) any later version.
+%---------------------------------------------------------------------------%
+%->> Document class declaration
+%---------------------------------------------------------------------------%
+\newcommand{\Z}{\mathrm{Z}}
+\newcommand{\W}{\mathrm{W}}
+\newcommand{\expdata}{experimental data}
+\newcommand{\to}{\rightarrow}
+\newcommand{\Pg}{\mathrm{g}}
+\newcommand{\Pe}{\ensuremath{\mathrm{e}}}
+\newcommand{\Pgm}{\ensuremath{{\mu}}}
+\newcommand{\Paq}{\ensuremath{\mathrm{\overline{q}}}}
+\newcommand{\Pq}{\ensuremath{\mathrm{q}}}
+\newcommand{\GeV}{\hbox{$\;\hbox{\rm GeV}$}}
+\newcommand{\TeV}{\hbox{$\;\hbox{\rm TeV}$}}
+\newcommand{\pt}{\ensuremath{p_T}}
+\newcommand{\gev}{\GeV}
+\newcommand{\qqZZ}{\ensuremath{\Pq\bar{\Pq}\to\Z\Z}}  % $\Pq\Paq \to \Z\Z$
+\newcommand{\ggZZ}{\ensuremath{\Pg\Pg\to\Z\Z}}
+\newcommand{\HZZfl}{\ensuremath{\H\to\Z\Z\to4\ell}}
+\newcommand{\suthree}{\ensuremath{\mathrm{SU(3)}}}
+ \newcommand{\suthreec}{\ensuremath{\mathrm{SU(3)_C}}}
+ \newcommand{\sutwo}{\ensuremath{\mathrm{SU(2)}}}
+ \newcommand{\sutwol}{\ensuremath{\mathrm{SU(2)_L}}}
+ \newcommand{\uone}{\ensuremath{\mathrm{U(1)}}}
+ \newcommand{\uoneg}{\ensuremath{\mathrm{U(1)_\gamma}}}
+ \newcommand{\fb}{\ensuremath{\mathrm{fb}}}
+ \newcommand{\pb}{\ensuremath{\mathrm{pb}}}
+ \newcommand{\ifb}{\ensuremath{\mathrm{fb^{-1}}}}
+ \newcommand{\ipb}{\ensuremath{\mathrm{pb^{-1}}}}
+ \newcommand{\Hmu}{\ensuremath{\mathrm{H}\to\mathrm{ZZ^{(\ast)}}\to4\mu}}
+ \newcommand{\Hemu}{\ensuremath{\mathrm{H}\to\mathrm{ZZ^{(\ast)}}\to2e2\mu}}
+ \newcommand{\mmu}{\ensuremath{\mathrm{m_{4\mu}}}}
+ \newcommand{\mH}{\ensuremath{m_{\mathrm{H}}}}
+ \newcommand{\lnQ}{\ensuremath{\mathrm{ln}(Q)}}
+ \newcommand{\mlnQ}{\ensuremath{-2\,\mathrm{ln}(Q)}}
+ \newcommand{\LS}{\ensuremath{{\cal L}(S)}}
+ \newcommand{\LB}{\ensuremath{{\cal L}(B)}}
+ \newcommand{\LSB}{\ensuremath{{\cal L}(S+B)}}
+ \newcommand{\mfl}{\ensuremath{m_{4\ell}}}
+ \newcommand{\mZ}{\ensuremath{m_\mathrm{Z}}}
+ \newcommand{\Zbb}{\ensuremath{(Z/\gamma^*){\mathrm{b\bar{b}}}}}
+ \newcommand{\Zgam}{\ensuremath{\mathrm{Z/\gamma^*}}}
+ \newcommand{\mumu}{\ensuremath{\mathrm{\mu^+\mu^-}}}
+ \newcommand{\KD}{\ensuremath{{\cal D}^{\rm kin}_{\rm bkg}} }
+\newcommand{\superKD}{\ensuremath{{\cal D}_{\rm bkg}} }
+\newcommand{\spinKD}{\ensuremath{{\cal D}_{J^P}} }
+\newcommand{\VDj}{\mathrm{{\cal D}_{\rm jet}} }
+\newcommand{\VDu}{\mathrm{{\cal D}_{\PT}} }
+\newcommand{\MassD}{\mathrm{{\cal D}_{\rm mass}} }
+\newcommand{\ZZl}{$\mathrm{ZZ} \to 4\ell$ }
+\newcommand{\ZZ}{\ensuremath{\mathrm{Z/\gamma^*Z/\gamma^*}}}
+\newcommand{\ZBBbar}{$\mathrm{Zb\bar{b}}$ }
+\newcommand{\TTbar}{\ensuremath{\mathrm{t \bar{t}}} }
+\newcommand{\qqbar}{\ensuremath{\mathrm{q \bar{q}}} }
+\newcommand{\mllll}{\ensuremath{m_{4\ell}}}
+\newcommand{\ptllll}{\ensuremath{p_{\mathrm{T},4\ell}}}
+\newcommand{\ptsuemme}{\ensuremath{p_{\mathrm{T},4\ell} / m_{4\ell}}}
+\newcommand{\sip}{\ensuremath{\rm SIP_{3D}} }
+\newcommand{\LikMuOneD}{\mathrm{{\cal L}_{1D}(m_{4l})} }
+\newcommand{\LikMuTwoD}{\mathrm{{\cal L}_{3D}(m_{4l},\KD)} }
+\newcommand{\LikMuThreeD}{\mathrm{{\cal L}_{3D}(m_{4l},\KD,\VDj/\VDu)} }
+\newcommand{\LikMu}{\LikMuThreeD}
+\newcommand{\LikMass}{\mathrm{{\cal L}_{3D}(m_{4\ell},\MassD,\KD)} }
+\newcommand{\LikSpin}{\mathrm{{\cal L}_{3D}(\superKD,\VDj/\VDu,\spinKD)} }
+\newcommand{\strength}{\ensuremath{\mu_{\rm S}}}
+ \newcommand{\usedLumiABC}{137.1~\ifb}
+% xs-paper specific
+\newcommand{\Hllll}{\ensuremath{\mathrm{H}\to4\ell}}
+\newcommand{\Heeee}{\ensuremath{\mathrm{H}\to4e}}
+\newcommand{\Zllll}{\ensuremath{\mathrm{Z}\to4\ell}}
+\newcommand{\Zll}{\ensuremath{\mathrm{Z}\to\ell\ell}}
+\newcommand{\jpsi}{\ensuremath{J/\psi}}
+\newcommand{\ZZllll}{\ensuremath{\mathrm{ZZ}\to4\ell}}
+\newcommand{\HZZllll}{\ensuremath{\mathrm{H}\to\mathrm{ZZ}\to4\ell}}
+
+\newcommand{\ggH}{\ensuremath{{\rm gg}\to{\rm H}}}
+\newcommand{\VH}{\ensuremath{{\rm VH}}}
+\newcommand{\ZH}{\ensuremath{{\rm ZH}}}
+\newcommand{\WH}{\ensuremath{{\rm WH}}}
+\newcommand{\ttH}{\ensuremath{t\bar{t}{\rm H}}}
+
+\documentclass[twoside]{Style/ucasthesis}%
+%- Multiple optional arguments:
+%- [<oneside|twoside|print>]% oneside eprint, twoside eprint, or paper print
+%- [fontset=<adobe|...>]% specify font set to replace automatic detection
+%- [scheme=plain]% thesis writing of international students
+%- [draftversion]% show draft version information
+%- [standard options for ctex book class: draft|paper size|font size|...]%
+%---------------------------------------------------------------------------%
+%->> Document settings
+%---------------------------------------------------------------------------%
+\usepackage[authoryear,list]{Style/artratex}% document settings
+%- usage: \usepackage[option1,option2,...,optionN]{artratex}
+%- Multiple optional arguments:
+%- [bibtex|biber]% set bibliography processor and package
+%- [<numbers|super|authoryear|alpha>]% set citation and reference style
+%- <numbers>: textual: Jones [1]; parenthetical: [1]
+%- <super>: textual: Jones superscript [1]; parenthetical: superscript [1]
+%- <authoryear>: textual: Jones (1995); parenthetical: (Jones, 1995)
+%- <alpha>: textual: not available; parenthetical: [Jon95])
+%- [geometry]% reconfigure page layout via geometry package
+%- [lscape]% provide landscape layout environment
+%- [xhf]% disable header and footer via fancyhdr package
+%- [color]% provide color support via xcolor package
+%- [background]% enable page background
+%- [tikz]% provide complex diagrams via tikz package
+%- [table]% provide complex tables via ctable package
+%- [list]% provide enhanced list environments for algorithm and coding
+%- [math]% enable some extra math packages
+%- [xlink]% disable link colors
+\usepackage{Style/artracom}% user defined commands
+%---------------------------------------------------------------------------%
+%->> Document inclusion
+%---------------------------------------------------------------------------%
+%\includeonly{Tex/Chap_1,...,Tex/Chap_N}% selected files compilation
+%---------------------------------------------------------------------------%
+%->> Document content
+%---------------------------------------------------------------------------%
+%-
+%-> Titlepage information
+%-
+\input{Tex/Frontinfo}%
+\clearpage
+\begin{document}
+%-
+%-> Frontmatter: title page, abstract, content list, symbol list, preface
+%-
+\frontmatter% initialize the environment
+\input{Tex/Frontmatter}% title page, abstract
+\clearpage
+%{% content list region
+%\linespread{1.2}% local line space
+%\intobmk*{\cleardoublepage}{\contentsname}% add link to bookmark
+%\tableofcontents% content catalog
+%\intobmk*{\cleardoublepage}{\listfigurename}% add link to bookmark
+%\listoffigures% figure catalog
+%\intobmk*{\cleardoublepage}{\listtablename}% add link to bookmark
+%\listoftables% table catalog
+%}
+%\input{Tex/Prematter}% symbol list, preface content
+%%-
+%%-> Mainmatter
+%%-
+%\mainmatter% initialize the environment
+%\input{Tex/Mainmatter}% main content
+%%-
+%%-> Appendix
+%%-
+%\cleardoublepage%
+%\appendix% initialize the environment
+%\input{Tex/Appendix}% appendix content
+%%-
+%%-> Backmatter: bibliography, glossary, index
+%%-
+%\backmatter% initialize the environment
+\intotoc*{\cleardoublepage}{\bibname}% add link to toc
+%\bibliography{Biblio/ref}% bibliography
+\bibliography{example_merged2}% bibliography
+%\input{Tex/Backmatter}% other information
+\end{document}
+%---------------------------------------------------------------------------%
+

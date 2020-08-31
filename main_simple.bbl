@@ -17,23 +17,169 @@
 \endgroup
 
 \datalist[entry]{none/global//global/global}
-  \entry{CMSHggFiducial8TeV}{article}{}
+  \entry{Khachatryan:2015yvw}{article}{}
+    \true{moreauthor}
+    \name{author}{1}{}{%
+      {{hash=KV}{%
+         family={Khachatryan},
+         familyi={K\bibinitperiod},
+         given={Vardan},
+         giveni={V\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KV+2}
+    \strng{fullhash}{KV+2}
+    \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \verb{doi}
-    \verb 10.1140/epjc/s10052-015-3853-3
+    \verb 10.1007/JHEP04(2016)005
     \endverb
     \verb{eprint}
-    \verb 1508.07819
+    \verb 1512.08377
     \endverb
-    \field{pages}{13}
-    \field{title}{{Measurement of differential cross sections for Higgs boson
-  production in the diphoton decay channel in pp collisions at $\sqrt{s}$=8
-  TeV}}
-    \field{volume}{76}
-    \field{journaltitle}{Eur. Phys. J. C}
+    \field{pages}{005}
+    \field{title}{{Measurement of differential and integrated fiducial cross
+  sections for Higgs boson production in the four-lepton decay channel in pp
+  collisions at $ \sqrt{s}=7 $ and 8 TeV}}
+    \field{volume}{04}
+    \field{journaltitle}{JHEP}
     \field{eprinttype}{arXiv}
     \field{eprintclass}{hep-ex}
+    \field{year}{2016}
+  \endentry
+
+  \entry{CMS:2015hja}{article}{}
+    \field{labeltitlesource}{title}
+    \field{title}{{Measurement of inclusive and differential fiducial cross
+  sections for Higgs boson production in the H-to-4l decay channel in p-p
+  collisions at 7\textasciitilde TeV and 8\textasciitilde TeV}}
+    \field{month}{08}
     \field{year}{2015}
+  \endentry
+
+  \entry{CMS:2016rqf}{article}{}
+    \field{labeltitlesource}{title}
+    \field{title}{{Studies of Higgs boson production in the four-lepton final
+  state at $\sqrt{s}=13~\mathrm{TeV}$}}
+    \field{month}{03}
+    \field{year}{2016}
+  \endentry
+
+  \entry{Sirunyan:2017exp}{article}{}
+    \true{moreauthor}
+    \name{author}{1}{}{%
+      {{hash=SAM}{%
+         family={Sirunyan},
+         familyi={S\bibinitperiod},
+         given={Albert\bibnamedelima M},
+         giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SAM+1}
+    \strng{fullhash}{SAM+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1007/JHEP11(2017)047
+    \endverb
+    \verb{eprint}
+    \verb 1706.09936
+    \endverb
+    \field{pages}{047}
+    \field{title}{{Measurements of properties of the Higgs boson decaying into
+  the four-lepton final state in pp collisions at $ \sqrt{s}=13 $ TeV}}
+    \field{volume}{11}
+    \field{journaltitle}{JHEP}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ex}
+    \field{year}{2017}
+  \endentry
+
+  \entry{CMS:2018hhg}{article}{}
+    \field{labeltitlesource}{title}
+    \field{title}{{Combined measurement and interpretation of differential
+  Higgs boson production cross sections at $\sqrt{s}$=13 TeV}}
+    \field{month}{07}
+    \field{year}{2018}
+  \endentry
+
+  \entry{ATLAS-CONF-2019-029}{report}{}
+    \field{labeltitlesource}{title}
+    \field{number}{ATLAS-CONF-2019-029}
+    \field{title}{{Measurements and interpretations of Higgs-boson fiducial
+  cross sections in the diphoton decay channel using 139 fb$^−1$ of $pp$
+  collision data at $\sqrt{s}$ = 13 TeV with the ATLAS detector}}
+    \verb{url}
+    \verb https://cds.cern.ch/record/2682800
+    \endverb
+    \list{location}{1}{%
+      {Geneva}%
+    }
+    \list{institution}{1}{%
+      {CERN}%
+    }
+    \field{type}{techreport}
+    \field{year}{2019}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{atlas-conf-2019-025}{report}{}
+    \field{labeltitlesource}{title}
+    \field{number}{ATLAS-CONF-2019-025}
+    \field{title}{{Measurements of the Higgs boson inclusive, differential and
+  production cross sections in the 4$\ell$ decay channel at $\sqrt{s}$ = 13 TeV
+  with the ATLAS detector}}
+    \verb{url}
+    \verb http://cds.cern.ch/record/2682107
+    \endverb
+    \list{location}{1}{%
+      {Geneva}%
+    }
+    \list{institution}{1}{%
+      {CERN}%
+    }
+    \field{type}{techreport}
+    \field{year}{2019}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{ATLAS:2018uso}{article}{}
+    \field{labeltitlesource}{title}
+    \field{title}{{Measurements of Higgs boson properties in the diphoton decay
+  channel using 80 fb$^{-1}$ of $pp$ collision data at $\sqrt s$ = 13 TeV with
+  the ATLAS detector}}
+    \field{month}{07}
+    \field{year}{2018}
+  \endentry
+
+  \entry{ATLAS-CONF-2019-032}{report}{}
+    \field{labeltitlesource}{title}
+    \field{number}{ATLAS-CONF-2019-032}
+    \field{title}{{Combined measurement of the total and differential cross
+  sections in the $H \rightarrow \gamma \gamma$ and the $H \rightarrow ZZ^*
+  \rightarrow 4\ell$ decay channels at $\sqrt{s} = $13 TeV with the ATLAS
+  detector}}
+    \verb{url}
+    \verb http://cds.cern.ch/record/2682844
+    \endverb
+    \list{location}{1}{%
+      {Geneva}%
+    }
+    \list{institution}{1}{%
+      {CERN}%
+    }
+    \field{type}{techreport}
+    \field{year}{2019}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{ATLAS:2017myr}{article}{}
+    \field{labeltitlesource}{title}
+    \field{title}{{Measurements of Higgs boson properties in the diphoton decay
+  channel with 36.1 fb$^{−1}$ $pp$ collision data at the center-of-mass
+  energy of 13 TeV with the ATLAS detector}}
+    \field{month}{07}
+    \field{year}{2017}
   \endentry
 
   \entry{CMS:Hgg_8TeV}{article}{}
@@ -58,6 +204,45 @@
     \field{volume}{76}
     \field{journaltitle}{Eur. Phys. J. C}
     \field{year}{2016}
+  \endentry
+
+  \entry{CMS:2019chr}{article}{}
+    \field{labeltitlesource}{title}
+    \field{title}{{Measurements of properties of the Higgs boson in the
+  four-lepton final state in proton-proton collisions at
+  $\sqrt{s}=13~\mathrm{TeV}$}}
+    \field{month}{03}
+    \field{year}{2019}
+  \endentry
+
+  \entry{Sirunyan:2020xwk}{article}{}
+    \true{moreauthor}
+    \name{author}{1}{}{%
+      {{hash=SAM}{%
+         family={Sirunyan},
+         familyi={S\bibinitperiod},
+         given={Albert\bibnamedelima M},
+         giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SAM+1}
+    \strng{fullhash}{SAM+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/j.physletb.2020.135425
+    \endverb
+    \verb{eprint}
+    \verb 2002.06398
+    \endverb
+    \field{pages}{135425}
+    \field{title}{{A measurement of the Higgs boson mass in the diphoton decay
+  channel}}
+    \field{volume}{805}
+    \field{journaltitle}{Phys. Lett. B}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ex}
+    \field{year}{2020}
   \endentry
 
   \entry{Reference7}{article}{}
@@ -551,6 +736,25 @@
     \field{year}{2015}
   \endentry
 
+  \entry{CMSHggFiducial8TeV}{article}{}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1140/epjc/s10052-015-3853-3
+    \endverb
+    \verb{eprint}
+    \verb 1508.07819
+    \endverb
+    \field{pages}{13}
+    \field{title}{{Measurement of differential cross sections for Higgs boson
+  production in the diphoton decay channel in pp collisions at $\sqrt{s}$=8
+  TeV}}
+    \field{volume}{76}
+    \field{journaltitle}{Eur. Phys. J. C}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ex}
+    \field{year}{2015}
+  \endentry
+
   \entry{Chatrchyan:2013mxa}{article}{}
     \true{moreauthor}
     \name{author}{1}{}{%
@@ -571,6 +775,28 @@
     \field{volume}{89}
     \field{journaltitle}{Phys.Rev. D}
     \field{year}{2014}
+  \endentry
+
+  \entry{higgsCombMass}{article}{}
+    \name{author}{1}{}{%
+      {{hash=CAC}{%
+         family={CMS},
+         familyi={C\bibinitperiod},
+         given={ATLAS\bibnamedelima Collaborations},
+         giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CAC1}
+    \strng{fullhash}{CAC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{191803}
+    \field{title}{Combined Measurement of the Higgs Boson Mass in pp Collisions
+  at sqrt[s]=7 and 8 TeV with the ATLAS and CMS Experiments}
+    \field{volume}{114}
+    \field{journaltitle}{Phys Rev Lett}
+    \field{month}{05}
+    \field{year}{2015}
   \endentry
 
   \entry{Reference1}{article}{}
@@ -704,6 +930,46 @@
     \field{year}{1983}
   \endentry
 
+  \entry{scattering_pp}{article}{}
+    \name{author}{3}{}{%
+      {{hash=BJM}{%
+         family={Butterworth},
+         familyi={B\bibinitperiod},
+         given={Jonathan\bibnamedelima M.},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=DG}{%
+         family={Dissertori},
+         familyi={D\bibinitperiod},
+         given={Günther},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=SGP}{%
+         family={Salam},
+         familyi={S\bibinitperiod},
+         given={Gavin\bibnamedelima P.},
+         giveni={G\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BJMDGSGP1}
+    \strng{fullhash}{BJMDGSGP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1146/annurev-nucl-102711-094913
+    \endverb
+    \field{number}{1}
+    \field{pages}{387\bibrangedash 405}
+    \field{title}{Hard Processes in Proton-Proton Collisions at the Large
+  Hadron Collider}
+    \verb{url}
+    \verb https://doi.org/10.1146/annurev-nucl-102711-094913
+    \endverb
+    \field{volume}{62}
+    \field{journaltitle}{Annual Review of Nuclear and Particle Science}
+    \field{year}{2012}
+  \endentry
+
   \entry{Reference28}{article}{}
     \name{author}{2}{}{%
       {{hash=OSBPLSMROJPPC}{%
@@ -769,6 +1035,47 @@
   Large Hadron Collider at CERN}
     \field{journaltitle}{CERN-LHCC-94-43}
     \field{year}{1994}
+  \endentry
+
+  \entry{CERN:news_linac2}{article}{}
+    \field{labeltitlesource}{title}
+    \field{title}{{LINAC 4}}
+    \verb{url}
+    \verb https://home.cern/news/press-release/cern/cern-celebrates-completion-
+    \verb linac-4-its-brand-new-linear-particle
+    \endverb
+    \field{year}{2020}
+  \endentry
+
+  \entry{CERN:LS2_upgrades}{article}{}
+    \field{labeltitlesource}{title}
+    \field{title}{{Long Shutdown upgrades}}
+    \verb{url}
+    \verb https://indico.cern.ch/event/315626/contributions/729447/attachments/
+    \verb 605638/833479/Challenges_Experiments.pdf
+    \endverb
+    \field{year}{2018}
+  \endentry
+
+  \entry{Sakuma:2665537}{article}{}
+    \name{author}{1}{}{%
+      {{hash=ST}{%
+         family={Sakuma},
+         familyi={S\bibinitperiod},
+         given={Tai},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ST1}
+    \strng{fullhash}{ST1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{Cutaway diagrams of CMS detector}}
+    \verb{url}
+    \verb http://cds.cern.ch/record/2665537
+    \endverb
+    \field{year}{2019}
+    \warn{\item Invalid format of field 'month'}
   \endentry
 
   \entry{cms:MFTDR}{article}{}
@@ -852,6 +1159,62 @@
     \field{year}{2000}
   \endentry
 
+  \entry{Klein:2017nke}{article}{}
+    \true{moreauthor}
+    \name{author}{1}{}{%
+      {{hash=TA}{%
+         family={Tumasyan},
+         familyi={T\bibinitperiod},
+         given={Armen},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \name{editor}{1}{}{%
+      {{hash=KK}{%
+         family={Klein},
+         familyi={K\bibinitperiod},
+         given={K.},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{TA+1}
+    \strng{fullhash}{TA+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{The Phase-2 Upgrade of the CMS Tracker}}
+    \field{month}{06}
+    \field{year}{2017}
+  \endentry
+
+  \entry{Sonneveld:2018ntf}{article}{}
+    \name{author}{1}{}{%
+      {{hash=SJ}{%
+         family={Sonneveld},
+         familyi={S\bibinitperiod},
+         given={Jory},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SJ1}
+    \strng{fullhash}{SJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.22323/1.309.0018
+    \endverb
+    \verb{eprint}
+    \verb 1807.08987
+    \endverb
+    \field{pages}{018}
+    \field{title}{{Commissioning and first results from the CMS phase 1 upgrade
+  pixel detector}}
+    \field{volume}{Vertex 2017}
+    \field{journaltitle}{PoS}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{physics.ins-det}
+    \field{year}{2018}
+  \endentry
+
   \entry{cms:ECALTDR}{article}{}
     \name{author}{1}{}{%
       {{hash=CC}{%
@@ -869,6 +1232,62 @@
     \field{year}{1997}
   \endentry
 
+  \entry{Zghiche_2019}{article}{}
+    \name{author}{1}{}{%
+      {{hash=aAZ}{%
+         family={and},
+         familyi={a\bibinitperiod},
+         given={Amina\bibnamedelima Zghiche},
+         giveni={A\bibinitperiod\bibinitdelim Z\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{IOP} Publishing}%
+    }
+    \strng{namehash}{aAZ1}
+    \strng{fullhash}{aAZ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1088/1742-6596/1162/1/012001
+    \endverb
+    \field{pages}{012001}
+    \field{title}{Performance of the {CMS} electromagnetic calorimeter during
+  the {LHC} Run {II}}
+    \verb{url}
+    \verb https://doi.org/10.1088%2F1742-6596%2F1162%2F1%2F012001
+    \endverb
+    \field{volume}{1162}
+    \field{journaltitle}{Journal of Physics: Conference Series}
+    \field{year}{2019}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{pixel_hcal_upgrade}{article}{}
+    \name{author}{2}{}{%
+      {{hash=CD}{%
+         family={Contardo},
+         familyi={C\bibinitperiod},
+         given={Didier},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Spalding},
+         familyi={S\bibinitperiod},
+         given={Jeff},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CDSJ1}
+    \strng{fullhash}{CDSJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{CMS PREPARES FOR PIXEL AND HCAL UPGRADES}}
+    \verb{url}
+    \verb https://cmsexperiment.web.cern.ch/node/1416/1416#comment-form
+    \endverb
+  \endentry
+
   \entry{cms:muonsystem_TDR}{article}{}
     \name{author}{1}{}{%
       {{hash=CC}{%
@@ -884,6 +1303,262 @@
     \field{labeltitlesource}{title}
     \field{title}{CMS, the Compact Muon Solenoid. Muon technical design report}
     \field{year}{1997}
+  \endentry
+
+  \entry{Paolucci:927394}{report}{}
+    \name{author}{1}{}{%
+      {{hash=PP}{%
+         family={Paolucci},
+         familyi={P\bibinitperiod},
+         given={Pierluigi},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PP1}
+    \strng{fullhash}{PP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1142/9789812773678_0096
+    \endverb
+    \field{number}{CMS-CR-2006-006}
+    \field{title}{{The CMS Muon system}}
+    \verb{url}
+    \verb http://cds.cern.ch/record/927394
+    \endverb
+    \list{location}{1}{%
+      {Geneva}%
+    }
+    \list{institution}{1}{%
+      {CERN}%
+    }
+    \field{type}{techreport}
+    \field{year}{2005}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{article_dt}{article}{}
+    \name{author}{2}{}{%
+      {{hash=JH}{%
+         family={Jansen},
+         familyi={J\bibinitperiod},
+         given={Hendrik},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=HT}{%
+         family={Hebbeker},
+         familyi={H\bibinitperiod},
+         given={Thomas},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{JHHT1}
+    \strng{fullhash}{JHHT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Study of Unparticle plus Lepton Signatures at CMS}
+    \field{month}{07}
+    \field{year}{2020}
+  \endentry
+
+  \entry{article_rpc}{article}{}
+    \name{author}{2}{}{%
+      {{hash=BK}{%
+         family={Bunkowski},
+         familyi={B\bibinitperiod},
+         given={Karol},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=KJ}{%
+         family={Krolikowski},
+         familyi={K\bibinitperiod},
+         given={Jan},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BKKJ1}
+    \strng{fullhash}{BKKJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Optimization, Synchronization, Calibration and Diagnostic of
+  the RPC PAC Muon Trigger System for the CMS detector}
+    \field{month}{01}
+    \field{year}{2009}
+  \endentry
+
+  \entry{Sirunyan:2018fpa}{article}{}
+    \true{moreauthor}
+    \name{author}{1}{}{%
+      {{hash=SA}{%
+         family={Sirunyan},
+         familyi={S\bibinitperiod},
+         given={A.M.},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SA+1}
+    \strng{fullhash}{SA+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1088/1748-0221/13/06/P06015
+    \endverb
+    \verb{eprint}
+    \verb 1804.04528
+    \endverb
+    \field{number}{06}
+    \field{pages}{P06015}
+    \field{title}{{Performance of the CMS muon detector and muon reconstruction
+  with proton-proton collisions at $\sqrt{s}=$ 13 TeV}}
+    \field{volume}{13}
+    \field{journaltitle}{JINST}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{physics.ins-det}
+    \field{year}{2018}
+  \endentry
+
+  \entry{Radogna:2016esa}{article}{}
+    \name{author}{1}{}{%
+      {{hash=RR}{%
+         family={Radogna},
+         familyi={R\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \name{editor}{4}{}{%
+      {{hash=ABM}{%
+         family={Aguilar-Benitez},
+         familyi={A\bibinitperiod-B\bibinitperiod},
+         given={M},
+         giveni={M},
+      }}%
+      {{hash=FJ}{%
+         family={Fuster},
+         familyi={F\bibinitperiod},
+         given={J},
+         giveni={J},
+      }}%
+      {{hash=MGS}{%
+         family={Martí-García},
+         familyi={M\bibinitperiod-G\bibinitperiod},
+         given={S},
+         giveni={S},
+      }}%
+      {{hash=SA}{%
+         family={Santamaría},
+         familyi={S\bibinitperiod},
+         given={A},
+         giveni={A},
+      }}%
+    }
+    \strng{namehash}{RR1}
+    \strng{fullhash}{RR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/j.nuclphysbps.2015.09.440
+    \endverb
+    \field{pages}{2506\bibrangedash 2508}
+    \field{title}{{Motivation of the CMS Muon System Upgrade with Triple-GEM
+  detectors}}
+    \field{volume}{273-275}
+    \field{journaltitle}{Nucl. Part. Phys. Proc.}
+    \field{year}{2016}
+  \endentry
+
+  \entry{Costantini:2711362}{article}{}
+    \name{author}{1}{}{%
+      {{hash=CS}{%
+         family={Costantini},
+         familyi={C\bibinitperiod},
+         given={Silvia},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CS1}
+    \strng{fullhash}{CS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1088/1748-0221/15/02/C02038
+    \endverb
+    \field{number}{arXiv:2002.09060. 02}
+    \field{pages}{C02038. 10 p}
+    \field{title}{{Background in the CMS muon detectors: simulation and
+  measurements with pp collision data}}
+    \verb{url}
+    \verb http://cds.cern.ch/record/2711362
+    \endverb
+    \field{volume}{15}
+    \field{journaltitle}{JINST}
+    \field{year}{2020}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Fisk:2010jd}{inproceedings}{}
+    \name{author}{1}{}{%
+      {{hash=FI}{%
+         family={Fisk},
+         familyi={F\bibinitperiod},
+         given={Ian},
+         giveni={I\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FI1}
+    \strng{fullhash}{FI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{{21st Hadron Collider Physics Symposium}}
+    \verb{eprint}
+    \verb 1012.1980
+    \endverb
+    \field{title}{{First Experiences with LHC Grid Computing and Distributed
+  Analysis}}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{physics.data-an}
+    \field{month}{12}
+    \field{year}{2010}
+  \endentry
+
+  \entry{Chatrchyan:2014fea}{article}{}
+    \true{moreauthor}
+    \name{author}{1}{}{%
+      {{hash=CS}{%
+         family={Chatrchyan},
+         familyi={C\bibinitperiod},
+         given={Serguei},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CS+1}
+    \strng{fullhash}{CS+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1088/1748-0221/9/10/P10009
+    \endverb
+    \verb{eprint}
+    \verb 1405.6569
+    \endverb
+    \field{number}{10}
+    \field{pages}{P10009}
+    \field{title}{{Description and performance of track and primary-vertex
+  reconstruction with the CMS tracker}}
+    \field{volume}{9}
+    \field{journaltitle}{JINST}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{physics.ins-det}
+    \field{year}{2014}
+  \endentry
+
+  \entry{pog_tnp}{article}{}
+    \field{labeltitlesource}{title}
+    \field{title}{{Tag and Probe}}
+    \verb{url}
+    \verb https://twiki.cern.ch/twiki/bin/view/CMSPublic/TagAndProbe
+    \endverb
+    \field{year}{2014}
   \endentry
 
   \entry{ElectronLegacy}{article}{}
@@ -990,6 +1665,16 @@
     \field{year}{2016}
   \endentry
 
+  \entry{jets_at_cms}{article}{}
+    \field{labeltitlesource}{title}
+    \field{title}{{Jets at CMS and the determination of their energy scale}}
+    \verb{url}
+    \verb http://cms.web.cern.ch/news/jets-cms-and-determination-their-energy-s
+    \verb cale
+    \endverb
+    \field{year}{2012}
+  \endentry
+
   \entry{JetID2018}{article}{}
     \name{author}{1}{}{%
       {{hash=J}{%
@@ -1045,6 +1730,37 @@
     \verb https://twiki.cern.ch/twiki/bin/view/CMS/JECDataMC#2018_Data
     \endverb
     \field{journaltitle}{CMS Twiki}
+    \field{year}{2018}
+  \endentry
+
+  \entry{Sirunyan:2017ezt}{article}{}
+    \true{moreauthor}
+    \name{author}{1}{}{%
+      {{hash=SA}{%
+         family={Sirunyan},
+         familyi={S\bibinitperiod},
+         given={A.M.},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SA+1}
+    \strng{fullhash}{SA+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1088/1748-0221/13/05/P05011
+    \endverb
+    \verb{eprint}
+    \verb 1712.07158
+    \endverb
+    \field{number}{05}
+    \field{pages}{P05011}
+    \field{title}{{Identification of heavy-flavour jets with the CMS detector
+  in pp collisions at 13 TeV}}
+    \field{volume}{13}
+    \field{journaltitle}{JINST}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{physics.ins-det}
     \field{year}{2018}
   \endentry
 
@@ -1625,6 +2341,22 @@
     \field{volume}{53}
     \field{journaltitle}{IEEE Trans. Nucl. Sci.}
     \field{year}{2006}
+  \endentry
+
+  \entry{CMS:2018mmw}{article}{}
+    \field{labeltitlesource}{title}
+    \field{title}{{Measurements of properties of the Higgs boson in the
+  four-lepton final state at $\sqrt{s}=13~\mathrm{TeV}$}}
+    \field{month}{06}
+    \field{year}{2018}
+  \endentry
+
+  \entry{CMS:2017jkd}{article}{}
+    \field{labeltitlesource}{title}
+    \field{title}{{Measurements of properties of the Higgs boson decaying into
+  four leptons in pp collisions at sqrt{s} = 13 TeV}}
+    \field{month}{03}
+    \field{year}{2017}
   \endentry
 
   \entry{Khachatryan:2014kca}{article}{}
@@ -2292,6 +3024,31 @@
     \field{volume}{CERN-2013-004}
     \field{journaltitle}{JHEP}
     \field{year}{2013}
+  \endentry
+
+  \entry{ATLAS:2020wny}{article}{}
+    \true{moreauthor}
+    \name{author}{1}{}{%
+      {{hash=AG}{%
+         family={Aad},
+         familyi={A\bibinitperiod},
+         given={Georges},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AG+1}
+    \strng{fullhash}{AG+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{eprint}
+    \verb 2004.03969
+    \endverb
+    \field{title}{{Measurements of the Higgs boson inclusive and differential
+  fiducial cross sections in the 4$\ell$ decay channel at $\sqrt{s}$ = 13 TeV}}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ex}
+    \field{month}{04}
+    \field{year}{2020}
   \endentry
 \enddatalist
 \endinput

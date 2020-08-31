@@ -7,7 +7,7 @@ The uncertainty in the theoretical prediction for dominant process i.e. $\ggH$ i
 The uncertainty in the theoretical prediction for associated production mechanisms are assumed to be constant among differential bins and  are obtained from Ref.~\cite{LHCHiggsCrossSectionWorkingGroup:2013tqa}.
 The differential cross sections as a function of Higgs transverse momentum and rapidity are sensitive to pQCD calculations of
 $\ggH$ production mode which is mediated by a loop, in which Higgs $p_T(H)$ is anticipated to be balanced with emission of the soft quarks and gluons. The differential distribution as a function rapidity of Higgs also probes PDFs of the colliding protons and representation of the gluon fusion production modes. 
-The differential observables, transverse momentum $p_T)$ of leading jet and jet multiplicity N(jets) probe hard quark and gluon radiations theoretical modelling in the process. %comparative contribution of different Higgs production modes. 
+The differential observables, transverse momentum $p_T$ of leading jet and jet multiplicity N(jets) probe hard quark and gluon radiations theoretical modelling in the process. %comparative contribution of different Higgs production modes. 
 Comparison of measurements with theoretical predictions
 from {\sc powheg} and {\sc NNLOPS} for the gg$\rightarrow$H process (displayed in the blue and brown colors, respectively) together with predictions for XH $=$ VBF ({\sc powheg}) $+$ VH $+$ ttH({\sc pythia}) (shown in green) is also shown. The error bars represents  
 statistical and systematic uncertainty.
@@ -72,7 +72,7 @@ Appendix~\ref{fig:differential-results-restrictive_md}.
     }
     \caption{Differential fiducial cross section results for $\pt({\rm H})$ (top left), $|y({\rm H})|$ (top right), $p_T$ of leading jet (bottom left) and N(jets) (bottom right) in $\Hllll$ using full Run 2 CMS data and comparison with the theoretical predictions. 
         Systematic uncertainty is indicated by red bars and black bars show total statistical and the systematic uncertainties, combined in quadrature. The blue and brown colors show the theoretical predictions. 
-	  The acceptances and the theoretical uncertainties in differential bins are computed using {\sc powheg}. Sub-dominant production contributions XH $=$ VBF $+$ VH $+$ $\TTH$ are shown in green separately. The inclusive cross section is normalized to SM estimates calculated at NNLL+NNLO level of accuracy for all theoretical predictions. The systematic uncertainties correspond to the generators accuracy are also taken in to account for differential predictions. The fraction of $4\mu$, $4e$ and $2e2\mu$ in each differential bin is allowed to float in fit.
+	  The acceptances and the theoretical uncertainties in differential bins are computed using {\sc powheg}. Sub-dominant production contributions XH $=$ VBF $+$ VH $+$ $\ttH$ are shown in green separately. The inclusive cross section is normalized to SM estimates calculated at NNLL+NNLO level of accuracy for all theoretical predictions. The systematic uncertainties correspond to the generators accuracy are also taken in to account for differential predictions. The fraction of $4\mu$, $4e$ and $2e2\mu$ in each differential bin is allowed to float in fit.
     }
   \label{fig:differential-results}
  \end{center}

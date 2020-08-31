@@ -1,0 +1,119 @@
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Classicthesis-Styled CV
+% LaTeX Template
+% Version 1.0 (22/2/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Alessandro Plasmati
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+%\documentclass{scrartcl}
+
+\reversemarginpar
+\newcommand{\MarginText}[1]{\marginpar{\raggedleft\itshape\small#1}}
+
+%\usepackage[nochapters]{classicthesis}
+%\usepackage[LabelsAligned]{currvita}
+
+%\usepackage[a4paper, lmargin=2in, rmargin=1.5in, tmargin=1.5in, bmargin=1.5in, footskip=0.5in]{geometry}
+
+\renewcommand{\cvheadingfont}{\LARGE\color{ForestGreen}}
+
+%\usepackage{hyperref}
+\hypersetup{colorlinks, breaklinks, urlcolor=blue, linkcolor=blue}
+
+\newcommand{\NewEntry}[2]{\noindent\hangindent=0em\hangafter=0 \MarginText{#1}#2\vspace{0.5em}}
+\newcommand{\NewEntryFull}[3]{\noindent\hangindent=0em\hangafter=0 #2\MarginText{#1}{\ \ $\cdotp$\ \ \it #3}\vspace{0.5em}}
+\newcommand{\NewPublication}[4]{\noindent\hangindent=0em\hangafter=0 \MarginText{\textbf{\color{black} #1}}{\footnotesize [{\color{blue}#2}]} #3 {\footnotesize\color{Gray}#4}\vspace{0.5em}}
+\newcommand{\Description}[1]{\hangindent=2em\hangafter=0\noindent\raggedright\footnotesize{#1}\par\normalsize\vspace{1em}}
+\newcommand{\DescriptionAligned}[1]{\hangindent=0em\hangafter=0\noindent\raggedright{#1}\par\normalsize\vspace{1em}}
+
+
+%----------------------------------------------------------------------------------------
+
+%\usepackage{scrpage2}
+
+\deftripstyle{cv-headings}%
+%{}{}{Tahir \textsc{Javaid} -- Academic resume}%
+{}{}{Tahir \textsc{Javaid} -- Publication List}%
+{}{}{}
+
+
+%\date{}
+
+%\begin{document}
+
+\pagestyle{cv-headings}
+
+% \pagestyle{empty}
+%\pagestyle{scrheadings}
+
+%\thispagestyle{empty}
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+%\begin{cv}{\spacedallcaps{Academic curriculum}}\vspace{3em}
+\begin{cv}{\spacedallcaps{Publication List with direct contribution}}\vspace{3em}
+
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS
+%----------------------------------------------------------------------------------------
+
+%\spacedlowsmallcaps{Publications}\vspace{1em}
+
+	\NewPublication{}{5}{Higgs cross section measurements in the four lepton final state at CMS.}{\newline Tahir Javaid on the behalf of the CMS Collaboration of LHC, CERN.\newline %
+In proceedings of XXVI Cracow Epiphany Conference on LHC Physics: Standard Model and Beyond, 7-10 Jan 2020, Cracow (Poland).\newline 
+        {\textit{Draft submitted for publication.}}
+[\href{http://cms.cern.ch/iCMS/jsp/db_notes/showNoteDetails.jsp?noteID=CMS\%20CR-2020/075}{CMS CR-2020/075}]
+%[\href{https://cds.cern.ch/record/2668684}{Public PAS}]
+%{\color{black}\tt (a1)}}
+{\color{black}}}
+
+	\NewPublication{}{4}{Measurements of properties of the Higgs boson in the four-lepton final state in proton-proton collisions at $\sqrt{s} = 13$ TeV.}{The CMS Collaboration of LHC, CERN.\newline %
+Contributions: Fiducial cross section measurement and muon object studies.\newline 
+	{\textit{Work on journal Publication in process.}}
+[\href{http://cms.cern.ch/iCMS/analysisadmin/cadilines?id=2200&ancode=HIG-19-001&tp=an&line=HIG-19-001}{Cadiline HIG-19-001}]
+[\href{https://cds.cern.ch/record/2668684}{Public PAS}]
+%{\color{black}\tt (a1)}}
+{\color{black}}}
+
+	\NewPublication{}{3}{Measurement of $pp\rightarrow ZZ$ cross section at 13 TeV with full Run 2 dataset.}{%
+The CMS Collaboration of LHC, CERN.\newline
+Contributions: Muon object studies.\newline
+	{\textit{ PAS already been public. In CWR for publication.}}
+[\href{http://cms.cern.ch/iCMS/analysisadmin/cadilines?line=SMP-19-001&tp=an&id=2210&ancode=SMP-19-001}{Cadiline SMP-19-001}]
+{\color{black}}}
+
+\NewPublication{}{2}{Search for dark photon with Higgs boson decay in the four-lepton final state at $\sqrt{s} = 13$ TeV.}{%
+The CMS Collaboration of LHC, CERN.\newline
+Contributions: Mainly muon object studies.\newline
+	{\textit{PAS already been public. Work on journal publication in-process.}}
+[\href{http://cms.cern.ch/iCMS/analysisadmin/cadilines?line=HIG-19-007&tp=an&id=2255&ancode=HIG-19-007}{Cadiline HIG-19-007}]
+{\color{black}}}
+%
+
+\NewPublication{}{1}{Search for an $L_{\mu}- L_{\tau}$ gauge boson using $Z\rightarrow 4\mu$ events in proton-proton collisions at 13 TeV (77.3 $fb^{-1}$) with the CMS detector.}{%
+The CMS Collaboration of LHC, CERN.
+Phys.Lett. B792 (2019) 345-368.\newline
+Contributions: Mainly muon object studies. %\newline
+[\href{http://old.inspirehep.net/record/1686833}{INSPIRE}, \href{https://arxiv.org/pdf/1808.03684.pdf}{PDF}]
+{\color{black}}}
+%%
+
+\end{cv}
+%\end{document}

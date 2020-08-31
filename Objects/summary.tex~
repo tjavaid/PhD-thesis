@@ -14,7 +14,7 @@ For 2016 and 2017 overall selections are same except a few as given below:
 	%\small
 	\scriptsize
 	\centering
-	\caption{Chart of selection of physics objects for the $\HZZllll$ analysis used on the 2018 data (few differences w.r.t 2016 and 2017, as described in Section. \ref{sec:objsum} and rest of selections remain same in all years.} }
+	\caption{Chart of selection of physics objects for the $\HZZllll$ analysis used on the 2018 data (few differences w.r.t 2016 and 2017, as described in Section. \ref{sec:objsum} and rest of selections remain same in all years.)} 
 	\label{tab:objsummary}
 	\begin{tabular}{|c|c|}
 		\hline \hline

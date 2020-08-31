@@ -1,8 +1,8 @@
-Efficiencies of muons are measured using same method used for electron measurements i.e. Tag-and-Probe (T\&P) method performed on
+Efficiencies of muons are measured using the same method used for electron measurements i.e. Tag-and-Probe (T\&P) method performed on
 $Z \to \Pgm\Pgm$ and $ \jpsi\to\mu\mu$ events in bins of $\pt$ and $\eta$. More
 details on the methodology are described in Section. \ref{tnp_procedure} and also in Ref.~\cite{CMS_AN_2015-277}. Measurements are extracted using 2018 RunA,B,C,D data while the measurements corresponding to 2016 and 2017 datasets have already been reported in Ref.~\cite{CMS_AN_2016-442} and Ref.~\cite{CMS_AN_2017-342} respectively.
 %
-For the measurement of muon reconstruction and identification efficiency at high $\pt$ ($\pt$>20GeV), and impact parameter requirements and isolation efficiencies for all $\pt$, $\Z$ sample is used.  to measure the muon reconstruction and identification efficiency at high $\pt$,
+For the measurement of muon reconstruction and identification efficiency at high $\pt$ ($\pt$>20 GeV), and impact parameter requirements and isolation efficiencies for all $\pt$, $\Z$ sample is used.  to measure the muon reconstruction and identification efficiency at high $\pt$,
 and the efficiency of the isolation and impact parameter requirements at all $\pt$.
 %
 To measure the reconstruction and identification efficiency at low $\pt$, $\jpsi$ sample is used as it benefits from a better purity in that kinematic regime. In this case,
@@ -12,22 +12,22 @@ reconstruction and identification efficiency in the muon system, and using the
 
 \paragraph*{Muon reconstruction and identification efficiency measurement}
 
-Results for muon reconstruction and identification efficiencies for high $\pt$ muons ($\pt > 20\GeV$) have been derived by the Muon POG.
+Results for muon reconstruction and identification efficiencies for high $\pt$ muons ($\pt>20\GeV$) have been derived by the Muon POG.
 The probe in this measurement are tracks of inner tracker, and
 the passing probes are those which are also regarded as a global or tracker muon 
 and passing the Muon POG Loose muon identification.
 %
-Results for low \pt muons were derived using \Jpsi events, with the same definitions
+Results for low~\pt~ muons were derived using \Jpsi events, with the same definitions
 of probe and passing probes. The systematic uncertainties on the measurements are estimated by including several variations e.g. varying the analytical signal and background shape models used to fit distribution of dimuon invariant mass. Furthermore, number of bins in dimuon distribution and mass window are also increased and decreased to include systematic effects. Details on the procedure can be found in Ref.~\cite{AN-15-277}. The efficiency and scale 
 factors used for low $\pt$ muons are the ones derived using single muon prompt-reco dataset.
 
-The data and simulation efficiencies and their ratios in bins are shown in Fig.~\ref{fig:MuonIDEff_1}. 
+The data and simulation efficiencies and their ratios in bins are shown in Figure ~\ref{fig:MuonIDEff_1}. 
 \begin{figure}[htbp]
   \begin{center}
     \subfigure[]{\includegraphics[width=0.32\textwidth]{Figures/Muons/mu_Loose_barrel.pdf}}
     \subfigure[]{\includegraphics[width=0.32\textwidth]{Figures/Muons/mu_Loose_endcap.pdf}}
     \subfigure[]{\includegraphics[width=0.32\textwidth]{Figures/Muons/mu_Loose_pt7.pdf}}
-    \caption{Reconstruction and identification efficiencies of muons at low \pt, measured with the $T\&P$ method on \Jpsi events, in bins of \pt in barrel (left) and endcaps (center), and in terms of $\eta$ for $\pt > 7\GeV$ (right). In upper panel of each diagram, the larger uncertainty bars include also the systematical uncertainties, while the smaller ones are purely statistical. In the lower panel showing the ratio of two efficiencies, black uncertainty bars are for statistical uncertainty, the orange rectangles for the systematical uncertainty and the violet rectangles include both uncertainties.}
+    \caption{Reconstruction and identification efficiencies of muons at low \pt, measured with the $T\&P$ method on \Jpsi events, in bins of~\pt~ in barrel (left) and endcaps (center), and in terms of $\eta$ for $\pt > 7\GeV$ (right). In upper panel of each diagram, the larger uncertainty bars include also the systematical uncertainties, while the smaller ones are purely statistical. In the lower panel showing the ratio of two efficiencies, black uncertainty bars are for statistical uncertainty, the orange rectangles for the systematical uncertainty and the violet rectangles include both uncertainties.}
     \label{fig:MuonIDEff_1}
 \end{center}
 \end{figure}
@@ -37,7 +37,7 @@ The measurement is performed using $\Z$ events. Events are selected with \verb=H
 For this measurement, the probe is a muon passing the POG Loose identification criteria,
 and it is considered a passing probe if satisfies the SIP3D, dxy, dz cuts of this analysis.
 %
-The results are shown in the Fig.~\ref{fig:MuonIDEff_2}.
+The results are shown in the Figure ~\ref{fig:MuonIDEff_2}.
 %Very good agreement between data and simulation is observed in the barrel (Fig.~\ref{fig:MuonIDEff_2}, left)
 %while some inefficiency is visible in the endcaps, especially at large values of $|\eta|$.
 %The data to simulation scale factor is found to be flat as function of \pt, so, similarly to what done
@@ -61,7 +61,7 @@ Isolation efficiency is measured using events from the $\Z$ decay for any \pt. T
 %}.
 The isolation of the muons are calculated after recovery of the FSR photons and subtracting their contribution to the isolation cone of the muons. There are details described of this method which can be found in Ref.~\cite{AN-16-217}.
 
-The results are shown in Fig.~\ref{fig:MuonIDEff_3}.
+The results are shown in Figure ~\ref{fig:MuonIDEff_3}.
 \begin{figure}[htbp]
   \begin{center}
     \subfigure[]{\includegraphics[width=0.32\textwidth]{Figures/Muons/mu_Iso_barrel.pdf}}
@@ -90,7 +90,7 @@ Tracking efficiency (i.e. efficiency to associate a track to some muon in inner 
 %\end{figure}
 
 \paragraph*{Overall results of muon Scale Factors}
-The product of all scale factors for reconstruction, identification, impact parameter and isolation requirements is shown in two dimensional display in Fig.~\ref{fig:MuonIDEff_5}. The figure also shows overall uncertainty on scale factors.  
+The product of all scale factors for reconstruction, identification, impact parameter and isolation requirements is shown in two dimensional display in Figure ~\ref{fig:MuonIDEff_5}. The figure also shows overall uncertainty on scale factors.  
 %The overall correction is about $-1\%$ or less for most \pt and $\eta$ values, increasing to about $-2\%$ in for muons below $10\GeV$ or with $|\eta|>2$.
 \begin{figure}[htbp]
   \begin{center}
