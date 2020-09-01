@@ -527,7 +527,7 @@ There were subsequent upgrades in HCAL as in 2017, PMTs were replaced with new m
 %% \end{table}
 \subsection{CMS Muon System }
 Identification of muons originating from the collision point is a great challenge. Having long lifetime (i.e. 2.19 \times $10^{-6}$ , which is even higher in relativitic regime), they tend to cross the whole detector without decaying. 
-Also, having higher mass (about 200 times the mass of electrons) it tends to lose very little energy via bremsstrahlung. 
+Also, having higher mass (about 200 times the mass of electron) it tends to lose very little energy through process of bremsstrahlung. 
 So, they leave track however they deposit very little amount of energy in the calorimeters. Hence a dedicated muon system was proposed and installed as outermost sub-detector of CMS ~\cite{cms:muonsystem_TDR}. The schematic diagram of CMS muon sytem (as stood by Run 2 operation of LHC) is shown in the Figure \ref{Fig:cms_muon_system_layout}. It is benefitted from three different strategies for detection and measurements on  muons. 
 
 \begin{itemize}
@@ -712,7 +712,7 @@ A layout of CSC and signal generation process is shown in the Figure. ~\ref{Fig:
 \end{center}
 \end{figure}
 
-In a chamber layer, Cathode Front-End Boards (CFEBs) \footnote{Electronics or readout system of ME/1/1 chambers were upgraded during long shutdown 1 (LS1), hence differs from other chambers.} receive and then process the signal from strips. However, from anode wires, signal is read by Anode Front-End Boards (AFEBs) and processed by Anode Local Charged Track (ALCT) board. These boards then communicate with the Trigger Mother Board (TMB) located in the vicinity of the endcap disks. Data is then transmitted to Data Mother Board (DMB) which sends it out Front End Driver (FET) crates whose front end electronics has interface with CMS data acquisition system. Overview of the chamber electronics and communication mechanism is elaborated in Figure. \ref{Fig:csc_chamber_electronics}.
+In a chamber layer, Cathode Front-End Boards (CFEBs) \footnote{Electronics or readout system of ME/1/1 chambers were upgraded during long shutdown 1 (LS1), hence differs from other chambers.} receive and then process the signal from strips. However, from anode wires, signal is read by Anode Front-End Boards (AFEBs) and processed by Anode Local Charged Track (ALCT) board. These boards then communicate with the Trigger Mother Board (TMB) located in the vicinity of the endcap disks. Data is then transmitted to Data Mother Board (DMB) which sends it out Front End Driver (FED) crates whose front end electronics has interface with CMS data acquisition system. Overview of the chamber electronics and communication mechanism is elaborated in Figure. \ref{Fig:csc_chamber_electronics}.
 
 \begin{figure}
 \begin{center}
