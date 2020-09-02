@@ -4,14 +4,7 @@ The top-level auxiliary file: main_simple.aux
 The style file: biblatex.bst
 A level-1 auxiliary file: Chapters/chinese_abstract_extended_5000-c.aux
 A level-1 auxiliary file: Chapters/abstract.aux
-A level-1 auxiliary file: Chapters/introduction.aux
-A level-1 auxiliary file: Chapters/Chapter_1.aux
-A level-1 auxiliary file: Chapters/Chapter_2.aux
-A level-1 auxiliary file: Chapters/Chapter_2_CMS.aux
-A level-1 auxiliary file: Chapters/Chapter_3.aux
-A level-1 auxiliary file: Chapters/Chapter_7.aux
-A level-1 auxiliary file: publication_list_tahir_javaid_test.aux
-A level-1 auxiliary file: conferences_tahir_javaid.aux
+A level-1 auxiliary file: Chapters/Chapter_CSC_upgrades.aux
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
@@ -26,7 +19,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 21541 items from 5000.
+Reallocated field_info (elt_size=4) to 10282 items from 5000.
 Database file #1: main_simple-blx.bib
 Database file #2: example_merged2.bib
 Repeated entry---line 3424 of file example_merged2.bib
@@ -47,114 +40,18 @@ Name 1 in "G. S. Guralnik, C. R. Hagen, and T. W. B. Kibble" has a comma at the 
 while executing---line 2633 of file biblatex.bst
 Name 1 in "G. S. Guralnik, C. R. Hagen, and T. W. B. Kibble" has a comma at the end for entry Reference9
 while executing---line 2633 of file biblatex.bst
-Name 1 in "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" has a comma at the end for entry Reference28
-while executing---line 2633 of file biblatex.bst
-Too many commas in name 1 of "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" for entry Reference28
-while executing---line 2633 of file biblatex.bst
-Too many commas in name 1 of "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" for entry Reference28
-while executing---line 2633 of file biblatex.bst
-Too many commas in name 1 of "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" for entry Reference28
-while executing---line 2633 of file biblatex.bst
-Name 1 in "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" has a comma at the end for entry Reference28
-while executing---line 2633 of file biblatex.bst
-Too many commas in name 1 of "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" for entry Reference28
-while executing---line 2633 of file biblatex.bst
-Too many commas in name 1 of "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" for entry Reference28
-while executing---line 2633 of file biblatex.bst
-Too many commas in name 1 of "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" for entry Reference28
-while executing---line 2633 of file biblatex.bst
-Name 1 in "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" has a comma at the end for entry Reference28
-while executing---line 2633 of file biblatex.bst
-Too many commas in name 1 of "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" for entry Reference28
-while executing---line 2633 of file biblatex.bst
-Too many commas in name 1 of "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" for entry Reference28
-while executing---line 2633 of file biblatex.bst
-Too many commas in name 1 of "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" for entry Reference28
-while executing---line 2633 of file biblatex.bst
-Name 1 in "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" has a comma at the end for entry Reference28
-while executing---line 2633 of file biblatex.bst
-Too many commas in name 1 of "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" for entry Reference28
-while executing---line 2633 of file biblatex.bst
-Too many commas in name 1 of "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" for entry Reference28
-while executing---line 2633 of file biblatex.bst
-Too many commas in name 1 of "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" for entry Reference28
-while executing---line 2633 of file biblatex.bst
 Name 1 in "G. S. Guralnik, C. R. Hagen, and T. W. B. Kibble" has a comma at the end for entry Reference9
-while executing---line 2637 of file biblatex.bst
-Name 1 in "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" has a comma at the end for entry Reference28
-while executing---line 2637 of file biblatex.bst
-Too many commas in name 1 of "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" for entry Reference28
-while executing---line 2637 of file biblatex.bst
-Too many commas in name 1 of "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" for entry Reference28
-while executing---line 2637 of file biblatex.bst
-Too many commas in name 1 of "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" for entry Reference28
 while executing---line 2637 of file biblatex.bst
 Name 1 in "G. S. Guralnik, C. R. Hagen, and T. W. B. Kibble" has a comma at the end for entry Reference9
 while executing---line 2643 of file biblatex.bst
-Name 1 in "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" has a comma at the end for entry Reference28
-while executing---line 2643 of file biblatex.bst
-Too many commas in name 1 of "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" for entry Reference28
-while executing---line 2643 of file biblatex.bst
-Too many commas in name 1 of "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" for entry Reference28
-while executing---line 2643 of file biblatex.bst
-Too many commas in name 1 of "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" for entry Reference28
-while executing---line 2643 of file biblatex.bst
-Name 1 in "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" has a comma at the end for entry Reference28
-while executing---line 2647 of file biblatex.bst
-Too many commas in name 1 of "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" for entry Reference28
-while executing---line 2647 of file biblatex.bst
-Too many commas in name 1 of "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" for entry Reference28
-while executing---line 2647 of file biblatex.bst
-Too many commas in name 1 of "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" for entry Reference28
-while executing---line 2647 of file biblatex.bst
-Name 1 in "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" has a comma at the end for entry Reference28
-while executing---line 2647 of file biblatex.bst
-Too many commas in name 1 of "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" for entry Reference28
-while executing---line 2647 of file biblatex.bst
-Too many commas in name 1 of "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" for entry Reference28
-while executing---line 2647 of file biblatex.bst
-Too many commas in name 1 of "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" for entry Reference28
-while executing---line 2647 of file biblatex.bst
 Name 1 in "G. S. Guralnik, C. R. Hagen, and T. W. B. Kibble" has a comma at the end for entry Reference9
 while executing---line 2647 of file biblatex.bst
 Name 1 in "G. S. Guralnik, C. R. Hagen, and T. W. B. Kibble" has a comma at the end for entry Reference9
 while executing---line 2647 of file biblatex.bst
 Name 1 in "G. S. Guralnik, C. R. Hagen, and T. W. B. Kibble" has a comma at the end for entry Reference9
 while executing---line 2651 of file biblatex.bst
-Name 1 in "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" has a comma at the end for entry Reference28
-while executing---line 2651 of file biblatex.bst
-Too many commas in name 1 of "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" for entry Reference28
-while executing---line 2651 of file biblatex.bst
-Too many commas in name 1 of "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" for entry Reference28
-while executing---line 2651 of file biblatex.bst
-Too many commas in name 1 of "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" for entry Reference28
-while executing---line 2651 of file biblatex.bst
 Name 1 in "G. S. Guralnik, C. R. Hagen, and T. W. B. Kibble" has a comma at the end for entry Reference9
 while executing---line 2657 of file biblatex.bst
-Name 1 in "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" has a comma at the end for entry Reference28
-while executing---line 2657 of file biblatex.bst
-Too many commas in name 1 of "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" for entry Reference28
-while executing---line 2657 of file biblatex.bst
-Too many commas in name 1 of "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" for entry Reference28
-while executing---line 2657 of file biblatex.bst
-Too many commas in name 1 of "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" for entry Reference28
-while executing---line 2657 of file biblatex.bst
-Name 1 in "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" has a comma at the end for entry Reference28
-while executing---line 2661 of file biblatex.bst
-Too many commas in name 1 of "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" for entry Reference28
-while executing---line 2661 of file biblatex.bst
-Too many commas in name 1 of "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" for entry Reference28
-while executing---line 2661 of file biblatex.bst
-Too many commas in name 1 of "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" for entry Reference28
-while executing---line 2661 of file biblatex.bst
-Name 1 in "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" has a comma at the end for entry Reference28
-while executing---line 2661 of file biblatex.bst
-Too many commas in name 1 of "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" for entry Reference28
-while executing---line 2661 of file biblatex.bst
-Too many commas in name 1 of "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" for entry Reference28
-while executing---line 2661 of file biblatex.bst
-Too many commas in name 1 of "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" for entry Reference28
-while executing---line 2661 of file biblatex.bst
 Name 1 in "G. S. Guralnik, C. R. Hagen, and T. W. B. Kibble" has a comma at the end for entry Reference9
 while executing---line 2661 of file biblatex.bst
 Name 1 in "G. S. Guralnik, C. R. Hagen, and T. W. B. Kibble" has a comma at the end for entry Reference9
@@ -174,109 +71,45 @@ Name 1 in "G. S. Guralnik, C. R. Hagen, and T. W. B. Kibble" has a comma at the 
 while executing---line 2749 of file biblatex.bst
 Name 1 in "G. S. Guralnik, C. R. Hagen, and T. W. B. Kibble" has a comma at the end for entry Reference9
 while executing---line 2749 of file biblatex.bst
-Name 1 in "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" has a comma at the end for entry Reference28
-while executing---line 2749 of file biblatex.bst
-Too many commas in name 1 of "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" for entry Reference28
-while executing---line 2749 of file biblatex.bst
-Too many commas in name 1 of "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" for entry Reference28
-while executing---line 2749 of file biblatex.bst
-Too many commas in name 1 of "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" for entry Reference28
-while executing---line 2749 of file biblatex.bst
-Name 1 in "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" has a comma at the end for entry Reference28
-while executing---line 2749 of file biblatex.bst
-Too many commas in name 1 of "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" for entry Reference28
-while executing---line 2749 of file biblatex.bst
-Too many commas in name 1 of "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" for entry Reference28
-while executing---line 2749 of file biblatex.bst
-Too many commas in name 1 of "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" for entry Reference28
-while executing---line 2749 of file biblatex.bst
-Name 1 in "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" has a comma at the end for entry Reference28
-while executing---line 2749 of file biblatex.bst
-Too many commas in name 1 of "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" for entry Reference28
-while executing---line 2749 of file biblatex.bst
-Too many commas in name 1 of "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" for entry Reference28
-while executing---line 2749 of file biblatex.bst
-Too many commas in name 1 of "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" for entry Reference28
-while executing---line 2749 of file biblatex.bst
-Name 1 in "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" has a comma at the end for entry Reference28
-while executing---line 2749 of file biblatex.bst
-Too many commas in name 1 of "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" for entry Reference28
-while executing---line 2749 of file biblatex.bst
-Too many commas in name 1 of "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" for entry Reference28
-while executing---line 2749 of file biblatex.bst
-Too many commas in name 1 of "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" for entry Reference28
-while executing---line 2749 of file biblatex.bst
-Name 1 in "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" has a comma at the end for entry Reference28
-while executing---line 2749 of file biblatex.bst
-Too many commas in name 1 of "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" for entry Reference28
-while executing---line 2749 of file biblatex.bst
-Too many commas in name 1 of "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" for entry Reference28
-while executing---line 2749 of file biblatex.bst
-Too many commas in name 1 of "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" for entry Reference28
-while executing---line 2749 of file biblatex.bst
-Name 1 in "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" has a comma at the end for entry Reference28
-while executing---line 2749 of file biblatex.bst
-Too many commas in name 1 of "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" for entry Reference28
-while executing---line 2749 of file biblatex.bst
-Too many commas in name 1 of "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" for entry Reference28
-while executing---line 2749 of file biblatex.bst
-Too many commas in name 1 of "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" for entry Reference28
-while executing---line 2749 of file biblatex.bst
-Name 1 in "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" has a comma at the end for entry Reference28
-while executing---line 2749 of file biblatex.bst
-Too many commas in name 1 of "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" for entry Reference28
-while executing---line 2749 of file biblatex.bst
-Too many commas in name 1 of "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" for entry Reference28
-while executing---line 2749 of file biblatex.bst
-Too many commas in name 1 of "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" for entry Reference28
-while executing---line 2749 of file biblatex.bst
-Name 1 in "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" has a comma at the end for entry Reference28
-while executing---line 2749 of file biblatex.bst
-Too many commas in name 1 of "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" for entry Reference28
-while executing---line 2749 of file biblatex.bst
-Too many commas in name 1 of "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" for entry Reference28
-while executing---line 2749 of file biblatex.bst
-Too many commas in name 1 of "O. S. Bruning, P. Collier, P. Lebrun, S. Myers, R. Ostojic, J. Poole, and P. Proudlock" for entry Reference28
-while executing---line 2749 of file biblatex.bst
-You've used 119 entries,
+You've used 38 entries,
             6268 wiz_defined-function locations,
-            1856 strings with 27999 characters,
-and the built_in function-call counts, 478979 in all, are:
-= -- 29643
-> -- 8654
-< -- 1946
-+ -- 9711
-- -- 3263
-* -- 33106
-:= -- 44169
+            1396 strings with 15126 characters,
+and the built_in function-call counts, 130292 in all, are:
+= -- 7751
+> -- 2040
+< -- 574
++ -- 2111
+- -- 747
+* -- 8741
+:= -- 10887
 add.period$ -- 0
-call.type$ -- 119
-change.case$ -- 803
-chr.to.int$ -- 91
-cite$ -- 236
-duplicate$ -- 53476
-empty$ -- 50133
-format.name$ -- 5576
-if$ -- 100456
+call.type$ -- 38
+change.case$ -- 251
+chr.to.int$ -- 52
+cite$ -- 74
+duplicate$ -- 14037
+empty$ -- 14746
+format.name$ -- 1238
+if$ -- 28048
 int.to.chr$ -- 0
-int.to.str$ -- 271
+int.to.str$ -- 78
 missing$ -- 0
-newline$ -- 2877
-num.names$ -- 3905
-pop$ -- 39252
+newline$ -- 760
+num.names$ -- 968
+pop$ -- 12118
 preamble$ -- 1
-purify$ -- 1288
+purify$ -- 352
 quote$ -- 0
-skip$ -- 15370
+skip$ -- 4288
 stack$ -- 0
-substring$ -- 46865
-swap$ -- 13534
-text.length$ -- 2070
-text.prefix$ -- 6
+substring$ -- 12738
+swap$ -- 3847
+text.length$ -- 574
+text.prefix$ -- 0
 top$ -- 1
-type$ -- 4010
+type$ -- 1276
 warning$ -- 0
-while$ -- 5388
+while$ -- 1233
 width$ -- 0
-write$ -- 2759
-(There were 101 error messages)
+write$ -- 723
+(There were 21 error messages)

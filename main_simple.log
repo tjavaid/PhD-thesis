@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.28)  2 SEP 2020 01:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.28)  3 SEP 2020 00:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1997,22 +1997,7 @@ Package biblatex Warning: BibTeX reported the following issues
 
 
 Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'Sakuma:2665537':
-(biblatex)                - Invalid format of field 'month'.
-
-
-Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'Zghiche_2019':
-(biblatex)                - Invalid format of field 'month'.
-
-
-Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'Paolucci:927394':
-(biblatex)                - Invalid format of field 'month'.
-
-
-Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'Costantini:2711362':
+(biblatex)                with 'CERN-LHCC-2017-012':
 (biblatex)                - Invalid format of field 'month'.
 
 )
@@ -2715,102 +2700,73 @@ Chapter 1.
 LaTeX Warning: Reference `LHC_upgrade' on page 1 undefined on input line 14.
 
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 17.
-
-Overfull \hbox (9.8503pt too wide) in paragraph at lines 17--17
-[]\T1/ppl/b/n/17.28 Main CSC up-grades for High Lu-mi-nos-ity (HL)-LHC 
- []
-
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 21.
 1: section
 [1
 
 
 ]
-<Figures/event_loss.png, id=334, 1222.5675pt x 723.70375pt>
+<Figures/event_loss.png, id=352, 1222.5675pt x 723.70375pt>
 File: Figures/event_loss.png Graphic file (type png)
 <use Figures/event_loss.png>
-Package pdftex.def Info: Figures/event_loss.png  used on input line 43.
+Package pdftex.def Info: Figures/event_loss.png  used on input line 54.
 (pdftex.def)             Requested size: 346.89732pt x 205.34116pt.
- [2 <./Figures/event_loss.png>]
-<Figures/dcfeb_new.png, id=343, 1469.49pt x 799.98875pt>
+<Figures/dcfeb_new.png, id=355, 1469.49pt x 799.98875pt>
 File: Figures/dcfeb_new.png Graphic file (type png)
 <use Figures/dcfeb_new.png>
-Package pdftex.def Info: Figures/dcfeb_new.png  used on input line 64.
+Package pdftex.def Info: Figures/dcfeb_new.png  used on input line 73.
 (pdftex.def)             Requested size: 346.89732pt x 188.85185pt.
-
-! Undefined control sequence.
-\CJK@XXX ...endcsname {`#2}{`#3}\CJK@ignorespaces 
-                                                  \fi 
-l.89 ...FGG676C and XC6SLX150T-3FGG900C) have 9â€“
-                                                  12 times more memory than ...
-
-? 
-<Figures/alct_new.png, id=345, 1141.26375pt x 727.71875pt>
+ [2] [3 <./Figures/event_loss.png> <./Figures/dcfeb_new.png>]
+<Figures/alct_new.png, id=371, 1141.26375pt x 727.71875pt>
 File: Figures/alct_new.png Graphic file (type png)
 <use Figures/alct_new.png>
-Package pdftex.def Info: Figures/alct_new.png  used on input line 93.
+Package pdftex.def Info: Figures/alct_new.png  used on input line 100.
 (pdftex.def)             Requested size: 346.89732pt x 221.19325pt.
-[3 <./Figures/dcfeb_new.png>]
-<Figures/otmb_upgrade.png, id=352, 1405.25pt x 654.445pt>
+<Figures/otmb_upgrade.png, id=373, 1405.25pt x 654.445pt>
 File: Figures/otmb_upgrade.png Graphic file (type png)
 <use Figures/otmb_upgrade.png>
-Package pdftex.def Info: Figures/otmb_upgrade.png  used on input line 110.
+Package pdftex.def Info: Figures/otmb_upgrade.png  used on input line 117.
 (pdftex.def)             Requested size: 346.89732pt x 161.55373pt.
+ [4 <./Figures/alct_new.png>]
+
+LaTeX Warning: Reference `csc_cms' on page 5 undefined on input line 139.
 
 
-LaTeX Warning: Reference `csc_cms' on page 4 undefined on input line 132.
+LaTeX Warning: Reference `Fig:csc_chamber_electronics' on page 5 undefined on i
+nput line 139.
 
-
-LaTeX Warning: Reference `Fig:csc_chamber_electronics' on page 4 undefined on i
-nput line 132.
-
-[4 <./Figures/alct_new.png>]
-<Figures/odmb.png, id=361, 1321.93875pt x 817.0525pt>
+[5 <./Figures/otmb_upgrade.png>]
+<Figures/odmb.png, id=388, 1321.93875pt x 817.0525pt>
 File: Figures/odmb.png Graphic file (type png)
 <use Figures/odmb.png>
-Package pdftex.def Info: Figures/odmb.png  used on input line 150.
+Package pdftex.def Info: Figures/odmb.png  used on input line 157.
 (pdftex.def)             Requested size: 346.89732pt x 214.41092pt.
- [5 <./Figures/otmb_upgrade.png>]
-<Figures/dcfeb.png, id=369, 1099.10625pt x 792.9625pt>
+ [6 <./Figures/odmb.png>] [7]
+<Figures/dcfeb.png, id=400, 1099.10625pt x 792.9625pt>
 File: Figures/dcfeb.png Graphic file (type png)
 <use Figures/dcfeb.png>
-Package pdftex.def Info: Figures/dcfeb.png  used on input line 189.
+Package pdftex.def Info: Figures/dcfeb.png  used on input line 235.
 (pdftex.def)             Requested size: 346.89732pt x 250.2685pt.
- [6 <./Figures/odmb.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 206--222
+
+Underfull \hbox (badness 10000) in paragraph at lines 263--266
 
  []
 
-[7 <./Figures/dcfeb.png>]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.230    Board \to
-                    &  Number               &  Where          & When        ...
 
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.230    Board \to  &
-                       Number               &  Where          & When        ...
-
-? 
-
-Overfull \hbox (42.27594pt too wide) in paragraph at lines 229--248
+Overfull \hbox (42.27594pt too wide) in paragraph at lines 283--302
  [] 
  []
 
-) [8]
+[8 <./Figures/dcfeb.png>] [9]
+Overfull \hbox (20.56052pt too wide) in paragraph at lines 323--338
+ [] 
+ []
+
+) [10]
 LaTeX Font Info:    Try loading font information for T1+pcr on input line 494.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
-Overfull \hbox (2.1745pt too wide) in paragraph at lines 497--497
-[]\T1/ppl/m/n/12 Vardan Khacha-tryan et al. ^^P  Mea-sure-ment of dif-fer-en-ti
-al and in-te-grated fidu-
- []
-
 ! Undefined control sequence.
 \CJK@XXX ...endcsname {`#2}{`#3}\CJK@ignorespaces 
                                                   \fi 
@@ -2819,6 +2775,12 @@ l.497 \end
 ? 
 Missing character: There is no ˆ in font cmr8!
 Missing character: There is no ’ in font cmr12!
+
+Overfull \hbox (4.82004pt too wide) in paragraph at lines 497--497
+[]\T1/ppl/m/it/12 Measurements and in-ter-pre-ta-tions of Higgs-boson fidu-cial
+ cross sec-tions in the dipho-
+ []
+
 ! Undefined control sequence.
 \CJK@XXX ...endcsname {`#2}{`#3}\CJK@ignorespaces 
                                                   \fi 
@@ -2828,138 +2790,37 @@ l.497 \end
 Missing character: There is no ˆ in font cmr8!
 Missing character: There is no ’ in font cmr8!
 1: section
-[9
+[11
 
 
 ]
-Overfull \hbox (6.46481pt too wide) in paragraph at lines 497--497
+Overfull \hbox (0.46481pt too wide) in paragraph at lines 497--497
 []\T1/ppl/m/n/12 P. W. Higgs. ^^P  Spon-ta-neous Sym-me-try Break-down with-out
  Mass-less Bosons^^Q.
  []
 
-[10]
-Overfull \hbox (3.58572pt too wide) in paragraph at lines 497--497
-[]\T1/ppl/m/n/12 ^^P  Mea-sure-ment of dif-fer-en-tial and in-te-grated fidu-ci
-al cross sec-tions for Higgs
- []
 
-! Undefined control sequence.
-\CJK@XX ...r `#1\endcsname {`#2}\CJK@ignorespaces 
-                                                  \fi 
-l.497 \end
-          {document}
-? 
-[11]
-Overfull \hbox (8.83066pt too wide) in paragraph at lines 497--497
-[]\T1/ppl/m/n/12 CMS col-lab-o-ra-tions. ^^P  CMS tech-in-cal pro-posal^^Q. In:
- \T1/ppl/m/it/12 CERN-LHCC-94-38 \T1/ppl/m/n/12 (1994). 
- []
-
-
-Overfull \hbox (7.32161pt too wide) in paragraph at lines 497--497
-\T1/pcr/m/n/12 ch / event / 315626 / contributions / 729447 / attachments / 605
-638 /
+Overfull \hbox (0.13463pt too wide) in paragraph at lines 497--497
+[]\T1/ppl/m/n/12 LHC Higgs Cross Sec-tion Work-ing Group Col-lab-o-ra-tion. ^^P
+  Hand-book of LHC
  []
 
 [12]
-Overfull \hbox (19.1656pt too wide) in paragraph at lines 497--497
-[]\T1/ppl/m/n/12 Pierluigi Paolucci. \T1/ppl/m/it/12 The CMS Muon sys-tem\T1/pp
-l/m/n/12 . Tech. rep. CMS-CR-2006-006. Geneva:
- []
-
-
-Overfull \hbox (8.19185pt too wide) in paragraph at lines 497--497
-\T1/ppl/m/n/12 Anal-y-sis^^Q. In: \T1/ppl/m/it/12 21st Hadron Col-lider Physics
- Sym-po-sium\T1/ppl/m/n/12 . Dec. 2010. arXiv: [][]$\T1/pcr/m/n/12 1012 .
- []
-
-
-Overfull \hbox (11.45013pt too wide) in paragraph at lines 497--497
-[]\T1/ppl/m/n/12 Serguei Cha-trchyan et al. ^^P  De-scrip-tion and per-for-manc
-e of track and primary-
- []
-
-
-Overfull \hbox (70.76053pt too wide) in paragraph at lines 497--497
-\T1/ppl/m/sc/12 doi\T1/ppl/m/n/12 : [][]$\T1/pcr/m/n/12 10 . 1088 / 1748 -[] 02
-21 / 9 / 10 / P10009$[][]\T1/ppl/m/n/12 . arXiv: [][]$\T1/pcr/m/n/12 1405 . 656
-9$ [physics.ins-det][][]\T1/ppl/m/n/12 . 
- []
-
-[13]
-Overfull \hbox (2.12161pt too wide) in paragraph at lines 497--497
-[][]$\T1/pcr/m/n/12 http : / / cms . web . cern . ch / news / jets -[] cms -[] 
-and -[] determination -[]
- []
-
-
-Overfull \hbox (3.99196pt too wide) in paragraph at lines 497--497
-[]\T1/ppl/m/n/12 JetMETPOG. ^^P  Jet ID for 2018^^Q. In: \T1/ppl/m/it/12 CMS Tw
-iki \T1/ppl/m/n/12 (2018). \T1/ppl/m/sc/12 url\T1/ppl/m/n/12 : [][]$\T1/pcr/m/n
-/12 https : / / twiki .
- []
-
-
-Overfull \hbox (38.28519pt too wide) in paragraph at lines 497--497
-\T1/pcr/m/n/12 1088 / 1748 -[] 0221 / 13 / 05 / P05011$[][]\T1/ppl/m/n/12 . arX
-iv: [][]$\T1/pcr/m/n/12 1712 . 07158$ [physics.ins-det][][]\T1/ppl/m/n/12 . 
- []
-
-
-Overfull \hbox (31.9216pt too wide) in paragraph at lines 497--497
-\T1/pcr/m/n/12 twiki . cern . ch / twiki / bin / viewauth / CMS / BtagRecommend
-ation102X$[][]\T1/ppl/m/n/12 . 
- []
-
-
-Overfull \hbox (35.06744pt too wide) in paragraph at lines 497--497
-[]\T1/ppl/m/n/12 S. Ali-oli et al. ^^P  NLO vector-boson pro-duc-tion matched w
-ith shower in POWHEG^^Q.
- []
-
-
-Overfull \hbox (0.92271pt too wide) in paragraph at lines 497--497
-\T1/ppl/m/n/12 boson fu-sion matched with shower in POWHEG^^Q. In: \T1/ppl/m/it
-/12 JHEP \T1/ppl/m/n/12 02 (2010), p. 037. 
- []
-
-[14]
-Overfull \hbox (36.94333pt too wide) in paragraph at lines 497--497
-\T1/ppl/m/n/12 pro-duc-tion at the LHC^^Q. In: \T1/ppl/m/it/12 JHEP \T1/ppl/m/n
-/12 07 (2011), p. 018. \T1/ppl/m/sc/12 doi\T1/ppl/m/n/12 : [][]$\T1/pcr/m/n/12 
-10 . 1007 / JHEP07(2011 )
- []
-
-[15]
-Overfull \hbox (28.2688pt too wide) in paragraph at lines 497--497
-\T1/ppl/m/n/12 the LHC^^Q. In: \T1/ppl/m/it/12 Phys. Rev. Lett. \T1/ppl/m/n/12 
-98 (2007), p. 222002. \T1/ppl/m/sc/12 doi\T1/ppl/m/n/12 : [][]$\T1/pcr/m/n/12 1
-0 . 1103 / PhysRevLett .
- []
-
-
-Overfull \hbox (20.53442pt too wide) in paragraph at lines 497--497
-[]\T1/ppl/m/n/12 Marco Bon-vini et al. ^^P  Signal-background in-ter-fer-ence e
-f-fects for gg$\OMS/cmsy/m/n/12 !$\T1/ppl/m/n/12 H$\OMS/cmsy/m/n/12 !$\T1/ppl/m
-/n/12 W+W-
+Overfull \hbox (13.41829pt too wide) in paragraph at lines 497--497
+[]\T1/ppl/m/n/12 Yanyan Gao et al. ^^P  Spin de-ter-mi-na-tion of single-produc
+ed res-o-nances at hadron
  []
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 497.
-[16]
+[13]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 497.
  (./main_simple.aux (./Chapters/chinese_abstract_extended_5000-c.aux)
 (./Chapters/abstract.aux) (./Chapters/Chapter_CSC_upgrades.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 497.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 497.
+Package rerunfilecheck Info: File `main_simple.out' has not changed.
+(rerunfilecheck)             Checksum: 42C844F6EE4DB82970BCF1A3E340BC0C;2474.
 
-
-Package rerunfilecheck Warning: File `main_simple.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main_simple.out':
-(rerunfilecheck)             Before: 40D6207F8CD2FC1BC860D3CD2403BDB8;2259
-(rerunfilecheck)             After:  9DB71BA02E4E8D44CDEB5D88899B2A8B;2375.
 
 LaTeX Warning: There were undefined references.
 
@@ -2971,90 +2832,84 @@ Package logreq Info: Writing requests to 'main_simple.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 37467 strings out of 492982
- 747159 string characters out of 6134896
- 1122713 words of memory out of 5000000
- 40345 multiletter control sequences out of 15000+600000
- 595615 words of font info for 207 fonts, out of 8000000 for 9000
+ 37227 strings out of 492982
+ 738068 string characters out of 6134896
+ 1123713 words of memory out of 5000000
+ 40184 multiletter control sequences out of 15000+600000
+ 598827 words of font info for 211 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 61i,20n,82p,10384b,3067s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{table.caption.20} has been referenced but does no
-t exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.19} has been referenced but does not
- exist, replaced by a fixed one
-
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8
-.pfb></usr/share/texmf/fonts/type1/arphic/gbsnu/gbsnu03.pfb></usr/share/texmf/f
-onts/type1/arphic/gbsnu/gbsnu30.pfb></usr/share/texmf/fonts/type1/arphic/gbsnu/
-gbsnu4e.pfb></usr/share/texmf/fonts/type1/arphic/gbsnu/gbsnu4f.pfb></usr/share/
-texmf/fonts/type1/arphic/gbsnu/gbsnu50.pfb></usr/share/texmf/fonts/type1/arphic
-/gbsnu/gbsnu51.pfb></usr/share/texmf/fonts/type1/arphic/gbsnu/gbsnu52.pfb></usr
-/share/texmf/fonts/type1/arphic/gbsnu/gbsnu53.pfb></usr/share/texmf/fonts/type1
-/arphic/gbsnu/gbsnu54.pfb></usr/share/texmf/fonts/type1/arphic/gbsnu/gbsnu55.pf
-b></usr/share/texmf/fonts/type1/arphic/gbsnu/gbsnu56.pfb></usr/share/texmf/font
-s/type1/arphic/gbsnu/gbsnu57.pfb></usr/share/texmf/fonts/type1/arphic/gbsnu/gbs
-nu58.pfb></usr/share/texmf/fonts/type1/arphic/gbsnu/gbsnu59.pfb></usr/share/tex
-mf/fonts/type1/arphic/gbsnu/gbsnu5b.pfb></usr/share/texmf/fonts/type1/arphic/gb
-snu/gbsnu5c.pfb></usr/share/texmf/fonts/type1/arphic/gbsnu/gbsnu5d.pfb></usr/sh
-are/texmf/fonts/type1/arphic/gbsnu/gbsnu5e.pfb></usr/share/texmf/fonts/type1/ar
-phic/gbsnu/gbsnu5f.pfb></usr/share/texmf/fonts/type1/arphic/gbsnu/gbsnu60.pfb><
-/usr/share/texmf/fonts/type1/arphic/gbsnu/gbsnu61.pfb></usr/share/texmf/fonts/t
-ype1/arphic/gbsnu/gbsnu62.pfb></usr/share/texmf/fonts/type1/arphic/gbsnu/gbsnu6
-3.pfb></usr/share/texmf/fonts/type1/arphic/gbsnu/gbsnu64.pfb></usr/share/texmf/
-fonts/type1/arphic/gbsnu/gbsnu65.pfb></usr/share/texmf/fonts/type1/arphic/gbsnu
-/gbsnu66.pfb></usr/share/texmf/fonts/type1/arphic/gbsnu/gbsnu67.pfb></usr/share
-/texmf/fonts/type1/arphic/gbsnu/gbsnu68.pfb></usr/share/texmf/fonts/type1/arphi
-c/gbsnu/gbsnu69.pfb></usr/share/texmf/fonts/type1/arphic/gbsnu/gbsnu6a.pfb></us
-r/share/texmf/fonts/type1/arphic/gbsnu/gbsnu6b.pfb></usr/share/texmf/fonts/type
-1/arphic/gbsnu/gbsnu6c.pfb></usr/share/texmf/fonts/type1/arphic/gbsnu/gbsnu6d.p
-fb></usr/share/texmf/fonts/type1/arphic/gbsnu/gbsnu6e.pfb></usr/share/texmf/fon
-ts/type1/arphic/gbsnu/gbsnu6f.pfb></usr/share/texmf/fonts/type1/arphic/gbsnu/gb
-snu70.pfb></usr/share/texmf/fonts/type1/arphic/gbsnu/gbsnu71.pfb></usr/share/te
-xmf/fonts/type1/arphic/gbsnu/gbsnu72.pfb></usr/share/texmf/fonts/type1/arphic/g
-bsnu/gbsnu73.pfb></usr/share/texmf/fonts/type1/arphic/gbsnu/gbsnu74.pfb></usr/s
-hare/texmf/fonts/type1/arphic/gbsnu/gbsnu75.pfb></usr/share/texmf/fonts/type1/a
-rphic/gbsnu/gbsnu76.pfb></usr/share/texmf/fonts/type1/arphic/gbsnu/gbsnu77.pfb>
-</usr/share/texmf/fonts/type1/arphic/gbsnu/gbsnu78.pfb></usr/share/texmf/fonts/
-type1/arphic/gbsnu/gbsnu79.pfb></usr/share/texmf/fonts/type1/arphic/gbsnu/gbsnu
-7a.pfb></usr/share/texmf/fonts/type1/arphic/gbsnu/gbsnu7b.pfb></usr/share/texmf
-/fonts/type1/arphic/gbsnu/gbsnu7c.pfb></usr/share/texmf/fonts/type1/arphic/gbsn
-u/gbsnu7d.pfb></usr/share/texmf/fonts/type1/arphic/gbsnu/gbsnu7e.pfb></usr/shar
-e/texmf/fonts/type1/arphic/gbsnu/gbsnu7f.pfb></usr/share/texmf/fonts/type1/arph
-ic/gbsnu/gbsnu80.pfb></usr/share/texmf/fonts/type1/arphic/gbsnu/gbsnu81.pfb></u
-sr/share/texmf/fonts/type1/arphic/gbsnu/gbsnu82.pfb></usr/share/texmf/fonts/typ
-e1/arphic/gbsnu/gbsnu83.pfb></usr/share/texmf/fonts/type1/arphic/gbsnu/gbsnu84.
-pfb></usr/share/texmf/fonts/type1/arphic/gbsnu/gbsnu86.pfb></usr/share/texmf/fo
-nts/type1/arphic/gbsnu/gbsnu87.pfb></usr/share/texmf/fonts/type1/arphic/gbsnu/g
-bsnu88.pfb></usr/share/texmf/fonts/type1/arphic/gbsnu/gbsnu89.pfb></usr/share/t
-exmf/fonts/type1/arphic/gbsnu/gbsnu8a.pfb></usr/share/texmf/fonts/type1/arphic/
-gbsnu/gbsnu8b.pfb></usr/share/texmf/fonts/type1/arphic/gbsnu/gbsnu8c.pfb></usr/
-share/texmf/fonts/type1/arphic/gbsnu/gbsnu8d.pfb></usr/share/texmf/fonts/type1/
-arphic/gbsnu/gbsnu8f.pfb></usr/share/texmf/fonts/type1/arphic/gbsnu/gbsnu90.pfb
-></usr/share/texmf/fonts/type1/arphic/gbsnu/gbsnu91.pfb></usr/share/texmf/fonts
-/type1/arphic/gbsnu/gbsnu92.pfb></usr/share/texmf/fonts/type1/arphic/gbsnu/gbsn
-u94.pfb></usr/share/texmf/fonts/type1/arphic/gbsnu/gbsnu95.pfb></usr/share/texm
-f/fonts/type1/arphic/gbsnu/gbsnu96.pfb></usr/share/texmf/fonts/type1/arphic/gbs
-nu/gbsnu97.pfb></usr/share/texmf/fonts/type1/arphic/gbsnu/gbsnu98.pfb></usr/sha
-re/texmf/fonts/type1/arphic/gbsnu/gbsnu99.pfb></usr/share/texmf/fonts/type1/arp
-hic/gbsnu/gbsnu9a.pfb></usr/share/texmf/fonts/type1/arphic/gbsnu/gbsnu9e.pfb></
-usr/share/texmf/fonts/type1/arphic/gbsnu/gbsnuff.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palat
-ino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main_simple.pdf (30 pages, 6934101 bytes).
+ 61i,20n,82p,10384b,3065s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
+y8.pfb></usr/share/texmf/fonts/type1/arphic/gbsnu/gbsnu03.pfb></usr/share/texmf
+/fonts/type1/arphic/gbsnu/gbsnu30.pfb></usr/share/texmf/fonts/type1/arphic/gbsn
+u/gbsnu4e.pfb></usr/share/texmf/fonts/type1/arphic/gbsnu/gbsnu4f.pfb></usr/shar
+e/texmf/fonts/type1/arphic/gbsnu/gbsnu50.pfb></usr/share/texmf/fonts/type1/arph
+ic/gbsnu/gbsnu51.pfb></usr/share/texmf/fonts/type1/arphic/gbsnu/gbsnu52.pfb></u
+sr/share/texmf/fonts/type1/arphic/gbsnu/gbsnu53.pfb></usr/share/texmf/fonts/typ
+e1/arphic/gbsnu/gbsnu54.pfb></usr/share/texmf/fonts/type1/arphic/gbsnu/gbsnu55.
+pfb></usr/share/texmf/fonts/type1/arphic/gbsnu/gbsnu56.pfb></usr/share/texmf/fo
+nts/type1/arphic/gbsnu/gbsnu57.pfb></usr/share/texmf/fonts/type1/arphic/gbsnu/g
+bsnu58.pfb></usr/share/texmf/fonts/type1/arphic/gbsnu/gbsnu59.pfb></usr/share/t
+exmf/fonts/type1/arphic/gbsnu/gbsnu5b.pfb></usr/share/texmf/fonts/type1/arphic/
+gbsnu/gbsnu5c.pfb></usr/share/texmf/fonts/type1/arphic/gbsnu/gbsnu5d.pfb></usr/
+share/texmf/fonts/type1/arphic/gbsnu/gbsnu5e.pfb></usr/share/texmf/fonts/type1/
+arphic/gbsnu/gbsnu5f.pfb></usr/share/texmf/fonts/type1/arphic/gbsnu/gbsnu60.pfb
+></usr/share/texmf/fonts/type1/arphic/gbsnu/gbsnu61.pfb></usr/share/texmf/fonts
+/type1/arphic/gbsnu/gbsnu62.pfb></usr/share/texmf/fonts/type1/arphic/gbsnu/gbsn
+u63.pfb></usr/share/texmf/fonts/type1/arphic/gbsnu/gbsnu64.pfb></usr/share/texm
+f/fonts/type1/arphic/gbsnu/gbsnu65.pfb></usr/share/texmf/fonts/type1/arphic/gbs
+nu/gbsnu66.pfb></usr/share/texmf/fonts/type1/arphic/gbsnu/gbsnu67.pfb></usr/sha
+re/texmf/fonts/type1/arphic/gbsnu/gbsnu68.pfb></usr/share/texmf/fonts/type1/arp
+hic/gbsnu/gbsnu69.pfb></usr/share/texmf/fonts/type1/arphic/gbsnu/gbsnu6a.pfb></
+usr/share/texmf/fonts/type1/arphic/gbsnu/gbsnu6b.pfb></usr/share/texmf/fonts/ty
+pe1/arphic/gbsnu/gbsnu6c.pfb></usr/share/texmf/fonts/type1/arphic/gbsnu/gbsnu6d
+.pfb></usr/share/texmf/fonts/type1/arphic/gbsnu/gbsnu6e.pfb></usr/share/texmf/f
+onts/type1/arphic/gbsnu/gbsnu6f.pfb></usr/share/texmf/fonts/type1/arphic/gbsnu/
+gbsnu70.pfb></usr/share/texmf/fonts/type1/arphic/gbsnu/gbsnu71.pfb></usr/share/
+texmf/fonts/type1/arphic/gbsnu/gbsnu72.pfb></usr/share/texmf/fonts/type1/arphic
+/gbsnu/gbsnu73.pfb></usr/share/texmf/fonts/type1/arphic/gbsnu/gbsnu74.pfb></usr
+/share/texmf/fonts/type1/arphic/gbsnu/gbsnu75.pfb></usr/share/texmf/fonts/type1
+/arphic/gbsnu/gbsnu76.pfb></usr/share/texmf/fonts/type1/arphic/gbsnu/gbsnu77.pf
+b></usr/share/texmf/fonts/type1/arphic/gbsnu/gbsnu78.pfb></usr/share/texmf/font
+s/type1/arphic/gbsnu/gbsnu79.pfb></usr/share/texmf/fonts/type1/arphic/gbsnu/gbs
+nu7a.pfb></usr/share/texmf/fonts/type1/arphic/gbsnu/gbsnu7b.pfb></usr/share/tex
+mf/fonts/type1/arphic/gbsnu/gbsnu7c.pfb></usr/share/texmf/fonts/type1/arphic/gb
+snu/gbsnu7d.pfb></usr/share/texmf/fonts/type1/arphic/gbsnu/gbsnu7e.pfb></usr/sh
+are/texmf/fonts/type1/arphic/gbsnu/gbsnu7f.pfb></usr/share/texmf/fonts/type1/ar
+phic/gbsnu/gbsnu80.pfb></usr/share/texmf/fonts/type1/arphic/gbsnu/gbsnu81.pfb><
+/usr/share/texmf/fonts/type1/arphic/gbsnu/gbsnu82.pfb></usr/share/texmf/fonts/t
+ype1/arphic/gbsnu/gbsnu83.pfb></usr/share/texmf/fonts/type1/arphic/gbsnu/gbsnu8
+4.pfb></usr/share/texmf/fonts/type1/arphic/gbsnu/gbsnu86.pfb></usr/share/texmf/
+fonts/type1/arphic/gbsnu/gbsnu87.pfb></usr/share/texmf/fonts/type1/arphic/gbsnu
+/gbsnu88.pfb></usr/share/texmf/fonts/type1/arphic/gbsnu/gbsnu89.pfb></usr/share
+/texmf/fonts/type1/arphic/gbsnu/gbsnu8a.pfb></usr/share/texmf/fonts/type1/arphi
+c/gbsnu/gbsnu8b.pfb></usr/share/texmf/fonts/type1/arphic/gbsnu/gbsnu8c.pfb></us
+r/share/texmf/fonts/type1/arphic/gbsnu/gbsnu8d.pfb></usr/share/texmf/fonts/type
+1/arphic/gbsnu/gbsnu8f.pfb></usr/share/texmf/fonts/type1/arphic/gbsnu/gbsnu90.p
+fb></usr/share/texmf/fonts/type1/arphic/gbsnu/gbsnu91.pfb></usr/share/texmf/fon
+ts/type1/arphic/gbsnu/gbsnu92.pfb></usr/share/texmf/fonts/type1/arphic/gbsnu/gb
+snu94.pfb></usr/share/texmf/fonts/type1/arphic/gbsnu/gbsnu95.pfb></usr/share/te
+xmf/fonts/type1/arphic/gbsnu/gbsnu96.pfb></usr/share/texmf/fonts/type1/arphic/g
+bsnu/gbsnu97.pfb></usr/share/texmf/fonts/type1/arphic/gbsnu/gbsnu98.pfb></usr/s
+hare/texmf/fonts/type1/arphic/gbsnu/gbsnu99.pfb></usr/share/texmf/fonts/type1/a
+rphic/gbsnu/gbsnu9a.pfb></usr/share/texmf/fonts/type1/arphic/gbsnu/gbsnu9e.pfb>
+</usr/share/texmf/fonts/type1/arphic/gbsnu/gbsnuff.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/pal
+atino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on main_simple.pdf (27 pages, 6916625 bytes).
 PDF statistics:
- 919 PDF objects out of 1000 (max. 8388607)
- 776 compressed objects within 8 object streams
- 173 named destinations out of 1000 (max. 500000)
- 127 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 755 PDF objects out of 1000 (max. 8388607)
+ 616 compressed objects within 7 object streams
+ 92 named destinations out of 1000 (max. 500000)
+ 143 words of extra memory for PDF output out of 10000 (max. 10000000)
 
