@@ -1,1 +1,2 @@
-pdfunite Tmp/Thesis.pdf main_simple.pdf merged_Thesis.pdf
+#pdfunite Tmp/Thesis.pdf thesis_draft_post_defense_04092020.pdf thesis_draft_post_defense_final.pdf
+pdfunite Tmp/Thesis_sig1.pdf thesis_draft_post_defense_04092020.pdf thesis_draft_post_defense_final.pdf

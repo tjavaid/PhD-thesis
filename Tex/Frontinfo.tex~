@@ -22,7 +22,8 @@
 %-
 %-> 英文封面信息
 %-
-\TITLE{\LaTeX{} Thesis Template\\ of \\ The University of Chinese Academy of Sciences {$~^{\pi}\pi^{\pi}$}}% 论文英文题目
+%\TITLE{\LaTeX{} Thesis Template\\ of \\ The University of Chinese Academy of Sciences {$~^{\pi}\pi^{\pi}$}}% 论文英文题目
+\TITLE{ The measurement of Higgs production cross section in the four-lepton final state at CMS }% 论文英文题目
 %\AUTHOR{Li Binghuan}% 论文作者
 \AUTHOR{Tahir Javaid}% 论文作者
 \ADVISOR{Supervisor: Professor Chen Guoming \\ Associate Supervisor: Professor Chen Mingshui}% 指导教师

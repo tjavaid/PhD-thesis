@@ -134,7 +134,7 @@ headsepline, % Uncomment to get a line under the header
 %\usepackage[width=\textwidth]{caption}
 %\usepackage{subcaption}
 \usepackage{subfigure}
-%\usepackage[toc,page]{appendix}
+\usepackage[toc,page]{appendix}
 \usepackage[figuresright]{rotating}
 \usepackage{hyperref}
 %\usepackage[UTF8]{ctex}
@@ -389,7 +389,7 @@ headsepline, % Uncomment to get a line under the header
 \include{Chapters/Chapter_2}  % initial draft ready 06.03.2020, revised after rep.
 \include{Chapters/Chapter_2_CMS}  % initial draft ready 06.03.2020, revised after rep.
 \include{Chapters/Chapter_3}  % initial draft ready 10.07.2020
-%%
+%%%
 \chapter{Probing four lepton final-state for Higgs Cross section measurement}\label{Chapter4}
 \chaptermark{Fiducial Cross Sections for $pp\rightarrow H \rightarrow  4\ell$}
   \section{Introduction}\label{sec:Introduction}
@@ -426,7 +426,7 @@ headsepline, % Uncomment to get a line under the header
 %%%%
 \section{Systematic Uncertainties}\label{sec:Systematics}\label{sec:Systematics}
 	\input{Chapters/Chapter4/Systematics/Systematics} % added, need to be revised and nos. checked
-%%%%%%%%
+%%%%%%%%%
          \section{Results}\label{sec:Results} %
 %%%%%         \input{Chapters/Chapter4/Results/Intro}  \label{sec:ResultsIntro} % do not include
     \subsection{Measurement of Integrated Fiducial Cross Section}\label{sec:ResultsInclusiveXS}
@@ -440,6 +440,7 @@ headsepline, % Uncomment to get a line under the header
 %%%\include{Chapters/Chapter_5}
 %%%\include{Chapters/Chapter_6}
 %%% conclusion
+%\include{Chapters/Chapter_CSC_upgrades}  % putting in Appendix
 \include{Chapters/Chapter_7} % include as conclusion and outlook 06072020, OK
 \include{publication_list_tahir_javaid_test}
 \include{conferences_tahir_javaid}
@@ -450,19 +451,19 @@ headsepline, % Uncomment to get a line under the header
 %%%----------------------------------------------------------------------------------------
 %%%\part*{Appendix}
 %%\appendix % Cue to tell LaTeX that the following "chapters" are Appendices
-%%
-%%% Include the appendices of the thesis as separate files from the Appendices folder
-%%% Uncomment the lines as you write the Appendices
-%%% \input{Appendix/Samples} \label{app:samples}
-%%% \clearpage
-%%% \input{Appendix/Backgrounds}  \label{app:bkginputs}
-%%% \include{}
-%%% \include{Appendix/Samples} \label{app:samples}
-%%%\include{Appendices/AppendixC}
-%%
-%%% start
-\begin{appendices}
-\chapter{Appendix}
+%%%
+%%%% Include the appendices of the thesis as separate files from the Appendices folder
+%%%% Uncomment the lines as you write the Appendices
+%%%% \input{Appendix/Samples} \label{app:samples}
+%%%% \clearpage
+%%%% \input{Appendix/Backgrounds}  \label{app:bkginputs}
+%%%% \include{}
+%%%% \include{Appendix/Samples} \label{app:samples}
+%%%%\include{Appendices/AppendixC}
+%%%
+%%%% start
+\begin{appendices} %\label{chap_appendix}
+	\chapter{Signal and background samples, and additional Results on Higgs boson cross section measurement} \label{chap_appendix}
  \input{Appendix/Samples}  \label{app:samples}
 %%\clearpage
 %%\input{Appendix/Backgrounds}  \label{app:bkginputs}
@@ -476,11 +477,13 @@ headsepline, % Uncomment to get a line under the header
 %%\input{Appendix/RestrictiveModelDep} \label{app:restrictive_md}
 %%\clearpage
 \input{Appendix/AlternateAsimov} \label{app:alternateasimov}
+\chapter{The Cathode Strip Chambers Upgrades after Run 2 operations} \label{Chapter_CSC_upgrades}
+\include{Chapters/Chapter_CSC_upgrades}
 %%\clearpage
 %%\input{Appendix/InclusiveZ4lRatio} \label{app:InclusiveZ4lRatio}
 %\clearpage
 \end{appendices}
-% end comm.
+% comm.
 %----------------------------------------------------------------------------------------
 %	BIBLIOGRAPHY
 %----------------------------------------------------------------------------------------

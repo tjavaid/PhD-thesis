@@ -1,14 +1,23 @@
 % Chapter 2
-
 %\chapter{The CMS Detector and Event reconstruction} % Main chapter title
-\chapter{The Cathode Strip Chambers Upgrades after Run 2 operations} % Main chapter title
-
-\label{Chapter_CSC_upgrades} % For referencing the chapter elsewhere, use \ref{Chapter2_CMS} 
+%\chapter{The Cathode Strip Chambers Upgrades after Run 2 operations} % Main chapter title
+%
+%\label{Chapter_CSC_upgrades} % For referencing the chapter elsewhere, use \ref{Chapter2_CMS} 
 %----------------------------------------------------------------------------------------
 %==========================================================================================
 %To extend the sensitivity for new physics searches, a major upgrade of the LHC has been decided and is being prepared, the High Luminosity LHC (HL-LHC). The integrated luminosity will increase tenfold with respect to the original design values, as shown in Table,  which summarizes some key parameters at LHC and HL-LHC for proton-proton running [references].
 %\section{Overview} \label{overview_upgrade}
-Higher luminosity at LHC will increase the sensitivity for the physics analyses particularly for the new physics phenomena. 
+An overview of the CSCs of CMS muon system is described in Section \ref{csc_cms}. CSC system is located in the endcap region of CMS and provides precise measurements of the position of hits along the trajectories of muons in the forward regions. It has successfully delivered during Run 1 and Run 2 operations of LHC helping the physics world to make revolutionary advancements e.g. discovery of Higgs as described in Chapter \ref{thesis_introduction}. 
+Figure \ref{cms_higgs_signature} shows the event display of (probably) Higgs decaying to four muons (red lines) detected in muon system of CMS.
+\begin{figure}
+\begin{center}
+\includegraphics[width=0.8\linewidth]{Figures/cms_higgs_signature.png}
+\caption{Event display for four muons in final state in muon system of CMS. 
+        }
+\label{cms_higgs_signature}
+\end{center}
+\end{figure}
+\par LHC has now aimed to operate at even higher luminosity which will increase the sensitivity for the physics analyses particularly for the new physics phenomena. 
 %The projected evolution of instantaneous and integrated luminosity with time is shown in Fig. 1.3, for the design scheme and also for an ultimate scenario, which can possibly be reached by exploiting all LHC margins. 
 %The center-of-mass energy for proton-proton collisions is expected to be raised from the current 13 up to 14 TeV. 
 By the end of `Phase-1' data taking period, we will get data volume upto 300 ~\ifb, followed by a shutdown for the HL-LHC upgrade ending in 2026. The high luminosity data taking period with the upgraded LHC is called `Phase-2' and is expected to last from 2026 till 2038 and deliver integrated luminosity of of magnitude 3000 ~\ifb in the coming two decades, for both the CMS and ATLAS detectors. Brief description on upgrades has already been given in Section \ref{LHC_upgrade}. \\
@@ -20,8 +29,10 @@ Although CSCs are designed to give satisfactory performance throughout the HL-LH
 %While the CSC modules are expected to provide satisfactory performance throughout the HL-LHC program,
 \section{Electronics upgrades} \label{electronics_upgrade}
 Increased CSC occupancy and as well as larger L1 trigger rates and latency requirements in Phase 2 will cause the pipeline storage of the front-end electronics (CFEBs and ALCTs) in certain rings to fill up. This will cause unacceptable dead time. 
-Additionally, as a result of the higher CMS readout rates, the output bandwidth of the data acquisition boards (ODMBs and DDUs) will have to be expanded. 
-%The increased occupancy in the chambers will necessitate the upgrade of the high voltage system.
+Additionally, as a result of the higher CMS readout rates, the output bandwidth of the data acquisition boards 
+(ODMBs and DDUs \footnote{Detector-Dependent Unit: It collects data, upon arrival of L1A, from all 15 DMBs in a CSC sector, corresponding to 30 or 60 degree $\phi$ slices of each endcap, and
+sends the information through the global DAQ path.} ) will have to be expanded. 
+%The increased occupancy in the chambers will necessitate the upgrade of the high voltage system.  upon arrival of L1A
 Some CSC read-out electronic boards will need to be replaced in order to handle the more stringent trigger requirements. 
 In general, the new boards will cope with higher L1 trigger rates and chamber occupancies by employing high-speed output optical links and faster processors. Details on the upgrades for off-chamber and on-chamber electronics is described in the Ref. \cite{CERN-LHCC-2017-012} and summarized in next sections. The main part of this electronics upgrade is happening during the Long Shutdown 2 (LS2) in 2019-2020. During the next shutdown the upgrade will be finalized by replacing the ODMBs and the FED system.
 
@@ -31,9 +42,9 @@ also for the TMBs and DMBs located (off-chamber) at the periphery of the CMS det
 components such as optical transceivers, regulators, and EPROMs have been tested at several
 irradiation facilities using neutron, proton, and mixed beams. In addition, the fully assembled boards
 undergo irradiation tests to confirm that they can withstand the expected total integrated dose at the
-HL-LHC. Moreover, the susceptibility of the electronics to single-event upsets (SEUs) is studied.
-SEUs are changes of state caused by one single ionizing particle striking a sensitive node in microelectronic device. The rate of these events as well as the resulting deadtime are monitored during the
-irradiation.
+HL-LHC. Moreover, the susceptibility of the electronics to single-event upsets (SEUs) \footnote{SEUs are changes of state caused by one single ionizing particle striking a sensitive node in microelectronic device.} is studied.
+%SEUs are changes of state caused by one single ionizing particle striking a sensitive node in microelectronic device. 
+The rate of these events as well as the resulting deadtime are monitored during the irradiation. 
 %Similarly, the extended trigger latency requirement can be met with deeper (digital) buffers.
 \subsection{Cathode front-end boards}
 Current cathode front-end boards (CFEBs) on all CSC rings except ME1/1 \footnote{The ME1/1 chambers differ from all other chambers in that within a single station the electronics are mounted facing alternately toward and away from the IP. For the chambers centered at $\phi$ = 0, 10, 20 degree etc.; the electronics face towards, away, towards etc. the IP, respectively.} are based on analog technology of custom switched-capacitor array (SCA) chips that sample at 50 ns intervals to store the signal waveforms produced on the cathode strips when muon pass through them. %At the HL-LHC L1 latency of 12.5 ms and
@@ -106,11 +117,16 @@ $104 mm \times 140 mm$ to accommodate the new optical components.
 \end{center}
 \end{figure}
 
-\subsection{TMB Upgrade}
+\subsection{Trigger Mother Board}
+Trigger Mother Board (TMB) builds cathode hit patterns and finds coincidences
+with anode hit patterns to form local charged track primitives (LCTs). It sends up to
+two LCTs to the MPC \footnote{Muon Port Card: It collects LCTs from each of up to nine TMBs in a trigger
+sector, and sends them to the muon track finder system. There is one MPC per
+peripheral crate.} (trigger path) and, upon receiving an L1A, to the DMB.
 %The relocated DCFEBs and the new DCFEBv2s in the ME234/1 rings will transmit trigger primitive data to the peripheral crates via optical fibre links. 
 The currently installed TMBs are designed to work with CFEBs, they have no optical receivers to accommodate the optical data link from the DCFEBv2s because DCFEBs  will transmit trigger primitive data to the peripheral crates via optical fibre links. 
 To cope this situation, 108 OTMBv2 mezzanine boards and
-108 OTMBv2 main boards are being built and installed during LS2 for the ME2/1, ME3/1, and ME4/1 rings. An OTMB mezzanine board produced for the ME1/1 upgrade is shown in the Figure \ref{otmb_upgrade}.
+OTMBv2 main boards are being built and installed during LS2 for the ME2/1, ME3/1, and ME4/1 rings. An OTMB mezzanine board produced for the ME1/1 upgrade is shown in the Figure \ref{otmb_upgrade}.
 
 \begin{figure}
 \begin{center}
@@ -121,7 +137,7 @@ To cope this situation, 108 OTMBv2 mezzanine boards and
 \end{center}
 \end{figure}
 
-The OTMBs were designed and built during LS1 for the ME1/1 upgrade. 
+During LS1,  OTMBs were designed and built for the ME1/1 during upgrade procedure. 
 %The mezzanine
 %boards employ a Reflex photonics Snap12 transceiver featuring 12 optical input receivers as
 %shown in Fig. 4.12. 
@@ -133,17 +149,20 @@ to improve the trigger algorithms in high rate region.
 %type set of 12 receivers. 
 
 %start tomorrow
-\subsection{DMB and ODMB upgrades}
-The 1.6 Gb/s output link in the DMBs and ODMBs will not be able
-to handle the data rates in the inner CSC rings expected under HL-LHC running conditions.
+\subsection{Data mother board}
+The Data mother board (DMB) collects information from anode, 
+cathode, and trigger and sends it to the DDU upon arrival of an L1A. It also controls the CFEBs
+on a chamber.
+Under HL-LHC running conditions, the 1.6 Gb/s output link in the DMBs and ODMBs will not be able
+to handle the data rates in the inner CSC rings expected.
 Two similar boards based on the ODMB design developed for the LS1 upgrade will increase
 the output bandwidth of the affected stations: the 72 ODMBs in ME1/1 will be replaced by
 ODMB7s that will connect to the seven DCFEBv2s in each ME1/1 CSC via the patch panel
-shown in Section \ref{csc_cms} Figure. \ref{Fig:csc_chamber_electronics} (right), and the 108 DMBs in ME234/1 will be replaced by ODMB5s that will
+shown in Section. \ref{csc_cms} Figure. \ref{Fig:csc_chamber_electronics} (right), and the 108 DMBs in ME234/1 will be replaced by ODMB5s that will
 connect directly to the five DCFEB(v2)s in those CSCs as shown in the right of the same Figure. 
 New optical fibers connecting the DCFEB(v2)s in ME234/1 with the corresponding ODMB5s will be laid out.
 
-The main difference between the designs of the ODMB5 and the ODMB7 lies in the front panel.
+The designs of the ODMB5 and the ODMB7 differ in the front panel.
 For the LS1 upgrade of ME1/1, the five CFEBs on each CSC module were replaced by seven
 DCFEBs. Since there was not enough space on the front panel of the ODMB to fit seven HD50
 connectors, a patch panel was used to reroute and fan out the signals coming from two 50-pin
@@ -167,11 +186,11 @@ connections to the five DCFEB(v2)s.
 \end{center}
 \end{figure}
 
-\subsection{FED upgrade}
+\subsection{Front-End Driver}
 Front-End Driver (FED) crate constitutes the interface between the
-front-end electronics and the global CMS data acquisition system
+front-end electronics and the global CMS data acquisition system.
 For Phase 2, the 
-CSC FED system will be upgraded to handle the 900 optical links at speeds up to 6.4 Gb/s (current (O)DMB output links running at 1.6 Gb/s),
+CSC FED system will be upgraded to handle the 900 optical links at speeds up to 6.4 Gb/s replacing the current (O)DMB output links running at 1.6 Gb/s and 
 delivering a total data rate of 598 Gb/s. 
 
 The proposed architecture for the new CSC FED boards will likely be based on the ATCA
@@ -198,9 +217,9 @@ DCFEBs per CSC instead of seven. The Molex connectors will be replaced with
 bolted lugs for greater robustness.
 
 For high voltage set up, the present
-Master boards will be replaced with thirty-eight 9-channel Master boards of the new design.
-Each channel in the upgraded boards will have its own HV power source, capable of outputting
-voltages from 0 to 4000 V, with the maximum current of 2.5 mA (up from the present 1.5 mA). Master and Distribution boards for ME1/1 chambers will be installed
+Master boards will be replaced with thirty-eight Master boards of the new design each having 9 channels.
+In the upgraded boards, each channel will have its own HV power source, capable of producing
+voltages from 0 to 4000 V as output, with the maximum current of 2.5 mA (up from the present 1.5 mA). Master and Distribution boards for ME1/1 chambers will be installed in underground service cavern (USC).
 The 24 output HV cables from Distribution boards will be routed to the rack where the current
 ME1/1 HV system is located. That system will be replaced with a patch panel that mates output cables from Distribution boards with HV cables to ME1/1 chambers.
 The technical scope of
@@ -229,6 +248,7 @@ the HV upgrade is summarized in Table \ref{hv_scope}.
 %these boards, together with the back-end modules that collect the CSC data and send it to the CMS DAQ, will need to be upgraded as well.
 
 % UPGRADES OF CSC
+\section{Activities during Long shutdown 2}
 Figure \ref{Fig:dcfeb} shows a simplified overview of the CSC electronics upgrade. Given that the installation schedule in LS3 is driven by the replacement of various detectors elements in the barrel region, most of the CSC replacements that require chamber access will be performed ahead of that, during LS2.
 All the CFEBs in the radially innermost CSCs will be equipped with slightly modified DCFEBs to cope with the HL-LHC requirements. 
 The DCFEBs use 12-bit 20 MHz flash ADCs and powerful Virtex-6 FPGAs with large internal memory resources. The resulting digital pipeline can hold up to 700 events, which leads to negligible dead time at the HL-LHC.
@@ -244,14 +264,14 @@ transfer, the blue lines represent copper cables..
 \end{center}
 \end{figure}
 
-Additionally, radiation tests of the XCF128X PROMs employed in the current DCFEBs show that
-they may not withstand the radiation doses expected at the HL-LHC. Thus, the new DCFEBs
-are being designed with an option that employs the CERN-designed GBTx ASIC to allow for
-the remote programming of their FPGAs. These new boards will be installed in the ME1/1
-chambers, thus mitigating any risks associated with the longevity of their PROMs, and the
-DCFEBs currently in the ME1/1 ring will be moved to other chambers in the ME2/1, ME3/1,
-and ME4/1 rings subject to much lower levels of radiation.
-
+%Radiation tests of the XCF128X PROMs employed in the current DCFEBs show that
+%they may not withstand the radiation doses expected at the HL-LHC. Thus, the new DCFEBs
+%are being designed with an option that employs the CERN-designed GBTx ASIC to allow for
+%the remote programming of their FPGAs. These new boards will be installed in the ME1/1
+%chambers, thus mitigating any risks associated with the longevity of their PROMs, and the
+%DCFEBs currently in the ME1/1 ring will be moved to other chambers in the ME2/1, ME3/1,
+%and ME4/1 rings subject to much lower levels of radiation.
+%
 %The DCFEBs send the trigger data via 3.2 Gb/s optical links, so the TMBs servicing the inner rings will be upgraded to optical TMBs (OTMBs). The low voltage distribution boards (LVDB) that supply power to the DCFEBs will be upgraded as well.
 %The mezzanine boards for the ALCTs in both the inner and outer CSC rings (396 chambers in total), 
 %not including the already upgraded ME1/1 and ME4/2 rings, will be upgraded with more powerful Spartan-6 FPGAs. 
@@ -263,16 +283,14 @@ and ME4/1 rings subject to much lower levels of radiation.
 %handle the HL-LHC data rates. These boards will have output bandwidths of up to 25.6 Gb/s,
 %achieved with multiple 6.4 Gb/s links. The back-end electronics collecting all the CSC data will
 %be upgraded accordingly.
-Altogether, a total of 1044 on-chamber electronics boards and 302 trigger and DAQ modules
-will be replaced in the CSC system. \\
+%Altogether, a total of 1044 on-chamber electronics boards and 302 trigger and DAQ modules will be replaced in the CSC system. \\
 %Table 1.6 summarizes the main new hardware components needed for this upgrade. \\
-
-\section{Activities during Long shutdown 2}
+%\section{Activities during Long shutdown 2}
 
 During ongoing long shutdown 2 (LS2), many of the above listed upgrades are in process for upcoming physics programs under high luminosity LHC.
 CSC will undergo upgrade of readout system of ME1/1, ME2/1, ME3/1, and ME4/1. Total 180 chambers will be will be extracted from the CMS cavern and brought to the surface for their refurbishment with
 upgraded DCFEBs and ALCT mezzanine boards, as well as LVDB5s in the case of ME234/1
-chambers. Also for ME2/1, ME3/1 and ME4/1, LVDBs will also be upgraded.\\
+chambers. Also for ME2/1, ME3/1 and ME4/1, LVDBs will be upgraded.\\
 The DCFEB upgrade requires specific back-end electronics to be upgraded as well. The 36
 crates located on the periphery of the YE2 and YE3 disks, servicing the 108 ME2/1, ME3/1 and
 ME4/1 chambers will be equipped with the optical version of the TMBs (OTMB), as already
@@ -298,16 +316,17 @@ The detailed description of the upgrade plan of the involved electronics is give
     \end{tabular}
     \caption{ Summary of the CSC electronics boards that will be upgraded during LS2 and LS3.
 Boards above the horizontal line are placed on-chamber, while those below the line occur in
-off-chamber crates. Of the 540 new DCFEBv2s, 504 will be installed in the ME1/1 chambers,
-while the rest plus the DCFEBs currently in ME1/1 will be installed in ME2/1. The ALCTs
-in stations 2, 3, and 4 will be upgraded during LS2 while those in station 1 will be upgraded
-in LS3. The ALCTs in ME1/3 do not need upgrading because they will be replaced with the
-ALCT-S6 currently installed in ME1/1. }
+off-chamber crates. %Of the 540 new DCFEBv2s, 504 will be installed in the ME1/1 chambers,
+%while the rest plus the DCFEBs currently in ME1/1 will be installed in ME2/1. 
+The ALCTs in stations 2, 3, and 4 will be upgraded during LS2 while those in station 1 will be upgraded
+in LS3. 
+%The ALCTs in ME1/3 do not need upgrading because they will be replaced with the
+%ALCT-S6 currently installed in ME1/1. 
+	}
     \label{electronics_upgrades}
 \end{center}
 \end{table}
-
-There is a surface facility in SX5 of CMS detector site which contains storage cradles and movable tables which
+\par There is a surface facility in SX5 of CMS detector site which contains storage cradles and movable tables which
 allow for in situ refurbishment. The facility is already equipped with test stands
 which allows for board connectivity and functionality testing, as well as for long-term testing for early detection of potential electronics failure in the already refurbished chambers before reinstallation and final commissioning in CMS.
 

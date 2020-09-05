@@ -1,4 +1,4 @@
-\chapter{Introduction}
+\chapter{Introduction} \label{thesis_introduction}
 %The Standard Model (SM) of the particle physics describes the nature of the constituents of the matter and the fundamental forces 
 After a quest, ordinary matter and underlying forces or interactions (electromagnetic, weak and strong interactions and not the gravity) which bind it in a structure are successfully explained by the Standard Model (SM) of the particle physics. %The Standard Model (SM) of the particle physics gives successful explanation about the constituents of the physical matter and the fundamental forces through which they interact with each other and with composite particles. 
 %The three fundamental forces (electromagnetic, strong and weak) are described by three dedicated
@@ -64,7 +64,9 @@ from SM predictions which can be a doorway to new physics.
 	\item \textbf{Chapter ~\ref{Chapter2_CMS}: } CMS detector, its sub-detectors and gradual upgrades are described. % in Chapter ~\ref{Chapter3}. 
 	\item \textbf{Chapter ~\ref{Chapter3}: } The calibrations and reconstructions of the  physics objects within the CMS detector are described. % in Chapter ~\ref{Chapter3}. 
         \item \textbf{Chapter ~\ref{Chapter4}: } Presents the procedure of measurements of inclusive and differential fiducial cross sections of H boson production at $\sqrt{s} = 13$~TeV.
-	\item \textbf{Chapter ~\ref{Chapter7}: } Finally, the conclusions and outlook of the dissertation are summarized.
+%	\item \textbf{Chapter ~\ref{Chapter_CSC_upgrades}: } Presents a brief description of major upgrades planned for Cathode Strip Chambers of CMS muon system after Run 2 operations of LHC.
+	\item \textbf{Chapter ~\ref{Chapter7}: } In this Chapter the conclusions and outlook of the dissertation are summarized.
+	\item \textbf{Chapters ~\ref{chap_appendix} and ~\ref{Chapter_CSC_upgrades}: } Finally, Appendix section includes additional relevant information of above chapters and a brief description of major upgrades planned for Cathode Strip Chambers of CMS muon system after Run 2 operations of LHC. 
 \end{itemize}
 		
 		%Chapter \ref{Chapter5} presents the measurements of differential and integrated fiducial cross sections for Z boson production at $\sqrt{s} = 8$~TeV. 

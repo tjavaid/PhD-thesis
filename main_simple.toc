@@ -2,15 +2,128 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {english}{}
 \contentsline {chapter}{Abstract}{vii}{section*.2}
-\contentsline {chapter}{List of Figures}{xi}{chapter*.4}
-\contentsline {chapter}{List of Tables}{xiii}{chapter*.5}
-\contentsline {chapter}{\numberline {1}The Cathode Strip Chambers Upgrades after Run 2 operations}{1}{chapter.6}
-\contentsline {section}{\numberline {1.1}Electronics upgrades}{1}{section.7}
-\contentsline {subsection}{\numberline {1.1.1}Cathode front-end boards}{2}{subsection.8}
-\contentsline {subsection}{\numberline {1.1.2}Anode local charged track boards}{2}{subsection.13}
-\contentsline {subsection}{\numberline {1.1.3}TMB Upgrade}{4}{subsection.15}
-\contentsline {subsection}{\numberline {1.1.4}DMB and ODMB upgrades}{5}{subsection.17}
-\contentsline {subsection}{\numberline {1.1.5}FED upgrade}{6}{subsection.19}
-\contentsline {subsection}{\numberline {1.1.6}Low and high voltage systems}{7}{subsection.20}
-\contentsline {section}{\numberline {1.2}Activities during Long shutdown 2}{9}{section.23}
-\contentsline {subsection}{\numberline {1.2.1}CSC STEP testing}{10}{subsection.25}
+\contentsline {chapter}{Acknowledgements}{ix}{section*.3}
+\contentsline {chapter}{List of Figures}{xv}{chapter*.5}
+\contentsline {chapter}{List of Tables}{xxv}{chapter*.6}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.7}
+\contentsline {chapter}{\numberline {2}Theoretical Background}{3}{chapter.8}
+\contentsline {section}{\numberline {2.1}The Standard Model}{3}{section.9}
+\contentsline {subsection}{\numberline {2.1.1}From the History}{3}{subsection.10}
+\contentsline {section}{\numberline {2.2}Fundamental Particles and underlying Interactions}{4}{section.11}
+\contentsline {subsection}{\numberline {2.2.1}Fundamental Particles}{4}{subsection.12}
+\contentsline {subsection}{\numberline {2.2.2}Fundamental Interactions}{5}{subsection.17}
+\contentsline {subsubsection}{Electroweak unification}{8}{section*.18}
+\contentsline {section}{\numberline {2.3}The Brout-Englert-Higgs Mechanism (BEH)}{9}{section.29}
+\contentsline {section}{\numberline {2.4}Phenomenology of proton-proton collisions at LHC}{12}{section.52}
+\contentsline {section}{\numberline {2.5}Higgs boson Production at LHC}{14}{section.55}
+\contentsline {section}{\numberline {2.6}Higgs Decay}{16}{section.58}
+\contentsline {chapter}{\numberline {3}The Large Hadron Collider (LHC) }{19}{chapter.60}
+\contentsline {section}{\numberline {3.1}LHC beam operations}{19}{section.63}
+\contentsline {subsection}{\numberline {3.1.1}Machine Layout and Performance}{21}{subsection.65}
+\contentsline {subsubsection}{Nominal Luminosity in terms of Beam Parameters}{22}{section*.68}
+\contentsline {section}{\numberline {3.2}Data Taking from 2015 to 2018 (Full Run 2) }{22}{section.73}
+\contentsline {section}{\numberline {3.3}Preparations for High Luminosity LHC - upgradation during Long shutdown 2}{24}{section.79}
+\contentsline {chapter}{\numberline {4}The Compat Muon Solenoid (CMS) detector}{27}{chapter.80}
+\contentsline {section}{\numberline {4.1}The Compact Muon Solenoid (CMS) detector}{27}{section.81}
+\contentsline {subsection}{\numberline {4.1.1}General aspects and the geometry}{27}{subsection.82}
+\contentsline {subsubsection}{The CMS magnet}{28}{section*.84}
+\contentsline {subsection}{\numberline {4.1.2}CMS Coordinate system}{29}{subsection.87}
+\contentsline {subsection}{\numberline {4.1.3}Inner Tracking System (ITS) }{30}{subsection.91}
+\contentsline {subsubsection}{The Pixel Detector}{31}{section*.93}
+\contentsline {subsubsection}{The Silicon Strip}{33}{section*.96}
+\contentsline {subsection}{\numberline {4.1.4}Electromagnetic Calorimeter (ECAL) }{33}{subsection.97}
+\contentsline {subsection}{\numberline {4.1.5}Hadron Calorimeter (HCAL)}{35}{subsection.104}
+\contentsline {subsection}{\numberline {4.1.6}CMS Muon System }{37}{subsection.108}
+\contentsline {subsubsection}{Drift Tubes (DT)}{38}{section*.110}
+\contentsline {subsubsection}{Resistive Plate Chambers (RPC)}{40}{section*.114}
+\contentsline {subsubsection}{Cathode Strip Chambers (CSC)}{40}{section*.116}
+\contentsline {subsubsection}{Improvements in CMS muon system during Run1 - Run2 and during ongoing long shutdowon 2}{41}{section*.120}
+\contentsline {section}{\numberline {4.2}CMS Trigger System }{43}{section.122}
+\contentsline {subsection}{\numberline {4.2.1}The L1 Trigger of CMS}{43}{subsection.123}
+\contentsline {subsubsection}{High-Level Trigger System (HLT)}{44}{section*.125}
+\contentsline {section}{\numberline {4.3}Worldwide LHC Computing Grid}{45}{section.126}
+\contentsline {subsection}{\numberline {4.3.1}3-Tier Architecture}{45}{subsection.128}
+\contentsline {chapter}{\numberline {5}Physics Objects}{47}{chapter.129}
+\contentsline {section}{\numberline {5.1}Reconstruction of Track and Vertex}{47}{section.130}
+\contentsline {subsection}{\numberline {5.1.1}Tag and Probe Analysis}{48}{subsection.135}
+\contentsline {section}{\numberline {5.2}Electrons and Photons}{50}{section.138}
+\contentsline {subsection}{\numberline {5.2.1}Electron and Photon Reconstruction}{50}{subsection.139}
+\contentsline {subsection}{\numberline {5.2.2}Electron Identification and Isolation}{52}{subsection.143}
+\contentsline {subsection}{\numberline {5.2.3}Electron Impact Parameter Selection}{55}{subsection.148}
+\contentsline {subsection}{\numberline {5.2.4}Electron Energy Calibrations}{56}{subsection.149}
+\contentsline {subsection}{\numberline {5.2.5}Electron Efficiency Measurements}{56}{subsection.155}
+\contentsline {section}{\numberline {5.3}Muons}{60}{section.163}
+\contentsline {subsection}{\numberline {5.3.1}Muon Reconstruction and Identification}{60}{subsection.164}
+\contentsline {subsection}{\numberline {5.3.2}Muon Isolation Requirement}{61}{subsection.166}
+\contentsline {subsection}{\numberline {5.3.3}Muon Impact Parameter Selection}{61}{subsection.168}
+\contentsline {subsection}{\numberline {5.3.4}Muon Energy Calibrations}{61}{subsection.169}
+\contentsline {subsection}{\numberline {5.3.5}Efficiency Measurements of muons}{61}{subsection.175}
+\contentsline {section}{\numberline {5.4}Photons for FSR recovery}{66}{section.193}
+\contentsline {section}{\numberline {5.5}Jets}{66}{section.201}
+\contentsline {subsection}{\numberline {5.5.1}Jet Identification}{67}{subsection.203}
+\contentsline {subsection}{\numberline {5.5.2}Jet Energy Corrections}{67}{subsection.205}
+\contentsline {subsection}{\numberline {5.5.3}B-tagging}{68}{subsection.206}
+\contentsline {subsection}{\numberline {5.5.4}Validation on data}{68}{subsection.208}
+\contentsline {section}{\numberline {5.6}Object Summary}{70}{section.210}
+\contentsline {chapter}{\numberline {6}Probing four lepton final-state for Higgs Cross section measurement}{73}{chapter.212}
+\contentsline {section}{\numberline {6.1}Introduction}{73}{section.213}
+\contentsline {section}{\numberline {6.2}Datasets and Triggers}{73}{section.215}
+\contentsline {subsection}{\numberline {6.2.1}Trigger Efficiency}{74}{subsection.216}
+\contentsline {section}{\numberline {6.3}Simulation Samples}{76}{section.218}
+\contentsline {subsubsection}{Signal Samples}{76}{section*.219}
+\contentsline {subsubsection}{Background Samples}{77}{section*.221}
+\contentsline {subsubsection}{Pileup Reweighting}{78}{section*.226}
+\contentsline {section}{\numberline {6.4}Analysis Strategy}{79}{section.228}
+\contentsline {subsection}{\numberline {6.4.1}Event Selection }{79}{subsection.230}
+\contentsline {subsubsection}{Vertex Selection}{80}{section*.231}
+\contentsline {subsubsection}{$\ensuremath {p_T}$ threshold requirements on the Triggers}{80}{section*.232}
+\contentsline {subsubsection}{Lepton Selection}{81}{section*.233}
+\contentsline {subsubsection}{Jet Selection}{81}{section*.234}
+\contentsline {subsection}{\numberline {6.4.2}ZZ Candidate Selection}{81}{subsection.235}
+\contentsline {subsection}{\numberline {6.4.3}Choice of best ZZ Candidate}{82}{subsection.240}
+\contentsline {subsection}{\numberline {6.4.4}Definition of the Fiducial Volume}{82}{subsection.241}
+\contentsline {subsection}{\numberline {6.4.5}Signal Modeling}{84}{subsection.244}
+\contentsline {subsection}{\numberline {6.4.6}Background Modeling}{85}{subsection.249}
+\contentsline {subsubsection}{$\ensuremath {\mathrm {q}}\ensuremath {\mathrm {\overline {q}}}\to \mathrm {Z}\mathrm {Z}$ Modelling}{86}{section*.252}
+\contentsline {subsubsection}{\ensuremath {\mathrm {g}\mathrm {g}\to \mathrm {Z}\mathrm {Z}}~ Modelling}{87}{section*.255}
+\contentsline {subsubsection}{Reducible Background Estimation}{88}{section*.257}
+\contentsline {paragraph}{(1) Opposite Sign (OS) method}{89}{section*.258}
+\contentsline {paragraph}{Fake Rate Application (OS Method)}{90}{section*.262}
+\contentsline {paragraph}{(2) Same Sign (SS) method}{93}{section*.269}
+\contentsline {paragraph}{Fake Rate Determination (SS Method)}{94}{section*.271}
+\contentsline {paragraph}{Fake Rate Application (SS Method)}{96}{section*.277}
+\contentsline {paragraph}{Combination of the Z+X background estimtaions}{96}{section*.284}
+\contentsline {paragraph}{Systematic Uncrertainties on Reducible Background}{97}{section*.286}
+\contentsline {subsection}{\numberline {6.4.7}Statistical Procedure}{100}{subsection.289}
+\contentsline {subsection}{\numberline {6.4.8}Extraction of $\mathrm {H}\to 4\ell $ Fiducial Cross Section}{103}{subsection.291}
+\contentsline {subsubsection}{Inclusive or Integrated Fiducial Cross section}{103}{section*.292}
+\contentsline {subsubsection}{Differential Fiducial Cross section}{103}{section*.297}
+\contentsline {section}{\numberline {6.5}Systematic Uncertainties}{109}{section.321}
+\contentsline {subsection}{\numberline {6.5.1}Experimental uncertainties sources}{109}{subsection.322}
+\contentsline {subsection}{\numberline {6.5.2}Theoretical uncertainties}{109}{subsection.324}
+\contentsline {subsection}{\numberline {6.5.3}Systematic uncertainties treatment when combining yearly measurements on data}{110}{subsection.328}
+\contentsline {section}{\numberline {6.6}Results}{111}{section.329}
+\contentsline {subsection}{\numberline {6.6.1}Measurement of Integrated Fiducial Cross Section}{111}{subsection.330}
+\contentsline {subsection}{\numberline {6.6.2}Measurement of Differential Fiducial Cross Sections}{112}{subsection.341}
+\contentsline {subsection}{\numberline {6.6.3}Comparison With ATLAS Results}{113}{subsection.352}
+\contentsline {chapter}{\numberline {7}Summary and Outlook}{125}{chapter.360}
+\contentsline {section}{\numberline {7.1}Summary of the dissertation}{125}{section.361}
+\contentsline {section}{\numberline {7.2}Outlook}{126}{section.362}
+\contentsline {chapter}{Appendices}{129}{section*.365}
+\contentsline {chapter}{\numberline {A}Signal and background samples, and additional Results on Higgs boson cross section measurement}{131}{Appendix.366}
+\contentsline {section}{\numberline {A.1}Samples of Higgs boson production (2016, 2017, 2018)}{131}{section.367}
+\contentsline {section}{\numberline {A.2}Signal Shapes and Efficiencies}{132}{section.374}
+\contentsline {subsection}{\numberline {A.2.1}Differential bins - Higgs boson transverse momentum}{132}{subsection.375}
+\contentsline {subsection}{\numberline {A.2.2}Differential bins - rapidity of the Higgs boson}{154}{subsection.506}
+\contentsline {subsection}{\numberline {A.2.3}Signal fits in differential bins - number of jets}{157}{subsection.525}
+\contentsline {section}{\numberline {A.3}Results with additional differential observables with full Run 2 asimov datasets}{160}{section.544}
+\contentsline {chapter}{\numberline {B}The Cathode Strip Chambers Upgrades after Run 2 operations}{163}{Appendix.556}
+\contentsline {section}{\numberline {B.1}Electronics upgrades}{165}{section.558}
+\contentsline {subsection}{\numberline {B.1.1}Cathode front-end boards}{165}{subsection.561}
+\contentsline {subsection}{\numberline {B.1.2}Anode local charged track boards}{167}{subsection.566}
+\contentsline {subsection}{\numberline {B.1.3}Trigger Mother Board}{167}{subsection.568}
+\contentsline {subsection}{\numberline {B.1.4}Data mother board}{168}{subsection.571}
+\contentsline {subsection}{\numberline {B.1.5}Front-End Driver}{170}{subsection.573}
+\contentsline {subsection}{\numberline {B.1.6}Low and high voltage systems}{170}{subsection.574}
+\contentsline {section}{\numberline {B.2}Activities during Long shutdown 2}{171}{section.576}
+\contentsline {subsection}{\numberline {B.2.1}CSC STEP testing}{173}{subsection.579}
