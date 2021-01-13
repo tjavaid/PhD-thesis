@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.28)  6 SEP 2020 00:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.28)  6 SEP 2020 12:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3277,12 +3277,6 @@ l.1 \begin{abstract}
 --------------------
  Acknowledgements
 --------------------
-
-Overfull \hbox (5.51178pt too wide) in paragraph at lines 21--22
-[]\T1/ppl/m/n/12 Finally I would like to ex-tend my deep-est grat-i-tude to my 
-\T1/ppl/b/n/12 par-ents, sweet brother
- []
-
 1: section
 [9]
 
@@ -3292,7 +3286,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.47 	T
+l.48 	T
        his dissertation is a reprint of the material as it appears in Physic...
 
 ? 
@@ -8390,7 +8384,7 @@ ive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/t
 imes/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb
 ></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main_simple.pdf (211 pages, 25665654 bytes).
+Output written on main_simple.pdf (211 pages, 25666012 bytes).
 PDF statistics:
  14192 PDF objects out of 15390 (max. 8388607)
  7699 compressed objects within 77 object streams

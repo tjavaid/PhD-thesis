@@ -1,2 +1,3 @@
 #pdfunite Tmp/Thesis.pdf thesis_draft_post_defense_04092020.pdf thesis_draft_post_defense_final.pdf
-pdfunite Tmp/Thesis_sig1.pdf thesis_draft_post_defense_04092020.pdf thesis_draft_post_defense_final.pdf
+#pdfunite Tmp/Thesis_sig1.pdf thesis_draft_post_defense_04092020.pdf thesis_draft_post_defense_final.pdf
+pdfunite Tmp/Thesis_sig1.pdf main_simple.pdf thesis_draft_post_defense_0609_final.pdf
